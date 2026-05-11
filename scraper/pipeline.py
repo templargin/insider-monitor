@@ -246,21 +246,9 @@ def process_bucket(url_date):
     daily_path.write_text(json.dumps(daily, indent=2, default=str))
     _log(f"  wrote {daily_path}")
 
-    # Update each ticker's company JSON (only if not already fresh)
+    # Always refresh company JSON when a ticker survives the screener — guarantees
+    # the company page reflects any new Form 4s referenced from the daily page.
     for s in survivors:
-        ticker_path = COMPANIES_DIR / f"{s['ticker'].upper()}.json"
-        # Refresh if missing or older than 24h
-        if ticker_path.exists():
-            try:
-                existing = json.loads(ticker_path.read_text())
-                last = existing.get("last_updated", "")
-                if last:
-                    last_dt = datetime.fromisoformat(last.replace("Z", "+00:00"))
-                    if (datetime.now(timezone.utc) - last_dt) < timedelta(hours=20):
-                        _log(f"    skip {s['ticker']} company refresh (fresh)")
-                        continue
-            except Exception:
-                pass
         _log(f"    refreshing {s['ticker']} company data...")
         try:
             update_company_data(s["ticker"], s["cik"], s)
