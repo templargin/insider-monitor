@@ -24,8 +24,10 @@ SPACER = ("__spacer__", None)
 
 INCOME_CANONICAL = [
     ("Total Revenue", ["Total Revenue", "Operating Revenue"]),
+    ("Revenue YoY %", "__derived_yoy__:Total Revenue"),
     ("Cost of Revenue", ["Cost Of Revenue", "Reconciled Cost Of Revenue"]),
     ("Gross Profit", ["Gross Profit"]),
+    ("Gross Profit YoY %", "__derived_yoy__:Gross Profit"),
     ("Gross Margin %", "__derived_margin__:Gross Profit:Total Revenue"),
     SPACER,
     ("SG&A", ["Selling General And Administration"]),
@@ -33,6 +35,7 @@ INCOME_CANONICAL = [
     ("Operating Expense", ["Operating Expense"]),
     SPACER,
     ("Operating Income", ["Operating Income", "EBIT"]),
+    ("Operating Income YoY %", "__derived_yoy__:Operating Income"),
     ("Operating Margin %", "__derived_margin__:Operating Income:Total Revenue"),
     ("EBITDA", ["EBITDA", "Normalized EBITDA"]),
     SPACER,
@@ -94,12 +97,14 @@ CASHFLOW_CANONICAL = [
 ]
 
 
-def _canonicalize(stmt_dict, canonical):
+def _canonicalize(stmt_dict, canonical, freq="annual"):
     """Keep only canonical rows, in canonical order, with spacer rows interleaved.
-    Drops everything else (Other Gand A, normalized duplicates, EBIT vs Operating Income, etc.).
+    Drops everything else (duplicates, normalized variants, EBIT vs Operating Income, etc.).
 
-    Supports derived rows of the form "__derived_margin__:<numerator_display>:<denominator_display>",
-    computed AFTER the source rows are resolved.
+    Supports derived rows:
+      - "__derived_margin__:<num>:<den>" — pct of num/den
+      - "__derived_yoy__:<source>"      — pct change vs prior-period column.
+        Skipped when freq != "annual" (4-quarter window can't span a year).
     """
     if not stmt_dict or not stmt_dict.get("labels"):
         return stmt_dict
@@ -109,39 +114,52 @@ def _canonicalize(stmt_dict, canonical):
     label_to_idx = {l: i for i, l in enumerate(labels)}
     nulls = [None] * len(periods)
 
-    new_labels = []
-    new_data = []
-    last_was_spacer = True
+    new_labels, new_data = [], []
+
+    def find_row(name):
+        for i, l in enumerate(new_labels):
+            if l == name:
+                return new_data[i]
+        return None
 
     for display_name, options in canonical:
         if display_name == "__spacer__":
-            if not last_was_spacer and new_labels:
-                new_labels.append("")
-                new_data.append(nulls[:])
-                last_was_spacer = True
+            new_labels.append("")
+            new_data.append(nulls[:])
             continue
-        if isinstance(options, str) and options.startswith("__derived_margin__:"):
-            _, num_name, den_name = options.split(":", 2)
-            # find numerator and denominator in *output* (already-resolved by display_name)
-            num_idx = den_idx = None
-            for i, l in enumerate(new_labels):
-                if l == num_name: num_idx = i
-                if l == den_name: den_idx = i
-            if num_idx is None or den_idx is None:
+        if isinstance(options, str):
+            if options.startswith("__derived_margin__:"):
+                _, num_name, den_name = options.split(":", 2)
+                num_row, den_row = find_row(num_name), find_row(den_name)
+                if num_row is None or den_row is None:
+                    continue
+                row = [
+                    (100.0 * n / d) if (n is not None and d not in (None, 0)) else None
+                    for n, d in zip(num_row, den_row)
+                ]
+                new_labels.append(display_name)
+                new_data.append(row)
                 continue
-            num_row, den_row = new_data[num_idx], new_data[den_idx]
-            row = []
-            for n, d in zip(num_row, den_row):
-                if n is None or d is None or d == 0:
-                    row.append(None)
-                else:
-                    row.append(100.0 * n / d)
-            new_labels.append(display_name)
-            new_data.append(row)
-            last_was_spacer = False
-            continue
-        # Plain source-label lookup. Display name is appended as a fallback so
-        # already-canonicalized data can be re-canonicalized cleanly.
+            if options.startswith("__derived_yoy__:"):
+                if freq != "annual":
+                    continue
+                _, source_name = options.split(":", 1)
+                src_row = find_row(source_name)
+                if src_row is None:
+                    continue
+                # Periods are newest-left, so YoY = (col[j] - col[j+1]) / |col[j+1]|.
+                row = []
+                for j in range(len(src_row)):
+                    cur = src_row[j]
+                    prev = src_row[j + 1] if j + 1 < len(src_row) else None
+                    if cur is None or prev is None or prev == 0:
+                        row.append(None)
+                    else:
+                        row.append(100.0 * (cur - prev) / abs(prev))
+                new_labels.append(display_name)
+                new_data.append(row)
+                continue
+        # Plain source-label lookup; display name is a fallback for re-canonicalization.
         matched_idx = None
         for opt in list(options) + [display_name]:
             if opt in label_to_idx:
@@ -151,13 +169,27 @@ def _canonicalize(stmt_dict, canonical):
             continue
         new_labels.append(display_name)
         new_data.append(data[matched_idx])
-        last_was_spacer = False
 
-    while new_labels and new_labels[-1] == "":
-        new_labels.pop()
-        new_data.pop()
+    # Drop content rows that came back all-None (keep spacers for later collapse).
+    pruned_labels, pruned_data = [], []
+    for l, row in zip(new_labels, new_data):
+        if l != "" and all(v is None for v in row):
+            continue
+        pruned_labels.append(l)
+        pruned_data.append(row)
 
-    return {"labels": new_labels, "periods": periods, "data": new_data}
+    # Collapse consecutive spacers and trim leading/trailing.
+    final_labels, final_data = [], []
+    for l, row in zip(pruned_labels, pruned_data):
+        if l == "" and (not final_labels or final_labels[-1] == ""):
+            continue
+        final_labels.append(l)
+        final_data.append(row)
+    while final_labels and final_labels[-1] == "":
+        final_labels.pop()
+        final_data.pop()
+
+    return {"labels": final_labels, "periods": periods, "data": final_data}
 
 
 # Back-compat shim for callers expecting `_reorder` — now does canonical filtering
@@ -233,24 +265,24 @@ def fetch_financials(ticker):
     out = {}
     try:
         out["income_statement"] = {
-            "quarterly": _reorder(_df_to_dict(getattr(t, "quarterly_income_stmt", None)), INCOME_STMT_ORDER),
-            "annual": _reorder(_df_to_dict(getattr(t, "income_stmt", None)), INCOME_STMT_ORDER),
+            "quarterly": _canonicalize(_df_to_dict(getattr(t, "quarterly_income_stmt", None)), INCOME_STMT_ORDER, "quarterly"),
+            "annual": _canonicalize(_df_to_dict(getattr(t, "income_stmt", None)), INCOME_STMT_ORDER, "annual"),
         }
     except Exception:
         out["income_statement"] = {"quarterly": None, "annual": None}
 
     try:
         out["balance_sheet"] = {
-            "quarterly": _reorder(_df_to_dict(getattr(t, "quarterly_balance_sheet", None)), BALANCE_SHEET_ORDER),
-            "annual": _reorder(_df_to_dict(getattr(t, "balance_sheet", None)), BALANCE_SHEET_ORDER),
+            "quarterly": _canonicalize(_df_to_dict(getattr(t, "quarterly_balance_sheet", None)), BALANCE_SHEET_ORDER, "quarterly"),
+            "annual": _canonicalize(_df_to_dict(getattr(t, "balance_sheet", None)), BALANCE_SHEET_ORDER, "annual"),
         }
     except Exception:
         out["balance_sheet"] = {"quarterly": None, "annual": None}
 
     try:
         out["cash_flow"] = {
-            "quarterly": _reorder(_df_to_dict(getattr(t, "quarterly_cashflow", None)), CASH_FLOW_ORDER),
-            "annual": _reorder(_df_to_dict(getattr(t, "cashflow", None)), CASH_FLOW_ORDER),
+            "quarterly": _canonicalize(_df_to_dict(getattr(t, "quarterly_cashflow", None)), CASH_FLOW_ORDER, "quarterly"),
+            "annual": _canonicalize(_df_to_dict(getattr(t, "cashflow", None)), CASH_FLOW_ORDER, "annual"),
         }
     except Exception:
         out["cash_flow"] = {"quarterly": None, "annual": None}

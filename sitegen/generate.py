@@ -110,8 +110,10 @@ def fin_cell(v, label=""):
     if math.isnan(f):
         return "—"
     label_l = (label or "").lower().strip()
-    # Percentages / margins
+    # Percentages / margins — negative in parens, matching standard convention
     if "%" in label_l or "margin" in label_l:
+        if f < 0:
+            return f"({abs(f):.1f}%)"
         return f"{f:.1f}%"
     # Specific ratios (not substring "ratio" — catches "administRATION")
     if label_l in _RATIO_LABELS:

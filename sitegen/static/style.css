@@ -61,6 +61,15 @@ a:hover { text-decoration-color: var(--fg); }
 }
 .site-header nav a:hover { color: var(--fg); }
 
+.back-link {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--fg-soft);
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.back-link:hover { color: var(--fg); text-decoration: underline; }
+
 .site-footer {
   max-width: 1100px;
   margin: 0 auto;
@@ -251,14 +260,40 @@ thead th {
   letter-spacing: 0;
   color: var(--fg);
 }
-.fin-table tbody tr { height: 36px; }
-.fin-table tbody tr th, .fin-table tbody tr td { padding-top: 0; padding-bottom: 0; }
-/* Spacer rows match data-row height for a uniform grid; just empty + borderless. */
+.fin-table tbody tr th,
+.fin-table tbody tr td {
+  padding: 11px 12px;
+  vertical-align: middle;
+}
+/* Spacer = pure empty breathing room between sections, no line */
 .fin-table tr.spacer th,
 .fin-table tr.spacer td {
   background: var(--bg);
+  border-top: 0;
   border-bottom: 0;
   padding: 0;
+  height: 22px;
+}
+
+/* Subtotal rows (Total Revenue, Gross Profit, Operating Income, etc.) — bold */
+.fin-table tr.subtotal th,
+.fin-table tr.subtotal td {
+  font-weight: 600;
+  color: var(--fg);
+}
+
+/* Sub-rows (YoY %, Margin %, EPS, share counts) — indented italic, lighter */
+.fin-table tr.sub th {
+  padding-left: 32px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  color: var(--fg-soft);
+}
+.fin-table tr.sub td {
+  font-style: italic;
+  font-size: 12px;
+  color: var(--fg-soft);
 }
 
 /* Insider activity */

@@ -580,12 +580,14 @@
       "annual": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "",
           "SG&A",
           "R&D",
           "Operating Expense",
           "",
           "Operating Income",
+          "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
           "",
@@ -610,6 +612,12 @@
             636000.0,
             0.0,
             0.0
+          ],
+          [
+            34.905660377358494,
+            null,
+            null,
+            null
           ],
           [
             null,
@@ -646,6 +654,12 @@
             -60496000.0,
             -78932000.0,
             -67884000.0
+          ],
+          [
+            45.3451467865644,
+            23.35681345968682,
+            -16.27482175475812,
+            null
           ],
           [
             -3853.6130536130536,

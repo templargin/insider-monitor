@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 {% block title %}{{ data.ticker }} · {{ data.name }}{% endblock %}
 {% block content %}
+<p><a class="back-link" href="#" onclick="if(document.referrer&&document.referrer.includes(location.host)){history.back();return false}else{location.href='{{ root }}insiders/';return false}">← Back to daily list</a></p>
 <h1>{{ data.ticker }} <span class="subtle">· {{ data.name }}</span></h1>
 
 {% if data.description %}
@@ -62,13 +63,21 @@
             </tr>
           </thead>
           <tbody>
+            {% set subtotals = ("Total Revenue", "Gross Profit", "Operating Income", "EBITDA", "Net Income", "Pretax Income", "Operating Cash Flow", "Free Cash Flow", "Investing Cash Flow", "Financing Cash Flow", "End Cash Position", "Total Assets", "Total Current Assets", "Total Liabilities", "Total Current Liabilities", "Stockholders' Equity") %}
             {% for i in range(t.labels|length) %}
-              {% if t.labels[i] == "" %}
+              {% set label = t.labels[i] %}
+              {% if label == "" %}
               <tr class="spacer"><th></th>{% for v in t.data[i] %}<td></td>{% endfor %}</tr>
               {% else %}
-              <tr>
-                <th>{{ t.labels[i] }}</th>
-                {% for v in t.data[i] %}<td class="num">{{ v|fin_cell(t.labels[i]) }}</td>{% endfor %}
+                {% set row_class = "" %}
+                {% if "YoY" in label or "Margin %" in label or "EPS" in label or "Avg Shares" in label %}
+                  {% set row_class = "sub" %}
+                {% elif label in subtotals %}
+                  {% set row_class = "subtotal" %}
+                {% endif %}
+              <tr class="{{ row_class }}">
+                <th>{{ label }}</th>
+                {% for v in t.data[i] %}<td class="num">{{ v|fin_cell(label) }}</td>{% endfor %}
               </tr>
               {% endif %}
             {% endfor %}
