@@ -251,11 +251,9 @@ thead th {
   letter-spacing: 0;
   color: var(--fg);
 }
-.fin-table tbody tr { height: 34px; }
+.fin-table tbody tr { height: 36px; }
 .fin-table tbody tr th, .fin-table tbody tr td { padding-top: 0; padding-bottom: 0; }
-.fin-table tr.spacer {
-  height: 22px;
-}
+/* Spacer rows match data-row height for a uniform grid; just empty + borderless. */
 .fin-table tr.spacer th,
 .fin-table tr.spacer td {
   background: var(--bg);

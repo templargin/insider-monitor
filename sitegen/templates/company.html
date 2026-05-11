@@ -42,8 +42,8 @@
       <button class="tab" data-tab="ratios">Ratios</button>
     </div>
     <div class="tab-controls">
-      <button class="freq active" data-freq="quarterly">Quarterly</button>
-      <button class="freq" data-freq="annual">Annual</button>
+      <button class="freq" data-freq="quarterly">Quarterly</button>
+      <button class="freq active" data-freq="annual">Annual</button>
     </div>
   </div>
 
@@ -52,7 +52,7 @@
     {% set stmt = data.financials[stmt_key] %}
     {% for freq in ["quarterly", "annual"] %}
       {% set t = stmt[freq] %}
-      <div class="freq-panel" data-freq="{{ freq }}"{% if freq != "quarterly" %} hidden{% endif %}>
+      <div class="freq-panel" data-freq="{{ freq }}"{% if freq != "annual" %} hidden{% endif %}>
         {% if t and t.labels %}
         <table class="fin-table">
           <thead>
