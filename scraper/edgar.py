@@ -43,12 +43,13 @@ def daily_index_url(d):
 
 
 def fetch_daily_index_form4s(d):
-    """Return list of Form 4 / 4/A filings for date d. Empty list on 404 (weekend/holiday)."""
+    """Return list of Form 4 / 4/A filings for date d. Empty list on 404/403
+    (weekend, holiday, or future date — SEC returns 403 for non-existent indexes)."""
     url = daily_index_url(d)
     try:
         resp = _get(url)
     except requests.HTTPError as e:
-        if e.response.status_code == 404:
+        if e.response.status_code in (404, 403):
             return []
         raise
 

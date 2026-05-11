@@ -259,10 +259,17 @@ def generate():
         so = v.get("shares_basic") or 0
         opts = v.get("options") or 0
         wrnts = v.get("warrants") or 0
-        fd_so = so + opts + wrnts if so else None
+        sp = v.get("share_price") or 0
+        cash = v.get("cash") or 0
+        debt = v.get("debt") or 0
+        fd_so = (so + opts + wrnts) if so else None
+        fd_mc = (sp * fd_so) if (sp and fd_so) else None
+        fd_ev = (fd_mc + debt - cash) if fd_mc is not None else None
         rendered = env.get_template("company.html").render(
             data=c,
             fd_so=fd_so,
+            fd_mc=fd_mc,
+            fd_ev=fd_ev,
             root=root_path_from(depth),
             generated_at=now,
         )

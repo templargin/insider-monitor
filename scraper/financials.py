@@ -17,6 +17,75 @@ def _safe_yf_ticker(ticker):
         return None
 
 
+# Canonical row-order preferences. Items matched by substring (lowercase) appear in this order.
+# Anything not matched falls to the bottom in original yfinance order.
+INCOME_STMT_ORDER = [
+    "total revenue", "operating revenue", "revenue",
+    "cost of revenue", "cost of goods",
+    "gross profit",
+    "operating expense", "selling general", "research and development", "research development",
+    "operating income",
+    "interest income", "interest expense", "net interest income",
+    "other income", "other non operating",
+    "ebitda", "ebit",
+    "pretax income", "tax provision", "tax rate",
+    "net income common", "net income continuous", "net income discontinuous", "net income",
+    "diluted eps", "basic eps", "diluted average shares", "basic average shares",
+]
+BALANCE_SHEET_ORDER = [
+    "cash and cash equivalents", "cash and short term investments", "cash financial",
+    "accounts receivable", "receivables",
+    "inventory", "current assets", "total current assets",
+    "net ppe", "property plant equipment",
+    "goodwill", "intangible assets",
+    "total non current assets", "total assets",
+    "accounts payable", "current debt", "current liabilities",
+    "long term debt", "total non current liabilities", "total liabilities",
+    "common stock", "retained earnings", "stockholders equity", "total equity",
+    "share issued", "ordinary shares",
+]
+CASH_FLOW_ORDER = [
+    "net income",
+    "depreciation amortization depletion", "depreciation and amortization", "depreciation",
+    "stock based compensation",
+    "change in working capital",
+    "operating cash flow", "cash flow from continuing operating",
+    "capital expenditure",
+    "free cash flow",
+    "investing cash flow", "cash flow from continuing investing",
+    "issuance of debt", "repayment of debt",
+    "issuance of capital stock", "repurchase of capital stock",
+    "common stock dividend",
+    "financing cash flow", "cash flow from continuing financing",
+    "end cash position", "beginning cash position", "changes in cash",
+]
+
+
+def _reorder(stmt_dict, order_keys):
+    """Re-order rows in a {labels, periods, data} dict by canonical preference."""
+    if not stmt_dict or not stmt_dict.get("labels"):
+        return stmt_dict
+    labels = stmt_dict["labels"]
+    data = stmt_dict["data"]
+    used = [False] * len(labels)
+    new_labels, new_data = [], []
+    for hint in order_keys:
+        for i, l in enumerate(labels):
+            if used[i]:
+                continue
+            if hint in l.lower():
+                new_labels.append(l)
+                new_data.append(data[i])
+                used[i] = True
+                break  # only first match per hint
+    # Append leftovers in original order
+    for i, l in enumerate(labels):
+        if not used[i]:
+            new_labels.append(l)
+            new_data.append(data[i])
+    return {"labels": new_labels, "periods": stmt_dict["periods"], "data": new_data}
+
+
 def _df_to_dict(df, max_cols=4):
     """Convert a yfinance DataFrame (rows = line items, cols = period end dates) to
     {labels: [...], periods: [...], data: [[...]]} keeping the most recent max_cols periods.
@@ -80,24 +149,24 @@ def fetch_financials(ticker):
     out = {}
     try:
         out["income_statement"] = {
-            "quarterly": _df_to_dict(getattr(t, "quarterly_income_stmt", None)),
-            "annual": _df_to_dict(getattr(t, "income_stmt", None)),
+            "quarterly": _reorder(_df_to_dict(getattr(t, "quarterly_income_stmt", None)), INCOME_STMT_ORDER),
+            "annual": _reorder(_df_to_dict(getattr(t, "income_stmt", None)), INCOME_STMT_ORDER),
         }
     except Exception:
         out["income_statement"] = {"quarterly": None, "annual": None}
 
     try:
         out["balance_sheet"] = {
-            "quarterly": _df_to_dict(getattr(t, "quarterly_balance_sheet", None)),
-            "annual": _df_to_dict(getattr(t, "balance_sheet", None)),
+            "quarterly": _reorder(_df_to_dict(getattr(t, "quarterly_balance_sheet", None)), BALANCE_SHEET_ORDER),
+            "annual": _reorder(_df_to_dict(getattr(t, "balance_sheet", None)), BALANCE_SHEET_ORDER),
         }
     except Exception:
         out["balance_sheet"] = {"quarterly": None, "annual": None}
 
     try:
         out["cash_flow"] = {
-            "quarterly": _df_to_dict(getattr(t, "quarterly_cashflow", None)),
-            "annual": _df_to_dict(getattr(t, "cashflow", None)),
+            "quarterly": _reorder(_df_to_dict(getattr(t, "quarterly_cashflow", None)), CASH_FLOW_ORDER),
+            "annual": _reorder(_df_to_dict(getattr(t, "cashflow", None)), CASH_FLOW_ORDER),
         }
     except Exception:
         out["cash_flow"] = {"quarterly": None, "annual": None}
