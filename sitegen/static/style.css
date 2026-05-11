@@ -85,6 +85,7 @@ th { font-weight: 600; background: #f1efe9; }
 
 .valuation-table { max-width: 380px; }
 .valuation-table th { width: 120px; background: #f7f5ef; }
+.valuation-table tr.spacer th, .valuation-table tr.spacer td { background: var(--bg); border-bottom: 0; height: 8px; padding: 0; }
 
 .company-desc {
   background: #fff;

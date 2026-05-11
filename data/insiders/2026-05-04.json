@@ -1,0 +1,74 @@
+{
+  "url_date": "2026-05-04",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-05-01",
+    "2026-05-02",
+    "2026-05-03"
+  ],
+  "generated_at": "2026-05-11T15:56:45+00:00",
+  "tickers": [
+    {
+      "ticker": "SUNE",
+      "name": "SUNation Energy, Inc.",
+      "total_value": 2399999.64,
+      "ev_basic": 4895064.617464066,
+      "mc_basic": 5433552.617464066,
+      "insiders": [
+        {
+          "reporter_name": "Maskin Scott",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 1963680.48,
+          "shares": 1109424.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Brennan James Robert",
+          "relationship": "Officer (Chief Financial Officer)",
+          "total_value": 436319.16000000003,
+          "shares": 246508.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "AXR",
+      "name": "AMREP CORP.",
+      "total_value": 666769.5,
+      "ev_basic": 85232073.8391552,
+      "mc_basic": 135209073.8391552,
+      "insiders": [
+        {
+          "reporter_name": "DAHL JAMES H",
+          "relationship": "10% Owner",
+          "total_value": 666769.5,
+          "shares": 24000.0,
+          "txn_count": 6
+        }
+      ]
+    },
+    {
+      "ticker": "AUID",
+      "name": "authID Inc.",
+      "total_value": 374998.9800000001,
+      "ev_basic": 15639597.517449975,
+      "mc_basic": 20002670.517449975,
+      "insiders": [
+        {
+          "reporter_name": "Garchik Stephen Jeffrey",
+          "relationship": "Director, 10% Owner",
+          "total_value": 300000.18000000005,
+          "shares": 240964.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Jisser Ken",
+          "relationship": "Director",
+          "total_value": 74998.8,
+          "shares": 60240.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ]
+}

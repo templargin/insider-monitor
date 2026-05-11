@@ -33,16 +33,17 @@
       <tr><th>Warrants</th><td class="num">—</td></tr>
       <tr><th>FD SO</th><td class="num">22,222,010</td></tr>
       <tr><th>MC</th><td class="num" id="live-mc" data-fdso="22222010">$587.1M</td></tr>
+      <tr class="spacer"><th></th><td></td></tr>
       <tr><th>Cash</th><td class="num">$228.3M</td></tr>
       <tr><th>Total debt</th><td class="num">—</td></tr>
       <tr><th>EV</th><td class="num" id="live-ev" data-cash="228318000" data-debt="None">$358.8M</td></tr>
     </tbody>
   </table>
   <p class="subtle">
-    MC = SP × FD SO (or SO basic if options/warrants missing). EV = MC + Debt − Cash.
-    Snapshot computed at SP=$26.42.
-    Live SP updates client-side via Stooq (delayed quote).
+    MC = SP × FD SO (or SO basic if dilution data missing). EV = MC + Debt − Cash.
+    SP = previous close from yfinance, refreshed by the daily cron.
     Balance-sheet figures as of 2026-05-01.
+    Client-side live-quote update via Stooq is attempted but may be blocked by CORS in some browsers.
   </p>
   
     <p class="warn">⚠ Some dilution data missing (shown as "—"). FD SO falls back to available figures.</p>
@@ -2506,7 +2507,7 @@
 
   </main>
   <footer class="site-footer">
-    Generated 2026-05-11T15:29:22+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-05-11T16:05:16+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>

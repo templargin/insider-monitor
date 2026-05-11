@@ -1,0 +1,74 @@
+{
+  "url_date": "2026-05-11",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-05-08",
+    "2026-05-09",
+    "2026-05-10"
+  ],
+  "generated_at": "2026-05-11T16:04:26+00:00",
+  "tickers": [
+    {
+      "ticker": "NSPR",
+      "name": "InspireMD, Inc.",
+      "total_value": 435742.48,
+      "ev_basic": 51728313.32669115,
+      "mc_basic": 58080313.32669115,
+      "insiders": [
+        {
+          "reporter_name": "ROUBIN GARY S",
+          "relationship": "Director",
+          "total_value": 212400.0,
+          "shares": 180000.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Ward Scott R.",
+          "relationship": "Director",
+          "total_value": 205275.0,
+          "shares": 178500.0,
+          "txn_count": 4
+        },
+        {
+          "reporter_name": "Stuka Paul",
+          "relationship": "Director",
+          "total_value": 18067.48,
+          "shares": 15790.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "OFIX",
+      "name": "Orthofix Medical Inc.",
+      "total_value": 122590.0,
+      "ev_basic": 510278546.46196365,
+      "mc_basic": 473337546.46196365,
+      "insiders": [
+        {
+          "reporter_name": "HENNEMAN JOHN B III",
+          "relationship": "Director",
+          "total_value": 122590.0,
+          "shares": 10000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SMRT",
+      "name": "SmartRent, Inc.",
+      "total_value": 112440.0,
+      "ev_basic": 134236691.99523568,
+      "mc_basic": 231405691.99523568,
+      "insiders": [
+        {
+          "reporter_name": "Martell Frank",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 112440.0,
+          "shares": 100000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ]
+}
