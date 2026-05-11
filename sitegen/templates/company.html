@@ -12,10 +12,10 @@
   <table class="valuation-table" data-ticker="{{ data.ticker }}">
     <tbody>
       <tr><th>SP</th><td class="num" id="live-sp" data-baked="{{ data.valuation.share_price|number_2 }}">${{ data.valuation.share_price|number_2 }}</td></tr>
-      <tr><th>SO</th><td class="num">{{ data.valuation.shares_basic|number_int }}</td></tr>
-      <tr><th>Options</th><td class="num">{{ data.valuation.options|number_int_or_dash }}</td></tr>
-      <tr><th>Warrants</th><td class="num">{{ data.valuation.warrants|number_int_or_dash }}</td></tr>
-      <tr><th>FD SO</th><td class="num">{{ fd_so|number_int_or_dash }}</td></tr>
+      <tr><th>SO</th><td class="num">{{ data.valuation.shares_basic|shares_m }}</td></tr>
+      <tr><th>Options</th><td class="num">{{ data.valuation.options|shares_m }}</td></tr>
+      <tr><th>Warrants</th><td class="num">{{ data.valuation.warrants|shares_m }}</td></tr>
+      <tr><th>FD SO</th><td class="num">{{ fd_so|shares_m }}</td></tr>
       <tr><th>MC</th><td class="num" id="live-mc" data-fdso="{{ fd_so|default(0) }}">{{ fd_mc|money_m }}</td></tr>
       <tr class="spacer"><th></th><td></td></tr>
       <tr><th>Cash</th><td class="num">{{ data.valuation.cash|money_m }}</td></tr>
@@ -24,13 +24,11 @@
     </tbody>
   </table>
   <p class="subtle">
-    MC = SP × FD SO (or SO basic if dilution data missing). EV = MC + Debt − Cash.
-    SP = previous close from yfinance, refreshed by the daily cron.
+    MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of {{ data.valuation.shares_basic_as_of }}.
-    Client-side live-quote update via Stooq is attempted but may be blocked by CORS in some browsers.
   </p>
   {% if data.valuation.options is none or data.valuation.warrants is none %}
-    <p class="warn">⚠ Some dilution data missing (shown as "—"). FD SO falls back to available figures.</p>
+    <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>
   {% endif %}
 </section>
 
@@ -63,10 +61,14 @@
           </thead>
           <tbody>
             {% for i in range(t.labels|length) %}
-            <tr>
-              <th>{{ t.labels[i] }}</th>
-              {% for v in t.data[i] %}<td class="num">{{ v|fin_cell(t.labels[i]) }}</td>{% endfor %}
-            </tr>
+              {% if t.labels[i] == "" %}
+              <tr class="spacer"><th></th>{% for v in t.data[i] %}<td></td>{% endfor %}</tr>
+              {% else %}
+              <tr>
+                <th>{{ t.labels[i] }}</th>
+                {% for v in t.data[i] %}<td class="num">{{ v|fin_cell(t.labels[i]) }}</td>{% endfor %}
+              </tr>
+              {% endif %}
             {% endfor %}
           </tbody>
         </table>

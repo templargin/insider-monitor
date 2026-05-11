@@ -17,73 +17,128 @@ def _safe_yf_ticker(ticker):
         return None
 
 
-# Canonical row-order preferences. Items matched by substring (lowercase) appear in this order.
-# Anything not matched falls to the bottom in original yfinance order.
-INCOME_STMT_ORDER = [
-    "total revenue", "operating revenue", "revenue",
-    "cost of revenue", "cost of goods",
-    "gross profit",
-    "operating expense", "selling general", "research and development", "research development",
-    "operating income",
-    "interest income", "interest expense", "net interest income",
-    "other income", "other non operating",
-    "ebitda", "ebit",
-    "pretax income", "tax provision", "tax rate",
-    "net income common", "net income continuous", "net income discontinuous", "net income",
-    "diluted eps", "basic eps", "diluted average shares", "basic average shares",
+# Canonical line items. Each entry: (display_name, [yfinance_label_candidates_in_priority]).
+# "__spacer__" inserts an empty divider row. Only rows in this list survive — duplicates,
+# normalized variants, and yfinance noise are dropped.
+SPACER = ("__spacer__", None)
+
+INCOME_CANONICAL = [
+    ("Total Revenue", ["Total Revenue", "Operating Revenue"]),
+    SPACER,
+    ("Cost of Revenue", ["Cost Of Revenue", "Reconciled Cost Of Revenue"]),
+    ("Gross Profit", ["Gross Profit"]),
+    SPACER,
+    ("SG&A", ["Selling General And Administration"]),
+    ("R&D", ["Research And Development"]),
+    ("Operating Expense", ["Operating Expense", "Total Operating Income As Reported"]),
+    SPACER,
+    ("Operating Income", ["Operating Income", "EBIT"]),
+    ("EBITDA", ["EBITDA", "Normalized EBITDA"]),
+    SPACER,
+    ("Interest Expense", ["Interest Expense", "Net Interest Income"]),
+    ("Pretax Income", ["Pretax Income"]),
+    ("Tax Provision", ["Tax Provision", "Tax Effect Of Unusual Items"]),
+    ("Net Income", ["Net Income Common Stockholders", "Net Income", "Net Income Continuous Operations"]),
+    SPACER,
+    ("Diluted EPS", ["Diluted EPS"]),
+    ("Basic EPS", ["Basic EPS"]),
+    ("Diluted Avg Shares", ["Diluted Average Shares"]),
 ]
-BALANCE_SHEET_ORDER = [
-    "cash and cash equivalents", "cash and short term investments", "cash financial",
-    "accounts receivable", "receivables",
-    "inventory", "current assets", "total current assets",
-    "net ppe", "property plant equipment",
-    "goodwill", "intangible assets",
-    "total non current assets", "total assets",
-    "accounts payable", "current debt", "current liabilities",
-    "long term debt", "total non current liabilities", "total liabilities",
-    "common stock", "retained earnings", "stockholders equity", "total equity",
-    "share issued", "ordinary shares",
+
+BALANCE_CANONICAL = [
+    ("Cash & Equivalents", ["Cash And Cash Equivalents", "Cash Cash Equivalents And Short Term Investments"]),
+    ("Short-term Investments", ["Other Short Term Investments", "Short Term Investments"]),
+    ("Receivables", ["Accounts Receivable", "Net Receivables", "Receivables"]),
+    ("Inventory", ["Inventory"]),
+    ("Total Current Assets", ["Current Assets"]),
+    SPACER,
+    ("Net PPE", ["Net PPE", "Property Plant And Equipment Net"]),
+    ("Goodwill", ["Goodwill", "Goodwill And Other Intangible Assets"]),
+    ("Total Assets", ["Total Assets"]),
+    SPACER,
+    ("Accounts Payable", ["Payables", "Accounts Payable"]),
+    ("Current Debt", ["Current Debt And Capital Lease Obligation", "Current Debt"]),
+    ("Total Current Liabilities", ["Current Liabilities"]),
+    ("Long-term Debt", ["Long Term Debt And Capital Lease Obligation", "Long Term Debt"]),
+    ("Total Liabilities", ["Total Liabilities Net Minority Interest", "Total Liabilities"]),
+    SPACER,
+    ("Retained Earnings", ["Retained Earnings"]),
+    ("Stockholders' Equity", ["Stockholders Equity", "Common Stock Equity", "Total Equity Gross Minority Interest"]),
 ]
-CASH_FLOW_ORDER = [
-    "net income",
-    "depreciation amortization depletion", "depreciation and amortization", "depreciation",
-    "stock based compensation",
-    "change in working capital",
-    "operating cash flow", "cash flow from continuing operating",
-    "capital expenditure",
-    "free cash flow",
-    "investing cash flow", "cash flow from continuing investing",
-    "issuance of debt", "repayment of debt",
-    "issuance of capital stock", "repurchase of capital stock",
-    "common stock dividend",
-    "financing cash flow", "cash flow from continuing financing",
-    "end cash position", "beginning cash position", "changes in cash",
+
+CASHFLOW_CANONICAL = [
+    ("Net Income", ["Net Income From Continuing Operations", "Net Income"]),
+    ("D&A", ["Depreciation Amortization Depletion", "Depreciation And Amortization", "Reconciled Depreciation"]),
+    ("Stock-Based Comp", ["Stock Based Compensation"]),
+    ("ΔWorking Capital", ["Change In Working Capital"]),
+    ("Operating Cash Flow", ["Operating Cash Flow", "Cash Flow From Continuing Operating Activities"]),
+    SPACER,
+    ("CapEx", ["Capital Expenditure"]),
+    ("Free Cash Flow", ["Free Cash Flow"]),
+    ("Investing Cash Flow", ["Investing Cash Flow", "Cash Flow From Continuing Investing Activities"]),
+    SPACER,
+    ("Debt Issuance", ["Issuance Of Debt"]),
+    ("Debt Repayment", ["Repayment Of Debt"]),
+    ("Stock Issuance", ["Issuance Of Capital Stock"]),
+    ("Stock Buyback", ["Repurchase Of Capital Stock"]),
+    ("Dividends Paid", ["Common Stock Dividend Paid", "Cash Dividends Paid"]),
+    ("Financing Cash Flow", ["Financing Cash Flow", "Cash Flow From Continuing Financing Activities"]),
+    SPACER,
+    ("End Cash Position", ["End Cash Position"]),
 ]
 
 
-def _reorder(stmt_dict, order_keys):
-    """Re-order rows in a {labels, periods, data} dict by canonical preference."""
+def _canonicalize(stmt_dict, canonical):
+    """Keep only canonical rows, in canonical order, with spacer rows interleaved.
+    Drops everything else (Other Gand A, normalized duplicates, EBIT vs Operating Income, etc.).
+    """
     if not stmt_dict or not stmt_dict.get("labels"):
         return stmt_dict
     labels = stmt_dict["labels"]
     data = stmt_dict["data"]
-    used = [False] * len(labels)
-    new_labels, new_data = [], []
-    for hint in order_keys:
-        for i, l in enumerate(labels):
-            if used[i]:
-                continue
-            if hint in l.lower():
-                new_labels.append(l)
-                new_data.append(data[i])
-                used[i] = True
-                break  # only first match per hint
-    # Append leftovers in original order
-    for i, l in enumerate(labels):
-        if not used[i]:
-            new_labels.append(l)
-            new_data.append(data[i])
-    return {"labels": new_labels, "periods": stmt_dict["periods"], "data": new_data}
+    periods = stmt_dict["periods"]
+    label_to_idx = {l: i for i, l in enumerate(labels)}
+    nulls = [None] * len(periods)
+
+    new_labels = []
+    new_data = []
+    last_was_spacer = True  # don't lead with a spacer
+
+    for display_name, options in canonical:
+        if display_name == "__spacer__":
+            if not last_was_spacer and new_labels:
+                new_labels.append("")
+                new_data.append(nulls[:])
+                last_was_spacer = True
+            continue
+        # Pick first available candidate label
+        matched_idx = None
+        for opt in options:
+            if opt in label_to_idx:
+                matched_idx = label_to_idx[opt]
+                break
+        if matched_idx is None:
+            continue
+        new_labels.append(display_name)
+        new_data.append(data[matched_idx])
+        last_was_spacer = False
+
+    # Trim trailing spacer
+    while new_labels and new_labels[-1] == "":
+        new_labels.pop()
+        new_data.pop()
+
+    return {"labels": new_labels, "periods": periods, "data": new_data}
+
+
+# Back-compat shim for callers expecting `_reorder` — now does canonical filtering
+def _reorder(stmt_dict, canonical):
+    return _canonicalize(stmt_dict, canonical)
+
+
+INCOME_STMT_ORDER = INCOME_CANONICAL
+BALANCE_SHEET_ORDER = BALANCE_CANONICAL
+CASH_FLOW_ORDER = CASHFLOW_CANONICAL
 
 
 def _df_to_dict(df, max_cols=4):

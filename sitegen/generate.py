@@ -94,6 +94,12 @@ def price_or_dash(v):
         return "—"
 
 
+_RATIO_LABELS = {"current ratio", "quick ratio", "debt / equity"}
+_SHARE_COUNT_LABELS = {"diluted avg shares", "basic avg shares",
+                       "diluted average shares", "basic average shares"}
+_EPS_LABELS = {"diluted eps", "basic eps"}
+
+
 def fin_cell(v, label=""):
     if v is None:
         return "—"
@@ -103,17 +109,37 @@ def fin_cell(v, label=""):
         return "—"
     if math.isnan(f):
         return "—"
-    # Ratios that look like percentages or multiples
-    label_l = (label or "").lower()
+    label_l = (label or "").lower().strip()
+    # Percentages / margins
     if "%" in label_l or "margin" in label_l:
         return f"{f:.1f}%"
-    if "ratio" in label_l or label_l in ("debt / equity",):
+    # Specific ratios (not substring "ratio" — catches "administRATION")
+    if label_l in _RATIO_LABELS:
         return f"{f:.2f}"
+    # Per-share values shown raw
+    if label_l in _EPS_LABELS:
+        sign = "" if f >= 0 else "-"
+        return f"{sign}${abs(f):.2f}"
+    # Share counts shown in millions, no $
+    if label_l in _SHARE_COUNT_LABELS:
+        m = f / 1_000_000
+        return f"{m:,.1f}"
     # Money in millions
     m = f / 1_000_000
     if f < 0:
         return f"({abs(m):,.2f})"
     return f"{m:,.2f}"
+
+
+def shares_m(v):
+    """Format share count in millions, no $ sign. '—' if None."""
+    if v is None or v == "":
+        return "—"
+    try:
+        f = float(v) / 1_000_000
+        return f"{f:,.1f}M"
+    except (ValueError, TypeError):
+        return "—"
 
 
 _env = None
@@ -135,6 +161,7 @@ def get_env():
         _env.filters["number_2"] = number_2
         _env.filters["price_or_dash"] = price_or_dash
         _env.filters["fin_cell"] = fin_cell
+        _env.filters["shares_m"] = shares_m
     return _env
 
 
