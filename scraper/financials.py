@@ -78,7 +78,6 @@ CASHFLOW_CANONICAL = [
     ("Stock-Based Comp", ["Stock Based Compensation"]),
     ("ΔWorking Capital", ["Change In Working Capital"]),
     ("Operating Cash Flow", ["Operating Cash Flow", "Cash Flow From Continuing Operating Activities"]),
-    ("Free Cash Flow", ["Free Cash Flow"]),
     SPACER,
     # Investing
     ("CapEx", ["Capital Expenditure"]),
@@ -94,6 +93,9 @@ CASHFLOW_CANONICAL = [
     SPACER,
     # Reconciliation
     ("End Cash Position", ["End Cash Position"]),
+    SPACER,
+    # Derived / non-GAAP
+    ("Free Cash Flow", ["Free Cash Flow"]),
 ]
 
 

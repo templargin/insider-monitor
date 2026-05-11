@@ -700,12 +700,13 @@
           "D&A",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "Stock Issuance",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "2/28/26",
@@ -731,12 +732,6 @@
             85716.0,
             -32514.0,
             -287066.0
-          ],
-          [
-            773754.0,
-            769846.0,
-            1557803.0,
-            -3530792.0
           ],
           [
             773754.0,
@@ -773,6 +768,18 @@
             11766.0,
             13691.0,
             95516.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            773754.0,
+            769846.0,
+            1557803.0,
+            -3530792.0
           ]
         ]
       },
@@ -783,14 +790,15 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "Debt Issuance",
           "Stock Issuance",
           "Stock Buyback",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "8/31/25",
@@ -822,12 +830,6 @@
             -660604.0,
             -170727.0,
             -735393.0
-          ],
-          [
-            -2318961.0,
-            162319.0,
-            -553489.0,
-            -1500168.0
           ],
           [
             -2318961.0,
@@ -876,6 +878,18 @@
             64430.0,
             117096.0,
             84223.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2318961.0,
+            162319.0,
+            -553489.0,
+            -1500168.0
           ]
         ]
       }

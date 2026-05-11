@@ -1876,14 +1876,15 @@
           "D&A",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -1909,12 +1910,6 @@
             1754773.0,
             3401457.0,
             -1347977.0
-          ],
-          [
-            -2593148.0,
-            1188663.0,
-            2752110.0,
-            -311613.0
           ],
           [
             -2593148.0,
@@ -1963,6 +1958,18 @@
             5225625.0,
             3820394.0,
             348074.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2593148.0,
+            1188663.0,
+            2752110.0,
+            -311613.0
           ]
         ]
       },
@@ -1972,13 +1979,14 @@
           "D&A",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "3/31/25",
@@ -2004,12 +2012,6 @@
             758422.0,
             604076.0,
             -1890717.0
-          ],
-          [
-            -1048612.0,
-            604076.0,
-            1491943.0,
-            -1860051.0
           ],
           [
             -1048612.0,
@@ -2052,6 +2054,18 @@
             65081.0,
             151502.0,
             438735.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1048612.0,
+            604076.0,
+            1491943.0,
+            -1860051.0
           ]
         ]
       }

@@ -1401,7 +1401,6 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -1409,7 +1408,9 @@
           "Debt Repayment",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "1/31/26",
@@ -1447,12 +1448,6 @@
             -4252000.0,
             9525000.0,
             2969000.0
-          ],
-          [
-            5385000.0,
-            -4312000.0,
-            9505000.0,
-            2532000.0
           ],
           [
             null,
@@ -1501,6 +1496,18 @@
             45111000.0,
             49424000.0,
             39921000.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5385000.0,
+            -4312000.0,
+            9505000.0,
+            2532000.0
           ]
         ]
       },
@@ -1511,7 +1518,6 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -1521,7 +1527,9 @@
           "Stock Buyback",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "4/30/25",
@@ -1559,12 +1567,6 @@
             10714000.0,
             6389000.0,
             15476000.0
-          ],
-          [
-            9659000.0,
-            10257000.0,
-            6258000.0,
-            14189000.0
           ],
           [
             null,
@@ -1625,6 +1627,18 @@
             30241000.0,
             19993000.0,
             15721000.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            9659000.0,
+            10257000.0,
+            6258000.0,
+            14189000.0
           ]
         ]
       }

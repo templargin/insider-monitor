@@ -7281,7 +7281,6 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -7291,7 +7290,9 @@
           "Stock Issuance",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -7329,12 +7330,6 @@
             4210000.0,
             -56328000.0,
             -57187000.0
-          ],
-          [
-            -60247000.0,
-            1410000.0,
-            -59239000.0,
-            -59728000.0
           ],
           [
             null,
@@ -7395,6 +7390,18 @@
             86444000.0,
             97779000.0,
             135762000.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -60247000.0,
+            1410000.0,
+            -59239000.0,
+            -59728000.0
           ]
         ]
       },
@@ -7405,7 +7412,6 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -7416,7 +7422,9 @@
           "Stock Buyback",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -7454,12 +7462,6 @@
             -379971000.0,
             -159720000.0,
             938251000.0
-          ],
-          [
-            -177804000.0,
-            -390053000.0,
-            -169498000.0,
-            902968000.0
           ],
           [
             null,
@@ -7526,6 +7528,18 @@
             235517000.0,
             528066000.0,
             346065000.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -177804000.0,
+            -390053000.0,
+            -169498000.0,
+            902968000.0
           ]
         ]
       }

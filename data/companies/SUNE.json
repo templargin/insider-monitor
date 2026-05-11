@@ -904,7 +904,6 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -913,7 +912,9 @@
           "Stock Issuance",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -950,12 +951,6 @@
             2101316.0,
             2387195.0,
             -130184.0,
-            -3403349.0
-          ],
-          [
-            2070509.0,
-            2378225.0,
-            -139001.0,
             -3403349.0
           ],
           [
@@ -1011,6 +1006,18 @@
             5703539.0,
             3473387.0,
             1740230.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2070509.0,
+            2378225.0,
+            -139001.0,
+            -3403349.0
           ]
         ]
       },
@@ -1021,7 +1028,6 @@
           "Stock-Based Comp",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -1032,7 +1038,9 @@
           "Stock Buyback",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -1070,12 +1078,6 @@
             -6302686.0,
             -667177.0,
             -7577199.0
-          ],
-          [
-            906384.0,
-            -6335471.0,
-            -1322868.0,
-            -7694108.0
           ],
           [
             null,
@@ -1142,6 +1144,18 @@
             1151348.0,
             5396343.0,
             5256478.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            906384.0,
+            -6335471.0,
+            -1322868.0,
+            -7694108.0
           ]
         ]
       }

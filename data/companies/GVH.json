@@ -464,7 +464,6 @@
           "D&A",
           "\u0394Working Capital",
           "Operating Cash Flow",
-          "Free Cash Flow",
           "",
           "CapEx",
           "Investing Cash Flow",
@@ -473,7 +472,9 @@
           "Dividends Paid",
           "Financing Cash Flow",
           "",
-          "End Cash Position"
+          "End Cash Position",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "9/30/25",
@@ -505,12 +506,6 @@
             326089.0,
             2021831.0,
             783045.0
-          ],
-          [
-            232022.0,
-            -266496.0,
-            2014376.0,
-            773798.0
           ],
           [
             null,
@@ -565,6 +560,18 @@
             2296462.0,
             554132.0,
             557735.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            232022.0,
+            -266496.0,
+            2014376.0,
+            773798.0
           ]
         ]
       }
