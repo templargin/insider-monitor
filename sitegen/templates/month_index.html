@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title %}{{ month|capitalize }} {{ year }} · insider-monitor{% endblock %}
+{% block content %}
+<h1>{{ month|capitalize }} {{ year }}</h1>
+<p><a href="../">← {{ year }}</a></p>
+<ul class="big-list">
+  {% for day, has_page, ticker_count in days %}
+  <li>
+    {% if has_page %}<a href="{{ day }}/">{{ month|capitalize }} {{ day }}</a> <span class="subtle">— {{ ticker_count }} issuer(s)</span>
+    {% else %}<span class="subtle">{{ month|capitalize }} {{ day }} — no page</span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

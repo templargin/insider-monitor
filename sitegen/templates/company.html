@@ -1,0 +1,119 @@
+{% extends "layout.html" %}
+{% block title %}{{ data.ticker }} · {{ data.name }}{% endblock %}
+{% block content %}
+<h1>{{ data.ticker }} <span class="subtle">· {{ data.name }}</span></h1>
+
+{% if data.description %}
+<p class="company-desc">{{ data.description }}</p>
+{% endif %}
+
+<section class="valuation">
+  <h2>Valuation</h2>
+  <table class="valuation-table" data-ticker="{{ data.ticker }}">
+    <tbody>
+      <tr><th>SP</th><td class="num" id="live-sp" data-baked="{{ data.valuation.share_price|number_2 }}">${{ data.valuation.share_price|number_2 }}</td></tr>
+      <tr><th>SO</th><td class="num">{{ data.valuation.shares_basic|number_int }}</td></tr>
+      <tr><th>Options</th><td class="num">{{ data.valuation.options|number_int_or_dash }}</td></tr>
+      <tr><th>Warrants</th><td class="num">{{ data.valuation.warrants|number_int_or_dash }}</td></tr>
+      <tr><th>FD SO</th><td class="num">{{ fd_so|number_int_or_dash }}</td></tr>
+      <tr><th>MC</th><td class="num" id="live-mc" data-fdso="{{ fd_so|default(0) }}" data-mcbasic="{{ data.valuation.mc_basic|default(0) }}">${{ data.valuation.mc_basic|money_m }}</td></tr>
+      <tr><th>Cash</th><td class="num">${{ data.valuation.cash|money_m }}</td></tr>
+      <tr><th>Total debt</th><td class="num">${{ data.valuation.debt|money_m }}</td></tr>
+      <tr><th>EV</th><td class="num" id="live-ev" data-cash="{{ data.valuation.cash|default(0) }}" data-debt="{{ data.valuation.debt|default(0) }}">${{ data.valuation.ev_basic|money_m }}</td></tr>
+    </tbody>
+  </table>
+  <p class="subtle">
+    MC = SP × FD SO (or SO basic if options/warrants missing). EV = MC + Debt − Cash.
+    Snapshot computed at SP=${{ data.valuation.share_price|number_2 }}.
+    Live SP updates client-side via Stooq (delayed quote).
+    Balance-sheet figures as of {{ data.valuation.shares_basic_as_of }}.
+  </p>
+  {% if data.valuation.options is none or data.valuation.warrants is none %}
+    <p class="warn">⚠ Some dilution data missing (shown as "—"). FD SO falls back to available figures.</p>
+  {% endif %}
+</section>
+
+<section class="financials">
+  <h2>Financial statements</h2>
+  <div class="tabs">
+    <button class="tab active" data-tab="income_statement">Income Statement</button>
+    <button class="tab" data-tab="balance_sheet">Balance Sheet</button>
+    <button class="tab" data-tab="cash_flow">Cash Flow</button>
+    <button class="tab" data-tab="ratios">Ratios</button>
+  </div>
+  <div class="tab-controls">
+    <button class="freq active" data-freq="quarterly">Quarterly (last 4)</button>
+    <button class="freq" data-freq="annual">Annual (last 4)</button>
+  </div>
+
+  {% for stmt_key in ["income_statement", "balance_sheet", "cash_flow", "ratios"] %}
+  <div class="tab-panel" data-tab="{{ stmt_key }}"{% if stmt_key != "income_statement" %} hidden{% endif %}>
+    {% set stmt = data.financials[stmt_key] %}
+    {% for freq in ["quarterly", "annual"] %}
+      {% set t = stmt[freq] %}
+      <div class="freq-panel" data-freq="{{ freq }}"{% if freq != "quarterly" %} hidden{% endif %}>
+        {% if t and t.labels %}
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              {% for p in t.periods %}<th class="num">{{ p }}</th>{% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for i in range(t.labels|length) %}
+            <tr>
+              <th>{{ t.labels[i] }}</th>
+              {% for v in t.data[i] %}<td class="num">{{ v|fin_cell(t.labels[i]) }}</td>{% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="subtle">No {{ freq }} data available.</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</section>
+
+<section class="insiders">
+  <h2>Insider activity (last 2 years)</h2>
+  {% if data.form4_filings %}
+  <table class="insiders-table">
+    <thead>
+      <tr>
+        <th>Date Filed</th>
+        <th>Reporter</th>
+        <th>Relationship</th>
+        <th>Trans. Date</th>
+        <th>Code</th>
+        <th class="num">Shares</th>
+        <th class="num">Price</th>
+        <th class="num">Total Value</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for f in data.form4_filings %}
+      <tr class="txn-{{ f.code|lower }} table-{{ f.table }}">
+        <td>{{ f.date_filed }}</td>
+        <td>{{ f.reporter_name }}</td>
+        <td>{{ f.relationship }}</td>
+        <td>{{ f.transaction_date }}</td>
+        <td>{{ f.code }}</td>
+        <td class="num">{{ f.shares|number_int_signed }}</td>
+        <td class="num">{{ f.price|price_or_dash }}</td>
+        <td class="num">{{ f.total_value|money_signed }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="subtle">No insider filings in the last 2 years.</p>
+  {% endif %}
+</section>
+
+<script src="{{ root }}static/quote.js"></script>
+<script src="{{ root }}static/tabs.js"></script>
+{% endblock %}

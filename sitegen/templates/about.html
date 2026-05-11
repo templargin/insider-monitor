@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block title %}About · insider-monitor{% endblock %}
+{% block content %}
+<h1>About</h1>
+
+<h2>What this is</h2>
+<p>A static site regenerated every weekday morning at ~7am ET. Pulls insider Form 4 filings
+from SEC EDGAR, filters to small-cap real-business open-market purchases, and presents them
+as a daily list plus a persistent page per ticker.</p>
+
+<h2>Filters</h2>
+<ul>
+  <li><strong>Code P only</strong> — open-market purchases. Grants (A), option exercises (M), sales (S), tax-withholding (F) are excluded from the screener (but shown on company pages).</li>
+  <li><strong>≥ $100k aggregate</strong> per issuer per filing bucket. Multiple insiders or filings count cumulatively.</li>
+  <li><strong>EV &lt; $1B</strong> using basic shares × price + total debt − cash from SEC XBRL.</li>
+  <li><strong>TTM revenue &gt; 0</strong> — drops pre-revenue biotechs, shell companies, SPACs.</li>
+</ul>
+
+<h2>Date semantics</h2>
+<p>URL date = the day you read the page. Content = filings since the previous weekday's read.</p>
+<ul>
+  <li><strong>Tue–Fri pages</strong>: previous calendar day's filings.</li>
+  <li><strong>Monday pages</strong>: Fri + Sat + Sun filings (the weekend rollup).</li>
+  <li>No Sat/Sun URLs exist.</li>
+</ul>
+
+<h2>Valuation table</h2>
+<p>Fully-diluted by intent. FD SO = SO + Options + Warrants (no treasury-stock method).
+MC = SP × FD SO. EV = MC + Debt − Cash. When Options or Warrants are missing from XBRL
+(common for small caps that disclose only in narrative), the row shows "—" and FD SO
+falls back to the available components.</p>
+
+<h2>Data sources</h2>
+<ul>
+  <li>SEC EDGAR daily index + Form 4 XML</li>
+  <li>SEC XBRL companyfacts (`data.sec.gov/api/xbrl/companyfacts/CIK*.json`)</li>
+  <li>yfinance for share price and financial statements (with EDGAR XBRL as backup)</li>
+  <li>Stooq for live-ish share quote on company pages (delayed)</li>
+</ul>
+
+<h2>Caveats</h2>
+<ul>
+  <li>Pages are immutable once generated. Late-arriving Form 4s for prior bucket days will not back-fill onto already-published pages.</li>
+  <li>EV uses <strong>basic</strong> shares for the screener cutoff (more reliable data) — the company page shows fully-diluted EV separately.</li>
+  <li>SEC XBRL tagging is inconsistent for small caps, especially for options and warrants. We flag what we couldn't extract.</li>
+</ul>
+
+<p><a href="https://github.com/templargin/insider-monitor">Source code on GitHub</a>.</p>
+{% endblock %}

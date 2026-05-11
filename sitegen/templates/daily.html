@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}Insider buys · {{ display_date }}{% endblock %}
+{% block content %}
+<h1>Insider purchases for {{ display_date }}</h1>
+<p class="subtle">URL date = read day. Content = filings posted on {{ filing_dates_pretty }}.
+{% if data.tickers %}{{ data.tickers|length }} issuers met the criteria.{% else %}No issuers met the criteria today.{% endif %}</p>
+
+<p><a href="../">← month index</a></p>
+
+{% if data.tickers %}
+<table class="daily-list">
+  <thead>
+    <tr>
+      <th>Ticker</th>
+      <th>Company</th>
+      <th class="num">Total $ bought</th>
+      <th class="num">MC (basic)</th>
+      <th class="num">EV (basic)</th>
+      <th>Insider</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for t in data.tickers %}
+    <tr>
+      <td><a href="{{ root }}companies/{{ t.ticker }}/">{{ t.ticker }}</a></td>
+      <td>{{ t.name }}</td>
+      <td class="num">{{ t.total_value|money }}</td>
+      <td class="num">{{ t.mc_basic|money_m }}</td>
+      <td class="num">{{ t.ev_basic|money_m }}</td>
+      <td>
+        {% for ins in t.insiders %}
+        <div class="insider-row">{{ ins.reporter_name }} <span class="subtle">({{ ins.relationship }})</span> — {{ ins.total_value|money }}{% if ins.txn_count > 1 %} <span class="subtle">in {{ ins.txn_count }} txns</span>{% endif %}</div>
+        {% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}

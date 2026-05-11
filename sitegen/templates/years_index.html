@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %}Daily insider lists · insider-monitor{% endblock %}
+{% block content %}
+<h1>Daily insider lists</h1>
+<p>Pages exist for weekdays. Monday's page covers Friday + Saturday + Sunday filings.</p>
+<ul class="big-list">
+  {% for year in years %}
+  <li><a href="{{ year }}/">{{ year }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

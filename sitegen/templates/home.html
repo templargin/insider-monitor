@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}insider-monitor{% endblock %}
+{% block content %}
+<h1>insider-monitor</h1>
+<p>Daily small-cap insider purchase screener. Form 4 filings filtered to:</p>
+<ul>
+  <li>Transaction code <strong>P</strong> (open-market purchase) only</li>
+  <li>Aggregate <strong>≥ $100k</strong> per issuer per filing bucket</li>
+  <li>Enterprise value <strong>&lt; $1B</strong> (basic shares)</li>
+  <li>TTM revenue <strong>&gt; 0</strong></li>
+</ul>
+
+{% if latest_url %}
+<p><a class="big-link" href="{{ latest_url }}">→ Latest list ({{ latest_label }})</a></p>
+{% endif %}
+
+<p>Browse: <a href="insiders/">all daily pages</a> · <a href="companies/">all companies</a></p>
+
+<p class="subtle">
+  URL date = day you read the page. Tue–Fri pages show the previous weekday's filings.
+  Monday's page covers Fri + Sat + Sun. No Sat/Sun URLs.
+</p>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Companies · insider-monitor{% endblock %}
+{% block content %}
+<h1>Companies</h1>
+<p>{{ tickers|length }} companies tracked. Pages persist across days — each ticker is canonical.</p>
+<table class="daily-list">
+  <thead>
+    <tr><th>Ticker</th><th>Name</th><th class="num">EV (basic)</th><th>Last seen</th></tr>
+  </thead>
+  <tbody>
+  {% for c in tickers %}
+    <tr>
+      <td><a href="{{ c.ticker }}/">{{ c.ticker }}</a></td>
+      <td>{{ c.name }}</td>
+      <td class="num">{{ c.ev_basic|money_m }}</td>
+      <td class="subtle">{{ c.last_updated }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

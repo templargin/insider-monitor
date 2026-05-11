@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title %}{{ year }} · insider-monitor{% endblock %}
+{% block content %}
+<h1>{{ year }}</h1>
+<p><a href="../">← all years</a></p>
+<ul class="big-list">
+  {% for month, has_pages in months %}
+  <li>
+    {% if has_pages %}<a href="{{ month }}/">{{ month|capitalize }}</a>
+    {% else %}<span class="subtle">{{ month|capitalize }}</span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
