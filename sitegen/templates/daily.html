@@ -8,6 +8,7 @@
 <p><a href="../">← month index</a></p>
 
 {% if data.tickers %}
+<div class="table-scroll">
 <table class="daily-list">
   <thead>
     <tr>
@@ -36,5 +37,6 @@
     {% endfor %}
   </tbody>
 </table>
+</div>
 {% endif %}
 {% endblock %}

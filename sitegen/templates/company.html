@@ -69,6 +69,7 @@
       {% set t = stmt[freq] %}
       <div class="freq-panel" data-freq="{{ freq }}"{% if freq != "annual" %} hidden{% endif %}>
         {% if t and t.labels %}
+        <div class="table-scroll">
         <table class="fin-table">
           <thead>
             <tr>
@@ -97,6 +98,7 @@
             {% endfor %}
           </tbody>
         </table>
+        </div>
         {% else %}
         <p class="subtle">No {{ freq }} data available.</p>
         {% endif %}
@@ -109,6 +111,7 @@
 <section class="insiders">
   <h2>Insider activity (last 2 years)</h2>
   {% if data.form4_filings %}
+  <div class="table-scroll">
   <table class="insiders-table">
     <thead>
       <tr>
@@ -137,6 +140,7 @@
     {% endfor %}
     </tbody>
   </table>
+  </div>
   {% else %}
   <p class="subtle">No insider filings in the last 2 years.</p>
   {% endif %}
