@@ -34,15 +34,17 @@
 
 <section class="financials">
   <h2>Financial statements</h2>
-  <div class="tabs">
-    <button class="tab active" data-tab="income_statement">Income Statement</button>
-    <button class="tab" data-tab="balance_sheet">Balance Sheet</button>
-    <button class="tab" data-tab="cash_flow">Cash Flow</button>
-    <button class="tab" data-tab="ratios">Ratios</button>
-  </div>
-  <div class="tab-controls">
-    <button class="freq active" data-freq="quarterly">Quarterly (last 4)</button>
-    <button class="freq" data-freq="annual">Annual (last 4)</button>
+  <div class="tabs-row">
+    <div class="tabs">
+      <button class="tab active" data-tab="income_statement">Income Statement</button>
+      <button class="tab" data-tab="balance_sheet">Balance Sheet</button>
+      <button class="tab" data-tab="cash_flow">Cash Flow</button>
+      <button class="tab" data-tab="ratios">Ratios</button>
+    </div>
+    <div class="tab-controls">
+      <button class="freq active" data-freq="quarterly">Quarterly</button>
+      <button class="freq" data-freq="annual">Annual</button>
+    </div>
   </div>
 
   {% for stmt_key in ["income_statement", "balance_sheet", "cash_flow", "ratios"] %}

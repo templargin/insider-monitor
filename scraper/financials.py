@@ -24,21 +24,23 @@ SPACER = ("__spacer__", None)
 
 INCOME_CANONICAL = [
     ("Total Revenue", ["Total Revenue", "Operating Revenue"]),
-    SPACER,
     ("Cost of Revenue", ["Cost Of Revenue", "Reconciled Cost Of Revenue"]),
     ("Gross Profit", ["Gross Profit"]),
+    ("Gross Margin %", "__derived_margin__:Gross Profit:Total Revenue"),
     SPACER,
     ("SG&A", ["Selling General And Administration"]),
     ("R&D", ["Research And Development"]),
-    ("Operating Expense", ["Operating Expense", "Total Operating Income As Reported"]),
+    ("Operating Expense", ["Operating Expense"]),
     SPACER,
     ("Operating Income", ["Operating Income", "EBIT"]),
+    ("Operating Margin %", "__derived_margin__:Operating Income:Total Revenue"),
     ("EBITDA", ["EBITDA", "Normalized EBITDA"]),
     SPACER,
     ("Interest Expense", ["Interest Expense", "Net Interest Income"]),
     ("Pretax Income", ["Pretax Income"]),
     ("Tax Provision", ["Tax Provision", "Tax Effect Of Unusual Items"]),
     ("Net Income", ["Net Income Common Stockholders", "Net Income", "Net Income Continuous Operations"]),
+    ("Net Margin %", "__derived_margin__:Net Income:Total Revenue"),
     SPACER,
     ("Diluted EPS", ["Diluted EPS"]),
     ("Basic EPS", ["Basic EPS"]),
@@ -67,16 +69,19 @@ BALANCE_CANONICAL = [
 ]
 
 CASHFLOW_CANONICAL = [
+    # Operating
     ("Net Income", ["Net Income From Continuing Operations", "Net Income"]),
     ("D&A", ["Depreciation Amortization Depletion", "Depreciation And Amortization", "Reconciled Depreciation"]),
     ("Stock-Based Comp", ["Stock Based Compensation"]),
     ("ΔWorking Capital", ["Change In Working Capital"]),
     ("Operating Cash Flow", ["Operating Cash Flow", "Cash Flow From Continuing Operating Activities"]),
-    SPACER,
-    ("CapEx", ["Capital Expenditure"]),
     ("Free Cash Flow", ["Free Cash Flow"]),
+    SPACER,
+    # Investing
+    ("CapEx", ["Capital Expenditure"]),
     ("Investing Cash Flow", ["Investing Cash Flow", "Cash Flow From Continuing Investing Activities"]),
     SPACER,
+    # Financing
     ("Debt Issuance", ["Issuance Of Debt"]),
     ("Debt Repayment", ["Repayment Of Debt"]),
     ("Stock Issuance", ["Issuance Of Capital Stock"]),
@@ -84,6 +89,7 @@ CASHFLOW_CANONICAL = [
     ("Dividends Paid", ["Common Stock Dividend Paid", "Cash Dividends Paid"]),
     ("Financing Cash Flow", ["Financing Cash Flow", "Cash Flow From Continuing Financing Activities"]),
     SPACER,
+    # Reconciliation
     ("End Cash Position", ["End Cash Position"]),
 ]
 
@@ -91,6 +97,9 @@ CASHFLOW_CANONICAL = [
 def _canonicalize(stmt_dict, canonical):
     """Keep only canonical rows, in canonical order, with spacer rows interleaved.
     Drops everything else (Other Gand A, normalized duplicates, EBIT vs Operating Income, etc.).
+
+    Supports derived rows of the form "__derived_margin__:<numerator_display>:<denominator_display>",
+    computed AFTER the source rows are resolved.
     """
     if not stmt_dict or not stmt_dict.get("labels"):
         return stmt_dict
@@ -102,7 +111,7 @@ def _canonicalize(stmt_dict, canonical):
 
     new_labels = []
     new_data = []
-    last_was_spacer = True  # don't lead with a spacer
+    last_was_spacer = True
 
     for display_name, options in canonical:
         if display_name == "__spacer__":
@@ -111,9 +120,30 @@ def _canonicalize(stmt_dict, canonical):
                 new_data.append(nulls[:])
                 last_was_spacer = True
             continue
-        # Pick first available candidate label
+        if isinstance(options, str) and options.startswith("__derived_margin__:"):
+            _, num_name, den_name = options.split(":", 2)
+            # find numerator and denominator in *output* (already-resolved by display_name)
+            num_idx = den_idx = None
+            for i, l in enumerate(new_labels):
+                if l == num_name: num_idx = i
+                if l == den_name: den_idx = i
+            if num_idx is None or den_idx is None:
+                continue
+            num_row, den_row = new_data[num_idx], new_data[den_idx]
+            row = []
+            for n, d in zip(num_row, den_row):
+                if n is None or d is None or d == 0:
+                    row.append(None)
+                else:
+                    row.append(100.0 * n / d)
+            new_labels.append(display_name)
+            new_data.append(row)
+            last_was_spacer = False
+            continue
+        # Plain source-label lookup. Display name is appended as a fallback so
+        # already-canonicalized data can be re-canonicalized cleanly.
         matched_idx = None
-        for opt in options:
+        for opt in list(options) + [display_name]:
             if opt in label_to_idx:
                 matched_idx = label_to_idx[opt]
                 break
@@ -123,7 +153,6 @@ def _canonicalize(stmt_dict, canonical):
         new_data.append(data[matched_idx])
         last_was_spacer = False
 
-    # Trim trailing spacer
     while new_labels and new_labels[-1] == "":
         new_labels.pop()
         new_data.pop()
@@ -154,10 +183,10 @@ def _df_to_dict(df, max_cols=4):
     except Exception:
         return None
 
-    # Columns are timestamps; sort descending and limit
+    # Columns are timestamps; keep the most recent N in newest-left order.
     cols = list(df.columns)
     cols_sorted = sorted(cols, reverse=True)[:max_cols]
-    cols_sorted = sorted(cols_sorted)  # display oldest to newest
+    # Already newest → oldest; that's the display order we want.
 
     labels = [str(idx) for idx in df.index]
     periods = []

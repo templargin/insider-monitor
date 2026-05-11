@@ -174,7 +174,7 @@ thead th {
 .valuation-table tr.spacer td {
   background: var(--bg);
   border-bottom: 0;
-  height: 12px;
+  height: 18px;
   padding: 0;
 }
 
@@ -189,17 +189,24 @@ thead th {
 }
 
 /* Tabs */
-.tabs, .tab-controls {
+.tabs-row {
   display: flex;
-  gap: 0;
-  margin: 16px 0 0;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 16px 0 12px;
   flex-wrap: wrap;
+  gap: 12px;
   border-bottom: 1px solid var(--line);
 }
+.tabs {
+  display: flex;
+  gap: 0;
+  flex-wrap: wrap;
+}
 .tab-controls {
-  border-bottom: 0;
-  margin: 4px 0 12px;
+  display: flex;
   gap: 6px;
+  margin-bottom: 6px;
 }
 .tab {
   background: transparent;
@@ -244,19 +251,29 @@ thead th {
   letter-spacing: 0;
   color: var(--fg);
 }
+.fin-table tbody tr { height: 34px; }
+.fin-table tbody tr th, .fin-table tbody tr td { padding-top: 0; padding-bottom: 0; }
+.fin-table tr.spacer {
+  height: 22px;
+}
 .fin-table tr.spacer th,
 .fin-table tr.spacer td {
   background: var(--bg);
   border-bottom: 0;
-  height: 10px;
   padding: 0;
 }
 
 /* Insider activity */
 .insiders-table { font-size: 12px; }
 .insiders-table th:nth-child(n+5) { font-variant-numeric: tabular-nums; }
-.insiders-table .txn-p td { background: rgba(17,122,53,.04); }
-.insiders-table .txn-s td { background: rgba(163,21,21,.03); }
+.insiders-table .txn-p td {
+  background: #d6ecdb;
+  color: #0a4a1f;
+}
+.insiders-table .txn-s td {
+  background: #f5d6d6;
+  color: #6b1414;
+}
 .insiders-table .table-derivative { color: var(--muted); }
 
 @media (max-width: 700px) {

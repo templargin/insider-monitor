@@ -48,15 +48,17 @@
 
 <section class="financials">
   <h2>Financial statements</h2>
-  <div class="tabs">
-    <button class="tab active" data-tab="income_statement">Income Statement</button>
-    <button class="tab" data-tab="balance_sheet">Balance Sheet</button>
-    <button class="tab" data-tab="cash_flow">Cash Flow</button>
-    <button class="tab" data-tab="ratios">Ratios</button>
-  </div>
-  <div class="tab-controls">
-    <button class="freq active" data-freq="quarterly">Quarterly (last 4)</button>
-    <button class="freq" data-freq="annual">Annual (last 4)</button>
+  <div class="tabs-row">
+    <div class="tabs">
+      <button class="tab active" data-tab="income_statement">Income Statement</button>
+      <button class="tab" data-tab="balance_sheet">Balance Sheet</button>
+      <button class="tab" data-tab="cash_flow">Cash Flow</button>
+      <button class="tab" data-tab="ratios">Ratios</button>
+    </div>
+    <div class="tab-controls">
+      <button class="freq active" data-freq="quarterly">Quarterly</button>
+      <button class="freq" data-freq="annual">Annual</button>
+    </div>
   </div>
 
   
@@ -70,7 +72,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">3/31/25</th><th class="num">6/30/25</th><th class="num">9/30/25</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">9/30/25</th><th class="num">6/30/25</th><th class="num">3/31/25</th>
             </tr>
           </thead>
           <tbody>
@@ -78,25 +80,28 @@
               
               <tr>
                 <th>Total Revenue</th>
-                <td class="num">34.79</td><td class="num">51.33</td><td class="num">54.27</td><td class="num">66.50</td>
+                <td class="num">66.50</td><td class="num">54.27</td><td class="num">51.33</td><td class="num">34.79</td>
               </tr>
-              
-            
-              
-              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
               
             
               
               <tr>
                 <th>Cost of Revenue</th>
-                <td class="num">55.67</td><td class="num">47.14</td><td class="num">46.91</td><td class="num">73.56</td>
+                <td class="num">73.56</td><td class="num">46.91</td><td class="num">47.14</td><td class="num">55.67</td>
               </tr>
               
             
               
               <tr>
                 <th>Gross Profit</th>
-                <td class="num">(20.88)</td><td class="num">4.19</td><td class="num">7.36</td><td class="num">(7.06)</td>
+                <td class="num">(7.06)</td><td class="num">7.36</td><td class="num">4.19</td><td class="num">(20.88)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Gross Margin %</th>
+                <td class="num">-10.6%</td><td class="num">13.6%</td><td class="num">8.2%</td><td class="num">-60.0%</td>
               </tr>
               
             
@@ -107,14 +112,14 @@
               
               <tr>
                 <th>SG&amp;A</th>
-                <td class="num">20.32</td><td class="num">22.65</td><td class="num">20.66</td><td class="num">20.06</td>
+                <td class="num">20.06</td><td class="num">20.66</td><td class="num">22.65</td><td class="num">20.32</td>
               </tr>
               
             
               
               <tr>
                 <th>Operating Expense</th>
-                <td class="num">29.35</td><td class="num">36.63</td><td class="num">35.95</td><td class="num">34.87</td>
+                <td class="num">34.87</td><td class="num">35.95</td><td class="num">36.63</td><td class="num">29.35</td>
               </tr>
               
             
@@ -125,14 +130,21 @@
               
               <tr>
                 <th>Operating Income</th>
-                <td class="num">(50.22)</td><td class="num">(32.44)</td><td class="num">(28.59)</td><td class="num">(41.93)</td>
+                <td class="num">(41.93)</td><td class="num">(28.59)</td><td class="num">(32.44)</td><td class="num">(50.22)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Operating Margin %</th>
+                <td class="num">-63.1%</td><td class="num">-52.7%</td><td class="num">-63.2%</td><td class="num">-144.3%</td>
               </tr>
               
             
               
               <tr>
                 <th>EBITDA</th>
-                <td class="num">(46.25)</td><td class="num">(28.28)</td><td class="num">(29.02)</td><td class="num">(35.37)</td>
+                <td class="num">(35.37)</td><td class="num">(29.02)</td><td class="num">(28.28)</td><td class="num">(46.25)</td>
               </tr>
               
             
@@ -143,28 +155,35 @@
               
               <tr>
                 <th>Interest Expense</th>
-                <td class="num">—</td><td class="num">4.36</td><td class="num">6.56</td><td class="num">—</td>
+                <td class="num">—</td><td class="num">6.56</td><td class="num">4.36</td><td class="num">—</td>
               </tr>
               
             
               
               <tr>
                 <th>Pretax Income</th>
-                <td class="num">(50.41)</td><td class="num">(36.18)</td><td class="num">(38.98)</td><td class="num">(40.25)</td>
+                <td class="num">(40.25)</td><td class="num">(38.98)</td><td class="num">(36.18)</td><td class="num">(50.41)</td>
               </tr>
               
             
               
               <tr>
                 <th>Tax Provision</th>
-                <td class="num">0.14</td><td class="num">0.09</td><td class="num">0.14</td><td class="num">(0.33)</td>
+                <td class="num">(0.33)</td><td class="num">0.14</td><td class="num">0.09</td><td class="num">0.14</td>
               </tr>
               
             
               
               <tr>
                 <th>Net Income</th>
-                <td class="num">(50.56)</td><td class="num">(36.27)</td><td class="num">(39.12)</td><td class="num">(39.92)</td>
+                <td class="num">(39.92)</td><td class="num">(39.12)</td><td class="num">(36.27)</td><td class="num">(50.56)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Net Margin %</th>
+                <td class="num">-60.0%</td><td class="num">-72.1%</td><td class="num">-70.7%</td><td class="num">-145.3%</td>
               </tr>
               
             
@@ -175,21 +194,21 @@
               
               <tr>
                 <th>Diluted EPS</th>
-                <td class="num">-$3.33</td><td class="num">-$2.37</td><td class="num">-$2.56</td><td class="num">-$2.50</td>
+                <td class="num">-$2.50</td><td class="num">-$2.56</td><td class="num">-$2.37</td><td class="num">-$3.33</td>
               </tr>
               
             
               
               <tr>
                 <th>Basic EPS</th>
-                <td class="num">-$3.33</td><td class="num">-$2.37</td><td class="num">-$2.56</td><td class="num">-$2.50</td>
+                <td class="num">-$2.50</td><td class="num">-$2.56</td><td class="num">-$2.37</td><td class="num">-$3.33</td>
               </tr>
               
             
               
               <tr>
                 <th>Diluted Avg Shares</th>
-                <td class="num">15.2</td><td class="num">15.3</td><td class="num">15.3</td><td class="num">16.0</td>
+                <td class="num">16.0</td><td class="num">15.3</td><td class="num">15.3</td><td class="num">15.2</td>
               </tr>
               
             
@@ -205,7 +224,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">12/31/22</th><th class="num">12/31/23</th><th class="num">12/31/24</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
             </tr>
           </thead>
           <tbody>
@@ -213,25 +232,28 @@
               
               <tr>
                 <th>Total Revenue</th>
-                <td class="num">395.08</td><td class="num">102.11</td><td class="num">120.05</td><td class="num">206.90</td>
+                <td class="num">206.90</td><td class="num">120.05</td><td class="num">102.11</td><td class="num">395.08</td>
               </tr>
-              
-            
-              
-              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
               
             
               
               <tr>
                 <th>Cost of Revenue</th>
-                <td class="num">693.57</td><td class="num">213.33</td><td class="num">162.58</td><td class="num">217.07</td>
+                <td class="num">217.07</td><td class="num">162.58</td><td class="num">213.33</td><td class="num">693.57</td>
               </tr>
               
             
               
               <tr>
                 <th>Gross Profit</th>
-                <td class="num">(298.49)</td><td class="num">(111.22)</td><td class="num">(42.52)</td><td class="num">(10.18)</td>
+                <td class="num">(10.18)</td><td class="num">(42.52)</td><td class="num">(111.22)</td><td class="num">(298.49)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Gross Margin %</th>
+                <td class="num">-4.9%</td><td class="num">-35.4%</td><td class="num">-108.9%</td><td class="num">-75.6%</td>
               </tr>
               
             
@@ -242,21 +264,21 @@
               
               <tr>
                 <th>SG&amp;A</th>
-                <td class="num">168.57</td><td class="num">79.67</td><td class="num">86.21</td><td class="num">83.68</td>
+                <td class="num">83.68</td><td class="num">86.21</td><td class="num">79.67</td><td class="num">168.57</td>
               </tr>
               
             
               
               <tr>
                 <th>R&amp;D</th>
-                <td class="num">124.31</td><td class="num">83.81</td><td class="num">—</td><td class="num">—</td>
+                <td class="num">—</td><td class="num">—</td><td class="num">83.81</td><td class="num">124.31</td>
               </tr>
               
             
               
               <tr>
                 <th>Operating Expense</th>
-                <td class="num">296.89</td><td class="num">169.65</td><td class="num">145.49</td><td class="num">139.30</td>
+                <td class="num">139.30</td><td class="num">145.49</td><td class="num">169.65</td><td class="num">296.89</td>
               </tr>
               
             
@@ -267,14 +289,21 @@
               
               <tr>
                 <th>Operating Income</th>
-                <td class="num">(595.38)</td><td class="num">(280.87)</td><td class="num">(188.02)</td><td class="num">(149.47)</td>
+                <td class="num">(149.47)</td><td class="num">(188.02)</td><td class="num">(280.87)</td><td class="num">(595.38)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Operating Margin %</th>
+                <td class="num">-72.2%</td><td class="num">-156.6%</td><td class="num">-275.1%</td><td class="num">-150.7%</td>
               </tr>
               
             
               
               <tr>
                 <th>EBITDA</th>
-                <td class="num">(523.38)</td><td class="num">(237.97)</td><td class="num">(154.79)</td><td class="num">(135.41)</td>
+                <td class="num">(135.41)</td><td class="num">(154.79)</td><td class="num">(237.97)</td><td class="num">(523.38)</td>
               </tr>
               
             
@@ -285,28 +314,35 @@
               
               <tr>
                 <th>Interest Expense</th>
-                <td class="num">303.18</td><td class="num">31.60</td><td class="num">—</td><td class="num">—</td>
+                <td class="num">—</td><td class="num">—</td><td class="num">31.60</td><td class="num">303.18</td>
               </tr>
               
             
               
               <tr>
                 <th>Pretax Income</th>
-                <td class="num">(875.98)</td><td class="num">(534.42)</td><td class="num">(205.44)</td><td class="num">(165.82)</td>
+                <td class="num">(165.82)</td><td class="num">(205.44)</td><td class="num">(534.42)</td><td class="num">(875.98)</td>
               </tr>
               
             
               
               <tr>
                 <th>Tax Provision</th>
-                <td class="num">1.10</td><td class="num">2.00</td><td class="num">0.85</td><td class="num">0.05</td>
+                <td class="num">0.05</td><td class="num">0.85</td><td class="num">2.00</td><td class="num">1.10</td>
               </tr>
               
             
               
               <tr>
                 <th>Net Income</th>
-                <td class="num">(877.08)</td><td class="num">(536.42)</td><td class="num">(206.29)</td><td class="num">(165.87)</td>
+                <td class="num">(165.87)</td><td class="num">(206.29)</td><td class="num">(536.42)</td><td class="num">(877.08)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Net Margin %</th>
+                <td class="num">-80.2%</td><td class="num">-171.8%</td><td class="num">-525.3%</td><td class="num">-222.0%</td>
               </tr>
               
             
@@ -317,21 +353,21 @@
               
               <tr>
                 <th>Diluted EPS</th>
-                <td class="num">-$59.46</td><td class="num">-$58.09</td><td class="num">-$13.65</td><td class="num">-$10.80</td>
+                <td class="num">-$10.80</td><td class="num">-$13.65</td><td class="num">-$58.09</td><td class="num">-$59.46</td>
               </tr>
               
             
               
               <tr>
                 <th>Basic EPS</th>
-                <td class="num">-$59.46</td><td class="num">-$58.09</td><td class="num">-$13.65</td><td class="num">-$10.80</td>
+                <td class="num">-$10.80</td><td class="num">-$13.65</td><td class="num">-$58.09</td><td class="num">-$59.46</td>
               </tr>
               
             
               
               <tr>
                 <th>Diluted Avg Shares</th>
-                <td class="num">14.8</td><td class="num">9.2</td><td class="num">15.1</td><td class="num">15.4</td>
+                <td class="num">15.4</td><td class="num">15.1</td><td class="num">9.2</td><td class="num">14.8</td>
               </tr>
               
             
@@ -352,7 +388,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">3/31/25</th><th class="num">6/30/25</th><th class="num">9/30/25</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">9/30/25</th><th class="num">6/30/25</th><th class="num">3/31/25</th>
             </tr>
           </thead>
           <tbody>
@@ -360,28 +396,28 @@
               
               <tr>
                 <th>Cash &amp; Equivalents</th>
-                <td class="num">110.56</td><td class="num">87.13</td><td class="num">73.89</td><td class="num">99.83</td>
+                <td class="num">99.83</td><td class="num">73.89</td><td class="num">87.13</td><td class="num">110.56</td>
               </tr>
               
             
               
               <tr>
                 <th>Short-term Investments</th>
-                <td class="num">117.41</td><td class="num">134.39</td><td class="num">131.90</td><td class="num">103.61</td>
+                <td class="num">103.61</td><td class="num">131.90</td><td class="num">134.39</td><td class="num">117.41</td>
               </tr>
               
             
               
               <tr>
                 <th>Receivables</th>
-                <td class="num">656.82</td><td class="num">903.00</td><td class="num">1,077.59</td><td class="num">1,211.06</td>
+                <td class="num">1,211.06</td><td class="num">1,077.59</td><td class="num">903.00</td><td class="num">656.82</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Current Assets</th>
-                <td class="num">948.66</td><td class="num">1,173.83</td><td class="num">1,326.29</td><td class="num">1,461.62</td>
+                <td class="num">1,461.62</td><td class="num">1,326.29</td><td class="num">1,173.83</td><td class="num">948.66</td>
               </tr>
               
             
@@ -392,21 +428,21 @@
               
               <tr>
                 <th>Net PPE</th>
-                <td class="num">7.89</td><td class="num">6.74</td><td class="num">6.52</td><td class="num">6.62</td>
+                <td class="num">6.62</td><td class="num">6.52</td><td class="num">6.74</td><td class="num">7.89</td>
               </tr>
               
             
               
               <tr>
                 <th>Goodwill</th>
-                <td class="num">23.99</td><td class="num">24.77</td><td class="num">24.51</td><td class="num">10.99</td>
+                <td class="num">10.99</td><td class="num">24.51</td><td class="num">24.77</td><td class="num">23.99</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Assets</th>
-                <td class="num">1,004.99</td><td class="num">1,231.86</td><td class="num">1,384.13</td><td class="num">1,505.43</td>
+                <td class="num">1,505.43</td><td class="num">1,384.13</td><td class="num">1,231.86</td><td class="num">1,004.99</td>
               </tr>
               
             
@@ -417,35 +453,35 @@
               
               <tr>
                 <th>Accounts Payable</th>
-                <td class="num">59.56</td><td class="num">64.16</td><td class="num">74.68</td><td class="num">74.73</td>
+                <td class="num">74.73</td><td class="num">74.68</td><td class="num">64.16</td><td class="num">59.56</td>
               </tr>
               
             
               
               <tr>
                 <th>Current Debt</th>
-                <td class="num">235.96</td><td class="num">371.19</td><td class="num">349.77</td><td class="num">411.86</td>
+                <td class="num">411.86</td><td class="num">349.77</td><td class="num">371.19</td><td class="num">235.96</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Current Liabilities</th>
-                <td class="num">562.42</td><td class="num">924.64</td><td class="num">1,124.43</td><td class="num">1,254.38</td>
+                <td class="num">1,254.38</td><td class="num">1,124.43</td><td class="num">924.64</td><td class="num">562.42</td>
               </tr>
               
             
               
               <tr>
                 <th>Long-term Debt</th>
-                <td class="num">528.92</td><td class="num">206.44</td><td class="num">203.93</td><td class="num">203.43</td>
+                <td class="num">203.43</td><td class="num">203.93</td><td class="num">206.44</td><td class="num">528.92</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Liabilities</th>
-                <td class="num">1,107.14</td><td class="num">1,155.30</td><td class="num">1,342.22</td><td class="num">1,468.25</td>
+                <td class="num">1,468.25</td><td class="num">1,342.22</td><td class="num">1,155.30</td><td class="num">1,107.14</td>
               </tr>
               
             
@@ -456,14 +492,14 @@
               
               <tr>
                 <th>Retained Earnings</th>
-                <td class="num">(1,960.92)</td><td class="num">(1,997.19)</td><td class="num">(2,036.32)</td><td class="num">(2,076.24)</td>
+                <td class="num">(2,076.24)</td><td class="num">(2,036.32)</td><td class="num">(1,997.19)</td><td class="num">(1,960.92)</td>
               </tr>
               
             
               
               <tr>
                 <th>Stockholders&#39; Equity</th>
-                <td class="num">(102.14)</td><td class="num">76.56</td><td class="num">41.91</td><td class="num">37.18</td>
+                <td class="num">37.18</td><td class="num">41.91</td><td class="num">76.56</td><td class="num">(102.14)</td>
               </tr>
               
             
@@ -479,7 +515,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">12/31/22</th><th class="num">12/31/23</th><th class="num">12/31/24</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
             </tr>
           </thead>
           <tbody>
@@ -487,35 +523,35 @@
               
               <tr>
                 <th>Cash &amp; Equivalents</th>
-                <td class="num">317.96</td><td class="num">503.59</td><td class="num">211.10</td><td class="num">99.83</td>
+                <td class="num">99.83</td><td class="num">211.10</td><td class="num">503.59</td><td class="num">317.96</td>
               </tr>
               
             
               
               <tr>
                 <th>Short-term Investments</th>
-                <td class="num">0.00</td><td class="num">25.60</td><td class="num">53.77</td><td class="num">103.61</td>
+                <td class="num">103.61</td><td class="num">53.77</td><td class="num">25.60</td><td class="num">0.00</td>
               </tr>
               
             
               
               <tr>
                 <th>Receivables</th>
-                <td class="num">300.61</td><td class="num">200.18</td><td class="num">533.75</td><td class="num">1,211.06</td>
+                <td class="num">1,211.06</td><td class="num">533.75</td><td class="num">200.18</td><td class="num">300.61</td>
               </tr>
               
             
               
               <tr>
                 <th>Inventory</th>
-                <td class="num">1.14</td><td class="num">0.00</td><td class="num">—</td><td class="num">—</td>
+                <td class="num">—</td><td class="num">—</td><td class="num">0.00</td><td class="num">1.14</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Current Assets</th>
-                <td class="num">694.16</td><td class="num">796.88</td><td class="num">861.86</td><td class="num">1,461.62</td>
+                <td class="num">1,461.62</td><td class="num">861.86</td><td class="num">796.88</td><td class="num">694.16</td>
               </tr>
               
             
@@ -526,21 +562,21 @@
               
               <tr>
                 <th>Net PPE</th>
-                <td class="num">70.15</td><td class="num">36.44</td><td class="num">4.10</td><td class="num">6.62</td>
+                <td class="num">6.62</td><td class="num">4.10</td><td class="num">36.44</td><td class="num">70.15</td>
               </tr>
               
             
               
               <tr>
                 <th>Goodwill</th>
-                <td class="num">17.39</td><td class="num">32.39</td><td class="num">23.61</td><td class="num">10.99</td>
+                <td class="num">10.99</td><td class="num">23.61</td><td class="num">32.39</td><td class="num">17.39</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Assets</th>
-                <td class="num">1,083.35</td><td class="num">905.55</td><td class="num">913.06</td><td class="num">1,505.43</td>
+                <td class="num">1,505.43</td><td class="num">913.06</td><td class="num">905.55</td><td class="num">1,083.35</td>
               </tr>
               
             
@@ -551,35 +587,35 @@
               
               <tr>
                 <th>Accounts Payable</th>
-                <td class="num">90.44</td><td class="num">69.93</td><td class="num">48.21</td><td class="num">74.73</td>
+                <td class="num">74.73</td><td class="num">48.21</td><td class="num">69.93</td><td class="num">90.44</td>
               </tr>
               
             
               
               <tr>
                 <th>Current Debt</th>
-                <td class="num">144.05</td><td class="num">126.22</td><td class="num">244.07</td><td class="num">411.86</td>
+                <td class="num">411.86</td><td class="num">244.07</td><td class="num">126.22</td><td class="num">144.05</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Current Liabilities</th>
-                <td class="num">264.69</td><td class="num">208.26</td><td class="num">435.56</td><td class="num">1,254.38</td>
+                <td class="num">1,254.38</td><td class="num">435.56</td><td class="num">208.26</td><td class="num">264.69</td>
               </tr>
               
             
               
               <tr>
                 <th>Long-term Debt</th>
-                <td class="num">951.91</td><td class="num">545.85</td><td class="num">523.83</td><td class="num">203.43</td>
+                <td class="num">203.43</td><td class="num">523.83</td><td class="num">545.85</td><td class="num">951.91</td>
               </tr>
               
             
               
               <tr>
                 <th>Total Liabilities</th>
-                <td class="num">1,251.26</td><td class="num">782.95</td><td class="num">971.23</td><td class="num">1,468.25</td>
+                <td class="num">1,468.25</td><td class="num">971.23</td><td class="num">782.95</td><td class="num">1,251.26</td>
               </tr>
               
             
@@ -590,14 +626,14 @@
               
               <tr>
                 <th>Retained Earnings</th>
-                <td class="num">(1,167.66)</td><td class="num">(1,704.08)</td><td class="num">(1,910.37)</td><td class="num">(2,076.24)</td>
+                <td class="num">(2,076.24)</td><td class="num">(1,910.37)</td><td class="num">(1,704.08)</td><td class="num">(1,167.66)</td>
               </tr>
               
             
               
               <tr>
                 <th>Stockholders&#39; Equity</th>
-                <td class="num">(167.90)</td><td class="num">122.60</td><td class="num">(58.17)</td><td class="num">37.18</td>
+                <td class="num">37.18</td><td class="num">(58.17)</td><td class="num">122.60</td><td class="num">(167.90)</td>
               </tr>
               
             
@@ -618,7 +654,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">3/31/25</th><th class="num">6/30/25</th><th class="num">9/30/25</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">9/30/25</th><th class="num">6/30/25</th><th class="num">3/31/25</th>
             </tr>
           </thead>
           <tbody>
@@ -626,35 +662,42 @@
               
               <tr>
                 <th>Net Income</th>
-                <td class="num">(50.56)</td><td class="num">(36.27)</td><td class="num">(39.12)</td><td class="num">(39.92)</td>
+                <td class="num">(39.92)</td><td class="num">(39.12)</td><td class="num">(36.27)</td><td class="num">(50.56)</td>
               </tr>
               
             
               
               <tr>
                 <th>D&amp;A</th>
-                <td class="num">3.98</td><td class="num">3.54</td><td class="num">3.40</td><td class="num">3.16</td>
+                <td class="num">3.16</td><td class="num">3.40</td><td class="num">3.54</td><td class="num">3.98</td>
               </tr>
               
             
               
               <tr>
                 <th>Stock-Based Comp</th>
-                <td class="num">4.03</td><td class="num">4.25</td><td class="num">4.27</td><td class="num">7.88</td>
+                <td class="num">7.88</td><td class="num">4.27</td><td class="num">4.25</td><td class="num">4.03</td>
               </tr>
               
             
               
               <tr>
                 <th>ΔWorking Capital</th>
-                <td class="num">4.08</td><td class="num">4.90</td><td class="num">(0.87)</td><td class="num">18.21</td>
+                <td class="num">18.21</td><td class="num">(0.87)</td><td class="num">4.90</td><td class="num">4.08</td>
               </tr>
               
             
               
               <tr>
                 <th>Operating Cash Flow</th>
-                <td class="num">(57.19)</td><td class="num">(56.33)</td><td class="num">4.21</td><td class="num">(57.27)</td>
+                <td class="num">(57.27)</td><td class="num">4.21</td><td class="num">(56.33)</td><td class="num">(57.19)</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Free Cash Flow</th>
+                <td class="num">(60.25)</td><td class="num">1.41</td><td class="num">(59.24)</td><td class="num">(59.73)</td>
               </tr>
               
             
@@ -665,21 +708,14 @@
               
               <tr>
                 <th>CapEx</th>
-                <td class="num">(2.54)</td><td class="num">(2.91)</td><td class="num">(2.80)</td><td class="num">(2.98)</td>
-              </tr>
-              
-            
-              
-              <tr>
-                <th>Free Cash Flow</th>
-                <td class="num">(59.73)</td><td class="num">(59.24)</td><td class="num">1.41</td><td class="num">(60.25)</td>
+                <td class="num">(2.98)</td><td class="num">(2.80)</td><td class="num">(2.91)</td><td class="num">(2.54)</td>
               </tr>
               
             
               
               <tr>
                 <th>Investing Cash Flow</th>
-                <td class="num">(158.84)</td><td class="num">(223.12)</td><td class="num">(207.56)</td><td class="num">(71.98)</td>
+                <td class="num">(71.98)</td><td class="num">(207.56)</td><td class="num">(223.12)</td><td class="num">(158.84)</td>
               </tr>
               
             
@@ -690,28 +726,28 @@
               
               <tr>
                 <th>Debt Issuance</th>
-                <td class="num">—</td><td class="num">—</td><td class="num">(21.42)</td><td class="num">62.09</td>
+                <td class="num">62.09</td><td class="num">(21.42)</td><td class="num">—</td><td class="num">—</td>
               </tr>
               
             
               
               <tr>
                 <th>Debt Repayment</th>
-                <td class="num">(8.11)</td><td class="num">(101.89)</td><td class="num">(1.61)</td><td class="num">0.00</td>
+                <td class="num">0.00</td><td class="num">(1.61)</td><td class="num">(101.89)</td><td class="num">(8.11)</td>
               </tr>
               
             
               
               <tr>
                 <th>Stock Issuance</th>
-                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">28.63</td>
+                <td class="num">28.63</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
               </tr>
               
             
               
               <tr>
                 <th>Financing Cash Flow</th>
-                <td class="num">118.82</td><td class="num">246.53</td><td class="num">190.02</td><td class="num">158.96</td>
+                <td class="num">158.96</td><td class="num">190.02</td><td class="num">246.53</td><td class="num">118.82</td>
               </tr>
               
             
@@ -722,7 +758,7 @@
               
               <tr>
                 <th>End Cash Position</th>
-                <td class="num">135.76</td><td class="num">97.78</td><td class="num">86.44</td><td class="num">116.61</td>
+                <td class="num">116.61</td><td class="num">86.44</td><td class="num">97.78</td><td class="num">135.76</td>
               </tr>
               
             
@@ -738,7 +774,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">12/31/22</th><th class="num">12/31/23</th><th class="num">12/31/24</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
             </tr>
           </thead>
           <tbody>
@@ -746,35 +782,42 @@
               
               <tr>
                 <th>Net Income</th>
-                <td class="num">(877.08)</td><td class="num">(536.42)</td><td class="num">(206.29)</td><td class="num">(165.87)</td>
+                <td class="num">(165.87)</td><td class="num">(206.29)</td><td class="num">(536.42)</td><td class="num">(877.08)</td>
               </tr>
               
             
               
               <tr>
                 <th>D&amp;A</th>
-                <td class="num">49.42</td><td class="num">42.89</td><td class="num">33.23</td><td class="num">14.07</td>
+                <td class="num">14.07</td><td class="num">33.23</td><td class="num">42.89</td><td class="num">49.42</td>
               </tr>
               
             
               
               <tr>
                 <th>Stock-Based Comp</th>
-                <td class="num">30.54</td><td class="num">54.16</td><td class="num">26.75</td><td class="num">20.43</td>
+                <td class="num">20.43</td><td class="num">26.75</td><td class="num">54.16</td><td class="num">30.54</td>
               </tr>
               
             
               
               <tr>
                 <th>ΔWorking Capital</th>
-                <td class="num">(48.53)</td><td class="num">(52.93)</td><td class="num">(10.28)</td><td class="num">26.33</td>
+                <td class="num">26.33</td><td class="num">(10.28)</td><td class="num">(52.93)</td><td class="num">(48.53)</td>
               </tr>
               
             
               
               <tr>
                 <th>Operating Cash Flow</th>
-                <td class="num">938.25</td><td class="num">(159.72)</td><td class="num">(379.97)</td><td class="num">(166.57)</td>
+                <td class="num">(166.57)</td><td class="num">(379.97)</td><td class="num">(159.72)</td><td class="num">938.25</td>
+              </tr>
+              
+            
+              
+              <tr>
+                <th>Free Cash Flow</th>
+                <td class="num">(177.80)</td><td class="num">(390.05)</td><td class="num">(169.50)</td><td class="num">902.97</td>
               </tr>
               
             
@@ -785,21 +828,14 @@
               
               <tr>
                 <th>CapEx</th>
-                <td class="num">(35.28)</td><td class="num">(9.78)</td><td class="num">(10.08)</td><td class="num">(11.23)</td>
-              </tr>
-              
-            
-              
-              <tr>
-                <th>Free Cash Flow</th>
-                <td class="num">902.97</td><td class="num">(169.50)</td><td class="num">(390.05)</td><td class="num">(177.80)</td>
+                <td class="num">(11.23)</td><td class="num">(10.08)</td><td class="num">(9.78)</td><td class="num">(35.28)</td>
               </tr>
               
             
               
               <tr>
                 <th>Investing Cash Flow</th>
-                <td class="num">(34.58)</td><td class="num">(38.59)</td><td class="num">(143.81)</td><td class="num">(661.51)</td>
+                <td class="num">(661.51)</td><td class="num">(143.81)</td><td class="num">(38.59)</td><td class="num">(34.58)</td>
               </tr>
               
             
@@ -810,35 +846,35 @@
               
               <tr>
                 <th>Debt Issuance</th>
-                <td class="num">10,131.56</td><td class="num">528.59</td><td class="num">117.85</td><td class="num">167.79</td>
+                <td class="num">167.79</td><td class="num">117.85</td><td class="num">528.59</td><td class="num">10,131.56</td>
               </tr>
               
             
               
               <tr>
                 <th>Debt Repayment</th>
-                <td class="num">(11,661.55)</td><td class="num">(165.34)</td><td class="num">(1.10)</td><td class="num">(111.61)</td>
+                <td class="num">(111.61)</td><td class="num">(1.10)</td><td class="num">(165.34)</td><td class="num">(11,661.55)</td>
               </tr>
               
             
               
               <tr>
                 <th>Stock Issuance</th>
-                <td class="num">0.00</td><td class="num">16.35</td><td class="num">0.00</td><td class="num">29.22</td>
+                <td class="num">29.22</td><td class="num">0.00</td><td class="num">16.35</td><td class="num">0.00</td>
               </tr>
               
             
               
               <tr>
                 <th>Stock Buyback</th>
-                <td class="num">(7.95)</td><td class="num">0.00</td><td class="num">—</td><td class="num">—</td>
+                <td class="num">—</td><td class="num">—</td><td class="num">0.00</td><td class="num">(7.95)</td>
               </tr>
               
             
               
               <tr>
                 <th>Financing Cash Flow</th>
-                <td class="num">(1,537.20)</td><td class="num">381.40</td><td class="num">239.13</td><td class="num">714.34</td>
+                <td class="num">714.34</td><td class="num">239.13</td><td class="num">381.40</td><td class="num">(1,537.20)</td>
               </tr>
               
             
@@ -849,7 +885,7 @@
               
               <tr>
                 <th>End Cash Position</th>
-                <td class="num">346.06</td><td class="num">528.07</td><td class="num">235.52</td><td class="num">116.61</td>
+                <td class="num">116.61</td><td class="num">235.52</td><td class="num">528.07</td><td class="num">346.06</td>
               </tr>
               
             
@@ -870,7 +906,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">3/31/25</th><th class="num">6/30/25</th><th class="num">9/30/25</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">9/30/25</th><th class="num">6/30/25</th><th class="num">3/31/25</th>
             </tr>
           </thead>
           <tbody>
@@ -878,49 +914,35 @@
               
               <tr>
                 <th>Gross Margin %</th>
-                <td class="num">-60.0%</td><td class="num">8.2%</td><td class="num">13.6%</td><td class="num">-10.6%</td>
+                <td class="num">-10.6%</td><td class="num">13.6%</td><td class="num">8.2%</td><td class="num">-60.0%</td>
               </tr>
               
             
               
               <tr>
                 <th>Operating Margin %</th>
-                <td class="num">-6.7%</td><td class="num">-3.6%</td><td class="num">-13.0%</td><td class="num">-7.7%</td>
+                <td class="num">-63.1%</td><td class="num">-52.7%</td><td class="num">-63.2%</td><td class="num">-144.3%</td>
               </tr>
               
             
               
               <tr>
                 <th>Net Margin %</th>
-                <td class="num">-145.3%</td><td class="num">-70.7%</td><td class="num">-72.1%</td><td class="num">-60.0%</td>
+                <td class="num">-60.0%</td><td class="num">-72.1%</td><td class="num">-70.7%</td><td class="num">-145.3%</td>
               </tr>
               
             
               
               <tr>
                 <th>EBITDA Margin %</th>
-                <td class="num">-132.9%</td><td class="num">-55.1%</td><td class="num">-53.5%</td><td class="num">-53.2%</td>
+                <td class="num">-53.2%</td><td class="num">-53.5%</td><td class="num">-55.1%</td><td class="num">-132.9%</td>
               </tr>
               
             
               
               <tr>
                 <th>Current Ratio</th>
-                <td class="num">0.10</td><td class="num">0.25</td><td class="num">0.27</td><td class="num">0.20</td>
-              </tr>
-              
-            
-              
-              <tr>
-                <th>Debt / Equity</th>
-                <td class="num">-7.49</td><td class="num">7.55</td><td class="num">13.21</td><td class="num">16.55</td>
-              </tr>
-              
-            
-              
-              <tr>
-                <th>Net Debt (Debt - Cash)</th>
-                <td class="num">654.31</td><td class="num">490.50</td><td class="num">479.81</td><td class="num">515.47</td>
+                <td class="num">1.17</td><td class="num">1.18</td><td class="num">1.27</td><td class="num">1.69</td>
               </tr>
               
             
@@ -936,7 +958,7 @@
           <thead>
             <tr>
               <th></th>
-              <th class="num">12/31/22</th><th class="num">12/31/23</th><th class="num">12/31/24</th><th class="num">12/31/25</th>
+              <th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
             </tr>
           </thead>
           <tbody>
@@ -944,49 +966,35 @@
               
               <tr>
                 <th>Gross Margin %</th>
-                <td class="num">-75.6%</td><td class="num">-108.9%</td><td class="num">-35.4%</td><td class="num">-4.9%</td>
+                <td class="num">-4.9%</td><td class="num">-35.4%</td><td class="num">-108.9%</td><td class="num">-75.6%</td>
               </tr>
               
             
               
               <tr>
                 <th>Operating Margin %</th>
-                <td class="num">-217.4%</td><td class="num">-285.2%</td><td class="num">—</td><td class="num">—</td>
+                <td class="num">-72.2%</td><td class="num">-156.6%</td><td class="num">-275.1%</td><td class="num">-150.7%</td>
               </tr>
               
             
               
               <tr>
                 <th>Net Margin %</th>
-                <td class="num">-222.0%</td><td class="num">-525.3%</td><td class="num">-171.8%</td><td class="num">-80.2%</td>
+                <td class="num">-80.2%</td><td class="num">-171.8%</td><td class="num">-525.3%</td><td class="num">-222.0%</td>
               </tr>
               
             
               
               <tr>
                 <th>EBITDA Margin %</th>
-                <td class="num">-137.3%</td><td class="num">-233.1%</td><td class="num">-128.9%</td><td class="num">-65.4%</td>
+                <td class="num">-65.4%</td><td class="num">-128.9%</td><td class="num">-233.1%</td><td class="num">-132.5%</td>
               </tr>
               
             
               
               <tr>
                 <th>Current Ratio</th>
-                <td class="num">0.39</td><td class="num">0.19</td><td class="num">0.10</td><td class="num">0.20</td>
-              </tr>
-              
-            
-              
-              <tr>
-                <th>Debt / Equity</th>
-                <td class="num">-6.53</td><td class="num">5.48</td><td class="num">-13.20</td><td class="num">16.55</td>
-              </tr>
-              
-            
-              
-              <tr>
-                <th>Net Debt (Debt - Cash)</th>
-                <td class="num">778.00</td><td class="num">168.47</td><td class="num">556.80</td><td class="num">515.47</td>
+                <td class="num">1.17</td><td class="num">1.98</td><td class="num">3.83</td><td class="num">2.62</td>
               </tr>
               
             
@@ -6241,7 +6249,7 @@
 
   </main>
   <footer class="site-footer">
-    Generated 2026-05-11T20:19:44+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-05-11T20:47:54+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>
