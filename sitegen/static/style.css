@@ -167,7 +167,14 @@ thead th {
 .daily-list .insider-row { font-size: 12px; line-height: 1.5; color: var(--fg-soft); }
 
 /* Valuation */
-.valuation-table { max-width: 420px; }
+.valuation-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 12px 0;
+}
+.valuation-table { max-width: 360px; flex: 0 0 auto; margin: 0; }
 .valuation-table th {
   width: 110px;
   font-weight: 500;
@@ -186,6 +193,30 @@ thead th {
   height: 18px;
   padding: 0;
 }
+
+.multiples-table { max-width: 280px; flex: 0 0 auto; margin: 0; }
+.multiples-table thead th {
+  text-align: left;
+  background: var(--bg-soft);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line-strong);
+  padding: 8px 12px;
+}
+.multiples-table tbody th {
+  width: 140px;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--fg);
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--line);
+}
+.multiples-table tbody td { border-bottom: 1px solid var(--line); }
 
 /* Company description */
 .company-desc {

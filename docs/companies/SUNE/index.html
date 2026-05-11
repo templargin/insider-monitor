@@ -26,23 +26,37 @@
 
 <section class="valuation">
   <h2>Valuation</h2>
-  <table class="valuation-table" data-ticker="SUNE">
-    <tbody>
-      <tr><th>SP</th><td class="num" id="live-sp" data-baked="1.60">$1.60</td></tr>
-      <tr><th>SO</th><td class="num">3.4M</td></tr>
-      <tr><th>Options</th><td class="num">1.1M</td></tr>
-      <tr><th>Warrants</th><td class="num">—</td></tr>
-      <tr><th>FD SO</th><td class="num">4.5M</td></tr>
-      <tr><th>MC</th><td class="num" id="live-mc" data-fdso="4476541">$7.1M</td></tr>
-      <tr class="spacer"><th></th><td></td></tr>
-      <tr><th>Cash</th><td class="num">$7.2M</td></tr>
-      <tr><th>Total debt</th><td class="num">$6.6M</td></tr>
-      <tr><th>EV</th><td class="num" id="live-ev" data-cash="7182344" data-debt="6643856">$6.6M</td></tr>
-    </tbody>
-  </table>
+  <div class="valuation-row">
+    <table class="valuation-table" data-ticker="SUNE">
+      <tbody>
+        <tr><th>SP</th><td class="num" id="live-sp" data-baked="1.60">$1.60</td></tr>
+        <tr><th>SO</th><td class="num">3.4M</td></tr>
+        <tr><th>Options</th><td class="num">1.1M</td></tr>
+        <tr><th>Warrants</th><td class="num">—</td></tr>
+        <tr><th>FD SO</th><td class="num">4.5M</td></tr>
+        <tr><th>MC</th><td class="num" id="live-mc" data-fdso="4476541">$7.1M</td></tr>
+        <tr class="spacer"><th></th><td></td></tr>
+        <tr><th>Cash</th><td class="num">$7.2M</td></tr>
+        <tr><th>Total debt</th><td class="num">$6.6M</td></tr>
+        <tr><th>EV</th><td class="num" id="live-ev" data-cash="7182344" data-debt="6643856">$6.6M</td></tr>
+      </tbody>
+    </table>
+
+    <table class="multiples-table">
+      <thead><tr><th colspan="2">TTM Multiples</th></tr></thead>
+      <tbody>
+        <tr><th>EV / Revenue</th><td class="num">0.1x</td></tr>
+        <tr><th>EV / EBITDA</th><td class="num">—</td></tr>
+        <tr><th>MC / Net Income</th><td class="num">—</td></tr>
+        <tr><th>EV / FCF</th><td class="num">7.3x</td></tr>
+        <tr><th>MC / FCF</th><td class="num">7.9x</td></tr>
+      </tbody>
+    </table>
+  </div>
   <p class="subtle">
     MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of 2026-03-10.
+    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative.
   </p>
   
     <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>
@@ -1712,7 +1726,7 @@
 
   </main>
   <footer class="site-footer">
-    Generated 2026-05-11T21:09:34+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-05-11T21:12:37+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>

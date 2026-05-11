@@ -144,6 +144,62 @@ def shares_m(v):
         return "—"
 
 
+def multiple(v):
+    """Format a valuation multiple. None / negative / non-numeric → '—'."""
+    if v is None:
+        return "—"
+    try:
+        f = float(v)
+    except (ValueError, TypeError):
+        return "—"
+    if math.isnan(f) or f <= 0:
+        return "—"
+    return f"{f:.1f}x"
+
+
+def _sum_ttm(stmt_dict, label):
+    """Sum the last-4-quarter values of a row (skipping None). None if not found
+    or no valid quarters."""
+    if not stmt_dict or not stmt_dict.get("labels"):
+        return None
+    for i, l in enumerate(stmt_dict["labels"]):
+        if l == label:
+            vals = [v for v in stmt_dict["data"][i][:4] if v is not None]
+            return sum(vals) if vals else None
+    return None
+
+
+def _compute_multiples(c, fd_mc, fd_ev):
+    """Return dict of TTM valuation multiples for a company JSON."""
+    fins = c.get("financials") or {}
+    isq = (fins.get("income_statement") or {}).get("quarterly")
+    cfq = (fins.get("cash_flow") or {}).get("quarterly")
+    rev = _sum_ttm(isq, "Total Revenue")
+    ebitda = _sum_ttm(isq, "EBITDA")
+    ni = _sum_ttm(isq, "Net Income")
+    fcf = _sum_ttm(cfq, "Free Cash Flow")
+
+    def div(num, den, positive_only=True):
+        if num is None or den is None or den == 0:
+            return None
+        if positive_only and den <= 0:
+            return None
+        return num / den
+
+    return {
+        "ev_revenue": div(fd_ev, rev, positive_only=True),
+        "ev_ebitda": div(fd_ev, ebitda, positive_only=True),
+        "mc_net_income": div(fd_mc, ni, positive_only=True),
+        "ev_fcf": div(fd_ev, fcf, positive_only=True),
+        "mc_fcf": div(fd_mc, fcf, positive_only=True),
+        # raw TTM dollar values for the tooltip-style subtle hints
+        "ttm_revenue": rev,
+        "ttm_ebitda": ebitda,
+        "ttm_net_income": ni,
+        "ttm_fcf": fcf,
+    }
+
+
 _env = None
 
 
@@ -164,6 +220,7 @@ def get_env():
         _env.filters["price_or_dash"] = price_or_dash
         _env.filters["fin_cell"] = fin_cell
         _env.filters["shares_m"] = shares_m
+        _env.filters["multiple"] = multiple
     return _env
 
 
@@ -294,11 +351,13 @@ def generate():
         fd_so = (so + opts + wrnts) if so else None
         fd_mc = (sp * fd_so) if (sp and fd_so) else None
         fd_ev = (fd_mc + debt - cash) if fd_mc is not None else None
+        multiples = _compute_multiples(c, fd_mc, fd_ev)
         rendered = env.get_template("company.html").render(
             data=c,
             fd_so=fd_so,
             fd_mc=fd_mc,
             fd_ev=fd_ev,
+            multiples=multiples,
             root=root_path_from(depth),
             generated_at=now,
         )
