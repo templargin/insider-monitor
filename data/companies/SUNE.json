@@ -869,9 +869,12 @@
           "Stock-Based Comp",
           "Operating Cash Flow",
           "",
+          "CapEx",
           "Investing Cash Flow",
           "",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -917,6 +920,12 @@
             null
           ],
           [
+            -30807,
+            -8970,
+            null,
+            null
+          ],
+          [
             null,
             null,
             null,
@@ -927,6 +936,18 @@
             -148073,
             1872158,
             3992231
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2070509,
+            2378225,
+            null,
+            null
           ]
         ]
       },
@@ -937,10 +958,13 @@
           "Stock-Based Comp",
           "Operating Cash Flow",
           "",
+          "CapEx",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -981,6 +1005,12 @@
           ],
           [
             -48594,
+            -32785,
+            -655691,
+            -116909
+          ],
+          [
+            -48594,
             -26667,
             3567278,
             -3097406
@@ -1002,6 +1032,18 @@
             2084358,
             -2760236,
             15912117
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            906384,
+            -6335471,
+            -1322868,
+            -7694108
           ]
         ]
       }

@@ -1086,10 +1086,13 @@
           "Stock-Based Comp",
           "Operating Cash Flow",
           "",
+          "CapEx",
           "Investing Cash Flow",
           "",
           "Dividends Paid",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
         ],
         "periods": [
           "3/31/26",
@@ -1129,6 +1132,12 @@
             null
           ],
           [
+            -2145000,
+            null,
+            null,
+            null
+          ],
+          [
             -9842000,
             6748000,
             -703000,
@@ -1151,6 +1160,18 @@
             -26332000,
             -16249000,
             18724000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            11207000,
+            null,
+            null,
+            null
           ]
         ]
       },

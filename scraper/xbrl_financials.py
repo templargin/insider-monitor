@@ -158,9 +158,15 @@ def _fmt_period(end_str):
 # ---- canonical line items -------------------------------------------------
 
 LI_IS = [
-    ("Total Revenue", ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax",
-                       "RevenueFromContractWithCustomerIncludingAssessedTax",
-                       "SalesRevenueNet", "SalesRevenueGoodsNet"]),
+    ("Total Revenue", [
+        "Revenues",
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "RevenueFromContractWithCustomerIncludingAssessedTax",
+        "SalesRevenueNet",
+        "SalesRevenueGoodsNet",
+        # Banks: total revenue ≈ interest+dividend income + noninterest income
+        ("sum", ["InterestAndDividendIncomeOperating", "NoninterestIncome"]),
+    ]),
     ("Cost of Revenue", ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfGoodsSold"]),
     ("Gross Profit", ["GrossProfit"]),
     ("SG&A", [
@@ -168,6 +174,7 @@ LI_IS = [
         ("sum", ["GeneralAndAdministrativeExpense", "SellingAndMarketingExpense"]),
         ("sum", ["GeneralAndAdministrativeExpense", "SellingExpense"]),
         "GeneralAndAdministrativeExpense",
+        "NoninterestExpense",  # banks
     ]),
     ("R&D", ["ResearchAndDevelopmentExpense"]),
     ("Operating Expense", ["OperatingExpenses", "CostsAndExpenses"]),
@@ -218,7 +225,11 @@ LI_CF = [
     ("D&A", ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization", "Depreciation"]),
     ("Stock-Based Comp", ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense"]),
     ("Operating Cash Flow", ["NetCashProvidedByUsedInOperatingActivities"]),
-    ("CapEx", ["PaymentsToAcquirePropertyPlantAndEquipment"]),
+    ("CapEx", ["PaymentsToAcquirePropertyPlantAndEquipment",
+               "PaymentsToAcquirePropertyPlantAndEquipmentNet",
+               "PaymentsForCapitalImprovements",
+               "PaymentsToAcquireProductiveAssets",
+               "CapitalExpenditures"]),
     ("Investing Cash Flow", ["NetCashProvidedByUsedInInvestingActivities"]),
     ("Debt Issuance", ["ProceedsFromIssuanceOfLongTermDebt", "ProceedsFromIssuanceOfDebt"]),
     ("Debt Repayment", ["RepaymentsOfLongTermDebt", "RepaymentsOfDebt"]),
