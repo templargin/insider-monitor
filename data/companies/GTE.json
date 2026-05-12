@@ -5,6 +5,34 @@
   "description": "Gran Tierra Energy Inc., together with its subsidiaries, is involved in the exploration and production of oil and gas properties in Colombia, Canada, and Ecuador. The company has a strategic partnership with Ecopetrol S.A. for the development of fields in the Middle Magdalena Valley. The company was founded in 2003 and is headquartered in Calgary, Canada.",
   "form4_filings": [
     {
+      "date_filed": "2026-05-11",
+      "reporter_name": "LM Asset Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-11",
+      "code": "P",
+      "shares": 12000.0,
+      "price": 8.876,
+      "total_value": 106512.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000935836-26-000241"
+    },
+    {
+      "date_filed": "2026-05-11",
+      "reporter_name": "LM Asset Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-07",
+      "code": "P",
+      "shares": 18000.0,
+      "price": 8.3005,
+      "total_value": 149409.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000935836-26-000241"
+    },
+    {
       "date_filed": "2026-05-05",
       "reporter_name": "LM Asset Management Inc.",
       "relationship": "10% Owner",
@@ -6418,7 +6446,7 @@
     }
   ],
   "valuation": {
-    "share_price": 8.739999771118164,
+    "share_price": 8.880000114440918,
     "shares_basic": 35359890,
     "shares_basic_as_of": "2026-05-05",
     "options": 628209,
@@ -6426,8 +6454,8 @@
     "cash": 124752000,
     "debt": 552078000,
     "ttm_revenue": 644325000,
-    "mc_basic": 309045430.50676346,
-    "ev_basic": 736371430.5067635
+    "mc_basic": 313995827.2466183,
+    "ev_basic": 741321827.2466183
   },
   "financials": {
     "income_statement": {
@@ -7389,5 +7417,5 @@
       }
     }
   },
-  "last_updated": "2026-05-11T15:45:17+00:00"
+  "last_updated": "2026-05-12T11:53:01+00:00"
 }
