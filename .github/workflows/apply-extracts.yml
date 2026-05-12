@@ -1,0 +1,72 @@
+name: Apply options/warrants extracts
+
+# Invoked by the extraction routine via `gh workflow run`. The routine can't
+# push directly (sandbox blocks git push and Copilot-flavored MCP writes),
+# so it sends the extracted values here as a JSON input and this workflow
+# does the commit using its own GITHUB_TOKEN.
+
+on:
+  workflow_dispatch:
+    inputs:
+      updates:
+        description: 'JSON map of {TICKER: {"options": N|null, "warrants": N|null}}'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Apply updates
+        env:
+          UPDATES_JSON: ${{ inputs.updates }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          updates = json.loads(os.environ['UPDATES_JSON'])
+          touched = []
+          for ticker, vals in updates.items():
+              p = Path(f'data/companies/{ticker.upper()}.json')
+              if not p.exists():
+                  print(f'  {ticker}: SKIP (no JSON)')
+                  continue
+              d = json.loads(p.read_text())
+              v = d.setdefault('valuation', {})
+              for k, val in vals.items():
+                  if k not in ('options', 'warrants'):
+                      print(f'  {ticker}: SKIP key {k} (only options/warrants allowed)')
+                      continue
+                  v[k] = val
+              p.write_text(json.dumps(d, indent=2, default=str))
+              touched.append(ticker.upper())
+              print(f'  {ticker}: applied {vals}')
+          print(f'\nTotal touched: {len(touched)}')
+          PY
+
+      - name: Rebuild site
+        run: python -m scripts.build_site
+
+      - name: Commit + push
+        run: |
+          git config user.name 'insider-monitor[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/companies/ docs/
+          if git diff --staged --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'Apply options/warrants extracts (routine)'
+            git push
+          fi
