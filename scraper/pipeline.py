@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import edgar, filters, xbrl_facts, financials, xbrl_financials, buckets
+from . import edgar, filters, xbrl_facts, financials, xbrl_financials, footnotes, buckets
 
 _MAX_WORKERS = 6
 
@@ -16,8 +16,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 INSIDERS_DIR = DATA_DIR / "insiders"
 COMPANIES_DIR = DATA_DIR / "companies"
+FOOTNOTES_DIR = DATA_DIR / "footnotes"
 INSIDERS_DIR.mkdir(parents=True, exist_ok=True)
 COMPANIES_DIR.mkdir(parents=True, exist_ok=True)
+FOOTNOTES_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def _log(*a):
@@ -175,6 +177,16 @@ def update_company_data(ticker, cik, screener_snapshot):
 
     path = COMPANIES_DIR / f"{ticker.upper()}.json"
     path.write_text(json.dumps(payload, indent=2, default=str))
+
+    # Pre-fetch footnote text for the LLM-extraction routine to consume.
+    # The routine is sandboxed away from sec.gov; we do the network fetch here.
+    if options is None or warrants is None:
+        try:
+            fn = footnotes.fetch_footnotes(cik, ticker)
+            if fn:
+                (FOOTNOTES_DIR / f"{ticker.upper()}.txt").write_text(fn)
+        except Exception as e:
+            _log(f"    footnote fetch failed for {ticker}: {e}")
     return path
 
 
