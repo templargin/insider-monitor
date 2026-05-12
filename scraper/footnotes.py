@@ -8,24 +8,37 @@ import re
 from . import edgar
 
 
-# Heuristics: footnote phrases that signal the dilution-data sections
+# Heuristics: phrases that anchor dilution-data sections in 10-Q/10-K text.
+# Broader set than before so we catch shares-reserved tables, antidilutive
+# summaries, and activity rollforwards in addition to direct mentions.
 KEYWORDS = [
     "stock-based compensation",
     "share-based compensation",
-    "stock option",
+    "stock option activity",
+    "option activity",
     "options outstanding",
     "outstanding options",
+    "outstanding stock options",
+    "stock option",
     "warrants outstanding",
     "outstanding warrants",
     "common stock warrants",
     "class of warrant",
     "warrant activity",
+    "warrants to purchase",
+    "shares reserved for issuance",
+    "shares reserved for future issuance",
+    "common shares reserved",
+    "antidilutive",
+    "anti-dilutive",
+    "potentially dilutive",
+    "weighted-average exercise price",
 ]
 
-CONTEXT_BEFORE = 600
-CONTEXT_AFTER = 4000
-MAX_SECTIONS = 8
-MAX_BYTES = 60_000  # cap final output
+CONTEXT_BEFORE = 800
+CONTEXT_AFTER = 7000     # bigger so options/warrant tables don't get cut off
+MAX_SECTIONS = 12
+MAX_BYTES = 120_000      # bigger total budget — routine has plenty of context
 
 
 def _pick_primary_doc(index_json):
