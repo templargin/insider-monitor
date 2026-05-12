@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import edgar, filters, xbrl_facts, financials, buckets
+from . import edgar, filters, xbrl_facts, financials, xbrl_financials, buckets
 
 _MAX_WORKERS = 6
 
@@ -148,7 +148,8 @@ def update_company_data(ticker, cik, screener_snapshot):
     form4_filings.sort(key=lambda r: (r["date_filed"], r["transaction_date"]), reverse=True)
 
     description = financials.fetch_description(ticker)
-    fins = financials.fetch_financials(ticker)
+    # XBRL-primary: skip the yfinance financial-statement scrape entirely.
+    fins = xbrl_financials.fetch_xbrl_financials(cik)
 
     payload = {
         "ticker": ticker.upper(),
