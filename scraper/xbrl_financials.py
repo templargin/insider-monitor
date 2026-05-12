@@ -13,6 +13,7 @@ from collections import defaultdict
 from datetime import date
 
 from . import edgar
+from .financials import _canonicalize, INCOME_CANONICAL, BALANCE_CANONICAL, CASHFLOW_CANONICAL
 
 
 # ---- low-level fact extraction --------------------------------------------
@@ -45,7 +46,11 @@ def _series_one_tag_quarterly(usg, tag, unit="USD"):
 
     discrete = {end: v for end, (v, _) in derived.items()}
 
-    # Second pass: YTD derivation for periods discrete didn't cover
+    # Second pass: YTD derivation for periods discrete didn't cover.
+    # NOTE: groups by calendar year of end date — correct for the dominant
+    # Dec-31 fiscal-year case. For non-calendar fiscal years (e.g., FY ending
+    # June or September), this can mis-bucket the FY/Q1 transition. Acceptable
+    # for our sub-$1B universe where Dec-FY is overwhelmingly common.
     by_year = defaultdict(list)
     for f in entries:
         d = _period_days(f)
@@ -465,10 +470,7 @@ def fetch_xbrl_financials(cik):
     bs_q = _build_bs_at_ends(usg, is_q["_ends"])
     bs_a = _build_bs_at_ends(usg, is_a["_ends"])
 
-    # Run the canonical filter — this adds margin rows, YoY rows, and spacers
-    # (and drops yfinance-style noise that doesn't apply to XBRL output, but the
-    # canonical entries are designed around these exact display labels).
-    from .financials import _canonicalize, INCOME_CANONICAL, BALANCE_CANONICAL, CASHFLOW_CANONICAL
+    # Run the canonical filter — adds margin rows, YoY rows, and spacers.
     is_q_c = _canonicalize(_strip(is_q), INCOME_CANONICAL, "quarterly")
     is_a_c = _canonicalize(_strip(is_a), INCOME_CANONICAL, "annual")
     bs_q_c = _canonicalize(_strip(bs_q), BALANCE_CANONICAL, "quarterly")

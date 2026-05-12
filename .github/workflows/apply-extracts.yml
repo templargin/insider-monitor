@@ -37,22 +37,36 @@ jobs:
           import json, os
           from pathlib import Path
           updates = json.loads(os.environ['UPDATES_JSON'])
+          if not isinstance(updates, dict):
+              raise SystemExit(f'updates must be a JSON object, got {type(updates).__name__}')
           touched = []
           for ticker, vals in updates.items():
+              if not isinstance(vals, dict):
+                  print(f'  {ticker}: SKIP (vals must be an object, got {type(vals).__name__})')
+                  continue
               p = Path(f'data/companies/{ticker.upper()}.json')
               if not p.exists():
                   print(f'  {ticker}: SKIP (no JSON)')
                   continue
               d = json.loads(p.read_text())
               v = d.setdefault('valuation', {})
+              applied = {}
               for k, val in vals.items():
                   if k not in ('options', 'warrants'):
-                      print(f'  {ticker}: SKIP key {k} (only options/warrants allowed)')
+                      print(f'  {ticker}: SKIP key {k!r} (only options/warrants allowed)')
+                      continue
+                  if val is not None and not isinstance(val, int):
+                      print(f'  {ticker}: SKIP {k}={val!r} (must be int or null)')
+                      continue
+                  if isinstance(val, int) and val < 0:
+                      print(f'  {ticker}: SKIP {k}={val} (must be >= 0)')
                       continue
                   v[k] = val
-              p.write_text(json.dumps(d, indent=2, default=str))
-              touched.append(ticker.upper())
-              print(f'  {ticker}: applied {vals}')
+                  applied[k] = val
+              if applied:
+                  p.write_text(json.dumps(d, indent=2, default=str))
+                  touched.append(ticker.upper())
+                  print(f'  {ticker}: applied {applied}')
           print(f'\nTotal touched: {len(touched)}')
           PY
 
