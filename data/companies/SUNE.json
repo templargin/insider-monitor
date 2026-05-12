@@ -290,18 +290,24 @@
           "Total Revenue",
           "Cost of Revenue",
           "Gross Profit",
+          "Gross Margin %",
+          "",
           "SG&A",
-          "R&D",
           "Operating Expense",
+          "",
           "Operating Income",
+          "Operating Margin %",
+          "EBITDA",
+          "",
           "Interest Expense",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
+          "Net Margin %",
+          "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares",
-          "EBITDA"
+          "Diluted Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -329,10 +335,10 @@
             4431325
           ],
           [
-            7598682,
-            6898041,
-            6443729,
-            6039298
+            40.65152477496324,
+            37.968954443477806,
+            37.04395980053664,
+            35.06727817952845
           ],
           [
             null,
@@ -341,16 +347,46 @@
             null
           ],
           [
+            7598682,
+            6898041,
+            6443729,
+            6039298
+          ],
+          [
             8158057,
             7457416,
             7003104,
             6598673
           ],
           [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             2903629,
             -245731,
             -2163587,
             -2167348
+          ],
+          [
+            10.670791616287223,
+            -1.2937543922606498,
+            -16.561121668332536,
+            -17.151302427117088
+          ],
+          [
+            3525951,
+            382318,
+            -1538158,
+            -1540033
+          ],
+          [
+            null,
+            null,
+            null,
+            null
           ],
           [
             165045,
@@ -377,6 +413,18 @@
             -3496432
           ],
           [
+            9.56961925580167,
+            -2.068982473919159,
+            -73.53971378694872,
+            -27.66900499958929
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             1.8100000000000005,
             -0.12,
             -3.14,
@@ -393,32 +441,35 @@
             3406614,
             3063743,
             32766
-          ],
-          [
-            3525951,
-            382318,
-            -1538158,
-            -1540033
           ]
         ]
       },
       "annual": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "Cost of Revenue",
           "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
           "SG&A",
-          "R&D",
           "Operating Expense",
+          "",
           "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "",
           "Interest Expense",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
+          "Net Margin %",
+          "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares",
-          "EBITDA"
+          "Diluted Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -434,6 +485,12 @@
             27522099
           ],
           [
+            26.456753804266288,
+            -28.594978478002048,
+            189.3409728669314,
+            null
+          ],
+          [
             44361314,
             36435509,
             51936519,
@@ -446,10 +503,16 @@
             7377445
           ],
           [
-            26979750,
-            27054166,
-            29074578,
-            12211135
+            34.84717503619363,
+            -26.24890282742861,
+            275.41709900920984,
+            null
+          ],
+          [
+            38.306113798456686,
+            35.92264206135185,
+            34.77991688063758,
+            26.805531801916707
           ],
           [
             null,
@@ -458,16 +521,52 @@
             null
           ],
           [
+            26979750,
+            27054166,
+            29074578,
+            12211135
+          ],
+          [
             29217250,
             32743647,
             35163055,
             17826124
           ],
           [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             -1673037,
             -12317403,
             -7466865,
             -10448679
+          ],
+          [
+            86.41729104747161,
+            -64.96083697776778,
+            28.537712757756267,
+            null
+          ],
+          [
+            -2.3267154414986764,
+            -21.662017701072283,
+            -9.376630650603635,
+            -37.96468794040745
+          ],
+          [
+            830078,
+            -9163571,
+            -2330445,
+            -7216058
+          ],
+          [
+            null,
+            null,
+            null,
+            null
           ],
           [
             1041835,
@@ -494,6 +593,18 @@
             -10352240
           ],
           [
+            -15.148811856980062,
+            -27.874281329314627,
+            -10.212093877152917,
+            -37.61428225369003
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             -4.38,
             -10110.93,
             -611.55,
@@ -510,12 +621,6 @@
             2714,
             13298,
             6741446
-          ],
-          [
-            830078,
-            -9163571,
-            -2330445,
-            -7216058
           ]
         ]
       }
@@ -527,13 +632,15 @@
           "Receivables",
           "Inventory",
           "Total Current Assets",
+          "",
           "Net PPE",
           "Goodwill",
           "Total Assets",
+          "",
           "Accounts Payable",
           "Total Current Liabilities",
           "Long-term Debt",
-          "Total Liabilities",
+          "",
           "Retained Earnings",
           "Stockholders' Equity"
         ],
@@ -569,6 +676,12 @@
             10545189
           ],
           [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             1015528,
             1047668,
             1107372,
@@ -585,6 +698,12 @@
             49607352,
             44129850,
             44427672
+          ],
+          [
+            null,
+            null,
+            null,
+            null
           ],
           [
             7395318,
@@ -630,13 +749,15 @@
           "Receivables",
           "Inventory",
           "Total Current Assets",
+          "",
           "Net PPE",
           "Goodwill",
           "Total Assets",
+          "",
           "Accounts Payable",
           "Total Current Liabilities",
           "Long-term Debt",
-          "Total Liabilities",
+          "",
           "Retained Earnings",
           "Stockholders' Equity"
         ],
@@ -672,6 +793,12 @@
             25961524
           ],
           [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             1015528,
             1238898,
             1511878,
@@ -688,6 +815,12 @@
             45712732,
             58172811,
             74695487
+          ],
+          [
+            null,
+            null,
+            null,
+            null
           ],
           [
             7395318,
@@ -735,15 +868,10 @@
           "D&A",
           "Stock-Based Comp",
           "Operating Cash Flow",
-          "CapEx",
+          "",
           "Investing Cash Flow",
-          "Debt Issuance",
-          "Debt Repayment",
-          "Stock Issuance",
-          "Stock Buyback",
-          "Dividends Paid",
-          "Financing Cash Flow",
-          "Free Cash Flow"
+          "",
+          "Financing Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -795,40 +923,10 @@
             null
           ],
           [
-            null,
-            null,
-            null,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            null
-          ],
-          [
             -591704,
             -148073,
             1872158,
             3992231
-          ],
-          [
-            null,
-            null,
-            null,
-            null
           ]
         ]
       },
@@ -838,15 +936,11 @@
           "D&A",
           "Stock-Based Comp",
           "Operating Cash Flow",
-          "CapEx",
+          "",
           "Investing Cash Flow",
-          "Debt Issuance",
-          "Debt Repayment",
-          "Stock Issuance",
+          "",
           "Stock Buyback",
-          "Dividends Paid",
-          "Financing Cash Flow",
-          "Free Cash Flow"
+          "Financing Cash Flow"
         ],
         "periods": [
           "12/31/25",
@@ -899,26 +993,8 @@
           ],
           [
             null,
-            null,
-            null,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            null
-          ],
-          [
-            null,
             -6098,
             -38403,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
             null
           ],
           [
@@ -926,19 +1002,147 @@
             2084358,
             -2760236,
             15912117
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "9/30/25",
+          "6/30/25",
+          "3/31/25"
+        ],
+        "data": [
+          [
+            1.0692132458776273,
+            0.9020303609539925,
+            0.8554592981982523,
+            0.5201383656702007
+          ],
+          [
+            0.9046847812675989,
+            0.7439931538860491,
+            0.6740810973963645,
+            0.3962074725452511
           ],
           [
             null,
             null,
             null,
             null
+          ],
+          [
+            12.957815330484559,
+            2.01287420691857,
+            -11.773791293402594,
+            -12.187046902823361
+          ],
+          [
+            1066408,
+            -1864798,
+            -1850380,
+            -9728626
+          ],
+          [
+            -538488,
+            null,
+            null,
+            null
+          ],
+          [
+            10.696193708064808,
+            -1.8086138389575903,
+            -43.46844965727601,
+            -23.6135363135166
+          ],
+          [
+            5.397526164846617,
+            -0.7921708862831461,
+            -21.770785534054614,
+            -7.869941958696373
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1.0692132458776273,
+            0.40904084423988285,
+            0.7052388179899758,
+            1.0010552106607817
+          ],
+          [
+            0.9046847812675989,
+            0.3093560377619607,
+            0.545287497046727,
+            0.7675988940917226
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1.1544008292992554,
+            -16.115526723208834,
+            -2.926492177981789,
+            -26.21914120721679
+          ],
+          [
+            1066408,
+            -16051658,
+            -6594834,
+            27366
+          ],
+          [
+            -538488,
+            null,
+            null,
+            null
+          ],
+          [
+            -44.74360367789599,
+            -185.43387849614433,
+            -39.79180388856586,
+            -38.028539257458554
+          ],
+          [
+            -22.578571233136806,
+            -34.67262687340586,
+            -13.979326183842138,
+            -13.859257655017364
           ]
         ]
       }
-    },
-    "ratios": {
-      "quarterly": null,
-      "annual": null
     }
   },
   "last_updated": "2026-05-11T15:56:50+00:00"

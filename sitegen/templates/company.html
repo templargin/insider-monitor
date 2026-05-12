@@ -9,9 +9,10 @@
 {% endif %}
 
 <section class="valuation">
-  <h2>Valuation</h2>
+  <h2>Cap structure and valuation</h2>
   <div class="valuation-row">
-    <table class="valuation-table" data-ticker="{{ data.ticker }}">
+    <table class="valuation-table multiples-table" data-ticker="{{ data.ticker }}">
+      <thead><tr><th colspan="2">Cap structure</th></tr></thead>
       <tbody>
         <tr><th>SP</th><td class="num" id="live-sp" data-baked="{{ data.valuation.share_price|number_2 }}">${{ data.valuation.share_price|number_2 }}</td></tr>
         <tr><th>SO</th><td class="num">{{ data.valuation.shares_basic|shares_m }}</td></tr>

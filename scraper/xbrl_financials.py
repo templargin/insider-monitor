@@ -352,6 +352,80 @@ def _strip(stmt):
     return stmt
 
 
+def _build_ratios(is_stmt, bs_stmt):
+    """Build a ratios grid from already-extracted IS + BS data, aligned by period end.
+
+    Rows: Current Ratio, Quick Ratio, Debt / Equity, Net Debt, Working Capital, ROE %, ROA %.
+    """
+    periods = is_stmt.get("periods", [])
+    if not periods:
+        return None
+
+    is_labels = is_stmt["labels"]
+    bs_labels = bs_stmt["labels"]
+    is_data = is_stmt["data"]
+    bs_data = bs_stmt["data"]
+
+    def is_row(name):
+        return is_data[is_labels.index(name)] if name in is_labels else [None] * len(periods)
+
+    def bs_row(name):
+        return bs_data[bs_labels.index(name)] if name in bs_labels else [None] * len(periods)
+
+    n = len(periods)
+    net_income = is_row("Net Income")
+    revenue = is_row("Total Revenue")
+    ebitda = is_row("EBITDA")
+    cash = bs_row("Cash & Equivalents")
+    receivables = bs_row("Receivables")
+    inventory = bs_row("Inventory")
+    ca = bs_row("Total Current Assets")
+    assets = bs_row("Total Assets")
+    cl = bs_row("Total Current Liabilities")
+    lt_debt = bs_row("Long-term Debt")
+    total_liab = bs_row("Total Liabilities")
+    equity = bs_row("Stockholders' Equity")
+
+    def safe_div(a, b):
+        return [(x / y) if (x is not None and y is not None and y != 0) else None for x, y in zip(a, b)]
+
+    def safe_sub(a, b):
+        return [(x - y) if (x is not None and y is not None) else None for x, y in zip(a, b)]
+
+    def safe_add(a, b):
+        return [(x + y) if (x is not None and y is not None) else None for x, y in zip(a, b)]
+
+    def safe_pct(a, b):
+        return [(100 * x / y) if (x is not None and y is not None and y != 0) else None for x, y in zip(a, b)]
+
+    quick_assets = safe_sub(ca, inventory)
+    net_debt = safe_sub(lt_debt, cash)
+    working_cap = safe_sub(ca, cl)
+    ebitda_margin = safe_pct(ebitda, revenue)
+
+    labels = [
+        "Current Ratio",
+        "Quick Ratio",
+        "Debt / Equity",
+        "EBITDA Margin %",
+        "Working Capital",
+        "Net Debt",
+        "ROE %",
+        "ROA %",
+    ]
+    data = [
+        safe_div(ca, cl),
+        safe_div(quick_assets, cl),
+        safe_div(total_liab, equity),
+        ebitda_margin,
+        working_cap,
+        net_debt,
+        safe_pct(net_income, equity),
+        safe_pct(net_income, assets),
+    ]
+    return {"labels": labels, "periods": periods, "data": data}
+
+
 def fetch_xbrl_financials(cik):
     facts = edgar.fetch_companyfacts(cik)
     if facts is None:
@@ -380,9 +454,24 @@ def fetch_xbrl_financials(cik):
     bs_q = _build_bs_at_ends(usg, is_q["_ends"])
     bs_a = _build_bs_at_ends(usg, is_a["_ends"])
 
+    # Run the canonical filter — this adds margin rows, YoY rows, and spacers
+    # (and drops yfinance-style noise that doesn't apply to XBRL output, but the
+    # canonical entries are designed around these exact display labels).
+    from .financials import _canonicalize, INCOME_CANONICAL, BALANCE_CANONICAL, CASHFLOW_CANONICAL
+    is_q_c = _canonicalize(_strip(is_q), INCOME_CANONICAL, "quarterly")
+    is_a_c = _canonicalize(_strip(is_a), INCOME_CANONICAL, "annual")
+    bs_q_c = _canonicalize(_strip(bs_q), BALANCE_CANONICAL, "quarterly")
+    bs_a_c = _canonicalize(_strip(bs_a), BALANCE_CANONICAL, "annual")
+    cf_q_c = _canonicalize(_strip(cf_q), CASHFLOW_CANONICAL, "quarterly")
+    cf_a_c = _canonicalize(_strip(cf_a), CASHFLOW_CANONICAL, "annual")
+
+    # Build Ratios using the canonicalized IS + BS so the periods are aligned.
+    ratios_q = _build_ratios(is_q_c, bs_q_c)
+    ratios_a = _build_ratios(is_a_c, bs_a_c)
+
     return {
-        "income_statement": {"quarterly": _strip(is_q), "annual": _strip(is_a)},
-        "balance_sheet": {"quarterly": _strip(bs_q), "annual": _strip(bs_a)},
-        "cash_flow": {"quarterly": _strip(cf_q), "annual": _strip(cf_a)},
-        "ratios": {"quarterly": None, "annual": None},
+        "income_statement": {"quarterly": is_q_c, "annual": is_a_c},
+        "balance_sheet": {"quarterly": bs_q_c, "annual": bs_a_c},
+        "cash_flow": {"quarterly": cf_q_c, "annual": cf_a_c},
+        "ratios": {"quarterly": ratios_q, "annual": ratios_a},
     }
