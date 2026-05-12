@@ -178,8 +178,24 @@ def update_company_data(ticker, cik, screener_snapshot):
 
 
 def process_bucket(url_date):
-    """Process one URL date end-to-end: scrape, filter, write daily + company JSONs."""
+    """Process one URL date end-to-end: scrape, filter, write daily + company JSONs.
+
+    Safety: if EDGAR returned ZERO filings for every filing-date in this bucket
+    (typical when SEC hasn't published the daily-index yet for late-evening runs),
+    skip writing — don't clobber an existing good page with an empty one.
+    """
     _log(f"=== Processing /insiders/{url_date.year}/{buckets.MONTH_NAMES[url_date.month-1]}/{url_date.day} (read on {url_date.strftime('%A')}) ===")
+    # Pre-flight: count daily-index rows across all bucket dates
+    total_index_rows = 0
+    for fd in buckets.filing_dates_for_url(url_date):
+        try:
+            total_index_rows += len(edgar.fetch_daily_index_form4s(fd))
+        except Exception as e:
+            _log(f"  daily-index fetch failed for {fd}: {e}")
+    if total_index_rows == 0:
+        _log("  EDGAR returned 0 Form 4 index rows for every bucket date — skipping write (likely too early for SEC daily-index).")
+        return None
+
     parsed = fetch_all_form4s_for_bucket(url_date)
     _log(f"  Parsed {len(parsed)} Form 4 filings total")
     aggregated = filters.aggregate_p_purchases(parsed)
