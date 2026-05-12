@@ -2,7 +2,9 @@ name: Daily insider monitor
 
 on:
   schedule:
-    - cron: '0 11 * * 1-5'  # 11:00 UTC Mon-Fri ≈ 7am EDT / 6am EST
+    # 10:30 UTC Mon-Fri = 6:30am EDT (summer) / 5:30am EST (winter)
+    # Picked to give the run + GH Actions queueing slack to finish before 7am ET.
+    - cron: '30 10 * * 1-5'
   workflow_dispatch:
 
 permissions:
