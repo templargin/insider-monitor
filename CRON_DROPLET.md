@@ -77,10 +77,13 @@ Schedules are staggered so two Claude invocations never overlap (they share the 
 | `/opt/insider-monitor` | Cloned repo, owned by `cron-runner` |
 | `/opt/insider-monitor/venv` | Python 3.12 venv with `requirements.txt` installed |
 | `/home/cron-runner/run-insider.sh` | The runner script (the only file unique to insider-monitor outside the cloned repo) |
-| `/home/cron-runner/.aspan-cron.env` | Shared env file with `CLAUDE_CODE_OAUTH_TOKEN`, Telegram creds (mode 0600). Loaded by every droplet runner. |
-| `/home/cron-runner/.config/gh/hosts.yml` | gh CLI auth state |
+| `/home/cron-runner/.shared.env` | `CLAUDE_CODE_OAUTH_TOKEN` only — sourced by every Claude-using runner on the droplet (mode 0600) |
+| `/home/cron-runner/.insider-monitor.env` | insider-monitor-specific: `HC_PING_URL` for Healthchecks.io ping (mode 0600) |
+| `/home/cron-runner/.config/gh/hosts.yml` | gh CLI auth state (fine-grained PAT scoped to `templargin/insider-monitor`) |
 | `/home/cron-runner/logs/insider-YYYYMMDD-HHMM.log` | One log per pipeline run, 30-day retention |
 | `/home/cron-runner/logs/cron.log` | All cron stdout/stderr (every job appends) |
+
+CRM jobs on the same droplet use `.crm.env` + `.crm-prod.env` + `.shared.env`; see CRM `docs/CRON_DROPLET.md`. The old combined `.aspan-cron.env` and `.aspan-prod.env` were split into per-project files in May 2026.
 
 ---
 
@@ -88,28 +91,33 @@ Schedules are staggered so two Claude invocations never overlap (they share the 
 
 ### gh CLI
 
-- Authed as user `templargin` (your personal account) via `gh auth login --with-token`.
-- Token scopes: `gist, read:org, repo, workflow`. The `workflow` scope is what enables `gh workflow run` for dispatching daily.yml.
-- Token source: pulled from the Mac via `gh auth token` then piped to the droplet. It's an OAuth-app token, long-lived, no automatic rotation.
-- The same token also configures git's credential helper, so `git pull/push` over HTTPS works without prompts.
+- Authed via a **fine-grained Personal Access Token** dedicated to this repo (not your personal session token).
+- Scope: `templargin/insider-monitor` only.
+- Permissions: Actions `read+write` (for `gh workflow run`), Contents `read+write` (for `git push`), Metadata `read`.
+- Expiry: 1 year (calendar reminder for ~11 months out).
+- The same token configures git's credential helper, so `git pull/push` over HTTPS works without prompts.
 - File: `/home/cron-runner/.config/gh/hosts.yml` (chmod 0600).
 
-To rotate / re-auth (e.g., if the token gets revoked):
+To rotate / re-auth:
 
 ```bash
-# On Mac:
-gh auth token | ssh root@142.93.227.10 'cat > /tmp/.gh_token && chmod 600 /tmp/.gh_token'
+# 1. Generate a new fine-grained PAT at:
+#    https://github.com/settings/personal-access-tokens
+#    Same scope and permissions as above.
 
-# On droplet:
-ssh root@142.93.227.10 'cat /tmp/.gh_token | sudo -u cron-runner -H gh auth login --with-token'
+# 2. Pipe it to the droplet:
+echo "<new_pat>" | ssh root@142.93.227.10 'cat > /tmp/.new_pat && chmod 600 /tmp/.new_pat'
 
-# Verify:
+# 3. Re-auth gh:
+ssh root@142.93.227.10 'cat /tmp/.new_pat | sudo -u cron-runner -H gh auth login --with-token && sudo -u cron-runner -H gh auth setup-git && rm /tmp/.new_pat'
+
+# 4. Verify:
 ssh root@142.93.227.10 'sudo -u cron-runner -H gh auth status'
 ```
 
 ### Claude Code
 
-- Long-lived OAuth token in `/home/cron-runner/.aspan-cron.env` as `CLAUDE_CODE_OAUTH_TOKEN`.
+- Long-lived OAuth token in `/home/cron-runner/.shared.env` as `CLAUDE_CODE_OAUTH_TOKEN`.
 - Token TTL: ~1 year. Same token used by CRM `/health`. Next renewal: see CRM `docs/CRON_DROPLET.md`.
 - Renewal command: `claude setup-token` on the Mac → approve in browser → copy the `sk-ant-oat...` value → `sed` it into the env file on the droplet.
 - The runner script auto-exports it with `set -a; source ...; set +a` so the `claude` subprocess inherits it.
@@ -131,9 +139,10 @@ mkdir -p "$LOGDIR"
 TS=$(date +%Y%m%d-%H%M)
 LOG="$LOGDIR/insider-$TS.log"
 
-# Auto-export env so claude inherits CLAUDE_CODE_OAUTH_TOKEN
+# Auto-export env so claude inherits CLAUDE_CODE_OAUTH_TOKEN + HC_PING_URL
 set -a
-source /home/cron-runner/.aspan-cron.env
+source /home/cron-runner/.shared.env
+source /home/cron-runner/.insider-monitor.env
 set +a
 
 cd "$REPO"
@@ -172,6 +181,10 @@ cd "$REPO"
     fi
   fi
 
+  # 6. Heartbeat to Healthchecks.io — confirms the pipeline reached the end.
+  #    If this ping doesn't arrive within the check's grace, HC fires the
+  #    Telegram webhook and you get an alert.
+  curl -fsS -m 10 --retry 3 "$HC_PING_URL" >/dev/null && echo "HC ping ok" || echo "HC ping failed"
   echo "=== done $(date +%Y-%m-%dT%H:%M:%S) ==="
 } >>"$LOG" 2>&1
 
@@ -186,6 +199,34 @@ Key design choices:
 - **Skill failure tolerated** (`|| echo "(skill exited non-zero)"`) — daily list update is more important than dilution data; we don't fail the pipeline if one part errors.
 - **Site rebuild gated on data change** — saves the deploy round-trip when there's nothing to push.
 - **Single log file per run** — easy to grep, easy to prune.
+- **HC ping at the very end** — guarantees we only report "alive" if every preceding step (workflow dispatch, skill run, optional commit) actually completed.
+
+---
+
+## Monitoring & alerting
+
+A Healthchecks.io account monitors all 4 droplet workloads. Each check has a Telegram webhook attached pointing at `@templargin_droplet_alerts_bot` (or whatever the dedicated alerting bot is named) — when a check fails to ping within its grace window, HC fires a POST to Telegram and you get a message.
+
+| Check | Schedule (cron-style) | Grace | What's monitored |
+|---|---|---|---|
+| `insider-monitor` | `30 6 * * 1-5` America/New_York | 30 min | This pipeline; ping at end of `run-insider.sh` |
+| `crm-health` | `0 8 * * *` America/New_York | 30 min | CRM `/health` cron; ping at end of `run-health.sh` |
+| `crm-clearsessions` | `30 3 * * *` America/New_York | 15 min | CRM session purge; ping at end of `run-clearsessions.sh` |
+| `tuning-bot` | every 10 min (heartbeat) | 5 min | Tuning bot daemon; ping every ~4 min from inside its main loop |
+
+The tuning-bot heartbeat is implemented in `crm/ai_agents/services/tuning_bot/bot.py::run()`. Env vars `TUNING_BOT_HEARTBEAT_URL` and `TUNING_BOT_HEARTBEAT_PERIOD` (default 240s) control it.
+
+Channel & check IDs are managed through Healthchecks.io's web UI. The webhook channel POSTs to `https://api.telegram.org/bot<TOKEN>/sendMessage` with a JSON body referencing `$NAME` and `$NOW` HC template variables.
+
+Test alerting end-to-end:
+
+```bash
+# Force one failure — Telegram alert lands within seconds
+curl -fsS https://hc-ping.com/<CHECK_UUID>/fail
+
+# Restore "up"
+curl -fsS https://hc-ping.com/<CHECK_UUID>
+```
 
 ---
 
@@ -237,7 +278,7 @@ Runs the full pipeline now. Takes ~13–15 min. Logs to a new file in `/home/cro
 ### Test the skill alone (no workflow re-run)
 
 ```bash
-ssh root@142.93.227.10 'sudo -u cron-runner -H bash -c "set -a; source /home/cron-runner/.aspan-cron.env; set +a; cd /opt/insider-monitor && git pull -q && claude --dangerously-skip-permissions -p \"/extract-options-warrants\""'
+ssh root@142.93.227.10 'sudo -u cron-runner -H bash -c "set -a; source /home/cron-runner/.shared.env; source /home/cron-runner/.insider-monitor.env; set +a; cd /opt/insider-monitor && git pull -q && claude --dangerously-skip-permissions -p \"/extract-options-warrants\""'
 ```
 
 Useful when you just want to re-extract from existing footnote files without spending 10 minutes re-scraping EDGAR.
@@ -352,12 +393,19 @@ If we ever need to rebuild this on a different droplet:
    sudo -u cron-runner -H git -C /opt/insider-monitor config user.name "insider-monitor[bot]"
    sudo -u cron-runner -H git -C /opt/insider-monitor config user.email "actions@users.noreply.github.com"
    ```
-4. Write the env file:
+4. Write the env files:
    ```bash
-   sudo -u cron-runner tee /home/cron-runner/.aspan-cron.env <<EOF
+   # Shared (used by every Claude-running job)
+   sudo -u cron-runner tee /home/cron-runner/.shared.env <<EOF
    CLAUDE_CODE_OAUTH_TOKEN=sk-ant-oat-...
    EOF
-   chmod 600 /home/cron-runner/.aspan-cron.env
+
+   # insider-monitor-specific
+   sudo -u cron-runner tee /home/cron-runner/.insider-monitor.env <<EOF
+   HC_PING_URL=https://hc-ping.com/<your-check-uuid>
+   EOF
+
+   chmod 600 /home/cron-runner/.shared.env /home/cron-runner/.insider-monitor.env
    ```
 5. Copy `run-insider.sh` (full source above) into `/home/cron-runner/run-insider.sh`, chmod 755, chown cron-runner.
 6. Add the crontab line:
@@ -370,7 +418,7 @@ If we ever need to rebuild this on a different droplet:
 
 ## Limitations and known gaps
 
-- **No dead-man's switch.** If the droplet is down or `run-insider.sh` errors silently, no one notices. CRM `/health` uses Telegram for this; we explicitly skipped notifications here. Healthchecks.io ping at the end of the script would close the gap with ~1 line of code.
+- **Dead-man's switch in place (May 2026).** Healthchecks.io monitors all 4 droplet workloads; missed pings fire a Telegram webhook → `@templargin_droplet_alerts_bot` → your DM. See "Monitoring & alerting" above.
 - **`gh` token is your personal account.** Rotating it (e.g., revoking from claude.ai web UI) invalidates the droplet copy. Workaround: re-pipe the new token. Better long-term: a fine-grained PAT scoped to `templargin/insider-monitor` with `actions:write` + `contents:write` (5-minute setup, single-purpose, can be rotated without affecting your Mac).
 - **Single point of failure.** Droplet down → no morning page. GH Actions `schedule:` cron is a partial backup but fires late. Acceptable risk for a personal tool.
 - **Skill is conservative.** Some footnotes are genuinely ambiguous and the skill leaves them `null`. You can manually edit a `data/companies/TICKER.json` and push if you want to override.
