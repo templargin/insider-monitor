@@ -2,8 +2,64 @@
   "ticker": "XRN",
   "cik": "1533615",
   "name": "Chiron Real Estate Inc.",
-  "description": "Chiron Real Estate Inc. is a net-lease medical REIT that acquires healthcare facilities and leases those facilities to physician groups and regional and national healthcare systems. Chiron Real Estate Inc. was established on March 18, 2011 and incorporated in Maryland.",
+  "description": "Chiron Real Estate Inc. is a net-lease medical REIT that acquires healthcare facilities and leases those facilities to physician groups and regional and national healthcare systems. Chiron Real Estate Inc. was established on March 18, 2011 and is based in Bethesda, United States.",
   "form4_filings": [
+    {
+      "date_filed": "2026-05-12",
+      "reporter_name": "Holley Danica",
+      "relationship": "Officer (COO)",
+      "transaction_date": "2026-05-12",
+      "code": "P",
+      "shares": 1490.0,
+      "price": 33.99,
+      "total_value": 50645.100000000006,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-059535"
+    },
+    {
+      "date_filed": "2026-05-12",
+      "reporter_name": "Decker Mark Okey Jr",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-05-12",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 33.74,
+      "total_value": 33740.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-059532"
+    },
+    {
+      "date_filed": "2026-05-12",
+      "reporter_name": "Decker Mark Okey Jr",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-05-12",
+      "code": "P",
+      "shares": 4000.0,
+      "price": 33.99,
+      "total_value": 135960.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-059532"
+    },
+    {
+      "date_filed": "2026-05-12",
+      "reporter_name": "KIERNAN ROBERT J",
+      "relationship": "Officer (CFO and Treasurer)",
+      "transaction_date": "2026-05-11",
+      "code": "P",
+      "shares": 3000.0,
+      "price": 33.49,
+      "total_value": 100470.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-059537"
+    },
     {
       "date_filed": "2026-05-11",
       "reporter_name": "Crowley Paula",
@@ -706,16 +762,16 @@
     }
   ],
   "valuation": {
-    "share_price": 33.540000915527344,
+    "share_price": 34.11000061035156,
     "shares_basic": 13234830,
     "shares_basic_as_of": "2026-05-05",
     "options": 137000,
-    "warrants": 0,
+    "warrants": null,
     "cash": 8183000,
     "debt": 1153000,
     "ttm_revenue": 147880000,
-    "mc_basic": 443896210.31684875,
-    "ev_basic": 436866210.31684875
+    "mc_basic": 451440059.37789917,
+    "ev_basic": 444410059.37789917
   },
   "financials": {
     "income_statement": {
@@ -1404,5 +1460,5 @@
       }
     }
   },
-  "last_updated": "2026-05-12T12:33:38+00:00"
+  "last_updated": "2026-05-13T12:34:50+00:00"
 }
