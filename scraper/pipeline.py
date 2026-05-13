@@ -153,6 +153,24 @@ def update_company_data(ticker, cik, screener_snapshot):
     # XBRL-primary: skip the yfinance financial-statement scrape entirely.
     fins = xbrl_financials.fetch_xbrl_financials(cik)
 
+    # CRITICAL: preserve existing options/warrants if XBRL returns None.
+    # Those fields are populated by the LLM-extraction routine from filing
+    # footnotes — rewriting them as None on every daily refresh would clobber
+    # the routine's work for the common case where XBRL doesn't tag them.
+    path = COMPANIES_DIR / f"{ticker.upper()}.json"
+    existing_options = None
+    existing_warrants = None
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text())
+            ev = existing.get("valuation", {}) or {}
+            existing_options = ev.get("options")
+            existing_warrants = ev.get("warrants")
+        except Exception:
+            pass
+    final_options = options if options is not None else existing_options
+    final_warrants = warrants if warrants is not None else existing_warrants
+
     payload = {
         "ticker": ticker.upper(),
         "cik": str(cik),
@@ -163,8 +181,8 @@ def update_company_data(ticker, cik, screener_snapshot):
             "share_price": screener_snapshot["share_price"],
             "shares_basic": screener_snapshot["shares"],
             "shares_basic_as_of": screener_snapshot["shares_as_of"],
-            "options": options,
-            "warrants": warrants,
+            "options": final_options,
+            "warrants": final_warrants,
             "cash": screener_snapshot["cash"],
             "debt": screener_snapshot["debt"],
             "ttm_revenue": screener_snapshot["ttm_revenue"],
@@ -174,13 +192,13 @@ def update_company_data(ticker, cik, screener_snapshot):
         "financials": fins,
         "last_updated": _now_iso(),
     }
-
-    path = COMPANIES_DIR / f"{ticker.upper()}.json"
     path.write_text(json.dumps(payload, indent=2, default=str))
 
     # Pre-fetch footnote text for the LLM-extraction routine to consume.
     # The routine is sandboxed away from sec.gov; we do the network fetch here.
-    if options is None or warrants is None:
+    # Only when the merged value is still null (XBRL didn't have it AND prior
+    # extraction routine hasn't filled it yet).
+    if final_options is None or final_warrants is None:
         try:
             fn = footnotes.fetch_footnotes(cik, ticker)
             if fn:
