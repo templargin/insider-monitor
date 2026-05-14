@@ -2960,7 +2960,7 @@
     }
   ],
   "valuation": {
-    "share_price": 72.66999816894531,
+    "share_price": 72.62000274658203,
     "shares_basic": 33825088,
     "shares_basic_as_of": "2026-05-05",
     "options": 1250478,
@@ -2968,18 +2968,20 @@
     "cash": 4798204000,
     "debt": 0,
     "ttm_revenue": 43396000,
-    "mc_basic": 2458069083.024414,
-    "ev_basic": -2340134916.975586
+    "mc_basic": 2456377983.463379,
+    "ev_basic": -2341826016.536621
   },
   "financials": {
     "income_statement": {
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "",
           "SG&A",
           "",
           "Operating Income",
+          "Operating Income YoY %",
           "Operating Margin %",
           "",
           "Interest Expense",
@@ -2990,7 +2992,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "3/31/26",
@@ -3004,6 +3007,12 @@
             387714000,
             391670000,
             357607000
+          ],
+          [
+            27.618372076207134,
+            17.6620184210127,
+            14.970499310182875,
+            -2.045607067041019
           ],
           [
             null,
@@ -3028,6 +3037,12 @@
             74492000,
             75745000,
             60939000
+          ],
+          [
+            439.44392812887236,
+            176.76760170908415,
+            62.04565389470081,
+            4.913488852543686
           ],
           [
             18.79323742404783,
@@ -3094,6 +3109,12 @@
             659849,
             33460055,
             32374061
+          ],
+          [
+            34080834,
+            598940,
+            32340813,
+            31585390
           ]
         ]
       },
@@ -3116,7 +3137,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -3232,6 +3254,12 @@
             32719134,
             32158788,
             33547706
+          ],
+          [
+            32393487,
+            31509179,
+            31435647,
+            32632751
           ]
         ]
       }
@@ -3247,7 +3275,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "3/31/26",
@@ -3322,7 +3350,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",
@@ -3721,5 +3749,5 @@
       }
     }
   },
-  "last_updated": "2026-05-13T14:48:45+00:00"
+  "last_updated": "2026-05-14T01:29:15+00:00"
 }

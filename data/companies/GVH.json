@@ -88,6 +88,7 @@
           "Operating Income",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -97,7 +98,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "9/30/25",
@@ -173,6 +175,12 @@
             705453
           ],
           [
+            1.9990693542458655,
+            2.9824748777962187,
+            0.0,
+            8.874387289974042
+          ],
+          [
             null,
             null,
             null,
@@ -231,6 +239,12 @@
             14488096,
             -14223844,
             0
+          ],
+          [
+            348229,
+            14488096,
+            -14223844,
+            0
           ]
         ]
       },
@@ -250,6 +264,7 @@
           "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -259,7 +274,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "9/30/25",
@@ -353,6 +369,12 @@
             818523
           ],
           [
+            4.360706480664517,
+            8.995544885442888,
+            6.820052394011357,
+            4.209603674765027
+          ],
+          [
             null,
             null,
             null,
@@ -411,6 +433,12 @@
             14559582,
             13125000,
             13125000
+          ],
+          [
+            423124,
+            14559582,
+            13125000,
+            13125000
           ]
         ]
       }
@@ -430,7 +458,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "9/30/25",
@@ -533,7 +561,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "9/30/25",

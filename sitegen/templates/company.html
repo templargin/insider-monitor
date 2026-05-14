@@ -79,7 +79,7 @@
             </tr>
           </thead>
           <tbody>
-            {% set subtotals = ("Total Revenue", "Gross Profit", "Operating Income", "EBITDA", "Net Income", "Pretax Income", "Operating Cash Flow", "Free Cash Flow", "Investing Cash Flow", "Financing Cash Flow", "End Cash Position", "Total Assets", "Total Current Assets", "Total Liabilities", "Total Current Liabilities", "Stockholders' Equity") %}
+            {% set subtotals = ("Total Revenue", "Gross Profit", "Operating Income", "EBITDA", "Net Income", "Pretax Income", "Operating Cash Flow", "Free Cash Flow", "Investing Cash Flow", "Financing Cash Flow", "End Cash Position", "Total Assets", "Total Current Assets", "Total Liabilities", "Total Current Liabilities", "Total Equity") %}
             {% for i in range(t.labels|length) %}
               {% set label = t.labels[i] %}
               {% if label == "" %}

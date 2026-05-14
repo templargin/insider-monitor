@@ -1464,14 +1464,19 @@
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "Gross Profit",
+          "Gross Profit YoY %",
           "Gross Margin %",
           "",
           "SG&A",
+          "Operating Expense",
           "",
           "Operating Income",
+          "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Pretax Income",
           "Tax Provision",
@@ -1480,7 +1485,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "3/31/26",
@@ -1496,10 +1502,22 @@
             159284000
           ],
           [
+            32.114398307785926,
+            19.835558852621165,
+            35.185883417540154,
+            72.99187627611973
+          ],
+          [
             26500000,
             29833000,
             25733000,
             26308000
+          ],
+          [
+            13.267225166695162,
+            -4.52523442250456,
+            6.084841489054706,
+            41.7609656212954
           ],
           [
             14.530420669386324,
@@ -1520,6 +1538,12 @@
             16357000
           ],
           [
+            22616000,
+            20317000,
+            18796000,
+            18352000
+          ],
+          [
             null,
             null,
             null,
@@ -1532,6 +1556,12 @@
             7956000
           ],
           [
+            -18.710757639179572,
+            -18.8470066518847,
+            -18.52243363871271,
+            87.2
+          ],
+          [
             2.129666184147037,
             4.90905151512025,
             4.2995357716169895,
@@ -1542,6 +1572,12 @@
             11548000,
             8913000,
             9939000
+          ],
+          [
+            3.216980304426021,
+            5.957306315322472,
+            5.5242557780628845,
+            6.239798096481755
           ],
           [
             null,
@@ -1596,6 +1632,12 @@
             6000,
             4536000,
             4521000
+          ],
+          [
+            18216000,
+            6000,
+            4536000,
+            4521000
           ]
         ]
       },
@@ -1609,11 +1651,13 @@
           "Gross Margin %",
           "",
           "SG&A",
+          "Operating Expense",
           "",
           "Operating Income",
           "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Pretax Income",
           "Tax Provision",
@@ -1622,7 +1666,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -1680,6 +1725,12 @@
             34144000
           ],
           [
+            76085000,
+            63088000,
+            47757000,
+            36780000
+          ],
+          [
             null,
             null,
             null,
@@ -1708,6 +1759,12 @@
             32261000,
             19288000,
             19380000
+          ],
+          [
+            5.657017365064818,
+            6.928804764533179,
+            5.479343092442608,
+            6.367710647022488
           ],
           [
             null,
@@ -1762,6 +1819,12 @@
             4465000,
             4401000,
             4331000
+          ],
+          [
+            4524000,
+            4465000,
+            4401000,
+            4331000
           ]
         ]
       }
@@ -1784,7 +1847,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "3/31/26",
@@ -1908,7 +1971,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",

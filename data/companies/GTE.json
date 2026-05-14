@@ -6462,9 +6462,9 @@
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "",
           "SG&A",
-          "Operating Expense",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -6474,7 +6474,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "3/31/26",
@@ -6490,6 +6491,12 @@
             152481000
           ],
           [
+            2.309526499497541,
+            -11.786950913164505,
+            -1.3998533424058452,
+            -7.927105410937811
+          ],
+          [
             null,
             null,
             null,
@@ -6500,12 +6507,6 @@
             19859000,
             13596000,
             15006000
-          ],
-          [
-            319373000,
-            310885000,
-            181680000,
-            161164000
           ],
           [
             null,
@@ -6566,6 +6567,12 @@
             -30156,
             35291099,
             35334692
+          ],
+          [
+            35299842,
+            -30156,
+            35291099,
+            35334692
           ]
         ]
       },
@@ -6579,7 +6586,6 @@
           "Gross Margin %",
           "",
           "SG&A",
-          "Operating Expense",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -6589,7 +6595,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -6645,12 +6652,6 @@
             51138000,
             45846000,
             40957000
-          ],
-          [
-            834878000,
-            582388000,
-            530483000,
-            469494000
           ],
           [
             null,
@@ -6711,6 +6712,12 @@
             32042897,
             33469828,
             36928010
+          ],
+          [
+            35435782,
+            32042897,
+            33469828,
+            36445546
           ]
         ]
       }
@@ -6730,7 +6737,7 @@
           "Long-term Debt",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "3/31/26",
@@ -6833,7 +6840,7 @@
           "Long-term Debt",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",

@@ -182,27 +182,41 @@ LI_IS = [
         "NoninterestExpense",  # banks
     ]),
     ("R&D", ["ResearchAndDevelopmentExpense"]),
-    ("Operating Expense", ["OperatingExpenses", "CostsAndExpenses"]),
+    # NOTE: "Operating Expense" intentionally has no XBRL candidates — it's
+    # DERIVED in _derive_opex as (Rev - OpInc - CoR), so the page always
+    # reconciles GP - OpEx = OpInc. The OperatingExpenses and CostsAndExpenses
+    # tags are inconsistent across filers — some include COGS, some don't.
+    ("Operating Expense", []),
     ("Operating Income", ["OperatingIncomeLoss", "IncomeLossFromContinuingOperations"]),
     ("Interest Expense", ["InterestExpense", "InterestExpenseDebt",
                           "InterestExpenseNonoperating", "InterestIncomeExpenseNet"]),
-    ("Pretax Income", [
-        "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
-        "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-        "IncomeLossFromContinuingOperationsBeforeIncomeTaxesAndIncomeTaxExpenseBenefit",
-    ]),
+    # Pretax is DERIVED in _derive_pretax as (NI + Tax). The XBRL Pretax tags
+    # have filer-specific sign-convention bugs (e.g., LODE FY24/25 reported
+    # loss as a positive value under the *MinorityInterest* variant).
+    ("Pretax Income", []),
     ("Tax Provision", ["IncomeTaxExpenseBenefit"]),
-    ("Net Income", ["NetIncomeLoss", "ProfitLoss"]),
+    # ProfitLoss = total net income (includes NCI). NetIncomeLoss = parent's
+    # share. Prefer total so the IS reconciles with Pretax - Tax. For most
+    # small caps with no NCI they are identical, and the "Net Income to Common"
+    # row below gets pruned in _drop_redundant_nci_row.
+    ("Net Income", ["ProfitLoss", "NetIncomeLoss"]),
+    # When NCI is meaningful (e.g., MKTW), Net Income to Common = parent's
+    # share. Shown alongside total NI so that EPS = NI_to_Common / shares
+    # is visibly consistent. Otherwise pruned.
+    ("Net Income to Common", ["NetIncomeLoss"]),
 ]
 
 LI_IS_PER_SHARE = [
-    ("Diluted EPS", ["EarningsPerShareDiluted", "EarningsPerShareBasic"]),
+    # EPS uses parent-attributable income / weighted shares. Diluted EPS
+    # falling back to Basic would mislabel basic as diluted, so we keep
+    # them strictly separate.
+    ("Diluted EPS", ["EarningsPerShareDiluted"]),
     ("Basic EPS", ["EarningsPerShareBasic"]),
 ]
 
 LI_IS_SHARES = [
-    ("Diluted Avg Shares", ["WeightedAverageNumberOfDilutedSharesOutstanding",
-                            "WeightedAverageNumberOfSharesOutstandingBasic"]),
+    ("Diluted Avg Shares", ["WeightedAverageNumberOfDilutedSharesOutstanding"]),
+    ("Basic Avg Shares", ["WeightedAverageNumberOfSharesOutstandingBasic"]),
 ]
 
 LI_BS = [
@@ -219,8 +233,26 @@ LI_BS = [
     ("Total Current Liabilities", ["LiabilitiesCurrent"]),
     ("Long-term Debt", ["LongTermDebtNoncurrent", "LongTermDebt"]),
     ("Total Liabilities", ["Liabilities"]),
+    # Mezzanine equity: redeemable preferred stock and redeemable NCI sit
+    # between liabilities and stockholders' equity in GAAP. Including it as
+    # its own row makes Assets = Liabilities + Mezzanine + Total Equity
+    # reconcile for SPACs and similar structures. Auto-pruned when zero.
+    ("Mezzanine Equity", [
+        "TemporaryEquityCarryingAmountAttributableToParent",
+        "TemporaryEquityCarryingAmount",
+        "TemporaryEquityRedemptionValue",
+        "RedeemableNoncontrollingInterestEquityCarryingAmount",
+    ]),
     ("Retained Earnings", ["RetainedEarningsAccumulatedDeficit"]),
-    ("Stockholders' Equity", ["StockholdersEquity"]),
+    # "Total Equity" includes noncontrolling interest so that
+    # Total Liabilities + Total Equity = Total Assets. The parent-only
+    # StockholdersEquity tag is the fallback for filers that don't report
+    # the including-NCI variant; on those, NCI is typically nil so the
+    # two coincide.
+    ("Total Equity", [
+        "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "StockholdersEquity",
+    ]),
 ]
 
 LI_CF_NEGATE = {"CapEx", "Stock Buyback", "Debt Repayment", "Dividends Paid"}
@@ -287,16 +319,60 @@ def _augment_eps_and_shares(stmt, usg, freq):
 
 
 def _derive_gross_profit(stmt):
+    """Fill GP = Rev - CoR for any period missing a reported GP. Filler runs
+    per-period (not all-or-nothing) — some filers report GP only for older
+    periods after a CoR-reporting change."""
     labels = stmt["labels"]
     if "Gross Profit" not in labels or "Total Revenue" not in labels or "Cost of Revenue" not in labels:
         return stmt
     gp_i, rev_i, cor_i = (labels.index(x) for x in ("Gross Profit", "Total Revenue", "Cost of Revenue"))
     gp_row = stmt["data"][gp_i]
-    if any(v is not None for v in gp_row):
-        return stmt
     rev_row, cor_row = stmt["data"][rev_i], stmt["data"][cor_i]
-    stmt["data"][gp_i] = [(r - c) if (r is not None and c is not None) else None
-                          for r, c in zip(rev_row, cor_row)]
+    new_gp = []
+    for g, r, c in zip(gp_row, rev_row, cor_row):
+        if g is not None:
+            new_gp.append(g)
+        elif r is not None and c is not None:
+            new_gp.append(r - c)
+        else:
+            new_gp.append(None)
+    stmt["data"][gp_i] = new_gp
+    return stmt
+
+
+def _derive_opex(stmt):
+    """Operating Expense = Gross Profit - Operating Income. By definition this
+    satisfies GP - OpEx = OpInc, so the IS always reconciles. Filers' XBRL
+    OperatingExpenses tag is inconsistent (some include COGS, some don't), so
+    we ignore it. Anchoring on GP (not Rev) is correct when CoR isn't reported
+    for some periods — the company's reported GP already accounts for it."""
+    labels = stmt["labels"]
+    if not all(n in labels for n in ("Gross Profit", "Operating Income", "Operating Expense")):
+        return stmt
+    gp_row = stmt["data"][labels.index("Gross Profit")]
+    op_row = stmt["data"][labels.index("Operating Income")]
+    opex_i = labels.index("Operating Expense")
+    stmt["data"][opex_i] = [
+        (g - o) if (g is not None and o is not None) else None
+        for g, o in zip(gp_row, op_row)
+    ]
+    return stmt
+
+
+def _derive_pretax(stmt):
+    """Pretax Income = Net Income + Tax Provision. Avoids filer-specific bugs
+    in the XBRL Pretax tags (e.g., LODE's *MinorityInterest* variant reports
+    losses as positive)."""
+    labels = stmt["labels"]
+    if not all(n in labels for n in ("Pretax Income", "Net Income", "Tax Provision")):
+        return stmt
+    ni_row = stmt["data"][labels.index("Net Income")]
+    tax_row = stmt["data"][labels.index("Tax Provision")]
+    pretax_i = labels.index("Pretax Income")
+    stmt["data"][pretax_i] = [
+        (n + t) if (n is not None and t is not None) else (n if n is not None else None)
+        for n, t in zip(ni_row, tax_row)
+    ]
     return stmt
 
 
@@ -368,6 +444,27 @@ def _strip(stmt):
     return stmt
 
 
+def _drop_redundant_nci_row(stmt):
+    """If 'Net Income to Common' equals 'Net Income' (no NCI exposure), drop
+    the redundant row. Keep both when they differ so the EPS denominator is
+    visibly tied to the right NI."""
+    labels = stmt.get("labels", [])
+    if "Net Income to Common" not in labels or "Net Income" not in labels:
+        return stmt
+    ni_row = stmt["data"][labels.index("Net Income")]
+    common_row = stmt["data"][labels.index("Net Income to Common")]
+    # Equal (within $1k) at every period → redundant.
+    def near(a, b):
+        if a is None and b is None: return True
+        if a is None or b is None: return False
+        return abs(a - b) <= 1000
+    if all(near(a, b) for a, b in zip(ni_row, common_row)):
+        idx = labels.index("Net Income to Common")
+        del stmt["labels"][idx]
+        del stmt["data"][idx]
+    return stmt
+
+
 def _build_ratios(is_stmt, bs_stmt):
     """Build a ratios grid from already-extracted IS + BS data, aligned by period end.
 
@@ -400,7 +497,7 @@ def _build_ratios(is_stmt, bs_stmt):
     cl = bs_row("Total Current Liabilities")
     lt_debt = bs_row("Long-term Debt")
     total_liab = bs_row("Total Liabilities")
-    equity = bs_row("Stockholders' Equity")
+    equity = bs_row("Total Equity")
 
     def safe_div(a, b):
         return [(x / y) if (x is not None and y is not None and y != 0) else None for x, y in zip(a, b)]
@@ -448,15 +545,21 @@ def fetch_xbrl_financials(cik):
         return None
     usg = facts.get("facts", {}).get("us-gaap", {})
 
-    is_q = _build_grid(usg, LI_IS, "quarterly", n=4)
+    # Quarterly: pull 8 periods so _canonicalize can compute Q-vs-PYQ YoY (offset 4).
+    # _canonicalize trims display to 4 periods after derived rows are computed.
+    is_q = _build_grid(usg, LI_IS, "quarterly", n=8)
     is_q = _augment_eps_and_shares(is_q, usg, "quarterly")
     is_q = _derive_gross_profit(is_q)
+    is_q = _derive_opex(is_q)
+    is_q = _derive_pretax(is_q)
 
     is_a = _build_grid(usg, LI_IS, "annual", n=4)
     is_a = _augment_eps_and_shares(is_a, usg, "annual")
     is_a = _derive_gross_profit(is_a)
+    is_a = _derive_opex(is_a)
+    is_a = _derive_pretax(is_a)
 
-    cf_q = _build_grid(usg, LI_CF, "quarterly", n=4)
+    cf_q = _build_grid(usg, LI_CF, "quarterly", n=8)
     cf_q = _negate_outflows(cf_q)
     cf_q = _add_fcf(cf_q)
 
@@ -471,11 +574,14 @@ def fetch_xbrl_financials(cik):
     bs_a = _build_bs_at_ends(usg, is_a["_ends"])
 
     # Run the canonical filter — adds margin rows, YoY rows, and spacers.
-    is_q_c = _canonicalize(_strip(is_q), INCOME_CANONICAL, "quarterly")
-    is_a_c = _canonicalize(_strip(is_a), INCOME_CANONICAL, "annual")
-    bs_q_c = _canonicalize(_strip(bs_q), BALANCE_CANONICAL, "quarterly")
+    # `display_n` trims to that many display periods AFTER derivations like
+    # YoY (which need the wider buffer to compare against the prior year's
+    # same quarter).
+    is_q_c = _drop_redundant_nci_row(_canonicalize(_strip(is_q), INCOME_CANONICAL, "quarterly", display_n=4))
+    is_a_c = _drop_redundant_nci_row(_canonicalize(_strip(is_a), INCOME_CANONICAL, "annual"))
+    bs_q_c = _canonicalize(_strip(bs_q), BALANCE_CANONICAL, "quarterly", display_n=4)
     bs_a_c = _canonicalize(_strip(bs_a), BALANCE_CANONICAL, "annual")
-    cf_q_c = _canonicalize(_strip(cf_q), CASHFLOW_CANONICAL, "quarterly")
+    cf_q_c = _canonicalize(_strip(cf_q), CASHFLOW_CANONICAL, "quarterly", display_n=4)
     cf_a_c = _canonicalize(_strip(cf_a), CASHFLOW_CANONICAL, "annual")
 
     # Build Ratios using the canonicalized IS + BS so the periods are aligned.

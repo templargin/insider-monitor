@@ -5,6 +5,48 @@
   "description": "InspireMD, Inc., a medical device company, focuses on the development and commercialization of products for the treatment of carotid artery disease and other vascular conditions in the United States, Germany, Italy, Russia, Poland, and internationally. It offers MicroNet, a biocompatible polymer mesh material for medical implants, as well as for treating plaque prolapse and embolization; CGuard carotid embolic prevention system (EPS) for use in carotid artery applications; CGuard Prime Carotid Stent System; and SwitchGuard neuroprotection system to provide flow reversal of cerebral protection in carotid interventions, as well as treating acute stroke with tandem lesions. The company was founded in 2005 and is headquartered in Miami, Florida.",
   "form4_filings": [
     {
+      "date_filed": "2026-05-13",
+      "reporter_name": "Slosman Marvin",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-05-12",
+      "code": "P",
+      "shares": 21000.0,
+      "price": 1.2,
+      "total_value": 25200.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-022775"
+    },
+    {
+      "date_filed": "2026-05-13",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-05-11",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 1.19,
+      "total_value": 11900.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-022763"
+    },
+    {
+      "date_filed": "2026-05-13",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-05-08",
+      "code": "P",
+      "shares": 65626.0,
+      "price": 1.16,
+      "total_value": 76126.15999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-022763"
+    },
+    {
       "date_filed": "2026-05-12",
       "reporter_name": "Stuka Paul",
       "relationship": "Director",
@@ -1112,7 +1154,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.1649999618530273,
+    "share_price": 1.1699999570846558,
     "shares_basic": 46838962,
     "shares_basic_as_of": "2026-05-07",
     "options": null,
@@ -1120,16 +1162,18 @@
     "cash": 11362000,
     "debt": 5010000,
     "ttm_revenue": 9228000,
-    "mc_basic": 54567388.9432354,
-    "ev_basic": 48215388.9432354
+    "mc_basic": 54801583.52988982,
+    "ev_basic": 48449583.52988982
   },
   "financials": {
     "income_statement": {
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "Cost of Revenue",
           "Gross Profit",
+          "Gross Profit YoY %",
           "Gross Margin %",
           "",
           "SG&A",
@@ -1137,15 +1181,19 @@
           "Operating Expense",
           "",
           "Operating Income",
+          "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
+          "Pretax Income",
           "Net Income",
           "Net Margin %",
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "3/31/26",
@@ -1161,6 +1209,12 @@
             1778000
           ],
           [
+            122.23675604970569,
+            61.570035915854284,
+            39.392265193370164,
+            2.2426682001150087
+          ],
+          [
             2711000,
             1969000,
             1659000,
@@ -1171,6 +1225,12 @@
             1180000,
             864000,
             313000
+          ],
+          [
+            135.27397260273972,
+            151.59914712153517,
+            108.69565217391305,
+            -5.438066465256798
           ],
           [
             20.21777516185992,
@@ -1215,6 +1275,12 @@
             -13019000
           ],
           [
+            -21.972076788830716,
+            -29.006085192697768,
+            -54.23067832663673,
+            -57.61501210653753
+          ],
+          [
             -411.35962330782814,
             -383.7408701174976,
             -517.2810146650812,
@@ -1227,10 +1293,22 @@
             -12912000
           ],
           [
+            -406.97469099470277,
+            -379.19974595109557,
+            -512.2076892588188,
+            -726.2092238470191
+          ],
+          [
             null,
             null,
             null,
             null
+          ],
+          [
+            -13689000,
+            -11761000,
+            -12708000,
+            -13151000
           ],
           [
             -13689000,
@@ -1267,6 +1345,12 @@
             6080442,
             73466501,
             51003900
+          ],
+          [
+            83801839,
+            6080442,
+            73466501,
+            51003900
           ]
         ]
       },
@@ -1287,6 +1371,7 @@
           "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Pretax Income",
           "Tax Provision",
@@ -1295,7 +1380,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -1395,13 +1481,19 @@
             169287000
           ],
           [
+            4748.702528121172,
+            3516.86403195891,
+            3398.1788879935534,
+            3273.7768323341716
+          ],
+          [
             null,
             null,
             null,
             null
           ],
           [
-            -48723000,
+            -48725000,
             -31946000,
             -19851000,
             -18463000
@@ -1447,6 +1539,12 @@
             41928360,
             24268181,
             7871814
+          ],
+          [
+            64325810,
+            41928360,
+            24268181,
+            7871814
           ]
         ]
       }
@@ -1466,7 +1564,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "3/31/26",
@@ -1569,7 +1667,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",
@@ -1992,5 +2090,5 @@
       }
     }
   },
-  "last_updated": "2026-05-13T14:48:12+00:00"
+  "last_updated": "2026-05-14T01:28:38+00:00"
 }

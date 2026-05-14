@@ -1000,7 +1000,7 @@
     }
   ],
   "valuation": {
-    "share_price": 15.805000305175781,
+    "share_price": 15.529999732971191,
     "shares_basic": 36139227,
     "shares_basic_as_of": "2026-05-01",
     "options": 2405102,
@@ -1008,23 +1008,28 @@
     "cash": 10046000,
     "debt": 243916000,
     "ttm_revenue": 805783000,
-    "mc_basic": 571180493.7638168,
-    "ev_basic": 805050493.7638168
+    "mc_basic": 561242185.6597853,
+    "ev_basic": 795112185.6597853
   },
   "financials": {
     "income_statement": {
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "Cost of Revenue",
           "Gross Profit",
+          "Gross Profit YoY %",
           "Gross Margin %",
           "",
           "SG&A",
+          "Operating Expense",
           "",
           "Operating Income",
+          "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -1034,7 +1039,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "3/31/26",
@@ -1050,6 +1056,12 @@
             234543000
           ],
           [
+            -5.238593294870498,
+            2.2294745527827438,
+            25.855826109342033,
+            35.31977498918217
+          ],
+          [
             101468000,
             118700000,
             136284000,
@@ -1060,6 +1072,12 @@
             74573000,
             88604000,
             101741000
+          ],
+          [
+            -3.4251310710376215,
+            -3.2825793733139657,
+            21.22422733305058,
+            46.941752480538426
           ],
           [
             39.788034512633665,
@@ -1080,6 +1098,12 @@
             73683000
           ],
           [
+            73113000,
+            77151000,
+            78667000,
+            86800000
+          ],
+          [
             null,
             null,
             null,
@@ -1092,6 +1116,12 @@
             14941000
           ],
           [
+            42.666666666666664,
+            88.71476098756786,
+            955.9000861326442,
+            663.5986420218785
+          ],
+          [
             -3.5978352460864715,
             -1.3338645335872057,
             4.418643947209278,
@@ -1102,6 +1132,12 @@
             9322000,
             22895000,
             27704000
+          ],
+          [
+            3.896319680983634,
+            4.823229318114791,
+            10.180623243570132,
+            11.811906558712048
           ],
           [
             null,
@@ -1162,6 +1198,12 @@
             -4427000,
             39935000,
             43455000
+          ],
+          [
+            36045000,
+            117000,
+            35300000,
+            35206000
           ]
         ]
       },
@@ -1175,11 +1217,13 @@
           "Gross Margin %",
           "",
           "SG&A",
+          "Operating Expense",
           "",
           "Operating Income",
           "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -1189,7 +1233,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -1247,6 +1292,12 @@
             176295000
           ],
           [
+            322621000,
+            314923000,
+            268725000,
+            220547000
+          ],
+          [
             null,
             null,
             null,
@@ -1275,6 +1326,12 @@
             16041000,
             17360000,
             19466000
+          ],
+          [
+            7.5420992176155695,
+            2.303434114259867,
+            2.781124240637736,
+            3.5755745606301064
           ],
           [
             null,
@@ -1335,6 +1392,12 @@
             33061000,
             30058000,
             29688000
+          ],
+          [
+            35120000,
+            33061000,
+            30058000,
+            29688000
           ]
         ]
       }
@@ -1356,7 +1419,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "3/31/26",
@@ -1473,7 +1536,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",
@@ -1922,5 +1985,5 @@
       }
     }
   },
-  "last_updated": "2026-05-13T14:48:53+00:00"
+  "last_updated": "2026-05-14T01:29:24+00:00"
 }

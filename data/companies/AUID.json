@@ -890,21 +890,24 @@
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "",
           "SG&A",
           "R&D",
-          "Operating Expense",
           "",
           "Operating Income",
+          "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Interest Expense",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
           "",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -918,6 +921,12 @@
             -106146,
             1444599,
             296256
+          ],
+          [
+            103.23055434570387,
+            -142.64261610155873,
+            415.12241564980496,
+            88.24486268728793
           ],
           [
             null,
@@ -938,12 +947,6 @@
             1998663
           ],
           [
-            4476699,
-            5126873,
-            5916053,
-            4674555
-          ],
-          [
             null,
             null,
             null,
@@ -956,6 +959,12 @@
             -4378299
           ],
           [
+            13.253717577875111,
+            -48.94471077421652,
+            -34.48673600958124,
+            -38.845561193635106
+          ],
+          [
             -1002.7683144024771,
             4930.019972490721,
             -309.5290803883984,
@@ -966,6 +975,12 @@
             -5216985,
             -4441205,
             -4348107
+          ],
+          [
+            -999.8238703685913,
+            4914.9143632355435,
+            -307.435142901248,
+            -1467.685717757615
           ],
           [
             null,
@@ -1008,6 +1023,12 @@
             13443740,
             13222454,
             10920909
+          ],
+          [
+            468770,
+            13443740,
+            13222454,
+            10920909
           ]
         ]
       },
@@ -1018,12 +1039,12 @@
           "",
           "SG&A",
           "R&D",
-          "Operating Expense",
           "",
           "Operating Income",
           "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
+          "EBITDA Margin %",
           "",
           "Interest Expense",
           "Pretax Income",
@@ -1031,7 +1052,8 @@
           "Net Income",
           "Net Margin %",
           "",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -1071,12 +1093,6 @@
             6269175
           ],
           [
-            20194180,
-            15570776,
-            10938425,
-            22797880
-          ],
-          [
             null,
             null,
             null,
@@ -1107,6 +1123,12 @@
             -21520565
           ],
           [
+            -885.2573187106133,
+            -1636.2618656830066,
+            -5513.86470053445,
+            -4080.3854649564387
+          ],
+          [
             null,
             null,
             null,
@@ -1121,8 +1143,8 @@
           [
             -17932880,
             -14277994,
-            -19615105,
-            -23667640
+            -19397512,
+            -24222550
           ],
           [
             null,
@@ -1153,6 +1175,12 @@
             10202371,
             6153881,
             3065365
+          ],
+          [
+            13007045,
+            10202371,
+            6153881,
+            3065365
           ]
         ]
       }
@@ -1171,7 +1199,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",
@@ -1268,7 +1296,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",

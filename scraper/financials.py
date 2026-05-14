@@ -38,16 +38,19 @@ INCOME_CANONICAL = [
     ("Operating Income YoY %", "__derived_yoy__:Operating Income"),
     ("Operating Margin %", "__derived_margin__:Operating Income:Total Revenue"),
     ("EBITDA", ["EBITDA", "Normalized EBITDA"]),
+    ("EBITDA Margin %", "__derived_margin__:EBITDA:Total Revenue"),
     SPACER,
     ("Interest Expense", ["Interest Expense", "Net Interest Income"]),
     ("Pretax Income", ["Pretax Income"]),
     ("Tax Provision", ["Tax Provision", "Tax Effect Of Unusual Items"]),
     ("Net Income", ["Net Income Common Stockholders", "Net Income", "Net Income Continuous Operations"]),
+    ("Net Income to Common", ["Net Income to Common"]),
     ("Net Margin %", "__derived_margin__:Net Income:Total Revenue"),
     SPACER,
     ("Diluted EPS", ["Diluted EPS"]),
     ("Basic EPS", ["Basic EPS"]),
-    ("Diluted Avg Shares", ["Diluted Average Shares"]),
+    ("Diluted Avg Shares", ["Diluted Average Shares", "Diluted Avg Shares"]),
+    ("Basic Avg Shares", ["Basic Avg Shares"]),
 ]
 
 BALANCE_CANONICAL = [
@@ -66,9 +69,10 @@ BALANCE_CANONICAL = [
     ("Total Current Liabilities", ["Current Liabilities"]),
     ("Long-term Debt", ["Long Term Debt And Capital Lease Obligation", "Long Term Debt"]),
     ("Total Liabilities", ["Total Liabilities Net Minority Interest", "Total Liabilities"]),
+    ("Mezzanine Equity", ["Mezzanine Equity"]),
     SPACER,
     ("Retained Earnings", ["Retained Earnings"]),
-    ("Stockholders' Equity", ["Stockholders Equity", "Common Stock Equity", "Total Equity Gross Minority Interest"]),
+    ("Total Equity", ["Total Equity", "Stockholders Equity", "Common Stock Equity", "Total Equity Gross Minority Interest"]),
 ]
 
 CASHFLOW_CANONICAL = [
@@ -99,14 +103,19 @@ CASHFLOW_CANONICAL = [
 ]
 
 
-def _canonicalize(stmt_dict, canonical, freq="annual"):
+def _canonicalize(stmt_dict, canonical, freq="annual", display_n=None):
     """Keep only canonical rows, in canonical order, with spacer rows interleaved.
     Drops everything else (duplicates, normalized variants, EBIT vs Operating Income, etc.).
 
     Supports derived rows:
       - "__derived_margin__:<num>:<den>" — pct of num/den
-      - "__derived_yoy__:<source>"      — pct change vs prior-period column.
-        Skipped when freq != "annual" (4-quarter window can't span a year).
+      - "__derived_yoy__:<source>"      — pct change vs prior period (offset 1 for
+        annual, offset 4 for quarterly so each quarter is compared to the same
+        quarter one year prior).
+
+    `display_n` (optional) — after derivations are computed, trim the period
+    columns to the first N (newest). Use for quarterly so we can pull 8 quarters
+    internally for YoY but display only the most recent 4.
     """
     if not stmt_dict or not stmt_dict.get("labels"):
         return stmt_dict
@@ -123,6 +132,9 @@ def _canonicalize(stmt_dict, canonical, freq="annual"):
             if l == name:
                 return new_data[i]
         return None
+
+    # YoY offset: 1 step for annual, 4 steps for quarterly (same quarter PY).
+    yoy_offset = 1 if freq == "annual" else 4
 
     for display_name, options in canonical:
         if display_name == "__spacer__":
@@ -143,17 +155,17 @@ def _canonicalize(stmt_dict, canonical, freq="annual"):
                 new_data.append(row)
                 continue
             if options.startswith("__derived_yoy__:"):
-                if freq != "annual":
-                    continue
                 _, source_name = options.split(":", 1)
                 src_row = find_row(source_name)
                 if src_row is None:
                     continue
-                # Periods are newest-left, so YoY = (col[j] - col[j+1]) / |col[j+1]|.
+                # Periods are newest-left. Quarterly: row[j] vs row[j+4] (same
+                # quarter one year prior). Annual: row[j] vs row[j+1].
                 row = []
                 for j in range(len(src_row)):
                     cur = src_row[j]
-                    prev = src_row[j + 1] if j + 1 < len(src_row) else None
+                    k = j + yoy_offset
+                    prev = src_row[k] if k < len(src_row) else None
                     if cur is None or prev is None or prev == 0:
                         row.append(None)
                     else:
@@ -171,6 +183,11 @@ def _canonicalize(stmt_dict, canonical, freq="annual"):
             continue
         new_labels.append(display_name)
         new_data.append(data[matched_idx])
+
+    # Optional period-trim after derivations are computed.
+    if display_n is not None and display_n < len(periods):
+        periods = periods[:display_n]
+        new_data = [row[:display_n] for row in new_data]
 
     # Drop content rows that came back all-None (keep spacers for later collapse).
     pruned_labels, pruned_data = [], []

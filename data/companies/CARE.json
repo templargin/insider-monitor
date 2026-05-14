@@ -1310,6 +1310,7 @@
       "quarterly": {
         "labels": [
           "Total Revenue",
+          "Revenue YoY %",
           "",
           "SG&A",
           "",
@@ -1321,7 +1322,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "3/31/26",
@@ -1335,6 +1337,12 @@
             64523000,
             64540000,
             62655000
+          ],
+          [
+            106.9037324346665,
+            null,
+            4.068239353725591,
+            4.22350123095349
           ],
           [
             null,
@@ -1407,6 +1415,12 @@
             -199226,
             22294228,
             22805881
+          ],
+          [
+            21846942,
+            -199226,
+            22294228,
+            22805881
           ]
         ]
       },
@@ -1425,7 +1439,8 @@
           "",
           "Diluted EPS",
           "Basic EPS",
-          "Diluted Avg Shares"
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
         ],
         "periods": [
           "12/31/25",
@@ -1517,6 +1532,12 @@
             22817149,
             23240543,
             24595789
+          ],
+          [
+            22456705,
+            22817149,
+            23240543,
+            24595789
           ]
         ]
       }
@@ -1533,7 +1554,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "3/31/26",
@@ -1615,7 +1636,7 @@
           "Total Liabilities",
           "",
           "Retained Earnings",
-          "Stockholders' Equity"
+          "Total Equity"
         ],
         "periods": [
           "12/31/25",
