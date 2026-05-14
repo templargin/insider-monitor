@@ -187,7 +187,12 @@ LI_IS = [
     # reconciles GP - OpEx = OpInc. The OperatingExpenses and CostsAndExpenses
     # tags are inconsistent across filers — some include COGS, some don't.
     ("Operating Expense", []),
-    ("Operating Income", ["OperatingIncomeLoss", "IncomeLossFromContinuingOperations"]),
+    # `IncomeLossFromContinuingOperations` is sometimes used as a fallback
+    # for OpInc, but for banks (CUBI etc.) that don't report OperatingIncomeLoss
+    # at all, that fallback resolves to the post-tax bottom-of-IS line ≈ Net
+    # Income. That conflates two different concepts. Strict tag only — banks
+    # just won't show OpInc, which is honest given they don't report it.
+    ("Operating Income", ["OperatingIncomeLoss"]),
     ("Interest Expense", ["InterestExpense", "InterestExpenseDebt",
                           "InterestExpenseNonoperating", "InterestIncomeExpenseNet"]),
     # Pretax is DERIVED in _derive_pretax as (NI + Tax). The XBRL Pretax tags
