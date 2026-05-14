@@ -1555,6 +1555,8 @@
           "Stock Issuance",
           "Financing Cash Flow",
           "",
+          "Effect of FX on Cash",
+          "",
           "Free Cash Flow"
         ],
         "periods": [
@@ -1637,6 +1639,18 @@
             null
           ],
           [
+            1000,
+            21000,
+            21000,
+            42000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             -13048000,
             -8364000,
             -15078000,
@@ -1659,6 +1673,8 @@
           "Stock Issuance",
           "Stock Buyback",
           "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
           "",
           "Free Cash Flow"
         ],
@@ -1746,6 +1762,18 @@
             14498000,
             33950000,
             903000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            102000,
+            -49000,
+            -47000,
+            54000
           ],
           [
             null,

@@ -6940,7 +6940,9 @@
           "Investing Cash Flow",
           "",
           "Stock Buyback",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash"
         ],
         "periods": [
           "3/31/26",
@@ -6996,6 +6998,18 @@
             -62582000,
             -2315000,
             36262000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -535000,
+            1686000,
+            -533000,
+            -804000
           ]
         ]
       },
@@ -7010,7 +7024,9 @@
           "",
           "Stock Issuance",
           "Stock Buyback",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash"
         ],
         "periods": [
           "12/31/25",
@@ -7078,6 +7094,18 @@
             156874000,
             -69597000,
             -113322000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            387000,
+            -3391000,
+            5869000,
+            -2104000
           ]
         ]
       }

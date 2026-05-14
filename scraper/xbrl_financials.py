@@ -280,6 +280,14 @@ LI_CF = [
                        "PaymentsForRepurchaseOfCommonStockForEmployeeTaxWithholdingObligations"]),
     ("Dividends Paid", ["PaymentsOfDividends", "PaymentsOfDividendsCommonStock"]),
     ("Financing Cash Flow", ["NetCashProvidedByUsedInFinancingActivities"]),
+    # FX effect on cash held abroad. Closes the CF reconciliation gap for
+    # foreign-operations companies (GTE etc.). Often zero / missing for
+    # US-only filers, in which case _canonicalize prunes the row.
+    ("Effect of FX on Cash", [
+        "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "EffectOfExchangeRateOnCashAndCashEquivalents",
+        "EffectOfExchangeRateOnCash",
+    ]),
 ]
 
 

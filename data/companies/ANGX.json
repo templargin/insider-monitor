@@ -1477,7 +1477,9 @@
           "",
           "Stock Issuance",
           "Stock Buyback",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash"
         ],
         "periods": [
           "12/31/25",
@@ -1545,6 +1547,18 @@
             46152641,
             9253655,
             328131
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -2064,
+            2064,
+            null
           ]
         ]
       }

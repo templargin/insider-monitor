@@ -51,19 +51,21 @@ def audit(d):
                 if abs(exp - f) > 100_000:
                     issues.append(f"[{t}] CF/{p}: FCF mismatch — OCF+CapEx={exp/1e6:.2f}M vs FCF={f/1e6:.2f}M")
 
-    # ΔCash check: this year's cash - last year's cash ≈ OCF + ICF + FCF
-    # Periods are newest-left, so ΔCash[j] = cash[j] - cash[j+1]
+    # ΔCash check: this year's cash - last year's cash ≈ OCF + ICF + FCF + FX
+    fx = _row(cf, "Effect of FX on Cash")
     if ocf and icf and fcf and cash:
         for j in range(len(periods) - 1):
             cn, cp = _val(cash, j), _val(cash, j + 1)
             o, i_, f = _val(ocf, j), _val(icf, j), _val(fcf, j)
+            x = _val(fx, j) if fx else 0
+            x = x if x is not None else 0
             if all(v is not None for v in (cn, cp, o, i_, f)):
                 d_cash = cn - cp
-                flow = o + i_ + f
+                flow = o + i_ + f + x
                 gap = abs(d_cash - flow)
                 rel = gap / max(abs(d_cash), abs(flow), 1)
                 if rel > 0.05 and gap > 1_000_000:
-                    issues.append(f"[{t}] CF/{periods[j]}: ΔCash={d_cash/1e6:.2f}M vs OCF+ICF+FCF={flow/1e6:.2f}M (Δ={gap/1e6:.2f}M, rel={rel*100:.1f}%)")
+                    issues.append(f"[{t}] CF/{periods[j]}: ΔCash={d_cash/1e6:.2f}M vs OCF+ICF+FCF+FX={flow/1e6:.2f}M (Δ={gap/1e6:.2f}M, rel={rel*100:.1f}%)")
 
     return issues
 

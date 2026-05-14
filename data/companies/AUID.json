@@ -1397,7 +1397,9 @@
           "Investing Cash Flow",
           "",
           "Stock Issuance",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash"
         ],
         "periods": [
           "12/31/25",
@@ -1459,6 +1461,18 @@
             0,
             8464327,
             -245000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1,
+            21,
+            122,
+            -208
           ]
         ]
       },
@@ -1474,6 +1488,8 @@
           "",
           "Stock Issuance",
           "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
           "",
           "Free Cash Flow"
         ],
@@ -1543,6 +1559,18 @@
             9985779,
             15384720,
             10231623
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -66,
+            -2506,
+            -149736,
+            -53123
           ],
           [
             null,

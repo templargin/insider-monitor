@@ -4290,6 +4290,8 @@
           "Dividends Paid",
           "Financing Cash Flow",
           "",
+          "Effect of FX on Cash",
+          "",
           "Free Cash Flow"
         ],
         "periods": [
@@ -4360,6 +4362,18 @@
             null
           ],
           [
+            -8000,
+            10000,
+            -4000,
+            12000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             1839000,
             10119000,
             7578000,
@@ -4378,6 +4392,8 @@
           "",
           "Dividends Paid",
           "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
           "",
           "Free Cash Flow"
         ],
@@ -4441,6 +4457,18 @@
             -28537000,
             -26677000,
             -26221000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            28000,
+            -20000,
+            145000,
+            -321000
           ],
           [
             null,

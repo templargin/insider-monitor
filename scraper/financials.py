@@ -95,6 +95,9 @@ CASHFLOW_CANONICAL = [
     ("Dividends Paid", ["Common Stock Dividend Paid", "Cash Dividends Paid"]),
     ("Financing Cash Flow", ["Financing Cash Flow", "Cash Flow From Continuing Financing Activities"]),
     SPACER,
+    # FX effect — auto-prunes when zero/missing.
+    ("Effect of FX on Cash", ["Effect of FX on Cash"]),
+    SPACER,
     # Reconciliation
     ("End Cash Position", ["End Cash Position"]),
     SPACER,

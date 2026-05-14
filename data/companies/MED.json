@@ -1253,6 +1253,8 @@
           "Dividends Paid",
           "Financing Cash Flow",
           "",
+          "Effect of FX on Cash",
+          "",
           "Free Cash Flow"
         ],
         "periods": [
@@ -1329,6 +1331,18 @@
             null
           ],
           [
+            null,
+            4000,
+            0,
+            0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
             -836000,
             -6629000,
             10750000,
@@ -1349,6 +1363,8 @@
           "Stock Buyback",
           "Dividends Paid",
           "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
           "",
           "Free Cash Flow"
         ],
@@ -1424,6 +1440,18 @@
             -1515000,
             -79789000,
             -199581000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4000,
+            47000,
+            -72000,
+            -67000
           ],
           [
             null,

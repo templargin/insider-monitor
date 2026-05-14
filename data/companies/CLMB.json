@@ -2194,7 +2194,9 @@
           "",
           "Stock Buyback",
           "Dividends Paid",
-          "Financing Cash Flow"
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash"
         ],
         "periods": [
           "12/31/25",
@@ -2262,6 +2264,18 @@
             -12961000,
             -8950000,
             -1832000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            544000,
+            -743000
           ]
         ]
       }
