@@ -4,14 +4,14 @@
   "filing_dates": [
     "2026-05-12"
   ],
-  "generated_at": "2026-05-13T14:46:39+00:00",
+  "generated_at": "2026-05-14T01:27:17+00:00",
   "tickers": [
     {
       "ticker": "MKTW",
       "name": "MARKETWISE, INC.",
       "total_value": 1949163.92,
-      "ev_basic": 132940747.631073,
-      "mc_basic": 184902747.631073,
+      "ev_basic": 136614992.893219,
+      "mc_basic": 188576992.893219,
       "insiders": [
         {
           "reporter_name": "Stansberry Frank Porter",
@@ -26,8 +26,8 @@
       "ticker": "XRN",
       "name": "Chiron Real Estate Inc.",
       "total_value": 641630.2,
-      "ev_basic": 439976403.4447479,
-      "mc_basic": 447006403.4447479,
+      "ev_basic": 447189361.5610504,
+      "mc_basic": 454219361.5610504,
       "insiders": [
         {
           "reporter_name": "Decker Mark Okey Jr",
@@ -56,8 +56,8 @@
       "ticker": "PTLO",
       "name": "Portillo's Inc.",
       "total_value": 600612.4,
-      "ev_basic": 574346122.1477499,
-      "mc_basic": 251504122.1477499,
+      "ev_basic": 572492270.5227222,
+      "mc_basic": 249650270.52272224,
       "insiders": [
         {
           "reporter_name": "LEE EUGENE I JR",
@@ -69,41 +69,11 @@
       ]
     },
     {
-      "ticker": "INFU",
-      "name": "InfuSystem Holdings, Inc",
-      "total_value": 262938.0,
-      "ev_basic": 190093564.49935436,
-      "mc_basic": 172553564.49935436,
-      "insiders": [
-        {
-          "reporter_name": "Steele Barry G",
-          "relationship": "Officer (Executive VP and CFO)",
-          "total_value": 121898.00000000001,
-          "shares": 14000.0,
-          "txn_count": 2
-        },
-        {
-          "reporter_name": "GENDRON PAUL ANDREW",
-          "relationship": "Director",
-          "total_value": 88800.00000000001,
-          "shares": 10000.0,
-          "txn_count": 2
-        },
-        {
-          "reporter_name": "Lachance Carrie",
-          "relationship": "Director, Officer (President and CEO)",
-          "total_value": 52240.0,
-          "shares": 6000.0,
-          "txn_count": 4
-        }
-      ]
-    },
-    {
       "ticker": "SPOK",
       "name": "Spok Holdings, Inc",
       "total_value": 213639.0,
-      "ev_basic": 209963796.3096714,
-      "mc_basic": 227041796.3096714,
+      "ev_basic": 211425880.6354618,
+      "mc_basic": 228503880.6354618,
       "insiders": [
         {
           "reporter_name": "KELLY VINCENT D",
@@ -118,8 +88,8 @@
       "ticker": "LODE",
       "name": "Comstock Inc.",
       "total_value": 202300.0,
-      "ev_basic": 199443206.91981792,
-      "mc_basic": 252411007.91981792,
+      "ev_basic": 208173212.3037815,
+      "mc_basic": 261141013.3037815,
       "insiders": [
         {
           "reporter_name": "DEGASPERIS CORRADO",
@@ -134,8 +104,8 @@
       "ticker": "ONT",
       "name": "Onterris, Inc.",
       "total_value": 200755.19999999998,
-      "ev_basic": 805050493.7638168,
-      "mc_basic": 571180493.7638168,
+      "ev_basic": 795112185.6597853,
+      "mc_basic": 561242185.6597853,
       "insiders": [
         {
           "reporter_name": "Dicks Allan",
@@ -150,8 +120,8 @@
       "ticker": "NSPR",
       "name": "InspireMD, Inc.",
       "total_value": 176052.31999999998,
-      "ev_basic": 48215388.9432354,
-      "mc_basic": 54567388.9432354,
+      "ev_basic": 48449583.52988982,
+      "mc_basic": 54801583.52988982,
       "insiders": [
         {
           "reporter_name": "Stuka Paul",
@@ -166,8 +136,8 @@
       "ticker": "CUBI",
       "name": "Customers Bancorp, Inc.",
       "total_value": 145155.0,
-      "ev_basic": -2340134916.975586,
-      "mc_basic": 2458069083.024414,
+      "ev_basic": -2341826016.536621,
+      "mc_basic": 2456377983.463379,
       "insiders": [
         {
           "reporter_name": "Sidhu Samvir S.",
@@ -182,8 +152,8 @@
       "ticker": "MED",
       "name": "MEDIFAST INC",
       "total_value": 125900.0,
-      "ev_basic": 69016617.41744518,
-      "mc_basic": 140545617.41744518,
+      "ev_basic": 67237550.11007309,
+      "mc_basic": 138766550.1100731,
       "insiders": [
         {
           "reporter_name": "SCHLACKMAN SCOTT",
@@ -191,6 +161,22 @@
           "total_value": 125900.0,
           "shares": 10000.0,
           "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "INFU",
+      "name": "InfuSystem Holdings, Inc",
+      "total_value": 121898.00000000001,
+      "ev_basic": 183231782.39987087,
+      "mc_basic": 165691782.39987087,
+      "insiders": [
+        {
+          "reporter_name": "Steele Barry G",
+          "relationship": "Officer (Executive VP and CFO)",
+          "total_value": 121898.00000000001,
+          "shares": 14000.0,
+          "txn_count": 2
         }
       ]
     }

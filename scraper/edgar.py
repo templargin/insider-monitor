@@ -181,10 +181,12 @@ def parse_form4(xml_bytes):
 
     owner = root.find("reportingOwner")
     rpt_name = ""
+    rpt_cik = ""
     relationship_parts = []
     title = ""
     if owner is not None:
         rpt_name = (owner.findtext("reportingOwnerId/rptOwnerName") or "").strip()
+        rpt_cik = (owner.findtext("reportingOwnerId/rptOwnerCik") or "").strip().lstrip("0") or "0"
         rel = owner.find("reportingOwnerRelationship")
         if rel is not None:
             def is_true(tag):
@@ -236,6 +238,7 @@ def parse_form4(xml_bytes):
         "issuer_name": issuer_name,
         "issuer_ticker": issuer_ticker,
         "reporter_name": rpt_name,
+        "reporter_cik": rpt_cik,
         "relationship": relationship,
         "period_of_report": (root.findtext("periodOfReport") or "").strip(),
         "transactions": transactions,

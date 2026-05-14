@@ -231,7 +231,7 @@ def process_bucket(url_date):
     _log(f"  Parsed {len(parsed)} Form 4 filings total")
     aggregated = filters.aggregate_p_purchases(parsed)
     threshold = [(cik, b) for cik, b in aggregated.items() if filters.passes_threshold(b)]
-    _log(f"  {len(threshold)} issuers ≥${filters.PURCHASE_THRESHOLD_USD:,} aggregate")
+    _log(f"  {len(threshold)} issuers with ≥1 insider ≥${filters.PURCHASE_THRESHOLD_USD:,}")
 
     survivors = []
     for cik, bucket_data in threshold:
@@ -261,28 +261,27 @@ def process_bucket(url_date):
         "tickers": [],
     }
     for s in survivors:
-        # Aggregate per (reporter, relationship) for clean display
-        by_insider = {}
-        for filing in s["bucket_data"]["filings"]:
-            meta = filing["form_meta"]
-            key = (meta["reporter_name"], meta["relationship"])
-            if key not in by_insider:
-                by_insider[key] = {
-                    "reporter_name": meta["reporter_name"],
-                    "relationship": meta["relationship"],
-                    "total_value": 0.0,
-                    "shares": 0.0,
-                    "txn_count": 0,
-                }
-            for txn in filing["purchase_txns"]:
-                by_insider[key]["total_value"] += txn["total_value"]
-                by_insider[key]["shares"] += txn["shares"]
-                by_insider[key]["txn_count"] += 1
-        insiders = sorted(by_insider.values(), key=lambda r: r["total_value"], reverse=True)
+        # Per-insider threshold: only insiders who individually crossed
+        # $100k show up on the daily page, and the headline `total_value`
+        # is the sum across those qualifying insiders (NOT the company-wide
+        # raw total — that would mix in sub-threshold buys from other
+        # filers and inflate the number).
+        qualifying = filters.qualifying_reporters(s["bucket_data"])
+        insiders = [
+            {
+                "reporter_name": r["reporter_name"],
+                "relationship": r["relationship"],
+                "total_value": r["total_value"],
+                "shares": r["shares"],
+                "txn_count": r["txn_count"],
+            }
+            for r in qualifying
+        ]
+        headline_total = sum(r["total_value"] for r in qualifying)
         daily["tickers"].append({
             "ticker": s["ticker"],
             "name": s["name"],
-            "total_value": s["bucket_data"]["total_value"],
+            "total_value": headline_total,
             "ev_basic": s["ev_basic"],
             "mc_basic": s["mc_basic"],
             "insiders": insiders,

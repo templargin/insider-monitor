@@ -46,10 +46,11 @@ def main():
     print(f"  ≥${filters.PURCHASE_THRESHOLD_USD:,} aggregate: {len(threshold_passers)} issuers.")
 
     for cik, b in threshold_passers[:5]:
-        print(f"\n  Issuer: {b['name']} ({b['ticker']}) — ${b['total_value']:,.0f}")
-        for filing in b["filings"]:
-            meta = filing["form_meta"]
-            print(f"    Reporter: {meta['reporter_name']} ({meta['relationship']}) — ${filing['value']:,.0f}")
+        qualifying = filters.qualifying_reporters(b)
+        total_q = sum(r['total_value'] for r in qualifying)
+        print(f"\n  Issuer: {b['name']} ({b['ticker']}) — qualifying ${total_q:,.0f} across {len(qualifying)} insider(s)")
+        for r in qualifying:
+            print(f"    Reporter: {r['reporter_name']} ({r['relationship']}) — ${r['total_value']:,.0f}")
 
     # If we got at least one, test EV/revenue filter on it
     if threshold_passers:
