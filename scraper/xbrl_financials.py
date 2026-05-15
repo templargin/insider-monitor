@@ -457,6 +457,48 @@ def _strip(stmt):
     return stmt
 
 
+def _add_ltm_column(annual_stmt, quarterly_stmt):
+    """Inject an LTM (last twelve months) column as the leftmost period
+    in annual_stmt.
+
+    For each row:
+      - flow items (Revenue, expenses, NI, all CF lines, EPS): sum of the
+        last 4 quarterly values
+      - point-in-time items (Diluted/Basic Avg Shares): latest quarterly value
+
+    The LTM-end date is the most recent quarter end; we expose it in `_ends`
+    so balance-sheet builders can pull the latest BS values at that date.
+
+    Returns the augmented statement; periods[0] = "LTM".
+    """
+    if not quarterly_stmt:
+        return annual_stmt
+    q_labels = quarterly_stmt.get("labels", [])
+    q_data = quarterly_stmt.get("data", [])
+    q_ends = quarterly_stmt.get("_ends", [])
+    if not q_labels or not q_ends:
+        return annual_stmt
+
+    point_in_time = {"Diluted Avg Shares", "Basic Avg Shares"}
+
+    new_data = []
+    for label, row in zip(annual_stmt["labels"], annual_stmt["data"]):
+        ltm = None
+        if label in q_labels:
+            q_row = q_data[q_labels.index(label)]
+            if q_row and len(q_row) >= 4:
+                vals = q_row[:4]  # newest-first → last 4 quarters
+                if all(v is not None for v in vals):
+                    ltm = vals[0] if label in point_in_time else sum(vals)
+        new_data.append([ltm] + list(row))
+
+    annual_stmt["data"] = new_data
+    annual_stmt["periods"] = ["LTM"] + list(annual_stmt["periods"])
+    if "_ends" in annual_stmt:
+        annual_stmt["_ends"] = [q_ends[0]] + list(annual_stmt["_ends"])
+    return annual_stmt
+
+
 def _drop_redundant_nci_row(stmt):
     """If 'Net Income to Common' equals 'Net Income' (no NCI exposure), drop
     the redundant row. Keep both when they differ so the EPS denominator is
@@ -583,8 +625,18 @@ def fetch_xbrl_financials(cik):
     is_q = _add_ebitda(is_q, cf_q)
     is_a = _add_ebitda(is_a, cf_a)
 
+    # LTM column: leftmost on the annual IS/CF tables. For BS we extend
+    # _ends with the latest quarter end first so _build_bs_at_ends picks
+    # up the most-recent BS values as the "LTM" column.
+    is_a = _add_ltm_column(is_a, is_q)
+    cf_a = _add_ltm_column(cf_a, cf_q)
+
     bs_q = _build_bs_at_ends(usg, is_q["_ends"])
     bs_a = _build_bs_at_ends(usg, is_a["_ends"])
+    # Relabel the BS's leftmost period as "LTM" for visual consistency with
+    # IS/CF — the underlying value is the latest quarter end (point-in-time).
+    if bs_a["periods"] and is_a["periods"] and is_a["periods"][0] == "LTM":
+        bs_a["periods"][0] = "LTM"
 
     # Run the canonical filter — adds margin rows, YoY rows, and spacers.
     # `display_n` trims to that many display periods AFTER derivations like
