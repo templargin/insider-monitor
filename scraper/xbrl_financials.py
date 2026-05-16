@@ -183,6 +183,12 @@ LI_IS = [
         "CostOfGoodsSold",
         # Services-heavy filers (DLHC etc.) tag CoR ex-D&A separately:
         "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization",
+        # Media/entertainment (STRZ, etc.) — content licensing has no traditional COGS
+        "DirectOperatingCosts",
+        # Real estate developers / REITs (AXR, etc.)
+        "CostOfRealEstateSales",
+        # Restaurant operators (PTLO, etc.) split food + labor as separate tags
+        ("sum", ["CostDirectMaterial", "CostDirectLabor"]),
     ]),
     ("Gross Profit", ["GrossProfit"]),
     ("SG&A", [
