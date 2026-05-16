@@ -164,15 +164,26 @@ def _fmt_period(end_str):
 
 LI_IS = [
     ("Total Revenue", [
+        # Banks/insurance: interest+dividend income + noninterest income.
+        # Promoted to first place because banks like BWFG also report a
+        # small `RevenueFromContractWithCustomer*` for contract-based fee
+        # income that's NOT the bank's total revenue. The composite returns
+        # empty for non-banks (those tags aren't present), so the standard
+        # tags below take over.
+        ("sum", ["InterestAndDividendIncomeOperating", "NoninterestIncome"]),
         "Revenues",
         "RevenueFromContractWithCustomerExcludingAssessedTax",
         "RevenueFromContractWithCustomerIncludingAssessedTax",
         "SalesRevenueNet",
         "SalesRevenueGoodsNet",
-        # Banks: total revenue ≈ interest+dividend income + noninterest income
-        ("sum", ["InterestAndDividendIncomeOperating", "NoninterestIncome"]),
     ]),
-    ("Cost of Revenue", ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfGoodsSold"]),
+    ("Cost of Revenue", [
+        "CostOfRevenue",
+        "CostOfGoodsAndServicesSold",
+        "CostOfGoodsSold",
+        # Services-heavy filers (DLHC etc.) tag CoR ex-D&A separately:
+        "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization",
+    ]),
     ("Gross Profit", ["GrossProfit"]),
     ("SG&A", [
         "SellingGeneralAndAdministrativeExpense",
@@ -350,6 +361,41 @@ def _derive_gross_profit(stmt):
         else:
             new_gp.append(None)
     stmt["data"][gp_i] = new_gp
+    return stmt
+
+
+def _derive_opinc_from_costs_and_expenses(stmt, usg, freq):
+    """Fill missing Operating Income as Revenue − `CostsAndExpenses` for filers
+    that don't tag `OperatingIncomeLoss` (BH, STRZ). The XBRL `CostsAndExpenses`
+    tag is defined as total operational costs (CoR + OpEx), so Rev − CostsAndExp
+    = OpInc by construction for these filers.
+
+    Runs only for periods where OpInc is None, so doesn't disturb filers that
+    correctly report the tag."""
+    labels = stmt["labels"]
+    if "Operating Income" not in labels or "Total Revenue" not in labels:
+        return stmt
+    op_i = labels.index("Operating Income")
+    rev_i = labels.index("Total Revenue")
+    op_row = stmt["data"][op_i]
+    if all(v is not None for v in op_row):
+        return stmt  # nothing to derive
+    rev_row = stmt["data"][rev_i]
+    # Pull `CostsAndExpenses` directly at the same period ends
+    ends = stmt.get("_ends") or [None] * len(rev_row)
+    cae_series = _series_one_tag(usg, "CostsAndExpenses", freq)
+    new_op = []
+    for i, e in enumerate(ends):
+        if op_row[i] is not None:
+            new_op.append(op_row[i])
+            continue
+        r = rev_row[i]
+        cae = cae_series.get(e) if e else None
+        if r is not None and cae is not None:
+            new_op.append(r - cae)
+        else:
+            new_op.append(None)
+    stmt["data"][op_i] = new_op
     return stmt
 
 
@@ -605,12 +651,14 @@ def fetch_xbrl_financials(cik):
     is_q = _build_grid(usg, LI_IS, "quarterly", n=8)
     is_q = _augment_eps_and_shares(is_q, usg, "quarterly")
     is_q = _derive_gross_profit(is_q)
+    is_q = _derive_opinc_from_costs_and_expenses(is_q, usg, "quarterly")
     is_q = _derive_opex(is_q)
     is_q = _derive_pretax(is_q)
 
     is_a = _build_grid(usg, LI_IS, "annual", n=4)
     is_a = _augment_eps_and_shares(is_a, usg, "annual")
     is_a = _derive_gross_profit(is_a)
+    is_a = _derive_opinc_from_costs_and_expenses(is_a, usg, "annual")
     is_a = _derive_opex(is_a)
     is_a = _derive_pretax(is_a)
 
