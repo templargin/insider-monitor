@@ -31,11 +31,12 @@ Per-ticker pages pull IS / BS / CF directly from SEC XBRL `companyfacts`. Rows a
 - **Net Income** = `ProfitLoss` (includes NCI); a separate **Net Income to Common** row appears when NCI is meaningful (e.g., MKTW) so EPS × shares ≈ parent's NI is visibly consistent.
 - **Total Equity** uses the including-NCI variant; a **Mezzanine Equity** row appears for redeemable preferred (e.g., BETR FY22) so Assets = Liabilities + Mezzanine + Total Equity holds.
 - **Total Revenue** for banks/insurance uses `InterestAndDividendIncomeOperating + NoninterestIncome` as primary (otherwise BWFG-type filers would show just contract-customer fee income, wildly understating revenue).
-- **Cost of Revenue** ladder includes `CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization` for services-heavy filers (DLHC etc.) that tag CoR ex-D&A only.
+- **Cost of Revenue** ladder covers the long tail of filer-specific tags: `CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization` (services, e.g., DLHC), `DirectOperatingCosts` (media/content licensing, e.g., STRZ), `CostOfRealEstateSales` (real estate, e.g., AXR), and a `CostDirectMaterial + CostDirectLabor` sum for restaurants (PTLO).
+- **Honest gaps**: ~8 tickers (banks, insurance, industrial REITs — BWFG, CUBI, CARE, BCML, FMBM, ITIC, KINS, XRN) don't show Operating Income because they tag neither `OperatingIncomeLoss` nor `CostsAndExpenses`. Their operating-income concept doesn't map to a single tag (banks compute it as NII + Noninterest Income − Noninterest Expense − Provision); the row shows "—" rather than a misleading derived number.
 - **Quarterly YoY** compares each quarter to the same quarter one year prior (8-quarter internal buffer, 4 displayed).
 - **Effect of FX on Cash** row in CF for foreign-operations filers.
 
-Run `python -m scripts.audit_financials` for an end-to-end reconciliation pass (GP, OpInc, NI, A=L+M+E, share sanity). `python -m scripts.audit_cashflow` for CF reconciliation (ΔCash vs OCF+ICF+FCF+FX).
+Run `python -m scripts.audit_financials` for an end-to-end reconciliation pass (GP, OpInc, NI, A=L+M+E, share sanity). `python -m scripts.audit_cashflow` for CF reconciliation (ΔCash vs OCF+ICF+FCF+FX). `python -m scripts.probe_coverage` reports per-row coverage % across all stored tickers and ranks candidate XBRL tags that would unblock the most missing cells — re-run when a ticker's page looks empty to identify what tag to add to a ladder.
 
 ## Local dev
 
@@ -47,4 +48,5 @@ python -m scripts.daily_run         # generate today's page
 python -m scripts.backfill          # backfill from May 1, 2026
 python -m scripts.refresh_financials # re-extract all companies' financials after extractor changes
 python -m scripts.build_site        # render docs/ from data/
+python -m scripts.probe_coverage    # coverage % per canonical row + candidate-tag backlog
 ```
