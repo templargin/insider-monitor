@@ -24,10 +24,14 @@ Primary trigger is a cron on the `aspancrm-claude` droplet at `30 6 * * 1-5` ET 
 
 Per-ticker pages pull IS / BS / CF directly from SEC XBRL `companyfacts`. Rows are designed to reconcile by construction:
 
+- **LTM column** is the leftmost period on annual IS / BS / CF / Ratios. Flow items (Revenue, expenses, NI, EPS) sum the last 4 quarterly values; point-in-time items (Diluted/Basic Avg Shares) take the latest quarterly value; BS uses the most-recent quarter-end values. Margins are derived from the column directly so LTM Margin = LTM_NI / LTM_Revenue reconciles.
 - **Operating Expense** is derived as Gross Profit − Operating Income (avoids the inconsistent `OperatingExpenses` XBRL tag that double-counts COGS for many filers).
+- **Operating Income** itself falls back to `Revenue − CostsAndExpenses` when the `OperatingIncomeLoss` tag is missing (filers like BH, STRZ that don't tag OpInc directly).
 - **Pretax Income** is derived as Net Income + Tax (avoids the `*MinorityInterest*` Pretax variant that some filers sign-flip for losses).
 - **Net Income** = `ProfitLoss` (includes NCI); a separate **Net Income to Common** row appears when NCI is meaningful (e.g., MKTW) so EPS × shares ≈ parent's NI is visibly consistent.
 - **Total Equity** uses the including-NCI variant; a **Mezzanine Equity** row appears for redeemable preferred (e.g., BETR FY22) so Assets = Liabilities + Mezzanine + Total Equity holds.
+- **Total Revenue** for banks/insurance uses `InterestAndDividendIncomeOperating + NoninterestIncome` as primary (otherwise BWFG-type filers would show just contract-customer fee income, wildly understating revenue).
+- **Cost of Revenue** ladder includes `CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization` for services-heavy filers (DLHC etc.) that tag CoR ex-D&A only.
 - **Quarterly YoY** compares each quarter to the same quarter one year prior (8-quarter internal buffer, 4 displayed).
 - **Effect of FX on Cash** row in CF for foreign-operations filers.
 
