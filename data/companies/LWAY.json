@@ -6,6 +6,20 @@
   "form4_filings": [
     {
       "date_filed": "2026-05-19",
+      "reporter_name": "Zolezzi William",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-15",
+      "code": "P",
+      "shares": 33174.0,
+      "price": 25.2695,
+      "total_value": 838290.393,
+      "security_title": "Common Stock, No Par Value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000919574-26-003600"
+    },
+    {
+      "date_filed": "2026-05-19",
       "reporter_name": "SMOLYANSKY LUDMILA",
       "relationship": "Other (Member of 10% owner group)",
       "transaction_date": "2026-05-15",
@@ -17,6 +31,48 @@
       "table": "nonDerivative",
       "ownership": "I",
       "accession": "0001683168-26-004093"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Zolezzi William",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-14",
+      "code": "P",
+      "shares": 95371.0,
+      "price": 25.2365,
+      "total_value": 2406830.2415,
+      "security_title": "Common Stock, No Par Value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000919574-26-003600"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Zolezzi William",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-14",
+      "code": "P",
+      "shares": 1500.0,
+      "price": 22.9794,
+      "total_value": 34469.1,
+      "security_title": "Common Stock, No Par Value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000919574-26-003600"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Zolezzi William",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-14",
+      "code": "P",
+      "shares": 35000.0,
+      "price": 26.3251,
+      "total_value": 921378.5,
+      "security_title": "Common Stock, No Par Value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000919574-26-003600"
     },
     {
       "date_filed": "2026-05-18",
@@ -2680,7 +2736,7 @@
     }
   ],
   "valuation": {
-    "share_price": 24.25,
+    "share_price": 25.200000762939453,
     "shares_basic": 15281888,
     "shares_basic_as_of": "2026-05-08",
     "options": 50,
@@ -2688,8 +2744,8 @@
     "cash": 5604000,
     "debt": 2500000,
     "ttm_revenue": 220147000,
-    "mc_basic": 370585784.0,
-    "ev_basic": 367481784.0
+    "mc_basic": 385103589.2591553,
+    "ev_basic": 381999589.2591553
   },
   "financials": {
     "income_statement": {
@@ -3717,5 +3773,5 @@
       }
     }
   },
-  "last_updated": "2026-05-19T13:49:28+00:00"
+  "last_updated": "2026-05-20T10:41:29+00:00"
 }
