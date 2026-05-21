@@ -28,23 +28,41 @@ def _period_days(fact):
         return None
 
 
+_DURATION_BANDS = ((60, 100), (150, 200), (240, 290), (350, 380))
+
+
+def _duration_band(d):
+    if d is None:
+        return None
+    for lo, hi in _DURATION_BANDS:
+        if lo <= d <= hi:
+            return (lo, hi)
+    return None
+
+
 def _series_one_tag_quarterly(usg, tag, unit="USD"):
     """Discrete-quarterly series for ONE tag, deriving Q4 / fills from YTD."""
     entries = usg.get(tag, {}).get("units", {}).get(unit, [])
     if not entries:
         return {}
 
-    derived = {}
-    # First pass: pick discrete (60-100d) by end-date, newest accn wins
+    # Dedupe by (end, duration-band), newest accn wins. EDGAR companyfacts
+    # holds every restatement under a new accession; without this step the
+    # YTD walk below can subtract a fact from itself when the same FY/H1/Q
+    # is re-emitted by a later filing — producing fake zero-value quarters.
+    deduped = {}
     for f in entries:
-        d = _period_days(f)
-        if d is None or not (60 <= d <= 100):
+        band = _duration_band(_period_days(f))
+        if band is None:
             continue
-        end = f["end"]
-        if end not in derived or f.get("accn", "") > derived[end][1]:
-            derived[end] = (f["val"], f.get("accn", ""))
+        key = (f["end"], band)
+        prev = deduped.get(key)
+        if prev is None or f.get("accn", "") > prev.get("accn", ""):
+            deduped[key] = f
+    facts = list(deduped.values())
 
-    discrete = {end: v for end, (v, _) in derived.items()}
+    # First pass: 60-100d facts ARE discrete quarters.
+    discrete = {f["end"]: f["val"] for f in facts if _duration_band(_period_days(f)) == (60, 100)}
 
     # Second pass: YTD derivation for periods discrete didn't cover.
     # NOTE: groups by calendar year of end date — correct for the dominant
@@ -52,35 +70,28 @@ def _series_one_tag_quarterly(usg, tag, unit="USD"):
     # June or September), this can mis-bucket the FY/Q1 transition. Acceptable
     # for our sub-$1B universe where Dec-FY is overwhelmingly common.
     by_year = defaultdict(list)
-    for f in entries:
-        d = _period_days(f)
-        if d is None:
-            continue
+    for f in facts:
         try:
             yr = date.fromisoformat(f["end"]).year
         except ValueError:
             continue
-        by_year[yr].append((d, f))
+        by_year[yr].append((_period_days(f), f))
 
     for yr, items in by_year.items():
         items.sort(key=lambda x: x[0])
-        cum_val = None
+        cum_val, cum_dur = None, None
         for dur, f in items:
+            # Emit a derived quarter only when the implied duration
+            # (current − cum) lands back in the Q band. Without this guard,
+            # semi-annual filers (H1 + FY only) emit FY−H1 ≈ 185d as a
+            # fake "Q4", silently labeling half-year H2 totals as quarterly.
+            # The `end not in discrete` test already excludes discrete-Q
+            # facts (first pass wrote them).
             end = f["end"]
-            if 60 <= dur <= 100:
-                cum_val = f["val"]
-            elif 150 <= dur <= 200:
-                if end not in discrete and cum_val is not None:
-                    discrete[end] = f["val"] - cum_val
-                cum_val = f["val"]
-            elif 240 <= dur <= 290:
-                if end not in discrete and cum_val is not None:
-                    discrete[end] = f["val"] - cum_val
-                cum_val = f["val"]
-            elif 350 <= dur <= 380:
-                if end not in discrete and cum_val is not None:
-                    discrete[end] = f["val"] - cum_val
-                cum_val = f["val"]
+            if (cum_val is not None and end not in discrete
+                    and 60 <= dur - cum_dur <= 100):
+                discrete[end] = f["val"] - cum_val
+            cum_val, cum_dur = f["val"], dur
     return discrete
 
 
