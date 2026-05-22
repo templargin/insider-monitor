@@ -6,6 +6,20 @@
   "form4_filings": [
     {
       "date_filed": "2026-05-21",
+      "reporter_name": "Gloe Oliver C.",
+      "relationship": "Officer (CHIEF FINANCIAL OFFICER)",
+      "transaction_date": "2026-05-20",
+      "code": "P",
+      "shares": 15050.0,
+      "price": 4.9,
+      "total_value": 73745.0,
+      "security_title": "Common stock, par value $0.0001 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001998749-26-000005"
+    },
+    {
+      "date_filed": "2026-05-21",
       "reporter_name": "Maczko Nikki Vaughan",
       "relationship": "Officer (Chief Human Resources Officer)",
       "transaction_date": "2026-05-20",
@@ -1333,24 +1347,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001415889-24-021061"
-    },
-    {
-      "date_filed": "2024-05-21",
-      "reporter_name": "Maczko Nikki Vaughan",
-      "relationship": "Officer (Chief Human Resources Officer)",
-      "transaction_date": "2024-05-20",
-      "code": "A",
-      "shares": 37229.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Stock, par value $0.0001 per share",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001415889-24-013923"
     }
   ],
   "valuation": {
-    "share_price": 4.920000076293945,
+    "share_price": 5.159999847412109,
     "shares_basic": 117411589,
     "shares_basic_as_of": "2026-05-01",
     "options": 1150712,
@@ -1358,8 +1358,8 @@
     "cash": 27481000,
     "debt": 311233000,
     "ttm_revenue": 563277000,
-    "mc_basic": 577665026.8377934,
-    "ev_basic": 861417026.8377934
+    "mc_basic": 605843781.3244133,
+    "ev_basic": 889595781.3244133
   },
   "financials": {
     "income_statement": {
@@ -2410,5 +2410,5 @@
       }
     }
   },
-  "last_updated": "2026-05-21T13:53:13+00:00"
+  "last_updated": "2026-05-22T10:42:29+00:00"
 }

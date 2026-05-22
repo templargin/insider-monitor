@@ -5,6 +5,20 @@
   "description": "Better Home & Finance Holding Company operates as a homeownership company in the United States. The company provides government-sponsored enterprise (GSE) conforming loans, Federal Housing Administration insured loans, Department of Veterans Affairs guaranteed loans, and jumbo loans to GSEs, banks, insurance companies, asset managers, and mortgage real estate investment trusts. It offers real estate agent services, title insurance and settlement services, and homeowners insurance services. It also offers home equity lines of credit and closed-end second-lien loans. The company formerly known as Better Mortgage Corporation and changed its name to Better Home & Finance Holding Company in August 2023. Better Home & Finance Holding Company is headquartered in New York, New York.",
   "form4_filings": [
     {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Garg Vishal",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-05-21",
+      "code": "P",
+      "shares": 15600.0,
+      "price": 24.8928,
+      "total_value": 388327.68,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001297602-26-000029"
+    },
+    {
       "date_filed": "2026-05-20",
       "reporter_name": "Garg Vishal",
       "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
@@ -6782,7 +6796,7 @@
     }
   ],
   "valuation": {
-    "share_price": 24.780000686645508,
+    "share_price": 25.030000686645508,
     "shares_basic": 16691934,
     "shares_basic_as_of": "2026-03-31",
     "options": 609413,
@@ -6790,8 +6804,8 @@
     "cash": 64265000,
     "debt": 412395,
     "ttm_revenue": 11249000,
-    "mc_basic": 413626135.9814415,
-    "ev_basic": 349773530.9814415
+    "mc_basic": 417799119.4814415,
+    "ev_basic": 353946514.4814415
   },
   "financials": {
     "income_statement": {
@@ -7427,7 +7441,7 @@
           [
             11686000,
             28632000,
-            589000,
+            null,
             null
           ],
           [
@@ -7716,5 +7730,5 @@
       }
     }
   },
-  "last_updated": "2026-05-21T13:52:50+00:00"
+  "last_updated": "2026-05-22T10:40:14+00:00"
 }
