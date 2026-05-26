@@ -5,7 +5,7 @@ Daily small-cap insider purchase screener. Form 4 filings filtered to:
 - Transaction code **P** (open-market purchase) only
 - **One reporter (same CIK) ≥ $100k** in the bucket — two different insiders at $60k each do *not* qualify
 - Enterprise value **< $1B** (basic shares)
-- TTM revenue **> 0**
+- TTM revenue **> 0** — only revenue facts whose `end` date is within ~18 months of today count (otherwise a shell-co predecessor's ancient revenue, e.g. KLRS's 2019 $165k, leaks through after a reverse merger). Bank-style top-line tags (`InterestAndDividendIncomeOperating`, `NoninterestIncome`) are included in the screener's revenue ladder so community banks like BCML/CUBI/FMBM that don't tag `Revenues` aren't false-rejected.
 
 Static site published to GitHub Pages at <https://templargin.github.io/insider-monitor>.
 
