@@ -1,5 +1,5 @@
 """XBRL companyfacts helpers with fallback ladders for inconsistent small-cap tagging."""
-from datetime import date
+from datetime import date, timedelta
 
 
 def _facts_for_tag(companyfacts, tag, namespace="us-gaap", units="USD"):
@@ -50,13 +50,21 @@ DEBT_SHORT_TAGS = ["LongTermDebtCurrent", "ShortTermBorrowings", "DebtCurrent",
 SHARES_TAGS_DEI = ["EntityCommonStockSharesOutstanding"]
 SHARES_TAGS_USGAAP = ["CommonStockSharesOutstanding"]
 
-# Revenue
+# Revenue.
+# Banks/insurance tag top-line as InterestAndDividendIncomeOperating (and
+# NoninterestIncome) rather than Revenues — included here so community banks
+# like BCML/CUBI/FMBM aren't false-rejected by the `TTM revenue > 0` screener
+# filter. For the screener's >0 check the bank tag alone is enough; the
+# financials module separately sums Interest + Noninterest income for the
+# displayed Total Revenue.
 REVENUE_TAGS = [
     "Revenues",
     "RevenueFromContractWithCustomerExcludingAssessedTax",
     "RevenueFromContractWithCustomerIncludingAssessedTax",
     "SalesRevenueNet",
     "SalesRevenueGoodsNet",
+    "InterestAndDividendIncomeOperating",
+    "NoninterestIncome",
 ]
 
 OPTIONS_TAGS = [
@@ -126,20 +134,29 @@ def get_ttm_revenue(facts):
 
     Falls back to most recent annual (FY) value if quarterly data unavailable.
     Returns (ttm_value, as_of_end_date) or (None, None) if no revenue tags found.
+
+    Stale-data guard: ignore revenue entries whose `end` predates today by more
+    than ~18 months. Shell-co reverse mergers (e.g. KLRS = Kalaris Therapeutics,
+    which inherited a 2019 $165k revenue fact from its predecessor and has been
+    a clinical-stage biotech with zero revenue since) would otherwise leak past
+    the `TTM revenue > 0` screener filter.
     """
-    # Pick the single revenue tag with the freshest data
+    stale_cutoff = (date.today() - timedelta(days=540)).isoformat()
+
+    # Pick the single revenue tag with the freshest data (fresh-only)
     best_tag, best_end = None, None
     for tag in REVENUE_TAGS:
         for f in _facts_for_tag(facts, tag):
             end = f.get("end", "")
-            if not end:
+            if not end or end < stale_cutoff:
                 continue
             if best_end is None or end > best_end:
                 best_end, best_tag = end, tag
     if best_tag is None:
         return None, None
 
-    entries = list(_facts_for_tag(facts, best_tag))
+    entries = [e for e in _facts_for_tag(facts, best_tag)
+               if e.get("end", "") >= stale_cutoff]
     if not entries:
         return None, None
 
