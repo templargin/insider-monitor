@@ -5,6 +5,48 @@
   "description": "Better Home & Finance Holding Company operates as a homeownership company in the United States. The company provides government-sponsored enterprise (GSE) conforming loans, Federal Housing Administration insured loans, Department of Veterans Affairs guaranteed loans, and jumbo loans to GSEs, banks, insurance companies, asset managers, and mortgage real estate investment trusts. It offers real estate agent services, title insurance and settlement services, and homeowners insurance services. It also offers home equity lines of credit and closed-end second-lien loans. The company formerly known as Better Mortgage Corporation and changed its name to Better Home & Finance Holding Company in August 2023. Better Home & Finance Holding Company is headquartered in New York, New York.",
   "form4_filings": [
     {
+      "date_filed": "2026-05-26",
+      "reporter_name": "Talwar Harit",
+      "relationship": "Director",
+      "transaction_date": "2026-05-22",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 25.3392,
+      "total_value": 126696.00000000001,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001401336-26-000016"
+    },
+    {
+      "date_filed": "2026-05-26",
+      "reporter_name": "Talwar Harit",
+      "relationship": "Director",
+      "transaction_date": "2026-05-01",
+      "code": "M",
+      "shares": -3094.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units (Class B)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001401336-26-000016"
+    },
+    {
+      "date_filed": "2026-05-26",
+      "reporter_name": "Talwar Harit",
+      "relationship": "Director",
+      "transaction_date": "2026-05-01",
+      "code": "A",
+      "shares": 3094.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class B Common Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001401336-26-000016"
+    },
+    {
       "date_filed": "2026-05-21",
       "reporter_name": "Garg Vishal",
       "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
@@ -6796,7 +6838,7 @@
     }
   ],
   "valuation": {
-    "share_price": 25.030000686645508,
+    "share_price": 26.469999313354492,
     "shares_basic": 16691934,
     "shares_basic_as_of": "2026-03-31",
     "options": 609413,
@@ -6804,8 +6846,8 @@
     "cash": 64265000,
     "debt": 412395,
     "ttm_revenue": 11249000,
-    "mc_basic": 417799119.4814415,
-    "ev_basic": 353946514.4814415
+    "mc_basic": 441835481.5185585,
+    "ev_basic": 377982876.5185585
   },
   "financials": {
     "income_statement": {
@@ -7730,5 +7772,5 @@
       }
     }
   },
-  "last_updated": "2026-05-22T12:48:30+00:00"
+  "last_updated": "2026-05-27T10:41:17+00:00"
 }
