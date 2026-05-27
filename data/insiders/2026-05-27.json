@@ -4,14 +4,30 @@
   "filing_dates": [
     "2026-05-26"
   ],
-  "generated_at": "2026-05-27T10:39:23+00:00",
+  "generated_at": "2026-05-27T14:07:27+00:00",
   "tickers": [
+    {
+      "ticker": "TXO",
+      "name": "TXO Partners, L.P.",
+      "total_value": 10516660.492800001,
+      "ev_basic": 994548123.2320032,
+      "mc_basic": 725334123.2320032,
+      "insiders": [
+        {
+          "reporter_name": "SIMPSON BOB R",
+          "relationship": "Director, 10% Owner",
+          "total_value": 10516660.492800001,
+          "shares": 768816.0,
+          "txn_count": 6
+        }
+      ]
+    },
     {
       "ticker": "GTE",
       "name": "GRAN TIERRA ENERGY INC.",
       "total_value": 2494865.2,
-      "ev_basic": 716216303.9977455,
-      "mc_basic": 288890303.9977455,
+      "ev_basic": 708613922.2522545,
+      "mc_basic": 281287922.2522545,
       "insiders": [
         {
           "reporter_name": "LM Asset Management Inc.",
@@ -26,8 +42,8 @@
       "ticker": "PRTA",
       "name": "PROTHENA CORP PUBLIC LTD CO",
       "total_value": 1962600.0000000002,
-      "ev_basic": 197211586.1882925,
-      "mc_basic": 526673586.1882925,
+      "ev_basic": 205588096.1198225,
+      "mc_basic": 535050096.1198225,
       "insiders": [
         {
           "reporter_name": "SCULLY WILLIAM P",
@@ -42,8 +58,8 @@
       "ticker": "ULBI",
       "name": "ULTRALIFE CORP",
       "total_value": 1430627.0684,
-      "ev_basic": 160374751.56390524,
-      "mc_basic": 114264751.56390524,
+      "ev_basic": 174616203.876606,
+      "mc_basic": 128506203.87660599,
       "insiders": [
         {
           "reporter_name": "WHITMORE BRADFORD T",
@@ -74,8 +90,8 @@
       "ticker": "BCML",
       "name": "BayCom Corp",
       "total_value": 309400.0,
-      "ev_basic": 29774689.083889008,
-      "mc_basic": 335679689.083889,
+      "ev_basic": 32502018.333889008,
+      "mc_basic": 338407018.333889,
       "insiders": [
         {
           "reporter_name": "PERDUE MICHAEL J",
@@ -90,8 +106,8 @@
       "ticker": "BETR",
       "name": "Better Home & Finance Holding Co",
       "total_value": 253392.00000000003,
-      "ev_basic": 377982876.5185585,
-      "mc_basic": 441835481.5185585,
+      "ev_basic": 401184686.427948,
+      "mc_basic": 465037291.427948,
       "insiders": [
         {
           "reporter_name": "Talwar Harit",
@@ -122,8 +138,8 @@
       "ticker": "AII",
       "name": "American Integrity Insurance Group, Inc.",
       "total_value": 199968.99999999997,
-      "ev_basic": 155520095.5766964,
-      "mc_basic": 326187095.5766964,
+      "ev_basic": 163160539.61592865,
+      "mc_basic": 333827539.61592865,
       "insiders": [
         {
           "reporter_name": "Clark David Lewis",
@@ -138,8 +154,8 @@
       "ticker": "ECOR",
       "name": "electroCore, Inc.",
       "total_value": 119704.16,
-      "ev_basic": 76824748.10417557,
-      "mc_basic": 73914748.10417557,
+      "ev_basic": 76409961.17189503,
+      "mc_basic": 73499961.17189503,
       "insiders": [
         {
           "reporter_name": "Errico Thomas J.",
