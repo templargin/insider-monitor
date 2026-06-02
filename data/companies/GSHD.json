@@ -5,6 +5,20 @@
   "description": "Goosehead Insurance, Inc. operates as a holding company for Goosehead Financial, LLC that engages in the provision of personal lines insurance agency services in the United States. The company offers insurance service for homeowner's; automotive; dwelling property; flood, wind, and earthquake; excess liability or umbrella; general liability, and property and auto insurance for small businesses; life insurance; and motorcycle, recreational vehicle, and other insurance policies. It distributes its products and services through corporate and franchise locations. Goosehead Insurance, Inc. was founded in 2003 and is headquartered in Westlake, Texas.",
   "form4_filings": [
     {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Langston Patrick Ryan",
+      "relationship": "10% Owner, Other (Member of 10% owner group)",
+      "transaction_date": "2026-05-29",
+      "code": "P",
+      "shares": 2800.0,
+      "price": 35.56,
+      "total_value": 99568.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001736766-26-000003"
+    },
+    {
       "date_filed": "2026-05-29",
       "reporter_name": "Martin John Arthur",
       "relationship": "Officer (Chief Financial Officer)",
@@ -2596,6 +2610,20 @@
     },
     {
       "date_filed": "2025-05-08",
+      "reporter_name": "McConnon Thomas",
+      "relationship": "Director",
+      "transaction_date": "2025-05-06",
+      "code": "A",
+      "shares": 6586.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Director Stock Options (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001726978-25-000064"
+    },
+    {
+      "date_filed": "2025-05-08",
       "reporter_name": "Cruzado Waded",
       "relationship": "Director",
       "transaction_date": "2025-05-06",
@@ -4066,7 +4094,7 @@
     }
   ],
   "valuation": {
-    "share_price": 36.66999816894531,
+    "share_price": 36.650001525878906,
     "shares_basic": 21147289,
     "shares_basic_as_of": "2022-09-30",
     "options": 3436000,
@@ -4074,8 +4102,8 @@
     "cash": 25652000,
     "debt": 36500000,
     "ttm_revenue": 353121000,
-    "mc_basic": 775471048.9081573,
-    "ev_basic": 786319048.9081573
+    "mc_basic": 775048174.1182022,
+    "ev_basic": 785896174.1182022
   },
   "financials": {
     "income_statement": {
@@ -5012,5 +5040,5 @@
       }
     }
   },
-  "last_updated": "2026-06-01T16:29:06+00:00"
+  "last_updated": "2026-06-02T10:38:28+00:00"
 }
