@@ -416,21 +416,78 @@ def _derive_opinc_from_costs_and_expenses(stmt, usg, freq):
     return stmt
 
 
+def _derive_gross_profit_from_opinc_plus_gna(stmt, usg):
+    """Last-resort GP fill for services filers that report Operating Income and
+    G&A but no Cost of Revenue / Cost of Goods Sold. Assumes G&A is the ONLY
+    non-COGS operating expense — so implied CoR = Rev - OpInc - G&A, which
+    gives GP = OpInc + G&A.
+
+    Mathematically GP - OpEx = OpInc still holds (OpEx ≡ G&A). The decomposition
+    just isn't disclosed — the filer rolls everything into a single
+    OperatingExpenses total. PFHO is the canonical case (workers' comp services:
+    Labor + Other Op Cost + G&A = OperatingExpenses, no CoR tagged).
+
+    Gated to filers where the "G&A = everything-except-CoR" assumption is least
+    abusive:
+      - Skip if `ResearchAndDevelopmentExpense` is tagged. R&D is not CoR-like;
+        biotechs and R&D-heavy techs would get nonsense GP (massively negative
+        for pre-revenue cos where R&D dwarfs G&A).
+      - Skip if `NoninterestExpense` is tagged. That's the bank fallback in the
+        SG&A ladder — banks have no GP concept and this formula would inflate.
+
+    Runs per-period (only fills periods where GP is still None after the tag-
+    based ladder + Rev-CoR derivation). Tracks filled periods in
+    `_gp_fallback_indices` so `_derive_opex` can skip them (otherwise OpEx
+    would render as a duplicate of the SG&A row, since OpEx = GP - OpInc = G&A
+    by construction here, which is uninformative)."""
+    labels = stmt["labels"]
+    if not all(n in labels for n in ("Gross Profit", "Operating Income", "SG&A", "Total Revenue")):
+        return stmt
+    if "ResearchAndDevelopmentExpense" in usg:
+        return stmt
+    if "NoninterestExpense" in usg:
+        return stmt
+    gp_i = labels.index("Gross Profit")
+    op_row = stmt["data"][labels.index("Operating Income")]
+    sga_row = stmt["data"][labels.index("SG&A")]
+    rev_row = stmt["data"][labels.index("Total Revenue")]
+    gp_row = stmt["data"][gp_i]
+    fallback_idx = set()
+    new_gp = []
+    for i, (g, op, sga, rev) in enumerate(zip(gp_row, op_row, sga_row, rev_row)):
+        if g is not None:
+            new_gp.append(g)
+        elif (op is not None and sga is not None and rev is not None and rev >= 1_000_000):
+            new_gp.append(op + sga)
+            fallback_idx.add(i)
+        else:
+            new_gp.append(None)
+    stmt["data"][gp_i] = new_gp
+    stmt["_gp_fallback_indices"] = fallback_idx
+    return stmt
+
+
 def _derive_opex(stmt):
     """Operating Expense = Gross Profit - Operating Income. By definition this
     satisfies GP - OpEx = OpInc, so the IS always reconciles. Filers' XBRL
     OperatingExpenses tag is inconsistent (some include COGS, some don't), so
     we ignore it. Anchoring on GP (not Rev) is correct when CoR isn't reported
-    for some periods — the company's reported GP already accounts for it."""
+    for some periods — the company's reported GP already accounts for it.
+
+    Periods where GP came from the OpInc+G&A fallback (see
+    `_derive_gross_profit_from_opinc_plus_gna`) are skipped — there OpEx would
+    just equal SG&A and double up the row uselessly."""
     labels = stmt["labels"]
     if not all(n in labels for n in ("Gross Profit", "Operating Income", "Operating Expense")):
         return stmt
     gp_row = stmt["data"][labels.index("Gross Profit")]
     op_row = stmt["data"][labels.index("Operating Income")]
     opex_i = labels.index("Operating Expense")
+    skip = stmt.get("_gp_fallback_indices") or set()
     stmt["data"][opex_i] = [
-        (g - o) if (g is not None and o is not None) else None
-        for g, o in zip(gp_row, op_row)
+        None if i in skip
+        else ((g - o) if (g is not None and o is not None) else None)
+        for i, (g, o) in enumerate(zip(gp_row, op_row))
     ]
     return stmt
 
@@ -517,6 +574,7 @@ def _build_bs_at_ends(usg, target_ends):
 
 def _strip(stmt):
     stmt.pop("_ends", None)
+    stmt.pop("_gp_fallback_indices", None)
     return stmt
 
 
@@ -669,6 +727,7 @@ def fetch_xbrl_financials(cik):
     is_q = _augment_eps_and_shares(is_q, usg, "quarterly")
     is_q = _derive_gross_profit(is_q)
     is_q = _derive_opinc_from_costs_and_expenses(is_q, usg, "quarterly")
+    is_q = _derive_gross_profit_from_opinc_plus_gna(is_q, usg)
     is_q = _derive_opex(is_q)
     is_q = _derive_pretax(is_q)
 
@@ -676,6 +735,7 @@ def fetch_xbrl_financials(cik):
     is_a = _augment_eps_and_shares(is_a, usg, "annual")
     is_a = _derive_gross_profit(is_a)
     is_a = _derive_opinc_from_costs_and_expenses(is_a, usg, "annual")
+    is_a = _derive_gross_profit_from_opinc_plus_gna(is_a, usg)
     is_a = _derive_opex(is_a)
     is_a = _derive_pretax(is_a)
 
