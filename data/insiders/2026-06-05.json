@@ -1,0 +1,97 @@
+{
+  "url_date": "2026-06-05",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-06-04"
+  ],
+  "generated_at": "2026-06-05T10:36:24+00:00",
+  "tickers": [
+    {
+      "ticker": "FONR",
+      "name": "FONAR CORP",
+      "total_value": 8226595.2,
+      "ev_basic": 67828272.35007477,
+      "mc_basic": 121364332.35007477,
+      "insiders": [
+        {
+          "reporter_name": "shane hilary",
+          "relationship": "10% Owner",
+          "total_value": 8226595.2,
+          "shares": 430672.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "SMBK",
+      "name": "SMARTFINANCIAL INC.",
+      "total_value": 252719.99999999997,
+      "ev_basic": 368767427.9968605,
+      "mc_basic": 711638427.9968605,
+      "insiders": [
+        {
+          "reporter_name": "Ackermann Cathy G",
+          "relationship": "Director",
+          "total_value": 252719.99999999997,
+          "shares": 6000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "GROW",
+      "name": "U S GLOBAL INVESTORS INC",
+      "total_value": 216139.488,
+      "ev_basic": 3837212.2099409103,
+      "mc_basic": 28412212.20994091,
+      "insiders": [
+        {
+          "reporter_name": "Gator Capital Management, LLC",
+          "relationship": "10% Owner",
+          "total_value": 108069.744,
+          "shares": 41652.0,
+          "txn_count": 4
+        },
+        {
+          "reporter_name": "Pilecki Derek Steven",
+          "relationship": "Other (Control Person)",
+          "total_value": 108069.744,
+          "shares": 41652.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "STRR",
+      "name": "Star Equity Holdings, Inc.",
+      "total_value": 148580.44,
+      "ev_basic": 40553117.09012985,
+      "mc_basic": 43057117.09012985,
+      "insiders": [
+        {
+          "reporter_name": "Eberwein Jeffrey E.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 148580.44,
+          "shares": 12824.0,
+          "txn_count": 6
+        }
+      ]
+    },
+    {
+      "ticker": "AXR",
+      "name": "AMREP CORP.",
+      "total_value": 119801.69999999998,
+      "ev_basic": 85917349.63952065,
+      "mc_basic": 135894349.63952065,
+      "insiders": [
+        {
+          "reporter_name": "DAHL JAMES H",
+          "relationship": "10% Owner",
+          "total_value": 119801.69999999998,
+          "shares": 4500.0,
+          "txn_count": 3
+        }
+      ]
+    }
+  ]
+}

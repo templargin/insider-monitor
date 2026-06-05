@@ -5,6 +5,62 @@
   "description": "U.S. Global Investors, Inc. is a publicly owned investment manager. It primarily provides its services to investment companies. The firm is a large advisory firm, an investment adviser to an investment company which provides portfolio management for investment companies. The firm manages and launches equity/balanced funds, fixed income funds and other funds. It also manages hedge funds. The firm primarily invests in no-load mutual funds and exchange traded funds (ETFs). U.S. Global Investors, Inc. is based in San Antonio, Texas.",
   "form4_filings": [
     {
+      "date_filed": "2026-06-04",
+      "reporter_name": "Pilecki Derek Steven",
+      "relationship": "Other (Control Person)",
+      "transaction_date": "2026-06-03",
+      "code": "P",
+      "shares": 330.0,
+      "price": 2.6,
+      "total_value": 858.0,
+      "security_title": "Class A Common Stock (Non-Voting)",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001062993-26-003053"
+    },
+    {
+      "date_filed": "2026-06-04",
+      "reporter_name": "Gator Capital Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-03",
+      "code": "P",
+      "shares": 330.0,
+      "price": 2.6,
+      "total_value": 858.0,
+      "security_title": "Class A Common Stock (Non-Voting)",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001062993-26-003051"
+    },
+    {
+      "date_filed": "2026-06-04",
+      "reporter_name": "Pilecki Derek Steven",
+      "relationship": "Other (Control Person)",
+      "transaction_date": "2026-06-02",
+      "code": "P",
+      "shares": 20496.0,
+      "price": 2.5945,
+      "total_value": 53176.872,
+      "security_title": "Class A Common Stock (Non-Voting)",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001062993-26-003053"
+    },
+    {
+      "date_filed": "2026-06-04",
+      "reporter_name": "Gator Capital Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-02",
+      "code": "P",
+      "shares": 20496.0,
+      "price": 2.5945,
+      "total_value": 53176.872,
+      "security_title": "Class A Common Stock (Non-Voting)",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001062993-26-003051"
+    },
+    {
       "date_filed": "2026-06-02",
       "reporter_name": "Gator Capital Management, LLC",
       "relationship": "10% Owner",
@@ -927,38 +983,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0000754811-24-000013"
-    },
-    {
-      "date_filed": "2024-06-03",
-      "reporter_name": "HOLMES FRANK E",
-      "relationship": "Director, Officer (CEO/CIO), 10% Owner",
-      "transaction_date": "2024-05-31",
-      "code": "J",
-      "shares": 925.0,
-      "price": 2.58,
-      "total_value": 2386.5,
-      "security_title": "Class A Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000754811-24-000012"
-    },
-    {
-      "date_filed": "2024-06-03",
-      "reporter_name": "Callicotte Lisa",
-      "relationship": "Officer (CFO)",
-      "transaction_date": "2024-05-31",
-      "code": "J",
-      "shares": 366.0,
-      "price": 2.58,
-      "total_value": 944.28,
-      "security_title": "Class A Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000754811-24-000011"
     }
   ],
   "valuation": {
-    "share_price": 2.6050000190734863,
+    "share_price": 2.7100000381469727,
     "shares_basic": 10484211,
     "shares_basic_as_of": "2026-02-12",
     "options": 2000,
@@ -966,8 +994,8 @@
     "cash": 24575000,
     "debt": 0,
     "ttm_revenue": 9626000,
-    "mc_basic": 27311369.854970455,
-    "ev_basic": 2736369.854970455
+    "mc_basic": 28412212.20994091,
+    "ev_basic": 3837212.2099409103
   },
   "financials": {
     "income_statement": {
@@ -1942,5 +1970,5 @@
       }
     }
   },
-  "last_updated": "2026-06-03T15:26:39+00:00"
+  "last_updated": "2026-06-05T10:37:06+00:00"
 }
