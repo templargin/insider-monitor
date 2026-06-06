@@ -80,7 +80,11 @@ CASHFLOW_CANONICAL = [
     ("Net Income", ["Net Income From Continuing Operations", "Net Income"]),
     ("D&A", ["Depreciation Amortization Depletion", "Depreciation And Amortization", "Reconciled Depreciation"]),
     ("Stock-Based Comp", ["Stock Based Compensation"]),
-    ("ΔWorking Capital", ["Change In Working Capital"]),
+    # Working-capital change + all other non-cash operating adjustments, rolled
+    # into one plug so the operating section foots NI → OCF by construction.
+    # The XBRL path derives this in _derive_cf_other_operating; the legacy
+    # yfinance label is kept as a fallback source.
+    ("Δ Working Cap & Other", ["Δ Working Cap & Other", "Change In Working Capital"]),
     ("Operating Cash Flow", ["Operating Cash Flow", "Cash Flow From Continuing Operating Activities"]),
     SPACER,
     # Investing

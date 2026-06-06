@@ -35,6 +35,23 @@ def audit(d):
     fcf_calc = _row(cf, "Free Cash Flow")
     cash = _row(bs, "Cash & Equivalents")
 
+    # Operating-section bridge: Net Income + D&A + SBC + ΔWC&Other must foot to
+    # Operating Cash Flow. The ΔWC&Other plug makes this hold by construction, so
+    # any mismatch here is a real regression in the extractor.
+    ni = _row(cf, "Net Income")
+    da = _row(cf, "D&A")
+    sbc = _row(cf, "Stock-Based Comp")
+    wc = _row(cf, "Δ Working Cap & Other")
+    if ni and ocf:
+        for i, p in enumerate(periods):
+            o = _val(ocf, i)
+            n = _val(ni, i)
+            if o is None or n is None:
+                continue
+            adj = n + sum((_val(r, i) or 0) for r in (da, sbc, wc) if r is not None)
+            if abs(adj - o) > 100_000:
+                issues.append(f"[{t}] CF/{p}: operating section does not foot — NI+D&A+SBC+ΔWC&Other={adj/1e6:.2f}M vs OCF={o/1e6:.2f}M")
+
     # CapEx sign — should be negative (outflow) on display
     if capex:
         for i, p in enumerate(periods):
@@ -55,6 +72,10 @@ def audit(d):
     fx = _row(cf, "Effect of FX on Cash")
     if ocf and icf and fcf and cash:
         for j in range(len(periods) - 1):
+            # LTM is a synthetic sum-of-flows column; comparing it to a
+            # point-in-time cash delta is not meaningful, so skip it.
+            if periods[j] == "LTM":
+                continue
             cn, cp = _val(cash, j), _val(cash, j + 1)
             o, i_, f = _val(ocf, j), _val(icf, j), _val(fcf, j)
             x = _val(fx, j) if fx else 0

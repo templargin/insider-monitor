@@ -1407,6 +1407,8 @@
       "annual": {
         "labels": [
           "Total Revenue",
+          "Gross Profit",
+          "Gross Margin %",
           "",
           "SG&A",
           "R&D",
@@ -1426,6 +1428,14 @@
           [
             null,
             165000
+          ],
+          [
+            null,
+            165000
+          ],
+          [
+            null,
+            100.0
           ],
           [
             null,
@@ -1628,6 +1638,7 @@
           "Net Income",
           "D&A",
           "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
           "CapEx",
@@ -1661,6 +1672,12 @@
             333000,
             638000,
             591000
+          ],
+          [
+            -1315000,
+            2592000,
+            -77000,
+            -1780000
           ],
           [
             -11581000,
@@ -1717,6 +1734,7 @@
           "Net Income",
           "D&A",
           "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
           "CapEx",
@@ -1755,6 +1773,13 @@
             895000,
             40779000,
             41315000
+          ],
+          [
+            -560000,
+            3113000,
+            47602000,
+            24790000,
+            -15380000
           ],
           [
             -42510000,

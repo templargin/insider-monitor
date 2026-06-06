@@ -40,8 +40,14 @@ def _duration_band(d):
     return None
 
 
-def _series_one_tag_quarterly(usg, tag, unit="USD"):
-    """Discrete-quarterly series for ONE tag, deriving Q4 / fills from YTD."""
+def _series_one_tag_quarterly(usg, tag, unit="USD", derive_ytd=True):
+    """Discrete-quarterly series for ONE tag, deriving Q4 / fills from YTD.
+
+    `derive_ytd=False` disables the YTD-subtraction walk and returns only the
+    directly-reported discrete quarters. Required for weighted-average share
+    counts and similar non-additive metrics: subtracting a 9-month average from
+    a full-year average (FY − 9M) is meaningless for shares and produced absurd
+    values (e.g. BKKT's −6.3M "Q4 diluted shares")."""
     entries = usg.get(tag, {}).get("units", {}).get(unit, [])
     if not entries:
         return {}
@@ -63,6 +69,9 @@ def _series_one_tag_quarterly(usg, tag, unit="USD"):
 
     # First pass: 60-100d facts ARE discrete quarters.
     discrete = {f["end"]: f["val"] for f in facts if _duration_band(_period_days(f)) == (60, 100)}
+
+    if not derive_ytd:
+        return discrete
 
     # Second pass: YTD derivation for periods discrete didn't cover.
     # NOTE: groups by calendar year of end date — correct for the dominant
@@ -125,9 +134,9 @@ def _series_one_tag_balance(usg, tag, unit="USD"):
     return {end: v for end, (v, _) in by_end.items()}
 
 
-def _series_one_tag(usg, tag, freq, unit="USD"):
+def _series_one_tag(usg, tag, freq, unit="USD", derive_ytd=True):
     if freq == "quarterly":
-        return _series_one_tag_quarterly(usg, tag, unit)
+        return _series_one_tag_quarterly(usg, tag, unit, derive_ytd=derive_ytd)
     if freq == "annual":
         return _series_one_tag_annual(usg, tag, unit)
     if freq == "balance":
@@ -145,15 +154,15 @@ def _sum_dicts(dicts):
     return {e: sum(d[e] for d in dicts) for e in common}
 
 
-def _series(usg, candidates, freq, unit="USD"):
+def _series(usg, candidates, freq, unit="USD", derive_ytd=True):
     """Try each candidate in priority order. Merge results so earlier candidates
     win at the same period end; later candidates fill in periods earlier missed."""
     accumulated = {}
     for cand in candidates:
         if isinstance(cand, str):
-            sub = _series_one_tag(usg, cand, freq, unit)
+            sub = _series_one_tag(usg, cand, freq, unit, derive_ytd=derive_ytd)
         elif isinstance(cand, tuple) and cand[0] == "sum":
-            sub_dicts = [_series_one_tag(usg, t, freq, unit) for t in cand[1]]
+            sub_dicts = [_series_one_tag(usg, t, freq, unit, derive_ytd=derive_ytd) for t in cand[1]]
             sub = _sum_dicts(sub_dicts)
         else:
             continue
@@ -182,11 +191,19 @@ LI_IS = [
         # empty for non-banks (those tags aren't present), so the standard
         # tags below take over.
         ("sum", ["InterestAndDividendIncomeOperating", "NoninterestIncome"]),
+        ("sum", ["InterestAndFeeIncomeLoansAndLeases", "NoninterestIncome"]),
+        ("sum", ["InterestIncomeOperating", "NoninterestIncome"]),
         "Revenues",
         "RevenueFromContractWithCustomerExcludingAssessedTax",
         "RevenueFromContractWithCustomerIncludingAssessedTax",
         "SalesRevenueNet",
         "SalesRevenueGoodsNet",
+        # Bare bank interest income — last-resort top line for thrifts (PFBX)
+        # that tag neither a standard revenue line nor NoninterestIncome. Sits
+        # last so it only fires when no broader revenue tag matched.
+        "InterestAndDividendIncomeOperating",
+        "InterestAndFeeIncomeLoansAndLeases",
+        "InterestIncomeOperating",
     ]),
     ("Cost of Revenue", [
         "CostOfRevenue",
@@ -353,7 +370,9 @@ def _augment_eps_and_shares(stmt, usg, freq):
         stmt["labels"].append(label)
         stmt["data"].append([ser.get(e) for e in period_ends])
     for label, cands in LI_IS_SHARES:
-        ser = _series(usg, cands, freq, unit="shares")
+        # Weighted-average share counts are not additive across quarters, so the
+        # YTD-subtraction walk must not run for them (it yields nonsense Q4s).
+        ser = _series(usg, cands, freq, unit="shares", derive_ytd=False)
         stmt["labels"].append(label)
         stmt["data"].append([ser.get(e) for e in period_ends])
     return stmt
@@ -371,6 +390,13 @@ def _derive_gross_profit(stmt):
     rev_row, cor_row = stmt["data"][rev_i], stmt["data"][cor_i]
     new_gp = []
     for g, r, c in zip(gp_row, rev_row, cor_row):
+        # Reject an implausible reported GrossProfit tag (GP > 1.05·Revenue → a
+        # margin above 100%, impossible). Some filers emit a partial/segment
+        # GrossProfit fact for an interim period that dwarfs that period's
+        # revenue (e.g. BETR's quarterly tag → 679% LTM). Drop it and let the
+        # Rev−CoR / archetype / floor ladder fill the period instead.
+        if g is not None and r is not None and r > 0 and g > 1.05 * r:
+            g = None
         if g is not None:
             new_gp.append(g)
         elif r is not None and c is not None:
@@ -427,23 +453,24 @@ def _derive_gross_profit_from_opinc_plus_gna(stmt, usg):
     OperatingExpenses total. PFHO is the canonical case (workers' comp services:
     Labor + Other Op Cost + G&A = OperatingExpenses, no CoR tagged).
 
-    Gated to filers where the "G&A = everything-except-CoR" assumption is least
-    abusive:
-      - Skip if `ResearchAndDevelopmentExpense` is tagged. R&D is not CoR-like;
-        biotechs and R&D-heavy techs would get nonsense GP (massively negative
-        for pre-revenue cos where R&D dwarfs G&A).
+    Gating (per-period, not whole-statement):
       - Skip if `NoninterestExpense` is tagged. That's the bank fallback in the
-        SG&A ladder — banks have no GP concept and this formula would inflate.
+        SG&A ladder — banks have no GP concept; NII handles them downstream.
+      - Skip a period when R&D is large relative to revenue (≥ 50% of revenue).
+        That's the genuine-biotech signal — there CoR doesn't exist as a concept
+        and OpInc+G&A would be massively negative. But filers that merely *tag*
+        a small R&D line on top of a real revenue business (e.g. FONR: R&D = 1.5%
+        of revenue, a medical-imaging operator) are NOT excluded — the old
+        whole-statement `ResearchAndDevelopmentExpense in usg` early-return
+        wrongly blanked them. Genuine biotechs fall through to the revenue floor.
+      - Accept only when the implied GP lands in [0, 1.05·Revenue] so gross
+        margin stays in a sane 0–100% band; out-of-band periods fall through.
 
-    Runs per-period (only fills periods where GP is still None after the tag-
-    based ladder + Rev-CoR derivation). Tracks filled periods in
-    `_gp_fallback_indices` so `_derive_opex` can skip them (otherwise OpEx
-    would render as a duplicate of the SG&A row, since OpEx = GP - OpInc = G&A
-    by construction here, which is uninformative)."""
+    Tracks filled periods in `_gp_fallback_indices` so `_derive_opex` can skip
+    them (otherwise OpEx would render as a duplicate of the SG&A row, since
+    OpEx = GP - OpInc = G&A by construction here, which is uninformative)."""
     labels = stmt["labels"]
     if not all(n in labels for n in ("Gross Profit", "Operating Income", "SG&A", "Total Revenue")):
-        return stmt
-    if "ResearchAndDevelopmentExpense" in usg:
         return stmt
     if "NoninterestExpense" in usg:
         return stmt
@@ -451,19 +478,33 @@ def _derive_gross_profit_from_opinc_plus_gna(stmt, usg):
     op_row = stmt["data"][labels.index("Operating Income")]
     sga_row = stmt["data"][labels.index("SG&A")]
     rev_row = stmt["data"][labels.index("Total Revenue")]
+    rd_row = stmt["data"][labels.index("R&D")] if "R&D" in labels else [None] * len(op_row)
     gp_row = stmt["data"][gp_i]
-    fallback_idx = set()
+    fallback_idx = stmt.setdefault("_gp_fallback_indices", set())
     new_gp = []
     for i, (g, op, sga, rev) in enumerate(zip(gp_row, op_row, sga_row, rev_row)):
         if g is not None:
             new_gp.append(g)
-        elif (op is not None and sga is not None and rev is not None and rev >= 1_000_000):
-            new_gp.append(op + sga)
-            fallback_idx.add(i)
-        else:
-            new_gp.append(None)
+            continue
+        rd = rd_row[i] if i < len(rd_row) else None
+        rd_heavy = rd is not None and rev not in (None, 0) and abs(rd) >= 0.5 * rev
+        if (op is not None and sga is not None and rev is not None
+                and rev >= 1_000_000 and not rd_heavy):
+            cand = op + sga
+            # Trade-off: a negative `cand` (OpInc+G&A < 0) is rejected rather
+            # than shown as a negative gross margin. It would only arise when the
+            # operating loss exceeds G&A, where the "G&A is the only non-COGS
+            # opex" assumption is already breaking down — so we'd rather let the
+            # period fall to the revenue floor than publish a shaky negative GP.
+            # Net effect: such a filer reads 100% (optimistic) instead of, say,
+            # −40%. Acceptable for the small-rev tail; revisit if a real
+            # negative-gross-margin operator surfaces here.
+            if 0 <= cand <= rev * 1.05:
+                new_gp.append(cand)
+                fallback_idx.add(i)
+                continue
+        new_gp.append(None)
     stmt["data"][gp_i] = new_gp
-    stmt["_gp_fallback_indices"] = fallback_idx
     return stmt
 
 
@@ -506,6 +547,232 @@ def _derive_pretax(stmt):
         (n + t) if (n is not None and t is not None) else (n if n is not None else None)
         for n, t in zip(ni_row, tax_row)
     ]
+    return stmt
+
+
+# Interest-income tags that signify a BANK / lender top line. Deliberately
+# EXCLUDES `InterestIncomeExpenseNet` — non-banks (CDLX, BKKT, PROP …) tag that
+# for a small non-operating net-interest line, and treating it as a bank top
+# line would invent a bogus gross-profit row for them.
+_BANK_INTEREST_INCOME = [
+    "InterestAndDividendIncomeOperating",
+    "InterestIncomeOperating",
+    "InterestAndFeeIncomeLoansAndLeases",
+    "InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio",
+]
+_BANK_INTEREST_EXPENSE = ["InterestExpense", "InterestExpenseDeposits"]
+
+_INS_PREMIUMS = ["PremiumsEarnedNet"]
+_INS_CLAIMS = ["PolicyholderBenefitsAndClaimsIncurredNet",
+               "IncurredClaimsPropertyCasualtyAndLiability"]
+
+
+def _fill_missing_gp(stmt, value_at):
+    """Shared helper: fill `Gross Profit` for periods still None using
+    value_at(end, index) -> number|None. Records filled indices in
+    `_gp_fallback_indices` (so _derive_opex skips them). Needs `_ends`."""
+    labels = stmt["labels"]
+    if "Gross Profit" not in labels:
+        return stmt
+    # `_ends` is always set by _build_grid (these fills run before _strip); the
+    # `or []` is just belt-and-suspenders — the `i < len(ends)` guard below
+    # tolerates a short/empty list.
+    ends = stmt.get("_ends") or []
+    gp_i = labels.index("Gross Profit")
+    gp_row = stmt["data"][gp_i]
+    fb = stmt.setdefault("_gp_fallback_indices", set())
+    new = []
+    for i, g in enumerate(gp_row):
+        if g is not None:
+            new.append(g)
+            continue
+        v = value_at(ends[i] if i < len(ends) else None, i)
+        if v is not None:
+            new.append(v)
+            fb.add(i)
+        else:
+            new.append(None)
+    stmt["data"][gp_i] = new
+    return stmt
+
+
+def _derive_gross_profit_bank(stmt, usg, freq):
+    """Banks have no cost-of-revenue concept; their gross-profit analog is Net
+    Interest Income = interest income − interest expense. Fills missing GP for
+    filers that tag a bank-style interest-income line. Gross Margin % then reads
+    NII / Total Revenue (interest + noninterest income)."""
+    if "Total Revenue" not in stmt["labels"]:
+        return stmt
+    inc = _series(usg, _BANK_INTEREST_INCOME, freq)
+    if not inc:
+        return stmt
+    exp = _series(usg, _BANK_INTEREST_EXPENSE, freq)
+
+    def val(end, i):
+        if end is None:
+            return None
+        ii = inc.get(end)
+        if ii is None:
+            return None
+        return ii - (exp.get(end) or 0)
+
+    return _fill_missing_gp(stmt, val)
+
+
+def _derive_gross_profit_insurance(stmt, usg, freq):
+    """Insurance underwriting margin = net premiums earned − incurred losses &
+    claims. The closest gross-profit analog for carriers (AII, KINS, UTGN).
+
+    Caveat: when a period has premiums but no claims fact (`claims.get(end)` is
+    None → treated as 0), GP collapses to premiums, i.e. a 100% underwriting
+    margin for that period. That's optimistic but rare — claims are tagged
+    alongside premiums for these carriers — so we accept it rather than blank a
+    period that does have a premium top line."""
+    prem = _series(usg, _INS_PREMIUMS, freq)
+    if not prem:
+        return stmt
+    claims = _series(usg, _INS_CLAIMS, freq)
+
+    def val(end, i):
+        if end is None:
+            return None
+        p = prem.get(end)
+        if p is None:
+            return None
+        return p - (claims.get(end) or 0)
+
+    return _fill_missing_gp(stmt, val)
+
+
+def _derive_gross_profit_revenue_floor(stmt):
+    """Universal last-resort: any period still missing GP after every archetype
+    derivation gets GP = Revenue (implied CoR = 0). Correct for pre-revenue /
+    pre-commercial filers that genuinely have no cost-of-revenue concept (clinical
+    biotechs, early SaaS), and guarantees the mandated Gross Profit / Gross Margin
+    rows are never blank. Filled periods are tracked so OpEx skips them."""
+    labels = stmt["labels"]
+    if "Gross Profit" not in labels or "Total Revenue" not in labels:
+        return stmt
+    rev_row = stmt["data"][labels.index("Total Revenue")]
+
+    def val(end, i):
+        return rev_row[i] if i < len(rev_row) else None
+
+    return _fill_missing_gp(stmt, val)
+
+
+def _clamp_gp_to_revenue(stmt):
+    """Enforce the accounting invariant Gross Profit ≤ Revenue in every column.
+    A reported/derived GP can never exceed revenue (cost of revenue ≥ 0). This
+    is also what bounds the LTM column: LTM GP = Σ quarterly GP, so clamping each
+    quarter to ≤ its revenue keeps the summed LTM margin ≤ 100% even when a
+    filer emits a volatile interim GP fact larger than that quarter's (sometimes
+    negative) revenue — e.g. BETR's mortgage quarters that produced a 679% LTM."""
+    labels = stmt["labels"]
+    if "Gross Profit" not in labels or "Total Revenue" not in labels:
+        return stmt
+    gp_i = labels.index("Gross Profit")
+    gp = stmt["data"][gp_i]
+    rev = stmt["data"][labels.index("Total Revenue")]
+
+    def clamp(g, r):
+        if g is None or r is None:
+            return g
+        if r <= 0:
+            return None  # gross margin is meaningless on zero/negative revenue
+        return min(g, r)
+
+    stmt["data"][gp_i] = [clamp(g, r) for g, r in zip(gp, rev)]
+    return stmt
+
+
+def _reconcile_cor(stmt):
+    """Make the displayed Cost of Revenue foot to Rev − GP wherever a CoR value
+    is shown, so the gross block reconciles by construction (Rev − CoR = GP).
+    Only rewrites periods that already HAVE a CoR value — never invents a CoR
+    row for banks/insurers/floor-filled filers that don't report one. Fixes
+    filers (SLNH, GVH, MIMI) whose CoR tag is partial and disagrees with their
+    authoritative reported GrossProfit subtotal."""
+    labels = stmt["labels"]
+    if not all(n in labels for n in ("Total Revenue", "Cost of Revenue", "Gross Profit")):
+        return stmt
+    rev = stmt["data"][labels.index("Total Revenue")]
+    cor_i = labels.index("Cost of Revenue")
+    cor = stmt["data"][cor_i]
+    gp = stmt["data"][labels.index("Gross Profit")]
+    stmt["data"][cor_i] = [
+        (rev[i] - gp[i]) if (cor[i] is not None and rev[i] is not None and gp[i] is not None) else cor[i]
+        for i in range(len(cor))
+    ]
+    return stmt
+
+
+def _reconcile_shares(stmt):
+    """Correct order-of-magnitude unit errors in weighted-average share counts.
+    Some filers tag `WeightedAverageNumberOf…SharesOutstanding` in the wrong unit
+    (e.g. FMBM: 3,560M reported vs 3.55M actual — a clean 1000× error). The
+    filer's own EPS is ground truth: implied shares = |NetIncome / EPS|. When the
+    reported share count differs from that by a near-exact power of ten ≥ 1000×,
+    rescale it. Conservative by design — it does NOT touch reverse-split or
+    minority-interest artifacts (GPUS, MKTW), whose discrepancies are not clean
+    powers of ten, because mangling those would introduce wrong numbers."""
+    labels = stmt["labels"]
+    if "Net Income" not in labels:
+        return stmt
+    ni = stmt["data"][labels.index("Net Income")]
+    for eps_l, sh_l in (("Basic EPS", "Basic Avg Shares"), ("Diluted EPS", "Diluted Avg Shares")):
+        if eps_l not in labels or sh_l not in labels:
+            continue
+        eps = stmt["data"][labels.index(eps_l)]
+        sh_i = labels.index(sh_l)
+        sh = stmt["data"][sh_i]
+        for i in range(len(sh)):
+            e, s, n = (eps[i] if i < len(eps) else None), sh[i], (ni[i] if i < len(ni) else None)
+            if e is None or s is None or n is None or abs(e) < 0.01 or s <= 0:
+                continue
+            implied = abs(n / e)
+            if implied <= 0:
+                continue
+            ratio = s / implied
+            for factor in (1000.0, 1_000_000.0, 0.001, 0.000001):
+                if 0.95 <= ratio / factor <= 1.05:
+                    sh[i] = s / factor
+                    break
+    return stmt
+
+
+def _derive_cf_other_operating(stmt):
+    """Insert the operating-section bridge row `Δ Working Cap & Other` =
+    OCF − (Net Income + D&A + Stock-Based Comp), per period. This is the change
+    in working capital plus every other non-cash operating adjustment the filer
+    discloses (deferred tax, gains/losses, impairments, provisions) rolled into
+    one line. Computing it as a plug guarantees the operating section foots from
+    Net Income to Operating Cash Flow by construction — the XBRL extractor pulls
+    only NI/D&A/SBC explicitly, so without this row the section never reconciled.
+    Missing addends are treated as 0; the row is blank when OCF itself is absent."""
+    labels = stmt["labels"]
+    if "Operating Cash Flow" not in labels or "Net Income" not in labels:
+        return stmt
+    ni = stmt["data"][labels.index("Net Income")]
+    ocf = stmt["data"][labels.index("Operating Cash Flow")]
+    da = stmt["data"][labels.index("D&A")] if "D&A" in labels else None
+    sbc = stmt["data"][labels.index("Stock-Based Comp")] if "Stock-Based Comp" in labels else None
+    row = []
+    for i, o in enumerate(ocf):
+        if o is None:
+            row.append(None)
+            continue
+        adj = (ni[i] or 0)
+        if da is not None:
+            adj += (da[i] or 0)
+        if sbc is not None:
+            adj += (sbc[i] or 0)
+        row.append(o - adj)
+    if "Δ Working Cap & Other" in labels:
+        stmt["data"][labels.index("Δ Working Cap & Other")] = row
+    else:
+        stmt["labels"].append("Δ Working Cap & Other")
+        stmt["data"].append(row)
     return stmt
 
 
@@ -723,24 +990,42 @@ def fetch_xbrl_financials(cik):
 
     # Quarterly: pull 8 periods so _canonicalize can compute Q-vs-PYQ YoY (offset 4).
     # _canonicalize trims display to 4 periods after derived rows are computed.
+    # GP derivation ladder (per-period, most-specific first; each only fills
+    # periods still missing GP): tag/Rev−CoR → services OpInc+G&A → bank Net
+    # Interest Income → insurance underwriting margin → universal revenue floor.
+    # All run before _derive_opex so fallback-filled periods are skipped there,
+    # and before _reconcile_cor / LTM so the LTM column sums derived quarterly GP.
     is_q = _build_grid(usg, LI_IS, "quarterly", n=8)
     is_q = _augment_eps_and_shares(is_q, usg, "quarterly")
     is_q = _derive_gross_profit(is_q)
     is_q = _derive_opinc_from_costs_and_expenses(is_q, usg, "quarterly")
     is_q = _derive_gross_profit_from_opinc_plus_gna(is_q, usg)
+    is_q = _derive_gross_profit_bank(is_q, usg, "quarterly")
+    is_q = _derive_gross_profit_insurance(is_q, usg, "quarterly")
+    is_q = _derive_gross_profit_revenue_floor(is_q)
+    is_q = _clamp_gp_to_revenue(is_q)
+    is_q = _reconcile_cor(is_q)
     is_q = _derive_opex(is_q)
     is_q = _derive_pretax(is_q)
+    is_q = _reconcile_shares(is_q)
 
     is_a = _build_grid(usg, LI_IS, "annual", n=4)
     is_a = _augment_eps_and_shares(is_a, usg, "annual")
     is_a = _derive_gross_profit(is_a)
     is_a = _derive_opinc_from_costs_and_expenses(is_a, usg, "annual")
     is_a = _derive_gross_profit_from_opinc_plus_gna(is_a, usg)
+    is_a = _derive_gross_profit_bank(is_a, usg, "annual")
+    is_a = _derive_gross_profit_insurance(is_a, usg, "annual")
+    is_a = _derive_gross_profit_revenue_floor(is_a)
+    is_a = _clamp_gp_to_revenue(is_a)
+    is_a = _reconcile_cor(is_a)
     is_a = _derive_opex(is_a)
     is_a = _derive_pretax(is_a)
+    is_a = _reconcile_shares(is_a)
 
     cf_q = _build_grid(usg, LI_CF, "quarterly", n=8)
     cf_q = _negate_outflows(cf_q)
+    cf_q = _derive_cf_other_operating(cf_q)
     cf_q = _add_fcf(cf_q)
 
     cf_a = _build_grid(usg, LI_CF, "annual", n=4)
@@ -754,7 +1039,11 @@ def fetch_xbrl_financials(cik):
     # _ends with the latest quarter end first so _build_bs_at_ends picks
     # up the most-recent BS values as the "LTM" column.
     is_a = _add_ltm_column(is_a, is_q)
+    is_a = _clamp_gp_to_revenue(is_a)  # bound the summed LTM GP column too
     cf_a = _add_ltm_column(cf_a, cf_q)
+    # Operating-section plug computed AFTER the LTM column so the LTM period
+    # foots directly: LTM ΔWC&Other = LTM OCF − (LTM NI + LTM D&A + LTM SBC).
+    cf_a = _derive_cf_other_operating(cf_a)
 
     bs_q = _build_bs_at_ends(usg, is_q["_ends"])
     bs_a = _build_bs_at_ends(usg, is_a["_ends"])
