@@ -681,6 +681,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -795,6 +796,12 @@
             null
           ],
           [
+            1354000,
+            1093000,
+            1424000,
+            3941000
+          ],
+          [
             -1941000,
             -6710000,
             -2657000,
@@ -869,6 +876,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1004,6 +1012,13 @@
             null,
             null,
             null,
+            null
+          ],
+          [
+            7812000,
+            8246000,
+            818000,
+            1980000,
             null
           ],
           [
@@ -1394,9 +1409,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1453,6 +1470,12 @@
             -1378000
           ],
           [
+            -16037000,
+            -3599000,
+            -12918000,
+            14735000
+          ],
+          [
             -17133000,
             -4950000,
             -14281000,
@@ -1469,6 +1492,12 @@
             0,
             0,
             -1000
+          ],
+          [
+            -814000,
+            null,
+            null,
+            null
           ],
           [
             -901000,
@@ -1511,10 +1540,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1579,6 +1610,13 @@
             -16681000
           ],
           [
+            -17819000,
+            -2314000,
+            -19066000,
+            -54564000,
+            5267000
+          ],
+          [
             -23007000,
             -7928000,
             -26520000,
@@ -1605,6 +1643,13 @@
             -715000,
             -73017000,
             -71620000
+          ],
+          [
+            -814000,
+            null,
+            -800000,
+            -3170000,
+            -1516000
           ],
           [
             -902000,

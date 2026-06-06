@@ -389,6 +389,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -515,6 +516,12 @@
             228714
           ],
           [
+            676231,
+            5393182,
+            -1135140,
+            1765061
+          ],
+          [
             3802666,
             719232,
             -4554336,
@@ -590,6 +597,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -733,6 +741,13 @@
             654284,
             283042,
             126660
+          ],
+          [
+            6699334,
+            6047852,
+            null,
+            1005925,
+            null
           ],
           [
             -1960168,
@@ -1151,6 +1166,7 @@
           "",
           "Debt Issuance",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1230,6 +1246,12 @@
           ],
           [
             851641,
+            null,
+            1897888,
+            2989367
+          ],
+          [
+            851641,
             4211072,
             1897888,
             4613652
@@ -1257,10 +1279,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1324,6 +1348,13 @@
           ],
           [
             null,
+            null,
+            null,
+            10000000,
+            24983520
+          ],
+          [
+            null,
             0,
             -261617,
             3797400,
@@ -1349,6 +1380,13 @@
             6462834,
             23739,
             15778
+          ],
+          [
+            11574253,
+            5026423,
+            2200682,
+            null,
+            null
           ],
           [
             11574253,

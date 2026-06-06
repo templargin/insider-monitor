@@ -66,6 +66,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -186,6 +187,12 @@
             230
           ],
           [
+            null,
+            -913022,
+            null,
+            null
+          ],
+          [
             -911576,
             -1254498,
             -506400,
@@ -260,6 +267,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -397,6 +405,13 @@
             1070,
             729,
             null
+          ],
+          [
+            -863713,
+            -816793,
+            null,
+            2560435,
+            -4741329
           ],
           [
             -3252918,
@@ -818,6 +833,7 @@
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -885,6 +901,12 @@
           ],
           [
             830331,
+            null,
+            null,
+            null
+          ],
+          [
+            830331,
             458247,
             298542,
             470277
@@ -911,9 +933,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -970,6 +994,13 @@
           ],
           [
             null,
+            null,
+            606345,
+            null,
+            839186
+          ],
+          [
+            null,
             37162,
             601277,
             -94640,
@@ -985,6 +1016,13 @@
           [
             null,
             1235000,
+            null,
+            null,
+            null
+          ],
+          [
+            2057397,
+            null,
             null,
             null,
             null

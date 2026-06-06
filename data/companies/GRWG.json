@@ -792,6 +792,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -928,6 +929,13 @@
             70000,
             97000,
             21000
+          ],
+          [
+            1557000,
+            1730000,
+            2690000,
+            3477000,
+            1264000
           ],
           [
             -19419000,
@@ -1407,6 +1415,8 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
@@ -1456,6 +1466,18 @@
             null
           ],
           [
+            null,
+            0,
+            0,
+            null
+          ],
+          [
+            -3679000,
+            5357000,
+            4546000,
+            -6461000
+          ],
+          [
             -3679000,
             5357000,
             4546000,
@@ -1489,10 +1511,13 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1546,6 +1571,20 @@
             null
           ],
           [
+            null,
+            -1013000,
+            0,
+            -3050000,
+            -7230000
+          ],
+          [
+            null,
+            13615000,
+            5726000,
+            -8355000,
+            -4343000
+          ],
+          [
             -237000,
             12602000,
             5726000,
@@ -1572,6 +1611,13 @@
             -6037000,
             0,
             0
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            -1585000
           ],
           [
             -160000,

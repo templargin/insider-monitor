@@ -1046,10 +1046,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1104,6 +1106,12 @@
             -471000
           ],
           [
+            -3219000,
+            9690000,
+            -80462000,
+            -67741000
+          ],
+          [
             -4486000,
             9709000,
             -84919000,
@@ -1126,6 +1134,12 @@
             null,
             null,
             null
+          ],
+          [
+            null,
+            null,
+            null,
+            77020000
           ],
           [
             -20074000,
@@ -1156,9 +1170,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1205,6 +1221,11 @@
             -1307000
           ],
           [
+            -141732000,
+            -130062000,
+            -18062000
+          ],
+          [
             -147908000,
             -135079000,
             -19369000
@@ -1218,6 +1239,11 @@
             -411000,
             -411000,
             -412000
+          ],
+          [
+            57049000,
+            62145000,
+            -12024000
           ],
           [
             56638000,

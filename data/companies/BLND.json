@@ -5079,6 +5079,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -5205,6 +5206,12 @@
             0
           ],
           [
+            -2925000,
+            1200000,
+            17470000,
+            -1980000
+          ],
+          [
             -7986000,
             -2382000,
             12123000,
@@ -5280,6 +5287,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -5424,6 +5432,13 @@
             6747000,
             30811000,
             24790000
+          ],
+          [
+            13765000,
+            15001000,
+            12282000,
+            -5366000,
+            4916000
           ],
           [
             -5051000,
@@ -5903,10 +5918,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -5963,6 +5980,12 @@
             -3599000
           ],
           [
+            4004000,
+            null,
+            29665000,
+            -7098000
+          ],
+          [
             2887000,
             -1812000,
             27543000,
@@ -5985,6 +6008,12 @@
             -15727000,
             -5025000,
             -1550000
+          ],
+          [
+            -1031000,
+            -1834000,
+            -1174000,
+            -2101000
           ],
           [
             -17867000,
@@ -6027,10 +6056,13 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -6095,6 +6127,20 @@
             -2068000
           ],
           [
+            null,
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            26318000,
+            30129000,
+            55136000,
+            127341000,
+            101499000
+          ],
+          [
             17921000,
             18536000,
             45395000,
@@ -6121,6 +6167,13 @@
             0,
             0,
             null
+          ],
+          [
+            -6140000,
+            -7717000,
+            123438000,
+            -5903000,
+            2220000
           ],
           [
             -45278000,

@@ -1381,9 +1381,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1438,6 +1440,12 @@
             null
           ],
           [
+            -7697000,
+            6748000,
+            -703000,
+            -39225000
+          ],
+          [
             -9842000,
             6748000,
             -703000,
@@ -1454,6 +1462,12 @@
             -1456000,
             -1455000,
             -1456000
+          ],
+          [
+            6500000,
+            -24876000,
+            -14794000,
+            20180000
           ],
           [
             -4439000,
@@ -1483,11 +1497,14 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1541,6 +1558,20 @@
             null
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            -43022000,
+            -60404000,
+            -45942000,
+            67616000,
+            -137252000
+          ],
+          [
             -43022000,
             -60404000,
             -45942000,
@@ -1574,6 +1605,13 @@
             -5822000,
             -5822000,
             -5822000
+          ],
+          [
+            -12990000,
+            1567000,
+            -26960000,
+            -137965000,
+            58333000
           ],
           [
             -28296000,

@@ -960,6 +960,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -1067,6 +1068,12 @@
             2571000
           ],
           [
+            8955000,
+            5058000,
+            5097000,
+            6151000
+          ],
+          [
             -74336000,
             -28252000,
             4352000,
@@ -1133,6 +1140,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -1254,6 +1262,13 @@
             7873000,
             4423000,
             8198000
+          ],
+          [
+            25261000,
+            25926000,
+            38230000,
+            24217000,
+            26210000
           ],
           [
             -98371000,
@@ -1605,10 +1620,12 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1661,6 +1678,12 @@
             -42723000
           ],
           [
+            -4381000,
+            -29885000,
+            -255866000,
+            -42723000
+          ],
+          [
             null,
             null,
             null,
@@ -1679,6 +1702,12 @@
             -195500000
           ],
           [
+            -16515000,
+            -18501000,
+            -27050000,
+            155980000
+          ],
+          [
             -30515000,
             1499000,
             224950000,
@@ -1694,10 +1723,12 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1758,6 +1789,13 @@
             -86670000
           ],
           [
+            -332855000,
+            -335317000,
+            -288283000,
+            -46220000,
+            -86670000
+          ],
+          [
             null,
             null,
             null,
@@ -1777,6 +1815,13 @@
             -122000000,
             -178000000,
             -1493000000
+          ],
+          [
+            93914000,
+            85199000,
+            52784000,
+            56371000,
+            -16053000
           ],
           [
             208914000,

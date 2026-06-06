@@ -5148,6 +5148,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -5268,6 +5269,12 @@
             13200000
           ],
           [
+            -1400000,
+            -1800000,
+            -1600000,
+            -2500000
+          ],
+          [
             -168100000,
             -20700000,
             -52200000,
@@ -5342,6 +5349,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -5479,6 +5487,13 @@
             269800000,
             221200000,
             176000000
+          ],
+          [
+            -7300000,
+            -3800000,
+            -71900000,
+            -467700000,
+            -10000000
           ],
           [
             -283600000,
@@ -5951,10 +5966,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -6009,6 +6026,12 @@
             -6900000
           ],
           [
+            600000,
+            600000,
+            700000,
+            82100000
+          ],
+          [
             -3900000,
             -3900000,
             -4500000,
@@ -6031,6 +6054,12 @@
             -94000000,
             -103000000,
             0
+          ],
+          [
+            -2900000,
+            15800000,
+            16000000,
+            -398600000
           ],
           [
             -2900000,
@@ -6061,11 +6090,14 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -6130,6 +6162,20 @@
             -33100000
           ],
           [
+            null,
+            null,
+            -331100000,
+            0,
+            0
+          ],
+          [
+            84000000,
+            -81600000,
+            326700000,
+            -8200000,
+            -47400000
+          ],
+          [
             62900000,
             -99200000,
             -24800000,
@@ -6163,6 +6209,13 @@
             null,
             0,
             0
+          ],
+          [
+            -369700000,
+            161000000,
+            193400000,
+            563100000,
+            -1849000000
           ],
           [
             -69700000,

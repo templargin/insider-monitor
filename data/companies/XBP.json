@@ -539,6 +539,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -641,6 +642,12 @@
             null
           ],
           [
+            -13116000,
+            -19766000,
+            -10301000,
+            -4764000
+          ],
+          [
             -28197000,
             -339737000,
             -302467000,
@@ -714,6 +721,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -843,6 +851,13 @@
             null,
             1054486,
             null
+          ],
+          [
+            -47947000,
+            -12927000,
+            -11558000,
+            -2362514,
+            1028061
           ],
           [
             -676776000,
@@ -1332,6 +1347,7 @@
           "CapEx",
           "Investing Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1406,6 +1422,12 @@
             null
           ],
           [
+            -8453000,
+            13559000,
+            9978000,
+            null
+          ],
+          [
             null,
             null,
             null,
@@ -1440,8 +1462,10 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1507,6 +1531,13 @@
           ],
           [
             null,
+            null,
+            null,
+            null,
+            -250000000
+          ],
+          [
+            null,
             -1710000,
             -2669000,
             -6366000,
@@ -1518,6 +1549,13 @@
             null,
             null,
             null
+          ],
+          [
+            null,
+            12446000,
+            null,
+            -1329000,
+            250000000
           ],
           [
             null,

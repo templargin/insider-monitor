@@ -1746,6 +1746,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -1865,6 +1866,12 @@
             null
           ],
           [
+            1385000,
+            -509000,
+            -515000,
+            null
+          ],
+          [
             -20691000,
             6245000,
             -20828000,
@@ -1934,6 +1941,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -2077,6 +2085,13 @@
             297000,
             1400000,
             1300000
+          ],
+          [
+            null,
+            -894000,
+            3574000,
+            3786000,
+            null
           ],
           [
             -54637000,
@@ -2534,8 +2549,10 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2590,6 +2607,12 @@
             -34000
           ],
           [
+            10502000,
+            -17679000,
+            -38274000,
+            16390000
+          ],
+          [
             10318000,
             -17712000,
             -38584000,
@@ -2599,6 +2622,12 @@
             null,
             null,
             null,
+            null
+          ],
+          [
+            5527000,
+            12660000,
+            76397000,
             null
           ],
           [
@@ -2630,10 +2659,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2696,6 +2727,13 @@
             -591000
           ],
           [
+            -29061000,
+            -26452000,
+            13378000,
+            10765000,
+            -63531000
+          ],
+          [
             -29622000,
             -26941000,
             13089000,
@@ -2722,6 +2760,13 @@
             null,
             -10849000,
             -6446000
+          ],
+          [
+            94156000,
+            88333000,
+            14171000,
+            57064000,
+            99703000
           ],
           [
             94156000,

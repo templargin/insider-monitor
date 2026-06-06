@@ -3211,6 +3211,7 @@
           "Operating Income YoY %",
           "Operating Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -3301,6 +3302,12 @@
             null
           ],
           [
+            null,
+            null,
+            547000,
+            null
+          ],
+          [
             -1304000,
             -3472000,
             -3944000,
@@ -3370,6 +3377,7 @@
           "Operating Income YoY %",
           "Operating Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -3471,6 +3479,13 @@
             null,
             null,
             null
+          ],
+          [
+            891000,
+            891000,
+            524000,
+            -3919000,
+            4734000
           ],
           [
             -8036000,
@@ -3920,10 +3935,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -3973,6 +3990,12 @@
           ],
           [
             2546000,
+            6257000,
+            8613000,
+            6233000
+          ],
+          [
+            2546000,
             6232000,
             8613000,
             6233000
@@ -3994,6 +4017,12 @@
             -4699000,
             -4646000,
             -10388000
+          ],
+          [
+            null,
+            -1292000,
+            -1179000,
+            -939000
           ],
           [
             -5174000,
@@ -4023,10 +4052,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -4082,6 +4113,13 @@
             -130000
           ],
           [
+            23649000,
+            23250000,
+            -31405000,
+            14008000,
+            62831000
+          ],
+          [
             23624000,
             23148000,
             -31405000,
@@ -4107,6 +4145,13 @@
             -22010000,
             -4063000,
             0,
+            null
+          ],
+          [
+            -3411000,
+            -3768000,
+            -2696000,
+            null,
             null
           ],
           [

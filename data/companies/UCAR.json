@@ -58,6 +58,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -183,6 +184,12 @@
             192000,
             262000,
             -1000
+          ],
+          [
+            -2624000,
+            null,
+            2241000,
+            null
           ],
           [
             -10940000,
@@ -455,10 +462,13 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -509,6 +519,18 @@
             -1126000
           ],
           [
+            null,
+            null,
+            -6000000,
+            null
+          ],
+          [
+            3463000,
+            6727000,
+            -5718000,
+            -524000
+          ],
+          [
             3392000,
             6726000,
             -11842000,
@@ -531,6 +553,12 @@
             3545000,
             22000000,
             null
+          ],
+          [
+            null,
+            -1358000,
+            3339000,
+            725000
           ],
           [
             6699000,

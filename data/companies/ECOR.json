@@ -795,6 +795,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -921,6 +922,12 @@
             4500
           ],
           [
+            null,
+            null,
+            -517700,
+            null
+          ],
+          [
             -5592000,
             -2984000,
             -3405000,
@@ -996,6 +1003,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1139,6 +1147,13 @@
             18400,
             null,
             4000
+          ],
+          [
+            -991100,
+            -795100,
+            null,
+            null,
+            null
           ],
           [
             -15652000,
@@ -1566,9 +1581,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1625,6 +1642,12 @@
             -25000
           ],
           [
+            599000,
+            518000,
+            -1322000,
+            null
+          ],
+          [
             597000,
             518000,
             -1326000,
@@ -1640,6 +1663,12 @@
             null,
             0,
             null,
+            null
+          ],
+          [
+            null,
+            null,
+            7484000,
             null
           ],
           [
@@ -1683,10 +1712,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1751,6 +1782,13 @@
             null
           ],
           [
+            null,
+            3943000,
+            -8519000,
+            null,
+            null
+          ],
+          [
             -26000,
             3877000,
             -8519000,
@@ -1776,6 +1814,13 @@
             null,
             null,
             8144000,
+            null
+          ],
+          [
+            7677000,
+            null,
+            8439000,
+            -657000,
             null
           ],
           [

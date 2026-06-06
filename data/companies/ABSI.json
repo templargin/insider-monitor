@@ -1493,6 +1493,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1607,6 +1608,12 @@
             56000
           ],
           [
+            1283000,
+            1346000,
+            1597000,
+            1011000
+          ],
+          [
             -29581000,
             -29724000,
             -28602000,
@@ -1680,6 +1687,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1809,6 +1817,13 @@
             565000,
             1010000,
             972000
+          ],
+          [
+            5237000,
+            5412000,
+            6417000,
+            6059000,
+            2357000
           ],
           [
             -118345000,
@@ -2274,10 +2289,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2332,6 +2349,12 @@
             -223000
           ],
           [
+            7392000,
+            19444000,
+            -62740000,
+            9262000
+          ],
+          [
             7362000,
             19547000,
             -63702000,
@@ -2354,6 +2377,12 @@
             3499000,
             60647000,
             0
+          ],
+          [
+            null,
+            841000,
+            null,
+            null
           ],
           [
             7556000,
@@ -2384,10 +2413,13 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2450,6 +2482,20 @@
             -16175000
           ],
           [
+            null,
+            null,
+            null,
+            0,
+            -8000000
+          ],
+          [
+            -26642000,
+            -49053000,
+            -41173000,
+            82804000,
+            -102807000
+          ],
+          [
             -27754000,
             -50160000,
             -41577000,
@@ -2476,6 +2522,13 @@
             82398000,
             862000,
             656000
+          ],
+          [
+            1423000,
+            3231000,
+            3516000,
+            -2333000,
+            9232000
           ],
           [
             70711000,

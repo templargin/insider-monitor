@@ -41,6 +41,7 @@ INCOME_CANONICAL = [
     ("EBITDA Margin %", "__derived_margin__:EBITDA:Total Revenue"),
     SPACER,
     ("Interest Expense", ["Interest Expense", "Net Interest Income"]),
+    ("Other Income / (Expense)", ["Other Income / (Expense)"]),
     ("Pretax Income", ["Pretax Income"]),
     ("Tax Provision", ["Tax Provision", "Tax Effect Of Unusual Items"]),
     ("Net Income", ["Net Income Common Stockholders", "Net Income", "Net Income Continuous Operations"]),
@@ -98,6 +99,8 @@ CASHFLOW_CANONICAL = [
     SPACER,
     # Investing
     ("CapEx", ["Capital Expenditure"]),
+    ("Acquisitions", ["Acquisitions"]),
+    ("Other Investing", ["Other Investing"]),
     ("Investing Cash Flow", ["Investing Cash Flow", "Cash Flow From Continuing Investing Activities"]),
     SPACER,
     # Financing
@@ -106,6 +109,7 @@ CASHFLOW_CANONICAL = [
     ("Stock Issuance", ["Issuance Of Capital Stock"]),
     ("Stock Buyback", ["Repurchase Of Capital Stock"]),
     ("Dividends Paid", ["Common Stock Dividend Paid", "Cash Dividends Paid"]),
+    ("Other Financing", ["Other Financing"]),
     ("Financing Cash Flow", ["Financing Cash Flow", "Cash Flow From Continuing Financing Activities"]),
     SPACER,
     # FX effect — auto-prunes when zero/missing.

@@ -583,6 +583,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -697,6 +698,12 @@
             null
           ],
           [
+            null,
+            null,
+            704440,
+            1242920
+          ],
+          [
             1310247,
             994610,
             865355,
@@ -770,6 +777,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -899,6 +907,13 @@
             null,
             null,
             null,
+            null
+          ],
+          [
+            2636139,
+            3859294,
+            -6712644,
+            952915,
             null
           ],
           [
@@ -1327,9 +1342,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1384,6 +1401,12 @@
             -505040
           ],
           [
+            null,
+            null,
+            null,
+            7738187
+          ],
+          [
             -234600,
             -349400,
             -317840,
@@ -1400,6 +1423,12 @@
             -9024589,
             -2280554,
             0
+          ],
+          [
+            null,
+            null,
+            539142,
+            null
           ],
           [
             -1164354,
@@ -1430,9 +1459,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1495,6 +1526,13 @@
             -5899080
           ],
           [
+            7738187,
+            7778287,
+            554100,
+            -1188765,
+            -12001035
+          ],
+          [
             6331307,
             6274502,
             -631547,
@@ -1514,6 +1552,13 @@
             -9583,
             -3833,
             -5804
+          ],
+          [
+            585082,
+            1506004,
+            -1991776,
+            null,
+            null
           ],
           [
             -11865115,

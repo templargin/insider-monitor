@@ -240,6 +240,11 @@ LI_IS = [
     ("Operating Income", ["OperatingIncomeLoss"]),
     ("Interest Expense", ["InterestExpense", "InterestExpenseDebt",
                           "InterestExpenseNonoperating", "InterestIncomeExpenseNet"]),
+    # Derived plug (see _derive_nonoperating): everything between Operating Income
+    # and Pretax that isn't the Interest Expense line — other income/expense,
+    # investment & equity-method gains/losses, FX, one-offs. Makes the
+    # OpInc − Interest + Other = Pretax bridge foot by construction.
+    ("Other Income / (Expense)", []),
     # Pretax is DERIVED in _derive_pretax as (NI + Tax). The XBRL Pretax tags
     # have filer-specific sign-convention bugs (e.g., LODE FY24/25 reported
     # loss as a positive value under the *MinorityInterest* variant).
@@ -334,7 +339,7 @@ LI_BS = [
     ]),
 ]
 
-LI_CF_NEGATE = {"CapEx", "Stock Buyback", "Debt Repayment", "Dividends Paid"}
+LI_CF_NEGATE = {"CapEx", "Acquisitions", "Stock Buyback", "Debt Repayment", "Dividends Paid"}
 
 LI_CF = [
     # Same tag priority as the income statement's Net Income (ProfitLoss first,
@@ -352,6 +357,9 @@ LI_CF = [
                "PaymentsForCapitalImprovements",
                "PaymentsToAcquireProductiveAssets",
                "CapitalExpenditures"]),
+    ("Acquisitions", ["PaymentsToAcquireBusinessesNetOfCashAcquired",
+                      "PaymentsToAcquireBusinessesAndInterestInAffiliates"]),
+    ("Other Investing", []),  # derived plug = Investing CF − (CapEx + Acquisitions)
     ("Investing Cash Flow", ["NetCashProvidedByUsedInInvestingActivities"]),
     ("Debt Issuance", ["ProceedsFromIssuanceOfLongTermDebt", "ProceedsFromIssuanceOfDebt"]),
     ("Debt Repayment", ["RepaymentsOfLongTermDebt", "RepaymentsOfDebt"]),
@@ -359,6 +367,7 @@ LI_CF = [
     ("Stock Buyback", ["PaymentsForRepurchaseOfCommonStock",
                        "PaymentsForRepurchaseOfCommonStockForEmployeeTaxWithholdingObligations"]),
     ("Dividends Paid", ["PaymentsOfDividends", "PaymentsOfDividendsCommonStock"]),
+    ("Other Financing", []),  # derived plug = Financing CF − (issuance/repayment/buyback/divs)
     ("Financing Cash Flow", ["NetCashProvidedByUsedInFinancingActivities"]),
     # FX effect on cash held abroad. Closes the CF reconciliation gap for
     # foreign-operations companies (GTE etc.). Often zero / missing for
@@ -833,6 +842,70 @@ def _derive_cf_other_operating(stmt):
     return stmt
 
 
+def _derive_nonoperating(stmt):
+    """Fill the 'Other Income / (Expense)' plug so the non-operating bridge foots:
+    Operating Income − Interest Expense + Other = Pretax Income. Solving,
+    Other = Pretax − Operating Income + Interest Expense. Foots algebraically
+    regardless of the (filer-inconsistent) sign of the Interest Expense tag."""
+    labels = stmt["labels"]
+    if not all(n in labels for n in ("Operating Income", "Pretax Income", "Other Income / (Expense)")):
+        return stmt
+    op = stmt["data"][labels.index("Operating Income")]
+    pre = stmt["data"][labels.index("Pretax Income")]
+    ie = stmt["data"][labels.index("Interest Expense")] if "Interest Expense" in labels else None
+    out_i = labels.index("Other Income / (Expense)")
+    new = []
+    for i in range(len(op)):
+        o, p = op[i], (pre[i] if i < len(pre) else None)
+        if o is None or p is None:
+            new.append(None)
+            continue
+        intr = (ie[i] if (ie is not None and i < len(ie) and ie[i] is not None) else 0)
+        v = p - o + intr
+        new.append(None if abs(v) < 500_000 else v)
+    stmt["data"][out_i] = new
+    return stmt
+
+
+def _derive_cf_section_plugs(stmt):
+    """Fill the investing/financing 'Other …' plug rows so those sections foot
+    from their line items (the same fix as the operating Δ Working Cap & Other
+    plug and the balance-sheet Other rows):
+
+      Other Investing = Investing CF − (CapEx + Acquisitions)
+      Other Financing = Financing CF − (Debt Iss/Repay + Stock Iss/Buyback + Divs)
+
+    Items are already in display sign (outflows negated). A plug within rounding
+    of zero is left None so the row is pruned."""
+    labels = stmt["labels"]
+    idx = {l: i for i, l in enumerate(labels)}
+
+    def row(name):
+        return stmt["data"][idx[name]] if name in idx else None
+
+    icf, fcf = row("Investing Cash Flow"), row("Financing Cash Flow")
+    capex, acq = row("CapEx"), row("Acquisitions")
+    oinv = row("Other Investing")
+    di, dr, si, sb, dv = row("Debt Issuance"), row("Debt Repayment"), row("Stock Issuance"), row("Stock Buyback"), row("Dividends Paid")
+    ofin = row("Other Financing")
+    n = len(stmt["periods"])
+
+    def v(r, i):
+        return r[i] if (r is not None and i < len(r) and r[i] is not None) else 0
+
+    def has(r, i):
+        return r is not None and i < len(r) and r[i] is not None
+
+    for i in range(n):
+        if oinv is not None and has(icf, i):
+            p = icf[i] - sum(v(r, i) for r in (capex, acq))
+            oinv[i] = None if abs(p) < max(500_000.0, abs(icf[i]) * 0.005) else p
+        if ofin is not None and has(fcf, i):
+            p = fcf[i] - sum(v(r, i) for r in (di, dr, si, sb, dv))
+            ofin[i] = None if abs(p) < max(500_000.0, abs(fcf[i]) * 0.005) else p
+    return stmt
+
+
 def _negate_outflows(stmt):
     labels = stmt["labels"]
     for label in LI_CF_NEGATE:
@@ -1194,6 +1267,7 @@ def fetch_xbrl_financials(cik):
     is_q = _reconcile_cor(is_q)
     is_q = _derive_opex(is_q)
     is_q = _derive_pretax(is_q)
+    is_q = _derive_nonoperating(is_q)
     is_q = _reconcile_shares(is_q)
 
     is_a = _build_grid(usg, LI_IS, "annual", n=4)
@@ -1208,11 +1282,13 @@ def fetch_xbrl_financials(cik):
     is_a = _reconcile_cor(is_a)
     is_a = _derive_opex(is_a)
     is_a = _derive_pretax(is_a)
+    is_a = _derive_nonoperating(is_a)
     is_a = _reconcile_shares(is_a)
 
     cf_q = _build_grid(usg, LI_CF, "quarterly", n=8)
     cf_q = _negate_outflows(cf_q)
     cf_q = _derive_cf_other_operating(cf_q)
+    cf_q = _derive_cf_section_plugs(cf_q)
     cf_q = _add_fcf(cf_q)
 
     cf_a = _build_grid(usg, LI_CF, "annual", n=4)
@@ -1227,10 +1303,12 @@ def fetch_xbrl_financials(cik):
     # up the most-recent BS values as the "LTM" column.
     is_a = _add_ltm_column(is_a, is_q)
     is_a = _clamp_gp_to_revenue(is_a)  # bound the summed LTM GP column too
+    is_a = _derive_nonoperating(is_a)  # recompute Other Income/(Expense) for the LTM column directly
     cf_a = _add_ltm_column(cf_a, cf_q)
     # Operating-section plug computed AFTER the LTM column so the LTM period
     # foots directly: LTM ΔWC&Other = LTM OCF − (LTM NI + LTM D&A + LTM SBC).
     cf_a = _derive_cf_other_operating(cf_a)
+    cf_a = _derive_cf_section_plugs(cf_a)
 
     bs_q = _reconcile_bs_subtotals(_reconcile_balance_sheet(_build_bs_at_ends(usg, is_q["_ends"])))
     bs_a = _reconcile_bs_subtotals(_reconcile_balance_sheet(_build_bs_at_ends(usg, is_a["_ends"])))

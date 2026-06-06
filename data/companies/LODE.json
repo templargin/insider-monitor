@@ -403,6 +403,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -526,6 +527,12 @@
             774062
           ],
           [
+            null,
+            null,
+            -2337103,
+            614001
+          ],
+          [
             -9383417,
             -13357676,
             -12888336,
@@ -583,6 +590,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -726,6 +734,13 @@
             2971351,
             1646724,
             1651435
+          ],
+          [
+            -1986672,
+            -3090030,
+            -10764552,
+            24777413,
+            -25725542
           ],
           [
             -43456372,
@@ -1212,11 +1227,13 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1269,6 +1286,12 @@
             -2002364
           ],
           [
+            -14532536,
+            -10878969,
+            -7278161,
+            -2002364
+          ],
+          [
             null,
             null,
             null,
@@ -1293,6 +1316,12 @@
             1500000
           ],
           [
+            -4607331,
+            null,
+            -2889663,
+            20000000
+          ],
+          [
             56371850,
             2018542,
             29110339,
@@ -1309,11 +1338,13 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1379,6 +1410,13 @@
             -34692030,
             -21975824,
             -6478721,
+            5449606,
+            -2717879
+          ],
+          [
+            -34692030,
+            -21975824,
+            -6478721,
             3630541,
             -3731949
           ],
@@ -1409,6 +1447,13 @@
             7213710,
             6900000,
             10786180
+          ],
+          [
+            12300036,
+            16738717,
+            null,
+            -621515,
+            1660522
           ],
           [
             109000731,

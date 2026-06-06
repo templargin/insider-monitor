@@ -2094,6 +2094,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -2202,6 +2203,12 @@
             1870000
           ],
           [
+            5955000,
+            1315000,
+            -6530000,
+            -4059000
+          ],
+          [
             -2492000,
             -7508000,
             -16504000,
@@ -2274,6 +2281,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -2396,6 +2404,13 @@
             7496000,
             6777000,
             -4082000
+          ],
+          [
+            -3319000,
+            -13378000,
+            2951000,
+            691000,
+            77778000
           ],
           [
             -43644000,
@@ -2873,6 +2888,7 @@
           "",
           "Debt Repayment",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2951,6 +2967,12 @@
             2203000
           ],
           [
+            null,
+            null,
+            2988000,
+            null
+          ],
+          [
             -28000,
             3734000,
             10600000,
@@ -2979,12 +3001,15 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Stock Issuance",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -3047,6 +3072,20 @@
             -5529000
           ],
           [
+            null,
+            null,
+            0,
+            -4456000,
+            -8577000
+          ],
+          [
+            null,
+            null,
+            50000000,
+            71663000,
+            -117508000
+          ],
+          [
             -3914000,
             -3074000,
             46211000,
@@ -3087,6 +3126,13 @@
             0,
             -1019000,
             -9000000
+          ],
+          [
+            16269000,
+            17716000,
+            -3492000,
+            -5954000,
+            -8794000
           ],
           [
             16269000,

@@ -2054,6 +2054,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -2174,6 +2175,12 @@
             22000
           ],
           [
+            1897000,
+            1204000,
+            1387000,
+            1350000
+          ],
+          [
             -74000,
             4594000,
             -2114000,
@@ -2249,6 +2256,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -2392,6 +2400,13 @@
             102000,
             205000,
             256000
+          ],
+          [
+            5838000,
+            5232000,
+            6223000,
+            6945000,
+            5079000
           ],
           [
             -16982000,
@@ -2819,6 +2834,7 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
@@ -2877,6 +2893,12 @@
             -5622000
           ],
           [
+            -7337000,
+            -9322000,
+            -1689000,
+            14080000
+          ],
+          [
             -12128000,
             -12532000,
             -7579000,
@@ -2929,10 +2951,12 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2995,6 +3019,13 @@
             -27730000
           ],
           [
+            -4268000,
+            6361000,
+            7032000,
+            56652000,
+            40939000
+          ],
+          [
             -23781000,
             -9485000,
             -13789000,
@@ -3021,6 +3052,13 @@
             -11829000,
             -110789000,
             -42718000
+          ],
+          [
+            -23158000,
+            null,
+            -624000,
+            -2156000,
+            -3371000
           ],
           [
             -30564000,

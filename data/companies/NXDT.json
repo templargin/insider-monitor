@@ -3522,6 +3522,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -3631,6 +3632,12 @@
             6637000
           ],
           [
+            -18125000,
+            -25974000,
+            -3080000,
+            -37959000
+          ],
+          [
             -20361000,
             -35214000,
             -13312000,
@@ -3709,6 +3716,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -3832,6 +3840,13 @@
             28352000,
             15902000,
             2435000
+          ],
+          [
+            -85138000,
+            -99162000,
+            -22698000,
+            -110189000,
+            172783000
           ],
           [
             -113616000,
@@ -4137,10 +4152,12 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -4189,6 +4206,12 @@
           [
             26200000,
             2351000,
+            null,
+            25334000
+          ],
+          [
+            26200000,
+            2351000,
             -243000,
             25334000
           ],
@@ -4211,6 +4234,12 @@
             -1544000
           ],
           [
+            -23893000,
+            null,
+            2120000,
+            -25913000
+          ],
+          [
             -27960000,
             -2284000,
             697000,
@@ -4226,11 +4255,13 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -4291,6 +4322,13 @@
             null
           ],
           [
+            53642000,
+            36968000,
+            25974000,
+            21990000,
+            null
+          ],
+          [
             null,
             null,
             null,
@@ -4317,6 +4355,13 @@
             -4941000,
             -13408000,
             -20070000
+          ],
+          [
+            -50648000,
+            -35733000,
+            -13636000,
+            20204000,
+            -71641000
           ],
           [
             -57004000,

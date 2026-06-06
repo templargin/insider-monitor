@@ -413,9 +413,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -466,6 +468,12 @@
             -2012546
           ],
           [
+            -6275212,
+            null,
+            null,
+            665381
+          ],
+          [
             -7607719,
             -9064079,
             -583304,
@@ -482,6 +490,12 @@
             13394778,
             9107082,
             null
+          ],
+          [
+            -18853151,
+            2262246,
+            -9835801,
+            3566223
           ],
           [
             -898212,

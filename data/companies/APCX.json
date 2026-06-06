@@ -4060,6 +4060,7 @@
           "Operating Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -4190,6 +4191,13 @@
             26000,
             52000,
             417
+          ],
+          [
+            -816000,
+            null,
+            643000,
+            737000,
+            null
           ],
           [
             -8587000,
@@ -4607,9 +4615,11 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -4650,6 +4660,12 @@
             null
           ],
           [
+            null,
+            -1884000,
+            null,
+            null
+          ],
+          [
             0,
             -1884000,
             null,
@@ -4669,6 +4685,12 @@
           ],
           [
             779000,
+            1749000,
+            550000,
+            null
+          ],
+          [
+            779000,
             2749000,
             1050000,
             1000000
@@ -4682,9 +4704,11 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -4735,6 +4759,13 @@
             -1884000,
             -1159000,
             -500000,
+            null
+          ],
+          [
+            null,
+            -1884000,
+            -1159000,
+            -500000,
             1791
           ],
           [
@@ -4750,6 +4781,13 @@
             6288000,
             8933000,
             13488000
+          ],
+          [
+            5578000,
+            3949000,
+            1915000,
+            -1755000,
+            -13474556
           ],
           [
             5578000,

@@ -1295,6 +1295,7 @@
           "Operating Income YoY %",
           "Operating Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1397,6 +1398,12 @@
             null
           ],
           [
+            null,
+            null,
+            2341496,
+            -2814984
+          ],
+          [
             -2401174,
             -986780,
             1810321,
@@ -1472,6 +1479,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1615,6 +1623,13 @@
             155731,
             237686,
             147840
+          ],
+          [
+            -745365,
+            null,
+            null,
+            null,
+            null
           ],
           [
             -343316,
@@ -1997,9 +2012,11 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -2041,6 +2058,12 @@
           ],
           [
             1681937,
+            null,
+            2820668,
+            null
+          ],
+          [
+            1681937,
             0,
             2820668,
             null
@@ -2058,6 +2081,12 @@
             null
           ],
           [
+            null,
+            null,
+            -2100458,
+            3237433
+          ],
+          [
             -21938,
             216568,
             -2100458,
@@ -2072,6 +2101,7 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -2116,6 +2146,13 @@
             null,
             null,
             null
+          ],
+          [
+            1331605,
+            1331605,
+            -690497,
+            -1779176,
+            2138182
           ],
           [
             1331605,

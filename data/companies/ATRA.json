@@ -1344,6 +1344,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1473,6 +1474,13 @@
             4615000,
             5285000,
             373000
+          ],
+          [
+            null,
+            649000,
+            2638000,
+            5180000,
+            52596000
           ],
           [
             -9436000,
@@ -1907,9 +1915,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1964,6 +1974,12 @@
             0
           ],
           [
+            null,
+            8440000,
+            -2421000,
+            -5070000
+          ],
+          [
             0,
             8440000,
             -2421000,
@@ -1980,6 +1996,12 @@
             -25000,
             1496000,
             0
+          ],
+          [
+            null,
+            null,
+            null,
+            15304000
           ],
           [
             2951000,
@@ -2010,9 +2032,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2077,6 +2101,13 @@
           [
             949000,
             18148000,
+            8870000,
+            125089000,
+            207149000
+          ],
+          [
+            949000,
+            18148000,
             8624000,
             123866000,
             202956000
@@ -2094,6 +2125,13 @@
             9348000,
             2136000,
             21891000
+          ],
+          [
+            14877000,
+            14627000,
+            49934000,
+            null,
+            31193000
           ],
           [
             19299000,

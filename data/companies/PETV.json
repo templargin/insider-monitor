@@ -1985,6 +1985,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -2110,6 +2111,12 @@
             null
           ],
           [
+            null,
+            -931222,
+            null,
+            1065716
+          ],
+          [
             -2191455,
             -3007809,
             -2311037,
@@ -2179,6 +2186,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -2321,6 +2329,13 @@
             -6463,
             15844,
             9853
+          ],
+          [
+            null,
+            -702854,
+            null,
+            null,
+            null
           ],
           [
             -8399166,
@@ -2733,8 +2748,10 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2789,6 +2806,12 @@
             -55700
           ],
           [
+            null,
+            null,
+            null,
+            -519534
+          ],
+          [
             5195,
             null,
             null,
@@ -2799,6 +2822,12 @@
             null,
             null,
             null
+          ],
+          [
+            711750,
+            null,
+            4709910,
+            952094
           ],
           [
             711750,
@@ -2829,9 +2858,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2895,6 +2926,13 @@
           ],
           [
             null,
+            -500000,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
             -563434,
             -309104,
             -423934,
@@ -2913,6 +2951,13 @@
             6527439,
             137500,
             null
+          ],
+          [
+            6025673,
+            3975573,
+            813342,
+            1449404,
+            10441390
           ],
           [
             6025673,

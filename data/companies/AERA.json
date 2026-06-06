@@ -309,6 +309,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -442,6 +443,13 @@
             32282,
             10318,
             239
+          ],
+          [
+            -540062,
+            null,
+            null,
+            null,
+            null
           ],
           [
             3890731,
@@ -772,6 +780,7 @@
           "Operating Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -821,6 +830,12 @@
             null,
             -771771,
             -1639628,
+            3140435
+          ],
+          [
+            null,
+            -771771,
+            -1639628,
             3490435
           ]
         ]
@@ -833,6 +848,7 @@
           "Operating Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -884,6 +900,13 @@
             null,
             146475,
             318141
+          ],
+          [
+            null,
+            1618222,
+            null,
+            null,
+            1133997
           ],
           [
             null,

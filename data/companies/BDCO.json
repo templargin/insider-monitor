@@ -1312,6 +1312,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1432,6 +1433,12 @@
             1553000
           ],
           [
+            null,
+            5602000,
+            null,
+            null
+          ],
+          [
             18561000,
             3941000,
             -5946000,
@@ -1506,6 +1513,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1642,6 +1650,13 @@
             6064000,
             6103000,
             5885000
+          ],
+          [
+            5604000,
+            5604000,
+            8841000,
+            null,
+            null
           ],
           [
             14375000,
@@ -2065,6 +2080,7 @@
           "Investing Cash Flow",
           "",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2133,6 +2149,12 @@
           [
             -1429000,
             -3371000,
+            1725000,
+            1895000
+          ],
+          [
+            -1429000,
+            -3371000,
             994000,
             1179000
           ],
@@ -2162,6 +2184,7 @@
           "",
           "Debt Issuance",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2243,6 +2266,13 @@
             -5167000,
             -1495000,
             -1017000
+          ],
+          [
+            -2627000,
+            1739000,
+            3250000,
+            -1211000,
+            -15189000
           ],
           [
             -2627000,

@@ -1466,6 +1466,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1586,6 +1587,12 @@
             null
           ],
           [
+            667000,
+            -1391000,
+            1843000,
+            891000
+          ],
+          [
             -4821000,
             -745000,
             -1390000,
@@ -1660,6 +1667,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1796,6 +1804,13 @@
             null,
             null,
             null
+          ],
+          [
+            2010000,
+            843000,
+            -45220000,
+            -76916000,
+            -16405000
           ],
           [
             -10245000,
@@ -2260,9 +2275,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2317,6 +2334,12 @@
             -1467000
           ],
           [
+            null,
+            846000,
+            null,
+            928000
+          ],
+          [
             -1239000,
             198000,
             -1732000,
@@ -2333,6 +2356,12 @@
             -5514000,
             0,
             0
+          ],
+          [
+            -1657000,
+            null,
+            null,
+            null
           ],
           [
             -10347000,
@@ -2363,11 +2392,14 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2430,6 +2462,20 @@
             -7486000
           ],
           [
+            null,
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            2121000,
+            6425000,
+            -600000,
+            null,
+            null
+          ],
+          [
             -3312000,
             -401000,
             -8334000,
@@ -2463,6 +2509,13 @@
             -10914000,
             -5000000,
             0
+          ],
+          [
+            -1256000,
+            -1066000,
+            -1815000,
+            -1324000,
+            -4852000
           ],
           [
             -15460000,

@@ -865,6 +865,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -991,6 +992,12 @@
             3665000
           ],
           [
+            530000,
+            1073000,
+            -836000,
+            573000
+          ],
+          [
             -10117000,
             -8826000,
             -11224000,
@@ -1066,6 +1073,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1209,6 +1217,13 @@
             18684000,
             18859000,
             45991000
+          ],
+          [
+            1340000,
+            849000,
+            2597000,
+            6217000,
+            25054000
           ],
           [
             -41040000,
@@ -1638,6 +1653,7 @@
           "CapEx",
           "Investing Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1710,6 +1726,12 @@
             4618000
           ],
           [
+            4419000,
+            -55977000,
+            -33074000,
+            4618000
+          ],
+          [
             null,
             null,
             null,
@@ -1732,9 +1754,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1797,6 +1821,13 @@
             -1070000
           ],
           [
+            null,
+            null,
+            null,
+            2112000,
+            null
+          ],
+          [
             -68000,
             -1060000,
             -5326000,
@@ -1816,6 +1847,13 @@
             0,
             -784000,
             0
+          ],
+          [
+            -80014000,
+            -111206000,
+            -21815000,
+            -323198000,
+            -358466000
           ],
           [
             -80014000,

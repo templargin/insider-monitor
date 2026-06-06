@@ -1479,6 +1479,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1593,6 +1594,12 @@
             null
           ],
           [
+            null,
+            null,
+            -634000,
+            null
+          ],
+          [
             4170000,
             9627000,
             6303000,
@@ -1666,6 +1673,7 @@
           "EBITDA",
           "EBITDA Margin %",
           "",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1795,6 +1803,13 @@
             null,
             null,
             null
+          ],
+          [
+            null,
+            -1267000,
+            -2974000,
+            null,
+            -782000
           ],
           [
             27842000,
@@ -2274,10 +2289,13 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2332,6 +2350,18 @@
             null
           ],
           [
+            -8228000,
+            0,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            -672000
+          ],
+          [
             -8706000,
             -323000,
             -271000,
@@ -2354,6 +2384,12 @@
             -773000,
             -772000,
             -767000
+          ],
+          [
+            -1224000,
+            null,
+            null,
+            null
           ],
           [
             -2717000,
@@ -2383,10 +2419,13 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Acquisitions",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash"
@@ -2442,6 +2481,20 @@
             null
           ],
           [
+            null,
+            0,
+            -20958000,
+            -12678000,
+            -8511000
+          ],
+          [
+            -9972000,
+            -1995000,
+            -5470000,
+            -4989000,
+            -2502000
+          ],
+          [
             -9972000,
             -1995000,
             -26428000,
@@ -2468,6 +2521,13 @@
             -3038000,
             -3012000,
             -2989000
+          ],
+          [
+            -1461000,
+            -3934000,
+            -8338000,
+            -4231000,
+            1812000
           ],
           [
             -6433000,

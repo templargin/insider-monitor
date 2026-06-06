@@ -1677,6 +1677,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Net Income",
           "Net Margin %",
@@ -1802,6 +1803,12 @@
             22000
           ],
           [
+            null,
+            null,
+            1500000,
+            5067000
+          ],
+          [
             -2453000,
             -3140000,
             -741000,
@@ -1871,6 +1878,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -2015,6 +2023,13 @@
             147000,
             11000,
             403307
+          ],
+          [
+            6626000,
+            6934000,
+            null,
+            -26898000,
+            8471965
           ],
           [
             -3352000,
@@ -2397,9 +2412,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2454,6 +2471,12 @@
             -3000
           ],
           [
+            null,
+            null,
+            1108000,
+            -667000
+          ],
+          [
             352000,
             -51000,
             1108000,
@@ -2470,6 +2493,12 @@
             null,
             500000,
             null
+          ],
+          [
+            838000,
+            2200000,
+            null,
+            3026000
           ],
           [
             838000,
@@ -2500,9 +2529,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2565,6 +2596,13 @@
             -58000
           ],
           [
+            749000,
+            2320000,
+            -1931000,
+            null,
+            null
+          ],
+          [
             739000,
             2307000,
             -1982000,
@@ -2584,6 +2622,13 @@
             -200000,
             null,
             null
+          ],
+          [
+            6541000,
+            5609000,
+            9290000,
+            4611000,
+            4333000
           ],
           [
             6541000,

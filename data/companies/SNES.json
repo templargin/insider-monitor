@@ -1165,9 +1165,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1223,6 +1225,12 @@
           ],
           [
             1000000,
+            2000000,
+            -2964000,
+            null
+          ],
+          [
+            1000000,
             1987000,
             -3006000,
             -47000
@@ -1238,6 +1246,12 @@
             0,
             0,
             1640000
+          ],
+          [
+            null,
+            null,
+            5608000,
+            3957000
           ],
           [
             158000,
@@ -1268,9 +1282,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -1333,6 +1349,13 @@
             -174000
           ],
           [
+            null,
+            -964000,
+            null,
+            null,
+            null
+          ],
+          [
             -66000,
             -1102000,
             -56000,
@@ -1352,6 +1375,13 @@
             38000,
             5407000,
             4228000
+          ],
+          [
+            9524000,
+            10414000,
+            1963000,
+            2928000,
+            null
           ],
           [
             11337000,

@@ -1062,10 +1062,12 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Repayment",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1118,6 +1120,12 @@
             2584977
           ],
           [
+            19764120,
+            -16121704,
+            11670168,
+            2584977
+          ],
+          [
             null,
             null,
             null,
@@ -1136,6 +1144,12 @@
             -107529
           ],
           [
+            -734616,
+            null,
+            null,
+            null
+          ],
+          [
             -930389,
             -693883,
             -490994,
@@ -1151,12 +1165,14 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Debt Repayment",
           "Stock Issuance",
           "Stock Buyback",
+          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
@@ -1217,6 +1233,13 @@
             26203334
           ],
           [
+            17897561,
+            -6887709,
+            26500773,
+            6903871,
+            26203334
+          ],
+          [
             null,
             null,
             null,
@@ -1250,6 +1273,13 @@
             -648152,
             -881966,
             -685808
+          ],
+          [
+            -1138067,
+            -536460,
+            -1205759,
+            null,
+            -680100
           ],
           [
             -2020628,

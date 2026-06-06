@@ -2503,11 +2503,13 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Free Cash Flow"
@@ -2562,6 +2564,12 @@
             -136000
           ],
           [
+            -16822000,
+            -28937000,
+            -8058000,
+            -39687000
+          ],
+          [
             -17554000,
             -29281000,
             -8171000,
@@ -2592,6 +2600,12 @@
             -927000
           ],
           [
+            29716000,
+            12960000,
+            38621000,
+            -3511000
+          ],
+          [
             28895000,
             11823000,
             37798000,
@@ -2620,12 +2634,14 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
           "Stock Issuance",
           "Stock Buyback",
           "Dividends Paid",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -2690,6 +2706,13 @@
             -3642000
           ],
           [
+            -93504000,
+            -53135000,
+            27860000,
+            -44516000,
+            -121924000
+          ],
+          [
             -94829000,
             -53859000,
             27578000,
@@ -2730,6 +2753,13 @@
             -3650000,
             null,
             null
+          ],
+          [
+            77653000,
+            53020000,
+            1869000,
+            36247000,
+            54492000
           ],
           [
             74120000,

@@ -1074,6 +1074,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1194,6 +1195,12 @@
             11896000
           ],
           [
+            925000,
+            48667790,
+            null,
+            -3490000
+          ],
+          [
             -11328000,
             45807790,
             -10498000,
@@ -1268,6 +1275,7 @@
           "EBITDA Margin %",
           "",
           "Interest Expense",
+          "Other Income / (Expense)",
           "Pretax Income",
           "Tax Provision",
           "Net Income",
@@ -1404,6 +1412,13 @@
             47808000,
             55181000,
             85052000
+          ],
+          [
+            46117790,
+            33135790,
+            40909734,
+            72959278,
+            198239000
           ],
           [
             20698790,
@@ -1893,6 +1908,7 @@
           "CapEx",
           "Investing Cash Flow",
           "",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -1967,6 +1983,12 @@
             9973000
           ],
           [
+            6237000,
+            -11369000,
+            -6985000,
+            9973000
+          ],
+          [
             null,
             null,
             null,
@@ -2001,9 +2023,11 @@
           "Operating Cash Flow",
           "",
           "CapEx",
+          "Other Investing",
           "Investing Cash Flow",
           "",
           "Stock Issuance",
+          "Other Financing",
           "Financing Cash Flow",
           "",
           "Effect of FX on Cash",
@@ -2068,6 +2092,13 @@
             -24690000
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            268046000
+          ],
+          [
             -10065000,
             -9061000,
             -9298000,
@@ -2087,6 +2118,13 @@
             null,
             0,
             9639000
+          ],
+          [
+            -2144000,
+            2807000,
+            -12747000,
+            -1899000,
+            -201610000
           ],
           [
             -2144000,
