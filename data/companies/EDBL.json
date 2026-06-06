@@ -664,14 +664,20 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -703,6 +709,12 @@
             1367000
           ],
           [
+            720000,
+            912000,
+            649000,
+            null
+          ],
+          [
             5600000,
             5793000,
             4856000,
@@ -719,6 +731,18 @@
             10107000,
             10648000,
             11006000
+          ],
+          [
+            3985000,
+            4289000,
+            4205000,
+            4480000
+          ],
+          [
+            297000,
+            302000,
+            308000,
+            313000
           ],
           [
             17479000,
@@ -739,6 +763,18 @@
             898000
           ],
           [
+            229000,
+            225000,
+            223000,
+            219000
+          ],
+          [
+            3880000,
+            3077000,
+            3955000,
+            2837000
+          ],
+          [
             7727000,
             7088000,
             6104000,
@@ -749,6 +785,12 @@
             215000,
             239000,
             334000
+          ],
+          [
+            708000,
+            767000,
+            824000,
+            881000
           ],
           [
             8646000,
@@ -781,14 +823,20 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -824,6 +872,13 @@
             586000
           ],
           [
+            720000,
+            912000,
+            null,
+            null,
+            null
+          ],
+          [
             5600000,
             5793000,
             7377000,
@@ -843,6 +898,20 @@
             3145000,
             3893000,
             4891000
+          ],
+          [
+            3985000,
+            4289000,
+            1202000,
+            35000,
+            null
+          ],
+          [
+            297000,
+            302000,
+            43000,
+            47000,
+            50000
           ],
           [
             17479000,
@@ -866,6 +935,20 @@
             1728000
           ],
           [
+            229000,
+            225000,
+            212000,
+            34000,
+            null
+          ],
+          [
+            3880000,
+            3077000,
+            3708000,
+            1637000,
+            3101000
+          ],
+          [
             7727000,
             7088000,
             6210000,
@@ -878,6 +961,13 @@
             544000,
             4040000,
             4282000
+          ],
+          [
+            708000,
+            767000,
+            992000,
+            0,
+            null
           ],
           [
             8646000,

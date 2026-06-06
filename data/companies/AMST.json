@@ -1483,6 +1483,7 @@
           "Total Current Assets",
           "",
           "Net PPE",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
@@ -1528,6 +1529,12 @@
             26762,
             33099,
             39436
+          ],
+          [
+            649962,
+            639498,
+            657301,
+            623804
           ],
           [
             1492366,
@@ -1583,12 +1590,16 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Total Liabilities",
           "",
@@ -1618,6 +1629,13 @@
             14545
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            660084
+          ],
+          [
             821979,
             2433859,
             2504565,
@@ -1639,6 +1657,20 @@
             87190
           ],
           [
+            null,
+            null,
+            644828,
+            null,
+            778446
+          ],
+          [
+            649962,
+            623804,
+            null,
+            778446,
+            null
+          ],
+          [
             1492366,
             3097099,
             3314177,
@@ -1658,6 +1690,13 @@
             48907,
             70070,
             122285
+          ],
+          [
+            null,
+            null,
+            749558,
+            null,
+            625823
           ],
           [
             189982,

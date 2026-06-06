@@ -7582,14 +7582,22 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -7622,6 +7630,12 @@
             33352000
           ],
           [
+            8603000,
+            9257000,
+            21161000,
+            20576000
+          ],
+          [
             168574000,
             187878000,
             201465000,
@@ -7640,10 +7654,28 @@
             5583000
           ],
           [
+            2698000,
+            2810000,
+            3210000,
+            3360000
+          ],
+          [
             92339000,
             92339000,
             92339000,
             92339000
+          ],
+          [
+            18533000,
+            19501000,
+            20470000,
+            21438000
+          ],
+          [
+            13231000,
+            13276000,
+            12935000,
+            13706000
           ],
           [
             300236000,
@@ -7664,10 +7696,34 @@
             11664000
           ],
           [
+            null,
+            1228000,
+            null,
+            null
+          ],
+          [
+            34169000,
+            45778000,
+            61812000,
+            68395000
+          ],
+          [
             42719000,
             60018000,
             72623000,
             80059000
+          ],
+          [
+            5470000,
+            5792000,
+            6105000,
+            6415000
+          ],
+          [
+            21373000,
+            22976000,
+            22657000,
+            28646000
           ],
           [
             69562000,
@@ -7706,14 +7762,22 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -7750,6 +7814,13 @@
             75725000
           ],
           [
+            8603000,
+            9257000,
+            20608000,
+            21648000,
+            29780000
+          ],
+          [
             168574000,
             187878000,
             257650000,
@@ -7771,11 +7842,32 @@
             2069000
           ],
           [
+            2698000,
+            2810000,
+            3808000,
+            2550000,
+            3968000
+          ],
+          [
             92339000,
             92339000,
             117268000,
             117268000,
             117268000
+          ],
+          [
+            18533000,
+            19501000,
+            23375000,
+            27249000,
+            31123000
+          ],
+          [
+            13231000,
+            13276000,
+            15624000,
+            20949000,
+            28061000
           ],
           [
             300236000,
@@ -7799,11 +7891,39 @@
             18360000
           ],
           [
+            null,
+            1228000,
+            592000,
+            1535000,
+            1585000
+          ],
+          [
+            34169000,
+            45778000,
+            61724000,
+            100698000,
+            112831000
+          ],
+          [
             42719000,
             60018000,
             71032000,
             117309000,
             132776000
+          ],
+          [
+            5470000,
+            5792000,
+            7021000,
+            1311000,
+            2803000
+          ],
+          [
+            21373000,
+            22976000,
+            52688000,
+            48688000,
+            61066000
           ],
           [
             69562000,

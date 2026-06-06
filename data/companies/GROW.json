@@ -1382,13 +1382,19 @@
       "quarterly": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1406,6 +1412,18 @@
             25227000,
             24586000,
             24552000
+          ],
+          [
+            9197000,
+            9215000,
+            9734000,
+            9692000
+          ],
+          [
+            4280000,
+            4214000,
+            4780000,
+            4875000
           ],
           [
             38052000,
@@ -1426,6 +1444,18 @@
             1101000
           ],
           [
+            3231000,
+            3702000,
+            3040000,
+            2496000
+          ],
+          [
+            6529000,
+            3763000,
+            5700000,
+            5348000
+          ],
+          [
             48921000,
             47220000,
             48930000,
@@ -1444,10 +1474,22 @@
             10000
           ],
           [
+            1814000,
+            1973000,
+            1886000,
+            1864000
+          ],
+          [
             1820000,
             1991000,
             1906000,
             1874000
+          ],
+          [
+            1053000,
+            1059000,
+            1033000,
+            983000
           ],
           [
             2873000,
@@ -1478,13 +1520,21 @@
       "annual": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1504,6 +1554,20 @@
             27399000,
             25401000,
             22314000
+          ],
+          [
+            9197000,
+            9692000,
+            9644000,
+            11642000,
+            12138000
+          ],
+          [
+            4280000,
+            4875000,
+            3274000,
+            3331000,
+            3580000
           ],
           [
             38052000,
@@ -1527,6 +1591,27 @@
             1370000
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            3231000,
+            2496000,
+            1449000,
+            1563000,
+            0
+          ],
+          [
+            6529000,
+            5348000,
+            9043000,
+            12598000,
+            18960000
+          ],
+          [
             48921000,
             48064000,
             51963000,
@@ -1548,11 +1633,32 @@
             73000
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            1814000,
+            1864000,
+            2150000,
+            2796000,
+            4059000
+          ],
+          [
             1820000,
             1874000,
             2164000,
             2939000,
             4132000
+          ],
+          [
+            1053000,
+            983000,
+            793000,
+            713000,
+            null
           ],
           [
             2873000,

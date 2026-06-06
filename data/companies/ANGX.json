@@ -1227,14 +1227,23 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1266,6 +1275,12 @@
             null
           ],
           [
+            40564976,
+            38407755,
+            33531043,
+            null
+          ],
+          [
             111616884,
             134877955,
             123076756,
@@ -1281,6 +1296,30 @@
             581186,
             709845,
             727915,
+            null
+          ],
+          [
+            2932555,
+            3240021,
+            2268990,
+            null
+          ],
+          [
+            3081723,
+            3850035,
+            4618347,
+            null
+          ],
+          [
+            null,
+            36500000,
+            null,
+            null
+          ],
+          [
+            94873039,
+            62233707,
+            66305693,
             null
           ],
           [
@@ -1302,6 +1341,18 @@
             297402
           ],
           [
+            1318472,
+            1284747,
+            750731,
+            null
+          ],
+          [
+            161059501,
+            177754121,
+            101323818,
+            4484770
+          ],
+          [
             188164765,
             218999140,
             113145807,
@@ -1312,6 +1363,18 @@
             45500000,
             null,
             null
+          ],
+          [
+            1714213,
+            2058585,
+            1572999,
+            null
+          ],
+          [
+            64666180,
+            null,
+            45110442,
+            5797850
           ],
           [
             254545158,
@@ -1344,14 +1407,23 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1370,8 +1442,8 @@
             38875760,
             44083233,
             7211826,
-            25201425,
-            10721628
+            null,
+            null
           ],
           [
             30792585,
@@ -1385,6 +1457,13 @@
             1264101,
             1711638,
             null,
+            null
+          ],
+          [
+            40564976,
+            38407755,
+            27791435,
+            2171553,
             null
           ],
           [
@@ -1409,6 +1488,34 @@
             null
           ],
           [
+            2932555,
+            3240021,
+            2744693,
+            null,
+            null
+          ],
+          [
+            3081723,
+            3850035,
+            1917155,
+            null,
+            null
+          ],
+          [
+            null,
+            36500000,
+            2600000,
+            null,
+            null
+          ],
+          [
+            94873039,
+            62233707,
+            50390592,
+            44709805,
+            237984513
+          ],
+          [
             213085387,
             241411563,
             111380567,
@@ -1430,6 +1537,20 @@
             97987
           ],
           [
+            1318472,
+            1284747,
+            673295,
+            null,
+            null
+          ],
+          [
+            161059501,
+            177754121,
+            71457541,
+            4880550,
+            1109992
+          ],
+          [
             188164765,
             218999140,
             80060318,
@@ -1442,6 +1563,20 @@
             null,
             null,
             null
+          ],
+          [
+            1714213,
+            2058585,
+            2153463,
+            null,
+            null
+          ],
+          [
+            64666180,
+            null,
+            12458832,
+            580500,
+            527050
           ],
           [
             254545158,

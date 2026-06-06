@@ -1387,14 +1387,23 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1421,6 +1430,12 @@
             12954496
           ],
           [
+            23952469,
+            7103110,
+            5464780,
+            1182302
+          ],
+          [
             38840656,
             22210602,
             26221326,
@@ -1439,10 +1454,28 @@
             119989
           ],
           [
+            1294152,
+            1398515,
+            1500731,
+            1600843
+          ],
+          [
             8619295,
             5912230,
             4220754,
             5557551
+          ],
+          [
+            7980779,
+            5414452,
+            6678804,
+            5231027
+          ],
+          [
+            11366564,
+            44252528,
+            82360375,
+            10954494
           ],
           [
             68214519,
@@ -1463,10 +1496,40 @@
             26129652
           ],
           [
+            null,
+            null,
+            null,
+            1250000
+          ],
+          [
+            449749,
+            441485,
+            433390,
+            425461
+          ],
+          [
+            23429952,
+            18505127,
+            21424742,
+            20451009
+          ],
+          [
             44505328,
             40876596,
             40303255,
             48256122
+          ],
+          [
+            1041033,
+            1154341,
+            1265332,
+            1374054
+          ],
+          [
+            3164221,
+            1617704,
+            807000,
+            null
           ],
           [
             48710582,
@@ -1504,14 +1567,23 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1541,6 +1613,13 @@
             8114542
           ],
           [
+            23952469,
+            7103110,
+            1992745,
+            2790010,
+            1004805
+          ],
+          [
             38840656,
             22210602,
             36472572,
@@ -1562,10 +1641,31 @@
             3001883
           ],
           [
+            1294152,
+            1398515,
+            2570516,
+            2159693,
+            2495333
+          ],
+          [
             8619295,
             5912230,
             12704979,
             16303989,
+            null
+          ],
+          [
+            7980779,
+            5414452,
+            15265736,
+            18574144,
+            4609837
+          ],
+          [
+            11366564,
+            44252528,
+            11412694,
+            2966917,
             null
           ],
           [
@@ -1590,11 +1690,46 @@
             4848854
           ],
           [
+            null,
+            null,
+            15374299,
+            7050000,
+            null
+          ],
+          [
+            449749,
+            441485,
+            748916,
+            367487,
+            336229
+          ],
+          [
+            23429952,
+            18505127,
+            11290385,
+            5266121,
+            5335518
+          ],
+          [
             44505328,
             40876596,
             54762972,
             36177080,
             10520601
+          ],
+          [
+            1041033,
+            1154341,
+            2054443,
+            1994961,
+            2362448
+          ],
+          [
+            3164221,
+            1617704,
+            9908784,
+            8176928,
+            null
           ],
           [
             48710582,

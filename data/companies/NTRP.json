@@ -1146,14 +1146,20 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
           "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1180,6 +1186,12 @@
             22567
           ],
           [
+            1501534,
+            1418173,
+            1316048,
+            1380575
+          ],
+          [
             4301271,
             3522743,
             1557075,
@@ -1204,6 +1216,24 @@
             1167805
           ],
           [
+            3809004,
+            4081003,
+            3379049,
+            2127368
+          ],
+          [
+            2415000,
+            2415000,
+            2415000,
+            3407610
+          ],
+          [
+            773742,
+            763742,
+            763742,
+            763742
+          ],
+          [
             14424933,
             13909033,
             10955216,
@@ -1222,10 +1252,22 @@
             1184404
           ],
           [
+            3813300,
+            3623374,
+            1629085,
+            1386682
+          ],
+          [
             5051395,
             5000390,
             2699966,
             2571086
+          ],
+          [
+            3098358,
+            2930107,
+            1585332,
+            null
           ],
           [
             8149753,
@@ -1263,14 +1305,23 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1300,6 +1351,13 @@
             null
           ],
           [
+            1501534,
+            1336026,
+            1380575,
+            1340921,
+            1942521
+          ],
+          [
             4301271,
             3151284,
             2465509,
@@ -1321,10 +1379,38 @@
             16226
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            1020443
+          ],
+          [
             3123684,
             3123684,
             1167805,
             1167805,
+            null
+          ],
+          [
+            3809004,
+            4258220,
+            2127368,
+            2173420,
+            2607670
+          ],
+          [
+            2415000,
+            2502000,
+            3407610,
+            null,
+            null
+          ],
+          [
+            773742,
+            null,
+            763742,
+            null,
             null
           ],
           [
@@ -1349,11 +1435,39 @@
             519136
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            149339
+          ],
+          [
+            3813300,
+            3186747,
+            1386682,
+            1428966,
+            3867175
+          ],
+          [
             5051395,
             3912288,
             2571086,
             1960813,
             4535650
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            864575
+          ],
+          [
+            3098358,
+            3403269,
+            null,
+            null,
+            null
           ],
           [
             8149753,

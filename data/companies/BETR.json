@@ -7264,10 +7264,16 @@
       "quarterly": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "",
+          "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -7288,15 +7294,45 @@
           ],
           [
             null,
+            103607000,
+            131902000,
+            134390000
+          ],
+          [
+            null,
             null,
             null,
             null
+          ],
+          [
+            1944000,
+            1815000,
+            1850000,
+            1923000
+          ],
+          [
+            4460000,
+            4678000,
+            4671000,
+            4818000
           ],
           [
             10995000,
             10995000,
             24513000,
             24765000
+          ],
+          [
+            17968000,
+            17349000,
+            21520000,
+            21273000
+          ],
+          [
+            1469163000,
+            1287633000,
+            1125785000,
+            957558000
           ],
           [
             1568795000,
@@ -7309,6 +7345,12 @@
             null,
             null,
             null
+          ],
+          [
+            1560242000,
+            1468251000,
+            1342222000,
+            1155304000
           ],
           [
             1560242000,
@@ -7339,13 +7381,20 @@
       "annual": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Inventory",
           "Total Current Assets",
           "",
+          "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -7365,14 +7414,21 @@
             79357000,
             211101000,
             503591000,
-            317959000
+            null
+          ],
+          [
+            null,
+            103607000,
+            53774000,
+            25597000,
+            0
           ],
           [
             null,
             null,
             null,
             0,
-            1139000
+            null
           ],
           [
             null,
@@ -7389,11 +7445,39 @@
             null
           ],
           [
+            1944000,
+            1815000,
+            2717000,
+            16454000,
+            30430000
+          ],
+          [
+            4460000,
+            4678000,
+            1387000,
+            19988000,
+            39723000
+          ],
+          [
             10995000,
             10995000,
             23615000,
             32390000,
             17388000
+          ],
+          [
+            17968000,
+            17349000,
+            20936000,
+            38126000,
+            61996000
+          ],
+          [
+            1469163000,
+            1287633000,
+            599527000,
+            269408000,
+            933395817
           ],
           [
             1568795000,
@@ -7415,6 +7499,20 @@
             null,
             null,
             15024385
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            15024385
+          ],
+          [
+            1560242000,
+            1468251000,
+            971227000,
+            782954000,
+            1236230615
           ],
           [
             1560242000,
@@ -7784,7 +7882,7 @@
             null,
             null,
             null,
-            -0.04790991444907728
+            null
           ],
           [
             182.4204372734713,

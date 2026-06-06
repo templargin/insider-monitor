@@ -273,15 +273,38 @@ LI_BS = [
     ("Cash & Equivalents", ["CashAndCashEquivalentsAtCarryingValue",
                             "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
                             "Cash"]),
+    ("Short-term Investments", ["ShortTermInvestments", "MarketableSecuritiesCurrent",
+                                "AvailableForSaleSecuritiesDebtSecuritiesCurrent"]),
     ("Receivables", ["AccountsReceivableNetCurrent", "ReceivablesNetCurrent"]),
     ("Inventory", ["InventoryNet"]),
+    # Derived plug = Total Current Assets − (the current items above). Filled in
+    # _reconcile_bs_subtotals so the current-asset section foots by construction.
+    ("Other Current Assets", []),
     ("Total Current Assets", ["AssetsCurrent"]),
-    ("Net PPE", ["PropertyPlantAndEquipmentNet"]),
+    # Net PPE ladder covers oil & gas properties (VTS) and PP&E-incl-finance-lease
+    # (OPAL). The specialized productive-asset tags come FIRST because such filers
+    # also carry a tiny generic PropertyPlantAndEquipmentNet (office gear) that
+    # would otherwise win and bury the real $800M asset base in the Other plug.
+    ("Net PPE", ["OilAndGasPropertySuccessfulEffortMethodNet",
+                 "OilAndGasPropertyFullCostMethodNet",
+                 "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization",
+                 "PropertyPlantAndEquipmentNet"]),
+    ("Operating Lease ROU", ["OperatingLeaseRightOfUseAsset"]),
     ("Goodwill", ["Goodwill"]),
+    ("Intangible Assets", ["IntangibleAssetsNetExcludingGoodwill", "FiniteLivedIntangibleAssetsNet"]),
+    ("Long-term Investments", ["LongTermInvestments", "EquityMethodInvestments",
+                               "MarketableSecuritiesNoncurrent"]),
+    ("Other Assets", []),  # derived: Total Assets − accounted assets
     ("Total Assets", ["Assets"]),
     ("Accounts Payable", ["AccountsPayableCurrent"]),
+    ("Current Debt", ["LongTermDebtCurrent", "DebtCurrent",
+                      "LongTermDebtAndCapitalLeaseObligationsCurrent"]),
+    ("Current Lease Liabilities", ["OperatingLeaseLiabilityCurrent"]),
+    ("Other Current Liabilities", []),  # derived: Total Current Liab − items above
     ("Total Current Liabilities", ["LiabilitiesCurrent"]),
     ("Long-term Debt", ["LongTermDebtNoncurrent", "LongTermDebt"]),
+    ("Long-term Lease Liabilities", ["OperatingLeaseLiabilityNoncurrent"]),
+    ("Other Liabilities", []),  # derived: Total Liab − accounted liabilities
     ("Total Liabilities", ["Liabilities", ("sum", ["LiabilitiesCurrent", "LiabilitiesNoncurrent"])]),
     # Mezzanine equity: redeemable preferred stock and redeemable NCI sit
     # between liabilities and stockholders' equity in GAAP. Including it as
@@ -918,6 +941,91 @@ def _reconcile_balance_sheet(stmt):
     return stmt
 
 
+def _reconcile_bs_subtotals(stmt):
+    """Fill the derived 'Other …' plug rows so each balance-sheet subtotal foots
+    from its line items by construction:
+
+      Other Current Assets   = Total Current Assets − (Cash + ST Inv + Recv + Inv)
+      Other Assets           = Total Assets − Total Current Assets − (non-current items)
+      Other Current Liab.    = Total Current Liab − (AP + Current Debt + Current Lease)
+      Other Liabilities      = Total Liab − Total Current Liab − (LT Debt + LT Lease)
+
+    For unclassified sheets (banks, REITs — no AssetsCurrent/LiabilitiesCurrent),
+    the 'Other Assets'/'Other Liabilities' plug instead absorbs everything between
+    the named items and the total. A plug within rounding of zero is left None so
+    the row is pruned (no noise when the items already explain the subtotal)."""
+    labels = stmt["labels"]
+    idx = {l: i for i, l in enumerate(labels)}
+
+    def row(name):
+        return stmt["data"][idx[name]] if name in idx else None
+
+    cash, stinv, recv, inv = row("Cash & Equivalents"), row("Short-term Investments"), row("Receivables"), row("Inventory")
+    tca = row("Total Current Assets")
+    ppe, rou, gw, intang, ltinv = row("Net PPE"), row("Operating Lease ROU"), row("Goodwill"), row("Intangible Assets"), row("Long-term Investments")
+    ta = row("Total Assets")
+    ap, cd, cll = row("Accounts Payable"), row("Current Debt"), row("Current Lease Liabilities")
+    tcl = row("Total Current Liabilities")
+    ltd, ltl = row("Long-term Debt"), row("Long-term Lease Liabilities")
+    tl = row("Total Liabilities")
+    oca, oa = row("Other Current Assets"), row("Other Assets")
+    ocl, ol = row("Other Current Liabilities"), row("Other Liabilities")
+    n = len(stmt["periods"])
+
+    def v(r, i):
+        return r[i] if (r is not None and i < len(r) and r[i] is not None) else 0
+
+    def has(r, i):
+        return r is not None and i < len(r) and r[i] is not None
+
+    def trivial(plug, total_i):
+        return abs(plug) < max(500_000.0, abs(total_i) * 0.005)
+
+    def cap(items, subtotal, i):
+        """A line item can't exceed the subtotal that contains it; if it does it
+        was mistagged for a different concept (a debt-maturity schedule, a
+        non-current security tagged 'current', a total-debt tag used for the
+        non-current row). Drop it (→ None) so it flows into the plug instead of
+        producing a large negative plug. Guards STRZ/LOGC/GPUS double-counts."""
+        if subtotal is None:
+            return
+        for r in items:
+            if r is not None and i < len(r) and r[i] is not None and r[i] > abs(subtotal) * 1.02 + 500_000:
+                r[i] = None
+
+    for i in range(n):
+        # Sanity-cap mistagged items before computing the plugs.
+        cap([cash, stinv, recv, inv], (tca[i] if has(tca, i) else None), i)
+        cap([ap, cd, cll], (tcl[i] if has(tcl, i) else None), i)
+        nca_pool = (ta[i] - tca[i]) if (has(ta, i) and has(tca, i)) else (ta[i] if has(ta, i) else None)
+        cap([ppe, rou, gw, intang, ltinv], nca_pool, i)
+        ncl_pool = (tl[i] - tcl[i]) if (has(tl, i) and has(tcl, i)) else (tl[i] if has(tl, i) else None)
+        cap([ltd, ltl], ncl_pool, i)
+        # Current assets
+        if oca is not None and has(tca, i):
+            p = tca[i] - sum(v(r, i) for r in (cash, stinv, recv, inv))
+            oca[i] = None if trivial(p, tca[i]) else p
+        # Total assets
+        if oa is not None and has(ta, i):
+            if has(tca, i):
+                p = ta[i] - tca[i] - sum(v(r, i) for r in (ppe, rou, gw, intang, ltinv))
+            else:
+                p = ta[i] - sum(v(r, i) for r in (cash, stinv, recv, inv, ppe, rou, gw, intang, ltinv))
+            oa[i] = None if trivial(p, ta[i]) else p
+        # Current liabilities
+        if ocl is not None and has(tcl, i):
+            p = tcl[i] - sum(v(r, i) for r in (ap, cd, cll))
+            ocl[i] = None if trivial(p, tcl[i]) else p
+        # Total liabilities
+        if ol is not None and has(tl, i):
+            if has(tcl, i):
+                p = tl[i] - tcl[i] - sum(v(r, i) for r in (ltd, ltl))
+            else:
+                p = tl[i] - sum(v(r, i) for r in (ap, cd, cll, ltd, ltl))
+            ol[i] = None if trivial(p, tl[i]) else p
+    return stmt
+
+
 def _strip(stmt):
     stmt.pop("_ends", None)
     stmt.pop("_gp_fallback_indices", None)
@@ -1124,8 +1232,8 @@ def fetch_xbrl_financials(cik):
     # foots directly: LTM ΔWC&Other = LTM OCF − (LTM NI + LTM D&A + LTM SBC).
     cf_a = _derive_cf_other_operating(cf_a)
 
-    bs_q = _reconcile_balance_sheet(_build_bs_at_ends(usg, is_q["_ends"]))
-    bs_a = _reconcile_balance_sheet(_build_bs_at_ends(usg, is_a["_ends"]))
+    bs_q = _reconcile_bs_subtotals(_reconcile_balance_sheet(_build_bs_at_ends(usg, is_q["_ends"])))
+    bs_a = _reconcile_bs_subtotals(_reconcile_balance_sheet(_build_bs_at_ends(usg, is_a["_ends"])))
     # Relabel the BS's leftmost period as "LTM" for visual consistency with
     # IS/CF — the underlying value is the latest quarter end (point-in-time).
     if bs_a["periods"] and is_a["periods"] and is_a["periods"][0] == "LTM":

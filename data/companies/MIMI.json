@@ -216,14 +216,19 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -246,6 +251,11 @@
             null
           ],
           [
+            1756551,
+            889164,
+            null
+          ],
+          [
             6931001,
             2060660,
             null
@@ -258,6 +268,11 @@
           [
             10541,
             8629,
+            null
+          ],
+          [
+            178865,
+            42180,
             null
           ],
           [
@@ -276,12 +291,27 @@
             null
           ],
           [
+            95130,
+            42180,
+            null
+          ],
+          [
+            null,
+            508214,
+            null
+          ],
+          [
             722451,
             913749,
             null
           ],
           [
             1219569,
+            null,
+            null
+          ],
+          [
+            90965,
             null,
             null
           ],

@@ -550,12 +550,14 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Total Liabilities",
           "",
@@ -580,6 +582,12 @@
             1005687,
             1018248,
             1092048
+          ],
+          [
+            10230219,
+            10213548,
+            10028525,
+            9971293
           ],
           [
             13693378,
@@ -618,6 +626,12 @@
             148340
           ],
           [
+            null,
+            null,
+            null,
+            549806
+          ],
+          [
             496532,
             388596,
             453409,
@@ -653,13 +667,18 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -688,6 +707,13 @@
             942797
           ],
           [
+            10230219,
+            10213548,
+            9235878,
+            8057454,
+            8918983
+          ],
+          [
             13693378,
             13388043,
             12335274,
@@ -707,6 +733,13 @@
             52429,
             77394,
             97405
+          ],
+          [
+            null,
+            null,
+            0,
+            56489,
+            50137
           ],
           [
             13765051,
@@ -730,11 +763,32 @@
             263022
           ],
           [
+            null,
+            null,
+            0,
+            44519,
+            39620
+          ],
+          [
+            null,
+            null,
+            597549,
+            731980,
+            null
+          ],
+          [
             496532,
             388596,
             745600,
             936288,
             708869
+          ],
+          [
+            null,
+            null,
+            0,
+            11970,
+            10517
           ],
           [
             496532,

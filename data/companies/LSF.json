@@ -1246,14 +1246,20 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1286,6 +1292,12 @@
             11027615
           ],
           [
+            3002471,
+            2053190,
+            1347233,
+            1509792
+          ],
+          [
             37490234,
             18840657,
             18393028,
@@ -1304,10 +1316,22 @@
             93233
           ],
           [
+            547910,
+            128877,
+            148722,
+            168136
+          ],
+          [
             16696021,
             0,
             null,
             null
+          ],
+          [
+            20054842,
+            207100,
+            252100,
+            948178
           ],
           [
             74876917,
@@ -1328,10 +1352,28 @@
             null
           ],
           [
+            303442,
+            109145,
+            108350,
+            107555
+          ],
+          [
+            11385153,
+            7552675,
+            5870242,
+            6850797
+          ],
+          [
             11741095,
             7708320,
             5978592,
             6958352
+          ],
+          [
+            277142,
+            46730,
+            70802,
+            94443
           ],
           [
             12018237,
@@ -1368,16 +1410,24 @@
       "annual": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1400,6 +1450,13 @@
             17293959
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            0
+          ],
+          [
             6904516,
             3899205,
             1762911,
@@ -1412,6 +1469,13 @@
             5975676,
             6322559,
             5696565
+          ],
+          [
+            3002471,
+            2053190,
+            1888123,
+            1426071,
+            3045918
           ],
           [
             37490234,
@@ -1435,11 +1499,32 @@
             150289
           ],
           [
+            547910,
+            128877,
+            205703,
+            354732,
+            133922
+          ],
+          [
             16696021,
             0,
             null,
             0,
             0
+          ],
+          [
+            20054842,
+            207100,
+            1028223,
+            1217331,
+            1424218
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            800000
           ],
           [
             74876917,
@@ -1463,11 +1548,32 @@
             1080267
           ],
           [
+            303442,
+            109145,
+            105966,
+            138800,
+            59845
+          ],
+          [
+            11385153,
+            7552675,
+            5815705,
+            2589031,
+            6312140
+          ],
+          [
             11741095,
             7708320,
             5921671,
             4375504,
             7452252
+          ],
+          [
+            277142,
+            46730,
+            140464,
+            243836,
+            76076
           ],
           [
             12018237,

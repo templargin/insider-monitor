@@ -804,15 +804,19 @@
       "quarterly": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Receivables",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Long-term Investments",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -830,6 +834,12 @@
             1952464,
             1096909,
             2438962
+          ],
+          [
+            0,
+            0,
+            0,
+            0
           ],
           [
             74844,
@@ -856,6 +866,12 @@
             22635596
           ],
           [
+            4826329,
+            1326329,
+            1326329,
+            3348438
+          ],
+          [
             27342213,
             24520013,
             25445540,
@@ -874,6 +890,12 @@
             19354476
           ],
           [
+            8172833,
+            7919319,
+            7892033,
+            7491625
+          ],
+          [
             19958813,
             21062713,
             26860206,
@@ -884,6 +906,12 @@
             0,
             0,
             367151
+          ],
+          [
+            1620966,
+            692531,
+            692531,
+            1748356
           ],
           [
             21579779,
@@ -914,15 +942,24 @@
       "annual": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Long-term Investments",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -944,11 +981,25 @@
             22326356
           ],
           [
+            0,
+            0,
+            0,
+            0,
+            9735930
+          ],
+          [
             74844,
             32175,
             582201,
             1535757,
             417695
+          ],
+          [
+            null,
+            null,
+            null,
+            1273329,
+            1590938
           ],
           [
             1721326,
@@ -972,6 +1023,20 @@
             10804610
           ],
           [
+            null,
+            null,
+            null,
+            28061,
+            190597
+          ],
+          [
+            4826329,
+            1326329,
+            1599751,
+            1599751,
+            1599751
+          ],
+          [
             27342213,
             24520013,
             30236578,
@@ -993,6 +1058,27 @@
             1226156
           ],
           [
+            null,
+            null,
+            null,
+            119398,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            28500,
+            178411
+          ],
+          [
+            8172833,
+            7919319,
+            7296624,
+            2432504,
+            1551914
+          ],
+          [
             19958813,
             21062713,
             29628885,
@@ -1005,6 +1091,20 @@
             7377865,
             6304318,
             6409893
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            14275
+          ],
+          [
+            1620966,
+            692531,
+            null,
+            null,
+            null
           ],
           [
             21579779,

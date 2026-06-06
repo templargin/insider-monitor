@@ -1688,10 +1688,14 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
+          "Operating Lease ROU",
           "Total Assets",
           "",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Total Liabilities",
           "",
@@ -1724,16 +1728,10 @@
             3024114
           ],
           [
-            5500042,
-            6769836,
-            7580226,
-            9816279
-          ],
-          [
             null,
             null,
-            null,
-            null
+            911146,
+            5863517
           ],
           [
             5500042,
@@ -1746,6 +1744,36 @@
             null,
             null,
             null
+          ],
+          [
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            5500042,
+            6769836,
+            7580226,
+            9816279
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            13330
+          ],
+          [
+            3229051,
+            3108371,
+            606194,
+            4639238
           ],
           [
             3229051,
@@ -1784,14 +1812,20 @@
           "Cash & Equivalents",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1827,6 +1861,13 @@
             6229061
           ],
           [
+            null,
+            5863517,
+            2429395,
+            3415637,
+            3337609
+          ],
+          [
             5500042,
             9816279,
             8143793,
@@ -1846,6 +1887,20 @@
             159656,
             318641,
             477627
+          ],
+          [
+            null,
+            0,
+            159656,
+            311527,
+            467291
+          ],
+          [
+            null,
+            null,
+            31301,
+            35773,
+            40243
           ],
           [
             5500042,
@@ -1869,6 +1924,20 @@
             1572356
           ],
           [
+            null,
+            13330,
+            158742,
+            151230,
+            131880
+          ],
+          [
+            3229051,
+            4639238,
+            3499651,
+            2424290,
+            4843068
+          ],
+          [
             3229051,
             4652568,
             3658393,
@@ -1881,6 +1950,13 @@
             null,
             null,
             100000
+          ],
+          [
+            null,
+            null,
+            13330,
+            172072,
+            335411
           ],
           [
             3229051,

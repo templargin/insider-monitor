@@ -327,14 +327,22 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -361,6 +369,12 @@
             38141000
           ],
           [
+            23860000,
+            26512000,
+            26784000,
+            26231000
+          ],
+          [
             150344000,
             141356000,
             146385000,
@@ -379,10 +393,28 @@
             31823000
           ],
           [
+            34417000,
+            34393000,
+            36007000,
+            40823000
+          ],
+          [
             38813000,
             25269000,
             12867000,
             12867000
+          ],
+          [
+            6768000,
+            5577000,
+            4785000,
+            9561000
+          ],
+          [
+            8763000,
+            10395000,
+            10339000,
+            8789000
           ],
           [
             261145000,
@@ -403,10 +435,34 @@
             7144000
           ],
           [
+            8841000,
+            6923000,
+            7095000,
+            9091000
+          ],
+          [
+            173853000,
+            157866000,
+            168668000,
+            164697000
+          ],
+          [
             196565000,
             177192000,
             184185000,
             180932000
+          ],
+          [
+            34455000,
+            32809000,
+            35329000,
+            40075000
+          ],
+          [
+            6799000,
+            5402000,
+            3952000,
+            3087000
           ],
           [
             237819000,

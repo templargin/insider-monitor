@@ -2189,16 +2189,25 @@
       "quarterly": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -2218,6 +2227,12 @@
             57050000
           ],
           [
+            36035000,
+            27173000,
+            23278000,
+            22467000
+          ],
+          [
             38941000,
             76639000,
             44016000,
@@ -2228,6 +2243,12 @@
             24260000,
             33566000,
             32660000
+          ],
+          [
+            5084000,
+            5063000,
+            7658000,
+            7382000
           ],
           [
             161062000,
@@ -2248,10 +2269,28 @@
             13632000
           ],
           [
+            7194000,
+            7701000,
+            8198000,
+            8687000
+          ],
+          [
             11128000,
             12790000,
             12790000,
             12790000
+          ],
+          [
+            5991000,
+            8034000,
+            9556000,
+            14133000
+          ],
+          [
+            10852000,
+            8844000,
+            10139000,
+            10887000
           ],
           [
             208988000,
@@ -2272,10 +2311,34 @@
             3444000
           ],
           [
+            2591000,
+            2531000,
+            2472000,
+            2414000
+          ],
+          [
+            11970000,
+            12709000,
+            14001000,
+            12981000
+          ],
+          [
             17351000,
             17354000,
             21217000,
             18839000
+          ],
+          [
+            6254000,
+            6898000,
+            7527000,
+            8144000
+          ],
+          [
+            1098000,
+            1070000,
+            null,
+            null
           ],
           [
             24703000,
@@ -2306,16 +2369,26 @@
       "annual": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Receivables",
           "Inventory",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -2337,6 +2410,13 @@
             56354000
           ],
           [
+            36035000,
+            27173000,
+            48392000,
+            40445000,
+            33479000
+          ],
+          [
             38941000,
             76639000,
             64066000,
@@ -2349,6 +2429,13 @@
             24906000,
             26149000,
             28366000
+          ],
+          [
+            5084000,
+            5063000,
+            6665000,
+            3843000,
+            5606000
           ],
           [
             161062000,
@@ -2372,11 +2459,39 @@
             19580000
           ],
           [
+            7194000,
+            7701000,
+            9695000,
+            11469000,
+            13115000
+          ],
+          [
             11128000,
             12790000,
             12790000,
             12790000,
             12790000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            5991000,
+            8034000,
+            21832000,
+            13832000,
+            3058000
+          ],
+          [
+            10852000,
+            8844000,
+            9395000,
+            10712000,
+            10629000
           ],
           [
             208988000,
@@ -2400,11 +2515,39 @@
             814000
           ],
           [
+            2591000,
+            2531000,
+            2020000,
+            1791000,
+            1600000
+          ],
+          [
+            11970000,
+            12709000,
+            18299000,
+            16680000,
+            15888000
+          ],
+          [
             17351000,
             17354000,
             23428000,
             21471000,
             18302000
+          ],
+          [
+            6254000,
+            6898000,
+            9297000,
+            11488000,
+            13278000
+          ],
+          [
+            1098000,
+            1070000,
+            null,
+            null,
+            null
           ],
           [
             24703000,

@@ -1256,11 +1256,14 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Goodwill",
+          "Intangible Assets",
           "Total Assets",
           "",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Total Liabilities",
           "",
@@ -1287,6 +1290,12 @@
             1079776
           ],
           [
+            593436,
+            804434,
+            1316245,
+            2095249
+          ],
+          [
             2123413,
             5651307,
             6407241,
@@ -1305,6 +1314,12 @@
             4183232
           ],
           [
+            135695,
+            147391,
+            138943,
+            154977
+          ],
+          [
             6442340,
             9981930,
             10729416,
@@ -1315,6 +1330,12 @@
             null,
             null,
             null
+          ],
+          [
+            1242049,
+            1358160,
+            1816010,
+            2819790
           ],
           [
             1242049,
@@ -1352,13 +1373,17 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Goodwill",
+          "Intangible Assets",
           "Total Assets",
           "",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1387,6 +1412,13 @@
             261809
           ],
           [
+            593436,
+            804434,
+            1504969,
+            633304,
+            847801
+          ],
+          [
             2123413,
             5651307,
             10074427,
@@ -1406,6 +1438,13 @@
             4183232,
             4183232,
             4183232
+          ],
+          [
+            135695,
+            147391,
+            213718,
+            327001,
+            566259
           ],
           [
             6442340,
@@ -1429,11 +1468,25 @@
             1249149
           ],
           [
+            1242049,
+            1358160,
+            2956188,
+            1664743,
+            1249149
+          ],
+          [
             null,
             null,
             null,
             null,
             135405
+          ],
+          [
+            null,
+            null,
+            null,
+            549424,
+            7706095
           ],
           [
             1242049,

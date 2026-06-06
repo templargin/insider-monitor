@@ -1504,14 +1504,20 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1537,6 +1543,12 @@
             2493000
           ],
           [
+            17526000,
+            17986000,
+            18738000,
+            19045000
+          ],
+          [
             24495000,
             28265000,
             31241000,
@@ -1555,10 +1567,22 @@
             441000
           ],
           [
+            3556000,
+            3642000,
+            3725000,
+            3806000
+          ],
+          [
             3120000,
             3120000,
             3120000,
             3120000
+          ],
+          [
+            1480000,
+            1569000,
+            1667000,
+            1770000
           ],
           [
             33200000,
@@ -1579,10 +1603,28 @@
             506000
           ],
           [
+            681000,
+            676000,
+            671000,
+            666000
+          ],
+          [
+            5461000,
+            5784000,
+            7673000,
+            5116000
+          ],
+          [
             6874000,
             7505000,
             9287000,
             6288000
+          ],
+          [
+            3210000,
+            3292000,
+            3373000,
+            3446000
           ],
           [
             10314000,
@@ -1614,14 +1656,22 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
           "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1650,6 +1700,13 @@
             3317000
           ],
           [
+            17526000,
+            17986000,
+            17091000,
+            23368000,
+            22213000
+          ],
+          [
             24495000,
             28265000,
             32985000,
@@ -1671,11 +1728,32 @@
             726000
           ],
           [
+            3556000,
+            3642000,
+            3964000,
+            4260000,
+            4538000
+          ],
+          [
             3120000,
             3120000,
             3120000,
             3120000,
             3120000
+          ],
+          [
+            1480000,
+            1569000,
+            1976000,
+            2391000,
+            2806000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            2723000
           ],
           [
             33200000,
@@ -1699,11 +1777,39 @@
             639000
           ],
           [
+            681000,
+            676000,
+            656000,
+            637000,
+            470000
+          ],
+          [
+            5461000,
+            5784000,
+            6314000,
+            6632000,
+            4693000
+          ],
+          [
             6874000,
             7505000,
             7864000,
             7549000,
             5802000
+          ],
+          [
+            3210000,
+            3292000,
+            3588000,
+            3838000,
+            4047000
+          ],
+          [
+            null,
+            null,
+            null,
+            611000,
+            1134000
           ],
           [
             10314000,

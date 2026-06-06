@@ -2094,11 +2094,14 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
           "Total Assets",
           "",
+          "Current Debt",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
           "Total Liabilities",
@@ -2125,6 +2128,12 @@
             495000,
             582000,
             254000
+          ],
+          [
+            530000,
+            1015000,
+            715000,
+            1891000
           ],
           [
             1460000,
@@ -2155,6 +2164,18 @@
             null,
             null,
             null
+          ],
+          [
+            837000,
+            974000,
+            null,
+            null
+          ],
+          [
+            4518000,
+            3851000,
+            5005000,
+            6159000
           ],
           [
             5355000,
@@ -2204,13 +2225,18 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Other Assets",
           "Total Assets",
           "",
+          "Current Debt",
+          "Other Current Liabilities",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -2240,6 +2266,13 @@
             19000
           ],
           [
+            530000,
+            1015000,
+            3234000,
+            null,
+            null
+          ],
+          [
             1460000,
             2095000,
             3619000,
@@ -2261,6 +2294,13 @@
             83000
           ],
           [
+            null,
+            null,
+            null,
+            null,
+            815000
+          ],
+          [
             1507000,
             2151000,
             3727000,
@@ -2275,6 +2315,20 @@
             null
           ],
           [
+            837000,
+            974000,
+            9379000,
+            null,
+            null
+          ],
+          [
+            4518000,
+            3851000,
+            9849000,
+            13838000,
+            26104000
+          ],
+          [
             5355000,
             4825000,
             19228000,
@@ -2284,9 +2338,16 @@
           [
             176000,
             220000,
-            2319000,
+            null,
             465000,
             null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            1544000
           ],
           [
             5586000,
@@ -2674,7 +2735,7 @@
           [
             -57000,
             -365000,
-            2147000,
+            null,
             418000,
             null
           ],

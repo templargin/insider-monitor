@@ -1206,13 +1206,18 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1238,6 +1243,12 @@
             46948000
           ],
           [
+            4206000,
+            20219000,
+            16640000,
+            19067000
+          ],
+          [
             48728000,
             52167000,
             57043000,
@@ -1250,10 +1261,22 @@
             null
           ],
           [
-            107000,
-            123000,
-            137000,
-            153000
+            826099000,
+            833927000,
+            867490000,
+            873734000
+          ],
+          [
+            null,
+            4100000,
+            null,
+            null
+          ],
+          [
+            7760000,
+            null,
+            8391000,
+            9793000
           ],
           [
             882587000,
@@ -1274,10 +1297,22 @@
             24437000
           ],
           [
+            71223000,
+            39448000,
+            46697000,
+            47333000
+          ],
+          [
             86999000,
             51251000,
             66784000,
             71770000
+          ],
+          [
+            225143000,
+            212782000,
+            215885000,
+            207859000
           ],
           [
             312142000,
@@ -1309,13 +1344,18 @@
         "labels": [
           "Cash & Equivalents",
           "Receivables",
+          "Other Current Assets",
           "Total Current Assets",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
           "Total Assets",
           "",
           "Accounts Payable",
+          "Other Current Liabilities",
           "Total Current Liabilities",
+          "Other Liabilities",
           "Total Liabilities",
           "Mezzanine Equity",
           "",
@@ -1345,6 +1385,13 @@
             41393000
           ],
           [
+            4206000,
+            20219000,
+            8156000,
+            12879000,
+            2953000
+          ],
+          [
             48728000,
             52167000,
             50911000,
@@ -1359,11 +1406,25 @@
             null
           ],
           [
-            107000,
-            123000,
-            182000,
-            189000,
-            114000
+            826099000,
+            833927000,
+            751976000,
+            704342000,
+            602777000
+          ],
+          [
+            null,
+            4100000,
+            4400000,
+            200000,
+            200000
+          ],
+          [
+            7760000,
+            null,
+            null,
+            null,
+            null
           ],
           [
             882587000,
@@ -1387,11 +1448,25 @@
             7207000
           ],
           [
+            71223000,
+            39448000,
+            66013000,
+            32711000,
+            29472000
+          ],
+          [
             86999000,
             51251000,
             100329000,
             60403000,
             36679000
+          ],
+          [
+            225143000,
+            212782000,
+            210230000,
+            159161000,
+            54823000
           ],
           [
             312142000,

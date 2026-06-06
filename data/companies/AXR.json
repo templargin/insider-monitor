@@ -1266,9 +1266,12 @@
           "Receivables",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
           "Total Assets",
           "",
           "Long-term Debt",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1306,6 +1309,18 @@
             2186000
           ],
           [
+            null,
+            null,
+            null,
+            39000
+          ],
+          [
+            91770000,
+            93318000,
+            89554000,
+            92085000
+          ],
+          [
             143945000,
             140133000,
             140660000,
@@ -1322,6 +1337,12 @@
             23000,
             25000,
             26000
+          ],
+          [
+            4544000,
+            4082000,
+            5906000,
+            3789000
           ],
           [
             4565000,
@@ -1352,12 +1373,16 @@
       "annual": {
         "labels": [
           "Cash & Equivalents",
+          "Short-term Investments",
           "Receivables",
           "",
           "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
           "Total Assets",
           "",
           "Long-term Debt",
+          "Other Liabilities",
           "Total Liabilities",
           "",
           "Retained Earnings",
@@ -1377,6 +1402,13 @@
             29694000,
             19993000,
             15721000
+          ],
+          [
+            null,
+            null,
+            null,
+            0,
+            null
           ],
           [
             0,
@@ -1400,6 +1432,20 @@
             1267000
           ],
           [
+            null,
+            39000,
+            67000,
+            93000,
+            118000
+          ],
+          [
+            91770000,
+            92085000,
+            91328000,
+            94458000,
+            77811000
+          ],
+          [
             143945000,
             133776000,
             122830000,
@@ -1419,6 +1465,13 @@
             35000,
             44000,
             2030000
+          ],
+          [
+            4544000,
+            3789000,
+            4745000,
+            4851000,
+            9725000
           ],
           [
             4565000,
