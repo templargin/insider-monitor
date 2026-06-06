@@ -1693,6 +1693,7 @@
           "Total Assets",
           "",
           "Total Current Liabilities",
+          "Total Liabilities",
           "",
           "Retained Earnings",
           "Total Equity"
@@ -1753,6 +1754,12 @@
             4652568
           ],
           [
+            3229051,
+            3108371,
+            606194,
+            4652568
+          ],
+          [
             null,
             null,
             null,
@@ -1785,6 +1792,7 @@
           "Accounts Payable",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Total Liabilities",
           "",
           "Retained Earnings",
           "Total Equity"
@@ -1873,6 +1881,13 @@
             null,
             null,
             100000
+          ],
+          [
+            3229051,
+            4652568,
+            3671723,
+            3041057,
+            6882715
           ],
           [
             null,
@@ -2068,10 +2083,10 @@
             1.4598744177409122
           ],
           [
-            null,
-            null,
-            null,
-            null
+            1.4218686908050273,
+            0.8489418852836228,
+            0.08692159714781922,
+            0.901012469520467
           ],
           [
             null,
@@ -2139,11 +2154,11 @@
             0.7285731653822703
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null
+            1.4218686908050273,
+            0.901012469520467,
+            0.7398152377571188,
+            0.567486629978221,
+            1.4838535048462769
           ],
           [
             null,

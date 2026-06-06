@@ -716,6 +716,7 @@
           "Accounts Payable",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Total Liabilities",
           "",
           "Retained Earnings",
           "Total Equity"
@@ -800,6 +801,12 @@
             null
           ],
           [
+            19859739,
+            23899114,
+            27879386,
+            22027808
+          ],
+          [
             null,
             null,
             null,
@@ -833,6 +840,7 @@
           "Accounts Payable",
           "Total Current Liabilities",
           "Long-term Debt",
+          "Total Liabilities",
           "",
           "Retained Earnings",
           "Total Equity"
@@ -928,6 +936,13 @@
             null,
             null,
             null
+          ],
+          [
+            19859739,
+            23899114,
+            37165316,
+            37736022,
+            47473195
           ],
           [
             null,
@@ -1200,10 +1215,10 @@
             0.6740810973963645
           ],
           [
-            null,
-            null,
-            null,
-            null
+            0.9802286371390215,
+            0.9816844571736807,
+            1.2831107154714805,
+            0.996641305812377
           ],
           [
             -51.526016794336854,
@@ -1271,11 +1286,11 @@
             0.7675988940917226
           ],
           [
-            null,
-            null,
-            null,
-            null,
-            null
+            0.9802286371390215,
+            0.9816844571736807,
+            4.348134687723167,
+            1.8464750993906136,
+            1.7439088156133216
           ],
           [
             -2.011487897282559,

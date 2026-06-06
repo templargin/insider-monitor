@@ -282,7 +282,7 @@ LI_BS = [
     ("Accounts Payable", ["AccountsPayableCurrent"]),
     ("Total Current Liabilities", ["LiabilitiesCurrent"]),
     ("Long-term Debt", ["LongTermDebtNoncurrent", "LongTermDebt"]),
-    ("Total Liabilities", ["Liabilities"]),
+    ("Total Liabilities", ["Liabilities", ("sum", ["LiabilitiesCurrent", "LiabilitiesNoncurrent"])]),
     # Mezzanine equity: redeemable preferred stock and redeemable NCI sit
     # between liabilities and stockholders' equity in GAAP. Including it as
     # its own row makes Assets = Liabilities + Mezzanine + Total Equity
@@ -302,13 +302,25 @@ LI_BS = [
     ("Total Equity", [
         "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
         "StockholdersEquity",
+        # Partnerships / MLPs (TXO) report partners' capital, not stockholders'
+        # equity; LLCs report members' equity. Without these the equity row is
+        # blank and the balance sheet can't reconcile.
+        "PartnersCapitalIncludingPortionAttributableToNoncontrollingInterest",
+        "PartnersCapital",
+        "MembersEquity",
     ]),
 ]
 
 LI_CF_NEGATE = {"CapEx", "Stock Buyback", "Debt Repayment", "Dividends Paid"}
 
 LI_CF = [
-    ("Net Income", ["NetIncomeLoss", "ProfitLoss"]),
+    # Same tag priority as the income statement's Net Income (ProfitLoss first,
+    # i.e. total incl. NCI) so the CF and IS tabs show the SAME net income. The
+    # reversed order here previously made the two tabs disagree for NCI filers —
+    # and outright sign-flip for filers like ACCS where ProfitLoss and
+    # NetIncomeLoss carry opposite signs. The Δ Working Cap & Other plug
+    # re-absorbs any difference, so the operating section still foots.
+    ("Net Income", ["ProfitLoss", "NetIncomeLoss"]),
     ("D&A", ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization", "Depreciation"]),
     ("Stock-Based Comp", ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense"]),
     ("Operating Cash Flow", ["NetCashProvidedByUsedInOperatingActivities"]),
@@ -345,15 +357,29 @@ def _build_grid(usg, line_items, freq, n=4, unit_overrides=None):
         unit = unit_overrides.get(label, "USD")
         item_series[label] = _series(usg, cands, freq, unit=unit)
 
-    # Period ends: primary item, else union
-    primary = item_series[line_items[0][0]]
-    if primary:
-        period_ends = sorted(primary.keys(), reverse=True)[:n]
+    # Period ends: anchor on the union of the primary row (Revenue for the IS,
+    # Net Income for the CF) AND Net Income. Anchoring on the primary alone went
+    # stale when a filer stopped tagging revenue while still reporting earnings
+    # (STEX: revenue last tagged 2024, net income current to 2026 — the whole
+    # quarterly IS was frozen at 2024 and its LTM window no longer matched the
+    # cash-flow LTM). Net income is near-universally tagged and current, so the
+    # union keeps the grid on the most recent periods. Falls back to the union
+    # of all rows if neither anchor has data.
+    anchor_ends = set(item_series.get(line_items[0][0], {}).keys())
+    anchor_ends |= set(item_series.get("Net Income", {}).keys())
+    if anchor_ends:
+        period_ends = sorted(anchor_ends, reverse=True)[:n]
     else:
         all_ends = set()
         for d in item_series.values():
             all_ends.update(d.keys())
         period_ends = sorted(all_ends, reverse=True)[:n]
+    # Note: a genuinely pre-revenue filer whose only revenue facts predate this
+    # window (CVM's last revenue was 2014; KLRS's was a pre-reverse-merger 2019)
+    # will have no Revenue in the displayed periods and therefore no Gross
+    # Margin — correct, since margin is undefined with no current revenue.
+    # Anchoring on that stale revenue instead would show decade-old data and
+    # desync the IS from the (current) cash-flow statement.
 
     labels = [label for label, _ in line_items]
     data = [[item_series[label].get(e) for e in period_ends] for label, _ in line_items]
@@ -715,7 +741,12 @@ def _reconcile_shares(stmt):
     reported share count differs from that by a near-exact power of ten ≥ 1000×,
     rescale it. Conservative by design — it does NOT touch reverse-split or
     minority-interest artifacts (GPUS, MKTW), whose discrepancies are not clean
-    powers of ten, because mangling those would introduce wrong numbers."""
+    powers of ten, because mangling those would introduce wrong numbers.
+
+    Also corrects a wrong EPS *sign*: some filers tag EPS with the opposite sign
+    of net income (e.g. AWRE: NI = +$5.9M but EPS = −$0.28). When EPS×shares
+    matches net income in magnitude but not sign, flip the EPS sign. Gated tight
+    (magnitude within 10%) so it never touches a legitimate loss-per-share."""
     labels = stmt["labels"]
     if "Net Income" not in labels:
         return stmt
@@ -738,6 +769,9 @@ def _reconcile_shares(stmt):
                 if 0.95 <= ratio / factor <= 1.05:
                     sh[i] = s / factor
                     break
+            # EPS sign sanity: |EPS×shares| ≈ |NI| but opposite sign → flip EPS.
+            if e * n < 0 and abs(n) > 1_000_000 and abs(abs(e * sh[i]) - abs(n)) <= 0.10 * abs(n):
+                eps[i] = -e
     return stmt
 
 
@@ -837,6 +871,51 @@ def _build_bs_at_ends(usg, target_ends):
         "data": data,
         "_ends": chosen,
     }
+
+
+def _reconcile_balance_sheet(stmt):
+    """Make Assets = Liabilities + Mezzanine + Total Equity hold per column,
+    using the most reliable anchor (Total Assets, which equals the always-tagged
+    `LiabilitiesAndStockholdersEquity` bottom line). Two distinct fixes, both
+    keyed off whether a real Total Liabilities value is present for the period:
+
+      • Missing Total Liabilities (filers like AMST/ANIK/FOSL that tag only
+        `LiabilitiesCurrent` + `LiabilitiesAndStockholdersEquity`, never
+        `Liabilities`): derive Liabilities = Assets − Equity − Mezzanine.
+      • Liabilities present but the sheet still doesn't balance: the equity tag
+        we picked is parent-only and omits noncontrolling interest (Up-C filers
+        like LOGC where the `…IncludingNoncontrollingInterest` variant isn't
+        tagged at that period-end). Override Total Equity = Assets − Liab − Mezz
+        so NCI is captured and the sheet foots.
+
+    Normal filers that already balance are untouched (the override only fires
+    outside tolerance)."""
+    labels = stmt["labels"]
+    if not all(n in labels for n in ("Total Assets", "Total Liabilities", "Total Equity")):
+        return stmt
+    ta = stmt["data"][labels.index("Total Assets")]
+    tl_i = labels.index("Total Liabilities")
+    tl = stmt["data"][tl_i]
+    te_i = labels.index("Total Equity")
+    te = stmt["data"][te_i]
+    mez = stmt["data"][labels.index("Mezzanine Equity")] if "Mezzanine Equity" in labels else None
+    n = len(ta)
+    for i in range(n):
+        a = ta[i]
+        if a is None:
+            continue
+        l = tl[i] if i < len(tl) else None
+        e = te[i] if i < len(te) else None
+        m = mez[i] if (mez and i < len(mez) and mez[i] is not None) else 0
+        tol = max(abs(a) * 0.01, 500_000)
+        if l is not None and e is not None:
+            if abs(a - (l + e + m)) > tol:
+                te[i] = a - l - m            # capture NCI / restatement gap in equity
+        elif l is None and e is not None:
+            tl[i] = a - e - m                # derive missing liabilities
+        elif e is None and l is not None:
+            te[i] = a - l - m                # derive missing equity
+    return stmt
 
 
 def _strip(stmt):
@@ -1045,8 +1124,8 @@ def fetch_xbrl_financials(cik):
     # foots directly: LTM ΔWC&Other = LTM OCF − (LTM NI + LTM D&A + LTM SBC).
     cf_a = _derive_cf_other_operating(cf_a)
 
-    bs_q = _build_bs_at_ends(usg, is_q["_ends"])
-    bs_a = _build_bs_at_ends(usg, is_a["_ends"])
+    bs_q = _reconcile_balance_sheet(_build_bs_at_ends(usg, is_q["_ends"]))
+    bs_a = _reconcile_balance_sheet(_build_bs_at_ends(usg, is_a["_ends"]))
     # Relabel the BS's leftmost period as "LTM" for visual consistency with
     # IS/CF — the underlying value is the latest quarter end (point-in-time).
     if bs_a["periods"] and is_a["periods"] and is_a["periods"][0] == "LTM":
