@@ -1,0 +1,627 @@
+{
+  "ticker": "DXST",
+  "cik": "1958133",
+  "name": "Decent Holding Inc.",
+  "description": "Decent Holding Inc., through its subsidiaries, provides industrial wastewater treatment services in the People's Republic of China. The company offers ecological river restoration and river ecosystem management services. It also provides microbial products, including COD decreasing, algae removal, and ammonia nitrogen decreasing bacteria, as well as river conditioner that are used to enhance water quality, remove pollutants, and treat black odor water. The company was founded in 2011 and is based in Yantai, the People's Republic of China. Decent Holding Inc. is a subsidiary of Decent Limited.",
+  "form4_filings": [
+    {
+      "date_filed": "2026-06-05",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-04",
+      "code": "S",
+      "shares": -128698.0,
+      "price": 5.358,
+      "total_value": -689563.884,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000053"
+    },
+    {
+      "date_filed": "2026-06-05",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-03",
+      "code": "P",
+      "shares": 65073.0,
+      "price": 4.714,
+      "total_value": 306754.12200000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000053"
+    }
+  ],
+  "valuation": {
+    "share_price": 4.139999866485596,
+    "shares_basic": 15000000,
+    "shares_basic_as_of": "2024-10-31",
+    "options": null,
+    "warrants": null,
+    "cash": 572807,
+    "debt": null,
+    "ttm_revenue": 12949345,
+    "mc_basic": 62099997.997283936,
+    "ev_basic": 61527190.997283936
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "10/31/25",
+          "10/31/24",
+          "10/31/23",
+          "10/31/22"
+        ],
+        "data": [
+          [
+            12949345,
+            11542292,
+            9447334,
+            3593702
+          ],
+          [
+            12.190412441480428,
+            22.17512369097991,
+            162.8858486318565,
+            null
+          ],
+          [
+            9562744,
+            8329880,
+            6231712,
+            1939813
+          ],
+          [
+            3386601,
+            3212412,
+            3215622,
+            1653889
+          ],
+          [
+            5.422374216009652,
+            -0.0998251660176476,
+            94.42792109990452,
+            null
+          ],
+          [
+            26.152681853792604,
+            27.831664629520724,
+            34.03734852604978,
+            46.02187382259297
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3223059,
+            678647,
+            921258,
+            1094484
+          ],
+          [
+            302118,
+            28981,
+            122441,
+            60883
+          ],
+          [
+            3525177,
+            741469,
+            1043699,
+            1155367
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -138576,
+            2470943,
+            2171923,
+            498522
+          ],
+          [
+            -105.60822325727464,
+            13.767523065965046,
+            335.67244775556543,
+            null
+          ],
+          [
+            -1.070139068810044,
+            21.407732537003916,
+            22.989797968400396,
+            13.872101804768453
+          ],
+          [
+            -68079,
+            2547537,
+            2217378,
+            518049
+          ],
+          [
+            -0.525733154842967,
+            22.07132690803525,
+            23.470938997181637,
+            14.415469062265041
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            0,
+            6017,
+            86671
+          ],
+          [
+            -119302,
+            2484124,
+            2176540,
+            431449
+          ],
+          [
+            202900,
+            380767,
+            316927,
+            59014
+          ],
+          [
+            -322202,
+            2103357,
+            1859613,
+            372435
+          ],
+          [
+            -2.4881721816817763,
+            18.223044435195366,
+            19.68399762303312,
+            10.363547116594532
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.02,
+            0.14,
+            0.12,
+            0.02
+          ],
+          [
+            -0.02,
+            0.14,
+            0.12,
+            0.02
+          ],
+          [
+            16250000,
+            15000000,
+            15000000,
+            15000000
+          ],
+          [
+            16250000,
+            15000000,
+            15000000,
+            15000000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "10/31/25",
+          "10/31/24",
+          "10/31/23",
+          "10/31/22"
+        ],
+        "data": [
+          [
+            572807,
+            407031,
+            1325458,
+            1965358
+          ],
+          [
+            12382623,
+            8702303,
+            2178923,
+            null
+          ],
+          [
+            128,
+            134,
+            187,
+            null
+          ],
+          [
+            3137792,
+            663242,
+            698346,
+            null
+          ],
+          [
+            16093350,
+            9772710,
+            4202914,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            201539,
+            242185,
+            266987,
+            null
+          ],
+          [
+            154556,
+            67934,
+            118181,
+            null
+          ],
+          [
+            5738,
+            6088,
+            6264,
+            null
+          ],
+          [
+            723792,
+            1148112,
+            747189,
+            null
+          ],
+          [
+            17178975,
+            11237029,
+            5341535,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3175565,
+            1851723,
+            87591,
+            null
+          ],
+          [
+            52217,
+            6382,
+            52094,
+            null
+          ],
+          [
+            6169191,
+            4348065,
+            2346507,
+            null
+          ],
+          [
+            9396973,
+            6206170,
+            2486192,
+            null
+          ],
+          [
+            54331,
+            13550,
+            19390,
+            null
+          ],
+          [
+            9451304,
+            6219720,
+            2526881,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3118706,
+            3551019,
+            1662139,
+            null
+          ],
+          [
+            7727671,
+            5017309,
+            2814654,
+            1022106
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "10/31/25",
+          "10/31/24",
+          "10/31/23",
+          "10/31/22"
+        ],
+        "data": [
+          [
+            -322202,
+            2103357,
+            1859613,
+            372435
+          ],
+          [
+            70497,
+            76594,
+            45455,
+            19527
+          ],
+          [
+            -3203852,
+            -2542273,
+            -320822,
+            998960
+          ],
+          [
+            -3455557,
+            -362322,
+            1584246,
+            1390922
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -589,
+            -78133,
+            -153794,
+            -241211
+          ],
+          [
+            null,
+            null,
+            null,
+            840825
+          ],
+          [
+            -321903,
+            -117481,
+            -143035,
+            599614
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5000000,
+            0,
+            0,
+            null
+          ],
+          [
+            -1059149,
+            null,
+            -2101169,
+            -544355
+          ],
+          [
+            3940851,
+            -466614,
+            -2101169,
+            -544355
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2385,
+            27990,
+            20058,
+            -228683
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3456146,
+            -440455,
+            1430452,
+            1149711
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "10/31/25",
+          "10/31/24",
+          "10/31/23",
+          "10/31/22"
+        ],
+        "data": [
+          [
+            1.7126100074992234,
+            1.5746764912981759,
+            1.6905025838712375,
+            null
+          ],
+          [
+            1.7125963860915638,
+            1.5746548998818917,
+            1.6904273684413753,
+            null
+          ],
+          [
+            1.2230468921360653,
+            1.2396525707306447,
+            0.8977590140741988,
+            null
+          ],
+          [
+            -0.525733154842967,
+            22.07132690803525,
+            23.470938997181637,
+            14.415469062265041
+          ],
+          [
+            6696377,
+            3566540,
+            1716722,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -4.16945804240372,
+            41.92201437065168,
+            66.0689733089751,
+            36.438001538000954
+          ],
+          [
+            -1.875560095989429,
+            18.718088206411142,
+            34.81420602879135,
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-06-08T10:38:41+00:00"
+}
