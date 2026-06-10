@@ -1,0 +1,718 @@
+{
+  "ticker": "GMEX",
+  "cik": "1928581",
+  "name": "GMEX Robotics Corp",
+  "description": "GMEX Robotics Corporation, a technology company, focuses on designing, manufacturing, and commercializing AI-driven robotic solutions for the consumer market. The company develops intuitive and interactive robots designed to assist with daily tasks; and provides smart home integration, as well as offers various levels of convenience and connectivity to enhance productivity. It also offers its solution for transportation and logistics; collaborative and industrial automation; and resources exploration and excavation. GMEX Robotics Corporation was formerly known as Fitell Corporation and changed its name to GMEX Robotics Corporation in March 2026. The company was founded in 2005 and is headquartered in Taren Point, Australia.",
+  "form4_filings": [
+    {
+      "date_filed": "2026-06-09",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-08",
+      "code": "S",
+      "shares": -79257.0,
+      "price": 0.98,
+      "total_value": -77671.86,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000064"
+    },
+    {
+      "date_filed": "2026-06-09",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-05",
+      "code": "P",
+      "shares": 65025.0,
+      "price": 0.917,
+      "total_value": 59627.925,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000064"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Zhao Jieting (Kitty)",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 100000.0,
+      "price": 1.8,
+      "total_value": 180000.0,
+      "security_title": "Class B Ordinary Share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001094891-26-000225"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Zhao Jieting (Kitty)",
+      "relationship": "Director",
+      "transaction_date": "2026-05-01",
+      "code": "C",
+      "shares": -7188.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001094891-26-000225"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Zhao Jieting (Kitty)",
+      "relationship": "Director",
+      "transaction_date": "2026-05-01",
+      "code": "C",
+      "shares": 7188.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class B Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001094891-26-000225"
+    },
+    {
+      "date_filed": "2026-04-30",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-04-29",
+      "code": "S",
+      "shares": -401228.0,
+      "price": 0.276,
+      "total_value": -110738.92800000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000025"
+    },
+    {
+      "date_filed": "2026-04-30",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-04-28",
+      "code": "P",
+      "shares": 135198.0,
+      "price": 0.353,
+      "total_value": 47724.894,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000025"
+    },
+    {
+      "date_filed": "2026-04-28",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-04-27",
+      "code": "P",
+      "shares": 49136.0,
+      "price": 0.412,
+      "total_value": 20244.032,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000024"
+    },
+    {
+      "date_filed": "2026-04-28",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-04-24",
+      "code": "P",
+      "shares": 133500.0,
+      "price": 0.568,
+      "total_value": 75828.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000024"
+    }
+  ],
+  "valuation": {
+    "share_price": 0.9818999767303467,
+    "shares_basic": 21020597,
+    "shares_basic_as_of": "2025-06-30",
+    "options": null,
+    "warrants": null,
+    "cash": 2890822,
+    "debt": null,
+    "ttm_revenue": 5200138,
+    "mc_basic": 20640123.705157995,
+    "ev_basic": 17749301.705157995
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            5200138,
+            4466775,
+            4799222,
+            8155734
+          ],
+          [
+            16.418176424825518,
+            -6.92710193443854,
+            -41.15524120821008,
+            null
+          ],
+          [
+            3157996,
+            2881060,
+            2625821,
+            4520078
+          ],
+          [
+            2042142,
+            1585715,
+            2173401,
+            3635656
+          ],
+          [
+            28.783671719066792,
+            -27.039924983930714,
+            -40.21983928072403,
+            null
+          ],
+          [
+            39.270919348678824,
+            35.50022107672762,
+            45.28652769136331,
+            44.57791291378557
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1554862,
+            2804252,
+            1343136,
+            1107469
+          ],
+          [
+            3683264,
+            9584222,
+            2519713,
+            2303400
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1641122,
+            -7998507,
+            -346312,
+            1332256
+          ],
+          [
+            79.48214585547028,
+            -2209.624558201853,
+            -125.99440347801023,
+            null
+          ],
+          [
+            -31.559200928898424,
+            -179.06670920294843,
+            -7.2160029271411075,
+            16.335206616596373
+          ],
+          [
+            -1631655,
+            -7988122,
+            -334044,
+            1332986
+          ],
+          [
+            -31.37714806799358,
+            -178.8342148418042,
+            -6.960378161293643,
+            16.34415737443129
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            114006,
+            1242140,
+            92800,
+            27419
+          ],
+          [
+            1405901,
+            null,
+            -1180043,
+            -1072383
+          ],
+          [
+            -349227,
+            -9521488,
+            -1619155,
+            232454
+          ],
+          [
+            333497,
+            -209343,
+            -25761,
+            219852
+          ],
+          [
+            -682724,
+            -9312145,
+            -1593394,
+            12602
+          ],
+          [
+            -13.128959269927067,
+            -208.47580189286455,
+            -33.201089676618416,
+            0.15451705511729538
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.53,
+            -10.63,
+            -0.21,
+            0
+          ],
+          [
+            -0.53,
+            -10.63,
+            -0.21,
+            0
+          ],
+          [
+            1277346,
+            876266,
+            7714959,
+            7000000
+          ],
+          [
+            1277346,
+            876266,
+            7714959,
+            7000000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            2890822,
+            939014,
+            236821,
+            716052
+          ],
+          [
+            null,
+            124963,
+            494275,
+            1023763
+          ],
+          [
+            242079,
+            60042,
+            174341,
+            41097
+          ],
+          [
+            3042629,
+            2439793,
+            525786,
+            919422
+          ],
+          [
+            3413979,
+            5488869,
+            5331278,
+            null
+          ],
+          [
+            9589509,
+            9052681,
+            6762501,
+            2930435
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            20122,
+            27133,
+            38743,
+            51011
+          ],
+          [
+            287322,
+            557798,
+            605794,
+            840123
+          ],
+          [
+            1161052,
+            1161052,
+            1161052,
+            1161052
+          ],
+          [
+            null,
+            679626,
+            null,
+            null
+          ],
+          [
+            11395509,
+            11478290,
+            9037948,
+            5431720
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            286378,
+            278432,
+            212062,
+            206690
+          ],
+          [
+            1874814,
+            1867545,
+            1917518,
+            2066128
+          ],
+          [
+            2161192,
+            2145977,
+            2129580,
+            2272818
+          ],
+          [
+            12182,
+            301921,
+            473015,
+            716239
+          ],
+          [
+            2205551,
+            2469418,
+            2621025,
+            2994340
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -10676516,
+            -9993792,
+            -681647,
+            911747
+          ],
+          [
+            9189958,
+            9008872,
+            6416923,
+            2437380
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            -682724,
+            -9312145,
+            -1593394,
+            12602
+          ],
+          [
+            9467,
+            10385,
+            12268,
+            730
+          ],
+          [
+            0,
+            0,
+            null,
+            0
+          ],
+          [
+            -343133,
+            -2951779,
+            1208022,
+            -145113
+          ],
+          [
+            -1016390,
+            -12253539,
+            -373104,
+            -131781
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            -51741
+          ],
+          [
+            null,
+            -2500000,
+            null,
+            null
+          ],
+          [
+            175638,
+            -2500000,
+            null,
+            -465295
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            13614983,
+            null,
+            null
+          ],
+          [
+            2789042,
+            1854422,
+            null,
+            null
+          ],
+          [
+            2789042,
+            15469405,
+            -79064,
+            93915
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            -183522
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            4.437138856705004,
+            4.218442695331777,
+            3.1755092553461246,
+            1.2893399295500123
+          ],
+          [
+            3.0292912429807255,
+            3.081527900811612,
+            2.9286126841912488,
+            0.8848103983688971
+          ],
+          [
+            0.23999576494256014,
+            0.2741095666582897,
+            0.40845511158541253,
+            1.2285076598642806
+          ],
+          [
+            -31.37714806799358,
+            -178.8342148418042,
+            -6.960378161293643,
+            16.34415737443129
+          ],
+          [
+            7428317,
+            6906704,
+            4632921,
+            657617
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -7.429021982472608,
+            -103.36638149592979,
+            -24.831122330749487,
+            0.5170305820183968
+          ],
+          [
+            -5.991167222104778,
+            -81.12833009098046,
+            -17.630041686453605,
+            0.23200754088944203
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-06-10T14:03:34+00:00"
+}
