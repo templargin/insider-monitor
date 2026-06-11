@@ -5,6 +5,20 @@
   "description": "SmartFinancial, Inc. operates as the bank holding company for SmartBank that provides various financial services to individuals and corporate customers in the United States. The company offers various deposits, including noninterest-bearing and interest-bearing checking, savings, money market, and individual retirement accounts, as well as certificates of deposit. It also provides commercial and residential real estate, consumer real estate, construction and land development, commercial and industrial, and consumer and other loans, as well as leases to small and mid-size companies for equipment financing leases. In addition, the company offers wealth management, insurance, mortgage origination, and internet and mobile banking services. It operates in Tennessee, Alabama, and Florida. SmartFinancial, Inc. is based in Knoxville, Tennessee.",
   "form4_filings": [
     {
+      "date_filed": "2026-06-10",
+      "reporter_name": "Barrett Victor Lynn",
+      "relationship": "Director",
+      "transaction_date": "2026-06-10",
+      "code": "P",
+      "shares": 3000.0,
+      "price": 43.78,
+      "total_value": 131340.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001652321-26-000004"
+    },
+    {
       "date_filed": "2026-06-04",
       "reporter_name": "Ackermann Cathy G",
       "relationship": "Director",
@@ -1014,7 +1028,7 @@
     }
   ],
   "valuation": {
-    "share_price": 42.0,
+    "share_price": 44.310001373291016,
     "shares_basic": 17098473,
     "shares_basic_as_of": "2026-05-08",
     "options": 0,
@@ -1022,8 +1036,8 @@
     "cash": 346071000,
     "debt": 3200000,
     "ttm_revenue": 34073000,
-    "mc_basic": 718135866.0,
-    "ev_basic": 375264866.0
+    "mc_basic": 757633362.1111794,
+    "ev_basic": 414762362.11117935
   },
   "financials": {
     "income_statement": {
@@ -2036,5 +2050,5 @@
       }
     }
   },
-  "last_updated": "2026-06-05T13:42:25+00:00"
+  "last_updated": "2026-06-11T10:36:15+00:00"
 }
