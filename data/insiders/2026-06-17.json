@@ -4,14 +4,14 @@
   "filing_dates": [
     "2026-06-16"
   ],
-  "generated_at": "2026-06-17T10:36:51+00:00",
+  "generated_at": "2026-06-17T14:14:06+00:00",
   "tickers": [
     {
       "ticker": "VRM",
       "name": "Vroom, Inc.",
       "total_value": 2026726.1999999993,
-      "ev_basic": 604526101.3559656,
-      "mc_basic": 41036101.355965614,
+      "ev_basic": 608171439.2626896,
+      "mc_basic": 44681439.26268959,
       "insiders": [
         {
           "reporter_name": "Mudrick Capital Management, L.P.",
@@ -26,8 +26,8 @@
       "ticker": "FLNT",
       "name": "Fluent, Inc.",
       "total_value": 1520126.9610000001,
-      "ev_basic": 97932266.98606873,
-      "mc_basic": 80204266.98606873,
+      "ev_basic": 105684351.82172394,
+      "mc_basic": 87956351.82172394,
       "insiders": [
         {
           "reporter_name": "GLOBAL VALUE INVESTMENT CORP.",
@@ -49,8 +49,8 @@
       "ticker": "RUBI",
       "name": "Rubico Inc.",
       "total_value": 787579.912,
-      "ev_basic": 78480681.4185074,
-      "mc_basic": 162681.41850739717,
+      "ev_basic": 78468075.53496182,
+      "mc_basic": 150075.53496181965,
       "insiders": [
         {
           "reporter_name": "HRT FINANCIAL LP",
@@ -62,11 +62,27 @@
       ]
     },
     {
+      "ticker": "ABTC",
+      "name": "American Bitcoin Corp.",
+      "total_value": 783000.0,
+      "ev_basic": 66205705.775310874,
+      "mc_basic": 71110705.77531087,
+      "insiders": [
+        {
+          "reporter_name": "Busch Richard",
+          "relationship": "Director",
+          "total_value": 783000.0,
+          "shares": 900000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
       "ticker": "REI",
       "name": "RING ENERGY, INC.",
       "total_value": 676680.2000000001,
-      "ev_basic": 233497646.59854078,
-      "mc_basic": 234538282.59854078,
+      "ev_basic": 242921050.71167374,
+      "mc_basic": 243961686.71167374,
       "insiders": [
         {
           "reporter_name": "Johl Sundip Singh",
@@ -85,11 +101,27 @@
       ]
     },
     {
+      "ticker": "SKIL",
+      "name": "Skillsoft Corp.",
+      "total_value": 605460.0,
+      "ev_basic": 510710588.09104204,
+      "mc_basic": 58109588.09104204,
+      "insiders": [
+        {
+          "reporter_name": "FRANKOLA JIM",
+          "relationship": "Director",
+          "total_value": 605460.0,
+          "shares": 100000.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
       "ticker": "VRA",
       "name": "Vera Bradley, Inc.",
       "total_value": 409641.7,
-      "ev_basic": 99587322.23912525,
-      "mc_basic": 102093322.23912525,
+      "ev_basic": 111247008.0,
+      "mc_basic": 113753008.0,
       "insiders": [
         {
           "reporter_name": "Bickley Ian",
@@ -108,11 +140,43 @@
       ]
     },
     {
+      "ticker": "LEEEF",
+      "name": "Leef Brands Inc.",
+      "total_value": 213530.62,
+      "ev_basic": 44031120.48721832,
+      "mc_basic": 48922535.48721832,
+      "insiders": [
+        {
+          "reporter_name": "Wilson Kevin John",
+          "relationship": "Director, Officer (Chief Financial Officer)",
+          "total_value": 213530.62,
+          "shares": 928394.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "NWPP",
+      "name": "NEW PEOPLES BANKSHARES INC",
+      "total_value": 188992.91999999998,
+      "ev_basic": 35185940.68471384,
+      "mc_basic": 103078940.68471384,
+      "insiders": [
+        {
+          "reporter_name": "KEENE HAROLD L",
+          "relationship": "Director, 10% Owner",
+          "total_value": 188992.91999999998,
+          "shares": 43028.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
       "ticker": "NEWT",
       "name": "NewtekOne, Inc.",
       "total_value": 142000.0,
-      "ev_basic": 549171182.521761,
-      "mc_basic": 401716182.52176094,
+      "ev_basic": 555231557.0326414,
+      "mc_basic": 407776557.0326414,
       "insiders": [
         {
           "reporter_name": "SLOANE BARRY",
@@ -124,11 +188,27 @@
       ]
     },
     {
+      "ticker": "ADTX",
+      "name": "Aditxt, Inc.",
+      "total_value": 136088.544,
+      "ev_basic": -263217.1451650462,
+      "mc_basic": 5629.854834953789,
+      "insiders": [
+        {
+          "reporter_name": "HRT FINANCIAL LP",
+          "relationship": "10% Owner",
+          "total_value": 136088.544,
+          "shares": 8505534.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
       "ticker": "EU",
       "name": "enCore Energy Corp.",
       "total_value": 100800.0,
-      "ev_basic": 393027108.3444238,
-      "mc_basic": 324369108.3444238,
+      "ev_basic": 397882951.9679265,
+      "mc_basic": 329224951.9679265,
       "insiders": [
         {
           "reporter_name": "HEILI WAYNE W.",

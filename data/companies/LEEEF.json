@@ -1,0 +1,963 @@
+{
+  "ticker": "LEEEF",
+  "cik": "1711141",
+  "name": "Leef Brands Inc.",
+  "description": "Leef Brands Inc. operates as a cannabis branded products manufacturer in the United States. The company operates through two segments: Wholesale Concentrates and Retail. It is involved in the propagation, nursery, flowering canopy, drying, processing, manufacturing, and distribution of cannabis concentrates; and owns and operates retail cannabis store. The company was formerly known as Icanic Brands Company Inc. and changed its name to Leef Brands Inc. in December 2022. Leef Brands Inc. is headquartered in Vancouver, Canada.",
+  "form4_filings": [
+    {
+      "date_filed": "2026-06-16",
+      "reporter_name": "Wilson Kevin John",
+      "relationship": "Director, Officer (Chief Financial Officer)",
+      "transaction_date": "2026-06-15",
+      "code": "P",
+      "shares": 464197.0,
+      "price": 0.23,
+      "total_value": 106765.31,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-028963"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Wilson Kevin John",
+      "relationship": "Director, Officer (Chief Financial Officer)",
+      "transaction_date": "2026-05-18",
+      "code": "P",
+      "shares": 54348.0,
+      "price": 0.25,
+      "total_value": 13587.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024804"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Wilson Kevin John",
+      "relationship": "Director, Officer (Chief Financial Officer)",
+      "transaction_date": "2026-05-18",
+      "code": "P",
+      "shares": 54348.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Warrant",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024804"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Anderson Micah Payne",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-05-18",
+      "code": "P",
+      "shares": 135870.0,
+      "price": 0.25,
+      "total_value": 33967.5,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024801"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Anderson Micah Payne",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-05-18",
+      "code": "P",
+      "shares": 135870.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Warrant",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024801"
+    }
+  ],
+  "valuation": {
+    "share_price": 0.1745000034570694,
+    "shares_basic": 280358364,
+    "shares_basic_as_of": "2026-05-06",
+    "options": null,
+    "warrants": null,
+    "cash": 5755972,
+    "debt": 864557,
+    "ttm_revenue": 34787596,
+    "mc_basic": 48922535.48721832,
+    "ev_basic": 44031120.48721832
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25"
+        ],
+        "data": [
+          [
+            9377002,
+            9398261
+          ],
+          [
+            4752352,
+            7324971
+          ],
+          [
+            4624650,
+            2073290
+          ],
+          [
+            49.319068077408964,
+            22.06035776193064
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            601591,
+            797417
+          ],
+          [
+            2081,
+            8628
+          ],
+          [
+            3340983,
+            3980835
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            1283667,
+            -1907545
+          ],
+          [
+            13.689524647643244,
+            -20.296786820455402
+          ],
+          [
+            1569157,
+            -1613042
+          ],
+          [
+            16.73410115514532,
+            -17.163196467942313
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            316834,
+            592501
+          ],
+          [
+            null,
+            3486935
+          ],
+          [
+            548327,
+            986889
+          ],
+          [
+            974580,
+            721113
+          ],
+          [
+            -426253,
+            265776
+          ],
+          [
+            -4.5457279416171605,
+            2.827927421892199
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -0.002,
+            0.001
+          ],
+          [
+            -0.002,
+            0.002
+          ],
+          [
+            259677719,
+            266662315
+          ],
+          [
+            259677719,
+            174681755
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            null,
+            34787596,
+            28495447
+          ],
+          [
+            null,
+            22.081243364948794,
+            null
+          ],
+          [
+            null,
+            24304957,
+            20813619
+          ],
+          [
+            null,
+            10482639,
+            7681828
+          ],
+          [
+            null,
+            36.46021493842351,
+            null
+          ],
+          [
+            null,
+            30.13326646658769,
+            26.95808912911596
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            3122157,
+            2395143
+          ],
+          [
+            null,
+            19696,
+            18983
+          ],
+          [
+            null,
+            18073551,
+            15667673
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -7590912,
+            -7985845
+          ],
+          [
+            null,
+            4.945412789754872,
+            null
+          ],
+          [
+            null,
+            -21.820743232731576,
+            -28.02498588634177
+          ],
+          [
+            null,
+            -6330614,
+            -6944861
+          ],
+          [
+            null,
+            -18.197905943256327,
+            -24.371826839564932
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            89089,
+            80058
+          ],
+          [
+            null,
+            -7431059,
+            -13248368
+          ],
+          [
+            null,
+            -15111060,
+            -21314271
+          ],
+          [
+            null,
+            2518615,
+            3307243
+          ],
+          [
+            null,
+            -17629675,
+            -24621514
+          ],
+          [
+            null,
+            -50.678049152922206,
+            -86.40508078360729
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -0.1,
+            -0.17
+          ],
+          [
+            null,
+            -0.1,
+            -0.17
+          ],
+          [
+            null,
+            184913636,
+            142595527
+          ],
+          [
+            null,
+            184913636,
+            142595527
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25"
+        ],
+        "data": [
+          [
+            5755972,
+            null
+          ],
+          [
+            2634041,
+            null
+          ],
+          [
+            3585165,
+            null
+          ],
+          [
+            1764357,
+            null
+          ],
+          [
+            13739535,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            24980042,
+            null
+          ],
+          [
+            1632991,
+            null
+          ],
+          [
+            1084859,
+            null
+          ],
+          [
+            41850032,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            3357767,
+            null
+          ],
+          [
+            167154,
+            null
+          ],
+          [
+            4326323,
+            null
+          ],
+          [
+            7851244,
+            null
+          ],
+          [
+            1610589,
+            null
+          ],
+          [
+            38137664,
+            null
+          ],
+          [
+            47599497,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -139803363,
+            null
+          ],
+          [
+            -5749465,
+            -10641431
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            5755972,
+            2190722,
+            2731979
+          ],
+          [
+            2634041,
+            1592653,
+            2394542
+          ],
+          [
+            3585165,
+            3350889,
+            4222917
+          ],
+          [
+            1764357,
+            1014425,
+            1128713
+          ],
+          [
+            13739535,
+            8148689,
+            10478151
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            24980042,
+            25041313,
+            26042616
+          ],
+          [
+            1632991,
+            1678072,
+            2439888
+          ],
+          [
+            null,
+            0,
+            0
+          ],
+          [
+            1084859,
+            1122199,
+            2232153
+          ],
+          [
+            null,
+            null,
+            1784168
+          ],
+          [
+            41850032,
+            36402878,
+            42976976
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            3357767,
+            2829212,
+            3511303
+          ],
+          [
+            167154,
+            160285,
+            302736
+          ],
+          [
+            4326323,
+            5359257,
+            7591771
+          ],
+          [
+            7851244,
+            8348754,
+            11405810
+          ],
+          [
+            1610589,
+            1659120,
+            2282743
+          ],
+          [
+            38137664,
+            34663305,
+            41722367
+          ],
+          [
+            47599497,
+            44671179,
+            55410920
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -139803363,
+            -139377110,
+            -121747435
+          ],
+          [
+            -5749465,
+            -8268301,
+            -12433944
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25"
+        ],
+        "data": [
+          [
+            -426253,
+            265776
+          ],
+          [
+            285490,
+            294503
+          ],
+          [
+            489467,
+            591462
+          ],
+          [
+            46297,
+            -2987953
+          ],
+          [
+            395001,
+            -1836212
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -494839,
+            -162075
+          ],
+          [
+            -494839,
+            -162075
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            1500000,
+            null
+          ],
+          [
+            2165088,
+            null
+          ],
+          [
+            3665088,
+            181903
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -99838,
+            -1998287
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            null,
+            -17629675,
+            -24621514
+          ],
+          [
+            null,
+            1260298,
+            1040984
+          ],
+          [
+            null,
+            2685964,
+            1301213
+          ],
+          [
+            null,
+            13346518,
+            21230211
+          ],
+          [
+            null,
+            -336895,
+            -1049106
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -642014,
+            -5919341
+          ],
+          [
+            null,
+            -749223,
+            -6266118
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            1350707,
+            2277759
+          ],
+          [
+            null,
+            -805503,
+            1347543
+          ],
+          [
+            null,
+            545204,
+            3625302
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -978909,
+            -6968447
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25"
+        ],
+        "data": [
+          [
+            1.7499819136941865,
+            null
+          ],
+          [
+            1.293345360302138,
+            null
+          ],
+          [
+            -8.278943693021873,
+            null
+          ],
+          [
+            16.73410115514532,
+            -17.163196467942313
+          ],
+          [
+            5888291,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            7.4137854565598715,
+            -2.4975588339575756
+          ],
+          [
+            -1.0185249081768921,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            1.7499819136941865,
+            0.9760365438962508,
+            0.9186678543654506
+          ],
+          [
+            1.293345360302138,
+            0.5746725798843756,
+            0.5484252324034856
+          ],
+          [
+            -8.278943693021873,
+            -5.402703530023882,
+            -4.456423480755583
+          ],
+          [
+            null,
+            -18.197905943256327,
+            -24.371826839564932
+          ],
+          [
+            5888291,
+            -200065,
+            -927659
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            213.2200436341154,
+            198.01853699839728
+          ],
+          [
+            null,
+            -48.429343965606236,
+            -57.29001035345065
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-06-17T14:16:34+00:00"
+}
