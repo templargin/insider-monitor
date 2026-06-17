@@ -1,0 +1,479 @@
+{
+  "ticker": "RUBI",
+  "cik": "1943421",
+  "name": "Rubico Inc.",
+  "description": "Rubico Inc., together with its subsidiaries, engages in the tanker operations business in Greece and internationally. It owns and operates tanker vessels for the transportation of crude oil. The company was formerly known as Central Tactical Acquisitions Inc. and changed its name to Rubico Inc. in March 2023. Rubico Inc. was incorporated in 2022 and is based in Athens, Greece.",
+  "form4_filings": [
+    {
+      "date_filed": "2026-06-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-12",
+      "code": "S",
+      "shares": -551020.0,
+      "price": 0.954,
+      "total_value": -525673.08,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000087"
+    },
+    {
+      "date_filed": "2026-06-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-11",
+      "code": "P",
+      "shares": 484963.0,
+      "price": 0.812,
+      "total_value": 393789.956,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000087"
+    }
+  ],
+  "valuation": {
+    "share_price": 0.421999990940094,
+    "shares_basic": 385501,
+    "shares_basic_as_of": "2025-12-31",
+    "options": null,
+    "warrants": null,
+    "cash": 3964000,
+    "debt": 82282000,
+    "ttm_revenue": 23523000,
+    "mc_basic": 162681.41850739717,
+    "ev_basic": 78480681.4185074
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            23523000,
+            24205000,
+            24478000
+          ],
+          [
+            -2.8175996694897747,
+            -1.1152871966663944,
+            null
+          ],
+          [
+            13663000,
+            14307000,
+            14124000
+          ],
+          [
+            -4.501293073320752,
+            1.2956669498725573,
+            null
+          ],
+          [
+            58.08357777494367,
+            59.10762239206775,
+            57.70079254841082
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            1263000,
+            1887000,
+            1688000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            12400000,
+            12420000,
+            12436000
+          ],
+          [
+            -0.1610305958132045,
+            -0.1286587327114828,
+            null
+          ],
+          [
+            52.71436466437104,
+            51.31171245610411,
+            50.80480431407795
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            8262000,
+            6501000,
+            5867000
+          ],
+          [
+            -1493000,
+            null,
+            null
+          ],
+          [
+            2645000,
+            5944000,
+            6631000
+          ],
+          [
+            2645000,
+            5944000,
+            6631000
+          ],
+          [
+            11.244314075585597,
+            24.556909729394754,
+            27.089631505841982
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            49.07,
+            454.96,
+            507.54
+          ],
+          [
+            49.07,
+            454.96,
+            507.54
+          ],
+          [
+            53907,
+            13065,
+            13065
+          ],
+          [
+            53907,
+            13065,
+            13065
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            3964000,
+            1161000,
+            2794000
+          ],
+          [
+            1024000,
+            229000,
+            null
+          ],
+          [
+            194000,
+            176000,
+            null
+          ],
+          [
+            1866000,
+            null,
+            null
+          ],
+          [
+            7048000,
+            2044000,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            106189000,
+            110369000,
+            null
+          ],
+          [
+            20832000,
+            1000000,
+            null
+          ],
+          [
+            134069000,
+            113413000,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            2835000,
+            901000,
+            null
+          ],
+          [
+            4345000,
+            4221000,
+            null
+          ],
+          [
+            2824000,
+            2494000,
+            null
+          ],
+          [
+            10004000,
+            7616000,
+            null
+          ],
+          [
+            77937000,
+            71580000,
+            null
+          ],
+          [
+            88271000,
+            79298000,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            31761000,
+            31049000,
+            null
+          ],
+          [
+            45798000,
+            34115000,
+            35733000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            2645000,
+            5944000,
+            6631000
+          ],
+          [
+            8687000,
+            4554000,
+            5173000
+          ],
+          [
+            11332000,
+            10498000,
+            11804000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -19932000,
+            null,
+            null
+          ],
+          [
+            -19932000,
+            0,
+            0
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -73567000,
+            0,
+            -61150000
+          ],
+          [
+            13664000,
+            0,
+            0
+          ],
+          [
+            71206000,
+            -12131000,
+            49707000
+          ],
+          [
+            11303000,
+            -12131000,
+            -11443000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            0.7045181927229108,
+            0.26838235294117646,
+            null
+          ],
+          [
+            0.6851259496201519,
+            0.24527310924369747,
+            null
+          ],
+          [
+            1.9273985763570463,
+            2.3244320680052764,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -2956000,
+            -5572000,
+            null
+          ],
+          [
+            73973000,
+            70419000,
+            null
+          ],
+          [
+            5.775361369492118,
+            17.42342078264693,
+            18.557076092127726
+          ],
+          [
+            1.9728647189133954,
+            5.241021752356432,
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-06-17T10:37:57+00:00"
+}
