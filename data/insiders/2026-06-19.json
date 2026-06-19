@@ -1,0 +1,42 @@
+{
+  "url_date": "2026-06-19",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-06-18"
+  ],
+  "generated_at": "2026-06-19T10:36:26+00:00",
+  "tickers": [
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 315980.0,
+      "ev_basic": 138052422.38694,
+      "mc_basic": 467514422.38694,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 315980.0,
+          "shares": 40000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "GOTU",
+      "name": "Gaotu Techedu Inc.",
+      "total_value": 285838.6248,
+      "ev_basic": 196114128.70683074,
+      "mc_basic": 262510128.70683074,
+      "insiders": [
+        {
+          "reporter_name": "Chen Xiangdong",
+          "relationship": "Director, Officer (CEO)",
+          "total_value": 285838.6248,
+          "shares": 118296.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ]
+}
