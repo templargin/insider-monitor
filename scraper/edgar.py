@@ -19,19 +19,56 @@ _last_request = 0.0
 _MIN_INTERVAL = 0.10  # 10 req/sec SEC ceiling
 _rate_lock = threading.Lock()
 
+_MAX_RETRIES = 4
+_RETRY_STATUS = {429, 500, 502, 503, 504}  # transient — SEC throttle / gateway hiccup
 
-def _get(url, timeout=30):
-    """Rate-limited HTTP GET. Lock ensures request-START spacing across threads;
-    the actual network call happens outside the lock for concurrency."""
+
+def _throttle():
+    """Block until at least _MIN_INTERVAL has elapsed since the last request
+    start. Lock spans only the bookkeeping so the network call stays concurrent."""
     global _last_request
     with _rate_lock:
         elapsed = time.time() - _last_request
         if elapsed < _MIN_INTERVAL:
             time.sleep(_MIN_INTERVAL - elapsed)
         _last_request = time.time()
-    resp = _session.get(url, timeout=timeout)
-    resp.raise_for_status()
-    return resp
+
+
+def _get(url, timeout=30):
+    """Rate-limited HTTP GET with retry/backoff on transient failures.
+
+    Retries on 429/5xx and connection/timeout errors with exponential backoff
+    (respecting Retry-After when present), so a momentary SEC throttle doesn't
+    surface as a hard failure. 4xx other than 429 (e.g. 404/403) are raised
+    immediately for callers to handle."""
+    last_exc = None
+    for attempt in range(_MAX_RETRIES):
+        _throttle()
+        try:
+            resp = _session.get(url, timeout=timeout)
+        except (requests.ConnectionError, requests.Timeout) as e:
+            last_exc = e
+            time.sleep(_backoff(attempt))
+            continue
+        if resp.status_code in _RETRY_STATUS:
+            last_exc = requests.HTTPError(f"{resp.status_code} for {url}", response=resp)
+            if attempt < _MAX_RETRIES - 1:
+                ra = resp.headers.get("Retry-After")
+                try:
+                    delay = float(ra) if ra else _backoff(attempt)
+                except (TypeError, ValueError):
+                    delay = _backoff(attempt)
+                time.sleep(min(delay, 30))
+            continue
+        resp.raise_for_status()
+        return resp
+    # Exhausted retries on a transient error — surface it to the caller.
+    raise last_exc
+
+
+def _backoff(attempt):
+    """Exponential backoff: 0.5s, 1s, 2s, 4s ... capped at 8s."""
+    return min(0.5 * (2 ** attempt), 8.0)
 
 
 def quarter_for(d):

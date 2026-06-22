@@ -8,7 +8,17 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+import requests
+
 from . import edgar, filters, xbrl_facts, financials, xbrl_financials, footnotes, buckets
+
+
+class DataUnavailable(Exception):
+    """A required input for an issuer (companyfacts, share count, or price) could
+    not be fetched — distinct from the issuer being screened OUT on its
+    EV/revenue merits. Lets process_bucket tell a transient upstream outage apart
+    from a genuinely quiet day, so an outage never overwrites a good page with an
+    empty one."""
 
 _MAX_WORKERS = 6
 
@@ -28,6 +38,17 @@ def _log(*a):
 
 def _now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def _empty_daily(url_date):
+    """Daily-page payload with no tickers."""
+    return {
+        "url_date": url_date.isoformat(),
+        "weekday": url_date.strftime("%A"),
+        "filing_dates": [fd.isoformat() for fd in buckets.filing_dates_for_url(url_date)],
+        "generated_at": _now_iso(),
+        "tickers": [],
+    }
 
 
 def _fetch_and_parse(row):
@@ -65,20 +86,31 @@ def fetch_all_form4s_for_bucket(url_date):
 
 
 def screener_pass(cik, ticker, bucket_data):
-    """Returns dict with valuation + filter outcome, or None if data unavailable."""
-    facts = edgar.fetch_companyfacts(cik)
+    """Return a valuation dict if the issuer PASSES EV/revenue screening, or None
+    if it is screened OUT on the merits (EV ≥ cap, or no TTM revenue).
+
+    Raises DataUnavailable when a required input could not be obtained
+    (companyfacts/share-price fetch failed, or the filer tags no share count) —
+    callers must NOT treat that as a screen-out."""
+    try:
+        facts = edgar.fetch_companyfacts(cik)
+    except requests.RequestException as e:
+        raise DataUnavailable(f"companyfacts fetch failed for CIK {cik}: {e}")
     if facts is None:
-        return None
+        raise DataUnavailable(f"no companyfacts for CIK {cik}")
     shares, sh_end = xbrl_facts.get_basic_shares(facts)
     cash, _ = xbrl_facts.get_cash(facts)
     debt, _ = xbrl_facts.get_total_debt(facts)
     ttm_rev, _ = xbrl_facts.get_ttm_revenue(facts)
 
     if shares is None or shares <= 0:
+        # Facts fetched fine but this filer tags no basic share count — a
+        # permanent per-filer data gap, not a transient outage. We can't confirm
+        # EV < $1B, so screen it out conservatively (counts as evaluated).
         return None
     price = financials.fetch_share_price(ticker)
     if price is None or price <= 0:
-        return None
+        raise DataUnavailable(f"no share price for {ticker}")
     mc_basic = price * shares
     ev = filters.basic_ev(mc_basic, debt, cash)
     if not filters.passes_ev_cap(ev):
@@ -211,20 +243,42 @@ def update_company_data(ticker, cik, screener_snapshot):
 def process_bucket(url_date):
     """Process one URL date end-to-end: scrape, filter, write daily + company JSONs.
 
-    Safety: if EDGAR returned ZERO filings for every filing-date in this bucket
-    (typical when SEC hasn't published the daily-index yet for late-evening runs),
-    skip writing — don't clobber an existing good page with an empty one.
+    Safety on an empty index:
+    - If every bucket date is a non-trading day (weekend/federal holiday) there
+      will never be filings — write an explicit empty page so the URL 200s
+      (e.g. the Monday after a Friday holiday) instead of 404ing.
+    - Otherwise a real trading day returned nothing, which means SEC hasn't
+      published the daily-index yet (late-evening / early run) — skip writing so
+      we don't clobber an existing good page with an empty one.
     """
     _log(f"=== Processing /insiders/{url_date.year}/{buckets.MONTH_NAMES[url_date.month-1]}/{url_date.day} (read on {url_date.strftime('%A')}) ===")
+    daily_path = INSIDERS_DIR / f"{url_date.isoformat()}.json"
+
+    def _existing_ticker_count():
+        if not daily_path.exists():
+            return 0
+        try:
+            return len(json.loads(daily_path.read_text()).get("tickers", []))
+        except Exception:
+            return 0
+
     # Pre-flight: count daily-index rows across all bucket dates
+    bucket_fds = buckets.filing_dates_for_url(url_date)
     total_index_rows = 0
-    for fd in buckets.filing_dates_for_url(url_date):
+    for fd in bucket_fds:
         try:
             total_index_rows += len(edgar.fetch_daily_index_form4s(fd))
         except Exception as e:
             _log(f"  daily-index fetch failed for {fd}: {e}")
     if total_index_rows == 0:
-        _log("  EDGAR returned 0 Form 4 index rows for every bucket date — skipping write (likely too early for SEC daily-index).")
+        all_nontrading = all(not buckets.is_trading_day(fd) for fd in bucket_fds)
+        if all_nontrading and _existing_ticker_count() == 0:
+            _log("  0 index rows; every bucket date is a weekend/holiday — writing explicit empty page.")
+            daily = _empty_daily(url_date)
+            daily_path.write_text(json.dumps(daily, indent=2, default=str))
+            _log(f"  wrote empty {daily_path}")
+            return daily
+        _log("  EDGAR returned 0 Form 4 index rows but a trading day is pending (or a good page already exists) — skipping write.")
         return None
 
     parsed = fetch_all_form4s_for_bucket(url_date)
@@ -234,6 +288,8 @@ def process_bucket(url_date):
     _log(f"  {len(threshold)} issuers with ≥1 insider ≥${filters.PURCHASE_THRESHOLD_USD:,}")
 
     survivors = []
+    screened = 0   # issuers we fully evaluated (passed OR merit-failed)
+    errored = 0    # issuers we could not evaluate (data unavailable)
     for cik, bucket_data in threshold:
         ticker = bucket_data["ticker"]
         name = bucket_data["name"]
@@ -241,9 +297,15 @@ def process_bucket(url_date):
             _log(f"  - skip {name} (no ticker on Form 4)")
             continue
         _log(f"  ? probing {name} ({ticker})...")
-        snap = screener_pass(cik, ticker, bucket_data)
+        try:
+            snap = screener_pass(cik, ticker, bucket_data)
+        except DataUnavailable as e:
+            errored += 1
+            _log(f"    data unavailable: {e}")
+            continue
+        screened += 1
         if snap is None:
-            _log(f"    fail (EV/revenue/data unavailable)")
+            _log(f"    screened out (EV ≥ cap or no TTM revenue)")
             continue
         _log(f"    PASS: EV=${snap['ev_basic']/1e6:,.1f}M  TTM rev=${snap['ttm_revenue']/1e6:,.1f}M")
         snap["name"] = name
@@ -252,14 +314,18 @@ def process_bucket(url_date):
         snap["bucket_data"] = bucket_data
         survivors.append(snap)
 
+    # Outage guard: candidates existed but we couldn't evaluate a single one.
+    # That's an upstream data outage (SEC companyfacts or the share-price source
+    # throttling a cloud IP), not a quiet day — bail rather than write an empty
+    # page that clobbers a good one. (June 2026: a delayed fallback run hit a
+    # mass price-fetch failure and overwrote PRTA + GOTU with an empty list.)
+    if threshold and screened == 0:
+        _log(f"  Could not evaluate any of {len(threshold)} candidate issuers "
+             f"({errored} data-unavailable) — upstream outage; skipping write.")
+        return None
+
     # Persist daily JSON
-    daily = {
-        "url_date": url_date.isoformat(),
-        "weekday": url_date.strftime("%A"),
-        "filing_dates": [fd.isoformat() for fd in buckets.filing_dates_for_url(url_date)],
-        "generated_at": _now_iso(),
-        "tickers": [],
-    }
+    daily = _empty_daily(url_date)
     for s in survivors:
         # Per-insider threshold: only insiders who individually crossed
         # $100k show up on the daily page, and the headline `total_value`
@@ -288,7 +354,14 @@ def process_bucket(url_date):
         })
     daily["tickers"].sort(key=lambda t: t["total_value"], reverse=True)
 
-    daily_path = INSIDERS_DIR / f"{url_date.isoformat()}.json"
+    # Belt-and-suspenders against a partial outage: never downgrade an existing
+    # non-empty page to empty on a run where some fetches errored — the empties
+    # are far more likely transient than a real same-day reversal.
+    if not daily["tickers"] and errored and _existing_ticker_count() > 0:
+        _log(f"  0 survivors with {errored} data-unavailable issuer(s), but the "
+             f"existing page has {_existing_ticker_count()} ticker(s) — keeping it, skipping write.")
+        return None
+
     daily_path.write_text(json.dumps(daily, indent=2, default=str))
     _log(f"  wrote {daily_path}")
 

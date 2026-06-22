@@ -433,15 +433,25 @@ def fetch_description(ticker):
         return ""
 
 
-def fetch_share_price(ticker):
-    """Most recent close price via yfinance. None on failure."""
+def fetch_share_price(ticker, retries=3):
+    """Most recent close price via yfinance. None on failure (after retries).
+
+    yfinance is frequently throttled from cloud IPs (GitHub Actions), where an
+    empty-history response is usually transient rather than a real delisting. A
+    few spaced retries turn most of those into a real price — and the caller
+    treats a final None as data-unavailable, not as a screen-out, so a mass
+    Yahoo throttle can no longer blank out the daily page."""
+    import time
     t = _safe_yf_ticker(ticker)
     if t is None:
         return None
-    try:
-        hist = t.history(period="5d")
-        if hist is None or hist.empty:
-            return None
-        return float(hist["Close"].iloc[-1])
-    except Exception:
-        return None
+    for attempt in range(retries):
+        try:
+            hist = t.history(period="5d")
+            if hist is not None and not hist.empty:
+                return float(hist["Close"].iloc[-1])
+        except Exception:
+            pass
+        if attempt < retries - 1:
+            time.sleep(1.0 * (attempt + 1))  # 1s, 2s
+    return None
