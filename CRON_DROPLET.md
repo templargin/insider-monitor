@@ -168,7 +168,7 @@ History worth keeping for context:
 
 - **Claude routine "insider-monitor daily trigger"** — disabled. Tried to dispatch `daily.yml` from a Claude routine; failed because the routine sandbox lacks `gh` and a viable direct-API auth path.
 - **Claude routine "insider-monitor options/warrants extraction"** — disabled. Worked but slowly (file-by-file commits via GitHub MCP). Replaced by the droplet skill which uses normal `git push`.
-- **GH Actions `schedule:` cron on `daily.yml`** — still active as a fallback. Fires `30 10 * * 1-5` UTC (= 6:30am EDT / 5:30am EST). The droplet's idempotent `git diff` guard makes the second daily fire a no-op when the droplet already ran. Belt and suspenders.
+- **GH Actions `schedule:` cron on `daily.yml`** — still active as a fallback. Fires `30 10 * * 1-5` UTC (= 6:30am EDT / 5:30am EST). The droplet's idempotent `git diff` guard makes the second daily fire a no-op when the droplet already ran. Belt and suspenders. **Caveat:** the fallback re-runs the *full* screen, so its result can differ from the droplet's — and a transient SEC/price-fetch outage on the fallback used to overwrite the droplet's good page with an empty one (this is what blanked 2026-06-19's PRTA + GOTU). `process_bucket` now refuses to write on a mass `DataUnavailable` outage and never downgrades a non-empty page to empty (see *Page-write safety* in the README), so the fallback can no longer regress a good page.
 
 ---
 
@@ -194,6 +194,8 @@ For host-level ops (gh auth rotation, env file management, adding new workloads,
 | Symptom | Cause | Fix |
 |---|---|---|
 | Daily list page is from yesterday | Workflow never finished, OR HC ping didn't fire | Check latest `insider-*.log`; manually re-trigger via `gh workflow run` |
+| Daily page suddenly empty / lost its tickers | A run hit a transient SEC/price-fetch outage (the cloud-IP fallback run is most prone) | Guarded since 2026-06: the writer skips on a mass outage and won't downgrade a non-empty page. Grep the run log for `upstream outage; skipping write` or `data unavailable`. To rebuild a page that was lost before the guard existed, restore the good `data/insiders/YYYY-MM-DD.json` (from git history) or re-run `process_bucket` for that date, then `build_site` + push |
+| Monday-after-holiday page is empty (HTTP 200) | Bucket is entirely weekend + federal holiday (e.g. the Monday after Juneteenth — Fri+Sat+Sun) | Expected — explicit empty page by design (`buckets.is_trading_day`) |
 | Survivor's page shows `—` for options/warrants | Skill was conservative (ambiguous footnote) OR footnote file is missing | Inspect `data/footnotes/TICKER.txt`; manually edit JSON + push if you can determine the value |
 | Workflow fires but skill output is empty | All tickers already have non-null options/warrants — expected |
 | Skill commits but page doesn't refresh | GH Pages deploy lag (1–5 min) | Wait and refresh |
