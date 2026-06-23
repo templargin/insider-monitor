@@ -2,8 +2,64 @@
   "ticker": "NTRP",
   "cik": "788611",
   "name": "NextTrip, Inc.",
-  "description": "NextTrip, Inc., a technology-driven travel company, develops an integrated travel booking and media platform to connect leisure, group, and business travelers in the United States and internationally. The company offers NXT2.0, a booking engine platform that enables to book customized travel options. Its product portfolio consists of NextTrip Leisure, a booking engine for customized vacation packages, flights, hotels, tours, wellness vacations, cruise, and group travel options; NextTrip Luxury and Business, a platform that provides access to hotels; NextTrip Cruises, an integrated cruise booking engine; NextTrip Solutions, a travel agent platform; and NextTrip Media, a travel content platform. The company also markets its travel services through various brands, including NextTrip Vacations for direct-to-consumer leisure travel; Five Star Alliance for luxury and cruise bookings; NextTrip Business for small-to-mid-sized corporate travel; and PayDlay, a delayed payment booking option. In addition, its booking engine includes media properties, which consists of Journy.tv, Compass.tv, and Travel Magazine. The company was formerly known as Sigma Additive Solutions, Inc. and changed its name to NextTrip, Inc. in March 2024. NextTrip, Inc. is based in Santa Fe, New Mexico.",
+  "description": "NextTrip, Inc., a technology-driven travel company, develops an integrated travel booking and media platform to connect leisure, group, and business travelers in the United States and internationally. It operates in two segments, Travel and Media. The Travel segment offers NXT2.0, a travel booking engine that supports direct-to-consumer and advisor-assisted booking across leisure, luxury, cruise, group, and business travel verticals; Five Star Alliance for luxury and cruise bookings; TA Pipeline, a group-travel agency platform that provides end-to-end solutions for conferences, conventions, destination weddings, and affinity groups; JournyGO, an agentic AI-powered consumer engagement and booking ecosystem; and Travel Magazine Pro, a digital editorial, advisor-engagement, and travel-commerce platform. Its Media segment includes JOURNY.tv, a travel media network, as well as TravelMagazine.com, an online travel publication that offers articles, guides, destination inspiration, hotel and restaurant recommendations, and general travel advice. The company was formerly known as Sigma Additive Solutions, Inc. and changed its name to NextTrip, Inc. in March 2024. NextTrip, Inc. is based in Santa Fe, New Mexico.",
   "form4_filings": [
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Jiang David T",
+      "relationship": "Director",
+      "transaction_date": "2026-06-18",
+      "code": "P",
+      "shares": 18200.0,
+      "price": 2.75,
+      "total_value": 50050.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-029619"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Jiang David T",
+      "relationship": "Director",
+      "transaction_date": "2026-06-18",
+      "code": "C",
+      "shares": 18200.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Warrants for Common Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-029619"
+    },
+    {
+      "date_filed": "2026-05-15",
+      "reporter_name": "Orzechowski Frank",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-05-11",
+      "code": "A",
+      "shares": 19787.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-023719"
+    },
+    {
+      "date_filed": "2026-05-15",
+      "reporter_name": "Orzechowski Frank",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-05-11",
+      "code": "F",
+      "shares": -5896.0,
+      "price": 2.48,
+      "total_value": -14622.08,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-023719"
+    },
     {
       "date_filed": "2026-05-11",
       "reporter_name": "Kaplan Andrew Jay",
@@ -734,16 +790,16 @@
     }
   ],
   "valuation": {
-    "share_price": 2.4800000190734863,
-    "shares_basic": 13666807,
-    "shares_basic_as_of": "2026-01-13",
-    "options": 806250,
+    "share_price": 2.049999952316284,
+    "shares_basic": 14493468,
+    "shares_basic_as_of": "2026-05-28",
+    "options": 914825,
     "warrants": 2190000,
-    "cash": 2427299,
+    "cash": 1696090,
     "debt": 50000,
-    "ttm_revenue": 2171240,
-    "mc_basic": 33893681.62067366,
-    "ev_basic": 31516382.620673656
+    "ttm_revenue": 3715528,
+    "mc_basic": 29711608.70889759,
+    "ev_basic": 28065518.70889759
   },
   "financials": {
     "income_statement": {
@@ -1901,5 +1957,5 @@
       }
     }
   },
-  "last_updated": "2026-05-12T12:33:57+00:00"
+  "last_updated": "2026-06-23T10:37:19+00:00"
 }
