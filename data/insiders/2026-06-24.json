@@ -1,0 +1,58 @@
+{
+  "url_date": "2026-06-24",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-06-23"
+  ],
+  "generated_at": "2026-06-24T10:35:23+00:00",
+  "tickers": [
+    {
+      "ticker": "AMPY",
+      "name": "Amplify Energy Corp.",
+      "total_value": 197500.0,
+      "ev_basic": 245773630.16623378,
+      "mc_basic": 162259630.16623378,
+      "insiders": [
+        {
+          "reporter_name": "FREW JAMES",
+          "relationship": "Officer (SEE REMARKS)",
+          "total_value": 197500.0,
+          "shares": 50000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "FKYS",
+      "name": "FIRST KEYSTONE CORP",
+      "total_value": 151335.0,
+      "ev_basic": 19604417.403648376,
+      "mc_basic": 111443417.40364838,
+      "insiders": [
+        {
+          "reporter_name": "Bower Donald Matthew",
+          "relationship": "Director",
+          "total_value": 151335.0,
+          "shares": 8550.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "STRR",
+      "name": "Star Equity Holdings, Inc.",
+      "total_value": 111529.79999999999,
+      "ev_basic": 38224709.49184418,
+      "mc_basic": 40728709.49184418,
+      "insiders": [
+        {
+          "reporter_name": "Eberwein Jeffrey E.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 111529.79999999999,
+          "shares": 10000.0,
+          "txn_count": 4
+        }
+      ]
+    }
+  ]
+}
