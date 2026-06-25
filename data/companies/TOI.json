@@ -5,6 +5,34 @@
   "description": "The Oncology Institute, Inc., an oncology company, provides various oncology services in the United States. It operates through three segments: Specialty pharmacy, Patient Services, and Clinical Trials & Other. The company offers physician services, in-house infusion, in-house specialty pharmacy, clinical trials, radiation therapy, and outpatient blood product transfusion services, as well as educational seminars, support groups, counseling services, and 24/7 patient assistance and support services. It also manages clinical trials and palliative care programs; operates combined community clinics and infusion suites; and operates a specialty pharmacy that includes both in-office and mail-order dispensing for complementary oral and self-injectable medications taken by patients concurrent with their in-office cancer therapies. It serves adult and senior cancer patients. The Oncology Institute, Inc. was founded in 2007 and is headquartered in Cerritos, California.",
   "form4_filings": [
     {
+      "date_filed": "2026-06-24",
+      "reporter_name": "Chernett Jorey",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-23",
+      "code": "P",
+      "shares": 18000.0,
+      "price": 5.02,
+      "total_value": 90359.99999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-001657"
+    },
+    {
+      "date_filed": "2026-06-09",
+      "reporter_name": "Podnos Yale",
+      "relationship": "Officer (Chief Medical Officer)",
+      "transaction_date": "2026-06-08",
+      "code": "S",
+      "shares": -23451.0,
+      "price": 5.3769,
+      "total_value": -126093.6819,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001079973-26-000801"
+    },
+    {
       "date_filed": "2026-06-05",
       "reporter_name": "Chernett Jorey",
       "relationship": "10% Owner",
@@ -1963,24 +1991,10 @@
       "table": "nonDerivative",
       "ownership": "I",
       "accession": "0000950170-24-098843"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "Hively Brad",
-      "relationship": "Director",
-      "transaction_date": "2024-06-17",
-      "code": "D",
-      "shares": -18121.0,
-      "price": 0.4578,
-      "total_value": -8295.7938,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001799191-24-000015"
     }
   ],
   "valuation": {
-    "share_price": 5.53000020980835,
+    "share_price": 5.25,
     "shares_basic": 99982933,
     "shares_basic_as_of": "2026-04-30",
     "options": 3929782,
@@ -1988,8 +2002,8 @@
     "cash": 30280000,
     "debt": 78611000,
     "ttm_revenue": 508213000,
-    "mc_basic": 552905640.4672542,
-    "ev_basic": 601236640.4672542
+    "mc_basic": 524910398.25,
+    "ev_basic": 573241398.25
   },
   "financials": {
     "income_statement": {
@@ -3222,5 +3236,5 @@
       }
     }
   },
-  "last_updated": "2026-06-08T14:43:05+00:00"
+  "last_updated": "2026-06-25T10:34:54+00:00"
 }
