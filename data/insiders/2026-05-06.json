@@ -9,7 +9,7 @@
     {
       "ticker": "GTE",
       "name": "GRAN TIERRA ENERGY INC.",
-      "total_value": 3565549.6,
+      "total_value": 891387.4,
       "ev_basic": 736371430.5067635,
       "mc_basic": 309045430.50676346,
       "rows": [
@@ -77,12 +77,21 @@
           "price": 9.2986,
           "total_value": 418437.0
         }
+      ],
+      "insiders": [
+        {
+          "reporter_name": "LM Asset Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 891387.4,
+          "shares": 97000.0,
+          "txn_count": 2
+        }
       ]
     },
     {
       "ticker": "AERA",
       "name": "AI Era Corp.",
-      "total_value": 222200.0,
+      "total_value": 111100.0,
       "ev_basic": 5301073.779546499,
       "mc_basic": 5810013.779546499,
       "rows": [
@@ -102,30 +111,14 @@
           "price": 1.01,
           "total_value": 111100.0
         }
-      ]
-    },
-    {
-      "ticker": "CLMB",
-      "name": "Climb Global Solutions, Inc.",
-      "total_value": 150640.0,
-      "ev_basic": 332856774.58114624,
-      "mc_basic": 373431774.58114624,
-      "rows": [
+      ],
+      "insiders": [
         {
-          "reporter_name": "MCCARTHY JOHN R",
-          "relationship": "Director",
-          "transaction_date": "2026-05-04",
-          "shares": 4000.0,
-          "price": 18.83,
-          "total_value": 75320.0
-        },
-        {
-          "reporter_name": "MCCARTHY JOHN R",
-          "relationship": "Director",
-          "transaction_date": "2026-05-04",
-          "shares": 4000.0,
-          "price": 18.83,
-          "total_value": 75320.0
+          "reporter_name": "Deng Chiyuan",
+          "relationship": "Director, Officer (President), 10% Owner",
+          "total_value": 111100.0,
+          "shares": 110000.0,
+          "txn_count": 1
         }
       ]
     }

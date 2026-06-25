@@ -7,288 +7,194 @@
   "generated_at": "2026-05-22T12:47:08+00:00",
   "tickers": [
     {
-      "ticker": "BLND",
-      "name": "Blend Labs, Inc.",
-      "total_value": 9265118.2016,
-      "ev_basic": 338520715.2824402,
-      "mc_basic": 375950715.2824402,
-      "insiders": [
-        {
-          "reporter_name": "Haveli Investments, L.P.",
-          "relationship": "Director, 10% Owner",
-          "total_value": 9265118.2016,
-          "shares": 6217424.0,
-          "txn_count": 24
-        }
-      ]
-    },
-    {
       "ticker": "LOGC",
       "name": "ContextLogic Holdings Inc.",
-      "total_value": 2621920.1099999994,
+      "total_value": 1310960.055,
       "ev_basic": 594590601.459732,
       "mc_basic": 391590601.45973206,
       "insiders": [
         {
           "reporter_name": "Bobbili Raja",
           "relationship": "Director, 10% Owner",
-          "total_value": 2621920.1099999994,
-          "shares": 300000.0,
-          "txn_count": 6
+          "total_value": 1310960.055,
+          "shares": 150000.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "BLND",
+      "name": "Blend Labs, Inc.",
+      "total_value": 1158139.7752,
+      "ev_basic": 338520715.2824402,
+      "mc_basic": 375950715.2824402,
+      "insiders": [
+        {
+          "reporter_name": "Haveli Investments, L.P.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 1158139.7752,
+          "shares": 777178.0,
+          "txn_count": 3
         }
       ]
     },
     {
       "ticker": "INM",
       "name": "InMed Pharmaceuticals Inc.",
-      "total_value": 2164643.6694,
+      "total_value": 721547.8898,
       "ev_basic": 603709.0532107353,
       "mc_basic": 5733329.053210735,
       "insiders": [
         {
           "reporter_name": "ADAR1 Capital Management, LLC",
           "relationship": "10% Owner",
-          "total_value": 2164643.6694,
-          "shares": 1405653.0,
-          "txn_count": 9
+          "total_value": 721547.8898,
+          "shares": 468551.0,
+          "txn_count": 3
         }
       ]
     },
     {
       "ticker": "BETR",
       "name": "Better Home & Finance Holding Co",
-      "total_value": 776655.36,
+      "total_value": 388327.68,
       "ev_basic": 353946514.4814415,
       "mc_basic": 417799119.4814415,
       "insiders": [
         {
           "reporter_name": "Garg Vishal",
           "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
-          "total_value": 776655.36,
-          "shares": 31200.0,
-          "txn_count": 2
+          "total_value": 388327.68,
+          "shares": 15600.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "LEE",
       "name": "LEE ENTERPRISES, Inc",
-      "total_value": 608228.0,
+      "total_value": 304114.0,
       "ev_basic": 663211890.9599762,
       "mc_basic": 210072890.9599762,
       "insiders": [
         {
           "reporter_name": "Hoffmann David Henry",
           "relationship": "Director, 10% Owner",
-          "total_value": 608228.0,
-          "shares": 63600.0,
-          "txn_count": 6
+          "total_value": 304114.0,
+          "shares": 31800.0,
+          "txn_count": 3
         }
       ]
     },
     {
       "ticker": "SMWB",
       "name": "SIMILARWEB LTD.",
-      "total_value": 583500.0,
+      "total_value": 291750.0,
       "ev_basic": 256296121.07199144,
       "mc_basic": 328717121.07199144,
       "insiders": [
         {
           "reporter_name": "Beit-On Harel Moshe",
           "relationship": "Director",
-          "total_value": 583500.0,
-          "shares": 150000.0,
-          "txn_count": 2
+          "total_value": 291750.0,
+          "shares": 75000.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "BETA",
       "name": "BETA Technologies, Inc.",
-      "total_value": 499999.97114000004,
+      "total_value": 249999.98557000002,
       "ev_basic": -803758211.095439,
       "mc_basic": 600129788.904561,
       "insiders": [
         {
           "reporter_name": "Stone Michael Robert",
           "relationship": "Director",
-          "total_value": 499999.97114000004,
-          "shares": 34270.046,
-          "txn_count": 2
+          "total_value": 249999.98557000002,
+          "shares": 17135.023,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "LUCD",
       "name": "Lucid Diagnostics Inc.",
-      "total_value": 490539.00000000006,
+      "total_value": 245269.50000000003,
       "ev_basic": 199473250.0,
       "mc_basic": 203066783.0,
       "insiders": [
         {
           "reporter_name": "Matheis Dennis",
           "relationship": "Director",
-          "total_value": 490539.00000000006,
-          "shares": 490000.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "VITL",
-      "name": "Vital Farms, Inc.",
-      "total_value": 403610.0,
-      "ev_basic": 369121705.1527672,
-      "mc_basic": 395919705.1527672,
-      "insiders": [
-        {
-          "reporter_name": "Holland Joseph Michael",
-          "relationship": "Officer (Chief Supply Chain Officer)",
-          "total_value": 199744.0,
-          "shares": 24968.0,
-          "txn_count": 2
-        },
-        {
-          "reporter_name": "Cyr William B.",
-          "relationship": "Director",
-          "total_value": 102240.0,
-          "shares": 12000.0,
-          "txn_count": 2
-        },
-        {
-          "reporter_name": "Flanagan Glenda J",
-          "relationship": "Director",
-          "total_value": 101626.0,
-          "shares": 12200.0,
-          "txn_count": 2
+          "total_value": 245269.50000000003,
+          "shares": 245000.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "PMTS",
       "name": "CPI Card Group Inc.",
-      "total_value": 380800.0,
+      "total_value": 190400.0,
       "ev_basic": 440183921.5289612,
       "mc_basic": 182576921.52896118,
       "insiders": [
         {
           "reporter_name": "Riley H Sanford",
           "relationship": "Director, Other (Non-Executive Chairman)",
-          "total_value": 380800.0,
-          "shares": 23800.0,
-          "txn_count": 4
+          "total_value": 190400.0,
+          "shares": 11900.0,
+          "txn_count": 2
         }
       ]
     },
     {
       "ticker": "STRR",
       "name": "Star Equity Holdings, Inc.",
-      "total_value": 378246.38,
+      "total_value": 189123.19,
       "ev_basic": 38520380.40987015,
       "mc_basic": 41024380.40987015,
       "insiders": [
         {
           "reporter_name": "Eberwein Jeffrey E.",
           "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
-          "total_value": 378246.38,
-          "shares": 36806.0,
-          "txn_count": 6
+          "total_value": 189123.19,
+          "shares": 18403.0,
+          "txn_count": 3
         }
       ]
     },
     {
       "ticker": "TOI",
       "name": "Oncology Institute, Inc.",
-      "total_value": 313190.0,
+      "total_value": 156595.0,
       "ev_basic": 495254689.53274584,
       "mc_basic": 446923689.53274584,
       "insiders": [
         {
           "reporter_name": "Chernett Jorey",
           "relationship": "10% Owner",
-          "total_value": 313190.0,
-          "shares": 77000.0,
-          "txn_count": 4
+          "total_value": 156595.0,
+          "shares": 38500.0,
+          "txn_count": 2
         }
       ]
     },
     {
       "ticker": "STEX",
       "name": "Streamex Corp.",
-      "total_value": 306198.08,
+      "total_value": 153099.04,
       "ev_basic": 110971542.71277893,
       "mc_basic": 117830542.71277893,
       "insiders": [
         {
           "reporter_name": "Lekstrom Morgan Lee",
           "relationship": "Director, Officer (Interim Executive Chairman)",
-          "total_value": 306198.08,
-          "shares": 294000.0,
-          "txn_count": 6
-        }
-      ]
-    },
-    {
-      "ticker": "TISI",
-      "name": "TEAM INC",
-      "total_value": 188152.0,
-      "ev_basic": 360471803.0,
-      "mc_basic": 75427803.0,
-      "insiders": [
-        {
-          "reporter_name": "Hill Gary L.",
-          "relationship": "Officer (Chief Executive Officer)",
-          "total_value": 188152.0,
-          "shares": 11600.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "SWIM",
-      "name": "Latham Group, Inc.",
-      "total_value": 147490.0,
-      "ev_basic": 889595781.3244133,
-      "mc_basic": 605843781.3244133,
-      "insiders": [
-        {
-          "reporter_name": "Gloe Oliver C.",
-          "relationship": "Officer (CHIEF FINANCIAL OFFICER)",
-          "total_value": 147490.0,
-          "shares": 30100.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "RGR",
-      "name": "STURM RUGER & CO INC",
-      "total_value": 117450.0,
-      "ev_basic": 603498915.4528999,
-      "mc_basic": 627246915.4528999,
-      "insiders": [
-        {
-          "reporter_name": "Seyfert Todd William",
-          "relationship": "Officer (President & CEO)",
-          "total_value": 117450.0,
-          "shares": 3000.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "LIVE",
-      "name": "LIVE VENTURES Inc",
-      "total_value": 110082.61279999999,
-      "ev_basic": 66864543.98260498,
-      "mc_basic": 33235316.98260498,
-      "insiders": [
-        {
-          "reporter_name": "Isaac Jon",
-          "relationship": "Director, Officer (CEO & President), 10% Owner",
-          "total_value": 110082.61279999999,
-          "shares": 10604.0,
-          "txn_count": 6
+          "total_value": 153099.04,
+          "shares": 147000.0,
+          "txn_count": 3
         }
       ]
     }

@@ -79,20 +79,22 @@ def daily_index_url(d):
     return f"https://www.sec.gov/Archives/edgar/daily-index/{d.year}/QTR{quarter_for(d)}/master.{d.strftime('%Y%m%d')}.idx"
 
 
-def fetch_daily_index_form4s(d):
-    """Return list of Form 4 / 4/A filings for date d. Empty list on 404/403
-    (weekend, holiday, or future date — SEC returns 403 for non-existent indexes)."""
-    url = daily_index_url(d)
-    try:
-        resp = _get(url)
-    except requests.HTTPError as e:
-        if e.response.status_code in (404, 403):
-            return []
-        raise
+def _parse_master_idx(text):
+    """Parse a daily ``master.idx`` body into Form 4 / 4-A filing rows — one row
+    per accession.
 
-    # Master idx uses Latin-1 for some special chars in company names
-    text = resp.content.decode("latin-1")
+    EDGAR's daily index lists a filing once for EACH CIK associated with it, and
+    a Form 4 always has at least two (the issuer plus every reporting owner). So
+    the same accession appears on multiple lines under different CIKs. A filing
+    is uniquely identified by its accession number, so we key on that and keep
+    the first occurrence — otherwise every Form 4 would be fetched, parsed, and
+    aggregated once per associated CIK, inflating every insider's transaction
+    count and dollar total (2x in the common single-owner case, 3x for a joint
+    filing, etc.). The kept CIK is irrelevant downstream: the fetch URL resolves
+    under any associated CIK, and aggregation reads the issuer CIK from the
+    parsed XML, not from this row."""
     results = []
+    seen = set()
     in_data = False
     for line in text.splitlines():
         if line.startswith("CIK|"):
@@ -110,6 +112,9 @@ def fetch_daily_index_form4s(d):
         if not m:
             continue
         accession_dashed = m.group(0)
+        if accession_dashed in seen:
+            continue
+        seen.add(accession_dashed)
         results.append({
             "cik": cik.lstrip("0") or "0",
             "company_name": company,
@@ -120,6 +125,21 @@ def fetch_daily_index_form4s(d):
             "filename": filename,
         })
     return results
+
+
+def fetch_daily_index_form4s(d):
+    """Return list of Form 4 / 4/A filings for date d, one row per accession.
+    Empty list on 404/403 (weekend, holiday, or future date — SEC returns 403
+    for non-existent indexes)."""
+    url = daily_index_url(d)
+    try:
+        resp = _get(url)
+    except requests.HTTPError as e:
+        if e.response.status_code in (404, 403):
+            return []
+        raise
+    # Master idx uses Latin-1 for some special chars in company names
+    return _parse_master_idx(resp.content.decode("latin-1"))
 
 
 def fetch_form4_xml(cik, accession_nodash, xml_name=None):

@@ -9,7 +9,7 @@
     {
       "ticker": "RLYB",
       "name": "Rallybio Corp",
-      "total_value": 6536004.9228,
+      "total_value": 2178668.3076,
       "ev_basic": 42681450.0,
       "mc_basic": 74055450.0,
       "rows": [
@@ -85,12 +85,21 @@
           "price": 13.9956,
           "total_value": 491259.55559999996
         }
+      ],
+      "insiders": [
+        {
+          "reporter_name": "ADAR1 Capital Management, LLC",
+          "relationship": "10% Owner",
+          "total_value": 2178668.3076,
+          "shares": 155905.0,
+          "txn_count": 3
+        }
       ]
     },
     {
       "ticker": "ONEW",
       "name": "OneWater Marine Inc.",
-      "total_value": 1677850.2999999998,
+      "total_value": 239692.90000000002,
       "ev_basic": 277073614.9997711,
       "mc_basic": 11614.999771118164,
       "rows": [
@@ -205,6 +214,15 @@
           "shares": 21930.0,
           "price": 10.88,
           "total_value": 238598.40000000002
+        }
+      ],
+      "insiders": [
+        {
+          "reporter_name": "Singleton Philip Austin Jr.",
+          "relationship": "Director, Officer (Executive Chairman), Other (See Remarks)",
+          "total_value": 239692.90000000002,
+          "shares": 22040.0,
+          "txn_count": 2
         }
       ]
     }

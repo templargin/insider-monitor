@@ -7,95 +7,56 @@
   "generated_at": "2026-06-17T14:14:06+00:00",
   "tickers": [
     {
-      "ticker": "VRM",
-      "name": "Vroom, Inc.",
-      "total_value": 2026726.1999999993,
-      "ev_basic": 608171439.2626896,
-      "mc_basic": 44681439.26268959,
-      "insiders": [
-        {
-          "reporter_name": "Mudrick Capital Management, L.P.",
-          "relationship": "Director, 10% Owner",
-          "total_value": 2026726.1999999993,
-          "shares": 280710.0,
-          "txn_count": 18
-        }
-      ]
-    },
-    {
-      "ticker": "FLNT",
-      "name": "Fluent, Inc.",
-      "total_value": 1520126.9610000001,
-      "ev_basic": 105684351.82172394,
-      "mc_basic": 87956351.82172394,
-      "insiders": [
-        {
-          "reporter_name": "GLOBAL VALUE INVESTMENT CORP.",
-          "relationship": "10% Owner",
-          "total_value": 1182322.0248,
-          "shares": 429576.0,
-          "txn_count": 7
-        },
-        {
-          "reporter_name": "GEYGAN JAMES",
-          "relationship": "Director, 10% Owner",
-          "total_value": 337804.9362,
-          "shares": 122736.0,
-          "txn_count": 4
-        }
-      ]
-    },
-    {
       "ticker": "RUBI",
       "name": "Rubico Inc.",
-      "total_value": 787579.912,
+      "total_value": 393789.956,
       "ev_basic": 78468075.53496182,
       "mc_basic": 150075.53496181965,
       "insiders": [
         {
           "reporter_name": "HRT FINANCIAL LP",
           "relationship": "10% Owner",
-          "total_value": 787579.912,
-          "shares": 969926.0,
-          "txn_count": 2
+          "total_value": 393789.956,
+          "shares": 484963.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "ABTC",
       "name": "American Bitcoin Corp.",
-      "total_value": 783000.0,
+      "total_value": 391500.0,
       "ev_basic": 66205705.775310874,
       "mc_basic": 71110705.77531087,
       "insiders": [
         {
           "reporter_name": "Busch Richard",
           "relationship": "Director",
-          "total_value": 783000.0,
-          "shares": 900000.0,
-          "txn_count": 2
+          "total_value": 391500.0,
+          "shares": 450000.0,
+          "txn_count": 1
         }
       ]
     },
     {
-      "ticker": "REI",
-      "name": "RING ENERGY, INC.",
-      "total_value": 676680.2000000001,
-      "ev_basic": 242921050.71167374,
-      "mc_basic": 243961686.71167374,
+      "ticker": "FLNT",
+      "name": "Fluent, Inc.",
+      "total_value": 337805.6145,
+      "ev_basic": 105684351.82172394,
+      "mc_basic": 87956351.82172394,
       "insiders": [
         {
-          "reporter_name": "Johl Sundip Singh",
-          "relationship": "Officer (EVP, Chief Financial Officer)",
-          "total_value": 557680.2000000001,
-          "shares": 462000.0,
-          "txn_count": 2
+          "reporter_name": "GLOBAL VALUE INVESTMENT CORP.",
+          "relationship": "10% Owner",
+          "total_value": 168903.1464,
+          "shares": 61368.0,
+          "txn_count": 1
         },
         {
-          "reporter_name": "McKinney Paul D.",
-          "relationship": "Director, Officer (CEO and Chairman of the Board)",
-          "total_value": 119000.0,
-          "shares": 100000.0,
+          "reporter_name": "GEYGAN JAMES",
+          "relationship": "Director, 10% Owner",
+          "total_value": 168902.4681,
+          "shares": 61368.0,
           "txn_count": 2
         }
       ]
@@ -103,119 +64,80 @@
     {
       "ticker": "SKIL",
       "name": "Skillsoft Corp.",
-      "total_value": 605460.0,
+      "total_value": 302730.0,
       "ev_basic": 510710588.09104204,
       "mc_basic": 58109588.09104204,
       "insiders": [
         {
           "reporter_name": "FRANKOLA JIM",
           "relationship": "Director",
-          "total_value": 605460.0,
-          "shares": 100000.0,
-          "txn_count": 4
+          "total_value": 302730.0,
+          "shares": 50000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "REI",
+      "name": "RING ENERGY, INC.",
+      "total_value": 278840.10000000003,
+      "ev_basic": 242921050.71167374,
+      "mc_basic": 243961686.71167374,
+      "insiders": [
+        {
+          "reporter_name": "Johl Sundip Singh",
+          "relationship": "Officer (EVP, Chief Financial Officer)",
+          "total_value": 278840.10000000003,
+          "shares": 231000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "VRM",
+      "name": "Vroom, Inc.",
+      "total_value": 225191.8,
+      "ev_basic": 608171439.2626896,
+      "mc_basic": 44681439.26268959,
+      "insiders": [
+        {
+          "reporter_name": "Mudrick Capital Management, L.P.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 225191.8,
+          "shares": 31190.0,
+          "txn_count": 2
         }
       ]
     },
     {
       "ticker": "VRA",
       "name": "Vera Bradley, Inc.",
-      "total_value": 409641.7,
+      "total_value": 111846.87000000001,
       "ev_basic": 111247008.0,
       "mc_basic": 113753008.0,
       "insiders": [
         {
           "reporter_name": "Bickley Ian",
           "relationship": "Director, Officer (Chief Executive Officer)",
-          "total_value": 223693.74000000002,
-          "shares": 57802.0,
-          "txn_count": 2
-        },
-        {
-          "reporter_name": "Meslow Andrew",
-          "relationship": "Director",
-          "total_value": 185947.96,
-          "shares": 49852.0,
-          "txn_count": 2
+          "total_value": 111846.87000000001,
+          "shares": 28901.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "LEEEF",
       "name": "Leef Brands Inc.",
-      "total_value": 213530.62,
+      "total_value": 106765.31,
       "ev_basic": 44031120.48721832,
       "mc_basic": 48922535.48721832,
       "insiders": [
         {
           "reporter_name": "Wilson Kevin John",
           "relationship": "Director, Officer (Chief Financial Officer)",
-          "total_value": 213530.62,
-          "shares": 928394.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "NWPP",
-      "name": "NEW PEOPLES BANKSHARES INC",
-      "total_value": 188992.91999999998,
-      "ev_basic": 35185940.68471384,
-      "mc_basic": 103078940.68471384,
-      "insiders": [
-        {
-          "reporter_name": "KEENE HAROLD L",
-          "relationship": "Director, 10% Owner",
-          "total_value": 188992.91999999998,
-          "shares": 43028.0,
-          "txn_count": 4
-        }
-      ]
-    },
-    {
-      "ticker": "NEWT",
-      "name": "NewtekOne, Inc.",
-      "total_value": 142000.0,
-      "ev_basic": 555231557.0326414,
-      "mc_basic": 407776557.0326414,
-      "insiders": [
-        {
-          "reporter_name": "SLOANE BARRY",
-          "relationship": "Director, Officer (President, Chairman & CEO)",
-          "total_value": 142000.0,
-          "shares": 10000.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "ADTX",
-      "name": "Aditxt, Inc.",
-      "total_value": 136088.544,
-      "ev_basic": -263217.1451650462,
-      "mc_basic": 5629.854834953789,
-      "insiders": [
-        {
-          "reporter_name": "HRT FINANCIAL LP",
-          "relationship": "10% Owner",
-          "total_value": 136088.544,
-          "shares": 8505534.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "EU",
-      "name": "enCore Energy Corp.",
-      "total_value": 100800.0,
-      "ev_basic": 397882951.9679265,
-      "mc_basic": 329224951.9679265,
-      "insiders": [
-        {
-          "reporter_name": "HEILI WAYNE W.",
-          "relationship": "Director",
-          "total_value": 100800.0,
-          "shares": 70000.0,
-          "txn_count": 2
+          "total_value": 106765.31,
+          "shares": 464197.0,
+          "txn_count": 1
         }
       ]
     }

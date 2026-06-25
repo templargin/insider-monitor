@@ -9,54 +9,86 @@
     {
       "ticker": "PAR",
       "name": "PAR TECHNOLOGY CORP",
-      "total_value": 30758717.024000015,
+      "total_value": 5257839.504000001,
       "ev_basic": 983338391.7268353,
       "mc_basic": 636016391.7268353,
       "insiders": [
         {
           "reporter_name": "Voss Capital, LP",
           "relationship": "10% Owner",
-          "total_value": 30364557.024000015,
-          "shares": 2100000.0,
-          "txn_count": 108
+          "total_value": 5060759.504000001,
+          "shares": 350000.0,
+          "txn_count": 18
         },
         {
           "reporter_name": "Pascal Keith",
           "relationship": "Director",
-          "total_value": 394160.0,
-          "shares": 26000.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "BLND",
-      "name": "Blend Labs, Inc.",
-      "total_value": 15930927.782399997,
-      "ev_basic": 404064751.7442703,
-      "mc_basic": 441494751.7442703,
-      "insiders": [
-        {
-          "reporter_name": "Haveli Investments, L.P.",
-          "relationship": "Director, 10% Owner",
-          "total_value": 15930927.782399997,
-          "shares": 9255424.0,
-          "txn_count": 24
+          "total_value": 197080.0,
+          "shares": 13000.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "CRVO",
       "name": "CervoMed Inc.",
-      "total_value": 5999999.92,
+      "total_value": 2999999.96,
       "ev_basic": 32064248.831305027,
       "mc_basic": 39955999.83130503,
       "insiders": [
         {
           "reporter_name": "BOGER JOSHUA S",
           "relationship": "Director, 10% Owner",
-          "total_value": 5999999.92,
-          "shares": 1910828.0,
+          "total_value": 2999999.96,
+          "shares": 955414.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BLND",
+      "name": "Blend Labs, Inc.",
+      "total_value": 1991365.9728,
+      "ev_basic": 404064751.7442703,
+      "mc_basic": 441494751.7442703,
+      "insiders": [
+        {
+          "reporter_name": "Haveli Investments, L.P.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 1991365.9728,
+          "shares": 1156928.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "LODE",
+      "name": "Comstock Inc.",
+      "total_value": 1024225.0,
+      "ev_basic": 270801492.1245098,
+      "mc_basic": 323769293.1245098,
+      "insiders": [
+        {
+          "reporter_name": "Pei Steven Yu-Tsung",
+          "relationship": "Director",
+          "total_value": 1024225.0,
+          "shares": 250000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "PTHS",
+      "name": "Pelthos Therapeutics Inc.",
+      "total_value": 999983.2753,
+      "ev_basic": 64334119.767951965,
+      "mc_basic": 96310119.76795197,
+      "insiders": [
+        {
+          "reporter_name": "Davis Todd C",
+          "relationship": "Director",
+          "total_value": 999983.2753,
+          "shares": 35948.0,
           "txn_count": 2
         }
       ]
@@ -64,176 +96,80 @@
     {
       "ticker": "BGDE",
       "name": "Big Digital Energy, Inc.",
-      "total_value": 2491472.9,
+      "total_value": 498294.5800000001,
       "ev_basic": 69205993.36938095,
       "mc_basic": 46461335.36938095,
       "insiders": [
         {
           "reporter_name": "Endeavor Blockchain, LLC",
           "relationship": "10% Owner",
-          "total_value": 2491472.9,
-          "shares": 348350.0,
-          "txn_count": 25
-        }
-      ]
-    },
-    {
-      "ticker": "LODE",
-      "name": "Comstock Inc.",
-      "total_value": 2048450.0,
-      "ev_basic": 270801492.1245098,
-      "mc_basic": 323769293.1245098,
-      "insiders": [
-        {
-          "reporter_name": "Pei Steven Yu-Tsung",
-          "relationship": "Director",
-          "total_value": 2048450.0,
-          "shares": 500000.0,
-          "txn_count": 4
-        }
-      ]
-    },
-    {
-      "ticker": "PTHS",
-      "name": "Pelthos Therapeutics Inc.",
-      "total_value": 1999966.5506000002,
-      "ev_basic": 64334119.767951965,
-      "mc_basic": 96310119.76795197,
-      "insiders": [
-        {
-          "reporter_name": "Davis Todd C",
-          "relationship": "Director",
-          "total_value": 1999966.5506000002,
-          "shares": 71896.0,
-          "txn_count": 4
+          "total_value": 498294.5800000001,
+          "shares": 69670.0,
+          "txn_count": 5
         }
       ]
     },
     {
       "ticker": "ORBS",
       "name": "Eightco Holdings Inc.",
-      "total_value": 367920.0,
+      "total_value": 183960.0,
       "ev_basic": 415245728.43780136,
       "mc_basic": 411292214.43780136,
       "insiders": [
         {
           "reporter_name": "O'Donnell Kevin J",
           "relationship": "Director, Officer (CEO)",
-          "total_value": 367920.0,
-          "shares": 400000.0,
-          "txn_count": 2
+          "total_value": 183960.0,
+          "shares": 200000.0,
+          "txn_count": 1
         }
       ]
     },
     {
       "ticker": "NEWT",
       "name": "NewtekOne, Inc.",
-      "total_value": 312520.0,
+      "total_value": 156260.0,
       "ev_basic": 552741035.1447363,
       "mc_basic": 405286035.1447363,
       "insiders": [
         {
           "reporter_name": "SLOANE BARRY",
           "relationship": "Director, Officer (President, Chairman & CEO)",
-          "total_value": 312520.0,
-          "shares": 22000.0,
-          "txn_count": 6
+          "total_value": 156260.0,
+          "shares": 11000.0,
+          "txn_count": 3
         }
       ]
     },
     {
       "ticker": "EU",
       "name": "enCore Energy Corp.",
-      "total_value": 273768.62,
+      "total_value": 136884.31,
       "ev_basic": 398659873.981235,
       "mc_basic": 330001873.981235,
       "insiders": [
         {
           "reporter_name": "PELIZZA MARK S",
           "relationship": "Director",
-          "total_value": 273768.62,
-          "shares": 199810.0,
-          "txn_count": 4
+          "total_value": 136884.31,
+          "shares": 99905.0,
+          "txn_count": 2
         }
       ]
     },
     {
       "ticker": "CTSO",
       "name": "Cytosorbents Corp",
-      "total_value": 209795.18000000002,
+      "total_value": 104897.59000000001,
       "ev_basic": 43920141.38011384,
       "mc_basic": 31774141.38011384,
       "insiders": [
         {
           "reporter_name": "Chan Phillip P.",
           "relationship": "Director, Officer (Chief Executive Officer)",
-          "total_value": 209795.18000000002,
-          "shares": 522938.0,
-          "txn_count": 4
-        }
-      ]
-    },
-    {
-      "ticker": "ONMD",
-      "name": "OneMedNet Corp",
-      "total_value": 199999.8,
-      "ev_basic": 28030636.532515347,
-      "mc_basic": 28087636.532515347,
-      "insiders": [
-        {
-          "reporter_name": "Kosasa Thomas",
-          "relationship": "Director, 10% Owner",
-          "total_value": 199999.8,
-          "shares": 317460.0,
+          "total_value": 104897.59000000001,
+          "shares": 261469.0,
           "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "OPAL",
-      "name": "OPAL Fuels Inc.",
-      "total_value": 195000.0,
-      "ev_basic": 369918072.1001327,
-      "mc_basic": 46567072.100132704,
-      "insiders": [
-        {
-          "reporter_name": "Sutton Scott McDougald",
-          "relationship": "Director",
-          "total_value": 195000.0,
-          "shares": 100000.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "FLD",
-      "name": "Fold Holdings, Inc.",
-      "total_value": 128730.0,
-      "ev_basic": 21377600.33575678,
-      "mc_basic": 32354071.33575678,
-      "insiders": [
-        {
-          "reporter_name": "Kirkwood Jonathan",
-          "relationship": "Director, 10% Owner",
-          "total_value": 128730.0,
-          "shares": 210000.0,
-          "txn_count": 2
-        }
-      ]
-    },
-    {
-      "ticker": "BZUN",
-      "name": "Baozun Inc.",
-      "total_value": 107800.0,
-      "ev_basic": 514882432.98393035,
-      "mc_basic": 471920432.98393035,
-      "insiders": [
-        {
-          "reporter_name": "Qiu Wenbin",
-          "relationship": "Director, Officer (Chief Executive Officer)",
-          "total_value": 107800.0,
-          "shares": 40000.0,
-          "txn_count": 4
         }
       ]
     }
