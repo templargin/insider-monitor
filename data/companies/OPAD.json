@@ -838,10 +838,15 @@
     "options": 1095000,
     "warrants": 2881904,
     "cash": 40823000,
-    "debt": null,
+    "debt": 80433000,
     "ttm_revenue": 533769000,
     "mc_basic": 28986918.09706205,
-    "ev_basic": -11836081.902937949
+    "ev_basic": 68596918.09706205,
+    "debt_flag": {
+      "reason": "debt_tags_overlap_clamped",
+      "amount": 136826000,
+      "concept": null
+    }
   },
   "financials": {
     "income_statement": {

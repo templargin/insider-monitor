@@ -1037,7 +1037,12 @@
     "debt": 3200000,
     "ttm_revenue": 34073000,
     "mc_basic": 760027137.8950996,
-    "ev_basic": 417156137.89509964
+    "ev_basic": 417156137.89509964,
+    "debt_flag": {
+      "reason": "financial_institution",
+      "amount": null,
+      "concept": null
+    }
   },
   "financials": {
     "income_statement": {

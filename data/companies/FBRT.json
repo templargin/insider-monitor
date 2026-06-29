@@ -516,10 +516,15 @@
     "options": 0,
     "warrants": 0,
     "cash": 115600000,
-    "debt": 0,
+    "debt": 2847029000,
     "ttm_revenue": 263332000,
     "mc_basic": 644957730.980442,
-    "ev_basic": 529357730.98044205
+    "ev_basic": 3376386730.980442,
+    "debt_flag": {
+      "reason": "unexplained_liabilities",
+      "amount": 1732002000,
+      "concept": null
+    }
   },
   "financials": {
     "income_statement": {

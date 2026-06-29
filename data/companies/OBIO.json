@@ -1723,7 +1723,12 @@
     "debt": 15000000,
     "ttm_revenue": 2675000,
     "mc_basic": 242522874.8214841,
-    "ev_basic": 229155874.8214841
+    "ev_basic": 229155874.8214841,
+    "debt_flag": {
+      "reason": "unexplained_liabilities",
+      "amount": 8333000,
+      "concept": null
+    }
   },
   "financials": {
     "income_statement": {

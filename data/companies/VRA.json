@@ -1202,10 +1202,11 @@
     "options": 0,
     "warrants": 0,
     "cash": 12506000,
-    "debt": 10000000,
+    "debt": null,
     "ttm_revenue": 269651000,
     "mc_basic": 113753008.0,
-    "ev_basic": 111247008.0
+    "ev_basic": 101247008.0,
+    "debt_flag": null
   },
   "financials": {
     "income_statement": {

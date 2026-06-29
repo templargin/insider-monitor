@@ -656,10 +656,11 @@
     "options": 22000,
     "warrants": 0,
     "cash": 71529000,
-    "debt": 0,
+    "debt": null,
     "ttm_revenue": 386736000,
     "mc_basic": 138766550.1100731,
-    "ev_basic": 67237550.11007309
+    "ev_basic": 67237550.11007309,
+    "debt_flag": null
   },
   "financials": {
     "income_statement": {

@@ -4926,10 +4926,11 @@
     "options": 34962000,
     "warrants": 11709000,
     "cash": 37430000,
-    "debt": 0,
+    "debt": null,
     "ttm_revenue": 123585000,
     "mc_basic": 441494751.7442703,
-    "ev_basic": 404064751.7442703
+    "ev_basic": 404064751.7442703,
+    "debt_flag": null
   },
   "financials": {
     "income_statement": {
