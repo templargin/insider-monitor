@@ -215,6 +215,8 @@ def debt_flag_text(flag):
                 if amt_s else "some liabilities are unclassified")
     if reason == "financial_institution":
         return "deposit-funded financial institution — debt/EV not a meaningful metric"
+    if reason == "debt_from_footnote_total":
+        return "taken from the debt-footnote total (filer tags no balance-sheet debt line)"
     return "see filing"
 
 

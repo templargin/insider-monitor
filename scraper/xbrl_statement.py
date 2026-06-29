@@ -225,6 +225,15 @@ def _reported_liabilities(facts, as_of):
     return (cur or 0) + (non or 0)
 
 
+def _named_nondebt(pool, liab):
+    """Sum of named non-debt liabilities in `pool`, bounded by total liabilities.
+    Asset-side look-alikes (_NONLIAB_HINT) are excluded; the pool carries both
+    sides of the sheet."""
+    nd = sum(v for n, v in pool.items()
+             if _NONDEBT_LIAB_PAT.search(n) and not _is_debt(n) and not _NONLIAB_HINT.search(n))
+    return min(nd, liab) if (liab and liab > 0) else nd
+
+
 def get_structured_debt(facts):
     """Total interest-bearing debt on the current balance sheet.
 
@@ -241,16 +250,25 @@ def get_structured_debt(facts):
         return None, None, None
 
     pool = _instant_liability_concepts(facts, as_of)        # one scan, reused below
-    raw_debt, detail, largest = _debt_from_facts(pool)
-    if not detail:
-        return None, as_of, None                # filer reports no debt-shaped tag
-
     liab = _reported_liabilities(facts, as_of)
-    named_nondebt = sum(v for n, v in pool.items()
-                        if _NONDEBT_LIAB_PAT.search(n) and not _is_debt(n)
-                        and not _NONLIAB_HINT.search(n))
-    if liab and liab > 0:
-        named_nondebt = min(named_nondebt, liab)   # can't exceed total liabilities
+    raw_debt, detail, largest = _debt_from_facts(pool)
+
+    if not detail:
+        # No face-of-balance-sheet debt line. Before declaring the filer debt-free
+        # (the path that used to silently return $0 for EPSN), fall back to the
+        # debt-footnote total carrying amount, which is the only place EPSN and
+        # peers tag their $45.5M. Filers genuinely without any debt tag return
+        # None; the negative case is covered by `scripts.audit_debt_free`, not a
+        # per-page flag (large non-debt liabilities — custodial, insurance — would
+        # otherwise false-alarm).
+        dica = (pool.get("DebtInstrumentCarryingAmount")
+                or pool.get("DebtInstrumentCarryingAmountNoncurrent"))
+        if dica and dica > 0:
+            return (min(dica, liab) if (liab and liab > 0) else dica), as_of, \
+                {"reason": "debt_from_footnote_total", "amount": None, "concept": None}
+        return None, as_of, None
+
+    named_nondebt = _named_nondebt(pool, liab)
 
     # Hard bound: total debt cannot exceed total liabilities. When the raw tier
     # sum violates that *and* exceeds its single biggest component, overlapping
