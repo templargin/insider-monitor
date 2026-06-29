@@ -139,6 +139,21 @@ def _instant_liability_concepts(facts, as_of):
 
 # ---- recognizer path (no linkbase): pattern over the current sheet ------------
 
+def _drop_family_subtotals(matched):
+    """Drop component tags whose parent subtotal is also reported, beyond the
+    fixed tier sets — e.g. ANGX reports `NotesPayable` $102M (the total) AND its
+    parts `LongTermNotesPayable` $62M + `NotesPayableCurrent` $40M; summing all
+    three double-counts to $205M. A tag P is a family subtotal when its local
+    name is contained in >=2 other matched tags whose values sum to P's value
+    (within 2%); those children are dropped. Filer-agnostic: no per-family list."""
+    drop = set()
+    for p, pv in matched.items():
+        kids = [c for c in matched if c != p and p in c]
+        if len(kids) >= 2 and abs(sum(matched[c] for c in kids) - pv) <= 0.02 * max(pv, 1):
+            drop.update(kids)
+    return {n: v for n, v in matched.items() if n not in drop}
+
+
 def _debt_from_facts(pool):
     """(debt, [(name, val)], largest) from the borrowing tags in `pool` (the
     USD instant facts on the balance-sheet date).
@@ -150,6 +165,7 @@ def _debt_from_facts(pool):
     matched = {n: v for n, v in pool.items() if _is_debt(n) and v > 0}
     if not matched:
         return 0, [], 0
+    matched = _drop_family_subtotals(matched)
 
     leases = _lease_total(matched)
     nonlease = {n: v for n, v in matched.items() if not _is_lease(n)}
