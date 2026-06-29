@@ -9,18 +9,22 @@ plug — silently. This module replaces that with:
   Move 2 — classify by the us-gaap debt hierarchy, not a leaf allow-list.
   Borrowings are recognized by concept *family* (``LineOfCredit``,
   ``SeniorNotes``, ``ConvertibleNotesPayable``, finance leases, …) and deduped by
-  *tier* — a reported subtotal subsumes the instruments beneath it — over only
-  the current balance sheet (date-anchored, move 1). Whole families come along at
-  once, so there is no per-leaf list to extend.
+  *tier* (a reported subtotal subsumes the instruments beneath it) plus
+  ``_drop_family_subtotals`` for parent/child overlaps outside the fixed tiers,
+  over only the current balance sheet (date-anchored, move 1). When a filer tags
+  no balance-sheet debt line, the debt-footnote total carrying amount is used as
+  a fallback. Whole families come along at once, so there is no per-leaf list.
 
   Move 3 — flag, never plug. Reconcile recognized debt against the filer's own
-  reported total liabilities. A material borrowing-shaped residual is surfaced
-  (``flag``) instead of being absorbed into "Other" — including debt under the
-  filer's custom namespace, which companyfacts doesn't carry and which therefore
-  shows up as an unexplained slice of total liabilities.
+  reported total liabilities and surface residual uncertainty (``flag``) instead
+  of absorbing it into "Other": overlap clamps, footnote-total fallbacks, and
+  bank/thrift balance sheets are all flagged on the page.
 
 Values are read from companyfacts at the balance-sheet date (move-1 anchoring),
-so abandoned/stale tags can't leak in.
+so abandoned/stale tags can't leak in. companyfacts carries only standard
+taxonomies, so debt under a filer's custom namespace is invisible here — the
+debt-free set is adversarially checked by ``scripts.audit_debt_free`` and
+reported figures by ``scripts.audit_debt_value`` rather than caught per-page.
 """
 import re
 
