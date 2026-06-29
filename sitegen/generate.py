@@ -200,6 +200,24 @@ def _compute_multiples(c, fd_mc, fd_ev):
     }
 
 
+def debt_flag_text(flag):
+    """Human-readable move-3 debt-uncertainty note from the structured-debt flag."""
+    if not flag:
+        return ""
+    reason = flag.get("reason")
+    amt = flag.get("amount")
+    amt_s = money_m(amt) if amt else None
+    if reason == "debt_tags_overlap_clamped":
+        return ("overlapping debt tags exceeded total liabilities; clamped to a"
+                + (f" defensible bound (≈{amt_s} dropped)" if amt_s else " defensible bound"))
+    if reason == "unexplained_liabilities":
+        return (f"{amt_s} of liabilities are neither recognized debt nor a named non-debt item"
+                if amt_s else "some liabilities are unclassified")
+    if reason == "financial_institution":
+        return "deposit-funded financial institution — debt/EV not a meaningful metric"
+    return "see filing"
+
+
 _env = None
 
 
@@ -221,6 +239,7 @@ def get_env():
         _env.filters["fin_cell"] = fin_cell
         _env.filters["shares_m"] = shares_m
         _env.filters["multiple"] = multiple
+        _env.filters["debt_flag_text"] = debt_flag_text
     return _env
 
 

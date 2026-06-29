@@ -16,7 +16,11 @@ def _facts_for_tag(companyfacts, tag, namespace="us-gaap", units="USD"):
 def latest_value(companyfacts, tags, namespace="us-gaap", units="USD"):
     """Return latest (val, end_date_str) across all listed tags, or (None, None).
 
-    Considers the most recent fact across all candidate tags.
+    Considers the most recent fact across all candidate tags. NOTE: for
+    point-in-time balance-sheet items prefer `instant_value_at` anchored to
+    `balance_sheet_date` — `latest_value` has no date anchor, so a tag a filer
+    abandoned years ago (e.g. REI/AVD still carrying a 2016 `LongTermDebt` fact)
+    will mask the current balance sheet.
     """
     best_val, best_end = None, None
     for tag in tags:
@@ -27,6 +31,52 @@ def latest_value(companyfacts, tags, namespace="us-gaap", units="USD"):
             if best_end is None or end > best_end:
                 best_val, best_end = f.get("val"), end
     return best_val, best_end
+
+
+# Balance-sheet subtotal concepts that essentially every filer reports, used to
+# pin down the current reporting date. `Assets` alone is near-universal; the rest
+# are fallbacks for unusual sheets.
+BS_ANCHOR_TAGS = ["Assets", "LiabilitiesAndStockholdersEquity", "Liabilities",
+                  "StockholdersEquity", "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"]
+
+
+def balance_sheet_date(companyfacts):
+    """Period-end of the most recent balance sheet — the anchor date for every
+    point-in-time (instant) read. Returns an ISO date string or None.
+
+    Anchoring instant reads to this date is what prevents a tag a filer stopped
+    using years ago from leaking into the current figures (the stale-fact bug
+    that made REI read $0 debt off a 2016 `LongTermDebt` fact, and AVD read a
+    2016 number while its real $266M sat in the current component tag).
+    """
+    best = None
+    for tag in BS_ANCHOR_TAGS:
+        for f in _facts_for_tag(companyfacts, tag):
+            if "start" in f:                 # instant facts only (skip durations)
+                continue
+            end = f.get("end", "")
+            if end and (best is None or end > best):
+                best = end
+    return best
+
+
+def instant_value_at(companyfacts, tags, as_of, namespace="us-gaap", units="USD"):
+    """Value of the first listed tag that has an instant fact dated exactly `as_of`.
+
+    Tags are tried in priority order; returns (val, as_of) or (None, None). A tag
+    with no fact on `as_of` is, by definition, not on the current balance sheet,
+    so it is correctly ignored rather than substituted with a stale value. When a
+    period-end carries more than one fact (an original + a later restatement),
+    the latest-filed value wins.
+    """
+    if not as_of:
+        return None, None
+    for tag in tags:
+        cands = [f for f in _facts_for_tag(companyfacts, tag, namespace, units)
+                 if f.get("end") == as_of and "start" not in f]
+        if cands:
+            return max(cands, key=lambda f: f.get("filed", "")).get("val"), as_of
+    return None, None
 
 
 # ---- specific extractors ----
@@ -78,28 +128,44 @@ WARRANT_TAGS = [
 ]
 
 
-def get_cash(facts):
-    v, end = latest_value(facts, CASH_TAGS)
+def get_cash(facts, as_of=None):
+    """Cash on the current balance sheet, anchored to the balance-sheet date.
+
+    Falls back to the latest cash fact only when no anchor date is available
+    (e.g. a filer with no `Assets` tag), never to a value off a different date.
+    """
+    if as_of is None:
+        as_of = balance_sheet_date(facts)
+    v, end = instant_value_at(facts, CASH_TAGS, as_of)
+    if v is None:           # no cash fact on the anchor date — fall back to latest
+        v, end = latest_value(facts, CASH_TAGS)
     return v, end
 
 
-def get_total_debt(facts):
-    """Return (total_debt_usd, as_of_date). Tries aggregate tags first, then sum of components.
+def get_total_debt(facts, as_of=None):
+    """Total debt on the *current* balance sheet, anchored to the balance-sheet
+    date so abandoned/stale tags can't leak in.
 
-    Returns (None, None) if no debt tags found (which we treat as 0 for screener since
-    no-debt cos exist; but the page should flag uncertainty).
+    Tries the aggregate tags first, then the sum of long- + short-term
+    components — but only facts dated on the current balance sheet date count.
+    Returns (total_debt_usd, as_of) or (None, None) when the filer reports none
+    of these tags on the current sheet.
+
+    This anchoring is move 1 of the structured-debt fix: it kills the stale-fact
+    bug (a 2016 `LongTermDebt` no longer short-circuits a 2026 sheet). It does
+    NOT by itself capture debt the filer reports under a tag outside these
+    ladders (e.g. `LineOfCredit`, `SeniorNotes`) — see get_structured_debt.
     """
-    val, end = latest_value(facts, DEBT_AGGREGATE_TAGS)
+    if as_of is None:
+        as_of = balance_sheet_date(facts)
+    val, end = instant_value_at(facts, DEBT_AGGREGATE_TAGS, as_of)
     if val is not None:
         return val, end
-    # Sum components
-    long_val, long_end = latest_value(facts, DEBT_LONG_TAGS)
-    short_val, short_end = latest_value(facts, DEBT_SHORT_TAGS)
+    long_val, _ = instant_value_at(facts, DEBT_LONG_TAGS, as_of)
+    short_val, _ = instant_value_at(facts, DEBT_SHORT_TAGS, as_of)
     if long_val is None and short_val is None:
         return None, None
-    total = (long_val or 0) + (short_val or 0)
-    end_date = max(filter(None, [long_end, short_end]), default=None)
-    return total, end_date
+    return (long_val or 0) + (short_val or 0), as_of
 
 
 def get_basic_shares(facts):

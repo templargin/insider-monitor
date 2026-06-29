@@ -10,7 +10,7 @@ from pathlib import Path
 
 import requests
 
-from . import edgar, filters, xbrl_facts, financials, xbrl_financials, footnotes, buckets
+from . import edgar, filters, xbrl_facts, xbrl_statement, financials, xbrl_financials, footnotes, buckets
 
 
 class DataUnavailable(Exception):
@@ -100,7 +100,9 @@ def screener_pass(cik, ticker, bucket_data):
         raise DataUnavailable(f"no companyfacts for CIK {cik}")
     shares, sh_end = xbrl_facts.get_basic_shares(facts)
     cash, _ = xbrl_facts.get_cash(facts)
-    debt, _ = xbrl_facts.get_total_debt(facts)
+    # Structured debt: date-anchored, classified by the us-gaap debt hierarchy,
+    # bounded by reported liabilities, with a move-3 uncertainty flag.
+    debt, _, debt_flag = xbrl_statement.get_structured_debt(facts)
     ttm_rev, _ = xbrl_facts.get_ttm_revenue(facts)
 
     if shares is None or shares <= 0:
@@ -127,6 +129,7 @@ def screener_pass(cik, ticker, bucket_data):
         "share_price": price,
         "mc_basic": mc_basic,
         "ev_basic": ev,
+        "debt_flag": debt_flag,
     }
 
 
@@ -138,6 +141,9 @@ def update_company_data(ticker, cik, screener_snapshot):
     facts = screener_snapshot["facts"]
     options, _ = xbrl_facts.get_options_outstanding(facts)
     warrants, _ = xbrl_facts.get_warrants_outstanding(facts)
+
+    debt = screener_snapshot["debt"]
+    debt_flag = screener_snapshot.get("debt_flag")
 
     # Pull 2y of Form 4 filings via the submissions JSON
     cutoff = (date.today() - timedelta(days=730)).isoformat()
@@ -216,7 +222,8 @@ def update_company_data(ticker, cik, screener_snapshot):
             "options": final_options,
             "warrants": final_warrants,
             "cash": screener_snapshot["cash"],
-            "debt": screener_snapshot["debt"],
+            "debt": debt,
+            "debt_flag": debt_flag,
             "ttm_revenue": screener_snapshot["ttm_revenue"],
             "mc_basic": screener_snapshot["mc_basic"],
             "ev_basic": screener_snapshot["ev_basic"],
