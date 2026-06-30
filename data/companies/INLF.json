@@ -1,0 +1,625 @@
+{
+  "ticker": "INLF",
+  "cik": "1991592",
+  "name": "INLIF Ltd",
+  "description": "INLIF Limited, through its subsidiaries, engages in the research, development, manufacture, and sale of injection molding machine-dedicated manipulator arms under the iNLIF brand in the People's Republic of China. The company offers transverse single and double-axis manipulator arms, transverse and longitudinal multi-axis manipulator arms, and large bullhead multi-axis manipulator arms, as well as manipulator arms accessories, including conveyor belt clamps, welded bases, and reducer mounting plates. It also provides installation and warranty services, as well as raw materials for manipulator arms. The company was founded in 2016 and is based in Quanzhou, the People's Republic of China.",
+  "form4_filings": [
+    {
+      "date_filed": "2026-06-29",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-26",
+      "code": "P",
+      "shares": 1689946.0,
+      "price": 0.056,
+      "total_value": 94636.976,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000115"
+    },
+    {
+      "date_filed": "2026-06-29",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-25",
+      "code": "P",
+      "shares": 1781958.0,
+      "price": 0.03,
+      "total_value": 53458.74,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000115"
+    },
+    {
+      "date_filed": "2026-06-29",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-24",
+      "code": "P",
+      "shares": 948910.0,
+      "price": 0.043,
+      "total_value": 40803.13,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000115"
+    }
+  ],
+  "valuation": {
+    "share_price": 0.06599999964237213,
+    "shares_basic": 6400000,
+    "shares_basic_as_of": "2025-12-31",
+    "options": null,
+    "warrants": null,
+    "cash": 6717787,
+    "debt": 4618839,
+    "debt_flag": {
+      "reason": "debt_tags_overlap_clamped",
+      "amount": 9310372,
+      "concept": null
+    },
+    "ttm_revenue": 18406849,
+    "mc_basic": 422399.99771118164,
+    "ev_basic": -1676548.0022888184
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            18406849,
+            15796983,
+            12610873,
+            6652308
+          ],
+          [
+            16.521293971133602,
+            25.264785395903996,
+            89.57139386811315,
+            null
+          ],
+          [
+            14113060,
+            11212817,
+            8451336,
+            4358426
+          ],
+          [
+            4293789,
+            4584166,
+            4159537,
+            2293882
+          ],
+          [
+            -6.3343474036498675,
+            10.20856407816543,
+            81.33177731025397,
+            null
+          ],
+          [
+            23.327126766781213,
+            29.0192500681934,
+            32.98373554313012,
+            34.48249840506483
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            8043901,
+            1703471,
+            1412211,
+            1139041
+          ],
+          [
+            2067322,
+            1563059,
+            1362058,
+            504711
+          ],
+          [
+            10111223,
+            3296530,
+            2774269,
+            1643752
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -5817434,
+            1287636,
+            1385268,
+            650130
+          ],
+          [
+            -551.7918107291191,
+            -7.047878100122142,
+            113.07553873840617,
+            null
+          ],
+          [
+            -31.60472495862817,
+            8.15115139390857,
+            10.984711367722124,
+            9.7729990854302
+          ],
+          [
+            -5528170,
+            1635613,
+            1752297,
+            1038363
+          ],
+          [
+            -30.033222959562497,
+            10.353958094403216,
+            13.895128434010873,
+            15.609063801615921
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            157277,
+            196304,
+            146386,
+            82672
+          ],
+          [
+            528062,
+            529995,
+            null,
+            null
+          ],
+          [
+            -5446649,
+            1621327,
+            1363859,
+            537132
+          ],
+          [
+            -397,
+            14838,
+            11348,
+            -423
+          ],
+          [
+            -5446252,
+            1606489,
+            1352511,
+            537555
+          ],
+          [
+            -29.588182094610545,
+            10.169593776229297,
+            10.724959326765086,
+            8.080729274711874
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.33,
+            0.13,
+            0.11,
+            0.04
+          ],
+          [
+            -0.33,
+            0.13,
+            0.11,
+            0.04
+          ],
+          [
+            16571233,
+            12500000,
+            12500000,
+            12500000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            6717787,
+            2467638,
+            598933,
+            84961
+          ],
+          [
+            5906938,
+            3840120,
+            3789214,
+            null
+          ],
+          [
+            5497426,
+            5300458,
+            4493042,
+            null
+          ],
+          [
+            null,
+            1643158,
+            null,
+            null
+          ],
+          [
+            18230893,
+            13251374,
+            9375402,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4248793,
+            3037312,
+            3397167,
+            null
+          ],
+          [
+            40315,
+            43773,
+            50297,
+            null
+          ],
+          [
+            2257351,
+            2135333,
+            3198377,
+            null
+          ],
+          [
+            24777352,
+            18467792,
+            16021243,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3286866,
+            3132613,
+            2546418,
+            null
+          ],
+          [
+            5340249,
+            5068645,
+            4511820,
+            null
+          ],
+          [
+            8627115,
+            8201258,
+            7058238,
+            null
+          ],
+          [
+            8642483,
+            8201258,
+            7058238,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2244434,
+            3201818,
+            1756183,
+            null
+          ],
+          [
+            16134869,
+            10266534,
+            8963005,
+            7837772
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -5446252,
+            1606489,
+            1352511,
+            537555
+          ],
+          [
+            289264,
+            347977,
+            367029,
+            388233
+          ],
+          [
+            5142000,
+            null,
+            null,
+            null
+          ],
+          [
+            -1875624,
+            -375083,
+            -1319302,
+            313240
+          ],
+          [
+            -1890612,
+            1579383,
+            400238,
+            1239028
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -192531,
+            -25759,
+            -219121,
+            -18165
+          ],
+          [
+            -204157,
+            320644,
+            -218132,
+            -18165
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            7030759,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            -1719343
+          ],
+          [
+            6867379,
+            224396,
+            463463,
+            -1719343
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -522461,
+            -255718,
+            -131597,
+            397892
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2083143,
+            1553624,
+            181117,
+            1220863
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            2.1132085291548797,
+            1.6157733362369529,
+            1.3282921318323355,
+            null
+          ],
+          [
+            1.4759820635287695,
+            0.9694751707603882,
+            0.6917250452591709,
+            null
+          ],
+          [
+            0.5356401096284079,
+            0.798834153766013,
+            0.7874856702634886,
+            null
+          ],
+          [
+            -30.033222959562497,
+            10.353958094403216,
+            13.895128434010873,
+            15.609063801615921
+          ],
+          [
+            9603778,
+            5050116,
+            2317164,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -33.75454737190615,
+            15.647822332249618,
+            15.089927987321216,
+            6.85851795637842
+          ],
+          [
+            -21.980766952013273,
+            8.698868819835095,
+            8.441985431467458,
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-06-30T10:34:24+00:00"
+}

@@ -5,6 +5,76 @@
   "description": "Gran Tierra Energy Inc., together with its subsidiaries, is involved in the exploration and production of oil and gas properties in Colombia, Canada, and Ecuador. The company has a strategic partnership with Ecopetrol S.A. for the development of fields in the Middle Magdalena Valley. The company was founded in 2003 and is headquartered in Calgary, Canada.",
   "form4_filings": [
     {
+      "date_filed": "2026-06-29",
+      "reporter_name": "LM Asset Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-25",
+      "code": "P",
+      "shares": 32000.0,
+      "price": 6.0355,
+      "total_value": 193136.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000935836-26-000335"
+    },
+    {
+      "date_filed": "2026-06-18",
+      "reporter_name": "Abraham Phillip D",
+      "relationship": "Officer (EVP, Legal and Land)",
+      "transaction_date": "2026-06-16",
+      "code": "A",
+      "shares": 312.0,
+      "price": 7.64,
+      "total_value": 2383.68,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-075653"
+    },
+    {
+      "date_filed": "2026-06-18",
+      "reporter_name": "Evans Jim",
+      "relationship": "Officer (EVP, Corporate Services)",
+      "transaction_date": "2026-06-16",
+      "code": "A",
+      "shares": 176.0,
+      "price": 7.64,
+      "total_value": 1344.6399999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-075651"
+    },
+    {
+      "date_filed": "2026-06-18",
+      "reporter_name": "Guidry Gary",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-06-16",
+      "code": "A",
+      "shares": 546.0,
+      "price": 7.64,
+      "total_value": 4171.44,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-075650"
+    },
+    {
+      "date_filed": "2026-06-18",
+      "reporter_name": "Morin Sebastien",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-06-16",
+      "code": "A",
+      "shares": 585.0,
+      "price": 7.64,
+      "total_value": 4469.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-075648"
+    },
+    {
       "date_filed": "2026-06-09",
       "reporter_name": "LM Asset Management Inc.",
       "relationship": "10% Owner",
@@ -6401,90 +6471,20 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001104659-24-077723"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "Abraham Phillip D",
-      "relationship": "Officer (VP, Legal and Business Dev.)",
-      "transaction_date": "2024-06-19",
-      "code": "A",
-      "shares": 205.0,
-      "price": 9.61,
-      "total_value": 1970.05,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-073071"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "Evans Jim",
-      "relationship": "Officer (VP, Corporate Services)",
-      "transaction_date": "2024-06-19",
-      "code": "A",
-      "shares": 126.0,
-      "price": 9.61,
-      "total_value": 1210.86,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-073065"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "Morin Sebastien",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-06-19",
-      "code": "A",
-      "shares": 316.0,
-      "price": 9.61,
-      "total_value": 3036.7599999999998,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-073061"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "Ellson Ryan",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-06-19",
-      "code": "A",
-      "shares": 158.0,
-      "price": 9.61,
-      "total_value": 1518.3799999999999,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-073058"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "Guidry Gary",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-06-19",
-      "code": "A",
-      "shares": 442.0,
-      "price": 9.61,
-      "total_value": 4247.62,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-073049"
     }
   ],
   "valuation": {
-    "share_price": 7.724999904632568,
+    "share_price": 6.210000038146973,
     "shares_basic": 35359890,
     "shares_basic_as_of": "2026-05-05",
     "options": 628209,
     "warrants": 0,
     "cash": 124752000,
     "debt": 574354000,
+    "debt_flag": null,
     "ttm_revenue": 644325000,
-    "mc_basic": 273155146.8778181,
-    "ev_basic": 722757146.8778181,
-    "debt_flag": null
+    "mc_basic": 219584918.24887276,
+    "ev_basic": 669186918.2488728
   },
   "financials": {
     "income_statement": {
@@ -7597,5 +7597,5 @@
       }
     }
   },
-  "last_updated": "2026-06-10T14:03:06+00:00"
+  "last_updated": "2026-06-30T10:34:23+00:00"
 }
