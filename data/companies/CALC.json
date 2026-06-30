@@ -6,20 +6,6 @@
   "form4_filings": [
     {
       "date_filed": "2026-06-29",
-      "reporter_name": "Roberts Eric W",
-      "relationship": "Director, Officer (CHIEF BUSINESS OFFICER), 10% Owner",
-      "transaction_date": "2026-06-25",
-      "code": "A",
-      "shares": 186729.0,
-      "price": 0.8033,
-      "total_value": 149999.4057,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001576244-26-000004"
-    },
-    {
-      "date_filed": "2026-06-29",
       "reporter_name": "Middleton Fred A",
       "relationship": "Director, 10% Owner",
       "transaction_date": "2026-06-25",
@@ -59,6 +45,20 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001189022-26-000002"
+    },
+    {
+      "date_filed": "2026-06-29",
+      "reporter_name": "Roberts Eric W",
+      "relationship": "Director, Officer (CHIEF BUSINESS OFFICER), 10% Owner",
+      "transaction_date": "2026-06-25",
+      "code": "A",
+      "shares": 186729.0,
+      "price": 0.8033,
+      "total_value": 149999.4057,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001576244-26-000004"
     },
     {
       "date_filed": "2026-06-29",
@@ -2476,5 +2476,5 @@
       }
     }
   },
-  "last_updated": "2026-06-30T10:32:59+00:00"
+  "last_updated": "2026-06-30T12:31:38+00:00"
 }
