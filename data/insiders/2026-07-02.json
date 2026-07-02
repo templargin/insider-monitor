@@ -1,0 +1,58 @@
+{
+  "url_date": "2026-07-02",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-07-01"
+  ],
+  "generated_at": "2026-07-02T10:34:18+00:00",
+  "tickers": [
+    {
+      "ticker": "JCTC",
+      "name": "JEWETT CAMERON TRADING CO LTD",
+      "total_value": 848513.46,
+      "ev_basic": 12493728.403570414,
+      "mc_basic": 8765081.403570414,
+      "insiders": [
+        {
+          "reporter_name": "Bradley Melinda Hodges",
+          "relationship": "10% Owner",
+          "total_value": 848513.46,
+          "shares": 371390.0,
+          "txn_count": 5
+        }
+      ]
+    },
+    {
+      "ticker": "FGBI",
+      "name": "First Guaranty Bancshares, Inc.",
+      "total_value": 794116.0599999999,
+      "ev_basic": -351987658.2113266,
+      "mc_basic": 165630341.7886734,
+      "insiders": [
+        {
+          "reporter_name": "Smith Edgar R. III",
+          "relationship": "Director, 10% Owner",
+          "total_value": 794116.0599999999,
+          "shares": 74846.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Ltd",
+      "total_value": 186831.168,
+      "ev_basic": -1887748.0011444092,
+      "mc_basic": 211199.99885559082,
+      "insiders": [
+        {
+          "reporter_name": "HRT FINANCIAL LP",
+          "relationship": "10% Owner",
+          "total_value": 186831.168,
+          "shares": 2919237.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ]
+}
