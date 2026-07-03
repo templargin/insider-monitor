@@ -1,0 +1,74 @@
+{
+  "url_date": "2026-07-03",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-07-02"
+  ],
+  "generated_at": "2026-07-03T10:37:47+00:00",
+  "tickers": [
+    {
+      "ticker": "BGDE",
+      "name": "Big Digital Energy, Inc.",
+      "total_value": 16700000.0,
+      "ev_basic": 65305532.346904755,
+      "mc_basic": 41133326.346904755,
+      "insiders": [
+        {
+          "reporter_name": "Endeavor Blockchain, LLC",
+          "relationship": "10% Owner",
+          "total_value": 16700000.0,
+          "shares": 16700.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "HDSN",
+      "name": "HUDSON TECHNOLOGIES INC /NY",
+      "total_value": 4477207.1316,
+      "ev_basic": 232626030.49121857,
+      "mc_basic": 251992030.49121857,
+      "insiders": [
+        {
+          "reporter_name": "Hartree Partners, LP",
+          "relationship": "10% Owner",
+          "total_value": 4477207.1316,
+          "shares": 764202.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "CREX",
+      "name": "CREATIVE REALITIES, INC.",
+      "total_value": 700000.0,
+      "ev_basic": 109400127.73243713,
+      "mc_basic": 43220127.732437134,
+      "insiders": [
+        {
+          "reporter_name": "MILLS RICHARD C",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 700000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SLGL",
+      "name": "Sol-Gel Technologies Ltd.",
+      "total_value": 123219.85999999999,
+      "ev_basic": 195170559.5318756,
+      "mc_basic": 206203559.5318756,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 123219.85999999999,
+          "shares": 1712.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ]
+}

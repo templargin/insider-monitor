@@ -5,6 +5,20 @@
   "description": "Big Digital Energy, Inc., a technology company, designs, develops, and operates digital infrastructure platforms in the United States. The company offers artificial intelligence and high-performance computing; digital asset colocation; and technology and information systems. The company was formerly known as Mawson Infrastructure Group Inc. and changed its name to Big Digital Energy, Inc. in April 2026. Big Digital Energy, Inc. is based in Midland, Pennsylvania.",
   "form4_filings": [
     {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "P",
+      "shares": 16700.0,
+      "price": 1000.0,
+      "total_value": 16700000.0,
+      "security_title": "Series D Convertible Preferred Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000912282-26-000910"
+    },
+    {
       "date_filed": "2026-06-15",
       "reporter_name": "Endeavor Blockchain, LLC",
       "relationship": "10% Owner",
@@ -1756,17 +1770,17 @@
     }
   ],
   "valuation": {
-    "share_price": 8.414999961853027,
+    "share_price": 7.449999809265137,
     "shares_basic": 5521252,
     "shares_basic_as_of": "2026-05-07",
     "options": 70000,
     "warrants": 4480839,
     "cash": 2439705,
     "debt": 26611911,
+    "debt_flag": null,
     "ttm_revenue": 41342565,
-    "mc_basic": 46461335.36938095,
-    "ev_basic": 70633541.36938095,
-    "debt_flag": null
+    "mc_basic": 41133326.346904755,
+    "ev_basic": 65305532.346904755
   },
   "financials": {
     "income_statement": {
@@ -2955,5 +2969,5 @@
       }
     }
   },
-  "last_updated": "2026-06-16T15:35:45+00:00"
+  "last_updated": "2026-07-03T10:38:06+00:00"
 }
