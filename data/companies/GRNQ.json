@@ -5,6 +5,20 @@
   "description": "Greenpro Capital Corp. provides financial consulting and corporate services primarily in Hong Kong, China, Malaysia, Singapore, Indonesia, Thailand, Japan, Taiwan, the United Kingdom, and the United States. The company operates through Service Business, Digital Business, and Real Estate Business segments. It offers business consulting and corporate advisory services, including cross-border listing advisory, tax planning, bookkeeping, advisory and transaction, record management, and accounting outsourcing services, as well as company review, bank loan advisory, and bank product analysis; and venture capital investment, and related education and support services. The company also provides company formation advisory, company secretarial, insurance brokerage, financial, wealth planning, administration, charity, trusteeship, and risk management, investment planning and management, business support, asset protection, and performance monitoring services. In addition, the company is involved in the digital banking business; provision of a digital platform; trading of digital assets; and leasing or trading of commercial properties. The company was formerly known as Greenpro, Inc. and changed its name to Greenpro Capital Corp. in May 2015. Greenpro Capital Corp. was incorporated in 2013 and is headquartered in Kuala Lumpur, Malaysia.",
   "form4_filings": [
     {
+      "date_filed": "2026-07-06",
+      "reporter_name": "LEE CHONG KUANG",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "P",
+      "shares": 65591.0,
+      "price": 1.5246,
+      "total_value": 100000.0386,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-032069"
+    },
+    {
       "date_filed": "2026-06-02",
       "reporter_name": "LEE CHONG KUANG",
       "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
@@ -34,17 +48,17 @@
     }
   ],
   "valuation": {
-    "share_price": 1.8200000524520874,
+    "share_price": 1.4299999475479126,
     "shares_basic": 18033123,
     "shares_basic_as_of": "2026-05-08",
     "options": 0,
     "warrants": 5356,
     "cash": 540914,
     "debt": 10216,
+    "debt_flag": null,
     "ttm_revenue": 1578461,
-    "mc_basic": 32820284.805874944,
-    "ev_basic": 32289586.805874944,
-    "debt_flag": null
+    "mc_basic": 25787364.944125056,
+    "ev_basic": 25256666.944125056
   },
   "financials": {
     "income_statement": {
@@ -1200,5 +1214,5 @@
       }
     }
   },
-  "last_updated": "2026-06-03T15:26:41+00:00"
+  "last_updated": "2026-07-07T10:34:41+00:00"
 }
