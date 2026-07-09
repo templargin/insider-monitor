@@ -92,8 +92,14 @@ cd "$REPO"
     fi
   fi
 
-  # 6. Heartbeat to Healthchecks.io — confirms the pipeline reached the end.
-  curl -fsS -m 10 --retry 3 "$HC_PING_URL" >/dev/null && echo "HC ping ok" || echo "HC ping failed"
+  # 6. Heartbeat to Healthchecks.io. Success ping = healthy; /fail ping fires
+  # the Telegram webhook immediately. CONCLUSION is anything but "success" on
+  # workflow failure, cancellation, or wait-loop timeout.
+  if [[ "$CONCLUSION" == "success" ]]; then
+    curl -fsS -m 10 --retry 3 "$HC_PING_URL" >/dev/null && echo "HC ping ok" || echo "HC ping failed"
+  else
+    curl -fsS -m 10 --retry 3 "$HC_PING_URL/fail" >/dev/null && echo "HC fail ping sent (workflow: $CONCLUSION)" || echo "HC fail ping failed"
+  fi
   echo "=== done $(date +%Y-%m-%dT%H:%M:%S) ==="
 } >>"$LOG" 2>&1
 
@@ -107,7 +113,7 @@ Key design choices:
 - **30s poll interval** with a 30-minute cap. Workflow normally takes 8–12 min.
 - **Skill failure tolerated** — daily list update is more important than dilution data.
 - **Site rebuild gated on data change** — saves the deploy round-trip when there's nothing to push.
-- **HC ping at the very end** — guarantees we only report "alive" if every preceding step actually completed.
+- **HC ping at the very end, conditional on workflow conclusion** (since 2026-07-09) — a plain ping only when the GH workflow succeeded; otherwise a `/fail` ping so the Telegram alert fires immediately. Previously the ping was unconditional, which made a failed workflow invisible to monitoring (discovered when the 2026-07-09 run failed silently during a GitHub hosted-runner outage). A missed ping still covers "script crashed or hung."
 
 ---
 
