@@ -1,0 +1,63 @@
+{
+  "url_date": "2026-07-09",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-07-08"
+  ],
+  "generated_at": "2026-07-09T13:28:43+00:00",
+  "tickers": [
+    {
+      "ticker": "EWSB",
+      "name": "EWSB Bancorp, Inc. /MD/",
+      "total_value": 1706710.0,
+      "ev_basic": 35780930.95646477,
+      "mc_basic": 7487752.956464767,
+      "insiders": [
+        {
+          "reporter_name": "Schmalz Charles D",
+          "relationship": "Director, Officer (President & CEO)",
+          "total_value": 676410.0,
+          "shares": 67641.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Schneider Kory J",
+          "relationship": "Officer (VP - Member Experience)",
+          "total_value": 479000.0,
+          "shares": 47900.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Mangold James E",
+          "relationship": "Officer (VP - Lending)",
+          "total_value": 399500.0,
+          "shares": 39950.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Vander Loop Kailee",
+          "relationship": "Officer (VP HR Technology)",
+          "total_value": 151800.0,
+          "shares": 15180.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "EVMN",
+      "name": "Evommune, Inc.",
+      "total_value": 133000.0,
+      "ev_basic": 430018429.0,
+      "mc_basic": 477243429.0,
+      "insiders": [
+        {
+          "reporter_name": "KIRSCH ARTHUR S",
+          "relationship": "Director",
+          "total_value": 133000.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ]
+}
