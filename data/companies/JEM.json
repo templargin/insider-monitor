@@ -1,0 +1,356 @@
+{
+  "ticker": "JEM",
+  "cik": "2018222",
+  "name": "707 Cayman Holdings Ltd.",
+  "description": "707 Cayman Holdings Limited, together with its subsidiaries, sells and distributes fashion apparel products in Hong Kong, Western Europe, North America, the Middle East, and internationally. The company offers denim, athleisure, sweater, leather and outerwear, and knitwear products, as well as pet lines. Its customers include mid-sized brand owners and apparel companies. The company also offers supply chain management solutions. The company was founded in 2021 and is headquartered in San Po Kong, Hong Kong. 707 Cayman Holdings Limited operates as a subsidiary of JME International Holdings Limited.",
+  "form4_filings": [
+    {
+      "date_filed": "2026-07-09",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-08",
+      "code": "S",
+      "shares": -112322.0,
+      "price": 1.13,
+      "total_value": -126923.85999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000150"
+    },
+    {
+      "date_filed": "2026-07-09",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-07",
+      "code": "P",
+      "shares": 137268.0,
+      "price": 1.36,
+      "total_value": 186684.48,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000150"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.1200000047683716,
+    "shares_basic": 26340000,
+    "shares_basic_as_of": "2025-09-30",
+    "options": null,
+    "warrants": null,
+    "cash": 5156627,
+    "debt": 1503663,
+    "debt_flag": null,
+    "ttm_revenue": 13739958,
+    "mc_basic": 29500800.125598907,
+    "ev_basic": 25847836.125598907
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/25"
+        ],
+        "data": [
+          [
+            13739958
+          ],
+          [
+            11001448
+          ],
+          [
+            2738510
+          ],
+          [
+            19.930992511039697
+          ],
+          [
+            null
+          ],
+          [
+            1137064
+          ],
+          [
+            7886673
+          ],
+          [
+            null
+          ],
+          [
+            -5148163
+          ],
+          [
+            -37.46854975830348
+          ],
+          [
+            -5111995
+          ],
+          [
+            -37.205317512615395
+          ],
+          [
+            null
+          ],
+          [
+            34157
+          ],
+          [
+            -5104576
+          ],
+          [
+            157990
+          ],
+          [
+            -5262566
+          ],
+          [
+            -38.301179668817035
+          ],
+          [
+            null
+          ],
+          [
+            -0.24
+          ],
+          [
+            -0.24
+          ],
+          [
+            22004808
+          ],
+          [
+            22004808
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/25"
+        ],
+        "data": [
+          [
+            5156627
+          ],
+          [
+            6629
+          ],
+          [
+            4012472
+          ],
+          [
+            9175728
+          ],
+          [
+            null
+          ],
+          [
+            43122
+          ],
+          [
+            474296
+          ],
+          [
+            9886569
+          ],
+          [
+            null
+          ],
+          [
+            2448156
+          ],
+          [
+            439974
+          ],
+          [
+            3259710
+          ],
+          [
+            71367
+          ],
+          [
+            3334740
+          ],
+          [
+            null
+          ],
+          [
+            -3925945
+          ],
+          [
+            6551829
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -5262566
+          ],
+          [
+            36168
+          ],
+          [
+            5647663
+          ],
+          [
+            -1755420
+          ],
+          [
+            -1334155
+          ],
+          [
+            null
+          ],
+          [
+            -1851
+          ],
+          [
+            -1851
+          ],
+          [
+            null
+          ],
+          [
+            4844932
+          ],
+          [
+            4844932
+          ],
+          [
+            null
+          ],
+          [
+            -1336006
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/25"
+        ],
+        "data": [
+          [
+            2.814890895202334
+          ],
+          [
+            2.812857278714978
+          ],
+          [
+            0.5089784852443493
+          ],
+          [
+            -37.205317512615395
+          ],
+          [
+            5916018
+          ],
+          [
+            null
+          ],
+          [
+            -80.32209021328242
+          ],
+          [
+            -53.229446939580356
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-07-10T10:31:48+00:00"
+}
