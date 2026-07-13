@@ -1,0 +1,60 @@
+{
+  "url_date": "2026-07-13",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12"
+  ],
+  "generated_at": "2026-07-13T10:32:44+00:00",
+  "tickers": [
+    {
+      "ticker": "BGDE",
+      "name": "Big Digital Energy, Inc.",
+      "total_value": 16700000.0,
+      "ev_basic": 65195107.41221428,
+      "mc_basic": 41022901.41221428,
+      "insiders": [
+        {
+          "reporter_name": "Endeavor Blockchain, LLC",
+          "relationship": "10% Owner",
+          "total_value": 16700000.0,
+          "shares": 16700.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "CV",
+      "name": "CapsoVision, Inc",
+      "total_value": 495117.0,
+      "ev_basic": 299281868.7042427,
+      "mc_basic": 299281868.7042427,
+      "insiders": [
+        {
+          "reporter_name": "HARARI ELIYAHOU ET AL",
+          "relationship": "10% Owner",
+          "total_value": 495117.0,
+          "shares": 81300.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "WRAP",
+      "name": "WRAP TECHNOLOGIES, INC.",
+      "total_value": 230288.30000000002,
+      "ev_basic": 129852097.1262455,
+      "mc_basic": 137116097.1262455,
+      "insiders": [
+        {
+          "reporter_name": "Cohen Scot",
+          "relationship": "Director, Officer (Executive Chairman and CEO), 10% Owner",
+          "total_value": 230288.30000000002,
+          "shares": 209353.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ]
+}
