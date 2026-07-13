@@ -467,6 +467,26 @@ def fetch_profile(ticker, retries=3):
     rec_key = info.get("recommendationKey")
     if rec_key in ("none", ""):
         rec_key = None
+
+    # Short interest (Yahoo's relay of FINRA's bi-monthly report). Yahoo keeps
+    # serving the last figure it has for thin OTC names indefinitely (ZOMDF:
+    # 17 months old) — anything older than ~2 reporting cycles is misleading,
+    # so drop stale figures entirely rather than display them.
+    short_pct = info.get("shortPercentOfFloat")
+    shares_short = info.get("sharesShort")
+    days_to_cover = info.get("shortRatio")
+    short_as_of = None
+    ts = info.get("dateShortInterest")
+    if ts:
+        try:
+            d = date.fromtimestamp(ts)
+            if (date.today() - d).days <= 60:
+                short_as_of = d.isoformat()
+        except Exception:
+            pass
+    if short_as_of is None:
+        short_pct = shares_short = days_to_cover = None
+
     out["ownership"] = {
         "inst_pct": info.get("heldPercentInstitutions"),
         "insider_pct": info.get("heldPercentInsiders"),
@@ -475,6 +495,10 @@ def fetch_profile(ticker, retries=3):
         "rec_mean": info.get("recommendationMean"),
         "rec_key": rec_key,
         "target_mean": info.get("targetMeanPrice"),
+        "short_pct_float": short_pct,
+        "shares_short": shares_short,
+        "short_days_to_cover": days_to_cover,
+        "short_as_of": short_as_of,
         "as_of": date.today().isoformat(),
     }
     return out

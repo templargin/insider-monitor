@@ -217,6 +217,13 @@ thead th {
   border-bottom: 1px solid var(--line);
 }
 .multiples-table tbody td { border-bottom: 1px solid var(--line); }
+.multiples-table tr.spacer th,
+.multiples-table tr.spacer td {
+  background: var(--bg);
+  border-bottom: 0;
+  height: 18px;
+  padding: 0;
+}
 
 /* Company description */
 .company-desc {
