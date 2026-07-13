@@ -39,6 +39,14 @@ The cap-structure **Total debt** (and therefore EV) comes from `scraper/xbrl_sta
 
 The test of the design: there is **no list of debt leaf tags to extend**. A filer's next exotic borrowing tag is captured by family pattern + tier dedup, or it surfaces as a flag — never as a silent $0.
 
+## Ownership & analyst coverage
+
+Each company page shows an **Ownership & coverage** table next to the cap structure: institutional %, insider %, number of institutions, analyst count, consensus rating, and average price target. All of it comes from the same yfinance `info` fetch that already supplies the business description (`scraper/financials.py::fetch_profile` — one Yahoo call serves both), plus `major_holders` for the institution count.
+
+- **A failed Yahoo fetch never clobbers stored data.** `fetch_profile` returns `ownership=None` on a throttle/outage (guarded by requiring a real `info` payload), and `pipeline.update_company_data` preserves the existing block — the same preserve-on-failure rule as options/warrants and (now) the description. A *successful* fetch is authoritative: its None values mean Yahoo genuinely reports no coverage, so the page shows **Analysts: 0** rather than "—" — an uncovered, under-owned name is itself the signal on this site.
+- **Freshness matches the rest of the valuation block**: the block refreshes when a ticker re-surfaces in the screener (or via `python -m scripts.refresh_ownership`). The underlying institutional data is 13F-based, so it can lag a quarter and exceed 100% on share-count timing (e.g. CUBI ~101%); the page footnote says so and the raw figure is shown uncapped.
+- Backfill/refresh: `python -m scripts.refresh_ownership [TICKER ...]` — run from a residential/droplet IP where possible; Yahoo throttles cloud IPs (GitHub Actions) hardest.
+
 ## Financial statements
 
 Per-ticker pages pull IS / BS / CF directly from SEC XBRL `companyfacts`. Rows are designed to reconcile by construction:
@@ -78,6 +86,7 @@ pip install -r requirements.txt
 python -m scripts.daily_run         # generate today's page
 python -m scripts.backfill          # backfill from May 1, 2026
 python -m scripts.refresh_financials # re-extract all companies' financials after extractor changes
+python -m scripts.refresh_ownership  # refresh institutional-ownership + analyst-coverage blocks (yfinance)
 python -m scripts.refresh_debt       # recompute valuation debt/EV + re-render changed pages after a debt-extractor change
 python -m scripts.audit_debt_free    # negatives: debt-free companies that may hide a borrowing
 python -m scripts.audit_debt_value   # positives: reported debt vs the filer's own total

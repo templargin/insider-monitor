@@ -37,11 +37,27 @@
         <tr><th>MC / FCF</th><td class="num">{{ multiples.mc_fcf|multiple }}</td></tr>
       </tbody>
     </table>
+
+    {% if data.ownership %}
+    <table class="multiples-table">
+      <thead><tr><th colspan="2">Ownership &amp; coverage</th></tr></thead>
+      <tbody>
+        <tr><th>Institutional</th><td class="num">{{ data.ownership.inst_pct|pct }}</td></tr>
+        <tr><th>Insiders</th><td class="num">{{ data.ownership.insider_pct|pct }}</td></tr>
+        <tr><th># Institutions</th><td class="num">{{ data.ownership.inst_count|number_int_or_dash }}</td></tr>
+        <tr><th>Analysts</th><td class="num">{{ data.ownership.analyst_count|analyst_count }}</td></tr>
+        <tr><th>Consensus</th><td class="num">{{ data.ownership.rec_key|rec_label }}</td></tr>
+        <tr><th>Avg target</th><td class="num">{{ data.ownership.target_mean|price_or_dash }}</td></tr>
+      </tbody>
+    </table>
+    {% endif %}
   </div>
   <p class="subtle">
     MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of {{ data.valuation.shares_basic_as_of }}.
     Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative.
+    {% if data.ownership %}Ownership &amp; coverage per Yahoo Finance as of {{ data.ownership.as_of }} —
+    institutional % is 13F-based, so it can lag a quarter and exceed 100% on share-count timing.{% endif %}
   </p>
   {% if data.valuation.options is none or data.valuation.warrants is none %}
     <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>

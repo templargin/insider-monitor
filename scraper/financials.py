@@ -421,16 +421,73 @@ def _compute_ratios(financials):
     return out
 
 
-def fetch_description(ticker):
-    """Try yfinance longBusinessSummary; return string or empty."""
+def fetch_profile(ticker, retries=3):
+    """Description + institutional-ownership + analyst-coverage snapshot from a
+    single yfinance `info` fetch (plus `major_holders` for the institution count).
+
+    Returns {"description": str, "ownership": dict | None}.
+
+    `ownership` is None only when the data could not be fetched at all
+    (throttle/outage) — callers must preserve any existing stored block on None
+    rather than overwriting it. A successful fetch is authoritative: its None
+    values mean Yahoo reports no coverage (the norm for uncovered microcaps),
+    not missing data.
+    """
+    import time as _time
+    out = {"description": "", "ownership": None}
     t = _safe_yf_ticker(ticker)
     if t is None:
-        return ""
+        return out
+    info = None
+    for attempt in range(retries):
+        try:
+            candidate = t.info  # may be slow / throttled
+            # A throttled response surfaces as an exception or a near-empty
+            # dict; require a real payload before trusting its contents.
+            if isinstance(candidate, dict) and len(candidate) >= 5:
+                info = candidate
+                break
+        except Exception:
+            pass
+        if attempt < retries - 1:
+            _time.sleep(1.0 * (attempt + 1))
+    if info is None:
+        return out
+
+    out["description"] = (info.get("longBusinessSummary") or "").strip()
+
+    inst_count = None
     try:
-        info = t.info  # may be slow / throttled
-        return (info.get("longBusinessSummary") or "").strip()
+        mh = t.major_holders
+        if mh is not None and "Value" in mh and "institutionsCount" in mh.index:
+            inst_count = int(mh.loc["institutionsCount", "Value"])
     except Exception:
-        return ""
+        pass
+
+    rec_key = info.get("recommendationKey")
+    if rec_key in ("none", ""):
+        rec_key = None
+    out["ownership"] = {
+        "inst_pct": info.get("heldPercentInstitutions"),
+        "insider_pct": info.get("heldPercentInsiders"),
+        "inst_count": inst_count,
+        "analyst_count": info.get("numberOfAnalystOpinions"),
+        "rec_mean": info.get("recommendationMean"),
+        "rec_key": rec_key,
+        "target_mean": info.get("targetMeanPrice"),
+        "as_of": date.today().isoformat(),
+    }
+    return out
+
+
+def fetch_ownership(ticker, retries=3):
+    """Ownership/coverage block only (see fetch_profile). None on fetch failure."""
+    return fetch_profile(ticker, retries=retries)["ownership"]
+
+
+def fetch_description(ticker):
+    """Try yfinance longBusinessSummary; return string or empty."""
+    return fetch_profile(ticker)["description"]
 
 
 def fetch_share_price(ticker, retries=3):

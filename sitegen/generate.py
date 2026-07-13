@@ -144,6 +144,44 @@ def shares_m(v):
         return "—"
 
 
+def pct(v):
+    """Format a 0–1 fraction as a percent. '—' if None/non-numeric."""
+    if v is None or v == "":
+        return "—"
+    try:
+        return f"{float(v) * 100:,.1f}%"
+    except (ValueError, TypeError):
+        return "—"
+
+
+def analyst_count(v):
+    """Analyst count. Yahoo omits the field entirely for uncovered names, so a
+    None inside a successfully-fetched ownership block means 0 analysts —
+    itself the signal on this site — not missing data."""
+    if v is None or v == "":
+        return "0"
+    try:
+        return f"{int(float(v)):,}"
+    except (ValueError, TypeError):
+        return "0"
+
+
+_REC_LABELS = {
+    "strong_buy": "Strong Buy",
+    "buy": "Buy",
+    "hold": "Hold",
+    "underperform": "Underperform",
+    "sell": "Sell",
+}
+
+
+def rec_label(v):
+    """Human-readable consensus label from Yahoo's recommendationKey."""
+    if not v:
+        return "—"
+    return _REC_LABELS.get(v, str(v).replace("_", " ").title())
+
+
 def multiple(v):
     """Format a valuation multiple. None / negative / non-numeric → '—'."""
     if v is None:
@@ -242,6 +280,9 @@ def get_env():
         _env.filters["shares_m"] = shares_m
         _env.filters["multiple"] = multiple
         _env.filters["debt_flag_text"] = debt_flag_text
+        _env.filters["pct"] = pct
+        _env.filters["analyst_count"] = analyst_count
+        _env.filters["rec_label"] = rec_label
     return _env
 
 

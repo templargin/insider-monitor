@@ -187,7 +187,9 @@ def update_company_data(ticker, cik, screener_snapshot):
     # Sort filings most recent first
     form4_filings.sort(key=lambda r: (r["date_filed"], r["transaction_date"]), reverse=True)
 
-    description = financials.fetch_description(ticker)
+    profile = financials.fetch_profile(ticker)
+    description = profile["description"]
+    ownership = profile["ownership"]
     # XBRL-primary: skip the yfinance financial-statement scrape entirely.
     fins = xbrl_financials.fetch_xbrl_financials(cik)
 
@@ -195,25 +197,35 @@ def update_company_data(ticker, cik, screener_snapshot):
     # Those fields are populated by the LLM-extraction routine from filing
     # footnotes — rewriting them as None on every daily refresh would clobber
     # the routine's work for the common case where XBRL doesn't tag them.
+    # Same preserve-on-failure rule for the yfinance-sourced description and
+    # ownership block: a Yahoo throttle (common on cloud-IP runs) must never
+    # blank out data a previous run fetched successfully.
     path = COMPANIES_DIR / f"{ticker.upper()}.json"
     existing_options = None
     existing_warrants = None
+    existing_description = ""
+    existing_ownership = None
     if path.exists():
         try:
             existing = json.loads(path.read_text())
             ev = existing.get("valuation", {}) or {}
             existing_options = ev.get("options")
             existing_warrants = ev.get("warrants")
+            existing_description = existing.get("description") or ""
+            existing_ownership = existing.get("ownership")
         except Exception:
             pass
     final_options = options if options is not None else existing_options
     final_warrants = warrants if warrants is not None else existing_warrants
+    final_description = description or existing_description
+    final_ownership = ownership if ownership is not None else existing_ownership
 
     payload = {
         "ticker": ticker.upper(),
         "cik": str(cik),
         "name": screener_snapshot.get("name") or subs.get("name", ""),
-        "description": description,
+        "description": final_description,
+        "ownership": final_ownership,
         "form4_filings": form4_filings,
         "valuation": {
             "share_price": screener_snapshot["share_price"],
