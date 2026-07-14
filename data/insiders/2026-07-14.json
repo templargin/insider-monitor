@@ -1,0 +1,42 @@
+{
+  "url_date": "2026-07-14",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-07-13"
+  ],
+  "generated_at": "2026-07-14T10:31:34+00:00",
+  "tickers": [
+    {
+      "ticker": "YEXT",
+      "name": "Yext, Inc.",
+      "total_value": 397909.894,
+      "ev_basic": 578008688.1841621,
+      "mc_basic": 522292688.18416214,
+      "insiders": [
+        {
+          "reporter_name": "Englander Daniel J",
+          "relationship": "Director",
+          "total_value": 397909.894,
+          "shares": 76190.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "JEM",
+      "name": "707 Cayman Holdings Ltd.",
+      "total_value": 134724.77000000002,
+      "ev_basic": 155430097.24687195,
+      "mc_basic": 159083061.24687195,
+      "insiders": [
+        {
+          "reporter_name": "HRT FINANCIAL LP",
+          "relationship": "10% Owner",
+          "total_value": 134724.77000000002,
+          "shares": 125911.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ]
+}

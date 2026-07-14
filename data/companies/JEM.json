@@ -3,7 +3,49 @@
   "cik": "2018222",
   "name": "707 Cayman Holdings Ltd.",
   "description": "707 Cayman Holdings Limited, together with its subsidiaries, sells and distributes fashion apparel products in Hong Kong, Western Europe, North America, the Middle East, and internationally. The company offers denim, athleisure, sweater, leather and outerwear, and knitwear products, as well as pet lines. Its customers include mid-sized brand owners and apparel companies. The company also offers supply chain management solutions. The company was founded in 2021 and is headquartered in San Po Kong, Hong Kong. 707 Cayman Holdings Limited operates as a subsidiary of JME International Holdings Limited.",
+  "ownership": {
+    "inst_pct": 0.0036700002,
+    "insider_pct": 0.0968,
+    "inst_count": 5,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.7083,
+    "shares_short": 37206,
+    "short_days_to_cover": 0.06,
+    "short_as_of": "2026-06-30",
+    "as_of": "2026-07-14"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-07-13",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-10",
+      "code": "S",
+      "shares": -48418.0,
+      "price": 0.601,
+      "total_value": -29099.218,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000156"
+    },
+    {
+      "date_filed": "2026-07-13",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-09",
+      "code": "P",
+      "shares": 125911.0,
+      "price": 1.07,
+      "total_value": 134724.77000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000156"
+    },
     {
       "date_filed": "2026-07-09",
       "reporter_name": "HRT FINANCIAL LP",
@@ -34,7 +76,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.1200000047683716,
+    "share_price": 6.039599895477295,
     "shares_basic": 26340000,
     "shares_basic_as_of": "2025-09-30",
     "options": null,
@@ -43,8 +85,8 @@
     "debt": 1503663,
     "debt_flag": null,
     "ttm_revenue": 13739958,
-    "mc_basic": 29500800.125598907,
-    "ev_basic": 25847836.125598907
+    "mc_basic": 159083061.24687195,
+    "ev_basic": 155430097.24687195
   },
   "financials": {
     "income_statement": {
@@ -352,19 +394,5 @@
       }
     }
   },
-  "last_updated": "2026-07-10T12:41:35+00:00",
-  "ownership": {
-    "inst_pct": 0.0036700002,
-    "insider_pct": 0.0968,
-    "inst_count": 5,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.7083,
-    "shares_short": 446478,
-    "short_days_to_cover": 0.06,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  }
+  "last_updated": "2026-07-14T10:31:48+00:00"
 }
