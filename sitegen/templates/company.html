@@ -4,6 +4,15 @@
 <p><a class="back-link" href="#" onclick="if(document.referrer&&document.referrer.includes(location.host)){history.back();return false}else{location.href='{{ root }}insiders/';return false}">← Back to daily list</a></p>
 <h1>{{ data.ticker }} <span class="subtle">· {{ data.name }}</span></h1>
 
+{% if data.screen and data.screen.qualifies is sameas false %}
+<p class="warn">No longer meets the screen criteria as of {{ data.screen.checked_at[:10] }} —
+{{ data.screen.reason }}. The page is kept because the daily page for the day the insider
+bought links here, and that purchase still happened.</p>
+{% elif data.screen and data.screen.qualifies is none %}
+<p class="warn">Could not be re-screened as of {{ data.screen.checked_at[:10] }} —
+{{ data.screen.reason }}. The figures below are from the last successful run and may be stale.</p>
+{% endif %}
+
 {% if data.description %}
 <p class="company-desc">{{ data.description }}</p>
 {% endif %}

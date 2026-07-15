@@ -425,18 +425,27 @@ def generate():
         )
         write_html(out_path, rendered)
 
-    # Companies index
+    # Companies index. A company whose last re-screen said it no longer meets the
+    # criteria is listed separately rather than dropped: the daily pages link here,
+    # and the record of what was filed on the day isn't wrong just because the
+    # company has since outgrown the cap (or was admitted by a bug). `qualifies`
+    # of None means we could not evaluate it — not that it failed — so it stays in
+    # the main table. Companies never re-screened have no `screen` block and are
+    # treated as qualifying.
     company_list = sorted(
         [{
             "ticker": c["ticker"],
             "name": c.get("name", ""),
             "ev_basic": c.get("valuation", {}).get("ev_basic"),
             "last_updated": (c.get("last_updated") or "")[:10],
+            "qualifies": (c.get("screen") or {}).get("qualifies", True),
+            "screen_reason": (c.get("screen") or {}).get("reason"),
         } for c in companies],
         key=lambda c: c["ticker"],
     )
     rendered = env.get_template("companies_index.html").render(
-        tickers=company_list,
+        tickers=[c for c in company_list if c["qualifies"] is not False],
+        disqualified=[c for c in company_list if c["qualifies"] is False],
         root=root_path_from(1),
         generated_at=now,
     )

@@ -93,8 +93,17 @@ def fetch_all_form4s_for_bucket(url_date):
 
 
 def screener_pass(cik, ticker, bucket_data):
-    """Return a valuation dict if the issuer PASSES screening, or None if it is
-    screened OUT on the merits (size ≥ cap, or no revenue).
+    """Screen one issuer.
+
+    Returns `(measurement, reason)`. `reason` is None on a PASS and carries the
+    merits rejection otherwise (size ≥ cap, or no revenue) — so `reason is None`,
+    not `measurement is None`, is the test for a pass. The measurement is returned
+    either way: a rejected company still has a page, and it should show correct
+    figures rather than whatever stale ones predate the rejection.
+
+    The reason is returned rather than logged so each caller reports it its own
+    way — the daily run to the console, the re-screen onto the company page — and
+    so this stays a pure function of its inputs.
 
     Raises DataUnavailable when any required input cannot be established. Callers
     must NOT treat that as a screen-out — an unknown allowed to masquerade as a
@@ -145,27 +154,19 @@ def screener_pass(cik, ticker, bucket_data):
     mc_basic = price * shares
     ev = filters.basic_ev(mc_basic, debt, cash)
 
-    # A deposit-funded bank's liabilities are its customers' deposits, not
-    # borrowings, so EV is not a size measure for it — get_structured_debt says so
-    # in as many words when it raises `financial_institution`. Market cap is.
-    is_bank = bool(debt_flag) and debt_flag.get("reason") == "financial_institution"
-    size = mc_basic if is_bank else ev
-    if not filters.passes_ev_cap(size):
-        _log(f"    screened out: {'MC' if is_bank else 'EV'}=${size/1e6:,.1f}M "
-             f"≥ ${filters.EV_CAP_USD/1e6:,.0f}M cap")
-        return None
-
     # Revenue off the canonical grid — the same builder the company page renders,
     # so the screen and the page can never quote different numbers for one filer.
     fins = xbrl_financials.fetch_xbrl_financials(cik, facts=facts)
     if fins is None:
         raise DataUnavailable(f"no financial statements for {ticker}")
     ttm_rev, rev_end = xbrl_financials.ltm_revenue(fins)
-    if not filters.passes_revenue(ttm_rev):
-        _log(f"    screened out: TTM revenue = ${ttm_rev:,.0f}")
-        return None
 
-    return {
+    # Measure first, judge second. Short-circuiting the cap test before reading
+    # revenue would save one fetch on the handful of over-cap issuers a day, at
+    # the cost of returning a half-measured company — which is how a rejected
+    # CUBI kept publishing a $43M revenue beside its own $1.51B income statement.
+    # The caller gets the full measurement whichever way the verdict goes.
+    snap = {
         "facts": facts,
         "fins": fins,
         "shares": shares,
@@ -179,6 +180,19 @@ def screener_pass(cik, ticker, bucket_data):
         "ev_basic": ev,
         "debt_flag": debt_flag,
     }
+
+    # A deposit-funded bank's liabilities are its customers' deposits, not
+    # borrowings, so EV is not a size measure for it — get_structured_debt says so
+    # in as many words when it raises `financial_institution`. Market cap is.
+    is_bank = bool(debt_flag) and debt_flag.get("reason") == "financial_institution"
+    size = mc_basic if is_bank else ev
+    if not filters.passes_ev_cap(size):
+        return snap, (f"{'MC' if is_bank else 'EV'}=${size/1e6:,.1f}M "
+                      f"≥ ${filters.EV_CAP_USD/1e6:,.0f}M cap")
+    if not filters.passes_revenue(ttm_rev):
+        return snap, f"TTM revenue = ${ttm_rev:,.0f}"
+
+    return snap, None
 
 
 def update_company_data(ticker, cik, screener_snapshot):
@@ -370,15 +384,16 @@ def process_bucket(url_date):
             continue
         _log(f"  ? probing {name} ({ticker})...")
         try:
-            snap = screener_pass(cik, ticker, bucket_data)
+            snap, reason = screener_pass(cik, ticker, bucket_data)
         except DataUnavailable as e:
             errored += 1
             unevaluated.append({"ticker": ticker, "name": name, "reason": str(e)})
             _log(f"    data unavailable: {e}")
             continue
         screened += 1
-        if snap is None:
-            continue   # screener_pass logged the specific merits reason
+        if reason is not None:
+            _log(f"    screened out: {reason}")
+            continue
         _log(f"    PASS: EV=${snap['ev_basic']/1e6:,.1f}M  TTM rev=${snap['ttm_revenue']/1e6:,.1f}M")
         snap["name"] = name
         snap["ticker"] = ticker

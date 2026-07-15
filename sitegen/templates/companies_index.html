@@ -18,4 +18,27 @@
   {% endfor %}
   </tbody>
 </table>
+
+{% if disqualified %}
+<h2>No longer meet the criteria</h2>
+<p class="subtle">{{ disqualified|length }} compan{% if disqualified|length == 1 %}y{% else %}ies{% endif %}
+that a re-screen found outside the criteria — either outgrown since the purchase, or
+admitted in error. Their pages are kept: the daily page for the day the insider bought
+links here, and that record stands.</p>
+<table class="daily-list">
+  <thead>
+    <tr><th>Ticker</th><th>Name</th><th>Why</th><th>Last seen</th></tr>
+  </thead>
+  <tbody>
+  {% for c in disqualified %}
+    <tr>
+      <td><a href="{{ c.ticker }}/">{{ c.ticker }}</a></td>
+      <td>{{ c.name }}</td>
+      <td class="subtle">{{ c.screen_reason }}</td>
+      <td class="subtle">{{ c.last_updated }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
 {% endblock %}
