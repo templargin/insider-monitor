@@ -20,7 +20,35 @@ _MIN_INTERVAL = 0.10  # 10 req/sec SEC ceiling
 _rate_lock = threading.Lock()
 
 _MAX_RETRIES = 4
-_RETRY_STATUS = {429, 500, 502, 503, 504}  # transient — SEC throttle / gateway hiccup
+_RETRY_STATUS = {429, 500, 502, 503, 504}  # transient — gateway hiccup
+
+# SEC answers a rate-limited request with **403**, not 429, and uses 403 for a
+# genuinely absent index too (a weekend date). The status alone cannot tell them
+# apart, so match the throttle body: retrying a weekend 403 four times would turn
+# every non-trading day into a 15s stall and then a raise, while NOT retrying a
+# throttle 403 drops the filing silently — which is how a real purchase vanishes
+# with no counter and no log. `_MIN_INTERVAL` runs at SEC's 10/sec ceiling with
+# `_MAX_WORKERS` threads, so this is a live path, not a hypothetical.
+_THROTTLE_MARKERS = (
+    "request rate threshold exceeded",
+    "undeclared automated tool",
+    "exceeded the rate limit",
+)
+
+
+def _is_throttle(resp):
+    """True when a response is SEC saying 'slow down' rather than 'not found'."""
+    if resp is None:
+        return False
+    if resp.status_code == 429:
+        return True
+    if resp.status_code != 403:
+        return False
+    try:
+        body = (resp.text or "")[:2000].lower()
+    except Exception:                      # noqa: BLE001 - body unreadable, assume not a throttle
+        return False
+    return any(m in body for m in _THROTTLE_MARKERS)
 
 
 def _throttle():
@@ -37,9 +65,10 @@ def _throttle():
 def _get(url, timeout=30):
     """Rate-limited HTTP GET with retry/backoff on transient failures.
 
-    Retries on 429/5xx and connection/timeout errors with exponential backoff
-    (respecting Retry-After when present), so a momentary SEC throttle doesn't
-    surface as a hard failure. 4xx other than 429 (e.g. 404/403) are raised
+    Retries on 429/5xx, on a throttle-flavoured 403 (see `_is_throttle`), and on
+    connection/timeout errors with exponential backoff (respecting Retry-After),
+    so a momentary SEC throttle doesn't surface as a hard failure. Other 4xx —
+    including a 403 for an index that genuinely doesn't exist — are raised
     immediately for callers to handle."""
     last_exc = None
     for attempt in range(_MAX_RETRIES):
@@ -50,7 +79,7 @@ def _get(url, timeout=30):
             last_exc = e
             time.sleep(_backoff(attempt))
             continue
-        if resp.status_code in _RETRY_STATUS:
+        if resp.status_code in _RETRY_STATUS or _is_throttle(resp):
             last_exc = requests.HTTPError(f"{resp.status_code} for {url}", response=resp)
             if attempt < _MAX_RETRIES - 1:
                 ra = resp.headers.get("Retry-After")
@@ -129,13 +158,16 @@ def _parse_master_idx(text):
 
 def fetch_daily_index_form4s(d):
     """Return list of Form 4 / 4/A filings for date d, one row per accession.
-    Empty list on 404/403 (weekend, holiday, or future date — SEC returns 403
-    for non-existent indexes)."""
+
+    Empty list on 404/403 (weekend, holiday, or future date — SEC returns 403 for
+    non-existent indexes). A throttle 403 that survived the retries is NOT that:
+    swallowing it would report a busy trading day as having no filings at all."""
     url = daily_index_url(d)
     try:
         resp = _get(url)
     except requests.HTTPError as e:
-        if e.response.status_code in (404, 403):
+        if e.response is not None and e.response.status_code in (404, 403) \
+                and not _is_throttle(e.response):
             return []
         raise
     # Master idx uses Latin-1 for some special chars in company names
@@ -143,13 +175,23 @@ def fetch_daily_index_form4s(d):
 
 
 def fetch_form4_xml(cik, accession_nodash, xml_name=None):
-    """Fetch the primary Form 4 XML. If xml_name provided (from search API), use it directly;
-    otherwise look it up via index.json (slower)."""
+    """Fetch the primary Form 4 XML. If xml_name provided (from search API), use it
+    directly; otherwise look it up via index.json (slower).
+
+    Returns None when the filing genuinely isn't retrievable (404, no XML in the
+    directory). A transport failure — a throttle that outlived its retries — is
+    RAISED, not swallowed: a filing we could not fetch is not a filing that does
+    not qualify. Returning None for it drops the accession before it ever reaches
+    the screener, so the issuer never enters `threshold` and no outage guard can
+    see it. That is the same silent-drop shape as the NaN price, one layer up.
+    """
     base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodash}"
     if xml_name is None:
         try:
             idx = _get(f"{base}/index.json").json()
-        except requests.HTTPError:
+        except requests.HTTPError as e:
+            if _is_throttle(e.response):
+                raise
             return None
         for item in idx.get("directory", {}).get("item", []):
             name = item.get("name", "")
@@ -160,7 +202,9 @@ def fetch_form4_xml(cik, accession_nodash, xml_name=None):
             return None
     try:
         return _get(f"{base}/{xml_name}").content
-    except requests.HTTPError:
+    except requests.HTTPError as e:
+        if _is_throttle(e.response):
+            raise
         return None
 
 
