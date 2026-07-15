@@ -986,16 +986,16 @@
     }
   ],
   "valuation": {
-    "share_price": 2.7300000190734863,
+    "share_price": 2.9944000244140625,
     "shares_basic": 10484211,
     "shares_basic_as_of": "2026-02-12",
     "options": 2000,
     "warrants": 0,
     "cash": 24575000,
     "debt": 154000,
-    "ttm_revenue": 9626000,
-    "mc_basic": 28621896.229970455,
-    "ev_basic": 4200896.229970455,
+    "ttm_revenue": 9483000.0,
+    "mc_basic": 31393921.674362183,
+    "ev_basic": 6972921.674362183,
     "debt_flag": null
   },
   "financials": {
@@ -2138,8 +2138,8 @@
     "as_of": "2026-07-13"
   },
   "screen": {
-    "qualifies": null,
-    "reason": "share count for GROW predates its balance sheet (2026-02-12 < 2026-03-31)",
-    "checked_at": "2026-07-15T16:31:32+00:00"
+    "qualifies": true,
+    "reason": null,
+    "checked_at": "2026-07-15T16:49:40+00:00"
   }
 }
