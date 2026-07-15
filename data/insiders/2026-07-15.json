@@ -4,6 +4,35 @@
   "filing_dates": [
     "2026-07-14"
   ],
-  "generated_at": "2026-07-15T11:59:17+00:00",
-  "tickers": []
+  "generated_at": "2026-07-15T16:00:34+00:00",
+  "tickers": [
+    {
+      "ticker": "BUKS",
+      "name": "BUTLER NATIONAL CORP",
+      "total_value": 131420.0,
+      "ev_basic": 307756279.6353874,
+      "mc_basic": 309435279.6353874,
+      "insiders": [
+        {
+          "reporter_name": "Daly Joseph Patrick",
+          "relationship": "Director, 10% Owner",
+          "total_value": 131420.0,
+          "shares": 30000.0,
+          "txn_count": 6
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "GLBS",
+      "name": "GLOBUS MARITIME LTD",
+      "reason": "no us-gaap balance sheet for GLBS"
+    },
+    {
+      "ticker": "NTSK",
+      "name": "Netskope Inc",
+      "reason": "no basic share count for NTSK"
+    }
+  ]
 }
