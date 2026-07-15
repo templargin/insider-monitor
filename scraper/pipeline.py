@@ -33,8 +33,25 @@ COMPANIES_DIR.mkdir(parents=True, exist_ok=True)
 FOOTNOTES_DIR.mkdir(parents=True, exist_ok=True)
 
 
+# A share count this much older than the balance sheet is from a prior reporting
+# cycle and cannot describe the same company (BETA carried a pre-IPO count 194
+# days stale; FONR one 2,775 days stale). Inside one cycle the drift is immaterial
+# to a $1B size test, and rejecting it would be a false negative.
+_SHARES_STALE_DAYS = 90
+
+
 def _log(*a):
     print(*a, flush=True)
+
+
+def _days_before(earlier, later):
+    """How many days `earlier` precedes `later`; 0 when it is the same or newer.
+    Both are ISO date strings; an unparseable one counts as maximally stale."""
+    try:
+        d = (date.fromisoformat(later) - date.fromisoformat(earlier)).days
+    except (ValueError, TypeError):
+        return 10**6
+    return max(d, 0)
 
 
 def _now_iso():
@@ -132,10 +149,13 @@ def screener_pass(cik, ticker, bucket_data):
     shares, sh_end = xbrl_facts.get_basic_shares(facts)
     if shares is None or shares <= 0:
         raise DataUnavailable(f"no basic share count for {ticker}")
-    if sh_end is None or sh_end < as_of:
+    if sh_end is None or _days_before(sh_end, as_of) > _SHARES_STALE_DAYS:
         # A cover-page count is legitimately FRESHER than the balance sheet; one
         # that is OLDER predates it and cannot describe the same company (BETA
-        # carried a pre-IPO count, FONR one from 2018).
+        # carried a pre-IPO count, FONR one from 2018). But refusing a count merely
+        # days older would be a false negative of exactly the kind this boundary
+        # exists to prevent — CTNT's lagged by 12 days, which cannot move a $1B
+        # test. One filing cycle is the tolerance.
         raise DataUnavailable(
             f"share count for {ticker} predates its balance sheet ({sh_end} < {as_of})")
 
@@ -189,6 +209,21 @@ def screener_pass(cik, ticker, bucket_data):
     if not filters.passes_ev_cap(size):
         return snap, (f"{'MC' if is_bank else 'EV'}=${size/1e6:,.1f}M "
                       f"≥ ${filters.EV_CAP_USD/1e6:,.0f}M cap")
+
+    # get_structured_debt reconciles liabilities it cannot classify and reports the
+    # residual rather than plugging it — "could be debt under the filer's custom
+    # namespace". Where that residual would carry EV over the ceiling we cannot
+    # confirm the criterion, so we must not assert it: STRZ published at EV $869M
+    # with $361M unexplained, which is $1,230M if those liabilities are borrowings.
+    # Only bites when the uncertainty actually spans the cap; a flagged filer
+    # comfortably below it is unaffected.
+    if not is_bank and debt_flag and debt_flag.get("amount"):
+        upper = ev + debt_flag["amount"]
+        if not filters.passes_ev_cap(upper):
+            raise DataUnavailable(
+                f"cannot confirm EV < ${filters.EV_CAP_USD/1e6:,.0f}M for {ticker}: "
+                f"EV=${ev/1e6:,.1f}M with ${debt_flag['amount']/1e6:,.1f}M of "
+                f"{debt_flag['reason']} (up to ${upper/1e6:,.1f}M)")
     if not filters.passes_revenue(ttm_rev):
         return snap, f"TTM revenue = ${ttm_rev:,.0f}"
 
@@ -364,8 +399,23 @@ def process_bucket(url_date):
         _log("  EDGAR returned 0 Form 4 index rows but a trading day is pending (or a good page already exists) — skipping write.")
         return None
 
-    parsed = fetch_all_form4s_for_bucket(url_date)
-    _log(f"  Parsed {len(parsed)} Form 4 filings total")
+    try:
+        parsed = fetch_all_form4s_for_bucket(url_date)
+    except requests.RequestException as e:
+        # A filing we could not fetch is not a filing that does not qualify. Half a
+        # bucket cannot be screened honestly — the missing accession may be the one
+        # qualifying purchase, and it would never reach `threshold` for any guard to
+        # notice. Publish nothing rather than a page that looks complete.
+        _log(f"  bucket fetch failed ({e}) — skipping write rather than screen a partial bucket.")
+        return None
+
+    # Both numbers were always printed; nothing ever compared them. A gap here is
+    # filings that were fetched but not parseable — permanent per-filing data
+    # problems rather than an outage, but they must be visible, not inferred by
+    # eyeballing two log lines.
+    unparsed = total_index_rows - len(parsed)
+    _log(f"  Parsed {len(parsed)} of {total_index_rows} Form 4 filings"
+         + (f"  ({unparsed} unreadable)" if unparsed else ""))
     aggregated = filters.aggregate_p_purchases(parsed)
     threshold = [(cik, b) for cik, b in aggregated.items() if filters.passes_threshold(b)]
     _log(f"  {len(threshold)} issuers with ≥1 insider ≥${filters.PURCHASE_THRESHOLD_USD:,}")

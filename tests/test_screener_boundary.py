@@ -94,10 +94,18 @@ def test_missing_balance_sheet_anchor_is_unavailable(monkeypatch):
 # --- shares ---------------------------------------------------------------------
 
 def test_share_count_older_than_balance_sheet_is_unavailable(monkeypatch):
-    """BETA screened on a pre-IPO count; FONR on one from 2018."""
+    """BETA screened on a pre-IPO count 194 days stale; FONR on one from 2018."""
     install(monkeypatch, sh_end="2025-09-30", anchor="2026-03-31")
     with pytest.raises(pipeline.DataUnavailable, match="predates its balance sheet"):
         run()
+
+
+def test_share_count_lagging_within_one_filing_cycle_is_fine(monkeypatch):
+    """CTNT's count lags its balance sheet by 12 days, which cannot move a $1B
+    test. Rejecting it would be a false negative of the kind this boundary exists
+    to prevent."""
+    install(monkeypatch, sh_end="2026-03-19", anchor="2026-03-31")
+    assert passes() is not None
 
 
 def test_share_count_fresher_than_balance_sheet_is_fine(monkeypatch):
@@ -151,6 +159,31 @@ def test_non_bank_flag_does_not_switch_to_market_cap(monkeypatch):
     flag = {"reason": "unexplained_liabilities", "amount": 361e6, "concept": None}
     install(monkeypatch, shares=1_000_000_000, price=10.0, flag=flag)   # MC/EV $10B
     assert rejected() is not None
+
+
+def test_unexplained_liabilities_spanning_the_cap_is_unavailable(monkeypatch):
+    """STRZ: EV $869M with $361M of liabilities the extractor could not classify —
+    $1,230M if they are borrowings. We cannot confirm EV < $1B, so we must not
+    assert it. The flag was computed and rendered but never gated a publish."""
+    flag = {"reason": "unexplained_liabilities", "amount": 361_000_000, "concept": None}
+    install(monkeypatch, shares=86_900_000, price=10.0, flag=flag)   # EV ~$869M
+    with pytest.raises(pipeline.DataUnavailable, match="cannot confirm EV"):
+        run()
+
+
+def test_unexplained_liabilities_below_the_cap_still_passes(monkeypatch):
+    """The gate must only bite when the uncertainty actually spans the ceiling —
+    HRTG carries $572M unexplained on a $287M EV and is nowhere near it."""
+    flag = {"reason": "unexplained_liabilities", "amount": 100_000_000, "concept": None}
+    install(monkeypatch, shares=10_000_000, price=10.0, flag=flag)   # EV $100M + $100M
+    assert passes() is not None
+
+
+def test_bank_flag_carries_no_amount_and_does_not_trip_the_gate(monkeypatch):
+    """`financial_institution` reports amount=None; the gate must not choke on it."""
+    flag = {"reason": "financial_institution", "amount": None, "concept": None}
+    install(monkeypatch, shares=10_000_000, price=10.0, flag=flag)
+    assert passes() is not None
 
 
 # --- revenue --------------------------------------------------------------------

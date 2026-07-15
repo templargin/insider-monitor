@@ -104,16 +104,17 @@
     }
   ],
   "valuation": {
-    "share_price": 1.7899999618530273,
+    "share_price": 1.6449999809265137,
     "shares_basic": 36177712,
     "shares_basic_as_of": "2026-03-19",
     "options": 0,
     "warrants": 0,
     "cash": 713948,
     "debt": 599213,
-    "ttm_revenue": 1288560,
-    "mc_basic": 64758103.09992981,
-    "ev_basic": 64643368.09992981
+    "ttm_revenue": 901437.0,
+    "mc_basic": 59512335.549964905,
+    "ev_basic": 59397600.549964905,
+    "debt_flag": null
   },
   "financials": {
     "income_statement": {
@@ -1301,8 +1302,8 @@
     "as_of": "2026-07-13"
   },
   "screen": {
-    "qualifies": null,
-    "reason": "share count for CTNT predates its balance sheet (2026-03-19 < 2026-03-31)",
-    "checked_at": "2026-07-15T16:31:32+00:00"
+    "qualifies": true,
+    "reason": null,
+    "checked_at": "2026-07-15T16:49:40+00:00"
   }
 }
