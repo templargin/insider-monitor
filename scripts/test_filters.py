@@ -6,7 +6,7 @@ for survivors and check filter logic.
 """
 import sys
 from datetime import date
-from scraper import edgar, filters, xbrl_facts, buckets
+from scraper import edgar, filters, xbrl_facts, xbrl_financials, buckets
 
 
 def main():
@@ -65,7 +65,8 @@ def main():
             shares, sh_end = xbrl_facts.get_basic_shares(facts)
             cash, c_end = xbrl_facts.get_cash(facts)
             debt, d_end = xbrl_facts.get_total_debt(facts)
-            ttm_rev, r_end = xbrl_facts.get_ttm_revenue(facts)
+            ttm_rev, r_end = xbrl_financials.ltm_revenue(
+                xbrl_financials.fetch_xbrl_financials(test_cik, facts=facts))
             print(f"  Basic shares: {shares} (as of {sh_end})")
             print(f"  Cash:         {cash} (as of {c_end})")
             print(f"  Total debt:   {debt} (as of {d_end})")

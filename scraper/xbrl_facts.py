@@ -1,5 +1,4 @@
 """XBRL companyfacts helpers with fallback ladders for inconsistent small-cap tagging."""
-from datetime import date, timedelta
 
 
 def _facts_for_tag(companyfacts, tag, namespace="us-gaap", units="USD"):
@@ -100,22 +99,12 @@ DEBT_SHORT_TAGS = ["LongTermDebtCurrent", "ShortTermBorrowings", "DebtCurrent",
 SHARES_TAGS_DEI = ["EntityCommonStockSharesOutstanding"]
 SHARES_TAGS_USGAAP = ["CommonStockSharesOutstanding"]
 
-# Revenue.
-# Banks/insurance tag top-line as InterestAndDividendIncomeOperating (and
-# NoninterestIncome) rather than Revenues — included here so community banks
-# like BCML/CUBI/FMBM aren't false-rejected by the `TTM revenue > 0` screener
-# filter. For the screener's >0 check the bank tag alone is enough; the
-# financials module separately sums Interest + Noninterest income for the
-# displayed Total Revenue.
-REVENUE_TAGS = [
-    "Revenues",
-    "RevenueFromContractWithCustomerExcludingAssessedTax",
-    "RevenueFromContractWithCustomerIncludingAssessedTax",
-    "SalesRevenueNet",
-    "SalesRevenueGoodsNet",
-    "InterestAndDividendIncomeOperating",
-    "NoninterestIncome",
-]
+# Revenue is deliberately absent from this module. There is exactly ONE revenue
+# implementation — `xbrl_financials.ltm_revenue`, read off the canonical grid the
+# company page renders — so the screener and the page cannot disagree. The ladder
+# that used to live here picked the single freshest-ending tag and discarded the
+# rest, which read CUBI's top line as $43M against its real $1.51B and FMBM's as
+# $162k against $80M. Do not reintroduce a second implementation.
 
 OPTIONS_TAGS = [
     "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber",
@@ -187,78 +176,6 @@ def get_options_outstanding(facts):
 def get_warrants_outstanding(facts):
     v, end = latest_value(facts, WARRANT_TAGS, units="shares")
     return v, end
-
-
-def get_latest_revenue_any(facts):
-    """Most recent revenue value (any period). For the simple > 0 filter."""
-    v, end = latest_value(facts, REVENUE_TAGS, units="USD")
-    return v, end
-
-
-def get_ttm_revenue(facts):
-    """Sum the 4 most recent quarterly revenue values for a rough TTM.
-
-    Falls back to most recent annual (FY) value if quarterly data unavailable.
-    Returns (ttm_value, as_of_end_date) or (None, None) if no revenue tags found.
-
-    Stale-data guard: ignore revenue entries whose `end` predates today by more
-    than ~18 months. Shell-co reverse mergers (e.g. KLRS = Kalaris Therapeutics,
-    which inherited a 2019 $165k revenue fact from its predecessor and has been
-    a clinical-stage biotech with zero revenue since) would otherwise leak past
-    the `TTM revenue > 0` screener filter.
-    """
-    stale_cutoff = (date.today() - timedelta(days=540)).isoformat()
-
-    # Pick the single revenue tag with the freshest data (fresh-only)
-    best_tag, best_end = None, None
-    for tag in REVENUE_TAGS:
-        for f in _facts_for_tag(facts, tag):
-            end = f.get("end", "")
-            if not end or end < stale_cutoff:
-                continue
-            if best_end is None or end > best_end:
-                best_end, best_tag = end, tag
-    if best_tag is None:
-        return None, None
-
-    entries = [e for e in _facts_for_tag(facts, best_tag)
-               if e.get("end", "") >= stale_cutoff]
-    if not entries:
-        return None, None
-
-    # Classify by period length (end - start days)
-    def days(e):
-        s = e.get("start", "")
-        en = e.get("end", "")
-        if not s or not en:
-            return 0
-        return (date.fromisoformat(en) - date.fromisoformat(s)).days
-
-    # Sort by end descending
-    entries.sort(key=lambda e: e.get("end", ""), reverse=True)
-
-    # Try to assemble TTM from quarterly (60-100 day periods)
-    quarterly = [e for e in entries if 60 <= days(e) <= 100]
-    if len(quarterly) >= 4:
-        latest_four = quarterly[:4]
-        # Dedupe by end date
-        seen_ends = set()
-        unique = []
-        for e in latest_four:
-            if e["end"] not in seen_ends:
-                seen_ends.add(e["end"])
-                unique.append(e)
-        if len(unique) >= 4:
-            total = sum(e["val"] for e in unique[:4])
-            return total, unique[0]["end"]
-
-    # Fallback: most recent annual (~365 day period)
-    annual = [e for e in entries if 350 <= days(e) <= 380]
-    if annual:
-        return annual[0]["val"], annual[0]["end"]
-
-    # Last resort: latest value
-    return entries[0]["val"], entries[0]["end"]
 
 
 def get_description_from_facts(facts):

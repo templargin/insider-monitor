@@ -10,7 +10,7 @@ Candidates are tried in priority order; earlier candidates fill in first,
 later ones fill in periods the earlier didn't cover.
 """
 from collections import defaultdict
-from datetime import date
+from datetime import date, datetime, timedelta
 
 from . import edgar
 from .financials import _canonicalize, INCOME_CANONICAL, BALANCE_CANONICAL, CASHFLOW_CANONICAL
@@ -1242,8 +1242,14 @@ def _build_ratios(is_stmt, bs_stmt):
     return {"labels": labels, "periods": periods, "data": data}
 
 
-def fetch_xbrl_financials(cik):
-    facts = edgar.fetch_companyfacts(cik)
+def fetch_xbrl_financials(cik, facts=None):
+    """Build the canonical statements for a filer.
+
+    `facts` lets a caller that already holds companyfacts (the screener) reuse it
+    rather than pay for a second fetch of the same JSON.
+    """
+    if facts is None:
+        facts = edgar.fetch_companyfacts(cik)
     if facts is None:
         return None
     usg = facts.get("facts", {}).get("us-gaap", {})
@@ -1338,3 +1344,80 @@ def fetch_xbrl_financials(cik):
         "cash_flow": {"quarterly": cf_q_c, "annual": cf_a_c},
         "ratios": {"quarterly": ratios_q, "annual": ratios_a},
     }
+
+
+def _revenue_row(grid):
+    """(row, periods) for the canonical Total Revenue row of a grid, else (None, None)."""
+    labels = (grid or {}).get("labels") or []
+    data = (grid or {}).get("data") or []
+    if "Total Revenue" not in labels:
+        return None, None
+    i = labels.index("Total Revenue")
+    if i >= len(data):
+        return None, None
+    return (data[i] or []), ((grid or {}).get("periods") or [])
+
+
+# An annual figure older than this is not a trailing twelve months by any reading.
+# Mirrors the guard the removed get_ttm_revenue carried: without it a filer that
+# has stopped reporting revenue keeps passing a `revenue > 0` screen on an ancient
+# number (KLRS carried a 2019 fact through a reverse merger into a clinical-stage
+# shell; STEX last reported $40k for FY2024 and nothing since).
+_STALE_REVENUE_DAYS = 540
+
+
+def _period_within(label, days, today=None):
+    """True when a canonical period label ('12/31/25') is no older than `days`.
+    An unparseable label — notably the derived 'LTM' column — is not a date."""
+    try:
+        d = datetime.strptime(label, "%m/%d/%y").date()
+    except (ValueError, TypeError):
+        return False
+    return (today or date.today()) - d <= timedelta(days=days)
+
+
+def ltm_revenue(fins, today=None):
+    """Trailing-twelve-month revenue off the canonical income statement.
+
+    This is the single source of revenue truth: the screener and the company page
+    must quote the same number, so both read it from the grid built above (which
+    dedupes newest-accession-wins and derives a fiscal Q4 from the YTD walk).
+
+    Returns (value, period_label).
+
+    Quarterly first; annual is not a nicety. A foreign private issuer on 20-F
+    publishes no quarterly XBRL at all, so its quarterly grid is empty while its
+    annual grid carries the real top line — NTB ($607M), SMWB ($283M), GMEX
+    ($5.2M). Reading only the quarterly grid reports those as zero revenue and
+    deletes them from a screener whose filter is `revenue > 0`. For such a filer
+    the most recent annual column IS the trailing twelve months.
+
+    A filer with no Total Revenue row in *either* grid reports no revenue at all —
+    clinical-stage biotechs tag no revenue concept whatsoever — which is a real
+    zero rather than missing data, and belongs in the rejected pile. Genuinely
+    missing input surfaces as `fins is None`; the caller must handle that before
+    calling this.
+    """
+    inc = (fins or {}).get("income_statement") or {}
+
+    row, periods = _revenue_row(inc.get("quarterly"))
+    if row:
+        vals = [v for v in row[:4] if v is not None]
+        if vals:
+            return float(sum(vals)), (periods[0] if periods else None)
+
+    # Leftmost annual column is the most recent — an "LTM" column when quarterly
+    # data existed, otherwise the latest fiscal year. Only a recent one counts:
+    # walking further back finds the last year the filer HAD revenue, which is a
+    # different question from what it earns now.
+    row, periods = _revenue_row(inc.get("annual"))
+    if row:
+        for j, v in enumerate(row):
+            if v is None:
+                continue
+            label = periods[j] if j < len(periods) else None
+            if _period_within(label, _STALE_REVENUE_DAYS, today):
+                return float(v), label
+            break   # columns run newest-first; older ones are staler still
+
+    return 0.0, None

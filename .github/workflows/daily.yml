@@ -23,6 +23,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Guards the screener's validation boundary. If these fail the daily run does
+      # not happen — a stale page beats a confidently wrong one.
+      - name: Tests
+        run: pytest -q
+
       - name: Daily run
         run: python -m scripts.daily_run
 

@@ -17,7 +17,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scraper import edgar, xbrl_facts, xbrl_statement
+from scraper import edgar, filters, xbrl_facts, xbrl_statement
 from sitegen import generate as G
 
 
@@ -47,6 +47,7 @@ def main():
     env = G.get_env()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     changed = 0
+    over = []   # refreshed past the screen's own ceiling
     for t in tickers:
         p = base / f"{t}.json"
         d = json.loads(p.read_text())
@@ -68,6 +69,22 @@ def main():
         mc = v.get("mc_basic")
         ev = (mc + (debt or 0) - (cash or 0)) if mc is not None else v.get("ev_basic")
 
+        # A refreshed debt figure can move EV across the screen's own ceiling. This
+        # used to be written back unchecked, which is how FBRT ($3,376M), CUBI, XRN,
+        # BETR and GSHD came to be published by a site whose stated criterion is
+        # EV < $1B. Report rather than delete — `scripts.rescreen_all` owns delisting.
+        is_bank = bool(debt_flag) and debt_flag.get("reason") == "financial_institution"
+        size = mc if is_bank else ev
+        if size is not None and not filters.passes_ev_cap(size):
+            over.append((t, size, "MC" if is_bank else "EV"))
+
+        # Preserve-on-failure: never let a momentary gap in the debt tags turn a
+        # known borrowing into `null`, which the EV maths then reads as zero debt.
+        # Mirrors the options/warrants rule in pipeline.update_company_data.
+        if debt is None and v.get("debt") is not None:
+            print(f"[{t}] debt now unreadable — keeping stored ${v['debt']/1e6:,.0f}M")
+            continue
+
         old = (v.get("debt"), v.get("debt_flag"), v.get("cash"), v.get("ev_basic"))
         new = (debt, debt_flag, cash, ev)
         if old == new:
@@ -84,6 +101,12 @@ def main():
         print(f"[{t}] debt {od} -> {nd}{fl}")
 
     print(f"\nUpdated {changed}/{len(tickers)} companies.")
+    if over:
+        print(f"\n{len(over)} company(ies) no longer meet the EV < "
+              f"${filters.EV_CAP_USD/1e6:,.0f}M criterion after refresh:")
+        for t, size, measure in sorted(over, key=lambda x: -x[1]):
+            print(f"  {t:6s} {measure}=${size/1e6:,.1f}M")
+        print("Run `python -m scripts.rescreen_all` to delist them.")
 
 
 if __name__ == "__main__":
