@@ -2,6 +2,7 @@
 update per-ticker data, write daily JSON. Heavy lifting orchestrator.
 """
 import json
+import math
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -41,13 +42,19 @@ def _now_iso():
 
 
 def _empty_daily(url_date):
-    """Daily-page payload with no tickers."""
+    """Daily-page payload with no tickers.
+
+    `unevaluated` is what stops an empty `tickers` list from being read as "no
+    issuer qualified today". An issuer we could not evaluate is neither a pass nor
+    a rejection, and the page has to be able to say so.
+    """
     return {
         "url_date": url_date.isoformat(),
         "weekday": url_date.strftime("%A"),
         "filing_dates": [fd.isoformat() for fd in buckets.filing_dates_for_url(url_date)],
         "generated_at": _now_iso(),
         "tickers": [],
+        "unevaluated": [],
     }
 
 
@@ -86,46 +93,87 @@ def fetch_all_form4s_for_bucket(url_date):
 
 
 def screener_pass(cik, ticker, bucket_data):
-    """Return a valuation dict if the issuer PASSES EV/revenue screening, or None
-    if it is screened OUT on the merits (EV ≥ cap, or no TTM revenue).
+    """Return a valuation dict if the issuer PASSES screening, or None if it is
+    screened OUT on the merits (size ≥ cap, or no revenue).
 
-    Raises DataUnavailable when a required input could not be obtained
-    (companyfacts/share-price fetch failed, or the filer tags no share count) —
-    callers must NOT treat that as a screen-out."""
+    Raises DataUnavailable when any required input cannot be established. Callers
+    must NOT treat that as a screen-out — an unknown allowed to masquerade as a
+    merits rejection is exactly how the 2026-07-15 page silently lost BUKS.
+
+    This function is the single validation boundary: every input is proven present
+    and finite before any comparison. That is what makes the None-means-zero
+    reading of debt/cash in `filters.basic_ev` sound — past the anchor check,
+    "absent" really does mean "the filer reports no such line".
+    """
     try:
         facts = edgar.fetch_companyfacts(cik)
     except requests.RequestException as e:
         raise DataUnavailable(f"companyfacts fetch failed for CIK {cik}: {e}")
     if facts is None:
         raise DataUnavailable(f"no companyfacts for CIK {cik}")
+
+    # Anchor first. Without a us-gaap balance sheet we cannot read debt or cash at
+    # a known date — an IFRS/20-F filer (GLBS), a non-USD reporter, or a filer
+    # tagging no balance-sheet subtotal. Screening those on EV would silently read
+    # unknown debt as zero and admit a leveraged company.
+    as_of = xbrl_facts.balance_sheet_date(facts)
+    if as_of is None:
+        raise DataUnavailable(f"no us-gaap balance sheet for {ticker}")
+
     shares, sh_end = xbrl_facts.get_basic_shares(facts)
-    cash, _ = xbrl_facts.get_cash(facts)
+    if shares is None or shares <= 0:
+        raise DataUnavailable(f"no basic share count for {ticker}")
+    if sh_end is None or sh_end < as_of:
+        # A cover-page count is legitimately FRESHER than the balance sheet; one
+        # that is OLDER predates it and cannot describe the same company (BETA
+        # carried a pre-IPO count, FONR one from 2018).
+        raise DataUnavailable(
+            f"share count for {ticker} predates its balance sheet ({sh_end} < {as_of})")
+
+    cash, _ = xbrl_facts.get_cash(facts, as_of)
     # Structured debt: date-anchored, classified by the us-gaap debt hierarchy,
     # bounded by reported liabilities, with a move-3 uncertainty flag.
     debt, _, debt_flag = xbrl_statement.get_structured_debt(facts)
-    ttm_rev, _ = xbrl_facts.get_ttm_revenue(facts)
 
-    if shares is None or shares <= 0:
-        # Facts fetched fine but this filer tags no basic share count — a
-        # permanent per-filer data gap, not a transient outage. We can't confirm
-        # EV < $1B, so screen it out conservatively (counts as evaluated).
-        return None
     price = financials.fetch_share_price(ticker)
-    if price is None or price <= 0:
+    if price is None or not math.isfinite(price) or price <= 0:
+        # NaN arrives whenever Yahoo serves a null bar for a thin name. It is
+        # neither None nor <= 0, so it has to be rejected explicitly or it poisons
+        # EV and reads as "too big".
         raise DataUnavailable(f"no share price for {ticker}")
+
     mc_basic = price * shares
     ev = filters.basic_ev(mc_basic, debt, cash)
-    if not filters.passes_ev_cap(ev):
+
+    # A deposit-funded bank's liabilities are its customers' deposits, not
+    # borrowings, so EV is not a size measure for it — get_structured_debt says so
+    # in as many words when it raises `financial_institution`. Market cap is.
+    is_bank = bool(debt_flag) and debt_flag.get("reason") == "financial_institution"
+    size = mc_basic if is_bank else ev
+    if not filters.passes_ev_cap(size):
+        _log(f"    screened out: {'MC' if is_bank else 'EV'}=${size/1e6:,.1f}M "
+             f"≥ ${filters.EV_CAP_USD/1e6:,.0f}M cap")
         return None
+
+    # Revenue off the canonical grid — the same builder the company page renders,
+    # so the screen and the page can never quote different numbers for one filer.
+    fins = xbrl_financials.fetch_xbrl_financials(cik, facts=facts)
+    if fins is None:
+        raise DataUnavailable(f"no financial statements for {ticker}")
+    ttm_rev, rev_end = xbrl_financials.ltm_revenue(fins)
     if not filters.passes_revenue(ttm_rev):
+        _log(f"    screened out: TTM revenue = ${ttm_rev:,.0f}")
         return None
+
     return {
         "facts": facts,
+        "fins": fins,
         "shares": shares,
         "shares_as_of": sh_end,
         "cash": cash,
         "debt": debt,
         "ttm_revenue": ttm_rev,
+        "ttm_revenue_as_of": rev_end,
         "share_price": price,
         "mc_basic": mc_basic,
         "ev_basic": ev,
@@ -190,8 +238,10 @@ def update_company_data(ticker, cik, screener_snapshot):
     profile = financials.fetch_profile(ticker)
     description = profile["description"]
     ownership = profile["ownership"]
-    # XBRL-primary: skip the yfinance financial-statement scrape entirely.
-    fins = xbrl_financials.fetch_xbrl_financials(cik)
+    # XBRL-primary: skip the yfinance financial-statement scrape entirely. The
+    # screener already built this grid to read revenue off it, so reuse it rather
+    # than refetch companyfacts and rebuild.
+    fins = screener_snapshot.get("fins") or xbrl_financials.fetch_xbrl_financials(cik, facts=facts)
 
     # CRITICAL: preserve existing options/warrants if XBRL returns None.
     # Those fields are populated by the LLM-extraction routine from filing
@@ -307,6 +357,7 @@ def process_bucket(url_date):
     _log(f"  {len(threshold)} issuers with ≥1 insider ≥${filters.PURCHASE_THRESHOLD_USD:,}")
 
     survivors = []
+    unevaluated = []   # issuers we could not evaluate — reported on the page
     screened = 0   # issuers we fully evaluated (passed OR merit-failed)
     errored = 0    # issuers we could not evaluate (data unavailable)
     for cik, bucket_data in threshold:
@@ -314,18 +365,20 @@ def process_bucket(url_date):
         name = bucket_data["name"]
         if not ticker:
             _log(f"  - skip {name} (no ticker on Form 4)")
+            unevaluated.append({"ticker": None, "name": name,
+                                "reason": "no ticker on Form 4"})
             continue
         _log(f"  ? probing {name} ({ticker})...")
         try:
             snap = screener_pass(cik, ticker, bucket_data)
         except DataUnavailable as e:
             errored += 1
+            unevaluated.append({"ticker": ticker, "name": name, "reason": str(e)})
             _log(f"    data unavailable: {e}")
             continue
         screened += 1
         if snap is None:
-            _log(f"    screened out (EV ≥ cap or no TTM revenue)")
-            continue
+            continue   # screener_pass logged the specific merits reason
         _log(f"    PASS: EV=${snap['ev_basic']/1e6:,.1f}M  TTM rev=${snap['ttm_revenue']/1e6:,.1f}M")
         snap["name"] = name
         snap["ticker"] = ticker
@@ -345,6 +398,7 @@ def process_bucket(url_date):
 
     # Persist daily JSON
     daily = _empty_daily(url_date)
+    daily["unevaluated"] = unevaluated
     for s in survivors:
         # Per-insider threshold: only insiders who individually crossed
         # $100k show up on the daily page, and the headline `total_value`

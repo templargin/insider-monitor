@@ -3,7 +3,7 @@
 {% block content %}
 <h1>Insider purchases for {{ display_date }}</h1>
 <p class="subtle">URL date = read day. Content = filings posted on {{ filing_dates_pretty }}.
-{% if data.tickers %}{{ data.tickers|length }} issuers met the criteria.{% else %}No issuers met the criteria today.{% endif %}</p>
+{% if data.tickers %}{{ data.tickers|length }} issuer{% if data.tickers|length != 1 %}s{% endif %} met the criteria.{% else %}No issuers met the criteria{% if not data.unevaluated %} today{% endif %}.{% endif %}</p>
 
 <p><a href="../">← month index</a></p>
 
@@ -38,5 +38,16 @@
   </tbody>
 </table>
 </div>
+{% endif %}
+
+{% if data.unevaluated %}
+<p class="warn">{{ data.unevaluated|length }} issuer{% if data.unevaluated|length != 1 %}s{% endif %}
+with a qualifying purchase could not be evaluated on {% if data.unevaluated|length != 1 %}their{% else %}its{% endif %}
+merits — neither passed nor rejected:</p>
+<ul class="subtle">
+  {% for u in data.unevaluated %}
+  <li>{{ u.ticker or u.name }} — {{ u.reason }}</li>
+  {% endfor %}
+</ul>
 {% endif %}
 {% endblock %}

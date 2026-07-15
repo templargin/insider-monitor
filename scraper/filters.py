@@ -5,6 +5,7 @@ have ≥$100k of P-buys in the bucket for the company to qualify. Two
 different insiders at $60k each do NOT make the cut, because no single
 person crossed the line.
 """
+import math
 from collections import defaultdict
 
 PURCHASE_THRESHOLD_USD = 100_000
@@ -96,19 +97,39 @@ def passes_threshold(bucket, threshold_usd=PURCHASE_THRESHOLD_USD):
 
 
 def basic_ev(market_cap_basic, total_debt, cash):
-    """EV = MC + Debt - Cash. Returns None if MC unknown."""
-    if market_cap_basic is None:
-        return None
+    """EV = MC + Debt - Cash.
+
+    A `total_debt`/`cash` of None means the filer reports no such line on its
+    current balance sheet — a real zero. That reading is only sound because
+    `pipeline.screener_pass` refuses to evaluate a filer whose us-gaap balance
+    sheet can't be anchored; without that guard None would *also* mean "we could
+    not look", and coercing it to 0 would understate EV and admit a large company.
+    """
+    if market_cap_basic is None or not math.isfinite(market_cap_basic):
+        raise ValueError(f"basic_ev needs a finite market cap, got {market_cap_basic!r}")
     return market_cap_basic + (total_debt or 0) - (cash or 0)
 
 
 def passes_ev_cap(ev, cap=EV_CAP_USD):
-    if ev is None:
-        return False  # unknown → drop from screener
+    """True when the size measure clears the small-cap ceiling.
+
+    The caller must resolve "unknown" *before* asking. A predicate that answers
+    "no" to a question it was unable to ask is indistinguishable from a real
+    rejection — that is precisely how a NaN price (NaN is not None and not <= 0,
+    and every NaN comparison is False) silently deleted BUKS from the 2026-07-15
+    page while logging a confident "EV >= cap".
+
+    Negative EV is a legitimate PASS: a company trading below net cash is
+    emphatically under the cap (GVH, INM).
+    """
+    if ev is None or not math.isfinite(ev):
+        raise ValueError(f"passes_ev_cap needs a finite EV, got {ev!r}; caller must validate")
     return ev < cap
 
 
 def passes_revenue(ttm_revenue):
-    if ttm_revenue is None:
-        return False  # no revenue evidence → drop
+    """True when the filer has any revenue. Zero is a real answer (clinical-stage
+    biotechs tag no revenue concept at all); None/NaN is not, and is a caller bug."""
+    if ttm_revenue is None or not math.isfinite(ttm_revenue):
+        raise ValueError(f"passes_revenue needs a finite revenue, got {ttm_revenue!r}")
     return ttm_revenue > 0
