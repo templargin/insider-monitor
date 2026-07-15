@@ -1714,16 +1714,16 @@
     }
   ],
   "valuation": {
-    "share_price": 4.050099849700928,
+    "share_price": 3.6700000762939453,
     "shares_basic": 59880715,
     "shares_basic_as_of": "2026-05-08",
     "options": 118511,
     "warrants": 9284509,
     "cash": 28367000,
     "debt": 15000000,
-    "ttm_revenue": 2675000,
-    "mc_basic": 242522874.8214841,
-    "ev_basic": 229155874.8214841,
+    "ttm_revenue": 32724000.0,
+    "mc_basic": 219762228.618536,
+    "ev_basic": 206395228.618536,
     "debt_flag": {
       "reason": "unexplained_liabilities",
       "amount": 8333000,
@@ -2959,5 +2959,10 @@
     "short_days_to_cover": 4.35,
     "short_as_of": "2026-06-29",
     "as_of": "2026-07-13"
+  },
+  "screen": {
+    "qualifies": true,
+    "reason": null,
+    "checked_at": "2026-07-15T16:31:32+00:00"
   }
 }

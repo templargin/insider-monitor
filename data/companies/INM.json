@@ -650,16 +650,16 @@
     }
   ],
   "valuation": {
-    "share_price": 1.5299999713897705,
+    "share_price": 1.5500999689102173,
     "shares_basic": 3314063,
     "shares_basic_as_of": "2026-05-04",
     "options": 186098,
     "warrants": 694017,
     "cash": 5158932,
     "debt": null,
-    "ttm_revenue": 4313594,
-    "mc_basic": 5070516.295183897,
-    "ev_basic": -88415.70481610298,
+    "ttm_revenue": 3245019.0,
+    "mc_basic": 5137128.953266501,
+    "ev_basic": -21803.046733498573,
     "debt_flag": null
   },
   "financials": {
@@ -1369,6 +1369,8 @@
           "\u0394 Working Cap & Other",
           "Operating Cash Flow",
           "",
+          "Investing Cash Flow",
+          "",
           "Other Financing",
           "Financing Cash Flow"
         ],
@@ -1408,6 +1410,18 @@
             -2376243,
             -1607616,
             -1778506
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            0
           ],
           [
             null,
@@ -1501,7 +1515,7 @@
           ],
           [
             null,
-            null,
+            0,
             -9293,
             -160014,
             -39108
@@ -1522,7 +1536,7 @@
           ],
           [
             null,
-            null,
+            0,
             -9293,
             -661804,
             -672999
@@ -1571,7 +1585,7 @@
           ],
           [
             null,
-            null,
+            -7766951,
             -6995125,
             -7443213,
             -15622866
@@ -1741,5 +1755,10 @@
     "short_days_to_cover": 2.07,
     "short_as_of": "2026-06-29",
     "as_of": "2026-07-13"
+  },
+  "screen": {
+    "qualifies": true,
+    "reason": null,
+    "checked_at": "2026-07-15T16:31:32+00:00"
   }
 }
