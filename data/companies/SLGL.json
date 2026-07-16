@@ -3,7 +3,77 @@
   "cik": "1684693",
   "name": "Sol-Gel Technologies Ltd.",
   "description": "Sol-Gel Technologies Ltd., together with its subsidiary Sol-Gel Technologies Inc., develops topical dermatological drugs for patients with severe skin conditions in Israel, China, Switzerland, Canada, the United States and internationally. The company offers Twyneo, a once-daily, non-antibiotic topical cream for the treatment of acne vulgaris; and Epsolay, a once-daily topical cream for the treatment of papulopustular (subtype II) rosacea. It also develops SGT-610 that is in Phase 3 clinical trials for the treatment of Gorlin Syndrome; and SGT-210, which has completed Phase I clinical trial, to treat olmsted syndrome. It has collaboration with Padagis Israel Pharmaceuticals Ltd; and license agreements with Galderma Holding SA and Searchlight Pharma Inc. Sol-Gel Technologies Ltd. was incorporated in 1997 and is headquartered in Ness Ziona, Israel.",
+  "ownership": {
+    "inst_pct": 0.37317002,
+    "insider_pct": 0.59702,
+    "inst_count": 25,
+    "analyst_count": 3,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 193.0,
+    "short_pct_float": 0.045100003,
+    "shares_short": 47496,
+    "short_days_to_cover": 1.42,
+    "short_as_of": "2026-06-30",
+    "as_of": "2026-07-16"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-07-15",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-14",
+      "code": "P",
+      "shares": 920.0,
+      "price": 73.4304,
+      "total_value": 67555.96800000001,
+      "security_title": "Ordinary Shares, par value NIS 1.00 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-033354"
+    },
+    {
+      "date_filed": "2026-07-15",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-13",
+      "code": "P",
+      "shares": 775.0,
+      "price": 73.8873,
+      "total_value": 57262.657499999994,
+      "security_title": "Ordinary Shares, par value NIS 1.00 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-033354"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-10",
+      "code": "P",
+      "shares": 229.0,
+      "price": 73.95,
+      "total_value": 16934.55,
+      "security_title": "Ordinary Shares, par value NIS 1.00 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-032859"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-08",
+      "code": "P",
+      "shares": 300.0,
+      "price": 73.69,
+      "total_value": 22107.0,
+      "security_title": "Ordinary Shares, par value NIS 1.00 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-032859"
+    },
     {
       "date_filed": "2026-07-02",
       "reporter_name": "Opaleye Management Inc.",
@@ -426,7 +496,7 @@
     }
   ],
   "valuation": {
-    "share_price": 76.15499877929688,
+    "share_price": 77.21499633789062,
     "shares_basic": 2786158,
     "shares_basic_as_of": "2025-12-31",
     "options": null,
@@ -435,8 +505,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 26806000.0,
-    "mc_basic": 212179859.08892822,
-    "ev_basic": 201146859.08892822
+    "mc_basic": 215133179.76678467,
+    "ev_basic": 204100179.76678467
   },
   "financials": {
     "income_statement": {
@@ -1432,24 +1502,5 @@
       }
     }
   },
-  "last_updated": "2026-07-03T12:32:43+00:00",
-  "ownership": {
-    "inst_pct": 0.37317002,
-    "insider_pct": 0.59702,
-    "inst_count": 25,
-    "analyst_count": 3,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 193.0,
-    "short_pct_float": 0.045100003,
-    "shares_short": 47496,
-    "short_days_to_cover": 1.42,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-07-16T10:31:34+00:00"
 }

@@ -1,0 +1,43 @@
+{
+  "url_date": "2026-07-16",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-07-15"
+  ],
+  "generated_at": "2026-07-16T10:31:30+00:00",
+  "tickers": [
+    {
+      "ticker": "SLGL",
+      "name": "Sol-Gel Technologies Ltd.",
+      "total_value": 124818.6255,
+      "ev_basic": 204100179.76678467,
+      "mc_basic": 215133179.76678467,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 124818.6255,
+          "shares": 1695.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "ECAT",
+      "name": "BlackRock ESG Capital Allocation Term Trust",
+      "reason": "no us-gaap balance sheet for ECAT"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "reason": "no us-gaap balance sheet for MXF"
+    },
+    {
+      "ticker": "BOT",
+      "name": "RoboStrategy, Inc.",
+      "reason": "no us-gaap balance sheet for BOT"
+    }
+  ]
+}
