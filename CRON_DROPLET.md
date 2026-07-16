@@ -205,5 +205,6 @@ For host-level ops (gh auth rotation, env file management, adding new workloads,
 | Survivor's page shows `—` for options/warrants | Skill was conservative (ambiguous footnote) OR footnote file is missing | Inspect `data/footnotes/TICKER.txt`; manually edit JSON + push if you can determine the value |
 | Workflow fires but skill output is empty | All tickers already have non-null options/warrants — expected |
 | Skill commits but page doesn't refresh | GH Pages deploy lag (1–5 min) | Wait and refresh |
+| A local rebuild silently deletes daily pages | **`build_site` regenerates `docs/` from local `data/`, so a clone that is behind origin drops every daily page it doesn't have.** Committing that rebuild would delete those pages from the live site. | ALWAYS `git fetch && git status` before any local `daily_run`/`build_site`, and compare `ls data/insiders/*.json \| wc -l` against `git ls-tree -r --name-only origin/main data/insiders \| wc -l`. Only the droplet/CI should build in the normal flow; a local build is a manual-fixup path and must start from a synced clone. Caught once on 2026-07-15 (rebuild reported "51 daily" vs origin's 52). |
 
 For host-level troubleshooting (gh broken, claude not authed, env files, etc.), see [templargin/droplet](https://github.com/templargin/droplet#troubleshooting).

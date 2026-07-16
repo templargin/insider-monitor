@@ -93,4 +93,60 @@ python -m scripts.audit_debt_free    # negatives: debt-free companies that may h
 python -m scripts.audit_debt_value   # positives: reported debt vs the filer's own total
 python -m scripts.build_site        # render docs/ from data/
 python -m scripts.probe_coverage    # coverage % per canonical row + candidate-tag backlog
+python -m scripts.rescreen_all        # re-screen every stored company; --apply writes verdicts + corrected valuations
+python -m pytest -q                   # unit tests (CI runs these before the daily build)
 ```
+
+## Design principle: an unknown is never a number
+
+The one rule the codebase keeps relearning: **a value meaning "I don't know" must
+never be silently coerced into a value meaning "I know, and the answer is no"** (or
+yes, or 100%). Every instance below was a real published error traced to breaking it:
+
+- A `NaN` share price passed `price is None or price <= 0`, poisoned EV, and
+  `nan < 1e9` is `False` — so a real qualifying buy (BUKS, 2026-07-15) read as
+  "EV ≥ cap" and was dropped, logged as a confident rejection.
+- `get_ttm_revenue` picked one revenue tag and discarded the rest, so CUBI read
+  $43M against its own $1.51B income statement — 94 of 174 companies disagreed.
+- The gross-margin ladder set `GP = Revenue` (100% margin) rather than leave a row
+  blank, for 18 companies with real revenue.
+- `(debt or 0)`, `(options or 0)`, `(claims.get(end) or 0)` — each turned "not
+  tagged" into "zero", fabricating EV, dilution, and underwriting margin.
+
+The discipline, enforced at each layer:
+
+- **Screener** (`scraper/pipeline.py::screener_pass`) — the single validation
+  boundary. Every input is proven present and finite; any unknown raises
+  `DataUnavailable`, which the daily page reports as **unevaluated** (neither a pass
+  nor a rejection). Filters raise rather than answer "no" to a question they could
+  not ask.
+- **Display** (`sitegen/generate.py`) — whatever cannot be computed renders as `—`,
+  never a fabricated number. A blank cell is a worse-looking page and a truer one.
+- **Fetch** (`scraper/edgar.py`) — a filing we could not fetch (throttle, 5xx) is
+  raised, not returned as `None`; only a genuine 404/absent index becomes empty.
+
+There is exactly ONE revenue implementation (`xbrl_financials.ltm_revenue`) and ONE
+fully-diluted computation (`sitegen.generate.fd_figures`). Do not add a second of
+either — divergence is how the screener and the page came to disagree.
+
+## Known limitations
+
+Current, and deliberately not yet fixed:
+
+- **Bank EV is still published even though it's not a size measure.** Banks are
+  *screened* on market cap (deposits aren't debt), but their `ev_basic` — often
+  deeply negative (FGBI ≈ −$352M) — still appears in the daily page's EV column.
+  Screening is correct; the displayed number is meaningless for a bank.
+- **~44 company pages show no gross-margin row.** When a filer tags no
+  cost-of-revenue concept we recognise and no derivation applies, the row is left
+  blank rather than fabricated. Honest, but a real loss of information — the fix is
+  per-filer tag research (e.g. adding `OtherGeneralAndAdministrativeExpense` to the
+  SG&A ladder, which recovered BUKS), not another fallback.
+- **A few pages show a 100% gross margin that is the filer's own inconsistency**
+  (e.g. HCWB tags a `GrossProfit` larger than its own revenue), bounded by the
+  `GP ≤ Revenue` accounting clamp. Reported, not fabricated by us.
+- **No test exercises the real statement builder.** Unit tests stub
+  `fetch_xbrl_financials` or hand-build grids, so a rename of a canonical row label
+  (e.g. `"Total Revenue"`) would zero every company's revenue with a fully green
+  suite — the exact shape of two bugs already caught only by sweeping real data. A
+  single fixture built from one real `companyfacts` payload would close this.
