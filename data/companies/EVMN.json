@@ -1521,8 +1521,6 @@
       "quarterly": {
         "labels": [
           "Total Revenue",
-          "Gross Profit",
-          "Gross Margin %",
           "",
           "SG&A",
           "R&D",
@@ -1556,18 +1554,6 @@
             0,
             10000000,
             3000000
-          ],
-          [
-            null,
-            null,
-            10000000,
-            3000000
-          ],
-          [
-            null,
-            null,
-            100.0,
-            100.0
           ],
           [
             null,
@@ -1695,9 +1681,6 @@
         "labels": [
           "Total Revenue",
           "Revenue YoY %",
-          "Gross Profit",
-          "Gross Profit YoY %",
-          "Gross Margin %",
           "",
           "SG&A",
           "R&D",
@@ -1734,21 +1717,6 @@
             0.0,
             85.71428571428571,
             null
-          ],
-          [
-            null,
-            13000000,
-            7000000
-          ],
-          [
-            null,
-            85.71428571428571,
-            null
-          ],
-          [
-            null,
-            100.0,
-            100.0
           ],
           [
             null,

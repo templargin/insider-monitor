@@ -76,14 +76,17 @@
   <p class="subtle">
     MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of 2026-05-07.
-    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative.
+    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative,
+    or when fewer than four quarters are reported — a partial sum is not a trailing twelve months.
     Ownership &amp; coverage per Yahoo Finance as of 2026-07-13 —
     institutional % is 13F-based, so it can lag a quarter and exceed 100% on share-count timing.
     Short interest per FINRA bi-monthly reporting, as of 2026-06-29;
     the float denominator can be unreliable on tiny floats.
   </p>
   
-    <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>
+    <p class="warn">This filer tags no warrant count,
+    so FD SO counts it as zero and understates dilution — treat FD SO, MC and EV as a floor.
+    (XBRL reports nothing both for a filer that has none and for one that simply doesn't tag them.)</p>
   
   
     <p class="warn">Debt figure uncertain — deposit-funded financial institution — debt/EV not a meaningful metric. Verify against the filing before relying on EV.</p>
@@ -194,7 +197,7 @@
                 
               <tr class="">
                 <th>SG&amp;A</th>
-                <td class="num">44.26</td><td class="num">40.45</td><td class="num">42.16</td><td class="num">42.31</td>
+                <td class="num">5.26</td><td class="num">7.45</td><td class="num">6.89</td><td class="num">6.88</td>
               </tr>
               
             
@@ -403,7 +406,7 @@
                 
               <tr class="">
                 <th>SG&amp;A</th>
-                <td class="num">169.18</td><td class="num">166.09</td><td class="num">162.71</td><td class="num">146.33</td><td class="num">66.39</td>
+                <td class="num">26.49</td><td class="num">28.64</td><td class="num">21.27</td><td class="num">22.36</td><td class="num">7.67</td>
               </tr>
               
             
@@ -2738,7 +2741,7 @@
 
   </main>
   <footer class="site-footer">
-    Generated 2026-07-15T16:51:08+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-07-15T21:10:36+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>

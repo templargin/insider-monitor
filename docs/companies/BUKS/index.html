@@ -32,16 +32,16 @@
     <table class="valuation-table multiples-table" data-ticker="BUKS">
       <thead><tr><th colspan="2">Cap structure</th></tr></thead>
       <tbody>
-        <tr><th>SP</th><td class="num" id="live-sp" data-baked="4.78">$4.78</td></tr>
+        <tr><th>SP</th><td class="num" id="live-sp" data-baked="4.75">$4.75</td></tr>
         <tr><th>SO</th><td class="num">63.9M</td></tr>
         <tr><th>Options</th><td class="num">6.1M</td></tr>
         <tr><th>Warrants</th><td class="num">—</td></tr>
         <tr><th>FD SO</th><td class="num">70.0M</td></tr>
-        <tr><th>MC</th><td class="num" id="live-mc" data-fdso="69990750">$334.6M</td></tr>
+        <tr><th>MC</th><td class="num" id="live-mc" data-fdso="69990750">$332.5M</td></tr>
         <tr class="spacer"><th></th><td></td></tr>
         <tr><th>Cash</th><td class="num">$35.1M</td></tr>
         <tr><th>Total debt</th><td class="num">$33.4M</td></tr>
-        <tr><th>EV</th><td class="num" id="live-ev" data-cash="35124000" data-debt="33445000">$332.9M</td></tr>
+        <tr><th>EV</th><td class="num" id="live-ev" data-cash="35124000" data-debt="33445000">$330.8M</td></tr>
       </tbody>
     </table>
 
@@ -50,9 +50,9 @@
       <tbody>
         <tr><th>EV / Revenue</th><td class="num">3.4x</td></tr>
         <tr><th>EV / EBITDA</th><td class="num">9.4x</td></tr>
-        <tr><th>MC / Net Income</th><td class="num">15.3x</td></tr>
-        <tr><th>EV / FCF</th><td class="num">33.1x</td></tr>
-        <tr><th>MC / FCF</th><td class="num">33.2x</td></tr>
+        <tr><th>MC / Net Income</th><td class="num">15.2x</td></tr>
+        <tr><th>EV / FCF</th><td class="num">—</td></tr>
+        <tr><th>MC / FCF</th><td class="num">—</td></tr>
       </tbody>
     </table>
 
@@ -76,14 +76,17 @@
   <p class="subtle">
     MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of 2026-06-26.
-    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative.
+    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative,
+    or when fewer than four quarters are reported — a partial sum is not a trailing twelve months.
     Ownership &amp; coverage per Yahoo Finance as of 2026-07-15 —
     institutional % is 13F-based, so it can lag a quarter and exceed 100% on share-count timing.
     Short interest shown as "—" when unreported
     or older than 60 days.
   </p>
   
-    <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>
+    <p class="warn">This filer tags no warrant count,
+    so FD SO counts it as zero and understates dilution — treat FD SO, MC and EV as a floor.
+    (XBRL reports nothing both for a filer that has none and for one that simply doesn't tag them.)</p>
   
   
 </section>
@@ -153,7 +156,7 @@
                 
               <tr class="subtotal">
                 <th>Gross Profit</th>
-                <td class="num">27.68</td><td class="num">26.91</td><td class="num">23.25</td><td class="num">20.12</td>
+                <td class="num">13.21</td><td class="num">13.62</td><td class="num">11.02</td><td class="num">8.70</td>
               </tr>
               
             
@@ -165,7 +168,7 @@
                 
               <tr class="sub">
                 <th>Gross Profit YoY %</th>
-                <td class="num">28.1%</td><td class="num">27.1%</td><td class="num">8.9%</td><td class="num">1.5%</td>
+                <td class="num">33.9%</td><td class="num">71.5%</td><td class="num">22.8%</td><td class="num">15.3%</td>
               </tr>
               
             
@@ -177,13 +180,23 @@
                 
               <tr class="sub">
                 <th>Gross Margin %</th>
-                <td class="num">100.0%</td><td class="num">100.0%</td><td class="num">100.0%</td><td class="num">100.0%</td>
+                <td class="num">47.7%</td><td class="num">50.6%</td><td class="num">47.4%</td><td class="num">43.2%</td>
               </tr>
               
             
               
               
               <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>SG&amp;A</th>
+                <td class="num">5.74</td><td class="num">4.38</td><td class="num">3.94</td><td class="num">4.03</td>
+              </tr>
               
             
               
@@ -437,7 +450,7 @@
                 
               <tr class="subtotal">
                 <th>Gross Profit</th>
-                <td class="num">97.97</td><td class="num">97.97</td><td class="num">83.97</td><td class="num">78.38</td><td class="num">75.18</td>
+                <td class="num">46.55</td><td class="num">46.55</td><td class="num">34.33</td><td class="num">28.89</td><td class="num">28.45</td>
               </tr>
               
             
@@ -449,7 +462,7 @@
                 
               <tr class="sub">
                 <th>Gross Profit YoY %</th>
-                <td class="num">0.0%</td><td class="num">16.7%</td><td class="num">7.1%</td><td class="num">4.2%</td><td class="num">—</td>
+                <td class="num">0.0%</td><td class="num">35.6%</td><td class="num">18.8%</td><td class="num">1.6%</td><td class="num">—</td>
               </tr>
               
             
@@ -461,13 +474,23 @@
                 
               <tr class="sub">
                 <th>Gross Margin %</th>
-                <td class="num">100.0%</td><td class="num">100.0%</td><td class="num">100.0%</td><td class="num">100.0%</td><td class="num">100.0%</td>
+                <td class="num">47.5%</td><td class="num">47.5%</td><td class="num">40.9%</td><td class="num">36.9%</td><td class="num">37.8%</td>
               </tr>
               
             
               
               
               <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>SG&amp;A</th>
+                <td class="num">18.10</td><td class="num">18.10</td><td class="num">17.50</td><td class="num">15.66</td><td class="num">19.80</td>
+              </tr>
               
             
               
@@ -3411,7 +3434,7 @@
 
   </main>
   <footer class="site-footer">
-    Generated 2026-07-15T16:51:08+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-07-15T21:10:36+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>

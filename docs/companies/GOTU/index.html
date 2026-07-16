@@ -79,14 +79,17 @@ share count for GOTU predates its balance sheet (2019-12-31 &lt; 2025-12-31). Th
   <p class="subtle">
     MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of 2019-12-31.
-    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative.
+    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative,
+    or when fewer than four quarters are reported — a partial sum is not a trailing twelve months.
     Ownership &amp; coverage per Yahoo Finance as of 2026-07-13 —
     institutional % is 13F-based, so it can lag a quarter and exceed 100% on share-count timing.
     Short interest per FINRA bi-monthly reporting, as of 2026-06-29;
     the float denominator can be unreliable on tiny floats.
   </p>
   
-    <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>
+    <p class="warn">This filer tags no warrant count,
+    so FD SO counts it as zero and understates dilution — treat FD SO, MC and EV as a floor.
+    (XBRL reports nothing both for a filer that has none and for one that simply doesn't tag them.)</p>
   
   
 </section>
@@ -1209,7 +1212,7 @@ share count for GOTU predates its balance sheet (2019-12-31 &lt; 2025-12-31). Th
 
   </main>
   <footer class="site-footer">
-    Generated 2026-07-15T16:51:08+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-07-15T21:10:36+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>
