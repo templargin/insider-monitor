@@ -67,7 +67,8 @@ bought links here, and that purchase still happened.</p>
   <p class="subtle">
     MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
     Balance-sheet figures as of {{ data.valuation.shares_basic_as_of }}.
-    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative.
+    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative,
+    or when fewer than four quarters are reported — a partial sum is not a trailing twelve months.
     {% if data.ownership %}Ownership &amp; coverage per Yahoo Finance as of {{ data.ownership.as_of }} —
     institutional % is 13F-based, so it can lag a quarter and exceed 100% on share-count timing.
     {% if data.ownership.short_as_of %}Short interest per FINRA bi-monthly reporting, as of {{ data.ownership.short_as_of }};
@@ -75,7 +76,9 @@ bought links here, and that purchase still happened.</p>
     or older than 60 days.{% endif %}{% endif %}
   </p>
   {% if data.valuation.options is none or data.valuation.warrants is none %}
-    <p class="warn">Some dilution data missing — FD SO falls back to available figures.</p>
+    <p class="warn">This filer tags no {% if data.valuation.options is none and data.valuation.warrants is none %}option or warrant count{% elif data.valuation.options is none %}option count{% else %}warrant count{% endif %},
+    so FD SO counts it as zero and understates dilution — treat FD SO, MC and EV as a floor.
+    (XBRL reports nothing both for a filer that has none and for one that simply doesn't tag them.)</p>
   {% endif %}
   {% if data.valuation.debt_flag %}
     <p class="warn">Debt figure uncertain — {{ data.valuation.debt_flag|debt_flag_text }}. Verify against the filing before relying on EV.</p>

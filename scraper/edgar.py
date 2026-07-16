@@ -36,6 +36,22 @@ _THROTTLE_MARKERS = (
 )
 
 
+def _is_missing(resp):
+    """True when a response means 'this genuinely isn't here' — the only condition
+    under which a fetch may be turned into None rather than raised.
+
+    404, or a 403 that isn't a throttle (SEC serves 403 for a path that does not
+    exist, e.g. a weekend daily-index). Everything else — 5xx that outlived its
+    retries, a throttle, a transport error — is a failure to LOOK, not a finding
+    of absence, and must reach the caller.
+    """
+    if resp is None:
+        return False
+    if resp.status_code == 404:
+        return True
+    return resp.status_code == 403 and not _is_throttle(resp)
+
+
 def _is_throttle(resp):
     """True when a response is SEC saying 'slow down' rather than 'not found'."""
     if resp is None:
@@ -166,8 +182,7 @@ def fetch_daily_index_form4s(d):
     try:
         resp = _get(url)
     except requests.HTTPError as e:
-        if e.response is not None and e.response.status_code in (404, 403) \
-                and not _is_throttle(e.response):
+        if _is_missing(e.response):
             return []
         raise
     # Master idx uses Latin-1 for some special chars in company names
@@ -178,21 +193,26 @@ def fetch_form4_xml(cik, accession_nodash, xml_name=None):
     """Fetch the primary Form 4 XML. If xml_name provided (from search API), use it
     directly; otherwise look it up via index.json (slower).
 
-    Returns None when the filing genuinely isn't retrievable (404, no XML in the
-    directory). A transport failure — a throttle that outlived its retries — is
-    RAISED, not swallowed: a filing we could not fetch is not a filing that does
-    not qualify. Returning None for it drops the accession before it ever reaches
-    the screener, so the issuer never enters `threshold` and no outage guard can
-    see it. That is the same silent-drop shape as the NaN price, one layer up.
+    Returns None only when the filing genuinely isn't there (404, or no XML in the
+    directory). ANY other transport failure is RAISED: a filing we could not fetch
+    is not a filing that does not qualify. Returning None for it drops the
+    accession before it reaches the screener, so the issuer never enters
+    `threshold` and no outage guard can see it — the same silent-drop shape as the
+    NaN price, one layer up.
+
+    Note the guard is "is this a real 404", not "is this a throttle". Keying on the
+    throttle let a 5xx that exhausted all four retries in `_get` fall through to
+    `return None` and vanish — `_RETRY_STATUS` exists precisely because SEC 5xxs
+    happen under load.
     """
     base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodash}"
     if xml_name is None:
         try:
             idx = _get(f"{base}/index.json").json()
         except requests.HTTPError as e:
-            if _is_throttle(e.response):
-                raise
-            return None
+            if _is_missing(e.response):
+                return None
+            raise
         for item in idx.get("directory", {}).get("item", []):
             name = item.get("name", "")
             if name.endswith(".xml") and "index" not in name.lower() and "filing-summary" not in name.lower():
@@ -203,9 +223,9 @@ def fetch_form4_xml(cik, accession_nodash, xml_name=None):
     try:
         return _get(f"{base}/{xml_name}").content
     except requests.HTTPError as e:
-        if _is_throttle(e.response):
-            raise
-        return None
+        if _is_missing(e.response):
+            return None
+        raise
 
 
 def fetch_form4_index_via_search(start_date, end_date=None):
@@ -253,6 +273,24 @@ def fetch_form4_index_via_search(start_date, end_date=None):
         if page_from >= total:
             break
     return out
+
+
+def _amount(txn, path, text_at, code, ticker):
+    """Numeric transaction amount; 0.0 when absent, 0.0 + a shout when malformed.
+
+    Absent is ordinary (a gift or award carries no price). Malformed is not, and
+    it is indistinguishable downstream: both become 0.0 and both get dropped by
+    the `price > 0` filter. Only the malformed case is a lost purchase.
+    """
+    raw = text_at(txn, path)
+    if not raw:
+        return 0.0
+    try:
+        return float(raw)
+    except ValueError:
+        print(f"  ! unparseable {path.rsplit('/', 1)[-1]}={raw!r} on a code-{code} "
+              f"transaction for {ticker or '?'} — dropped from the screen", flush=True)
+        return 0.0
 
 
 def parse_form4(xml_bytes):
@@ -312,14 +350,18 @@ def parse_form4(xml_bytes):
             code = text_at(txn, "transactionCoding/transactionCode")
             if not code:
                 continue
-            try:
-                shares = float(text_at(txn, "transactionAmounts/transactionShares") or "0")
-            except ValueError:
-                shares = 0.0
-            try:
-                price = float(text_at(txn, "transactionAmounts/transactionPricePerShare") or "0")
-            except ValueError:
-                price = 0.0
+            # An unparseable amount becomes 0.0, and filters.aggregate_p_purchases
+            # drops a code-P row on `shares > 0 and price > 0` — so a real
+            # open-market purchase would vanish, taking its reporter below the
+            # $100k line and the issuer out of the screen entirely, with nothing
+            # logged. Measured against the 2026-07-14 bucket: 0 of 83 code-P
+            # transactions were unparseable, so this is a latent door rather than
+            # an active leak, and a shout is the whole fix. If it ever fires it
+            # must not be silent.
+            shares = _amount(txn, "transactionAmounts/transactionShares",
+                             text_at, code, issuer_ticker)
+            price = _amount(txn, "transactionAmounts/transactionPricePerShare",
+                            text_at, code, issuer_ticker)
             ad = text_at(txn, "transactionAmounts/transactionAcquiredDisposedCode")
             signed_shares = shares if ad == "A" else -shares if ad == "D" else shares
             transactions.append({

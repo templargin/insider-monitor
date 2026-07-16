@@ -13,6 +13,7 @@ untouched. Daily-page docs are not touched.
     python -m scripts.refresh_debt REI AVD      # specific tickers
 """
 import json
+import math
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,16 +24,7 @@ from sitegen import generate as G
 
 def _render_company(c, env, now):
     """Re-render docs/companies/TICKER/index.html exactly as generate.generate()."""
-    v = c.get("valuation", {})
-    so = v.get("shares_basic") or 0
-    opts = v.get("options") or 0
-    wrnts = v.get("warrants") or 0
-    sp = v.get("share_price") or 0
-    cash = v.get("cash") or 0
-    debt = v.get("debt") or 0
-    fd_so = (so + opts + wrnts) if so else None
-    fd_mc = (sp * fd_so) if (sp and fd_so) else None
-    fd_ev = (fd_mc + debt - cash) if fd_mc is not None else None
+    fd_so, fd_mc, fd_ev = G.fd_figures(c.get("valuation"))
     rendered = env.get_template("company.html").render(
         data=c, fd_so=fd_so, fd_mc=fd_mc, fd_ev=fd_ev,
         multiples=G._compute_multiples(c, fd_mc, fd_ev),
@@ -67,23 +59,29 @@ def main():
         cash, _ = xbrl_facts.get_cash(facts)
         v = d.get("valuation", {})
         mc = v.get("mc_basic")
-        ev = (mc + (debt or 0) - (cash or 0)) if mc is not None else v.get("ev_basic")
 
-        # A refreshed debt figure can move EV across the screen's own ceiling. This
-        # used to be written back unchecked, which is how FBRT ($3,376M), CUBI, XRN,
-        # BETR and GSHD came to be published by a site whose stated criterion is
-        # EV < $1B. Report rather than delete — `scripts.rescreen_all` owns delisting.
-        is_bank = bool(debt_flag) and debt_flag.get("reason") == "financial_institution"
-        size = mc if is_bank else ev
-        if size is not None and not filters.passes_ev_cap(size):
-            over.append((t, size, "MC" if is_bank else "EV"))
-
-        # Preserve-on-failure: never let a momentary gap in the debt tags turn a
-        # known borrowing into `null`, which the EV maths then reads as zero debt.
-        # Mirrors the options/warrants rule in pipeline.update_company_data.
+        # Preserve-on-failure FIRST. Never let a momentary gap in the debt tags turn
+        # a known borrowing into `null`, which the EV maths then reads as zero debt.
+        # Mirrors the options/warrants rule in pipeline.update_company_data. This has
+        # to come before the cap check: checking first meant reporting on an EV built
+        # with `(debt or 0)` = 0 — understated by exactly the debt we then kept, so
+        # the figure reported never matched what was on disk.
         if debt is None and v.get("debt") is not None:
             print(f"[{t}] debt now unreadable — keeping stored ${v['debt']/1e6:,.0f}M")
             continue
+
+        ev = (mc + (debt or 0) - (cash or 0)) if mc is not None else v.get("ev_basic")
+
+        # A refreshed debt figure can move EV across the screen's own ceiling. This
+        # used to be written back unchecked, which is how FBRT ($3,376M), CUBI, XRN
+        # and GSHD came to be published by a site whose stated criterion is EV < $1B.
+        # (BETR was on that list too, but it is a flagged financial institution and
+        # is now sized on market cap, where it clears.) Report rather than delete —
+        # `scripts.rescreen_all` owns delisting.
+        is_bank = bool(debt_flag) and debt_flag.get("reason") == "financial_institution"
+        size = mc if is_bank else ev
+        if size is not None and math.isfinite(size) and not filters.passes_ev_cap(size):
+            over.append((t, size, "MC" if is_bank else "EV"))
 
         old = (v.get("debt"), v.get("debt_flag"), v.get("cash"), v.get("ev_basic"))
         new = (debt, debt_flag, cash, ev)

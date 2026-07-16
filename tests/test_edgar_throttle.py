@@ -8,7 +8,9 @@ Getting this wrong in either direction is a real failure:
   - treat a weekend 403 as a throttle -> every non-trading day stalls through four
     backoffs and then raises, instead of returning [].
 """
-from scraper.edgar import _RETRY_STATUS, _is_throttle
+import pytest
+
+from scraper.edgar import _RETRY_STATUS, _is_missing, _is_throttle
 
 
 class Resp:
@@ -66,3 +68,36 @@ def test_403_is_not_blanket_retried():
     """It must be matched on body, not added to the status set — that would retry
     every weekend four times over."""
     assert 403 not in _RETRY_STATUS
+
+
+# --- _is_missing: the ONLY condition under which a fetch may become None ---------
+
+def test_404_is_missing():
+    assert _is_missing(Resp(404, "")) is True
+
+
+def test_weekend_403_is_missing():
+    """A daily-index path that genuinely doesn't exist."""
+    assert _is_missing(Resp(403, ABSENT_BODY)) is True
+
+
+def test_throttle_403_is_not_missing():
+    assert _is_missing(Resp(403, THROTTLE_BODY)) is False
+
+
+@pytest.mark.parametrize("status", [500, 502, 503, 504])
+def test_exhausted_5xx_is_not_missing(status):
+    """The regression this pins. Keying the guard on `_is_throttle` meant a 5xx that
+    outlived all four retries fell through to `return None` in fetch_form4_xml and
+    the filing vanished with no counter — while the commit message claimed the last
+    silent-drop door was closed. `_RETRY_STATUS` exists because SEC 5xxs happen."""
+    assert _is_missing(Resp(status, "")) is False
+
+
+def test_429_is_not_missing():
+    assert _is_missing(Resp(429, "")) is False
+
+
+def test_none_response_is_not_missing():
+    """A transport error carries no response; it is a failure to look, not absence."""
+    assert _is_missing(None) is False

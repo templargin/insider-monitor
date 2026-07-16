@@ -99,15 +99,31 @@ def passes_threshold(bucket, threshold_usd=PURCHASE_THRESHOLD_USD):
 def basic_ev(market_cap_basic, total_debt, cash):
     """EV = MC + Debt - Cash.
 
-    A `total_debt`/`cash` of None means the filer reports no such line on its
-    current balance sheet — a real zero. That reading is only sound because
-    `pipeline.screener_pass` refuses to evaluate a filer whose us-gaap balance
-    sheet can't be anchored; without that guard None would *also* mean "we could
-    not look", and coercing it to 0 would understate EV and admit a large company.
+    `total_debt` of None means the filer reports no debt-shaped liability at all —
+    a real zero — and that reading is sound because `pipeline.screener_pass`
+    refuses to evaluate a filer whose us-gaap balance sheet can't be anchored.
+
+    `cash` of None is weaker and worth naming honestly: `xbrl_facts.get_cash`
+    falls back to an unanchored `latest_value`, so None means "this filer tags no
+    cash concept on any date", not "no cash on the current sheet". Coercing that
+    to 0 OVERSTATES EV, which risks a false rejection at the cap rather than a
+    false admission — the safer direction, but not the one the old comment here
+    claimed to be guarding.
     """
     if market_cap_basic is None or not math.isfinite(market_cap_basic):
         raise ValueError(f"basic_ev needs a finite market cap, got {market_cap_basic!r}")
-    return market_cap_basic + (total_debt or 0) - (cash or 0)
+    ev = market_cap_basic + (total_debt or 0) - (cash or 0)
+    if not math.isfinite(ev):
+        # debt and cash come from companyfacts, and json.loads accepts bare NaN /
+        # Infinity literals. Validating only the market cap let a non-finite debt
+        # reach passes_ev_cap, which RAISES ValueError — and process_bucket catches
+        # only DataUnavailable, so it would escape and kill the whole daily run:
+        # exactly the failure this change exists to prevent. Fail here, where the
+        # caller can turn it into a per-issuer DataUnavailable instead of losing
+        # the day.
+        raise ValueError(f"basic_ev got non-finite inputs: mc={market_cap_basic!r} "
+                         f"debt={total_debt!r} cash={cash!r}")
+    return ev
 
 
 def passes_ev_cap(ev, cap=EV_CAP_USD):

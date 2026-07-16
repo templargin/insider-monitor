@@ -18,58 +18,55 @@ MONTH_NAMES = ["january", "february", "march", "april", "may", "june",
                "july", "august", "september", "october", "november", "december"]
 
 
-def money(v):
-    if v is None or v == "" or (isinstance(v, float) and math.isnan(v)):
-        return "—"
+def _finite(v):
+    """float(v) when it is a number we can render, else None.
+
+    The em dash is this layer's DataUnavailable: whatever we cannot state, we do
+    not state. NaN and inf are not renderable numbers — `money` alone knew that,
+    so the others turned a NaN into the literal string "$nanM" on the page. A
+    non-numeric value must not escape either: `price_or_dash` called float()
+    OUTSIDE its try, so one bad value raised and took down the whole site build.
+    """
+    if v is None or v == "":
+        return None
     try:
-        return f"${float(v):,.0f}"
+        f = float(v)
     except (ValueError, TypeError):
-        return "—"
+        return None
+    return f if math.isfinite(f) else None
+
+
+def money(v):
+    f = _finite(v)
+    return "—" if f is None else f"${f:,.0f}"
 
 
 def money_signed(v):
-    if v is None or v == "":
+    f = _finite(v)
+    if f is None:
         return "—"
-    try:
-        f = float(v)
-        if f < 0:
-            return f"-${abs(f):,.0f}"
-        return f"${f:,.0f}"
-    except (ValueError, TypeError):
-        return "—"
+    return f"-${abs(f):,.0f}" if f < 0 else f"${f:,.0f}"
 
 
 def money_m(v):
-    if v is None or v == "":
+    f = _finite(v)
+    if f is None:
         return "—"
-    try:
-        f = float(v) / 1_000_000
-        if abs(f) >= 1000:
-            return f"${f/1000:,.2f}B"
-        return f"${f:,.1f}M"
-    except (ValueError, TypeError):
-        return "—"
+    m = f / 1_000_000
+    return f"${m/1000:,.2f}B" if abs(m) >= 1000 else f"${m:,.1f}M"
 
 
 def number_int(v):
-    if v is None or v == "":
-        return "—"
-    try:
-        return f"{int(float(v)):,}"
-    except (ValueError, TypeError):
-        return "—"
+    f = _finite(v)
+    return "—" if f is None else f"{int(f):,}"
 
 
 def number_int_signed(v):
-    if v is None or v == "":
+    f = _finite(v)
+    if f is None:
         return "—"
-    try:
-        n = int(float(v))
-        if n < 0:
-            return f"({abs(n):,})"
-        return f"{n:,}"
-    except (ValueError, TypeError):
-        return "—"
+    n = int(f)
+    return f"({abs(n):,})" if n < 0 else f"{n:,}"
 
 
 def number_int_or_dash(v):
@@ -77,21 +74,13 @@ def number_int_or_dash(v):
 
 
 def number_2(v):
-    if v is None:
-        return "—"
-    try:
-        return f"{float(v):,.2f}"
-    except (ValueError, TypeError):
-        return "—"
+    f = _finite(v)
+    return "—" if f is None else f"{f:,.2f}"
 
 
 def price_or_dash(v):
-    if v is None or v == "" or float(v) == 0:
-        return "—"
-    try:
-        return f"${float(v):,.2f}"
-    except (ValueError, TypeError):
-        return "—"
+    f = _finite(v)
+    return "—" if f is None or f == 0 else f"${f:,.2f}"
 
 
 _RATIO_LABELS = {"current ratio", "quick ratio", "debt / equity"}
@@ -134,24 +123,20 @@ def fin_cell(v, label=""):
 
 
 def shares_m(v):
-    """Format share count in millions, no $ sign. '—' if None."""
-    if v is None or v == "":
-        return "—"
-    try:
-        f = float(v) / 1_000_000
-        return f"{f:,.1f}M"
-    except (ValueError, TypeError):
-        return "—"
+    """Format share count in millions, no $ sign. '—' if None/NaN."""
+    f = _finite(v)
+    return "—" if f is None else f"{f/1_000_000:,.1f}M"
 
 
 def pct(v):
-    """Format a 0–1 fraction as a percent. '—' if None/non-numeric."""
-    if v is None or v == "":
-        return "—"
-    try:
-        return f"{float(v) * 100:,.1f}%"
-    except (ValueError, TypeError):
-        return "—"
+    """Format a 0–1 fraction as a percent. '—' if None/NaN/non-numeric.
+
+    yfinance routinely puts NaN in `info` (heldPercentInstitutions,
+    shortPercentOfFloat, targetMeanPrice), which fetch_profile passes straight
+    into the ownership block — this filter is where they surface.
+    """
+    f = _finite(v)
+    return "—" if f is None else f"{f * 100:,.1f}%"
 
 
 def analyst_count(v):
@@ -196,15 +181,59 @@ def multiple(v):
 
 
 def _sum_ttm(stmt_dict, label):
-    """Sum the last-4-quarter values of a row (skipping None). None if not found
-    or no valid quarters."""
+    """Sum the last four quarters of a row, or None when all four aren't there.
+
+    All-or-nothing on purpose. Summing whichever quarters happen to be populated
+    and calling the result TTM is how BKKT came to publish an EV/Revenue built
+    from a SINGLE quarter — roughly 4x overstated — under a table headed "TTM
+    Multiples" and a footnote reading "sum of last 4 quarters". A partial sum is
+    not a trailing twelve months, and a multiple the reader cannot distinguish
+    from a real one is worse than an em dash.
+
+    `xbrl_financials._add_ltm_column` already takes this line (`if all(v is not
+    None for v in vals)`); this is the same rule for the display layer.
+    """
     if not stmt_dict or not stmt_dict.get("labels"):
         return None
     for i, l in enumerate(stmt_dict["labels"]):
         if l == label:
-            vals = [v for v in stmt_dict["data"][i][:4] if v is not None]
-            return sum(vals) if vals else None
+            vals = stmt_dict["data"][i][:4]
+            if len(vals) < 4 or any(v is None for v in vals):
+                return None
+            return sum(vals)
     return None
+
+
+def fd_figures(valuation):
+    """(fd_so, fd_mc, fd_ev) from a company's valuation block.
+
+    THE single fully-diluted computation — it was duplicated in generate.generate
+    and scripts.refresh_debt, so a change had two places to be wrong in.
+
+    A missing option/warrant count is counted as zero, which UNDERSTATES dilution.
+    That is a deliberate choice, not an oversight: XBRL gives None both for "this
+    filer has no warrants" and for "this filer tags no warrant concept", and for
+    warrants the first is the overwhelmingly common case. Treating None as unknown
+    and blanking the figures cost 31 of 209 companies their entire cap-structure
+    table and every multiple — including BUKS, whose company page then showed no EV
+    while the daily page showed $302.0M. Understating dilution on a few filers is
+    the smaller error, and company.html says so next to the number.
+
+    Contrast `_sum_ttm`, which is strict: a multiple is a derived claim and a
+    partial sum is simply not a TTM, whereas EV here is a real figure the screen
+    itself used.
+    """
+    v = valuation or {}
+    so = v.get("shares_basic") or 0
+    opts = v.get("options") or 0
+    wrnts = v.get("warrants") or 0
+    sp = v.get("share_price") or 0
+    cash = v.get("cash") or 0
+    debt = v.get("debt") or 0
+    fd_so = (so + opts + wrnts) if so else None
+    fd_mc = (sp * fd_so) if (sp and fd_so) else None
+    fd_ev = (fd_mc + debt - cash) if fd_mc is not None else None
+    return fd_so, fd_mc, fd_ev
 
 
 def _compute_multiples(c, fd_mc, fd_ev):
@@ -403,16 +432,7 @@ def generate():
         rel = f"companies/{ticker}/"
         out_path = DOCS_DIR / rel / "index.html"
         depth = 2
-        v = c.get("valuation", {})
-        so = v.get("shares_basic") or 0
-        opts = v.get("options") or 0
-        wrnts = v.get("warrants") or 0
-        sp = v.get("share_price") or 0
-        cash = v.get("cash") or 0
-        debt = v.get("debt") or 0
-        fd_so = (so + opts + wrnts) if so else None
-        fd_mc = (sp * fd_so) if (sp and fd_so) else None
-        fd_ev = (fd_mc + debt - cash) if fd_mc is not None else None
+        fd_so, fd_mc, fd_ev = fd_figures(c.get("valuation"))
         multiples = _compute_multiples(c, fd_mc, fd_ev)
         rendered = env.get_template("company.html").render(
             data=c,

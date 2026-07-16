@@ -38,8 +38,20 @@ def _val(row, i):
 
 
 def _close(a, b, rel=0.01, abs_min=100_000):
+    """Do two figures reconcile within tolerance?
+
+    Callers must establish both values first — every call site already guards with
+    `is not None`, so the None branch below is unreachable and deliberately does
+    NOT answer "yes". A reconciliation check that returns True because it had
+    nothing to compare would report "reconciles" for a statement that is simply
+    absent, which is the failure this whole audit exists to catch.
+
+    Note what a caller's `is not None` guard means: the check is SKIPPED, not
+    passed — and nothing counts those, so a clean run and a wholly unchecked one
+    still look alike in the summary. That is a real gap, not a solved one.
+    """
     if a is None or b is None:
-        return True
+        raise ValueError("_close needs two figures; the caller must skip instead")
     diff = abs(a - b)
     tol = max(abs(a), abs(b)) * rel
     return diff <= max(tol, abs_min)

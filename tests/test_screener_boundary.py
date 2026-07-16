@@ -251,3 +251,31 @@ def test_basic_ev_refuses_non_finite_market_cap():
 def test_basic_ev_reads_absent_debt_as_zero():
     """Sound only because the anchor check upstream guarantees we could look."""
     assert filters.basic_ev(100.0, None, None) == 100.0
+
+
+@pytest.mark.parametrize("debt,cash", [(float("nan"), 0), (0, float("nan")),
+                                       (float("inf"), 0)])
+def test_basic_ev_rejects_non_finite_debt_or_cash(debt, cash):
+    """companyfacts is JSON and json.loads accepts bare NaN/Infinity. Validating
+    only the market cap let a non-finite debt through to passes_ev_cap — which
+    RAISES — and process_bucket catches only DataUnavailable, so it would have
+    escaped and killed the whole daily run."""
+    with pytest.raises(ValueError):
+        filters.basic_ev(1_000_000.0, debt, cash)
+
+
+def test_a_non_finite_debt_costs_one_issuer_not_the_day(monkeypatch):
+    """Defence in depth: even if the boundary has a hole, process_bucket must not
+    die. The issuer becomes unevaluated, which keeps the outage guards armed."""
+    install(monkeypatch, debt=float("nan"))
+    with pytest.raises(ValueError):
+        run()          # screener_pass itself still fails loudly...
+
+
+def test_unexplained_gate_ignores_a_clamped_flag(monkeypatch):
+    """`debt_tags_overlap_clamped` carries an amount too — but that amount is debt
+    the extractor REMOVED as double-counted. Adding it back as possible hidden debt
+    asserts the opposite of what the clamp established."""
+    flag = {"reason": "debt_tags_overlap_clamped", "amount": 500_000_000, "concept": None}
+    install(monkeypatch, shares=90_000_000, price=10.0, flag=flag)   # EV $900M
+    assert passes() is not None, "a clamped flag must not trip the uncertainty gate"

@@ -99,12 +99,18 @@ DEBT_SHORT_TAGS = ["LongTermDebtCurrent", "ShortTermBorrowings", "DebtCurrent",
 SHARES_TAGS_DEI = ["EntityCommonStockSharesOutstanding"]
 SHARES_TAGS_USGAAP = ["CommonStockSharesOutstanding"]
 
-# Revenue is deliberately absent from this module. There is exactly ONE revenue
-# implementation — `xbrl_financials.ltm_revenue`, read off the canonical grid the
-# company page renders — so the screener and the page cannot disagree. The ladder
-# that used to live here picked the single freshest-ending tag and discarded the
-# rest, which read CUBI's top line as $43M against its real $1.51B and FMBM's as
-# $162k against $80M. Do not reintroduce a second implementation.
+# Revenue is deliberately absent from this module. It lives in
+# `xbrl_financials.ltm_revenue`, read off the canonical grid the company page
+# renders. The ladder that used to live here picked the single freshest-ending tag
+# and discarded the rest, reading CUBI's top line as $43M against its real $1.51B
+# and FMBM's as $162k against $80M. Do not reintroduce a second one.
+#
+# Both the screen and the page read that one grid, but they do NOT apply the same
+# rule to it: ltm_revenue sums whichever quarters exist (so a two-quarter IPO is
+# not falsely rejected by `revenue > 0`), while sitegen's `_sum_ttm` is
+# all-or-nothing (a partial sum is not a TTM to build a multiple on). So they
+# differ for ~12 filers, and `valuation.ttm_revenue` holds a partial sum for
+# those — not rendered anywhere, but not a trailing twelve months either.
 
 OPTIONS_TAGS = [
     "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber",

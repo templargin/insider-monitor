@@ -126,10 +126,11 @@ def screener_pass(cik, ticker, bucket_data):
     must NOT treat that as a screen-out — an unknown allowed to masquerade as a
     merits rejection is exactly how the 2026-07-15 page silently lost BUKS.
 
-    This function is the single validation boundary: every input is proven present
-    and finite before any comparison. That is what makes the None-means-zero
-    reading of debt/cash in `filters.basic_ev` sound — past the anchor check,
-    "absent" really does mean "the filer reports no such line".
+    This is the validation boundary for the inputs the screen turns on — the
+    anchor, the share count and its freshness, the price, and the finiteness of
+    the resulting EV. It is NOT a proof that every field is sound: `debt` and
+    `cash` are checked only through `basic_ev`'s finiteness test, and `cash` of
+    None is known to be weaker than it looks (see filters.basic_ev).
     """
     try:
         facts = edgar.fetch_companyfacts(cik)
@@ -217,7 +218,14 @@ def screener_pass(cik, ticker, bucket_data):
     # with $361M unexplained, which is $1,230M if those liabilities are borrowings.
     # Only bites when the uncertainty actually spans the cap; a flagged filer
     # comfortably below it is unaffected.
-    if not is_bank and debt_flag and debt_flag.get("amount"):
+    # Key on the REASON, not on `amount` being truthy. `debt_tags_overlap_clamped`
+    # also carries an amount — but that one is debt the extractor REMOVED as
+    # double-counted, so adding it back as possible hidden debt asserts the exact
+    # opposite of what the clamp established (and can exceed reported liabilities,
+    # which the clamp guarantees it cannot). Only `unexplained_liabilities` means
+    # "we could not classify this, and it might be debt".
+    if not is_bank and debt_flag and debt_flag.get("reason") == "unexplained_liabilities" \
+            and debt_flag.get("amount"):
         upper = ev + debt_flag["amount"]
         if not filters.passes_ev_cap(upper):
             raise DataUnavailable(
@@ -383,10 +391,16 @@ def process_bucket(url_date):
     # Pre-flight: count daily-index rows across all bucket dates
     bucket_fds = buckets.filing_dates_for_url(url_date)
     total_index_rows = 0
+    index_incomplete = False
     for fd in bucket_fds:
         try:
             total_index_rows += len(edgar.fetch_daily_index_form4s(fd))
         except Exception as e:
+            # A blanket except here swallowed the very throttle edgar.py raises,
+            # counting a busy trading day as zero rows. Remember it: an index we
+            # failed to READ is not an index with nothing in it, and the row count
+            # it produces is not comparable to what the second pass parses.
+            index_incomplete = True
             _log(f"  daily-index fetch failed for {fd}: {e}")
     if total_index_rows == 0:
         all_nontrading = all(not buckets.is_trading_day(fd) for fd in bucket_fds)
@@ -409,13 +423,21 @@ def process_bucket(url_date):
         _log(f"  bucket fetch failed ({e}) — skipping write rather than screen a partial bucket.")
         return None
 
-    # Both numbers were always printed; nothing ever compared them. A gap here is
-    # filings that were fetched but not parseable — permanent per-filing data
-    # problems rather than an outage, but they must be visible, not inferred by
-    # eyeballing two log lines.
-    unparsed = total_index_rows - len(parsed)
-    _log(f"  Parsed {len(parsed)} of {total_index_rows} Form 4 filings"
-         + (f"  ({unparsed} unreadable)" if unparsed else ""))
+    # Both numbers were always printed; nothing ever compared them. A gap is
+    # filings fetched but not parseable — a permanent per-filing data problem
+    # rather than an outage, but it must be visible, not left for someone to spot
+    # by eye across two log lines.
+    #
+    # Only comparable when the pre-flight actually read every index: the count
+    # comes from that first pass and `parsed` from a second, independent one, so a
+    # failed pre-flight made this negative ("-456 unreadable").
+    if index_incomplete:
+        _log(f"  Parsed {len(parsed)} Form 4 filings (index count unavailable — "
+             f"a daily-index fetch failed, so the totals aren't comparable)")
+    else:
+        unparsed = total_index_rows - len(parsed)
+        _log(f"  Parsed {len(parsed)} of {total_index_rows} Form 4 filings"
+             + (f"  ({unparsed} unreadable)" if unparsed > 0 else ""))
     aggregated = filters.aggregate_p_purchases(parsed)
     threshold = [(cik, b) for cik, b in aggregated.items() if filters.passes_threshold(b)]
     _log(f"  {len(threshold)} issuers with ≥1 insider ≥${filters.PURCHASE_THRESHOLD_USD:,}")
@@ -439,6 +461,16 @@ def process_bucket(url_date):
             errored += 1
             unevaluated.append({"ticker": ticker, "name": name, "reason": str(e)})
             _log(f"    data unavailable: {e}")
+            continue
+        except Exception as e:              # noqa: BLE001
+            # The filters raise ValueError when handed an unknown, by design. If
+            # one ever escapes screener_pass it means the boundary has a hole —
+            # but that should cost this issuer, not the whole day's page. Count it
+            # as unevaluated (which keeps the outage guards armed) and carry on.
+            errored += 1
+            unevaluated.append({"ticker": ticker, "name": name,
+                                "reason": f"screening error: {type(e).__name__}: {e}"})
+            _log(f"    !! screening error ({type(e).__name__}: {e}) — treated as unevaluated")
             continue
         screened += 1
         if reason is not None:

@@ -224,6 +224,13 @@ LI_IS = [
         ("sum", ["GeneralAndAdministrativeExpense", "SellingAndMarketingExpense"]),
         ("sum", ["GeneralAndAdministrativeExpense", "SellingExpense"]),
         "GeneralAndAdministrativeExpense",
+        # BUKS tags OtherGeneralAndAdministrativeExpense and nothing else in this
+        # family. Missing it left the SG&A row absent, which gated
+        # _derive_gross_profit_from_opinc_plus_gna out (it requires SG&A), so GP
+        # fell through to the revenue floor and the page published a 100% gross
+        # margin for an aerospace/casino operator running nearer 50%.
+        ("sum", ["OtherGeneralAndAdministrativeExpense", "SellingAndMarketingExpense"]),
+        "OtherGeneralAndAdministrativeExpense",
         "NoninterestExpense",  # banks
     ]),
     ("R&D", ["ResearchAndDevelopmentExpense"]),
@@ -549,15 +556,17 @@ def _derive_gross_profit_from_opinc_plus_gna(stmt, usg):
         if (op is not None and sga is not None and rev is not None
                 and rev >= 1_000_000 and not rd_heavy):
             cand = op + sga
-            # Trade-off: a negative `cand` (OpInc+G&A < 0) is rejected rather
-            # than shown as a negative gross margin. It would only arise when the
-            # operating loss exceeds G&A, where the "G&A is the only non-COGS
-            # opex" assumption is already breaking down — so we'd rather let the
-            # period fall to the revenue floor than publish a shaky negative GP.
-            # Net effect: such a filer reads 100% (optimistic) instead of, say,
-            # −40%. Acceptable for the small-rev tail; revisit if a real
-            # negative-gross-margin operator surfaces here.
-            if 0 <= cand <= rev * 1.05:
+            # Reject a `cand` outside [0, Revenue]. Either bound being breached
+            # means the "G&A is the only non-COGS opex" assumption has failed for
+            # this period, so the number isn't evidence of anything.
+            #
+            # The upper bound used to carry a 5% tolerance, which was worse than
+            # useless: a cand between 100% and 105% of revenue was accepted and
+            # then _clamp_gp_to_revenue pinned it to exactly Revenue — laundering
+            # a broken derivation into a clean, fabricated 100% gross margin
+            # (VENU, Q4'25: OpInc −7.31M + G&A 11.93M = 4.62M against 4.53M of
+            # revenue). A blank period is the honest output.
+            if 0 <= cand <= rev:
                 new_gp.append(cand)
                 fallback_idx.add(i)
                 continue
@@ -672,7 +681,14 @@ def _derive_gross_profit_bank(stmt, usg, freq):
         ii = inc.get(end)
         if ii is None:
             return None
-        return ii - (exp.get(end) or 0)
+        ie = exp.get(end)
+        if ie is None:
+            # No interest-expense fact for this period. `or 0` here read that as
+            # "this bank funds itself for free", collapsing NII to gross interest
+            # income — a 100% margin (BETR published exactly that, every quarter).
+            # An untagged expense is not a zero expense.
+            return None
+        return ii - ie
 
     return _fill_missing_gp(stmt, val)
 
@@ -681,11 +697,13 @@ def _derive_gross_profit_insurance(stmt, usg, freq):
     """Insurance underwriting margin = net premiums earned − incurred losses &
     claims. The closest gross-profit analog for carriers (AII, KINS, UTGN).
 
-    Caveat: when a period has premiums but no claims fact (`claims.get(end)` is
-    None → treated as 0), GP collapses to premiums, i.e. a 100% underwriting
-    margin for that period. That's optimistic but rare — claims are tagged
-    alongside premiums for these carriers — so we accept it rather than blank a
-    period that does have a premium top line."""
+    A period with premiums but no claims fact is left BLANK. It used to be filled
+    with `claims.get(end) or 0`, collapsing the margin to premiums — a carrier
+    paying no claims, i.e. 100% underwriting margin. The old comment here called
+    that "optimistic but rare" and accepted it "rather than blank a period that
+    does have a premium top line". Blank is the honest answer: an untagged claims
+    line is not a claims-free quarter, and the reader cannot tell a fabricated
+    100% from a real one."""
     prem = _series(usg, _INS_PREMIUMS, freq)
     if not prem:
         return stmt
@@ -697,24 +715,44 @@ def _derive_gross_profit_insurance(stmt, usg, freq):
         p = prem.get(end)
         if p is None:
             return None
-        return p - (claims.get(end) or 0)
+        c = claims.get(end)
+        if c is None:
+            return None
+        return p - c
 
     return _fill_missing_gp(stmt, val)
 
 
 def _derive_gross_profit_revenue_floor(stmt):
-    """Universal last-resort: any period still missing GP after every archetype
-    derivation gets GP = Revenue (implied CoR = 0). Correct for pre-revenue /
-    pre-commercial filers that genuinely have no cost-of-revenue concept (clinical
-    biotechs, early SaaS), and guarantees the mandated Gross Profit / Gross Margin
-    rows are never blank. Filled periods are tracked so OpEx skips them."""
+    """Last resort for periods with NO revenue: GP = Revenue (implied CoR = 0).
+
+    Only sound where there is nothing to cost. A pre-revenue filer (clinical
+    biotech, pre-commercial SaaS) tags no cost-of-revenue concept because it has
+    none, and GP = Revenue = 0 is the right answer.
+
+    It is NOT sound for a filer that HAS revenue and merely doesn't tag its costs
+    in a concept we recognise. This used to apply unconditionally, to "guarantee
+    the mandated Gross Profit / Gross Margin rows are never blank" — which is the
+    same instinct as reading a NaN price as a valid EV: it filled a row we could
+    not compute with a number that was not merely approximate but impossible.
+    18 filers with real revenue published a flat 100% gross margin off this line,
+    including BKKT ($578M revenue), LEE ($532M), ITIC ($280M) and BUKS, whose real
+    margin is nearer 50%.
+
+    A blank Gross Margin row is a worse-looking page and a truer one. Where the
+    costs ARE derivable the ladder above this should derive them — that is the fix
+    for a filer landing here with revenue, not a fabricated 100%.
+    """
     labels = stmt["labels"]
     if "Gross Profit" not in labels or "Total Revenue" not in labels:
         return stmt
     rev_row = stmt["data"][labels.index("Total Revenue")]
 
     def val(end, i):
-        return rev_row[i] if i < len(rev_row) else None
+        rev = rev_row[i] if i < len(rev_row) else None
+        if rev is None or rev > 0:
+            return None      # unknown cost on real revenue -> leave GP blank
+        return rev           # no revenue -> GP = 0, nothing to cost
 
     return _fill_missing_gp(stmt, val)
 
@@ -1358,11 +1396,19 @@ def _revenue_row(grid):
     return (data[i] or []), ((grid or {}).get("periods") or [])
 
 
-# An annual figure older than this is not a trailing twelve months by any reading.
-# Mirrors the guard the removed get_ttm_revenue carried: without it a filer that
-# has stopped reporting revenue keeps passing a `revenue > 0` screen on an ancient
-# number (KLRS carried a 2019 fact through a reverse merger into a clinical-stage
-# shell; STEX last reported $40k for FY2024 and nothing since).
+# An annual figure older than this is not a trailing twelve months by any reading:
+# unbounded, a filer that has stopped reporting revenue keeps passing a
+# `revenue > 0` screen on an ancient number (KLRS carried a 2019 fact through a
+# reverse merger into a clinical-stage shell; STEX last reported $40k for FY2024
+# and nothing since).
+#
+# NARROWER than the guard the removed get_ttm_revenue carried, which filtered ALL
+# periods by this cutoff before classifying them into quarterly/annual. Here only
+# the annual branch is bounded; the quarterly branch trusts the grid's own period
+# ends. A dormant filer whose latest balance sheet is years old clears
+# screener_pass's anchor check (which compares the share count to the balance
+# sheet — neither to today) and its stale quarterly revenue is not caught here.
+# No stored company currently has that shape.
 _STALE_REVENUE_DAYS = 540
 
 
