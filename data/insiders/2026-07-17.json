@@ -1,0 +1,43 @@
+{
+  "url_date": "2026-07-17",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-07-16"
+  ],
+  "generated_at": "2026-07-17T10:32:20+00:00",
+  "tickers": [
+    {
+      "ticker": "CRDF",
+      "name": "Cardiff Oncology, Inc.",
+      "total_value": 999999.675,
+      "ev_basic": 50937809.84601307,
+      "mc_basic": 59481809.84601307,
+      "insiders": [
+        {
+          "reporter_name": "PACE GARY W",
+          "relationship": "Director",
+          "total_value": 999999.675,
+          "shares": 687285.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "NONE",
+      "name": "Sterling Real Estate Trust",
+      "reason": "no share price for NONE"
+    },
+    {
+      "ticker": "ARDC",
+      "name": "Ares Dynamic Credit Allocation Fund, Inc.",
+      "reason": "no us-gaap balance sheet for ARDC"
+    },
+    {
+      "ticker": "NONE",
+      "name": "Diameter Dynamic Credit Fund",
+      "reason": "no us-gaap balance sheet for NONE"
+    }
+  ]
+}
