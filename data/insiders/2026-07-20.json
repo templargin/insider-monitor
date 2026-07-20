@@ -1,0 +1,48 @@
+{
+  "url_date": "2026-07-20",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-19"
+  ],
+  "generated_at": "2026-07-20T10:32:46+00:00",
+  "tickers": [],
+  "unevaluated": [
+    {
+      "ticker": "LILA",
+      "name": "Liberty Latin America Ltd.",
+      "reason": "no basic share count for LILA"
+    },
+    {
+      "ticker": "tyg",
+      "name": "TORTOISE ENERGY INFRASTRUCTURE CORP",
+      "reason": "no us-gaap balance sheet for tyg"
+    },
+    {
+      "ticker": "AXIA3",
+      "name": "AXIA Energia S.A.",
+      "reason": "no us-gaap balance sheet for AXIA3"
+    },
+    {
+      "ticker": "LGHL",
+      "name": "Lion Group Holding Ltd",
+      "reason": "share count for LGHL predates its balance sheet (2021-06-16 < 2025-12-31)"
+    },
+    {
+      "ticker": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "reason": "no us-gaap balance sheet for PDI"
+    },
+    {
+      "ticker": "STDN",
+      "name": "Standard Nuclear, Inc.",
+      "reason": "no us-gaap balance sheet for STDN"
+    },
+    {
+      "ticker": "N/A",
+      "name": "John Hancock GA Mortgage Trust",
+      "reason": "no us-gaap balance sheet for N/A"
+    }
+  ]
+}
