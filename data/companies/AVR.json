@@ -1403,12 +1403,12 @@
             -3.68
           ],
           [
-            null,
+            83009832,
             36911472,
             20252919
           ],
           [
-            null,
+            83009832,
             36911472,
             20252919
           ]
@@ -1435,6 +1435,7 @@
           "Current Lease Liabilities",
           "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Debt",
           "Long-term Lease Liabilities",
           "Other Liabilities",
           "Total Liabilities",
@@ -1552,6 +1553,12 @@
             13339000
           ],
           [
+            18000,
+            22000,
+            26000,
+            30000
+          ],
+          [
             2406000,
             1678000,
             1605000,
@@ -1560,8 +1567,8 @@
           [
             null,
             null,
-            679000,
-            797000
+            653000,
+            767000
           ],
           [
             16311000,
@@ -1607,6 +1614,7 @@
           "Current Lease Liabilities",
           "Other Current Liabilities",
           "Total Current Liabilities",
+          "Long-term Debt",
           "Long-term Lease Liabilities",
           "Other Liabilities",
           "Total Liabilities",
@@ -1699,6 +1707,11 @@
             13694000,
             21373000,
             16560000
+          ],
+          [
+            18000,
+            22000,
+            0
           ],
           [
             2406000,
@@ -2035,10 +2048,10 @@
             18873000
           ],
           [
-            null,
-            null,
-            null,
-            null
+            -283192000,
+            -12554000,
+            -9093000,
+            -28408000
           ],
           [
             -8.224531358315584,
@@ -2097,9 +2110,9 @@
             58091000
           ],
           [
-            null,
-            null,
-            null
+            -283192000,
+            -12554000,
+            -70458000
           ],
           [
             -34.19117779110739,
