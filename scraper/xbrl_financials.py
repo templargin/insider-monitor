@@ -9,6 +9,7 @@ Tag candidates can be:
 Candidates are tried in priority order; earlier candidates fill in first,
 later ones fill in periods the earlier didn't cover.
 """
+import re
 from collections import defaultdict
 from datetime import date, datetime, timedelta
 
@@ -504,6 +505,155 @@ def _derive_opinc_from_costs_and_expenses(stmt, usg, freq):
         else:
             new_op.append(None)
     stmt["data"][op_i] = new_op
+    return stmt
+
+
+# Crypto-asset remeasurement gain/(loss). ASU 2023-08 makes filers carry crypto
+# holdings at fair value through earnings; a crypto-treasury issuer (ZSTK /
+# ZeroStack) folds that remeasurement into its `OperatingExpenses` and therefore
+# into `OperatingIncomeLoss`, turning a token mark-to-market swing into a phantom
+# operating "expense" (ZSTK Q1'26: a $58M unrealized token loss became a $65.8M
+# opex line on $7M revenue; FY25's $143M loss became a $149M Q4 opex). The tags
+# all begin `CryptoAsset`, carry `Gain`/`Loss`, and sit on the operating line
+# (`...Operating` / `...OperatingAndNonoperating`). _lift_crypto_from_opinc moves
+# the remeasurement back below the operating line.
+_CRYPTO_REMEASURE_RE = re.compile(r"^CryptoAsset.*(?:Gain|Loss).*Operating", re.I)
+
+
+def _combine_crypto_tags(vals):
+    """Reduce one duration's crypto remeasurement tags to a single income-signed
+    net (a loss is negative). A signed `Gain…Loss` tag adds as-is; a pure `Loss`
+    magnitude subtracts; a pure `Gain` magnitude adds. Tiers are tried in order
+    so a full-total figure isn't added on top of its own components: the
+    `RealizedAndUnrealized` total wins over the realized/unrealized split, and a
+    signed `GainLoss` wins over separate gain/loss magnitude tags."""
+    def contrib(predicate):
+        total, used = 0.0, False
+        for tag, v in vals.items():
+            if v is None:
+                continue
+            low = tag.lower()
+            if not predicate(low):
+                continue
+            used = True
+            has_gain, has_loss = "gain" in low, "loss" in low
+            if has_gain and has_loss:
+                total += v            # already income-signed
+            elif has_loss:
+                total -= v            # loss reported as a positive magnitude
+            elif has_gain:
+                total += v            # gain magnitude
+        return total if used else None
+
+    for predicate in (
+        lambda t: "realizedandunrealized" in t,     # full realized+unrealized total
+        lambda t: "gain" in t and "loss" in t,      # signed GainLoss component tags
+        lambda t: True,                             # pure gain / loss magnitude tags
+    ):
+        net = contrib(predicate)
+        if net is not None:
+            return net
+    return None
+
+
+def _crypto_op_gainloss_by_duration(usg):
+    """Net crypto remeasurement gain/(loss) per reported (start, end) duration,
+    income-signed. Newest accession wins per tag+duration."""
+    per_dur = defaultdict(dict)  # (start, end) -> {tag: (val, accn)}
+    for tag, body in usg.items():
+        if not _CRYPTO_REMEASURE_RE.match(tag):
+            continue
+        for f in body.get("units", {}).get("USD", []):
+            s, e = f.get("start"), f.get("end")
+            if not s or not e or s == e:
+                continue
+            slot = per_dur[(s, e)]
+            prev = slot.get(tag)
+            if prev is None or f.get("accn", "") > prev[1]:
+                slot[tag] = (f["val"], f.get("accn", ""))
+    out = {}
+    for key, tagvals in per_dur.items():
+        net = _combine_crypto_tags({t: v for t, (v, _) in tagvals.items()})
+        if net is not None:
+            out[key] = net
+    return out
+
+
+def _crypto_op_gainloss_series(usg, freq):
+    """{period_end: net crypto remeasurement gain/(loss)} at the grid frequency.
+    Quarterly derives Q4/interim quarters from the YTD walk (FY − 9M …) on the
+    net series — filers tag the annual total under a different crypto tag than
+    the interim ones, so a per-tag YTD walk can't bridge them, but the net-per-
+    duration series can."""
+    dur_net = _crypto_op_gainloss_by_duration(usg)
+    if not dur_net:
+        return {}
+
+    def days(key):
+        try:
+            return (date.fromisoformat(key[1]) - date.fromisoformat(key[0])).days
+        except ValueError:
+            return None
+
+    if freq == "annual":
+        return {e: v for (s, e), v in dur_net.items()
+                if (d := days((s, e))) is not None and 350 <= d <= 380}
+    if freq != "quarterly":
+        return {}
+
+    discrete = {e: v for (s, e), v in dur_net.items()
+                if (d := days((s, e))) is not None and 60 <= d <= 100}
+    by_year = defaultdict(list)
+    for key, v in dur_net.items():
+        d = days(key)
+        if d is None:
+            continue
+        try:
+            yr = date.fromisoformat(key[1]).year
+        except ValueError:
+            continue
+        by_year[yr].append((d, key[1], v))
+    for items in by_year.values():
+        items.sort()
+        cum_val, cum_dur = None, None
+        for dur, end, v in items:
+            if (cum_val is not None and end not in discrete
+                    and 60 <= dur - cum_dur <= 100):
+                discrete[end] = v - cum_val
+            cum_val, cum_dur = v, dur
+    return discrete
+
+
+def _lift_crypto_from_opinc(stmt, usg, freq):
+    """Move crypto-asset remeasurement gain/(loss) out of Operating Income when
+    the filer folded it in. The signal that it's embedded is that removing it
+    pulls Operating Income back toward the operating scale
+    (|OpInc − crypto| < |OpInc|); when the filer already booked the swing below
+    the line, that test fails and OpInc is left alone (so we never double-count).
+
+    Runs before _derive_opex / _derive_nonoperating, so Operating Expense
+    (GP − OpInc) and the Other Income/(Expense) plug (Pretax − OpInc + Interest)
+    absorb the correction and the crypto swing lands below the operating line by
+    construction — Pretax and Net Income are untouched."""
+    labels = stmt["labels"]
+    if "Operating Income" not in labels:
+        return stmt
+    crypto = _crypto_op_gainloss_series(usg, freq)
+    if not crypto:
+        return stmt
+    ends = stmt.get("_ends") or []
+    op_i = labels.index("Operating Income")
+    new = list(stmt["data"][op_i])
+    for i, end in enumerate(ends):
+        if i >= len(new) or new[i] is None or end is None:
+            continue
+        c = crypto.get(end)
+        if c is None or abs(c) < 1_000_000:
+            continue
+        op = new[i]
+        if abs(op - c) < abs(op):        # embedded → lift below the operating line
+            new[i] = op - c
+    stmt["data"][op_i] = new
     return stmt
 
 
@@ -1309,6 +1459,7 @@ def fetch_xbrl_financials(cik, facts=None):
     is_q = _derive_gross_profit_revenue_floor(is_q)
     is_q = _clamp_gp_to_revenue(is_q)
     is_q = _reconcile_cor(is_q)
+    is_q = _lift_crypto_from_opinc(is_q, usg, "quarterly")
     is_q = _derive_opex(is_q)
     is_q = _derive_pretax(is_q)
     is_q = _derive_nonoperating(is_q)
@@ -1324,6 +1475,7 @@ def fetch_xbrl_financials(cik, facts=None):
     is_a = _derive_gross_profit_revenue_floor(is_a)
     is_a = _clamp_gp_to_revenue(is_a)
     is_a = _reconcile_cor(is_a)
+    is_a = _lift_crypto_from_opinc(is_a, usg, "annual")
     is_a = _derive_opex(is_a)
     is_a = _derive_pretax(is_a)
     is_a = _derive_nonoperating(is_a)
