@@ -1,0 +1,59 @@
+{
+  "url_date": "2026-07-21",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-07-20"
+  ],
+  "generated_at": "2026-07-21T10:31:40+00:00",
+  "tickers": [
+    {
+      "ticker": "CBIO",
+      "name": "CRESCENT BIOPHARMA, INC.",
+      "total_value": 12375025.0,
+      "ev_basic": 225794627.00892925,
+      "mc_basic": 414957627.00892925,
+      "insiders": [
+        {
+          "reporter_name": "Fairmount Funds Management LLC",
+          "relationship": "Director, 10% Owner",
+          "total_value": 12375025.0,
+          "shares": 853450.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ZSTK",
+      "name": "ZeroStack Corp.",
+      "total_value": 3479013.2675,
+      "ev_basic": 5189277.092053056,
+      "mc_basic": 4010277.0920530558,
+      "insiders": [
+        {
+          "reporter_name": "Heinrich Michael",
+          "relationship": "Director, Officer (Executive Chairman)",
+          "total_value": 3479013.2675,
+          "shares": 4608575.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "reason": "no companyfacts for CIK 1059213"
+    },
+    {
+      "ticker": "LNBIX",
+      "name": "Lincoln Bain Capital Total Credit Fund",
+      "reason": "no companyfacts for CIK 2054992"
+    },
+    {
+      "ticker": "SLAI",
+      "name": "SOLAI Ltd",
+      "reason": "no basic share count for SLAI"
+    }
+  ]
+}
