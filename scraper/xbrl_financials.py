@@ -315,7 +315,21 @@ LI_BS = [
     ("Current Lease Liabilities", ["OperatingLeaseLiabilityCurrent"]),
     ("Other Current Liabilities", []),  # derived: Total Current Liab − items above
     ("Total Current Liabilities", ["LiabilitiesCurrent"]),
-    ("Long-term Debt", ["LongTermDebtNoncurrent", "LongTermDebt"]),
+    # `LongTermDebtAndCapitalLeaseObligations` sits ahead of the bare
+    # `LongTermDebt` total, for filers that abandon `LongTermDebtNoncurrent` in a
+    # given year. Where it is the noncurrent slice (ICCC FY22 = 9.19M) it avoids
+    # the bare total's (10.23M) double-count of the current maturity already
+    # carried in "Current Debt" — the tell of which is a negative "Other
+    # Liabilities" plug; where the filer tags nothing else (ICCC FY23) it keeps
+    # the balance on the debt line instead of dumping it into that plug. Its
+    # leases are finance/capital leases, distinct from the operating-lease line
+    # below, so it never double-counts that (verified across all filers that tag
+    # it). Note the tag is filer-inconsistent — some report it current-inclusive
+    # (GTE), so it can slightly exceed the bare total by the finance-lease piece;
+    # that's a fuller borrowings figure, never a double count, and EV is computed
+    # elsewhere (get_structured_debt), unaffected.
+    ("Long-term Debt", ["LongTermDebtNoncurrent",
+                        "LongTermDebtAndCapitalLeaseObligations", "LongTermDebt"]),
     ("Long-term Lease Liabilities", ["OperatingLeaseLiabilityNoncurrent"]),
     ("Other Liabilities", []),  # derived: Total Liab − accounted liabilities
     ("Total Liabilities", ["Liabilities", ("sum", ["LiabilitiesCurrent", "LiabilitiesNoncurrent"])]),
@@ -1317,15 +1331,36 @@ def _add_ltm_column(annual_stmt, quarterly_stmt):
 
     point_in_time = {"Diluted Avg Shares", "Basic Avg Shares"}
 
+    # Flow-item roll-forward fallback. When one of the trailing four quarters is
+    # underivable (e.g. a filer tags Q1, a discrete Q3, 9M, and FY for interest
+    # but never an H1, so Q2 can't be split out), the direct 4-quarter sum has a
+    # hole and blanks — even though the annual facts fully determine the LTM.
+    # Recover it as FY_latest + newest-k-quarters − oldest-k-quarters-of-that-FY,
+    # where k is how many quarters have already been reported past the latest
+    # fiscal-year end. This equals the 4-quarter sum whenever both are computable.
+    ann_ends = annual_stmt.get("_ends") or []
+    fy_end = ann_ends[0] if ann_ends else None
+    k = sum(1 for e in q_ends if fy_end and e and e > fy_end)
+
     new_data = []
     for label, row in zip(annual_stmt["labels"], annual_stmt["data"]):
         ltm = None
         if label in q_labels:
             q_row = q_data[q_labels.index(label)]
-            if q_row and len(q_row) >= 4:
-                vals = q_row[:4]  # newest-first → last 4 quarters
-                if all(v is not None for v in vals):
-                    ltm = vals[0] if label in point_in_time else sum(vals)
+            vals = q_row[:4] if q_row else []  # newest-first → last 4 quarters
+            if label in point_in_time:
+                # A point-in-time figure (latest share count) is just the newest
+                # quarter's value; it does NOT depend on the other three, so it
+                # must not be gated on their all being present (a derived Q4 share
+                # count is deliberately None — see _reconcile_shares).
+                ltm = vals[0] if vals else None
+            elif len(vals) == 4 and all(v is not None for v in vals):
+                ltm = sum(vals)
+            elif (1 <= k <= 4 and row and row[0] is not None
+                    and len(q_row) >= 4 + k):
+                stub, rolled = q_row[:k], q_row[4:4 + k]
+                if all(v is not None for v in stub) and all(v is not None for v in rolled):
+                    ltm = row[0] + sum(stub) - sum(rolled)
         new_data.append([ltm] + list(row))
 
     annual_stmt["data"] = new_data
