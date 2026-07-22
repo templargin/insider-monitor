@@ -1,0 +1,58 @@
+{
+  "url_date": "2026-07-22",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-07-21"
+  ],
+  "generated_at": "2026-07-22T10:31:36+00:00",
+  "tickers": [
+    {
+      "ticker": "CV",
+      "name": "CapsoVision, Inc",
+      "total_value": 410987.64,
+      "ev_basic": 350744372.7670202,
+      "mc_basic": 350744372.7670202,
+      "insiders": [
+        {
+          "reporter_name": "HARARI ELIYAHOU ET AL",
+          "relationship": "10% Owner",
+          "total_value": 410987.64,
+          "shares": 61068.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "reason": "no us-gaap balance sheet for TSM"
+    },
+    {
+      "ticker": "none",
+      "name": "WILSON BANK HOLDING CO",
+      "reason": "no share price for none"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "reason": "no us-gaap balance sheet for MXF"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "reason": "no companyfacts for CIK 858706"
+    },
+    {
+      "ticker": "PRQR",
+      "name": "ProQR Therapeutics N.V.",
+      "reason": "no us-gaap balance sheet for PRQR"
+    },
+    {
+      "ticker": "STWI",
+      "name": "StageWise Strategies Corp.",
+      "reason": "no share price for STWI"
+    }
+  ]
+}
