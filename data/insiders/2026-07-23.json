@@ -1,0 +1,59 @@
+{
+  "url_date": "2026-07-23",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-07-22"
+  ],
+  "generated_at": "2026-07-23T10:31:26+00:00",
+  "tickers": [
+    {
+      "ticker": "HDSN",
+      "name": "HUDSON TECHNOLOGIES INC /NY",
+      "total_value": 392601.6016,
+      "ev_basic": 241039800.12719536,
+      "mc_basic": 260405800.12719536,
+      "insiders": [
+        {
+          "reporter_name": "Hartree Partners, LP",
+          "relationship": "10% Owner",
+          "total_value": 392601.6016,
+          "shares": 65550.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "CAPS",
+      "name": "Capstone Holding Corp.",
+      "total_value": 167000.0,
+      "ev_basic": 16185217.132269368,
+      "mc_basic": 3030217.1322693676,
+      "insiders": [
+        {
+          "reporter_name": "Lipman Matthew E.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 167000.0,
+          "shares": 41750.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "reason": "no us-gaap balance sheet for TSM"
+    },
+    {
+      "ticker": "PBLS",
+      "name": "Parabilis Medicines, Inc.",
+      "reason": "no us-gaap balance sheet for PBLS"
+    },
+    {
+      "ticker": "CLBK",
+      "name": "Columbia Financial, Inc./MD/",
+      "reason": "no us-gaap balance sheet for CLBK"
+    }
+  ]
+}

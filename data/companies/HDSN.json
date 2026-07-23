@@ -3,7 +3,77 @@
   "cik": "925528",
   "name": "HUDSON TECHNOLOGIES INC /NY",
   "description": "Hudson Technologies, Inc., through its subsidiary, Hudson Technologies Company, provides solutions to recurring problems within the refrigeration industry in the United States. The company offers refrigerant and industrial gas; refrigerant management services comprising primarily of reclamation of refrigerants, laboratory testing through its laboratory, and banking storage services; and RefrigerantSide Services comprising system decontamination to remove moisture, oils, and other contaminants intended to restore systems to designed capacity. It also provides diagnostic services for use in the prediction of potential problems in air conditioning, process cooling, and refrigeration systems; Chiller Chemistry, which integrates several fluid tests of an operating system and the corresponding laboratory results into an engineering report; Fluid Chemistry for use in identification of systems that require further examination; and SmartEnergy OPS, a system for measuring, modifying, and improving the efficiency of energy systems, including air conditioning and refrigeration systems, in industrial and commercial applications. In addition, the company provides a snapshot of a packaged chiller's operating efficiency and health through ChillSmart, a maintenance tool. Further, it is involved in the generation of carbon offset projects. The company serves commercial, industrial, and governmental customers, as well as refrigerant wholesalers, distributors, contractors, and refrigeration equipment manufacturers. Hudson Technologies, Inc. was founded in 1990 and is headquartered in Woodcliff Lake, New Jersey.",
+  "ownership": {
+    "inst_pct": 0.84783995,
+    "insider_pct": 0.13709,
+    "inst_count": 220,
+    "analyst_count": 4,
+    "rec_mean": 2.0,
+    "rec_key": "buy",
+    "target_mean": 8.5,
+    "short_pct_float": 0.0446,
+    "shares_short": 1854523,
+    "short_days_to_cover": 3.9,
+    "short_as_of": "2026-06-30",
+    "as_of": "2026-07-23"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-07-22",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-21",
+      "code": "P",
+      "shares": 47708.0,
+      "price": 5.9894,
+      "total_value": 285742.2952,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-001855"
+    },
+    {
+      "date_filed": "2026-07-22",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-20",
+      "code": "P",
+      "shares": 17842.0,
+      "price": 5.9892,
+      "total_value": 106859.3064,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-001855"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-07",
+      "code": "P",
+      "shares": 600.0,
+      "price": 5.99,
+      "total_value": 3594.0,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-001775"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-06",
+      "code": "P",
+      "shares": 4634.0,
+      "price": 5.99,
+      "total_value": 27757.66,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-001775"
+    },
     {
       "date_filed": "2026-07-02",
       "reporter_name": "Hartree Partners, LP",
@@ -832,7 +902,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.154099941253662,
+    "share_price": 6.190000057220459,
     "shares_basic": 42068788,
     "shares_basic_as_of": "2026-04-21",
     "options": 2604023,
@@ -841,8 +911,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 251422000.0,
-    "mc_basic": 258895525.75941277,
-    "ev_basic": 239529525.75941277
+    "mc_basic": 260405800.12719536,
+    "ev_basic": 241039800.12719536
   },
   "financials": {
     "income_statement": {
@@ -2089,24 +2159,5 @@
       }
     }
   },
-  "last_updated": "2026-07-03T12:32:53+00:00",
-  "ownership": {
-    "inst_pct": 0.84036005,
-    "insider_pct": 0.13709,
-    "inst_count": 219,
-    "analyst_count": 4,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 8.5,
-    "short_pct_float": 0.0446,
-    "shares_short": 1854523,
-    "short_days_to_cover": 3.9,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-07-23T10:31:34+00:00"
 }
