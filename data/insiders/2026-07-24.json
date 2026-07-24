@@ -1,0 +1,95 @@
+{
+  "url_date": "2026-07-24",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-07-23"
+  ],
+  "generated_at": "2026-07-24T10:31:32+00:00",
+  "tickers": [
+    {
+      "ticker": "RBKB",
+      "name": "Rhinebeck Bancorp, Inc.",
+      "total_value": 596708.5,
+      "ev_basic": 35353269.6110096,
+      "mc_basic": 137949269.6110096,
+      "insiders": [
+        {
+          "reporter_name": "Patzwahl Nancy Koskey",
+          "relationship": "Director",
+          "total_value": 298500.0,
+          "shares": 25000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Loughlin Suzanne",
+          "relationship": "Director",
+          "total_value": 149120.0,
+          "shares": 12500.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Smith Matthew James",
+          "relationship": "Director, Officer (President & CEO)",
+          "total_value": 149088.5,
+          "shares": 12425.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "BYRN",
+      "name": "Byrna Technologies Inc.",
+      "total_value": 255975.15726828,
+      "ev_basic": 67040607.12295151,
+      "mc_basic": 76476607.12295151,
+      "insiders": [
+        {
+          "reporter_name": "Davis Conn Q.",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 153689.25726828,
+          "shares": 44305.8402,
+          "txn_count": 4
+        },
+        {
+          "reporter_name": "Kennedy TJ",
+          "relationship": "Director, Other (Chairman of the Board)",
+          "total_value": 102285.9,
+          "shares": 29000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "reason": "no us-gaap balance sheet for TSM"
+    },
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "reason": "no companyfacts for CIK 1059213"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "reason": "no us-gaap balance sheet for MXF"
+    },
+    {
+      "ticker": "NONE",
+      "name": "Commonwealth Credit Partners BDC I, Inc.",
+      "reason": "no share price for NONE"
+    },
+    {
+      "ticker": "BRTMU",
+      "name": "B&R Technology Merger Corp.",
+      "reason": "no us-gaap balance sheet for BRTMU"
+    },
+    {
+      "ticker": "N/A",
+      "name": "BlackRock Private Investments Fund",
+      "reason": "no us-gaap balance sheet for N/A"
+    }
+  ]
+}
