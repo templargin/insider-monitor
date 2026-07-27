@@ -6,7 +6,7 @@
     "2026-07-25",
     "2026-07-26"
   ],
-  "generated_at": "2026-07-27T10:31:47+00:00",
+  "generated_at": "2026-07-27T13:26:19+00:00",
   "tickers": [
     {
       "ticker": "CLIR",
@@ -21,6 +21,22 @@
           "total_value": 1770000.0,
           "shares": 500000.0,
           "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "total_value": 1565499.4966,
+      "ev_basic": 117767148.67654037,
+      "mc_basic": 172015423.67654037,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 1565499.4966,
+          "shares": 200086.0,
+          "txn_count": 3
         }
       ]
     },
@@ -72,11 +88,6 @@
       "ticker": "BBASX",
       "name": "AMG BBH Asset-Backed Credit Fund, LLC",
       "reason": "no companyfacts for CIK 2097545"
-    },
-    {
-      "ticker": "ACOG",
-      "name": "Alpha Cognition Inc.",
-      "reason": "no share price for ACOG"
     },
     {
       "ticker": "GDTC",
