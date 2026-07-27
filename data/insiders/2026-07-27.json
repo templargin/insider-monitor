@@ -1,0 +1,87 @@
+{
+  "url_date": "2026-07-27",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26"
+  ],
+  "generated_at": "2026-07-27T10:31:47+00:00",
+  "tickers": [
+    {
+      "ticker": "CLIR",
+      "name": "ClearSign Technologies Corp",
+      "total_value": 1770000.0,
+      "ev_basic": 11154089.22161889,
+      "mc_basic": 18890089.22161889,
+      "insiders": [
+        {
+          "reporter_name": "PASQUESI JOHN M",
+          "relationship": "10% Owner",
+          "total_value": 1770000.0,
+          "shares": 500000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "CAPS",
+      "name": "Capstone Holding Corp.",
+      "total_value": 167000.0,
+      "ev_basic": 16058958.20267938,
+      "mc_basic": 2903958.202679381,
+      "insiders": [
+        {
+          "reporter_name": "TOPOREK MICHAEL",
+          "relationship": "Director",
+          "total_value": 167000.0,
+          "shares": 41750.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BMR",
+      "name": "Beamr Imaging Ltd.",
+      "total_value": 106205.25,
+      "ev_basic": 15272019.108104229,
+      "mc_basic": 19257019.10810423,
+      "insiders": [
+        {
+          "reporter_name": "Carmel Sharon",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 106205.25,
+          "shares": 82650.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "NONE",
+      "name": "Blackstone Private Real Estate Credit & Income Fund",
+      "reason": "no share price for NONE"
+    },
+    {
+      "ticker": "NONE",
+      "name": "Sound Point Direct Lending BDC",
+      "reason": "no share price for NONE"
+    },
+    {
+      "ticker": "BBASX",
+      "name": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "reason": "no companyfacts for CIK 2097545"
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "reason": "no share price for ACOG"
+    },
+    {
+      "ticker": "GDTC",
+      "name": "CytoMed Therapeutics Ltd",
+      "reason": "no us-gaap balance sheet for GDTC"
+    }
+  ]
+}

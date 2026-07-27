@@ -11,13 +11,41 @@
     "rec_mean": null,
     "rec_key": null,
     "target_mean": 3.0,
-    "short_pct_float": 0.0379,
-    "shares_short": 266401,
-    "short_days_to_cover": 0.93,
-    "short_as_of": "2026-06-30",
-    "as_of": "2026-07-23"
+    "short_pct_float": 0.0437,
+    "shares_short": 307465,
+    "short_days_to_cover": 0.83,
+    "short_as_of": "2026-07-15",
+    "as_of": "2026-07-27"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-07-24",
+      "reporter_name": "TOPOREK MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-03-30",
+      "code": "A",
+      "shares": 356250.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001437749-26-024418"
+    },
+    {
+      "date_filed": "2026-07-24",
+      "reporter_name": "TOPOREK MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2025-03-07",
+      "code": "P",
+      "shares": 41750.0,
+      "price": 4.0,
+      "total_value": 167000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001437749-26-024417"
+    },
     {
       "date_filed": "2026-07-22",
       "reporter_name": "Lipman Matthew E.",
@@ -104,7 +132,7 @@
     }
   ],
   "valuation": {
-    "share_price": 0.23999999463558197,
+    "share_price": 0.23000000417232513,
     "shares_basic": 12625905,
     "shares_basic_as_of": "2026-05-19",
     "options": 3007000,
@@ -117,8 +145,8 @@
       "concept": null
     },
     "ttm_revenue": 39142000.0,
-    "mc_basic": 3030217.1322693676,
-    "ev_basic": 16185217.132269368
+    "mc_basic": 2903958.202679381,
+    "ev_basic": 16058958.20267938
   },
   "financials": {
     "income_statement": {
@@ -1386,5 +1414,5 @@
       }
     }
   },
-  "last_updated": "2026-07-23T12:10:18+00:00"
+  "last_updated": "2026-07-27T10:31:57+00:00"
 }
