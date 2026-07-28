@@ -1,0 +1,21 @@
+{
+  "url_date": "2026-07-28",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-07-27"
+  ],
+  "generated_at": "2026-07-28T10:31:45+00:00",
+  "tickers": [],
+  "unevaluated": [
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "reason": "no companyfacts for CIK 1059213"
+    },
+    {
+      "ticker": "NONE",
+      "name": "Jefferies Credit Partners BDC Inc.",
+      "reason": "share count for NONE predates its balance sheet (2025-08-08 < 2026-03-31)"
+    }
+  ]
+}
