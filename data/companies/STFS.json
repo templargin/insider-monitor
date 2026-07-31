@@ -1,0 +1,320 @@
+{
+  "ticker": "STFS",
+  "cik": "2003061",
+  "name": "Star Fashion Culture Holdings Ltd",
+  "description": "Star Fashion Culture Holdings Limited, together with its subsidiaries, provides content marketing solutions services in the People's Republic of China. The company offers marketing campaign planning and execution, including event design, logistics, layout of events, materials preparation, actual event set-up and implementation; offline advertising services; and online precision marketing services. It serves consumer goods, advertising and marketing, and media industries. Star Fashion Culture Holdings Limited was founded in 2015 and is based in Xiamen, the People's Republic of China.",
+  "ownership": {
+    "inst_pct": 0.026080001,
+    "insider_pct": 0.14854,
+    "inst_count": 4,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0136,
+    "shares_short": 15176,
+    "short_days_to_cover": 0.15,
+    "short_as_of": "2026-07-14",
+    "as_of": "2026-07-30"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-07-28",
+      "reporter_name": "ZHANG PINGTING",
+      "relationship": "Director, Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-22",
+      "code": "P",
+      "shares": 2000000.0,
+      "price": 1.3,
+      "total_value": 2600000.0,
+      "security_title": "Class B Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-082081"
+    }
+  ],
+  "valuation": {
+    "share_price": 3.9700000286102295,
+    "shares_basic": 12650000,
+    "shares_basic_as_of": "2025-06-30",
+    "options": null,
+    "warrants": null,
+    "cash": 65430,
+    "debt": 597046,
+    "debt_flag": null,
+    "ttm_revenue": 16861501.0,
+    "mc_basic": 50220500.3619194,
+    "ev_basic": 50752116.3619194
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Margin %",
+          "",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/25"
+        ],
+        "data": [
+          [
+            16861501
+          ],
+          [
+            15903848
+          ],
+          [
+            957653
+          ],
+          [
+            5.679524023395071
+          ],
+          [
+            null
+          ],
+          [
+            19065947
+          ],
+          [
+            19065947
+          ],
+          [
+            null
+          ],
+          [
+            -18108294
+          ],
+          [
+            -107.39431797916448
+          ],
+          [
+            null
+          ],
+          [
+            -18092739
+          ],
+          [
+            170604
+          ],
+          [
+            -18263343
+          ],
+          [
+            -108.31386244913783
+          ],
+          [
+            null
+          ],
+          [
+            -1.83
+          ],
+          [
+            -1.83
+          ],
+          [
+            10000000
+          ],
+          [
+            10000000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/25"
+        ],
+        "data": [
+          [
+            65430
+          ],
+          [
+            6111339
+          ],
+          [
+            6015786
+          ],
+          [
+            12192555
+          ],
+          [
+            null
+          ],
+          [
+            12192555
+          ],
+          [
+            null
+          ],
+          [
+            2393415
+          ],
+          [
+            3388812
+          ],
+          [
+            5782227
+          ],
+          [
+            5782227
+          ],
+          [
+            null
+          ],
+          [
+            -19529400
+          ],
+          [
+            6410328
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "6/30/25"
+        ],
+        "data": [
+          [
+            -18263343
+          ],
+          [
+            16695091
+          ],
+          [
+            -2396448
+          ],
+          [
+            -3964700
+          ],
+          [
+            null
+          ],
+          [
+            -2002848
+          ],
+          [
+            -2002848
+          ],
+          [
+            null
+          ],
+          [
+            5858096
+          ],
+          [
+            5858096
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/25"
+        ],
+        "data": [
+          [
+            2.1086261400667943
+          ],
+          [
+            null
+          ],
+          [
+            0.9020173382703662
+          ],
+          [
+            null
+          ],
+          [
+            6410328
+          ],
+          [
+            null
+          ],
+          [
+            -284.9049689813064
+          ],
+          [
+            -149.79094209540168
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-07-31T01:15:24+00:00"
+}

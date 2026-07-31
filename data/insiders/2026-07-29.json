@@ -1,0 +1,95 @@
+{
+  "url_date": "2026-07-29",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-07-28"
+  ],
+  "generated_at": "2026-07-31T01:15:06+00:00",
+  "tickers": [
+    {
+      "ticker": "AVR",
+      "name": "Anteris Technologies Global Corp.",
+      "total_value": 28750000.0,
+      "ev_basic": 518907730.44013786,
+      "mc_basic": 802099730.4401379,
+      "insiders": [
+        {
+          "reporter_name": "L1 Capital Pty Ltd",
+          "relationship": "10% Owner",
+          "total_value": 28750000.0,
+          "shares": 5000000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "STFS",
+      "name": "Star Fashion Culture Holdings Ltd",
+      "total_value": 2600000.0,
+      "ev_basic": 50752116.3619194,
+      "mc_basic": 50220500.3619194,
+      "insiders": [
+        {
+          "reporter_name": "ZHANG PINGTING",
+          "relationship": "Director, Officer (Chief Financial Officer)",
+          "total_value": 2600000.0,
+          "shares": 2000000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "KRNY",
+      "name": "Kearny Financial Corp.",
+      "total_value": 138273.53,
+      "ev_basic": 1559602031.5388079,
+      "mc_basic": 623438031.5388079,
+      "insiders": [
+        {
+          "reporter_name": "Fields Curtland E",
+          "relationship": "Director",
+          "total_value": 138273.53,
+          "shares": 14700.0,
+          "txn_count": 4
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "NONE",
+      "name": "5C Lending Partners Corp.",
+      "reason": "no share price for NONE"
+    },
+    {
+      "ticker": "N/A",
+      "name": "Crestline Lending Solutions, LLC",
+      "reason": "no share price for N/A"
+    },
+    {
+      "ticker": "SCTX",
+      "name": "Scribe Therapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for SCTX"
+    },
+    {
+      "ticker": "GSHD",
+      "name": "Goosehead Insurance, Inc.",
+      "reason": "share count for GSHD predates its balance sheet (2022-09-30 < 2026-06-30)"
+    },
+    {
+      "ticker": "NONE",
+      "name": "Willow Tree Capital Corp",
+      "reason": "no share price for NONE"
+    },
+    {
+      "ticker": "N/A",
+      "name": "Calamos Aksia Hedged Strategies Fund",
+      "reason": "no us-gaap balance sheet for N/A"
+    },
+    {
+      "ticker": "MTAK",
+      "name": "Market Technology Acquisition Corp",
+      "reason": "no us-gaap balance sheet for MTAK"
+    }
+  ]
+}
