@@ -1,0 +1,64 @@
+{
+  "url_date": "2026-07-31",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-07-30"
+  ],
+  "generated_at": "2026-07-31T10:32:00+00:00",
+  "tickers": [
+    {
+      "ticker": "COSM",
+      "name": "Cosmos Health Inc.",
+      "total_value": 140000.0868,
+      "ev_basic": 13823500.362209544,
+      "mc_basic": 10885698.362209544,
+      "insiders": [
+        {
+          "reporter_name": "Siokas Grigorios",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 140000.0868,
+          "shares": 766284.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "NWFL",
+      "name": "NORWOOD FINANCIAL CORP",
+      "total_value": 107104.99999999999,
+      "ev_basic": 352711564.60894394,
+      "mc_basic": 367016564.60894394,
+      "insiders": [
+        {
+          "reporter_name": "Shook James",
+          "relationship": "Director",
+          "total_value": 107104.99999999999,
+          "shares": 3100.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "[NONE]",
+      "name": "VISTA CREDIT STRATEGIC LENDING CORP.",
+      "reason": "share count for [NONE] predates its balance sheet (2025-07-31 < 2026-03-31)"
+    },
+    {
+      "ticker": null,
+      "name": "Overland Advantage",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "LBRT",
+      "name": "Liberty Energy Inc.",
+      "reason": "no basic share count for LBRT"
+    },
+    {
+      "ticker": "MLPT",
+      "name": "MapLight Therapeutics, Inc.",
+      "reason": "no share price for MLPT"
+    }
+  ]
+}

@@ -3,7 +3,63 @@
   "cik": "1474167",
   "name": "Cosmos Health Inc.",
   "description": "Cosmos Health Inc. manufactures, develops, and trades branded nutraceutical products in Greece, the United Kingdom, Croatia, Bulgaria, the United Arab Emirates, Albania, North Macedonia, and Cyprus. The company provides prescription medications, over-the-counter drugs, medical devices, food supplements, nutraceuticals, cosmetics and other healthcare products under the Sky Premium Life and Mediterranation brand names. It offers ASTO-CHOL (Pravastatin), Diorium (Omeprazole), HEART-FREE (Clopidogrel), LIPICHOL (Atorvastatin), Miltus (Donepezil), Newzypra (Olanzapine), PNEUMO-KAST (Montelukast), Sahar (Pioglitazone), VIVALCID (Leucovorin), and Diabit-is (Sitagliptin). In addition, the company offers branded biocides and antiseptic soaps under the C-Sept and C-Scrub brand names; and other pharmaceutical products include Melatonin Spray, used to reduce insomnia and jet lag; Otikon ear drops, which is a Class II medical device in the form of ear drops; and baby foods, such as organic powder milk, pasta with minced meat, whole grain rice cereals, whole grain cereal porridges, and organic rice creams with vanilla milk, as well as pear, carrot and banana pur\u00e9e under the Bio-bebe brand. It serves wholesalers and retail healthcare providers. The company was founded in 2009 and is headquartered in Thessaloniki, Greece.",
+  "ownership": {
+    "inst_pct": 0.05116,
+    "insider_pct": 0.33985,
+    "inst_count": 24,
+    "analyst_count": 1,
+    "rec_mean": 0.0,
+    "rec_key": "strong_buy",
+    "target_mean": 4.5,
+    "short_pct_float": 0.1188,
+    "shares_short": 5596263,
+    "short_days_to_cover": 0.25,
+    "short_as_of": "2026-07-15",
+    "as_of": "2026-07-31"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-07-30",
+      "reporter_name": "Terzis Georgios",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-29-05:00",
+      "code": "A",
+      "shares": 328407.0,
+      "price": 0.1827,
+      "total_value": 59999.9589,
+      "security_title": "Common Stock, par value $.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001477932-26-004614"
+    },
+    {
+      "date_filed": "2026-07-30",
+      "reporter_name": "Siokas Grigorios",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-07-29-05:00",
+      "code": "P",
+      "shares": 766284.0,
+      "price": 0.1827,
+      "total_value": 140000.0868,
+      "security_title": "Common Stock, par value $.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001477932-26-004606"
+    },
+    {
+      "date_filed": "2026-06-17",
+      "reporter_name": "Terzis Georgios",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-06-16-05:00",
+      "code": "P",
+      "shares": 168135.0,
+      "price": 0.2498,
+      "total_value": 42000.123,
+      "security_title": "Common Stock, par value $.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001477932-26-003892"
+    },
     {
       "date_filed": "2026-06-12",
       "reporter_name": "Siokas Grigorios",
@@ -762,21 +818,21 @@
     }
   ],
   "valuation": {
-    "share_price": 0.2851000130176544,
+    "share_price": 0.20000000298023224,
     "shares_basic": 54428491,
     "shares_basic_as_of": "2026-05-18",
     "options": 0,
     "warrants": 12926506,
     "cash": 514702,
     "debt": 3452504,
-    "ttm_revenue": 69487179.0,
-    "mc_basic": 15517563.492631286,
-    "ev_basic": 18455365.492631286,
     "debt_flag": {
       "reason": "unexplained_liabilities",
       "amount": 9524103,
       "concept": null
-    }
+    },
+    "ttm_revenue": 69487179.0,
+    "mc_basic": 10885698.362209544,
+    "ev_basic": 13823500.362209544
   },
   "financials": {
     "income_statement": {
@@ -2067,24 +2123,5 @@
       }
     }
   },
-  "last_updated": "2026-06-15T16:17:41+00:00",
-  "ownership": {
-    "inst_pct": 0.05094,
-    "insider_pct": 0.33985,
-    "inst_count": 22,
-    "analyst_count": 1,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 4.5,
-    "short_pct_float": 0.1007,
-    "shares_short": 4744953,
-    "short_days_to_cover": 0.3,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-07-31T10:32:44+00:00"
 }
