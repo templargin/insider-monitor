@@ -28,7 +28,13 @@ jobs:
       - name: Tests
         run: pytest -q
 
+      # continue-on-error so a run that produced no page for TODAY still commits
+      # whatever it did produce (catch-up backfills, refreshed company data).
+      # The job is failed afterwards by the Verify step below, which is what
+      # turns the miss into a Healthchecks /fail ping and a Telegram alert.
       - name: Daily run
+        id: daily
+        continue-on-error: true
         run: python -m scripts.daily_run
 
       - name: Commit + push
@@ -42,3 +48,13 @@ jobs:
             git commit -m "Daily update $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # A green run that silently wrote no page is the failure mode that let
+      # 2026-07-29 and 07-30 go dark unnoticed: the runner pings Healthchecks off
+      # this workflow's conclusion, so "finished fine, published nothing" read as
+      # healthy. daily_run exits non-zero when today's page is missing.
+      - name: Verify today's page was written
+        if: steps.daily.outcome == 'failure'
+        run: |
+          echo "::error::Daily run did not produce today's page — see the Daily run step."
+          exit 1

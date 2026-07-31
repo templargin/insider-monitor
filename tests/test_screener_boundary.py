@@ -279,3 +279,67 @@ def test_unexplained_gate_ignores_a_clamped_flag(monkeypatch):
     flag = {"reason": "debt_tags_overlap_clamped", "amount": 500_000_000, "concept": None}
     install(monkeypatch, shares=90_000_000, price=10.0, flag=flag)   # EV $900M
     assert passes() is not None, "a clamped flag must not trip the uncertainty gate"
+
+
+# --- transient vs permanent data-unavailability -----------------------------
+#
+# The outage guard used to fire on ANY all-unevaluable day. On 2026-07-30 the
+# whole candidate pool was four structurally unevaluable issuers — a pre-revenue
+# filer with no us-gaap balance sheet, a closed-end fund with no companyfacts, a
+# non-traded BDC whose Form 4 "ticker" is the string NONE, and an IFRS foreign
+# filer — and the guard read that as "SEC is down" and published nothing. Those
+# four fail identically every day forever; the correct page was an empty one.
+
+
+def test_companyfacts_fetch_failure_is_transient(monkeypatch):
+    """A 429 from data.sec.gov is the outage the guard exists for."""
+    import requests
+    def boom(cik):
+        raise requests.RequestException("429 for companyfacts")
+    monkeypatch.setattr(pipeline.edgar, "fetch_companyfacts", boom)
+    with pytest.raises(pipeline.DataUnavailable) as ei:
+        run()
+    assert ei.value.transient is True
+
+
+def test_absent_companyfacts_is_permanent(monkeypatch):
+    """A closed-end fund that files no XBRL at all (CIK 1059213 / BXSY). `install`
+    reads facts=None as "use the default", so stub the fetch directly."""
+    install(monkeypatch)
+    monkeypatch.setattr(pipeline.edgar, "fetch_companyfacts", lambda cik: None)
+    with pytest.raises(pipeline.DataUnavailable) as ei:
+        run()
+    assert "no companyfacts" in str(ei.value)
+    assert ei.value.transient is False
+
+
+@pytest.mark.parametrize("kwargs,frag", [
+    ({"anchor": None}, "no us-gaap balance sheet"),
+    ({"shares": 0}, "no basic share count"),
+    ({"sh_end": "2020-01-01"}, "predates its balance sheet"),
+    ({"fins_none": True}, "no financial statements"),
+])
+def test_structural_gaps_are_permanent(monkeypatch, kwargs, frag):
+    """Same inputs tomorrow, same answer tomorrow — must not suppress a page."""
+    install(monkeypatch, **kwargs)
+    with pytest.raises(pipeline.DataUnavailable) as ei:
+        run()
+    assert frag in str(ei.value)
+    assert ei.value.transient is False, f"{frag} is not an upstream outage"
+
+
+def test_missing_price_for_a_real_ticker_is_transient(monkeypatch):
+    """yfinance throttling a cloud IP — the June 2026 page-blanking failure."""
+    install(monkeypatch, price=None)
+    with pytest.raises(pipeline.DataUnavailable) as ei:
+        run()
+    assert ei.value.transient is True
+
+
+@pytest.mark.parametrize("placeholder", ["NONE", "N/A", "na", "-", "NULL"])
+def test_placeholder_ticker_is_not_a_ticker(placeholder):
+    """Non-traded BDCs and interval funds file a placeholder where the symbol
+    goes. Pricing it can never succeed, so its failure is not evidence of an
+    outage — process_bucket routes these to the no-ticker path instead."""
+    assert pipeline._is_real_ticker(placeholder) is False
+    assert pipeline._is_real_ticker("BWMX") is True

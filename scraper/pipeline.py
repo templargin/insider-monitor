@@ -19,7 +19,34 @@ class DataUnavailable(Exception):
     not be fetched — distinct from the issuer being screened OUT on its
     EV/revenue merits. Lets process_bucket tell a transient upstream outage apart
     from a genuinely quiet day, so an outage never overwrites a good page with an
-    empty one."""
+    empty one.
+
+    `transient` says WHICH of the two this instance is, and only the transient
+    ones arm the outage guard. An unreachable upstream (a 429 from companyfacts,
+    a throttled price source) is transient: retrying tomorrow gets a different
+    answer. A closed-end fund with no companyfacts at all, an IFRS filer with no
+    us-gaap balance sheet, a Form 4 whose "ticker" is the literal string NONE —
+    those return the same answer every day, forever.
+
+    Conflating them is what blanked 2026-07-30: four candidates, all four
+    permanently unevaluable, read as "upstream is down" and skipped the write.
+    The correct page there was an empty one. Defaults to False so a new raise
+    site has to opt IN to suppressing a day's page."""
+
+    def __init__(self, message, transient=False):
+        super().__init__(message)
+        self.transient = transient
+
+
+# Some Form 4s carry a placeholder where the issuer's trading symbol goes —
+# non-traded BDCs and interval funds file with "NONE" or "N/A". That is not a
+# ticker, so it can never be priced; treating its price failure as an outage
+# armed the guard on an issuer that was never evaluable to begin with.
+_NON_TICKERS = {"NONE", "N/A", "NA", "-", "--", "NULL"}
+
+
+def _is_real_ticker(ticker):
+    return bool(ticker) and ticker.strip().upper() not in _NON_TICKERS
 
 _MAX_WORKERS = 6
 
@@ -135,7 +162,8 @@ def screener_pass(cik, ticker, bucket_data):
     try:
         facts = edgar.fetch_companyfacts(cik)
     except requests.RequestException as e:
-        raise DataUnavailable(f"companyfacts fetch failed for CIK {cik}: {e}")
+        raise DataUnavailable(f"companyfacts fetch failed for CIK {cik}: {e}",
+                              transient=True)
     if facts is None:
         raise DataUnavailable(f"no companyfacts for CIK {cik}")
 
@@ -170,7 +198,11 @@ def screener_pass(cik, ticker, bucket_data):
         # NaN arrives whenever Yahoo serves a null bar for a thin name. It is
         # neither None nor <= 0, so it has to be rejected explicitly or it poisons
         # EV and reads as "too big".
-        raise DataUnavailable(f"no share price for {ticker}")
+        # Transient only for a real symbol — that failure mode is Yahoo throttling
+        # a cloud IP, which is exactly what the guard exists to catch. A
+        # placeholder symbol fails permanently and must not arm it.
+        raise DataUnavailable(f"no share price for {ticker}",
+                              transient=_is_real_ticker(ticker))
 
     mc_basic = price * shares
     ev = filters.basic_ev(mc_basic, debt, cash)
@@ -446,11 +478,13 @@ def process_bucket(url_date):
     unevaluated = []   # issuers we could not evaluate — reported on the page
     screened = 0   # issuers we fully evaluated (passed OR merit-failed)
     errored = 0    # issuers we could not evaluate (data unavailable)
+    transient = 0  # ...of which look like an upstream outage, not a permanent gap
     for cik, bucket_data in threshold:
         ticker = bucket_data["ticker"]
         name = bucket_data["name"]
-        if not ticker:
-            _log(f"  - skip {name} (no ticker on Form 4)")
+        if not _is_real_ticker(ticker):
+            shown = f" (ticker field: {ticker!r})" if ticker else ""
+            _log(f"  - skip {name} (no ticker on Form 4){shown}")
             unevaluated.append({"ticker": None, "name": name,
                                 "reason": "no ticker on Form 4"})
             continue
@@ -459,8 +493,9 @@ def process_bucket(url_date):
             snap, reason = screener_pass(cik, ticker, bucket_data)
         except DataUnavailable as e:
             errored += 1
+            transient += 1 if e.transient else 0
             unevaluated.append({"ticker": ticker, "name": name, "reason": str(e)})
-            _log(f"    data unavailable: {e}")
+            _log(f"    data unavailable{' (transient)' if e.transient else ''}: {e}")
             continue
         except Exception as e:              # noqa: BLE001
             # The filters raise ValueError when handed an unknown, by design. If
@@ -468,6 +503,7 @@ def process_bucket(url_date):
             # but that should cost this issuer, not the whole day's page. Count it
             # as unevaluated (which keeps the outage guards armed) and carry on.
             errored += 1
+            transient += 1   # a hole in the boundary, not a fact about the issuer
             unevaluated.append({"ticker": ticker, "name": name,
                                 "reason": f"screening error: {type(e).__name__}: {e}"})
             _log(f"    !! screening error ({type(e).__name__}: {e}) — treated as unevaluated")
@@ -488,10 +524,19 @@ def process_bucket(url_date):
     # throttling a cloud IP), not a quiet day — bail rather than write an empty
     # page that clobbers a good one. (June 2026: a delayed fallback run hit a
     # mass price-fetch failure and overwrote PRTA + GOTU with an empty list.)
-    if threshold and screened == 0:
+    #
+    # Gated on `transient`, not on `errored`: a day whose whole candidate pool is
+    # permanently unevaluable (closed-end funds, IFRS filers, placeholder tickers)
+    # is a quiet day, and its page is a real empty page. Only an upstream we could
+    # not reach justifies publishing nothing.
+    if threshold and screened == 0 and transient:
         _log(f"  Could not evaluate any of {len(threshold)} candidate issuers "
-             f"({errored} data-unavailable) — upstream outage; skipping write.")
+             f"({errored} data-unavailable, {transient} transient) — "
+             f"upstream outage; skipping write.")
         return None
+    if threshold and screened == 0:
+        _log(f"  None of {len(threshold)} candidate issuers is evaluable "
+             f"({errored} permanently data-unavailable) — writing empty page.")
 
     # Persist daily JSON
     daily = _empty_daily(url_date)
@@ -527,8 +572,8 @@ def process_bucket(url_date):
     # Belt-and-suspenders against a partial outage: never downgrade an existing
     # non-empty page to empty on a run where some fetches errored — the empties
     # are far more likely transient than a real same-day reversal.
-    if not daily["tickers"] and errored and _existing_ticker_count() > 0:
-        _log(f"  0 survivors with {errored} data-unavailable issuer(s), but the "
+    if not daily["tickers"] and transient and _existing_ticker_count() > 0:
+        _log(f"  0 survivors with {transient} transient data-unavailable issuer(s), but the "
              f"existing page has {_existing_ticker_count()} ticker(s) — keeping it, skipping write.")
         return None
 

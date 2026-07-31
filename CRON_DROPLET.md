@@ -75,6 +75,8 @@ cd "$REPO"
     [[ "$STATUS" == completed* ]] && break
   done
 
+  CONCLUSION=$(gh run view "$RUN_ID" -R templargin/insider-monitor --json conclusion --jq '.conclusion')
+
   # 3. Re-pull (workflow committed new data + footnotes)
   git fetch -q origin
   git reset -q --hard origin/main
@@ -200,6 +202,8 @@ For host-level ops (gh auth rotation, env file management, adding new workloads,
 | Symptom | Cause | Fix |
 |---|---|---|
 | Daily list page is from yesterday | Workflow never finished, OR HC ping didn't fire | Check latest `insider-*.log`; manually re-trigger via `gh workflow run` |
+| Workflow says `success` but no new page appeared | `process_bucket` refused to write (see its guards) and nothing noticed. **Fixed 2026-07-30:** `daily_run` now exits non-zero on a missing page and `daily.yml` fails the job in a Verify step, so the runner sends the HC `/fail` ping and Telegram alerts | Grep the run log for `skipping write`; the next morning's catch-up sweep retries the gap automatically |
+| A page is missing for a past weekday | A run skipped the write on a transient outage | Automatic: `daily_run` re-runs any of the last 10 weekdays with no `data/insiders/*.json`. Manual equivalent: `./venv/bin/python -c "from datetime import date; from scraper import pipeline; pipeline.process_bucket(date(Y,M,D))"` then `build_site` from a **synced** clone |
 | Daily page suddenly empty / lost its tickers | A run hit a transient SEC/price-fetch outage (the cloud-IP fallback run is most prone) | Guarded since 2026-06: the writer skips on a mass outage and won't downgrade a non-empty page. Grep the run log for `upstream outage; skipping write` or `data unavailable`. To rebuild a page that was lost before the guard existed, restore the good `data/insiders/YYYY-MM-DD.json` (from git history) or re-run `process_bucket` for that date, then `build_site` + push |
 | Monday-after-holiday page is empty (HTTP 200) | Bucket is entirely weekend + federal holiday (e.g. the Monday after Juneteenth — Fri+Sat+Sun) | Expected — explicit empty page by design (`buckets.is_trading_day`) |
 | Survivor's page shows `—` for options/warrants | Skill was conservative (ambiguous footnote) OR footnote file is missing | Inspect `data/footnotes/TICKER.txt`; manually edit JSON + push if you can determine the value |
