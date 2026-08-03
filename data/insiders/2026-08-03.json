@@ -1,0 +1,82 @@
+{
+  "url_date": "2026-08-03",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-07-31",
+    "2026-08-01",
+    "2026-08-02"
+  ],
+  "generated_at": "2026-08-03T10:31:58+00:00",
+  "tickers": [
+    {
+      "ticker": "HDSN",
+      "name": "HUDSON TECHNOLOGIES INC /NY",
+      "total_value": 312102.96,
+      "ev_basic": 234729477.9152031,
+      "mc_basic": 254095477.9152031,
+      "insiders": [
+        {
+          "reporter_name": "Hartree Partners, LP",
+          "relationship": "10% Owner",
+          "total_value": 312102.96,
+          "shares": 52104.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "DLHC",
+      "name": "DLH Holdings Corp.",
+      "total_value": 232612.2625,
+      "ev_basic": 196805012.45859623,
+      "mc_basic": 70726012.45859623,
+      "insiders": [
+        {
+          "reporter_name": "Mink Brook Asset Management LLC",
+          "relationship": "10% Owner",
+          "total_value": 232612.2625,
+          "shares": 45429.0,
+          "txn_count": 12
+        }
+      ]
+    },
+    {
+      "ticker": "XAIR",
+      "name": "Beyond Air, Inc.",
+      "total_value": 199998.72,
+      "ev_basic": 91717027.14930391,
+      "mc_basic": 76016027.14930391,
+      "insiders": [
+        {
+          "reporter_name": "Goodman Robert Scott",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 199998.72,
+          "shares": 34722.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": null,
+      "name": "TPG Twin Brook Capital Income Fund",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "BBASX",
+      "name": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "reason": "no companyfacts for CIK 2097545"
+    },
+    {
+      "ticker": null,
+      "name": "Diameter Dynamic Credit Fund",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "CATLU",
+      "name": "Catalyst Acquisition Corp.",
+      "reason": "no us-gaap balance sheet for CATLU"
+    }
+  ]
+}

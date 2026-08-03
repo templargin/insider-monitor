@@ -3,7 +3,371 @@
   "cik": "785557",
   "name": "DLH Holdings Corp.",
   "description": "DLH Holdings Corp. provides technology-enabled business process outsourcing, program management solutions, and public health research and analytics services in the United States. It offers digital transformation and cyber security solutions, including artificial intelligence and machine learning, cloud enablement, cybersecurity ecosystem, big data analytics, and modeling and simulation to the National Institutes of Health (NIH), Defense Health Agency (DHA), US Army Medical Research and Development Command (MRDC), and US Navy. The company also provides science research and development services and solutions, such as data analytics, testing and evaluation, clinical trials research services, and epidemiology studies to support multiple operating divisions, including NIH and the Center for Disease Control and Prevention, as well as the Military Health System. In addition, it offers systems engineering and integration solutions in the areas of command, control, communications, computers, cyber, intelligence, surveillance, and reconnaissance (C5ISR); modeling, simulation and training, performance-based logistics, and system modernization; and technology-powered health solutions and software engineering on behalf of the US Navy, HHS, VA, and other federal customers. Further, the company holds the trademark, Infinibyte, for cloud-based solution. The company was formerly known as TeamStaff, Inc. and changed its name to DLH Holdings Corp. in June 2012. DLH Holdings Corp. was incorporated in 1969 and is headquartered in Atlanta, Georgia.",
+  "ownership": {
+    "inst_pct": 0.70015,
+    "insider_pct": 0.13304,
+    "inst_count": 57,
+    "analyst_count": 1,
+    "rec_mean": 1.0,
+    "rec_key": "strong_buy",
+    "target_mean": 7.0,
+    "short_pct_float": 0.0087,
+    "shares_short": 55005,
+    "short_days_to_cover": 0.4,
+    "short_as_of": "2026-07-15",
+    "as_of": "2026-08-03"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-31",
+      "code": "P",
+      "shares": 441.0,
+      "price": 4.864,
+      "total_value": 2145.024,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051497"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-30",
+      "code": "P",
+      "shares": 7944.0,
+      "price": 4.9596,
+      "total_value": 39399.0624,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051497"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-27",
+      "code": "P",
+      "shares": 10.0,
+      "price": 5.09,
+      "total_value": 50.9,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051495"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-24",
+      "code": "P",
+      "shares": 391.0,
+      "price": 5.0997,
+      "total_value": 1993.9827,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051494"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-23",
+      "code": "P",
+      "shares": 79.0,
+      "price": 5.0975,
+      "total_value": 402.7025,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051494"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-13",
+      "code": "P",
+      "shares": 4407.0,
+      "price": 5.0926,
+      "total_value": 22443.0882,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051493"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-10",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 5.0912,
+      "total_value": 25456.0,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051492"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-09",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 5.1255,
+      "total_value": 25627.5,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051492"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-08",
+      "code": "P",
+      "shares": 2275.0,
+      "price": 5.1443,
+      "total_value": 11703.282500000001,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051491"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-07",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 5.1712,
+      "total_value": 25856.0,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051491"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-06",
+      "code": "P",
+      "shares": 9422.0,
+      "price": 5.1881,
+      "total_value": 48882.2782,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051490"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-02",
+      "code": "P",
+      "shares": 5460.0,
+      "price": 5.2477,
+      "total_value": 28652.442,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-051490"
+    },
+    {
+      "date_filed": "2026-07-28",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-27",
+      "code": "P",
+      "shares": 10.0,
+      "price": 5.09,
+      "total_value": 50.9,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-050212"
+    },
+    {
+      "date_filed": "2026-07-24",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-24",
+      "code": "P",
+      "shares": 391.0,
+      "price": 5.0997,
+      "total_value": 1993.9827,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-049649"
+    },
+    {
+      "date_filed": "2026-07-24",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-23",
+      "code": "P",
+      "shares": 79.0,
+      "price": 5.0975,
+      "total_value": 402.7025,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-049649"
+    },
+    {
+      "date_filed": "2026-07-14",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-13",
+      "code": "P",
+      "shares": 4407.0,
+      "price": 5.0926,
+      "total_value": 22443.0882,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-048169"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-10",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 5.0912,
+      "total_value": 25456.0,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-047904"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-09",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 5.1255,
+      "total_value": 25627.5,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-047904"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-08",
+      "code": "P",
+      "shares": 2275.0,
+      "price": 5.1443,
+      "total_value": 11703.282500000001,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-047668"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-07",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 5.1712,
+      "total_value": 25856.0,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-047668"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-06",
+      "code": "P",
+      "shares": 9422.0,
+      "price": 5.1881,
+      "total_value": 48882.2782,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-047398"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-02",
+      "code": "P",
+      "shares": 5640.0,
+      "price": 5.2477,
+      "total_value": 29597.028,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-047398"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "JohnBull Kathryn M.",
+      "relationship": "Director, Officer (Director, CEO and President)",
+      "transaction_date": "2026-06-30",
+      "code": "A",
+      "shares": 85714.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-046942"
+    },
+    {
+      "date_filed": "2026-06-30",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "P",
+      "shares": 4543.0,
+      "price": 5.2493,
+      "total_value": 23847.5699,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-046248"
+    },
+    {
+      "date_filed": "2026-06-30",
+      "reporter_name": "Mink Brook Asset Management LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-29",
+      "code": "P",
+      "shares": 640.0,
+      "price": 5.25,
+      "total_value": 3360.0,
+      "security_title": "Common Stock, par value $0.001 per share (\"Common Stock\")",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-046248"
+    },
     {
       "date_filed": "2026-06-26",
       "reporter_name": "Mink Brook Asset Management LLC",
@@ -1711,76 +2075,20 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001628280-24-041223"
-    },
-    {
-      "date_filed": "2024-07-19",
-      "reporter_name": "DELANEY MARTIN J",
-      "relationship": "Director",
-      "transaction_date": "2024-07-18",
-      "code": "G",
-      "shares": -191695.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000785557-24-000041"
-    },
-    {
-      "date_filed": "2024-07-19",
-      "reporter_name": "DELANEY MARTIN J",
-      "relationship": "Director",
-      "transaction_date": "2024-07-18",
-      "code": "G",
-      "shares": 191695.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000785557-24-000041"
-    },
-    {
-      "date_filed": "2024-07-19",
-      "reporter_name": "DELANEY MARTIN J",
-      "relationship": "Director",
-      "transaction_date": "2024-05-09",
-      "code": "G",
-      "shares": -6544.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000785557-24-000041"
-    },
-    {
-      "date_filed": "2024-07-19",
-      "reporter_name": "DELANEY MARTIN J",
-      "relationship": "Director",
-      "transaction_date": "2024-05-09",
-      "code": "G",
-      "shares": 6544.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000785557-24-000041"
     }
   ],
   "valuation": {
-    "share_price": 5.360000133514404,
+    "share_price": 4.880000114440918,
     "shares_basic": 14493035,
-    "shares_basic_as_of": "2026-05-05",
-    "options": 1175000,
+    "shares_basic_as_of": "2026-07-28",
+    "options": 1095000,
     "warrants": 0,
-    "cash": 131000,
-    "debt": 129961000,
+    "cash": 235000,
+    "debt": 126314000,
     "debt_flag": null,
-    "ttm_revenue": 292660000.0,
-    "mc_basic": 77682669.53502893,
-    "ev_basic": 207512669.53502893
+    "ttm_revenue": 253542000.0,
+    "mc_basic": 70726012.45859623,
+    "ev_basic": 196805012.45859623
   },
   "financials": {
     "income_statement": {
@@ -1814,47 +2122,47 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            44225000,
             59265000,
             68892000,
-            81160000,
-            83343000
+            81160000
           ],
           [
+            -46.936155405972904,
             -33.56835403308972,
             -24.11270956797603,
-            -15.796899964725167,
-            -17.2314139869307
+            -15.796899964725167
           ],
           [
+            36819000,
             47490000,
             55395000,
-            67319000,
-            67649000
+            67319000
           ],
           [
+            7406000,
             11775000,
             13497000,
-            13841000,
-            15694000
+            13841000
           ],
           [
+            -52.8099910793934,
             -33.164944942672264,
             -25.06246182888235,
-            -26.74393987509262,
-            -15.935508061492314
+            -26.74393987509262
           ],
           [
+            16.746184284906725,
             19.868387749936726,
             19.591534575857864,
-            17.05396747166092,
-            18.830615648584764
+            17.05396747166092
           ],
           [
             null,
@@ -1863,16 +2171,16 @@
             null
           ],
           [
+            7337000,
             7530000,
             7761000,
-            7263000,
-            7631000
+            7263000
           ],
           [
+            11338000,
             11830000,
             12061000,
-            11562000,
-            11939000
+            11562000
           ],
           [
             null,
@@ -1881,34 +2189,34 @@
             null
           ],
           [
+            -3932000,
             -55000,
             1436000,
-            2279000,
-            3755000
+            2279000
           ],
           [
+            -204.71371504660453,
             -101.0752688172043,
             -74.52545680326415,
-            -64.25658720200752,
-            -34.84296373416623
+            -64.25658720200752
           ],
           [
+            -8.890898812888638,
             -0.09280350966000168,
             2.084421993845439,
-            2.808033514046328,
-            4.505477364625704
+            2.808033514046328
           ],
           [
+            69000,
             4245000,
             5736000,
-            6578000,
-            8063000
+            6578000
           ],
           [
+            0.15602035048049745,
             7.162743609212858,
             8.32607559658596,
-            8.104977821586989,
-            9.674477760579773
+            8.104977821586989
           ],
           [
             null,
@@ -1917,34 +2225,34 @@
             null
           ],
           [
+            2660000,
             2720000,
             2992000,
-            3481000,
-            3540000
+            3481000
           ],
           [
+            -7014000,
             -3194000,
             -1960000,
-            -1202000,
-            215000
+            -1202000
           ],
           [
+            9773000,
             -659000,
             -636000,
-            -282000,
-            -74000
+            -282000
           ],
           [
+            -16787000,
             -2535000,
             -1324000,
-            -920000,
-            289000
+            -920000
           ],
           [
+            -37.95816845675523,
             -4.277398127056442,
             -1.9218486907042909,
-            -1.1335633316904878,
-            0.34675977586599954
+            -1.1335633316904878
           ],
           [
             null,
@@ -1953,28 +2261,28 @@
             null
           ],
           [
+            -1.16,
             -0.17,
             -0.09,
-            -0.06,
-            0.02
+            -0.06
           ],
           [
+            -1.16,
             -0.17,
             -0.09,
-            -0.06,
-            0.02
+            -0.06
           ],
           [
+            14493000,
             14493000,
             14563000,
-            null,
-            14450000
+            null
           ],
           [
             14493000,
             14493000,
-            null,
-            14386000
+            14493000,
+            null
           ]
         ]
       },
@@ -2017,42 +2325,42 @@
         ],
         "data": [
           [
-            292660000,
+            253542000,
             344497000,
             395937000,
             375872000,
             395173000
           ],
           [
-            -15.04715570817743,
+            -26.402261848434094,
             -12.991965893563876,
             5.338253447982292,
             -4.884189962370911,
             null
           ],
           [
-            237853000,
+            207023000,
             279333000,
             318447000,
             296016000,
             322886000
           ],
           [
-            54807000,
+            46519000,
             65164000,
             77490000,
             79856000,
             72287000
           ],
           [
-            -15.893745012583635,
+            -28.61242403781229,
             -15.90656858949542,
             -2.9628330995792425,
             10.47076237774427,
             null
           ],
           [
-            18.727191963370466,
+            18.34765048788761,
             18.915694476294423,
             19.571295433364398,
             21.24553039332539,
@@ -2066,14 +2374,14 @@
             null
           ],
           [
-            30185000,
+            29891000,
             31199000,
             35538000,
             37795000,
             30730000
           ],
           [
-            47392000,
+            46791000,
             48378000,
             52590000,
             62765000,
@@ -2087,35 +2395,35 @@
             null
           ],
           [
-            7415000,
+            -272000,
             16786000,
             24900000,
             17091000,
             33278000
           ],
           [
-            -55.826283807935184,
+            -101.62039795067318,
             -32.5863453815261,
             45.69071441109356,
             -48.64174529719334,
             null
           ],
           [
-            2.5336568031162443,
+            -0.1072800561642647,
             4.8726113725228375,
             6.28887929140242,
             4.547026647369317,
             8.421121888388123
           ],
           [
-            24622000,
+            16628000,
             33965000,
             41952000,
             32653000,
             40943000
           ],
           [
-            8.41317569876307,
+            6.558282256983064,
             9.859302112935671,
             10.595625061562824,
             8.687265877745615,
@@ -2129,42 +2437,42 @@
             null
           ],
           [
-            12733000,
+            11853000,
             13360000,
             15352000,
             14153000,
             1574000
           ],
           [
-            -823000,
+            -1245000,
             -1671000,
             -1801000,
             -2118000,
             -641000
           ],
           [
-            -6141000,
+            -13370000,
             1755000,
             7747000,
             820000,
             31063000
           ],
           [
-            -1651000,
+            8196000,
             393000,
             350000,
             -641000,
             7775000
           ],
           [
-            -4490000,
+            -21566000,
             1362000,
             7397000,
             1461000,
             23288000
           ],
           [
-            -1.5342035126084876,
+            -8.5058885707299,
             0.3953590307027347,
             1.8682265107832812,
             0.3886961518814916,
@@ -2178,14 +2486,14 @@
             null
           ],
           [
-            -0.3,
+            -1.48,
             0.09,
             0.51,
             0.1,
             1.64
           ],
           [
-            -0.3,
+            -1.48,
             0.09,
             0.52,
             0.11,
@@ -2237,35 +2545,35 @@
           "Total Equity"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            235000,
             131000,
             257000,
-            125000,
-            194000
+            125000
           ],
           [
+            24408000,
             33642000,
             35842000,
-            38394000,
-            44916000
+            38394000
           ],
           [
+            4062000,
             3013000,
             3543000,
-            4018000,
-            4477000
+            4018000
           ],
           [
+            28705000,
             36786000,
             39642000,
-            42537000,
-            49587000
+            42537000
           ],
           [
             null,
@@ -2274,16 +2582,16 @@
             null
           ],
           [
+            761000,
             942000,
             1127000,
-            1274000,
-            1432000
+            1274000
           ],
           [
+            7249000,
             7760000,
             8264000,
-            8764000,
-            9259000
+            8764000
           ],
           [
             138161000,
@@ -2292,22 +2600,22 @@
             138161000
           ],
           [
+            79818000,
             83638000,
             87752000,
-            91865000,
-            95979000
+            91865000
           ],
           [
+            null,
             9425000,
             8562000,
-            8062000,
-            4923000
+            8062000
           ],
           [
+            254809000,
             276712000,
             283508000,
-            290663000,
-            299341000
+            290663000
           ],
           [
             null,
@@ -2316,58 +2624,58 @@
             null
           ],
           [
+            7600000,
             9432000,
             9904000,
-            12299000,
-            9894000
+            12299000
           ],
           [
+            21372000,
             19450000,
             17425000,
-            8067000,
-            14039000
+            8067000
           ],
           [
+            2872000,
             3022000,
             3129000,
-            2918000,
-            2711000
+            2918000
           ],
           [
+            10691000,
             10387000,
             10568000,
-            19387000,
-            19179000
+            19387000
           ],
           [
+            42535000,
             42291000,
             41026000,
-            42671000,
-            45823000
+            42671000
           ],
           [
+            104942000,
             110511000,
             116050000,
-            119966000,
-            124309000
+            119966000
           ],
           [
+            11958000,
             12595000,
             13199000,
-            14022000,
-            14829000
+            14022000
           ],
           [
+            2110000,
             1045000,
             1045000,
-            1046000,
-            null
+            1046000
           ],
           [
+            161545000,
             166442000,
             171320000,
-            177705000,
-            185643000
+            177705000
           ],
           [
             null,
@@ -2376,16 +2684,16 @@
             null
           ],
           [
+            -9436000,
             7351000,
             9886000,
-            11210000,
-            12129000
+            11210000
           ],
           [
+            93264000,
             110270000,
             112188000,
-            112958000,
-            113698000
+            112958000
           ]
         ]
       },
@@ -2425,28 +2733,28 @@
         ],
         "data": [
           [
-            131000,
+            235000,
             125000,
             342000,
             215000,
             228000
           ],
           [
-            33642000,
+            24408000,
             38394000,
             49849000,
             59119000,
             40496000
           ],
           [
-            3013000,
+            4062000,
             4018000,
             2766000,
             3067000,
             2878000
           ],
           [
-            36786000,
+            28705000,
             42537000,
             52957000,
             62401000,
@@ -2460,14 +2768,14 @@
             null
           ],
           [
-            942000,
+            761000,
             1274000,
             1830000,
             1590000,
             1704000
           ],
           [
-            7760000,
+            7249000,
             8764000,
             6681000,
             9656000,
@@ -2481,21 +2789,21 @@
             65643000
           ],
           [
-            83638000,
+            79818000,
             91865000,
             108321000,
             124777000,
             40884000
           ],
           [
-            9425000,
+            null,
             8062000,
             6431000,
             3256000,
             null
           ],
           [
-            276712000,
+            254809000,
             290663000,
             314381000,
             339841000,
@@ -2509,63 +2817,63 @@
             null
           ],
           [
-            9432000,
+            7600000,
             12299000,
             13421000,
             12603000,
             11886000
           ],
           [
-            19450000,
+            21372000,
             8067000,
             12058000,
             17188000,
             0
           ],
           [
-            3022000,
+            2872000,
             2918000,
             2652000,
             3463000,
             2235000
           ],
           [
-            10387000,
+            10691000,
             19387000,
             25111000,
             31533000,
             24420000
           ],
           [
-            42291000,
+            42535000,
             42671000,
             53242000,
             64787000,
             38541000
           ],
           [
-            110511000,
+            104942000,
             119966000,
             137316000,
             155147000,
             20416000
           ],
           [
-            12595000,
+            11958000,
             14022000,
             12789000,
             15908000,
             16461000
           ],
           [
-            1045000,
+            2110000,
             1046000,
             null,
             1560000,
             1534000
           ],
           [
-            166442000,
+            161545000,
             177705000,
             204249000,
             237402000,
@@ -2579,14 +2887,14 @@
             null
           ],
           [
-            7351000,
+            -9436000,
             11210000,
             9848000,
             2451000,
             990000
           ],
           [
-            110270000,
+            93264000,
             112958000,
             110132000,
             102439000,
@@ -2614,41 +2922,41 @@
           "Free Cash Flow"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            -16787000,
             -2535000,
             -1324000,
-            -920000,
-            289000
+            -920000
           ],
           [
+            4001000,
             4300000,
             4300000,
-            4299000,
-            4308000
+            4299000
           ],
           [
+            -219000,
             617000,
             647000,
-            180000,
-            560000
+            179000
           ],
           [
+            17208000,
             null,
             -8393000,
-            7121000,
-            4414000
+            7122000
           ],
           [
+            4203000,
             null,
             -4770000,
-            10680000,
-            9571000
+            10680000
           ],
           [
             null,
@@ -2657,16 +2965,16 @@
             null
           ],
           [
+            0,
             null,
             -39000,
-            -28000,
-            -212000
+            -28000
           ],
           [
+            0,
             null,
             -39000,
-            -28000,
-            -212000
+            -28000
           ],
           [
             null,
@@ -2675,22 +2983,22 @@
             null
           ],
           [
+            -7000000,
             null,
             null,
-            -4750000,
-            -9500000
+            -4750000
           ],
           [
+            2901000,
             null,
             4941000,
-            -5971000,
-            null
+            -5971000
           ],
           [
+            -4099000,
             null,
             4941000,
-            -10721000,
-            -9361000
+            -10721000
           ],
           [
             null,
@@ -2699,10 +3007,10 @@
             null
           ],
           [
+            4203000,
             null,
             -4809000,
-            10652000,
-            9359000
+            10652000
           ]
         ]
       },
@@ -2734,21 +3042,21 @@
         ],
         "data": [
           [
-            -4490000,
+            -21566000,
             1362000,
             7397000,
             1461000,
             23288000
           ],
           [
-            17207000,
+            16900000,
             17179000,
             17052000,
             15562000,
             7665000
           ],
           [
-            2004000,
+            1224000,
             1464000,
             1898000,
             1922000,
@@ -2861,17 +3169,17 @@
           "ROA %"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            0.674856000940402,
             0.8698304603816415,
             0.9662652951786672,
-            0.9968596939373345,
-            1.0821421556860091
+            0.9968596939373345
           ],
           [
             null,
@@ -2880,40 +3188,40 @@
             null
           ],
           [
+            1.7321260078915766,
             1.5094041897161512,
             1.5270795450493815,
-            1.5731953469431117,
-            1.6327727840419357
+            1.5731953469431117
           ],
           [
+            0.15602035048049745,
             7.162743609212858,
             8.32607559658596,
-            8.104977821586989,
-            9.674477760579773
+            8.104977821586989
           ],
           [
+            -13830000,
             -5505000,
             -1384000,
-            -134000,
-            3764000
+            -134000
           ],
           [
+            104707000,
             110380000,
             115793000,
-            119841000,
-            124115000
+            119841000
           ],
           [
+            -17.999442442957626,
             -2.2989026933889543,
             -1.180161871144864,
-            -0.8144620124293985,
-            0.25418213161181374
+            -0.8144620124293985
           ],
           [
+            -6.588071849895412,
             -0.9161149498395443,
             -0.46700622204664416,
-            -0.3165177542377255,
-            0.0965454114204202
+            -0.3165177542377255
           ]
         ]
       },
@@ -2937,7 +3245,7 @@
         ],
         "data": [
           [
-            0.8698304603816415,
+            0.674856000940402,
             0.9968596939373345,
             0.9946470831298598,
             0.9631716239369009,
@@ -2951,42 +3259,42 @@
             null
           ],
           [
-            1.5094041897161512,
+            1.7321260078915766,
             1.5731953469431117,
             1.8545835906003705,
             2.3174962660705396,
             0.8358896371931349
           ],
           [
-            8.41317569876307,
+            6.558282256983064,
             9.859302112935671,
             10.595625061562824,
             8.687265877745615,
             10.360778696925145
           ],
           [
-            -5505000,
+            -13830000,
             -134000,
             -285000,
             -2386000,
             5061000
           ],
           [
-            110380000,
+            104707000,
             119841000,
             136974000,
             154932000,
             20188000
           ],
           [
-            -4.071823705450258,
+            -23.123606107394064,
             1.2057578923139574,
             6.716485671739368,
             1.4262146252891965,
             25.296545731044972
           ],
           [
-            -1.622625690248345,
+            -8.463594300044347,
             0.4685838926867197,
             2.352877559394493,
             0.42990692706295003,
@@ -2996,24 +3304,5 @@
       }
     }
   },
-  "last_updated": "2026-06-29T14:35:57+00:00",
-  "ownership": {
-    "inst_pct": 0.68188006,
-    "insider_pct": 0.13304,
-    "inst_count": 57,
-    "analyst_count": 1,
-    "rec_mean": 1.0,
-    "rec_key": "strong_buy",
-    "target_mean": 10.0,
-    "short_pct_float": 0.012,
-    "shares_short": 76028,
-    "short_days_to_cover": 0.6,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-03T10:32:51+00:00"
 }
