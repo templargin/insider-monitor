@@ -1,0 +1,75 @@
+{
+  "url_date": "2026-08-04",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-08-03"
+  ],
+  "generated_at": "2026-08-04T12:27:11+00:00",
+  "tickers": [
+    {
+      "ticker": "PFBX",
+      "name": "PEOPLES FINANCIAL CORP /MS/",
+      "total_value": 949093.5762,
+      "ev_basic": 45398794.216854095,
+      "mc_basic": 102784794.2168541,
+      "insiders": [
+        {
+          "reporter_name": "Stilwell Joseph",
+          "relationship": "10% Owner",
+          "total_value": 949093.5762,
+          "shares": 42658.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "HNVR",
+      "name": "Hanover Bancorp, Inc. /MD",
+      "total_value": 268800.0,
+      "ev_basic": 232920415.9179802,
+      "mc_basic": 189007415.9179802,
+      "insiders": [
+        {
+          "reporter_name": "O'Connor Kevin M",
+          "relationship": "Officer (President)",
+          "total_value": 268800.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BCML",
+      "name": "BayCom Corp",
+      "total_value": 150850.0,
+      "ev_basic": 32703168.5,
+      "mc_basic": 332734168.5,
+      "insiders": [
+        {
+          "reporter_name": "PERDUE MICHAEL J",
+          "relationship": "Director",
+          "total_value": 150850.0,
+          "shares": 5000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "APMD",
+      "name": "Apnimed, Inc.",
+      "reason": "no us-gaap balance sheet for APMD"
+    },
+    {
+      "ticker": "GSHD",
+      "name": "Goosehead Insurance, Inc.",
+      "reason": "share count for GSHD predates its balance sheet (2022-09-30 < 2026-06-30)"
+    },
+    {
+      "ticker": "PRQR",
+      "name": "ProQR Therapeutics N.V.",
+      "reason": "no us-gaap balance sheet for PRQR"
+    }
+  ]
+}
