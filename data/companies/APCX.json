@@ -3,7 +3,63 @@
   "cik": "1070050",
   "name": "AppTech Payments Corp.",
   "description": "AppTech Payments Corp., a fintech company, provides payment processing and digital banking technologies in the United States. It offers merchant transaction services, processing payments for credit and debit cards through point-of-sale equipment, e-commerce gateways, periodic automatic clearing house payments, and gift and loyalty programs. The company also offers integrated solutions for frictionless digital and mobile payment acceptance, as well as multi-use case, multichannel, API-driven, and account-based issuer processing for card, digital tokens, and payment transfer transaction services. In addition, it provides an omnichannel payments pillar that includes hosted e-commerce checkout, a flexible payment gateway, text payment technology, alternative payment methods (APMs), and mobile and contactless payments. Further, it offers FinZeo, a fintech platform. The company was formerly known as AppTech Corp. AppTech Payments Corp. was incorporated in 1998 and is headquartered in Carlsbad, California.",
+  "ownership": {
+    "inst_pct": 5e-05,
+    "insider_pct": 0.1338,
+    "inst_count": 1,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": null,
+    "shares_short": null,
+    "short_days_to_cover": null,
+    "short_as_of": null,
+    "as_of": "2026-08-05"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-04",
+      "reporter_name": "LORD ALBERT L",
+      "relationship": "Director",
+      "transaction_date": "2026-08-03",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 2900.0,
+      "total_value": 58000000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001683168-26-005941"
+    },
+    {
+      "date_filed": "2026-08-04",
+      "reporter_name": "LORD ALBERT L",
+      "relationship": "Director",
+      "transaction_date": "2026-07-31",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 2895.0,
+      "total_value": 57900000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001683168-26-005941"
+    },
+    {
+      "date_filed": "2026-06-11",
+      "reporter_name": "LORD ALBERT L",
+      "relationship": "Director",
+      "transaction_date": "2026-06-08",
+      "code": "P",
+      "shares": 17120.0,
+      "price": 0.5,
+      "total_value": 8560.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001683168-26-004758"
+    },
     {
       "date_filed": "2026-06-04",
       "reporter_name": "LORD ALBERT L",
@@ -3842,17 +3898,17 @@
     }
   ],
   "valuation": {
-    "share_price": 0.25999999046325684,
+    "share_price": 0.3499999940395355,
     "shares_basic": 42003934,
     "shares_basic_as_of": "2026-05-15",
     "options": 1612540,
     "warrants": 7489960,
     "cash": 110000,
     "debt": 1395000,
+    "debt_flag": null,
     "ttm_revenue": 2635000.0,
-    "mc_basic": 10921022.43941927,
-    "ev_basic": 12206022.43941927,
-    "debt_flag": null
+    "mc_basic": 14701376.649637043,
+    "ev_basic": 15986376.649637043
   },
   "financials": {
     "income_statement": {
@@ -4948,24 +5004,5 @@
       }
     }
   },
-  "last_updated": "2026-06-05T13:42:31+00:00",
-  "ownership": {
-    "inst_pct": 5e-05,
-    "insider_pct": 0.1338,
-    "inst_count": 1,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": null,
-    "shares_short": null,
-    "short_days_to_cover": null,
-    "short_as_of": null,
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-05T10:33:49+00:00"
 }

@@ -1,0 +1,111 @@
+{
+  "url_date": "2026-08-05",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-08-04"
+  ],
+  "generated_at": "2026-08-05T10:33:43+00:00",
+  "tickers": [
+    {
+      "ticker": "APCX",
+      "name": "AppTech Payments Corp.",
+      "total_value": 115900000.0,
+      "ev_basic": 15986376.649637043,
+      "mc_basic": 14701376.649637043,
+      "insiders": [
+        {
+          "reporter_name": "LORD ALBERT L",
+          "relationship": "Director",
+          "total_value": 115900000.0,
+          "shares": 40000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "total_value": 422975.54,
+      "ev_basic": 140412205.62322235,
+      "mc_basic": 194660480.62322235,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 422975.54,
+          "shares": 52900.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ASPS",
+      "name": "ALTISOURCE PORTFOLIO SOLUTIONS S.A.",
+      "total_value": 288453.913,
+      "ev_basic": 222981081.5,
+      "mc_basic": 59956081.5,
+      "insiders": [
+        {
+          "reporter_name": "Benefit Street Partners LLC",
+          "relationship": "10% Owner",
+          "total_value": 288453.913,
+          "shares": 50000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ORN",
+      "name": "Orion Group Holdings Inc",
+      "total_value": 192430.0,
+      "ev_basic": 489471062.3932953,
+      "mc_basic": 412079062.3932953,
+      "insiders": [
+        {
+          "reporter_name": "LEDFORD ROBERT",
+          "relationship": "Director",
+          "total_value": 192430.0,
+          "shares": 20000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "JMKE",
+      "name": "Jersey Mike's Subs Inc.",
+      "reason": "no us-gaap balance sheet for JMKE"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "CARVANA CO.",
+      "reason": "no basic share count for CVNA"
+    },
+    {
+      "ticker": "BRTMU",
+      "name": "B&R Technology Merger Corp.",
+      "reason": "no us-gaap balance sheet for BRTMU"
+    },
+    {
+      "ticker": null,
+      "name": "BROOKFIELD REAL ESTATE INCOME TRUST INC.",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "GSHD",
+      "name": "Goosehead Insurance, Inc.",
+      "reason": "share count for GSHD predates its balance sheet (2022-09-30 < 2026-06-30)"
+    },
+    {
+      "ticker": null,
+      "name": "John Hancock GA Mortgage Trust",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "EWAV",
+      "name": "East West Ave Acquisition Corp.",
+      "reason": "no us-gaap balance sheet for EWAV"
+    }
+  ]
+}
