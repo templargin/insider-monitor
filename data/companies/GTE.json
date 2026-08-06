@@ -3,7 +3,161 @@
   "cik": "1273441",
   "name": "GRAN TIERRA ENERGY INC.",
   "description": "Gran Tierra Energy Inc., together with its subsidiaries, is involved in the exploration and production of oil and gas properties in Colombia, Canada, and Ecuador. The company has a strategic partnership with Ecopetrol S.A. for the development of fields in the Middle Magdalena Valley. The company was founded in 2003 and is headquartered in Calgary, Canada.",
+  "ownership": {
+    "inst_pct": 0.65762,
+    "insider_pct": 0.03977,
+    "inst_count": 95,
+    "analyst_count": null,
+    "rec_mean": 2.16667,
+    "rec_key": "buy",
+    "target_mean": null,
+    "short_pct_float": 0.078,
+    "shares_short": 1852551,
+    "short_days_to_cover": 5.89,
+    "short_as_of": "2026-07-15",
+    "as_of": "2026-08-06"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-05",
+      "reporter_name": "LM Asset Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-04",
+      "code": "P",
+      "shares": 34000.0,
+      "price": 6.8841,
+      "total_value": 234059.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000935836-26-000372"
+    },
+    {
+      "date_filed": "2026-08-05",
+      "reporter_name": "LM Asset Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-03",
+      "code": "P",
+      "shares": 24000.0,
+      "price": 6.8945,
+      "total_value": 165468.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000935836-26-000372"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Morin Sebastien",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 687.0,
+      "price": 6.48,
+      "total_value": 4451.76,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-085158"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Guidry Gary",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 641.0,
+      "price": 6.48,
+      "total_value": 4153.68,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-085157"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Evans Jim",
+      "relationship": "Officer (EVP, Corporate Services)",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 206.0,
+      "price": 6.48,
+      "total_value": 1334.88,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-085156"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Abraham Phillip D",
+      "relationship": "Officer (EVP, Legal and Land)",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 367.0,
+      "price": 6.48,
+      "total_value": 2378.1600000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-085155"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "Morin Sebastien",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 699.0,
+      "price": 6.3,
+      "total_value": 4403.7,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-080846"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "Guidry Gary",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 652.0,
+      "price": 6.3,
+      "total_value": 4107.599999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-080844"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "Evans Jim",
+      "relationship": "Officer (EVP, Corporate Services)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 210.0,
+      "price": 6.3,
+      "total_value": 1323.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-080842"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "Abraham Phillip D",
+      "relationship": "Officer (EVP, Legal and Land)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 373.0,
+      "price": 6.3,
+      "total_value": 2349.9,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-080840"
+    },
     {
       "date_filed": "2026-06-29",
       "reporter_name": "LM Asset Management Inc.",
@@ -6163,328 +6317,20 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001104659-24-090632"
-    },
-    {
-      "date_filed": "2024-08-02",
-      "reporter_name": "Abraham Phillip D",
-      "relationship": "Officer (VP, Legal and Business Dev.)",
-      "transaction_date": "2024-08-02",
-      "code": "A",
-      "shares": 215.0,
-      "price": 9.09,
-      "total_value": 1954.35,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-085403"
-    },
-    {
-      "date_filed": "2024-08-02",
-      "reporter_name": "Evans Jim",
-      "relationship": "Officer (VP, Corporate Services)",
-      "transaction_date": "2024-08-02",
-      "code": "A",
-      "shares": 132.0,
-      "price": 9.09,
-      "total_value": 1199.8799999999999,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-085401"
-    },
-    {
-      "date_filed": "2024-08-02",
-      "reporter_name": "Morin Sebastien",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-08-02",
-      "code": "A",
-      "shares": 331.0,
-      "price": 9.09,
-      "total_value": 3008.79,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-085400"
-    },
-    {
-      "date_filed": "2024-08-02",
-      "reporter_name": "Ellson Ryan",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-08-02",
-      "code": "A",
-      "shares": 165.0,
-      "price": 9.09,
-      "total_value": 1499.85,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-085398"
-    },
-    {
-      "date_filed": "2024-08-02",
-      "reporter_name": "Guidry Gary",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-08-02",
-      "code": "A",
-      "shares": 463.0,
-      "price": 9.09,
-      "total_value": 4208.67,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-085396"
-    },
-    {
-      "date_filed": "2024-07-16",
-      "reporter_name": "Abraham Phillip D",
-      "relationship": "Officer (VP, Legal and Business Dev.)",
-      "transaction_date": "2024-07-16",
-      "code": "A",
-      "shares": 198.0,
-      "price": 9.98,
-      "total_value": 1976.0400000000002,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080260"
-    },
-    {
-      "date_filed": "2024-07-16",
-      "reporter_name": "Evans Jim",
-      "relationship": "Officer (VP, Corporate Services)",
-      "transaction_date": "2024-07-16",
-      "code": "A",
-      "shares": 122.0,
-      "price": 9.98,
-      "total_value": 1217.56,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080259"
-    },
-    {
-      "date_filed": "2024-07-16",
-      "reporter_name": "Morin Sebastien",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-07-16",
-      "code": "A",
-      "shares": 305.0,
-      "price": 9.98,
-      "total_value": 3043.9,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080258"
-    },
-    {
-      "date_filed": "2024-07-16",
-      "reporter_name": "Ellson Ryan",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-07-16",
-      "code": "A",
-      "shares": 153.0,
-      "price": 9.98,
-      "total_value": 1526.94,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080257"
-    },
-    {
-      "date_filed": "2024-07-16",
-      "reporter_name": "Guidry Gary",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-07-16",
-      "code": "A",
-      "shares": 427.0,
-      "price": 9.98,
-      "total_value": 4261.46,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080256"
-    },
-    {
-      "date_filed": "2024-07-05",
-      "reporter_name": "Evans Jim",
-      "relationship": "Officer (VP, Corporate Services)",
-      "transaction_date": "2024-07-02",
-      "code": "A",
-      "shares": 125.0,
-      "price": 9.74,
-      "total_value": 1217.5,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077917"
-    },
-    {
-      "date_filed": "2024-07-05",
-      "reporter_name": "Morin Sebastien",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-07-02",
-      "code": "A",
-      "shares": 313.0,
-      "price": 9.74,
-      "total_value": 3048.62,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077916"
-    },
-    {
-      "date_filed": "2024-07-05",
-      "reporter_name": "Abraham Phillip D",
-      "relationship": "Officer (VP, Legal and Business Dev.)",
-      "transaction_date": "2024-07-02",
-      "code": "A",
-      "shares": 203.0,
-      "price": 9.74,
-      "total_value": 1977.22,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077914"
-    },
-    {
-      "date_filed": "2024-07-05",
-      "reporter_name": "Ellson Ryan",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-07-02",
-      "code": "A",
-      "shares": 156.0,
-      "price": 9.74,
-      "total_value": 1519.44,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077912"
-    },
-    {
-      "date_filed": "2024-07-05",
-      "reporter_name": "Guidry Gary",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-07-02",
-      "code": "A",
-      "shares": 438.0,
-      "price": 9.74,
-      "total_value": 4266.12,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077904"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Wade Brooke N.",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 5237.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Deferred Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077731"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Smith David P",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 1118.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Stock Option (Right to Buy)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077730"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Royal Ronald",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 4096.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Deferred Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077728"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Redford Alison",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 3626.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Deferred Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077727"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Hodgins Robert B.",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 3612.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Deferred Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077726"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Hazell Evan",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 3621.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Deferred Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077724"
-    },
-    {
-      "date_filed": "2024-07-03",
-      "reporter_name": "Dey Peter James",
-      "relationship": "Director",
-      "transaction_date": "2024-07-01",
-      "code": "A",
-      "shares": 2476.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Deferred Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001104659-24-077723"
     }
   ],
   "valuation": {
-    "share_price": 6.42609977722168,
-    "shares_basic": 35359890,
-    "shares_basic_as_of": "2026-05-05",
-    "options": 628209,
+    "share_price": 9.4399995803833,
+    "shares_basic": 35380429,
+    "shares_basic_as_of": "2026-07-31",
+    "options": 575525,
     "warrants": 0,
-    "cash": 124752000,
-    "debt": 574354000,
+    "cash": 126728000,
+    "debt": 551812000,
     "debt_flag": null,
-    "ttm_revenue": 603721000.0,
-    "mc_basic": 227226181.2515831,
-    "ev_basic": 676828181.2515831
+    "ttm_revenue": 638421000.0,
+    "mc_basic": 333991234.91378117,
+    "ev_basic": 759075234.9137812
   },
   "financials": {
     "income_statement": {
@@ -6515,41 +6361,41 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            187181000,
             172057000,
             129929000,
-            149254000,
-            152481000
+            149254000
           ],
           [
+            25.324557938362446,
             2.309526499497541,
             -11.786950913164505,
-            -1.3998533424058452,
-            -7.927105410937811
+            -1.3998533424058452
           ],
           [
+            52683000,
             null,
             null,
-            null,
-            6323000
+            null
           ],
           [
+            778.1963660610102,
             null,
             null,
-            null,
-            -85.43389619664124
+            null
           ],
           [
+            28.145484851560788,
             null,
             null,
-            null,
-            4.146746151979591
+            null
           ],
           [
             null,
@@ -6558,10 +6404,10 @@
             null
           ],
           [
+            9462000,
             34825000,
             19859000,
-            13596000,
-            15006000
+            13596000
           ],
           [
             null,
@@ -6570,22 +6416,22 @@
             null
           ],
           [
+            43221000,
             -147316000,
             -180956000,
-            -32426000,
-            -8683000
+            -32426000
           ],
           [
+            597.7657491650351,
             -815.0062111801242,
             -633.7442218798151,
-            -252.83748114630467,
-            -133.0378205616011
+            -252.83748114630467
           ],
           [
+            23.090484611151773,
             -85.62046298610345,
             -139.27298755474143,
-            -21.72538089431439,
-            -5.6944799679960125
+            -21.72538089431439
           ],
           [
             null,
@@ -6594,40 +6440,40 @@
             null
           ],
           [
+            24473000,
             49878000,
             28261000,
-            25447000,
-            24366000
+            25447000
           ],
           [
+            26601000,
             51427000,
             31391000,
-            26647000,
-            24956000
+            26647000
           ],
           [
+            45349000,
             -145767000,
             -177826000,
-            -31226000,
-            -8093000
+            -31226000
           ],
           [
+            20488000,
             -26595000,
             -36678000,
-            -11276000,
-            4648000
+            -11276000
           ],
           [
+            24861000,
             -119172000,
             -141148000,
-            -19950000,
-            -12741000
+            -19950000
           ],
           [
+            13.281796763560404,
             -69.2630930447468,
             -108.6347158832901,
-            -13.366475940343307,
-            -8.355795148247978
+            -13.366475940343307
           ],
           [
             null,
@@ -6636,28 +6482,28 @@
             null
           ],
           [
+            0.7,
             -3.38,
             -3.9800000000000004,
-            -0.57,
-            -0.36
+            -0.57
           ],
           [
+            0.7,
             -3.38,
             -3.9800000000000004,
-            -0.57,
-            -0.36
+            -0.57
           ],
           [
+            35368716,
             35299842,
             null,
-            35291099,
-            35334692
+            35291099
           ],
           [
+            35368716,
             35299842,
             null,
-            35291099,
-            35334692
+            35291099
           ]
         ]
       },
@@ -6700,14 +6546,14 @@
         ],
         "data": [
           [
-            603721000,
+            638421000,
             596713000,
             621849000,
             636957000,
             711388000
           ],
           [
-            1.1744339406046123,
+            6.989624828016148,
             -4.0421388472121045,
             -2.3719026559092686,
             -10.462785427924002,
@@ -6749,7 +6595,7 @@
             null
           ],
           [
-            83286000,
+            77742000,
             60087000,
             51138000,
             45846000,
@@ -6770,21 +6616,21 @@
             null
           ],
           [
-            -369381000,
+            -317477000,
             -238165000,
             39461000,
             106474000,
             241894000
           ],
           [
-            -55.09457728885437,
+            -33.30128272416182,
             -703.5452725475786,
             -62.9383699306873,
             -55.98319925256517,
             null
           ],
           [
-            -61.18405687395337,
+            -49.72847071133312,
             -39.912822412114366,
             6.3457527470495245,
             16.716042056214157,
@@ -6812,42 +6658,42 @@
             null
           ],
           [
-            127952000,
+            128059000,
             101309000,
             80466000,
             55806000,
             46493000
           ],
           [
-            134421000,
+            136066000,
             106602000,
             85610000,
             55492000,
             49534000
           ],
           [
-            -362912000,
+            -309470000,
             -232872000,
             44605000,
             106160000,
             244935000
           ],
           [
-            -69901000,
+            -54061000,
             -39753000,
             41389000,
             112447000,
             105906000
           ],
           [
-            -293011000,
+            -255409000,
             -193119000,
             3216000,
             -6287000,
             139029000
           ],
           [
-            -48.534173898207946,
+            -40.006359439930705,
             -32.36379968259448,
             0.51716735091638,
             -0.9870368015423333,
@@ -6861,28 +6707,28 @@
             null
           ],
           [
-            -8.290000000000001,
+            -7.23,
             -5.45,
             0.1,
             -0.19,
             3.76
           ],
           [
-            -8.290000000000001,
+            -7.23,
             -5.45,
             0.1,
             -0.19,
             3.81
           ],
           [
-            35299842,
+            35368716,
             35435782,
             32042897,
             33469828,
             36928010
           ],
           [
-            35299842,
+            35368716,
             35435782,
             32042897,
             33469828,
@@ -6915,41 +6761,41 @@
           "Total Equity"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            126728000,
             124752000,
             82931000,
-            49089000,
-            61028000
+            49089000
           ],
           [
+            32838000,
             79632000,
             32908000,
-            32919000,
-            37952000
+            32919000
           ],
           [
+            48425000,
             46664000,
             55384000,
-            37542000,
-            40987000
+            37542000
           ],
           [
+            30971000,
             37865000,
             42304000,
-            47101000,
-            62517000
+            47101000
           ],
           [
+            238962000,
             288913000,
             213527000,
-            166651000,
-            202484000
+            166651000
           ],
           [
             null,
@@ -6958,22 +6804,22 @@
             null
           ],
           [
+            1182561000,
             1203396000,
             1263175000,
-            1409330000,
-            1413745000
+            1409330000
           ],
           [
+            142572000,
             142771000,
             109377000,
-            79828000,
-            80727000
+            79828000
           ],
           [
+            1564095000,
             1635080000,
             1586079000,
-            1655809000,
-            1696956000
+            1655809000
           ],
           [
             null,
@@ -6982,40 +6828,40 @@
             null
           ],
           [
+            45717000,
             21422000,
             21212000,
-            0,
             0
           ],
           [
+            447607000,
             522631000,
             334480000,
-            309359000,
-            320902000
+            309359000
           ],
           [
+            493324000,
             544053000,
             355692000,
-            309359000,
-            320902000
+            309359000
           ],
           [
+            551812000,
             574354000,
             686521000,
-            761829000,
-            772616000
+            761829000
           ],
           [
+            386727000,
             407753000,
             315122000,
-            218664000,
-            213642000
+            218664000
           ],
           [
+            1431863000,
             1526160000,
             1357335000,
-            1289852000,
-            1307160000
+            1289852000
           ],
           [
             null,
@@ -7024,16 +6870,16 @@
             null
           ],
           [
+            -1147244000,
             -1172105000,
             -1052933000,
-            -911785000,
-            -891835000
+            -911785000
           ],
           [
+            132232000,
             108920000,
             228744000,
-            365957000,
-            389796000
+            365957000
           ]
         ]
       },
@@ -7068,35 +6914,35 @@
         ],
         "data": [
           [
-            124752000,
+            126728000,
             82931000,
             103379000,
             62146000,
             126873000
           ],
           [
-            79632000,
+            32838000,
             32908000,
             35480000,
             12359000,
             10706000
           ],
           [
-            46664000,
+            48425000,
             55384000,
             43116000,
             29039000,
             20192000
           ],
           [
-            37865000,
+            30971000,
             42304000,
             29296000,
             8920000,
             10816000
           ],
           [
-            288913000,
+            238962000,
             213527000,
             211271000,
             112464000,
@@ -7110,21 +6956,21 @@
             null
           ],
           [
-            1203396000,
+            1182561000,
             1263175000,
             1380098000,
             1109186000,
             1074895000
           ],
           [
-            142771000,
+            142572000,
             109377000,
             63418000,
             104639000,
             92128000
           ],
           [
-            1635080000,
+            1564095000,
             1586079000,
             1654787000,
             1326289000,
@@ -7138,42 +6984,42 @@
             null
           ],
           [
-            21422000,
+            45717000,
             21212000,
             24807000,
             0,
             0
           ],
           [
-            522631000,
+            447607000,
             334480000,
             297641000,
             260254000,
             241639000
           ],
           [
-            544053000,
+            493324000,
             355692000,
             322448000,
             260254000,
             241639000
           ],
           [
-            574354000,
+            551812000,
             686521000,
             722123000,
             519532000,
             589593000
           ],
           [
-            407753000,
+            386727000,
             315122000,
             196648000,
             150109000,
             86812000
           ],
           [
-            1526160000,
+            1431863000,
             1357335000,
             1241219000,
             929895000,
@@ -7187,14 +7033,14 @@
             null
           ],
           [
-            -1172105000,
+            -1147244000,
             -1052933000,
             -859814000,
             -863030000,
             -856743000
           ],
           [
-            108920000,
+            132232000,
             228744000,
             413568000,
             396394000,
@@ -7221,35 +7067,35 @@
           "Effect of FX on Cash"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            24861000,
             -119172000,
             -141148000,
-            -19950000,
-            -12741000
+            -19950000
           ],
           [
+            -3757000,
             19676000,
             3042000,
-            143000,
-            546000
+            143000
           ],
           [
+            36310000,
             272230000,
             295299000,
-            67956000,
-            46872000
+            67956000
           ],
           [
+            57414000,
             172734000,
             157193000,
-            48149000,
-            34677000
+            48149000
           ],
           [
             null,
@@ -7258,16 +7104,16 @@
             null
           ],
           [
+            -51048000,
             7058000,
             -61809000,
-            -56684000,
-            -86467000
+            -56684000
           ],
           [
+            -51048000,
             7058000,
             -61809000,
-            -56684000,
-            -86467000
+            -56684000
           ],
           [
             null,
@@ -7279,19 +7125,19 @@
             0,
             0,
             0,
-            -1051000
+            0
           ],
           [
+            -3615000,
             -137071000,
             -62582000,
-            -2315000,
-            37313000
+            -2315000
           ],
           [
+            -3615000,
             -137071000,
             -62582000,
-            -2315000,
-            36262000
+            -2315000
           ],
           [
             null,
@@ -7300,10 +7146,10 @@
             null
           ],
           [
+            238000,
             -535000,
             1686000,
-            -533000,
-            -804000
+            -533000
           ]
         ]
       },
@@ -7335,7 +7181,7 @@
         ],
         "data": [
           [
-            -293011000,
+            -255409000,
             -193119000,
             3216000,
             -6287000,
@@ -7349,21 +7195,21 @@
             175800000
           ],
           [
-            23407000,
+            19104000,
             3214000,
             9707000,
             5722000,
             9049000
           ],
           [
-            682357000,
+            671795000,
             235254000,
             3298000,
             18857000,
             103833000
           ],
           [
-            412753000,
+            435490000,
             313249000,
             239321000,
             227992000,
@@ -7384,14 +7230,14 @@
             0
           ],
           [
-            -197902000,
+            -162483000,
             -272464000,
             -189854000,
             -226584000,
             -210331000
           ],
           [
-            -197902000,
+            -162483000,
             -272464000,
             -352505000,
             -226584000,
@@ -7412,21 +7258,21 @@
             2000
           ],
           [
-            -1051000,
+            0,
             -3466000,
             -15309000,
             -17300000,
             -27317000
           ],
           [
-            -164655000,
+            -205583000,
             -56377000,
             172183000,
             -52297000,
             -86007000
           ],
           [
-            -165706000,
+            -205583000,
             -59843000,
             156874000,
             -69597000,
@@ -7440,7 +7286,7 @@
             null
           ],
           [
-            -186000,
+            856000,
             387000,
             -3391000,
             5869000,
@@ -7462,29 +7308,29 @@
           "ROA %"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            0.4843915965977735,
             0.5310383363385552,
             0.600314316880897,
-            0.5386977589144004,
-            0.6309839140921527
+            0.5386977589144004
           ],
           [
+            0.3862309557207839,
             0.44526728094505497,
             0.44460656972886653,
-            0.41734360403285503,
-            0.5032595621093044
+            0.41734360403285503
           ],
           [
+            10.828415209631556,
             14.01175174439956,
             5.933860560276991,
-            3.5245998846859057,
-            3.3534464181264045
+            3.5245998846859057
           ],
           [
             null,
@@ -7493,28 +7339,28 @@
             null
           ],
           [
+            -254362000,
             -255140000,
             -142165000,
-            -142708000,
-            -118418000
+            -142708000
           ],
           [
+            425084000,
             449602000,
             603590000,
-            712740000,
-            711588000
+            712740000
           ],
           [
+            18.801046645290096,
             -109.41241278002204,
             -61.70566222502011,
-            -5.451460144224595,
-            -3.268632823322969
+            -5.451460144224595
           ],
           [
+            1.589481457328359,
             -7.288450718007682,
             -8.899178414189961,
-            -1.2048491100120848,
-            -0.7508149887209804
+            -1.2048491100120848
           ]
         ]
       },
@@ -7538,21 +7384,21 @@
         ],
         "data": [
           [
-            0.5310383363385552,
+            0.4843915965977735,
             0.600314316880897,
             0.6552095221555103,
             0.4321316867368033,
             0.6976812517846871
           ],
           [
-            0.44526728094505497,
+            0.3862309557207839,
             0.44460656972886653,
             0.5214949387188011,
             0.3205522297447878,
             0.6141185818514395
           ],
           [
-            14.01175174439956,
+            10.828415209631556,
             5.933860560276991,
             3.001245260755184,
             2.3458856592178488,
@@ -7566,28 +7412,28 @@
             58.715356458079135
           ],
           [
-            -255140000,
+            -254362000,
             -142165000,
             -111177000,
             -147790000,
             -73052000
           ],
           [
-            449602000,
+            425084000,
             603590000,
             618744000,
             457386000,
             462720000
           ],
           [
-            -269.0148733015057,
+            -193.15218706515822,
             -84.42582100514112,
             0.7776230269266481,
             -1.5860482247460859,
             33.295095865084804
           ],
           [
-            -17.920285245981848,
+            -16.329506839418322,
             -12.175875224374069,
             0.19434525410218959,
             -0.474029415911615,
@@ -7597,24 +7443,5 @@
       }
     }
   },
-  "last_updated": "2026-06-30T12:33:09+00:00",
-  "ownership": {
-    "inst_pct": 0.64485,
-    "insider_pct": 0.03972,
-    "inst_count": 90,
-    "analyst_count": null,
-    "rec_mean": 2.16667,
-    "rec_key": "buy",
-    "target_mean": null,
-    "short_pct_float": 0.07,
-    "shares_short": 1662884,
-    "short_days_to_cover": 5.44,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-06T10:34:31+00:00"
 }

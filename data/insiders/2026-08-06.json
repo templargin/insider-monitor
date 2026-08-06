@@ -1,0 +1,105 @@
+{
+  "url_date": "2026-08-06",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-08-05"
+  ],
+  "generated_at": "2026-08-06T10:33:07+00:00",
+  "tickers": [
+    {
+      "ticker": "GBFH",
+      "name": "GBank Financial Holdings Inc.",
+      "total_value": 1217198.5425,
+      "ev_basic": 218079468.44799805,
+      "mc_basic": 295050468.44799805,
+      "insiders": [
+        {
+          "reporter_name": "NEWGARD JEFFREY K",
+          "relationship": "Officer (President/CEO (GBank))",
+          "total_value": 699025.1025,
+          "shares": 32263.0,
+          "txn_count": 4
+        },
+        {
+          "reporter_name": "Herbst Timothy P",
+          "relationship": "Director",
+          "total_value": 214971.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "NIGRO EDWARD MICHAEL",
+          "relationship": "Director, Officer (CEO and Executive Chairman)",
+          "total_value": 197852.44,
+          "shares": 9200.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Nigro Todd Anthony",
+          "relationship": "Director, Officer (SECRETARY)",
+          "total_value": 105350.0,
+          "shares": 5000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "GTE",
+      "name": "GRAN TIERRA ENERGY INC.",
+      "total_value": 399527.4,
+      "ev_basic": 759075234.9137812,
+      "mc_basic": 333991234.91378117,
+      "insiders": [
+        {
+          "reporter_name": "LM Asset Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 399527.4,
+          "shares": 58000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "HLI",
+      "name": "HOULIHAN LOKEY, INC.",
+      "reason": "share count for HLI predates its balance sheet (2015-03-31 < 2026-06-30)"
+    },
+    {
+      "ticker": "XIIIU",
+      "name": "Churchill Capital Corp XIII",
+      "reason": "no us-gaap balance sheet for XIIIU"
+    },
+    {
+      "ticker": null,
+      "name": "Privacore VPC Asset Backed Credit Fund",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "APMD",
+      "name": "Apnimed, Inc.",
+      "reason": "no us-gaap balance sheet for APMD"
+    },
+    {
+      "ticker": "EVGN",
+      "name": "Evogene Ltd.",
+      "reason": "no us-gaap balance sheet for EVGN"
+    },
+    {
+      "ticker": "NFRX",
+      "name": "2023 ETF Series Trust",
+      "reason": "no us-gaap balance sheet for NFRX"
+    },
+    {
+      "ticker": "TLSA",
+      "name": "Tiziana Life Sciences Ltd",
+      "reason": "no us-gaap balance sheet for TLSA"
+    },
+    {
+      "ticker": null,
+      "name": "83 Investment Group Income Fund",
+      "reason": "no ticker on Form 4"
+    }
+  ]
+}
