@@ -1,0 +1,90 @@
+{
+  "url_date": "2026-08-07",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-08-06"
+  ],
+  "generated_at": "2026-08-07T10:32:35+00:00",
+  "tickers": [
+    {
+      "ticker": "REBN",
+      "name": "Reborn Coffee, Inc.",
+      "total_value": 23649660000.0,
+      "ev_basic": 11239647.974153638,
+      "mc_basic": 11006029.974153638,
+      "insiders": [
+        {
+          "reporter_name": "Lim Jung Jae",
+          "relationship": "Director, Officer (CEO and Interim CFO)",
+          "total_value": 23649660000.0,
+          "shares": 131387.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "THRY",
+      "name": "Thryv Holdings, Inc.",
+      "total_value": 1122376.1099999999,
+      "ev_basic": 343915214.75521755,
+      "mc_basic": 109320214.75521755,
+      "insiders": [
+        {
+          "reporter_name": "PAULSON & CO. INC.",
+          "relationship": "10% Owner",
+          "total_value": 1122376.1099999999,
+          "shares": 399548.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "BBBY",
+      "name": "BED BATH & BEYOND, INC.",
+      "total_value": 202593.94,
+      "ev_basic": 342956705.5,
+      "mc_basic": 428986705.5,
+      "insiders": [
+        {
+          "reporter_name": "LEMONIS MARCUS",
+          "relationship": "Director, Officer (EXECUTIVE CHAIRMAN & CEO)",
+          "total_value": 202593.94,
+          "shares": 43382.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "reason": "no companyfacts for CIK 1059213"
+    },
+    {
+      "ticker": "ATTO",
+      "name": "Attovia Therapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for ATTO"
+    },
+    {
+      "ticker": null,
+      "name": "WILSON BANK HOLDING CO",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "reason": "no us-gaap balance sheet for MXF"
+    },
+    {
+      "ticker": "TLSA",
+      "name": "Tiziana Life Sciences Ltd",
+      "reason": "no us-gaap balance sheet for TLSA"
+    },
+    {
+      "ticker": "SAGT",
+      "name": "SAGTEC GLOBAL Ltd",
+      "reason": "no us-gaap balance sheet for SAGT"
+    }
+  ]
+}
