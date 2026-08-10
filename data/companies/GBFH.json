@@ -4,9 +4,9 @@
   "name": "GBank Financial Holdings Inc.",
   "description": "GBank Financial Holdings Inc. operates as a bank holding company for GBank that provides banking services to commercial and consumer customers in Nevada. The company offers business and personal checking and savings accounts. It also provides small business administration loans; commercial real estate, equipment, business term, and medical/professional loans; business lines of credit; accounts receivable/inventory financing services; and credit cards. In addition, the company offers business and personal digital banking; debit cards; additional services; Zelle cash; business courier; merchant card; positive pay; and remote deposit capture services. It serves small- and medium-sized businesses, high net worth individuals, professionals, and investors. The company was founded in 2007 and is based in Las Vegas, Nevada.",
   "ownership": {
-    "inst_pct": 0.25254,
-    "insider_pct": 0.35886002,
-    "inst_count": 108,
+    "inst_pct": 0.25626,
+    "insider_pct": 0.35983002,
+    "inst_count": 109,
     "analyst_count": 3,
     "rec_mean": 1.33333,
     "rec_key": "strong_buy",
@@ -15,9 +15,23 @@
     "shares_short": 705599,
     "short_days_to_cover": 9.2,
     "short_as_of": "2026-07-15",
-    "as_of": "2026-08-06"
+    "as_of": "2026-08-10"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-07",
+      "reporter_name": "Griege Charles William Jr.",
+      "relationship": "Director",
+      "transaction_date": "2026-08-05",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 21.027,
+      "total_value": 525675.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-340296"
+    },
     {
       "date_filed": "2026-08-05",
       "reporter_name": "Nigro Todd Anthony",
@@ -1546,7 +1560,7 @@
     }
   ],
   "valuation": {
-    "share_price": 20.389999389648438,
+    "share_price": 20.8799991607666,
     "shares_basic": 14470352,
     "shares_basic_as_of": "2026-05-06",
     "options": 278766,
@@ -1559,8 +1573,8 @@
       "concept": null
     },
     "ttm_revenue": 113789000.0,
-    "mc_basic": 295050468.44799805,
-    "ev_basic": 218079468.44799805
+    "mc_basic": 302140937.6159973,
+    "ev_basic": 225169937.6159973
   },
   "financials": {
     "income_statement": {
@@ -2353,5 +2367,5 @@
       }
     }
   },
-  "last_updated": "2026-08-06T12:30:01+00:00"
+  "last_updated": "2026-08-10T10:33:16+00:00"
 }

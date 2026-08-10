@@ -1,0 +1,94 @@
+{
+  "url_date": "2026-08-10",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-09"
+  ],
+  "generated_at": "2026-08-10T10:32:38+00:00",
+  "tickers": [
+    {
+      "ticker": "CCB",
+      "name": "COASTAL FINANCIAL CORP",
+      "total_value": 1102750.0,
+      "ev_basic": -219132931.4874916,
+      "mc_basic": 693082068.5125084,
+      "insiders": [
+        {
+          "reporter_name": "HOVDE STEVEN D",
+          "relationship": "Director, 10% Owner",
+          "total_value": 658250.0,
+          "shares": 15000.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Sprink Eric M",
+          "relationship": "Director, Officer (CEO)",
+          "total_value": 444500.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ONMD",
+      "name": "OneMedNet Corp",
+      "total_value": 999999.7499999999,
+      "ev_basic": 33963879.375,
+      "mc_basic": 34020879.375,
+      "insiders": [
+        {
+          "reporter_name": "Kosasa Thomas",
+          "relationship": "Director, 10% Owner",
+          "total_value": 999999.7499999999,
+          "shares": 1449275.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "GBFH",
+      "name": "GBank Financial Holdings Inc.",
+      "total_value": 525675.0,
+      "ev_basic": 225169937.6159973,
+      "mc_basic": 302140937.6159973,
+      "insiders": [
+        {
+          "reporter_name": "Griege Charles William Jr.",
+          "relationship": "Director",
+          "total_value": 525675.0,
+          "shares": 25000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "ATTO",
+      "name": "Attovia Therapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for ATTO"
+    },
+    {
+      "ticker": "BRVE",
+      "name": "Braveheart Bio, Inc.",
+      "reason": "no us-gaap balance sheet for BRVE"
+    },
+    {
+      "ticker": "ABTC",
+      "name": "American Bitcoin Corp.",
+      "reason": "share count for ABTC predates its balance sheet (2025-08-14 < 2026-06-30)"
+    },
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "no basic share count for DGICA"
+    },
+    {
+      "ticker": "SCISX",
+      "name": "MA Specialty Credit Income Fund",
+      "reason": "no companyfacts for CIK 2015849"
+    }
+  ]
+}
