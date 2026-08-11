@@ -1,0 +1,148 @@
+{
+  "url_date": "2026-08-11",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-08-10"
+  ],
+  "generated_at": "2026-08-11T10:32:28+00:00",
+  "tickers": [
+    {
+      "ticker": "NATR",
+      "name": "NATURES SUNSHINE PRODUCTS INC",
+      "total_value": 2318911.95,
+      "ev_basic": 194978358.45458984,
+      "mc_basic": 277481358.45458984,
+      "insiders": [
+        {
+          "reporter_name": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
+          "relationship": "10% Owner",
+          "total_value": 2318911.95,
+          "shares": 141389.0,
+          "txn_count": 13
+        }
+      ]
+    },
+    {
+      "ticker": "BWFG",
+      "name": "Bankwell Financial Group, Inc.",
+      "total_value": 666254.14,
+      "ev_basic": 429190903.3571167,
+      "mc_basic": 532766903.3571167,
+      "insiders": [
+        {
+          "reporter_name": "SEIDMAN LAWRENCE B",
+          "relationship": "Director",
+          "total_value": 666254.14,
+          "shares": 10000.0,
+          "txn_count": 6
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 323220.0,
+      "ev_basic": 180000197.00494957,
+      "mc_basic": 468193197.00494957,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 323220.0,
+          "shares": 37500.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "CWBC",
+      "name": "Community West Bancshares",
+      "total_value": 118677.59999999999,
+      "ev_basic": 719017831.8503151,
+      "mc_basic": 675563831.8503151,
+      "insiders": [
+        {
+          "reporter_name": "GILL JAGROOP",
+          "relationship": "Director",
+          "total_value": 118677.59999999999,
+          "shares": 4770.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "RRBI",
+      "name": "RED RIVER BANCSHARES INC",
+      "total_value": 111798.21,
+      "ev_basic": 467491794.0893097,
+      "mc_basic": 662887794.0893097,
+      "insiders": [
+        {
+          "reporter_name": "Price Teddy Ray",
+          "relationship": "Director",
+          "total_value": 111798.21,
+          "shares": 1119.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "total_value": 100174.86000000002,
+      "ev_basic": 897671351.25,
+      "mc_basic": 2208671351.25,
+      "insiders": [
+        {
+          "reporter_name": "Yeboah-Amankwah Safroadu",
+          "relationship": "Director",
+          "total_value": 100174.86000000002,
+          "shares": 11841.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "reason": "no companyfacts for CIK 1059213"
+    },
+    {
+      "ticker": "GLXY",
+      "name": "Galaxy Digital Inc.",
+      "reason": "share count for GLXY predates its balance sheet (2025-03-31 < 2026-06-30)"
+    },
+    {
+      "ticker": "LTGO",
+      "name": "Latigo Biotherapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for LTGO"
+    },
+    {
+      "ticker": "BLSM",
+      "name": "BlossomHill Therapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for BLSM"
+    },
+    {
+      "ticker": "ATTO",
+      "name": "Attovia Therapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for ATTO"
+    },
+    {
+      "ticker": "VEON",
+      "name": "VEON Ltd.",
+      "reason": "no us-gaap balance sheet for VEON"
+    },
+    {
+      "ticker": "PDX",
+      "name": "PIMCO Dynamic Income Strategy Fund",
+      "reason": "no companyfacts for CIK 1756908"
+    },
+    {
+      "ticker": "BWMX",
+      "name": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "reason": "no us-gaap balance sheet for BWMX"
+    }
+  ]
+}
