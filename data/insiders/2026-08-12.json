@@ -1,0 +1,218 @@
+{
+  "url_date": "2026-08-12",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-08-11"
+  ],
+  "generated_at": "2026-08-12T11:23:16+00:00",
+  "tickers": [
+    {
+      "ticker": "TXO",
+      "name": "TXO Partners, L.P.",
+      "total_value": 3487630.0,
+      "ev_basic": 959386862.2446623,
+      "mc_basic": 796764862.2446623,
+      "insiders": [
+        {
+          "reporter_name": "SIMPSON BOB R",
+          "relationship": "Director, 10% Owner",
+          "total_value": 3487630.0,
+          "shares": 250000.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "LITB",
+      "name": "LightInTheBox Holding Co., Ltd.",
+      "total_value": 1092143.7551,
+      "ev_basic": 639129173.5996134,
+      "mc_basic": 662043173.5996134,
+      "insiders": [
+        {
+          "reporter_name": "He Jian",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 1092143.7551,
+          "shares": 4254553.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SUNS",
+      "name": "Sunrise Realty Trust, Inc.",
+      "total_value": 373382.57,
+      "ev_basic": 95640145.89646721,
+      "mc_basic": 101233720.89646721,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 373382.57,
+          "shares": 48109.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "HPP",
+      "name": "Hudson Pacific Properties, Inc.",
+      "total_value": 335000.0,
+      "ev_basic": 586123041.0916901,
+      "mc_basic": 724131041.0916901,
+      "insiders": [
+        {
+          "reporter_name": "BORTZ JON E",
+          "relationship": "Director",
+          "total_value": 335000.0,
+          "shares": 25000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SMRT",
+      "name": "SmartRent, Inc.",
+      "total_value": 294884.8,
+      "ev_basic": 177510630.1942662,
+      "mc_basic": 270172630.1942662,
+      "insiders": [
+        {
+          "reporter_name": "Pinczuk Ana G.",
+          "relationship": "Director",
+          "total_value": 152624.8,
+          "shares": 107000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Martell Frank",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 142260.0,
+          "shares": 100000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BCML",
+      "name": "BayCom Corp",
+      "total_value": 250717.5,
+      "ev_basic": 194759656.25,
+      "mc_basic": 341253656.25,
+      "insiders": [
+        {
+          "reporter_name": "Baron Christopher F",
+          "relationship": "Director, Officer (President and CEO)",
+          "total_value": 250717.5,
+          "shares": 8250.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "CIA",
+      "name": "CITIZENS, INC.",
+      "total_value": 199630.0,
+      "ev_basic": 171432363.20891094,
+      "mc_basic": 188392363.20891094,
+      "insiders": [
+        {
+          "reporter_name": "Stenberg Jon",
+          "relationship": "Director, Officer (President & CEO)",
+          "total_value": 199630.0,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "CAPS",
+      "name": "Capstone Holding Corp.",
+      "total_value": 166000.0,
+      "ev_basic": 17195289.50969249,
+      "mc_basic": 4040289.50969249,
+      "insiders": [
+        {
+          "reporter_name": "Strout Gordon Lewis Jr",
+          "relationship": "Director",
+          "total_value": 166000.0,
+          "shares": 41500.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "FRPH",
+      "name": "FRP HOLDINGS, INC.",
+      "total_value": 148988.0,
+      "ev_basic": 538309434.2318554,
+      "mc_basic": 424666434.2318554,
+      "insiders": [
+        {
+          "reporter_name": "Baker John D. III",
+          "relationship": "Director, Officer (CEO)",
+          "total_value": 148988.0,
+          "shares": 6800.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "BRVE",
+      "name": "Braveheart Bio, Inc.",
+      "reason": "no us-gaap balance sheet for BRVE"
+    },
+    {
+      "ticker": "PLNT",
+      "name": "Planet Fitness, Inc.",
+      "reason": "share count for PLNT predates its balance sheet (2015-06-30 < 2026-06-30)"
+    },
+    {
+      "ticker": "GLRE",
+      "name": "GREENLIGHT CAPITAL RE, LTD.",
+      "reason": "cannot confirm EV < $1,000M for GLRE: EV=$435.8M with $1,115.3M of unexplained_liabilities (up to $1,551.1M)"
+    },
+    {
+      "ticker": "AXIA3",
+      "name": "AXIA Energia S.A.",
+      "reason": "no us-gaap balance sheet for AXIA3"
+    },
+    {
+      "ticker": null,
+      "name": "West Bay BDC LLC",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": null,
+      "name": "Neuberger Asset-Based Credit Fund",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "AMRC",
+      "name": "Ameresco, Inc.",
+      "reason": "no basic share count for AMRC"
+    },
+    {
+      "ticker": null,
+      "name": "Crescent Private Credit Income Corp",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "STRZ",
+      "name": "STARZ ENTERTAINMENT CORP /CN/",
+      "reason": "cannot confirm EV < $1,000M for STRZ: EV=$950.6M with $270.5M of unexplained_liabilities (up to $1,221.1M)"
+    },
+    {
+      "ticker": "LILA",
+      "name": "Liberty Latin America Ltd.",
+      "reason": "no basic share count for LILA"
+    },
+    {
+      "ticker": null,
+      "name": "Privacore VPC Asset Backed Credit Fund",
+      "reason": "no ticker on Form 4"
+    }
+  ]
+}

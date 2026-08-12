@@ -1,0 +1,4433 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CIA · CITIZENS, INC.</title>
+  <link rel="stylesheet" href="../../static/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="../../" class="brand">insider-monitor</a>
+    <nav>
+      <a href="../../insiders/">Daily</a>
+      <a href="../../companies/">Companies</a>
+      <a href="../../about/">About</a>
+    </nav>
+  </header>
+  <main>
+    
+<p><a class="back-link" href="#" onclick="if(document.referrer&&document.referrer.includes(location.host)){history.back();return false}else{location.href='../../insiders/';return false}">← Back to daily list</a></p>
+<h1>CIA <span class="subtle">· CITIZENS, INC.</span></h1>
+
+
+
+
+<p class="company-desc">Citizens, Inc., is a diversified financial services company providing life, living benefits and final expense insurance and other financial products to individuals and small businesses in the U.S., Latin America, and Asia. The company operates in two segments, Life Insurance and Home Service Insurance. The Life Insurance segment sells U.S. dollar-denominated whole life insurance, endowment, and critical illness policies to non-U.S. residents through independent marketing agencies and consultants. The Home Service Insurance segment offers final expense life insurance and critical illness products to middle- and lower-income households in Louisiana, Mississippi and Arkansas. This segment provides its products and services through funeral homes and independent agents. It also provides accident and health insurance policies. Citizens, Inc. was founded in 1969 and is headquartered in Austin, Texas.</p>
+
+
+<section class="valuation">
+  <h2>Cap structure and valuation</h2>
+  <div class="valuation-row">
+    <table class="valuation-table multiples-table" data-ticker="CIA">
+      <thead><tr><th colspan="2">Cap structure</th></tr></thead>
+      <tbody>
+        <tr><th>SP</th><td class="num" id="live-sp" data-baked="3.72">$3.72</td></tr>
+        <tr><th>SO</th><td class="num">50.6M</td></tr>
+        <tr><th>Options</th><td class="num">—</td></tr>
+        <tr><th>Warrants</th><td class="num">0.2M</td></tr>
+        <tr><th>FD SO</th><td class="num">50.8M</td></tr>
+        <tr><th>MC</th><td class="num" id="live-mc" data-fdso="50803105">$189.0M</td></tr>
+        <tr class="spacer"><th></th><td></td></tr>
+        <tr><th>Cash</th><td class="num">$17.0M</td></tr>
+        <tr><th>Total debt</th><td class="num">—</td></tr>
+        <tr><th>EV</th><td class="num" id="live-ev" data-cash="16960000" data-debt="None">$172.0M</td></tr>
+      </tbody>
+    </table>
+
+    <table class="multiples-table">
+      <thead><tr><th colspan="2">TTM Multiples</th></tr></thead>
+      <tbody>
+        <tr><th>EV / Revenue</th><td class="num">0.7x</td></tr>
+        <tr><th>EV / EBITDA</th><td class="num">—</td></tr>
+        <tr><th>MC / Net Income</th><td class="num">16.3x</td></tr>
+        <tr><th>EV / FCF</th><td class="num">11.5x</td></tr>
+        <tr><th>MC / FCF</th><td class="num">12.6x</td></tr>
+      </tbody>
+    </table>
+
+    
+    <table class="multiples-table">
+      <thead><tr><th colspan="2">Ownership &amp; coverage</th></tr></thead>
+      <tbody>
+        <tr><th>Institutional</th><td class="num">29.0%</td></tr>
+        <tr><th>Insiders</th><td class="num">11.4%</td></tr>
+        <tr><th># Institutions</th><td class="num">108</td></tr>
+        <tr><th>Analysts</th><td class="num">1</td></tr>
+        <tr><th>Consensus</th><td class="num">Strong Buy</td></tr>
+        <tr><th>Avg target</th><td class="num">$5.00</td></tr>
+        <tr class="spacer"><th></th><td></td></tr>
+        <tr><th>Short % float</th><td class="num">8.3%</td></tr>
+        <tr><th>Days to cover</th><td class="num">37.99</td></tr>
+      </tbody>
+    </table>
+    
+  </div>
+  <p class="subtle">
+    MC = SP × FD SO. EV = MC + Debt − Cash. SP = previous yfinance close.
+    Balance-sheet figures as of 2026-07-31.
+    Multiples use TTM (sum of last 4 quarters); shown as "—" when the denominator is zero or negative,
+    or when fewer than four quarters are reported — a partial sum is not a trailing twelve months.
+    Ownership &amp; coverage per Yahoo Finance as of 2026-08-12 —
+    institutional % is 13F-based, so it can lag a quarter and exceed 100% on share-count timing.
+    Short interest per FINRA bi-monthly reporting, as of 2026-07-31;
+    the float denominator can be unreliable on tiny floats.
+  </p>
+  
+    <p class="warn">This filer tags no option count,
+    so FD SO counts it as zero and understates dilution — treat FD SO, MC and EV as a floor.
+    (XBRL reports nothing both for a filer that has none and for one that simply doesn't tag them.)</p>
+  
+  
+</section>
+
+<section class="financials">
+  <h2>Financial statements</h2>
+  <div class="tabs-row">
+    <div class="tabs">
+      <button class="tab active" data-tab="income_statement">Income Statement</button>
+      <button class="tab" data-tab="balance_sheet">Balance Sheet</button>
+      <button class="tab" data-tab="cash_flow">Cash Flow</button>
+      <button class="tab" data-tab="ratios">Ratios</button>
+    </div>
+    <div class="tab-controls">
+      <button class="freq" data-freq="quarterly">Quarterly</button>
+      <button class="freq active" data-freq="annual">Annual</button>
+    </div>
+  </div>
+
+  
+  <div class="tab-panel" data-tab="income_statement">
+    
+    
+      
+      <div class="freq-panel" data-freq="quarterly" hidden>
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">6/30/26</th><th class="num">3/31/26</th><th class="num">12/31/25</th><th class="num">9/30/25</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Revenue</th>
+                <td class="num">60.41</td><td class="num">59.72</td><td class="num">72.07</td><td class="num">62.81</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Revenue YoY %</th>
+                <td class="num">(7.2%)</td><td class="num">7.3%</td><td class="num">13.5%</td><td class="num">1.7%</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Gross Profit</th>
+                <td class="num">9.95</td><td class="num">0.28</td><td class="num">9.45</td><td class="num">(0.97)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Gross Profit YoY %</th>
+                <td class="num">214.1%</td><td class="num">194.7%</td><td class="num">30.6%</td><td class="num">(115.2%)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Gross Margin %</th>
+                <td class="num">16.5%</td><td class="num">0.5%</td><td class="num">13.1%</td><td class="num">(1.5%)</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Pretax Income</th>
+                <td class="num">(0.53)</td><td class="num">2.37</td><td class="num">7.86</td><td class="num">4.48</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Tax Provision</th>
+                <td class="num">(0.10)</td><td class="num">0.11</td><td class="num">0.53</td><td class="num">2.06</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Net Income</th>
+                <td class="num">(0.42)</td><td class="num">2.27</td><td class="num">7.34</td><td class="num">2.42</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Net Margin %</th>
+                <td class="num">(0.7%)</td><td class="num">3.8%</td><td class="num">10.2%</td><td class="num">3.8%</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+      
+      <div class="freq-panel" data-freq="annual">
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">LTM</th><th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Revenue</th>
+                <td class="num">255.01</td><td class="num">255.62</td><td class="num">245.00</td><td class="num">240.68</td><td class="num">232.52</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Revenue YoY %</th>
+                <td class="num">(0.2%)</td><td class="num">4.3%</td><td class="num">1.8%</td><td class="num">3.5%</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Gross Profit</th>
+                <td class="num">18.72</td><td class="num">11.35</td><td class="num">27.25</td><td class="num">31.05</td><td class="num">53.78</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Gross Profit YoY %</th>
+                <td class="num">65.0%</td><td class="num">(58.4%)</td><td class="num">(12.2%)</td><td class="num">(42.3%)</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Gross Margin %</th>
+                <td class="num">7.3%</td><td class="num">4.4%</td><td class="num">11.1%</td><td class="num">12.9%</td><td class="num">23.1%</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Pretax Income</th>
+                <td class="num">14.19</td><td class="num">17.47</td><td class="num">14.98</td><td class="num">26.17</td><td class="num">27.38</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Tax Provision</th>
+                <td class="num">2.59</td><td class="num">2.88</td><td class="num">0.07</td><td class="num">1.74</td><td class="num">1.37</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Net Income</th>
+                <td class="num">11.60</td><td class="num">14.59</td><td class="num">14.91</td><td class="num">24.44</td><td class="num">26.01</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Net Margin %</th>
+                <td class="num">4.5%</td><td class="num">5.7%</td><td class="num">6.1%</td><td class="num">10.2%</td><td class="num">11.2%</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Diluted Avg Shares</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">50.7</td><td class="num">50.9</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>Basic Avg Shares</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">49.7</td><td class="num">50.1</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+  </div>
+  
+  <div class="tab-panel" data-tab="balance_sheet" hidden>
+    
+    
+      
+      <div class="freq-panel" data-freq="quarterly" hidden>
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">6/30/26</th><th class="num">3/31/26</th><th class="num">12/31/25</th><th class="num">9/30/25</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Cash &amp; Equivalents</th>
+                <td class="num">16.96</td><td class="num">18.52</td><td class="num">22.98</td><td class="num">23.12</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Net PPE</th>
+                <td class="num">9.17</td><td class="num">9.67</td><td class="num">9.84</td><td class="num">9.58</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Assets</th>
+                <td class="num">1,725.93</td><td class="num">1,711.31</td><td class="num">1,721.95</td><td class="num">1,709.66</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Assets</th>
+                <td class="num">1,752.06</td><td class="num">1,739.50</td><td class="num">1,754.76</td><td class="num">1,742.37</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Liabilities</th>
+                <td class="num">1,516.90</td><td class="num">1,500.83</td><td class="num">1,519.78</td><td class="num">1,516.76</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Liabilities</th>
+                <td class="num">1,516.90</td><td class="num">1,500.83</td><td class="num">1,519.78</td><td class="num">1,516.76</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Retained Earnings</th>
+                <td class="num">73.50</td><td class="num">73.92</td><td class="num">71.65</td><td class="num">64.31</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Equity</th>
+                <td class="num">235.16</td><td class="num">238.67</td><td class="num">234.99</td><td class="num">225.60</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+      
+      <div class="freq-panel" data-freq="annual">
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">LTM</th><th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Cash &amp; Equivalents</th>
+                <td class="num">16.96</td><td class="num">22.98</td><td class="num">29.27</td><td class="num">27.00</td><td class="num">22.97</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Short-term Investments</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">1.24</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Net PPE</th>
+                <td class="num">9.17</td><td class="num">9.84</td><td class="num">10.57</td><td class="num">11.81</td><td class="num">12.93</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Long-term Investments</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">1,179.62</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Assets</th>
+                <td class="num">1,725.93</td><td class="num">1,721.95</td><td class="num">1,645.48</td><td class="num">1,630.12</td><td class="num">373.94</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Assets</th>
+                <td class="num">1,752.06</td><td class="num">1,754.76</td><td class="num">1,685.33</td><td class="num">1,668.93</td><td class="num">1,590.70</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Liabilities</th>
+                <td class="num">1,516.90</td><td class="num">1,519.78</td><td class="num">1,474.97</td><td class="num">1,496.80</td><td class="num">1,462.91</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Liabilities</th>
+                <td class="num">1,516.90</td><td class="num">1,519.78</td><td class="num">1,474.97</td><td class="num">1,496.80</td><td class="num">1,462.91</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Retained Earnings</th>
+                <td class="num">73.50</td><td class="num">71.65</td><td class="num">57.06</td><td class="num">42.15</td><td class="num">16.31</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Total Equity</th>
+                <td class="num">235.16</td><td class="num">234.99</td><td class="num">210.35</td><td class="num">172.13</td><td class="num">127.79</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+  </div>
+  
+  <div class="tab-panel" data-tab="cash_flow" hidden>
+    
+    
+      
+      <div class="freq-panel" data-freq="quarterly" hidden>
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">6/30/26</th><th class="num">3/31/26</th><th class="num">12/31/25</th><th class="num">9/30/25</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Net Income</th>
+                <td class="num">(0.42)</td><td class="num">2.27</td><td class="num">7.34</td><td class="num">2.42</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>D&amp;A</th>
+                <td class="num">0.18</td><td class="num">0.17</td><td class="num">0.21</td><td class="num">0.19</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Δ Working Cap &amp; Other</th>
+                <td class="num">2.29</td><td class="num">(2.76)</td><td class="num">1.55</td><td class="num">2.06</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Operating Cash Flow</th>
+                <td class="num">2.05</td><td class="num">(0.32)</td><td class="num">9.10</td><td class="num">4.67</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>CapEx</th>
+                <td class="num">(0.04)</td><td class="num">(0.33)</td><td class="num">(0.10)</td><td class="num">(0.06)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Investing</th>
+                <td class="num">(2.97)</td><td class="num">(3.10)</td><td class="num">(8.40)</td><td class="num">(4.47)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Investing Cash Flow</th>
+                <td class="num">(3.00)</td><td class="num">(3.43)</td><td class="num">(8.51)</td><td class="num">(4.53)</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Financing</th>
+                <td class="num">(0.60)</td><td class="num">(0.70)</td><td class="num">(0.73)</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Financing Cash Flow</th>
+                <td class="num">(0.60)</td><td class="num">(0.70)</td><td class="num">(0.73)</td><td class="num">0.31</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Free Cash Flow</th>
+                <td class="num">2.01</td><td class="num">(0.65)</td><td class="num">8.99</td><td class="num">4.61</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+      
+      <div class="freq-panel" data-freq="annual">
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">LTM</th><th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Net Income</th>
+                <td class="num">11.60</td><td class="num">14.59</td><td class="num">14.91</td><td class="num">24.44</td><td class="num">26.01</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>D&amp;A</th>
+                <td class="num">0.75</td><td class="num">0.74</td><td class="num">0.62</td><td class="num">0.52</td><td class="num">0.54</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Stock-Based Comp</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">0.90</td><td class="num">0.60</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Δ Working Cap &amp; Other</th>
+                <td class="num">3.15</td><td class="num">2.65</td><td class="num">16.39</td><td class="num">(3.80)</td><td class="num">29.78</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Operating Cash Flow</th>
+                <td class="num">15.49</td><td class="num">17.99</td><td class="num">31.92</td><td class="num">22.06</td><td class="num">56.92</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>CapEx</th>
+                <td class="num">(0.53)</td><td class="num">(0.45)</td><td class="num">(0.66)</td><td class="num">(0.44)</td><td class="num">(0.10)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Investing</th>
+                <td class="num">(18.94)</td><td class="num">(19.23)</td><td class="num">(26.51)</td><td class="num">(14.05)</td><td class="num">(60.64)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Investing Cash Flow</th>
+                <td class="num">(19.47)</td><td class="num">(19.67)</td><td class="num">(27.17)</td><td class="num">(14.50)</td><td class="num">(60.74)</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Stock Issuance</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">0.00</td><td class="num">2.24</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Other Financing</th>
+                <td class="num">(1.73)</td><td class="num">(4.61)</td><td class="num">(2.47)</td><td class="num">(3.54)</td><td class="num">(2.74)</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Financing Cash Flow</th>
+                <td class="num">(1.73)</td><td class="num">(4.61)</td><td class="num">(2.47)</td><td class="num">(3.54)</td><td class="num">(0.50)</td>
+              </tr>
+              
+            
+              
+              
+              <tr class="spacer"><th></th><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="subtotal">
+                <th>Free Cash Flow</th>
+                <td class="num">14.97</td><td class="num">17.54</td><td class="num">31.25</td><td class="num">21.61</td><td class="num">56.82</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+  </div>
+  
+  <div class="tab-panel" data-tab="ratios" hidden>
+    
+    
+      
+      <div class="freq-panel" data-freq="quarterly" hidden>
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">6/30/26</th><th class="num">3/31/26</th><th class="num">12/31/25</th><th class="num">9/30/25</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Current Ratio</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Quick Ratio</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Debt / Equity</th>
+                <td class="num">6.45</td><td class="num">6.29</td><td class="num">6.47</td><td class="num">6.72</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>EBITDA Margin %</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Working Capital</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Net Debt</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>ROE %</th>
+                <td class="num">(0.2%)</td><td class="num">1.0%</td><td class="num">3.1%</td><td class="num">1.1%</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>ROA %</th>
+                <td class="num">(0.0%)</td><td class="num">0.1%</td><td class="num">0.4%</td><td class="num">0.1%</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+      
+      <div class="freq-panel" data-freq="annual">
+        
+        <div class="table-scroll">
+        <table class="fin-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="num">LTM</th><th class="num">12/31/25</th><th class="num">12/31/24</th><th class="num">12/31/23</th><th class="num">12/31/22</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Current Ratio</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Quick Ratio</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Debt / Equity</th>
+                <td class="num">6.45</td><td class="num">6.47</td><td class="num">7.01</td><td class="num">8.70</td><td class="num">11.45</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+                  
+                
+              <tr class="sub">
+                <th>EBITDA Margin %</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Working Capital</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>Net Debt</th>
+                <td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>ROE %</th>
+                <td class="num">4.9%</td><td class="num">6.2%</td><td class="num">7.1%</td><td class="num">14.2%</td><td class="num">20.4%</td>
+              </tr>
+              
+            
+              
+              
+                
+                
+              <tr class="">
+                <th>ROA %</th>
+                <td class="num">0.7%</td><td class="num">0.8%</td><td class="num">0.9%</td><td class="num">1.5%</td><td class="num">1.6%</td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+        </div>
+        
+      </div>
+    
+  </div>
+  
+</section>
+
+<section class="insiders">
+  <h2>Insider activity (last 2 years)</h2>
+  
+  <div class="table-scroll">
+  <table class="insiders-table">
+    <thead>
+      <tr>
+        <th>Date Filed</th>
+        <th>Reporter</th>
+        <th>Relationship</th>
+        <th>Trans. Date</th>
+        <th>Code</th>
+        <th class="num">Shares</th>
+        <th class="num">Price</th>
+        <th class="num">Total Value</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2026-08-11</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-08-10</td>
+        <td>P</td>
+        <td class="num">50,000</td>
+        <td class="num">$3.99</td>
+        <td class="num">$199,630</td>
+      </tr>
+    
+      <tr class="txn-j table-nonDerivative">
+        <td>2026-07-16</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-07-14</td>
+        <td>J</td>
+        <td class="num">(10,697)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-06-22</td>
+        <td>MCLAUGHLIN SEAN SAMUEL</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>A</td>
+        <td class="num">7,042</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-06-22</td>
+        <td>HARWOOD MICHAEL PHILIP</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>A</td>
+        <td class="num">7,042</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">(12,012)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>A</td>
+        <td class="num">7,042</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-06-22</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">(12,012)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-06-22</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>A</td>
+        <td class="num">7,042</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>Carlson Peter M</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-06-22</td>
+        <td>Carlson Peter M</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">(12,012)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-06-22</td>
+        <td>Carlson Peter M</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>A</td>
+        <td class="num">7,042</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>Claus Christopher W</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-06-22</td>
+        <td>Claus Christopher W</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>M</td>
+        <td class="num">(12,012)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-06-22</td>
+        <td>Claus Christopher W</td>
+        <td>Director</td>
+        <td>2026-06-17</td>
+        <td>A</td>
+        <td class="num">7,042</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>HARWOOD MICHAEL PHILIP</td>
+        <td>Director</td>
+        <td>2026-05-29</td>
+        <td>L</td>
+        <td class="num">190</td>
+        <td class="num">$5.23</td>
+        <td class="num">$994</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-05-29</td>
+        <td>L</td>
+        <td class="num">95</td>
+        <td class="num">$5.23</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-05-29</td>
+        <td>L</td>
+        <td class="num">57</td>
+        <td class="num">$5.23</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>HARWOOD MICHAEL PHILIP</td>
+        <td>Director</td>
+        <td>2026-05-05</td>
+        <td>L</td>
+        <td class="num">181</td>
+        <td class="num">$5.48</td>
+        <td class="num">$994</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-05-05</td>
+        <td>L</td>
+        <td class="num">90</td>
+        <td class="num">$5.48</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-05-05</td>
+        <td>L</td>
+        <td class="num">54</td>
+        <td class="num">$5.48</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>HARWOOD MICHAEL PHILIP</td>
+        <td>Director</td>
+        <td>2026-04-07</td>
+        <td>L</td>
+        <td class="num">91</td>
+        <td class="num">$5.42</td>
+        <td class="num">$498</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-04-07</td>
+        <td>L</td>
+        <td class="num">91</td>
+        <td class="num">$5.42</td>
+        <td class="num">$498</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-02-27</td>
+        <td>L</td>
+        <td class="num">88</td>
+        <td class="num">$5.60</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-22</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2026-01-30</td>
+        <td>L</td>
+        <td class="num">88</td>
+        <td class="num">$5.61</td>
+        <td class="num">$498</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-04</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2026-05-29</td>
+        <td>L</td>
+        <td class="num">380</td>
+        <td class="num">$5.23</td>
+        <td class="num">$1,988</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-04</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2026-05-05</td>
+        <td>L</td>
+        <td class="num">362</td>
+        <td class="num">$5.48</td>
+        <td class="num">$1,988</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-04</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2026-04-07</td>
+        <td>L</td>
+        <td class="num">367</td>
+        <td class="num">$5.42</td>
+        <td class="num">$1,990</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-04</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2026-02-27</td>
+        <td>L</td>
+        <td class="num">355</td>
+        <td class="num">$5.60</td>
+        <td class="num">$1,988</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-06-04</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2026-01-30</td>
+        <td>L</td>
+        <td class="num">354</td>
+        <td class="num">$5.61</td>
+        <td class="num">$1,990</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2026-05-26</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-05-21</td>
+        <td>P</td>
+        <td class="num">10,000</td>
+        <td class="num">$4.82</td>
+        <td class="num">$48,192</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-04-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-04-07</td>
+        <td>L</td>
+        <td class="num">55</td>
+        <td class="num">$5.42</td>
+        <td class="num">$299</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2026-04-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-03-25</td>
+        <td>P</td>
+        <td class="num">100</td>
+        <td class="num">$4.53</td>
+        <td class="num">$453</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-04-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-02-27</td>
+        <td>L</td>
+        <td class="num">53</td>
+        <td class="num">$5.60</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-04-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2026-01-30</td>
+        <td>L</td>
+        <td class="num">53</td>
+        <td class="num">$5.61</td>
+        <td class="num">$299</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">13,186</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(3,211)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$16,151</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(13,186)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">42,942</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">5,860</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(1,427)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$7,178</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">9,668</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(2,355)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$11,846</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(5,860)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(9,668)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">15,904</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">2,197</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(516)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$2,595</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(2,197)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">5,964</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Hoxworth Seth Alan</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">4,572</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Hoxworth Seth Alan</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">5,964</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">5,128</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(1,249)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$6,282</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">8,536</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(2,079)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$10,457</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(5,128)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(8,536)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">13,916</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">2,197</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(767)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$3,858</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">1,923</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>F</td>
+        <td class="num">(672)</td>
+        <td class="num">$5.03</td>
+        <td class="num">-$3,380</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(2,197)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>M</td>
+        <td class="num">(1,923)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2026-04-02</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-31</td>
+        <td>A</td>
+        <td class="num">5,964</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-30</td>
+        <td>P</td>
+        <td class="num">50,000</td>
+        <td class="num">$4.70</td>
+        <td class="num">$235,000</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">3,034</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(1,066)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$4,882</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(3,034)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">2,587</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(764)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$3,499</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">4,673</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(1,379)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$6,316</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(2,587)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(4,673)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">12,489</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(3,042)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$13,932</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">12,461</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(3,035)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$13,900</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(12,489)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(12,461)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">15,172</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(3,695)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$16,923</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">10,903</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(2,655)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$12,160</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(15,172)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(10,903)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">20,310</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-28</td>
+        <td>F</td>
+        <td class="num">(4,946)</td>
+        <td class="num">$4.58</td>
+        <td class="num">-$22,653</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-31</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-28</td>
+        <td>M</td>
+        <td class="num">(20,310)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-02-27</td>
+        <td>L</td>
+        <td class="num">177</td>
+        <td class="num">$5.60</td>
+        <td class="num">$994</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-03-31</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2026-01-30</td>
+        <td>L</td>
+        <td class="num">177</td>
+        <td class="num">$5.61</td>
+        <td class="num">$995</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2026-03-20</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-18</td>
+        <td>M</td>
+        <td class="num">45,249</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2026-03-20</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-18</td>
+        <td>F</td>
+        <td class="num">(11,944)</td>
+        <td class="num">$4.63</td>
+        <td class="num">-$55,301</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2026-03-20</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-18</td>
+        <td>M</td>
+        <td class="num">(45,249)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2026-03-19</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2026-03-17</td>
+        <td>P</td>
+        <td class="num">10,000</td>
+        <td class="num">$4.81</td>
+        <td class="num">$48,075</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-01-05</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-12-26</td>
+        <td>L</td>
+        <td class="num">478</td>
+        <td class="num">$5.19</td>
+        <td class="num">$2,486</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2026-01-05</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-11-28</td>
+        <td>L</td>
+        <td class="num">418</td>
+        <td class="num">$5.94</td>
+        <td class="num">$2,488</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-10-31</td>
+        <td>L</td>
+        <td class="num">355</td>
+        <td class="num">$5.60</td>
+        <td class="num">$1,990</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-10-30</td>
+        <td>L</td>
+        <td class="num">444</td>
+        <td class="num">$5.60</td>
+        <td class="num">$2,487</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-09-26</td>
+        <td>L</td>
+        <td class="num">348</td>
+        <td class="num">$5.71</td>
+        <td class="num">$1,990</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-09-26</td>
+        <td>L</td>
+        <td class="num">435</td>
+        <td class="num">$5.71</td>
+        <td class="num">$2,487</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-09-02</td>
+        <td>L</td>
+        <td class="num">382</td>
+        <td class="num">$5.20</td>
+        <td class="num">$1,990</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-09-02</td>
+        <td>L</td>
+        <td class="num">478</td>
+        <td class="num">$5.20</td>
+        <td class="num">$2,487</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-08-01</td>
+        <td>L</td>
+        <td class="num">491</td>
+        <td class="num">$4.04</td>
+        <td class="num">$1,987</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-08-01</td>
+        <td>L</td>
+        <td class="num">614</td>
+        <td class="num">$4.04</td>
+        <td class="num">$2,484</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-11-17</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-06-27</td>
+        <td>L</td>
+        <td class="num">540</td>
+        <td class="num">$3.67</td>
+        <td class="num">$1,985</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-08-15</td>
+        <td>M</td>
+        <td class="num">2,625</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-08-15</td>
+        <td>F</td>
+        <td class="num">(640)</td>
+        <td class="num">$5.10</td>
+        <td class="num">-$3,264</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-08-15</td>
+        <td>M</td>
+        <td class="num">(2,625)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-08-19</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-08-15</td>
+        <td>M</td>
+        <td class="num">2,708</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-08-19</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-08-15</td>
+        <td>F</td>
+        <td class="num">(660)</td>
+        <td class="num">$5.10</td>
+        <td class="num">-$3,366</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-08-19</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-08-15</td>
+        <td>M</td>
+        <td class="num">(2,708)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-08-19</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-08-01</td>
+        <td>L</td>
+        <td class="num">245</td>
+        <td class="num">$4.04</td>
+        <td class="num">$994</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-07-15</td>
+        <td>M</td>
+        <td class="num">1,278</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-07-15</td>
+        <td>F</td>
+        <td class="num">(312)</td>
+        <td class="num">$3.30</td>
+        <td class="num">-$1,030</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-07-17</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-07-15</td>
+        <td>M</td>
+        <td class="num">(1,278)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-07-15</td>
+        <td>M</td>
+        <td class="num">1,278</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-07-15</td>
+        <td>F</td>
+        <td class="num">(312)</td>
+        <td class="num">$3.30</td>
+        <td class="num">-$1,030</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-07-17</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-07-15</td>
+        <td>M</td>
+        <td class="num">(1,278)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-06-27</td>
+        <td>L</td>
+        <td class="num">270</td>
+        <td class="num">$3.67</td>
+        <td class="num">$993</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-05-30</td>
+        <td>L</td>
+        <td class="num">263</td>
+        <td class="num">$3.77</td>
+        <td class="num">$993</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-17</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-05-02</td>
+        <td>L</td>
+        <td class="num">237</td>
+        <td class="num">$4.17</td>
+        <td class="num">$992</td>
+      </tr>
+    
+      <tr class="txn-j table-nonDerivative">
+        <td>2025-07-09</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-06-30</td>
+        <td>J</td>
+        <td class="num">0</td>
+        <td class="num">$3.60</td>
+        <td class="num">-$4</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-09</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-06-27</td>
+        <td>L</td>
+        <td class="num">135</td>
+        <td class="num">$3.67</td>
+        <td class="num">$496</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-09</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-06-27</td>
+        <td>L</td>
+        <td class="num">676</td>
+        <td class="num">$3.67</td>
+        <td class="num">$2,481</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-09</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-05-30</td>
+        <td>L</td>
+        <td class="num">658</td>
+        <td class="num">$3.77</td>
+        <td class="num">$2,483</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-09</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-05-02</td>
+        <td>L</td>
+        <td class="num">594</td>
+        <td class="num">$4.17</td>
+        <td class="num">$2,480</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-07-09</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>L</td>
+        <td class="num">544</td>
+        <td class="num">$4.56</td>
+        <td class="num">$2,485</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">14,035</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-j table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>J</td>
+        <td class="num">0</td>
+        <td class="num">$3.40</td>
+        <td class="num">-$1</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">(14,035)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>Claus Christopher W</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">14,035</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-06-20</td>
+        <td>Claus Christopher W</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">(14,035)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>MORGAN JAMES KEITH</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">14,035</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-06-20</td>
+        <td>MORGAN JAMES KEITH</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">(14,035)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">14,035</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-06-20</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">(14,035)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">14,035</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">(14,035)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>MANESS TERRY SAM</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">14,035</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-06-20</td>
+        <td>MANESS TERRY SAM</td>
+        <td>Director</td>
+        <td>2025-06-18</td>
+        <td>M</td>
+        <td class="num">(14,035)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>Carlson Peter M</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>Claus Christopher W</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>MORGAN JAMES KEITH</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-06-20</td>
+        <td>MANESS TERRY SAM</td>
+        <td>Director</td>
+        <td>2025-06-17</td>
+        <td>A</td>
+        <td class="num">12,012</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-05-30</td>
+        <td>L</td>
+        <td class="num">79</td>
+        <td class="num">$3.77</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-05-30</td>
+        <td>L</td>
+        <td class="num">526</td>
+        <td class="num">$3.77</td>
+        <td class="num">$1,987</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-05-30</td>
+        <td>L</td>
+        <td class="num">131</td>
+        <td class="num">$3.77</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-05-02</td>
+        <td>L</td>
+        <td class="num">71</td>
+        <td class="num">$4.17</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-05-02</td>
+        <td>L</td>
+        <td class="num">118</td>
+        <td class="num">$4.17</td>
+        <td class="num">$496</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-03-31</td>
+        <td>L</td>
+        <td class="num">65</td>
+        <td class="num">$4.56</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-03-31</td>
+        <td>L</td>
+        <td class="num">108</td>
+        <td class="num">$4.56</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-02-28</td>
+        <td>L</td>
+        <td class="num">59</td>
+        <td class="num">$5.00</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-02-28</td>
+        <td>L</td>
+        <td class="num">99</td>
+        <td class="num">$5.00</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-01-31</td>
+        <td>L</td>
+        <td class="num">59</td>
+        <td class="num">$5.00</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-01-31</td>
+        <td>L</td>
+        <td class="num">99</td>
+        <td class="num">$5.00</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>DAVIS CYNTHIA H</td>
+        <td>Director</td>
+        <td>2025-01-03</td>
+        <td>L</td>
+        <td class="num">63</td>
+        <td class="num">$4.68</td>
+        <td class="num">$298</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-06-20</td>
+        <td>TAYLOR MARY</td>
+        <td>Director</td>
+        <td>2025-01-03</td>
+        <td>L</td>
+        <td class="num">106</td>
+        <td class="num">$4.68</td>
+        <td class="num">$497</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-06-18</td>
+        <td>Stenberg Jon</td>
+        <td>Director, Officer (President &amp; CEO)</td>
+        <td>2025-06-17</td>
+        <td>P</td>
+        <td class="num">19,914</td>
+        <td class="num">$3.33</td>
+        <td class="num">$66,407</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-06-02</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-05-29</td>
+        <td>P</td>
+        <td class="num">30,000</td>
+        <td class="num">$3.69</td>
+        <td class="num">$110,838</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-06-02</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-05-29</td>
+        <td>P</td>
+        <td class="num">4,850</td>
+        <td class="num">$3.80</td>
+        <td class="num">$18,430</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-05-29</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-05-28</td>
+        <td>P</td>
+        <td class="num">2,500</td>
+        <td class="num">$3.59</td>
+        <td class="num">$8,968</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-05-08</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-05-05</td>
+        <td>L</td>
+        <td class="num">475</td>
+        <td class="num">$4.17</td>
+        <td class="num">$1,984</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-05-08</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-03-31</td>
+        <td>L</td>
+        <td class="num">435</td>
+        <td class="num">$4.56</td>
+        <td class="num">$1,988</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-05-08</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-02-28</td>
+        <td>L</td>
+        <td class="num">397</td>
+        <td class="num">$5.00</td>
+        <td class="num">$1,988</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-05-08</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-01-31</td>
+        <td>L</td>
+        <td class="num">397</td>
+        <td class="num">$5.00</td>
+        <td class="num">$1,989</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-05-08</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2025-01-03</td>
+        <td>L</td>
+        <td class="num">424</td>
+        <td class="num">$4.68</td>
+        <td class="num">$1,987</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-04-10</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-04-08</td>
+        <td>P</td>
+        <td class="num">10,000</td>
+        <td class="num">$4.20</td>
+        <td class="num">$42,000</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-04-09</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-04-07</td>
+        <td>P</td>
+        <td class="num">35,000</td>
+        <td class="num">$3.65</td>
+        <td class="num">$127,750</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-04-09</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-04-07</td>
+        <td>P</td>
+        <td class="num">25,000</td>
+        <td class="num">$3.95</td>
+        <td class="num">$98,750</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2025-04-09</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-04-07</td>
+        <td>P</td>
+        <td class="num">46,340</td>
+        <td class="num">$4.03</td>
+        <td class="num">$186,750</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-02</td>
+        <td>Shields Gerald</td>
+        <td>Director</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">27,472</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-02</td>
+        <td>Shields Gerald</td>
+        <td>Director</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">27,472</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-02</td>
+        <td>Shields Gerald</td>
+        <td>Director</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(27,472)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">5,688</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>F</td>
+        <td class="num">(1,621)</td>
+        <td class="num">$4.55</td>
+        <td class="num">-$7,376</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">7,762</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>F</td>
+        <td class="num">(2,212)</td>
+        <td class="num">$4.55</td>
+        <td class="num">-$10,065</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(5,688)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(7,762)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">9,670</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">7,847</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>F</td>
+        <td class="num">(1,911)</td>
+        <td class="num">$4.55</td>
+        <td class="num">-$8,695</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">9,668</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>F</td>
+        <td class="num">(2,355)</td>
+        <td class="num">$4.55</td>
+        <td class="num">-$10,715</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(7,847)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(9,668)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">17,582</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">6,593</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">6,187</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">12,668</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(6,187)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(12,668)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">5,769</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">6,593</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">3,171</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>F</td>
+        <td class="num">(773)</td>
+        <td class="num">$4.55</td>
+        <td class="num">-$3,517</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">8,535</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>F</td>
+        <td class="num">(2,079)</td>
+        <td class="num">$4.55</td>
+        <td class="num">-$9,459</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(3,171)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>M</td>
+        <td class="num">(8,535)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">15,384</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-a table-derivative">
+        <td>2025-04-01</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-31</td>
+        <td>A</td>
+        <td class="num">39,560</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">15,070</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(4,293)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$20,005</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">6,853</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(1,952)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$9,096</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(15,070)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(6,853)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">12,489</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(3,041)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$14,171</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">12,461</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(3,034)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$14,138</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(12,489)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Conklin Jeffery P.</td>
+        <td>Officer (CFO &amp; Treasurer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(12,461)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">2,587</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(767)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$3,574</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">4,673</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(1,386)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$6,459</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(2,587)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (Chief Operations Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(4,673)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">19,130</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">10,903</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(19,310)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Mauldin Robert M III</td>
+        <td>Officer (VP, Chief Marketing Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(10,903)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">3,034</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(900)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$4,194</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Guerrero Paula L</td>
+        <td>Officer (Chief Information Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(3,034)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">15,172</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(3,694)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$17,214</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">10,903</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(2,655)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$12,372</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(15,172)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(10,903)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">20,309</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-28</td>
+        <td>F</td>
+        <td class="num">(4,945)</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$23,044</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-04-01</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-28</td>
+        <td>M</td>
+        <td class="num">(20,309)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-02-28</td>
+        <td>L</td>
+        <td class="num">496</td>
+        <td class="num">$5.00</td>
+        <td class="num">$2,485</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-01-31</td>
+        <td>L</td>
+        <td class="num">497</td>
+        <td class="num">$5.00</td>
+        <td class="num">$2,486</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2025-04-01</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (Chief Actuary)</td>
+        <td>2025-01-03</td>
+        <td>L</td>
+        <td class="num">530</td>
+        <td class="num">$4.68</td>
+        <td class="num">$2,484</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2025-03-20</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-18</td>
+        <td>M</td>
+        <td class="num">45,249</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2025-03-20</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-18</td>
+        <td>F</td>
+        <td class="num">(11,061)</td>
+        <td class="num">$4.88</td>
+        <td class="num">-$53,978</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2025-03-20</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2025-03-18</td>
+        <td>M</td>
+        <td class="num">(45,249)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2024-11-01</td>
+        <td>L</td>
+        <td class="num">413</td>
+        <td class="num">$4.80</td>
+        <td class="num">$1,987</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (VP, Chief Actuary)</td>
+        <td>2024-11-01</td>
+        <td>L</td>
+        <td class="num">517</td>
+        <td class="num">$4.80</td>
+        <td class="num">$2,484</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2024-10-04</td>
+        <td>L</td>
+        <td class="num">484</td>
+        <td class="num">$4.10</td>
+        <td class="num">$1,985</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (VP, Chief Actuary)</td>
+        <td>2024-10-04</td>
+        <td>L</td>
+        <td class="num">605</td>
+        <td class="num">$4.10</td>
+        <td class="num">$2,481</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2024-08-30</td>
+        <td>L</td>
+        <td class="num">664</td>
+        <td class="num">$2.98</td>
+        <td class="num">$1,979</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (VP, Chief Actuary)</td>
+        <td>2024-08-30</td>
+        <td>L</td>
+        <td class="num">830</td>
+        <td class="num">$2.98</td>
+        <td class="num">$2,473</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2024-08-02</td>
+        <td>L</td>
+        <td class="num">739</td>
+        <td class="num">$2.67</td>
+        <td class="num">$1,976</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Waite Harvey J.</td>
+        <td>Officer (VP, Chief Actuary)</td>
+        <td>2024-08-02</td>
+        <td>L</td>
+        <td class="num">924</td>
+        <td class="num">$2.67</td>
+        <td class="num">$2,470</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-12</td>
+        <td>Davis Jerry</td>
+        <td>Director</td>
+        <td>2024-06-28</td>
+        <td>L</td>
+        <td class="num">711</td>
+        <td class="num">$2.78</td>
+        <td class="num">$1,977</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2024-11-05</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-11-01</td>
+        <td>M</td>
+        <td class="num">1,032</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2024-11-05</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-11-01</td>
+        <td>F</td>
+        <td class="num">(252)</td>
+        <td class="num">$4.59</td>
+        <td class="num">-$1,157</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2024-11-05</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-11-01</td>
+        <td>M</td>
+        <td class="num">(1,032)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-11-05</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-08-30</td>
+        <td>L</td>
+        <td class="num">165</td>
+        <td class="num">$2.98</td>
+        <td class="num">$495</td>
+      </tr>
+    
+      <tr class="txn-j table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-10-08</td>
+        <td>J</td>
+        <td class="num">0</td>
+        <td class="num">$4.66</td>
+        <td class="num">-$4</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-10-04</td>
+        <td>L</td>
+        <td class="num">129</td>
+        <td class="num">$3.81</td>
+        <td class="num">$494</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-09-20</td>
+        <td>L</td>
+        <td class="num">152</td>
+        <td class="num">$3.24</td>
+        <td class="num">$494</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-09-06</td>
+        <td>L</td>
+        <td class="num">153</td>
+        <td class="num">$3.21</td>
+        <td class="num">$493</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-08-23</td>
+        <td>L</td>
+        <td class="num">159</td>
+        <td class="num">$3.10</td>
+        <td class="num">$493</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-08-09</td>
+        <td>L</td>
+        <td class="num">176</td>
+        <td class="num">$2.79</td>
+        <td class="num">$493</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-07-19</td>
+        <td>L</td>
+        <td class="num">183</td>
+        <td class="num">$2.68</td>
+        <td class="num">$493</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-10-10</td>
+        <td>Kinlaw Sheryl L</td>
+        <td>Officer (Chief Legal Officer)</td>
+        <td>2024-07-05</td>
+        <td>L</td>
+        <td class="num">182</td>
+        <td class="num">$2.70</td>
+        <td class="num">$493</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-18</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-16</td>
+        <td>P</td>
+        <td class="num">11,934</td>
+        <td class="num">$2.99</td>
+        <td class="num">$35,683</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-11</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-09</td>
+        <td>P</td>
+        <td class="num">95</td>
+        <td class="num">$2.99</td>
+        <td class="num">$284</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-09</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-05</td>
+        <td>P</td>
+        <td class="num">12,202</td>
+        <td class="num">$2.96</td>
+        <td class="num">$36,118</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-09</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-05</td>
+        <td>P</td>
+        <td class="num">356</td>
+        <td class="num">$2.93</td>
+        <td class="num">$1,043</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-05</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-04</td>
+        <td>P</td>
+        <td class="num">39,298</td>
+        <td class="num">$2.99</td>
+        <td class="num">$117,501</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-05</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-04</td>
+        <td>P</td>
+        <td class="num">5,465</td>
+        <td class="num">$3.03</td>
+        <td class="num">$16,559</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-09-05</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-09-03</td>
+        <td>P</td>
+        <td class="num">7,869</td>
+        <td class="num">$2.99</td>
+        <td class="num">$23,528</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-20</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-16</td>
+        <td>P</td>
+        <td class="num">1,736</td>
+        <td class="num">$2.77</td>
+        <td class="num">$4,809</td>
+      </tr>
+    
+      <tr class="txn-m table-nonDerivative">
+        <td>2024-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-08-15</td>
+        <td>M</td>
+        <td class="num">2,625</td>
+        <td class="num">—</td>
+        <td class="num">$0</td>
+      </tr>
+    
+      <tr class="txn-f table-nonDerivative">
+        <td>2024-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-08-15</td>
+        <td>F</td>
+        <td class="num">(616)</td>
+        <td class="num">$2.80</td>
+        <td class="num">-$1,725</td>
+      </tr>
+    
+      <tr class="txn-m table-derivative">
+        <td>2024-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-08-15</td>
+        <td>M</td>
+        <td class="num">(2,625)</td>
+        <td class="num">—</td>
+        <td class="num">$-0</td>
+      </tr>
+    
+      <tr class="txn-l table-nonDerivative">
+        <td>2024-08-19</td>
+        <td>Lewis Bryon Matthew</td>
+        <td>Officer (VP, Operations)</td>
+        <td>2024-08-02</td>
+        <td>L</td>
+        <td class="num">184</td>
+        <td class="num">$2.67</td>
+        <td class="num">$494</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-16</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-15</td>
+        <td>P</td>
+        <td class="num">600</td>
+        <td class="num">$2.77</td>
+        <td class="num">$1,662</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-16</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-14</td>
+        <td>P</td>
+        <td class="num">2,155</td>
+        <td class="num">$2.73</td>
+        <td class="num">$5,883</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-14</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-13</td>
+        <td>P</td>
+        <td class="num">1,036</td>
+        <td class="num">$2.73</td>
+        <td class="num">$2,828</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-14</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-12</td>
+        <td>P</td>
+        <td class="num">4,090</td>
+        <td class="num">$2.73</td>
+        <td class="num">$11,166</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-12</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-09</td>
+        <td>P</td>
+        <td class="num">1,950</td>
+        <td class="num">$2.65</td>
+        <td class="num">$5,168</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-12</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-09</td>
+        <td>P</td>
+        <td class="num">1,950</td>
+        <td class="num">$2.65</td>
+        <td class="num">$5,168</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-12</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-08</td>
+        <td>P</td>
+        <td class="num">10,607</td>
+        <td class="num">$2.74</td>
+        <td class="num">$29,063</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-12</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-08</td>
+        <td>P</td>
+        <td class="num">3,514</td>
+        <td class="num">$2.60</td>
+        <td class="num">$9,136</td>
+      </tr>
+    
+      <tr class="txn-p table-nonDerivative">
+        <td>2024-08-12</td>
+        <td>Stenberg Jon</td>
+        <td>Officer (President &amp; CEO)</td>
+        <td>2024-08-08</td>
+        <td>P</td>
+        <td class="num">3,514</td>
+        <td class="num">$2.60</td>
+        <td class="num">$9,136</td>
+      </tr>
+    
+    </tbody>
+  </table>
+  </div>
+  
+</section>
+
+<script src="../../static/quote.js"></script>
+<script src="../../static/tabs.js"></script>
+
+  </main>
+  <footer class="site-footer">
+    Generated 2026-08-12T11:25:56+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+  </footer>
+</body>
+</html>
