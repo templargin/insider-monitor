@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-13T12:40:28+00:00",
+  "entries": [
+    {
+      "url_date": "2026-08-13",
+      "cik": "1999261",
+      "ticker": "STWI",
+      "name": "StageWise Strategies Corp.",
+      "reason": "no share price for STWI",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "STWI",
+        "name": "StageWise Strategies Corp.",
+        "by_reporter": {
+          "2140692": {
+            "reporter_cik": "2140692",
+            "reporter_name": "Artikkhodjaev Jakhongir Abidovich",
+            "relationship": "10% Owner",
+            "total_value": 414000.00000000006,
+            "shares": 3000000.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Artikkhodjaev Jakhongir Abidovich",
+              "reporter_cik": "2140692",
+              "relationship": "10% Owner",
+              "issuer_cik": "1999261",
+              "issuer_ticker": "STWI",
+              "issuer_name": "StageWise Strategies Corp."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-10",
+                "code": "P",
+                "shares": 3000000.0,
+                "price": 0.138,
+                "total_value": 414000.00000000006,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 414000.00000000006
+          }
+        ]
+      },
+      "first_seen": "2026-08-13T12:23:05+00:00",
+      "attempts": 1,
+      "abandoned": false,
+      "last_tried_date": "2026-08-13",
+      "last_reason": "no share price for STWI",
+      "last_tried": "2026-08-13T12:40:28+00:00"
+    }
+  ]
+}

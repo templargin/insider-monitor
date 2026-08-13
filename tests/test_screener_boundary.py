@@ -12,6 +12,7 @@ Fixture-based: no network.
 import math
 
 import pytest
+import requests
 
 from scraper import filters, pipeline
 
@@ -22,10 +23,15 @@ ANCHOR = "2026-03-31"
 
 def install(monkeypatch, *, anchor=ANCHOR, shares=10_000_000, sh_end="2026-05-01",
             cash=0, debt=0, flag=None, price=10.0, revenue=(1e6, 1e6, 1e6, 1e6),
-            fins_none=False, facts=None):
-    """Stub every input screener_pass depends on, so only its boundary logic runs."""
+            fins_none=False, facts=None, cover=(None, None)):
+    """Stub every input screener_pass depends on, so only its boundary logic runs.
+
+    `cover` is the cover-page fallback, and it defaults to "the filing has no
+    cover-page count either" so the companyfacts-only cases below still describe
+    what they say they describe."""
     facts = {"facts": {"us-gaap": {}}} if facts is None else facts
     monkeypatch.setattr(pipeline.edgar, "fetch_companyfacts", lambda cik: facts)
+    monkeypatch.setattr(pipeline.edgar, "cover_page_shares", lambda cik: cover)
     monkeypatch.setattr(pipeline.xbrl_facts, "balance_sheet_date", lambda f: anchor)
     monkeypatch.setattr(pipeline.xbrl_facts, "get_basic_shares", lambda f: (shares, sh_end))
     monkeypatch.setattr(pipeline.xbrl_facts, "get_cash", lambda f, a=None: (cash, anchor))
@@ -122,6 +128,60 @@ def test_missing_share_count_is_unavailable(monkeypatch, shares):
         run()
 
 
+# --- the cover-page fallback: companyfacts is not the whole of SEC --------------
+
+def test_missing_companyfacts_count_falls_back_to_the_cover_page(monkeypatch):
+    """SUJA. companyfacts has no `dei` namespace at all, because both of its
+    cover-page counts carry a class dimension and that API drops those. The
+    number is on the front page of the 10-Q: 23,788,700 + 14,836,312."""
+    install(monkeypatch, shares=None, sh_end=None, anchor="2026-06-29",
+            cover=(38_625_012, "2026-07-31"), price=5.87)
+    snap = passes()
+    assert snap["shares"] == 38_625_012
+    assert snap["mc_basic"] == pytest.approx(226_728_820, rel=1e-6)
+
+
+def test_stale_companyfacts_count_falls_back_to_the_cover_page(monkeypatch):
+    """OPFI. The only count companyfacts still carries is the undimensioned one
+    from 2025-08-05, left behind when the filer split its classes — which read as
+    'share count predates its balance sheet' for a company that reports its shares
+    every quarter."""
+    install(monkeypatch, shares=87_306_132, sh_end="2025-08-05", anchor="2026-06-30",
+            cover=(85_208_247, "2026-08-06"))
+    assert passes()["shares"] == 85_208_247
+
+
+def test_cover_page_is_not_consulted_when_companyfacts_is_good(monkeypatch):
+    """Two extra requests per issuer would be a tax on every ordinary filer. The
+    fallback is a fallback."""
+    def must_not_run(cik):
+        raise AssertionError("cover page fetched for a filer with a usable count")
+    install(monkeypatch)
+    monkeypatch.setattr(pipeline.edgar, "cover_page_shares", must_not_run)
+    assert passes() is not None
+
+
+def test_a_cover_page_we_could_not_fetch_is_transient(monkeypatch):
+    """An unreachable SEC is not a company without shares. Marking it permanent
+    would let a throttled morning quietly retire the issuer instead of retrying
+    it."""
+    def throttled(cik):
+        raise requests.HTTPError("429 Too Many Requests")
+    install(monkeypatch, shares=None)
+    monkeypatch.setattr(pipeline.edgar, "cover_page_shares", throttled)
+    with pytest.raises(pipeline.DataUnavailable, match="cover page unreadable") as ei:
+        run()
+    assert ei.value.transient is True
+
+
+def test_a_cover_page_that_is_also_stale_is_still_unavailable(monkeypatch):
+    """The fallback widens where we look; it does not lower the bar. A cover count
+    older than the balance sheet cannot describe the same company either."""
+    install(monkeypatch, shares=None, anchor="2026-06-30", cover=(100, "2022-12-31"))
+    with pytest.raises(pipeline.DataUnavailable, match="predates its balance sheet"):
+        run()
+
+
 # --- sizing ---------------------------------------------------------------------
 
 def test_negative_ev_passes(monkeypatch):
@@ -190,7 +250,7 @@ def test_bank_flag_carries_no_amount_and_does_not_trip_the_gate(monkeypatch):
 
 def test_no_revenue_row_is_a_merits_rejection(monkeypatch):
     """ARTV is clinical-stage and tags no revenue concept at all — a real zero, not
-    missing data, so it belongs in the rejected pile, not the unevaluated one."""
+    missing data, so it belongs in the rejected pile, not the unresolved one."""
     install(monkeypatch, revenue=None)
     assert rejected() is not None
 
@@ -266,7 +326,7 @@ def test_basic_ev_rejects_non_finite_debt_or_cash(debt, cash):
 
 def test_a_non_finite_debt_costs_one_issuer_not_the_day(monkeypatch):
     """Defence in depth: even if the boundary has a hole, process_bucket must not
-    die. The issuer becomes unevaluated, which keeps the outage guards armed."""
+    die. The issuer becomes unresolved, which keeps the outage guards armed."""
     install(monkeypatch, debt=float("nan"))
     with pytest.raises(ValueError):
         run()          # screener_pass itself still fails loudly...

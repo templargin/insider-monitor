@@ -46,6 +46,17 @@ def main():
         if pipeline.process_bucket(d) is None:
             print(f"--- catch-up: {d} still unwritable, leaving it ---")
 
+    # Issuers that reached no verdict on an earlier run get asked again here,
+    # before today's work, so a recovery lands on its own day's page and the site
+    # rebuild below republishes it. This is what earns the right to publish ONLY
+    # the companies that met the criteria: the ones we could not judge are not
+    # dropped from the page, they are still in flight.
+    retries = pipeline.retry_unresolved()
+    if retries["retried"]:
+        print(f"Unresolved queue: {retries['retried']} retried — "
+              f"{retries['recovered']} recovered, {retries['rejected']} rejected on merits, "
+              f"{retries['still_open']} still open, {retries['abandoned']} flagged for review.")
+
     if today.weekday() >= 5:
         print(f"{today} is a weekend in ET — no page to generate.")
     else:

@@ -10,8 +10,9 @@ This file documents how **insider-monitor specifically** runs on the shared `asp
 06:30 ET — cron fires /home/cron-runner/run-insider.sh
 06:30 — git-pulls /opt/insider-monitor, dispatches daily.yml on GH Actions
 06:30 → ~06:42 — polls gh run view every 30s until workflow completes
-            (daily.yml scrapes EDGAR, applies filters, refreshes XBRL data,
-             fetches 10-Q/10-K footnote text for new survivors, commits + pushes)
+            (daily.yml backfills any missed weekday, re-screens the unresolved
+             queue, scrapes EDGAR, applies filters, refreshes XBRL data, fetches
+             10-Q/10-K footnote text for new survivors, commits + pushes)
 06:42 — git-pulls again to retrieve the workflow's commits
 06:42 → ~06:48 — invokes `claude -p "/extract-options-warrants"` — Claude reads
             each new ticker's footnote text and fills in valuation.options /
@@ -206,6 +207,8 @@ For host-level ops (gh auth rotation, env file management, adding new workloads,
 | A page is missing for a past weekday | A run skipped the write on a transient outage | Automatic: `daily_run` re-runs any of the last 10 weekdays with no `data/insiders/*.json`. Manual equivalent: `./venv/bin/python -c "from datetime import date; from scraper import pipeline; pipeline.process_bucket(date(Y,M,D))"` then `build_site` from a **synced** clone |
 | Daily page suddenly empty / lost its tickers | A run hit a transient SEC/price-fetch outage (the cloud-IP fallback run is most prone) | Guarded since 2026-06: the writer skips on a mass outage and won't downgrade a non-empty page. Grep the run log for `upstream outage; skipping write` or `data unavailable`. To rebuild a page that was lost before the guard existed, restore the good `data/insiders/YYYY-MM-DD.json` (from git history) or re-run `process_bucket` for that date, then `build_site` + push |
 | Monday-after-holiday page is empty (HTTP 200) | Bucket is entirely weekend + federal holiday (e.g. the Monday after Juneteenth — Fri+Sat+Sun) | Expected — explicit empty page by design (`buckets.is_trading_day`) |
+| A company you expected on the list isn't there | It was rejected on merits, ruled out of scope, or could not be read. The page shows only what met the criteria — by design; the reasoning is in the run log and the day's JSON | Grep the run log for the ticker: `screened out:` = measured and failed, `out of scope:` = the screen doesn't apply (fund / 20-F filer / pre-first-report IPO or SPAC / no symbol), `unresolved:` = queued and retried each morning. Also `data/insiders/YYYY-MM-DD.json` → `excluded` / `unresolved` |
+| An issuer is stuck unread | Three mornings of retries failed (usually a price source that has no quote for a delisted-looking shell) | The run log prints `REVIEW NEEDED` once and stops retrying it; the record stays in `data/unresolved.json` with `"abandoned": true`. Decide by hand, then delete the entry |
 | Survivor's page shows `—` for options/warrants | Skill was conservative (ambiguous footnote) OR footnote file is missing | Inspect `data/footnotes/TICKER.txt`; manually edit JSON + push if you can determine the value |
 | Workflow fires but skill output is empty | All tickers already have non-null options/warrants — expected |
 | Skill commits but page doesn't refresh | GH Pages deploy lag (1–5 min) | Wait and refresh |

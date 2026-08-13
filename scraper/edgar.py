@@ -432,3 +432,201 @@ def cik_to_ticker(cik):
         if ck.lstrip("0") == target:
             return tk
     return None
+
+
+# ---- filer scope ---------------------------------------------------------------
+
+# Which reporting regime an issuer files under. Only the domestic one produces the
+# us-gaap financial statements this screener measures; the other three are not
+# failures to extract but issuers the screen does not apply to.
+DOMESTIC_FORMS = {"10-K", "10-Q", "10-KT", "10-QT"}
+FOREIGN_FORMS = {"20-F", "40-F", "6-K"}
+
+SCOPE_DOMESTIC = "domestic"
+SCOPE_FOREIGN = "foreign"
+SCOPE_FUND = "fund"
+SCOPE_PRE_REPORT = "pre_report"
+
+
+def filer_scope(cik):
+    """`domestic` | `foreign` | `fund` | `pre_report` — the reporting regime an
+    issuer files under, from its EDGAR filing history.
+
+    Consulted only when an issuer could not be screened, to tell *the screen does
+    not apply here* apart from *we failed to read something we should have read*.
+    A registered fund (N-CSR/N-CEN/N-2) publishes no XBRL financial statements at
+    all, and a company whose first 10-Q has not posted yet has none either — both
+    return the same answer every day, forever. Asking this question of an issuer
+    that screened fine would be wasted requests, so nothing does.
+
+    Order matters: a listed BDC files BOTH 10-K and N-2, and it IS screenable, so
+    the domestic test wins. Amendments (`10-K/A`) count as their base form."""
+    forms = {f.split("/")[0].upper()
+             for f in fetch_submissions(cik).get("filings", {}).get("recent", {}).get("form", [])}
+    if forms & DOMESTIC_FORMS:
+        return SCOPE_DOMESTIC
+    if forms & FOREIGN_FORMS:
+        return SCOPE_FOREIGN
+    if any(f.startswith("N-") for f in forms):
+        return SCOPE_FUND
+    return SCOPE_PRE_REPORT
+
+
+# ---- cover-page share count ----------------------------------------------------
+
+_PERIODIC_FORMS = ("10-Q", "10-K", "10-KT", "10-QT")
+_NOT_INSTANCE = ("_cal.xml", "_def.xml", "_lab.xml", "_pre.xml", "_ref.xml")
+_COVER_SHARES_TAG = "EntityCommonStockSharesOutstanding"
+
+
+def _local(tag):
+    """Local name of a possibly namespaced lxml tag."""
+    return str(tag).rsplit("}", 1)[-1]
+
+
+def latest_periodic_filing(cik, forms=_PERIODIC_FORMS):
+    """(form, accession_nodash, filing_date) of the newest 10-K/10-Q, or None.
+
+    Amendments count — an amended cover page is still the current one. A CIK with
+    no submissions record at all returns None: that is an absence SEC is telling
+    us about, not a fetch we failed to make."""
+    try:
+        sub = fetch_submissions(cik)
+    except requests.HTTPError as e:
+        if _is_missing(e.response):
+            return None
+        raise
+    recent = sub.get("filings", {}).get("recent", {})
+    for form, acc, filed in zip(recent.get("form", []),
+                                recent.get("accessionNumber", []),
+                                recent.get("filingDate", [])):
+        if form.split("/")[0].upper() in forms:
+            return form, acc.replace("-", ""), filed
+    return None
+
+
+def _instance_name(names):
+    """The XBRL instance document among a filing's files, or None.
+
+    Inline filings (everything since 2021) carry a SEC-generated `*_htm.xml`
+    extraction alongside the human-readable document; older ones carry a bare
+    `ticker-YYYYMMDD.xml`. Both hold the facts with their dimensions intact and
+    their values UNSCALED — which is the whole point of reading the instance
+    rather than the rendered cover report `R1.htm`, where a filer reporting "in
+    millions" renders LILA's 156,500,000 shares as the string `156.5`."""
+    for n in names:
+        if n.endswith("_htm.xml"):
+            return n
+    for n in names:
+        if (n.endswith(".xml") and not n.endswith(_NOT_INSTANCE)
+                and "index" not in n.lower() and "filingsummary" not in n.lower()
+                and re.match(r"^[a-z0-9\-]+-\d{8}\.xml$", n)):
+            return n
+    return None
+
+
+def cover_page_shares(cik):
+    """Total common shares outstanding from the latest periodic report's cover page.
+
+    Returns `(total_shares, as_of_iso)`, or `(None, None)` when the filing carries
+    no cover-page count this function can stand behind.
+
+    This exists because `companyfacts` — the API every other share read goes
+    through — silently DROPS every fact that carries a dimension. A multi-class
+    filer tags its cover-page count once per class, each dimensioned by class of
+    stock, so all of them vanish: SUJA's companyfacts has no `dei` namespace at
+    all, and OPFI's newest surviving count is the undimensioned one it stopped
+    tagging in 2025. That is not a share count that is missing from SEC, it is a
+    share count missing from one API, and 21 issuers (7 of them inside the EV cap,
+    with a qualifying insider purchase) were dropped over it between 2026-07-15
+    and 2026-08-13.
+
+    Three properties keep the sum honest:
+
+    - **One value per class.** Facts are grouped by their context's dimension
+      signature and the newest instant wins within each, so a concept tagged twice
+      in one document (SUJA tags its weighted-average shares under two ids in the
+      same context) is counted once.
+    - **The issuer only.** Contexts are filtered to the issuer's own CIK, so a
+      co-registrant subsidiary's cover count is not added to its parent's.
+    - **No scaling.** Values come from the instance, where they are absolute.
+
+    Summing classes is the right total for these structures: Up-C Class V/B shares
+    pair 1:1 with exchangeable LLC units, and Liberty-style A/B/C series are
+    economically identical — which is why the sum reconciles to OPFI's own diluted
+    weighted average (85.2M vs 86.1M) rather than to its Class A alone."""
+    filing = latest_periodic_filing(cik)
+    if filing is None:
+        return None, None
+    _, accn, _ = filing
+    base = f"https://www.sec.gov/Archives/edgar/data/{str(cik).lstrip('0')}/{accn}"
+    try:
+        idx = _get(f"{base}/index.json").json()
+    except requests.HTTPError as e:
+        if _is_missing(e.response):
+            return None, None
+        raise
+    name = _instance_name([i.get("name", "") for i in idx.get("directory", {}).get("item", [])])
+    if not name:
+        return None, None
+    try:
+        xml = _get(f"{base}/{name}").content
+    except requests.HTTPError as e:
+        if _is_missing(e.response):
+            return None, None
+        raise
+    return parse_cover_page_shares(xml, cik)
+
+
+def parse_cover_page_shares(xml, cik):
+    """Sum the cover-page share counts in one XBRL instance. See `cover_page_shares`.
+
+    Split out from the fetch so the parsing rules are testable without network."""
+    try:
+        root = etree.fromstring(xml)
+    except etree.XMLSyntaxError:
+        return None, None
+
+    contexts = {}
+    for el in root.iter():
+        if _local(el.tag) != "context":
+            continue
+        ident, instant, dims = None, None, []
+        for sub in el.iter():
+            ln = _local(sub.tag)
+            if ln == "identifier":
+                ident = (sub.text or "").strip()
+            elif ln == "instant":
+                instant = (sub.text or "").strip()
+            elif ln == "explicitMember":
+                dims.append((sub.get("dimension"), (sub.text or "").strip()))
+        contexts[el.get("id")] = (ident, instant, tuple(sorted(dims)))
+
+    target = str(cik).lstrip("0")
+    by_class = {}          # dimension signature → (instant, value)
+    for el in root.iter():
+        if _local(el.tag) != _COVER_SHARES_TAG:
+            continue
+        ctx = contexts.get(el.get("contextRef"))
+        if ctx is None:
+            continue
+        ident, instant, dims = ctx
+        if ident is not None and ident.lstrip("0") != target:
+            # A co-registrant's own cover count (subsidiary guarantors file under
+            # the same accession). Adding it to the parent's would invent shares.
+            continue
+        try:
+            val = float((el.text or "").replace(",", "").strip())
+        except ValueError:
+            continue
+        if not val > 0:
+            continue
+        prior = by_class.get(dims)
+        if prior is None or (instant or "") > (prior[0] or ""):
+            by_class[dims] = (instant, val)
+
+    if not by_class:
+        return None, None
+    total = sum(v for _, v in by_class.values())
+    as_of = max((i for i, _ in by_class.values() if i), default=None)
+    return total, as_of

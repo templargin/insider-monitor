@@ -34,12 +34,24 @@ falls back to the available components.</p>
 <ul>
   <li>SEC EDGAR daily index + Form 4 XML</li>
   <li>SEC XBRL companyfacts (`data.sec.gov/api/xbrl/companyfacts/CIK*.json`)</li>
+  <li>The filing's own XBRL instance, for the cover-page share count. companyfacts drops
+      every fact carrying a dimension, so a multi-class filer's share count is simply not
+      in that API — it is read off the 10-Q instead, one value per class.</li>
   <li>yfinance for share price and financial statements (with EDGAR XBRL as backup)</li>
 </ul>
 
+<h2>What isn't screened</h2>
+<p>The daily list carries only issuers that met the criteria — there is no "couldn't tell"
+list beside it. Three populations file Form 4s but can never be screened here, and are left
+out silently rather than reported as failures: <strong>registered funds</strong> (closed-end
+and interval funds, non-traded BDCs — they publish no XBRL financial statements),
+<strong>foreign private issuers</strong> (20-F/IFRS filers have no us-gaap statements to
+measure), and companies whose <strong>first periodic report hasn't posted</strong> yet
+(recent IPOs and SPACs — these become screenable on their own).</p>
+
 <h2>Caveats</h2>
 <ul>
-  <li>Pages are immutable once generated. Late-arriving Form 4s for prior bucket days will not back-fill onto already-published pages.</li>
+  <li>Late-arriving Form 4s for prior bucket days do not back-fill onto already-published pages. One exception: an issuer whose data couldn't be read on the day is retried each morning for a few days, and appears on <em>its own</em> day's page if it resolves.</li>
   <li>EV uses <strong>basic</strong> shares for the screener cutoff (more reliable data) — the company page shows fully-diluted EV separately.</li>
   <li>SEC XBRL tagging is inconsistent for small caps, especially for options and warrants. We flag what we couldn't extract.</li>
 </ul>

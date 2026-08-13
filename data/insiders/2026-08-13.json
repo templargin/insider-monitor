@@ -4,8 +4,24 @@
   "filing_dates": [
     "2026-08-12"
   ],
-  "generated_at": "2026-08-13T11:23:19+00:00",
+  "generated_at": "2026-08-13T12:35:59+00:00",
   "tickers": [
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 2066227.8399999999,
+      "ev_basic": 370149816.01971817,
+      "mc_basic": 226728816.01971817,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 2066227.8399999999,
+          "shares": 332298.0,
+          "txn_count": 3
+        }
+      ]
+    },
     {
       "ticker": "BDSX",
       "name": "BIODESIX INC",
@@ -23,6 +39,38 @@
       ]
     },
     {
+      "ticker": "OPFI",
+      "name": "OppFi Inc.",
+      "total_value": 422988.0,
+      "ev_basic": 796634585.7965283,
+      "mc_basic": 584528585.7965283,
+      "insiders": [
+        {
+          "reporter_name": "Schwartz Todd G.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 422988.0,
+          "shares": 60000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PTLO",
+      "name": "Portillo's Inc.",
+      "total_value": 299979.45,
+      "ev_basic": 678678763.6220245,
+      "mc_basic": 361489763.62202454,
+      "insiders": [
+        {
+          "reporter_name": "LEE EUGENE I JR",
+          "relationship": "Director",
+          "total_value": 299979.45,
+          "shares": 65355.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
       "ticker": "ALTO",
       "name": "Alto Ingredients, Inc.",
       "total_value": 207500.00000000003,
@@ -35,6 +83,22 @@
           "total_value": 207500.00000000003,
           "shares": 50000.0,
           "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BTMD",
+      "name": "biote Corp.",
+      "total_value": 202203.5,
+      "ev_basic": 164849003.01816034,
+      "mc_basic": 51017003.01816034,
+      "insiders": [
+        {
+          "reporter_name": "Beer Marc D",
+          "relationship": "Director, Officer (Executive Chairman)",
+          "total_value": 202203.5,
+          "shares": 131950.0,
+          "txn_count": 2
         }
       ]
     },
@@ -69,88 +133,69 @@
           "txn_count": 1
         }
       ]
-    }
-  ],
-  "unevaluated": [
-    {
-      "ticker": "BLSM",
-      "name": "BlossomHill Therapeutics, Inc.",
-      "reason": "no us-gaap balance sheet for BLSM"
-    },
-    {
-      "ticker": "BXSY",
-      "name": "BEXIL INVESTMENT TRUST",
-      "reason": "no companyfacts for CIK 1059213"
-    },
-    {
-      "ticker": "FMX",
-      "name": "MEXICAN ECONOMIC DEVELOPMENT INC",
-      "reason": "no us-gaap balance sheet for FMX"
-    },
-    {
-      "ticker": "AMH",
-      "name": "American Homes 4 Rent",
-      "reason": "no basic share count for AMH"
-    },
-    {
-      "ticker": "MUNEX",
-      "name": "BlackRock Municipal Credit Alpha Portfolio, Inc.",
-      "reason": "no us-gaap balance sheet for MUNEX"
-    },
-    {
-      "ticker": "PTLO",
-      "name": "Portillo's Inc.",
-      "reason": "share count for PTLO predates its balance sheet (2024-07-30 < 2026-06-28)"
-    },
-    {
-      "ticker": null,
-      "name": "HPS Real Assets Lending Co LP",
-      "reason": "no ticker on Form 4"
-    },
-    {
-      "ticker": "BTMD",
-      "name": "biote Corp.",
-      "reason": "share count for BTMD predates its balance sheet (2022-12-31 < 2026-06-30)"
-    },
-    {
-      "ticker": "UA",
-      "name": "Under Armour, Inc.",
-      "reason": "no basic share count for UA"
-    },
-    {
-      "ticker": "PNAQ",
-      "name": "Pinnacle Acquisition Corp",
-      "reason": "no us-gaap balance sheet for PNAQ"
-    },
-    {
-      "ticker": "VIA",
-      "name": "Via Transportation, Inc.",
-      "reason": "no basic share count for VIA"
     },
     {
       "ticker": "RAIN",
       "name": "Rain Enhancement Technologies Holdco, Inc.",
-      "reason": "no basic share count for RAIN"
+      "total_value": 100949.22,
+      "ev_basic": 8181409.739521384,
+      "mc_basic": 8762051.739521384,
+      "insiders": [
+        {
+          "reporter_name": "Seidl Randy",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 100949.22,
+          "shares": 42514.0,
+          "txn_count": 3
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BLSM",
+      "name": "BlossomHill Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
     },
     {
-      "ticker": "OPFI",
-      "name": "OppFi Inc.",
-      "reason": "share count for OPFI predates its balance sheet (2025-08-05 < 2026-06-30)"
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
     },
     {
-      "ticker": "SUJA",
-      "name": "SUJA LIFE, INC.",
-      "reason": "no basic share count for SUJA"
+      "ticker": "FMX",
+      "name": "MEXICAN ECONOMIC DEVELOPMENT INC",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
     },
+    {
+      "ticker": "MUNEX",
+      "name": "BlackRock Municipal Credit Alpha Portfolio, Inc.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "HPS Real Assets Lending Co LP",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "PNAQ",
+      "name": "Pinnacle Acquisition Corp",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    }
+  ],
+  "unresolved": [
     {
       "ticker": "STWI",
       "name": "StageWise Strategies Corp.",
-      "reason": "no share price for STWI"
-    },
-    {
-      "ticker": "GLIBK",
-      "name": "Liberty Capital Corp/NV",
-      "reason": "no basic share count for GLIBK"
+      "cik": "1999261",
+      "reason": "no share price for STWI",
+      "transient": true
     }
   ]
 }
