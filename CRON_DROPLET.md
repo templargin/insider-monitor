@@ -168,6 +168,8 @@ See the [canonical droplet doc](https://github.com/templargin/droplet) for the p
 | `scraper/pipeline.py::update_company_data` | Preserves existing `valuation.options` / `valuation.warrants` if XBRL returns null — prevents the skill's extracted values from being clobbered by the next daily refresh. |
 | `data/companies/TICKER.json` | Per-ticker data the skill reads and writes. |
 | `data/footnotes/TICKER.txt` | Pre-fetched footnote text from the latest 10-Q/10-K. Source of truth for the skill. |
+| `data/unresolved.json` | Work queue of issuers that reached no verdict. `daily_run` re-screens it each morning before doing that day's bucket; a recovery is written back onto its own day's page. Entries with `"abandoned": true` gave up after 3 days and are the only ones that want a person. |
+| `data/insiders/YYYY-MM-DD.json` | The day's answer (`tickers`) plus its working: `excluded` (issuers the screen does not apply to — funds, 20-F filers, pre-first-report IPOs/SPACs) and `unresolved`. Neither is rendered; the page carries only what met the criteria. |
 
 ---
 
