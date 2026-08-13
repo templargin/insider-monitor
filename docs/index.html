@@ -21,10 +21,14 @@
 <p>Daily small-cap insider purchase screener. Form 4 filings filtered to:</p>
 <ul>
   <li>Transaction code <strong>P</strong> (open-market purchase) only</li>
-  <li>Aggregate <strong>≥ $100k</strong> per issuer per filing bucket</li>
+  <li><strong>One insider ≥ $100k</strong> in the filing bucket — two insiders at $60k each do not qualify</li>
   <li>Enterprise value <strong>&lt; $1B</strong> (basic shares)</li>
   <li>TTM revenue <strong>&gt; 0</strong></li>
 </ul>
+
+<p class="subtle">The list is only what met all four. Issuers the screen cannot apply
+to — registered funds, 20-F filers, companies yet to file a first report — are left
+out rather than listed as unknowns. See <a href="about/">About</a>.</p>
 
 
 <p><a class="big-link" href="insiders/2026/august/13/">Latest list (Thursday, August 13, 2026)</a></p>
@@ -39,7 +43,7 @@
 
   </main>
   <footer class="site-footer">
-    Generated 2026-08-13T12:40:33+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
+    Generated 2026-08-13T12:55:51+00:00 · data: SEC EDGAR + yfinance · code: <a href="https://github.com/templargin/insider-monitor">github</a>
   </footer>
 </body>
 </html>

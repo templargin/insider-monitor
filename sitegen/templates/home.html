@@ -5,10 +5,14 @@
 <p>Daily small-cap insider purchase screener. Form 4 filings filtered to:</p>
 <ul>
   <li>Transaction code <strong>P</strong> (open-market purchase) only</li>
-  <li>Aggregate <strong>≥ $100k</strong> per issuer per filing bucket</li>
+  <li><strong>One insider ≥ $100k</strong> in the filing bucket — two insiders at $60k each do not qualify</li>
   <li>Enterprise value <strong>&lt; $1B</strong> (basic shares)</li>
   <li>TTM revenue <strong>&gt; 0</strong></li>
 </ul>
+
+<p class="subtle">The list is only what met all four. Issuers the screen cannot apply
+to — registered funds, 20-F filers, companies yet to file a first report — are left
+out rather than listed as unknowns. See <a href="{{ root }}about/">About</a>.</p>
 
 {% if latest_url %}
 <p><a class="big-link" href="{{ latest_url }}">Latest list ({{ latest_label }})</a></p>

@@ -11,7 +11,7 @@ as a daily list plus a persistent page per ticker.</p>
 <h2>Filters</h2>
 <ul>
   <li><strong>Code P only</strong> — open-market purchases. Grants (A), option exercises (M), sales (S), tax-withholding (F) are excluded from the screener (but shown on company pages).</li>
-  <li><strong>≥ $100k aggregate</strong> per issuer per filing bucket. Multiple insiders or filings count cumulatively.</li>
+  <li><strong>One insider ≥ $100k</strong> per issuer per filing bucket. A single reporter (same CIK) has to cross the threshold on their own, across as many filings as they made — two different insiders at $60k each do <em>not</em> qualify, and only the insiders who individually crossed it are listed.</li>
   <li><strong>EV &lt; $1B</strong> using basic shares × price + total debt − cash from SEC XBRL.</li>
   <li><strong>TTM revenue &gt; 0</strong> — drops pre-revenue biotechs, shell companies, SPACs.</li>
 </ul>
