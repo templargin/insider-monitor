@@ -1,0 +1,156 @@
+{
+  "url_date": "2026-08-13",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-08-12"
+  ],
+  "generated_at": "2026-08-13T10:32:55+00:00",
+  "tickers": [
+    {
+      "ticker": "BDSX",
+      "name": "BIODESIX INC",
+      "total_value": 665940.1,
+      "ev_basic": 275552070.7151222,
+      "mc_basic": 255548070.71512222,
+      "insiders": [
+        {
+          "reporter_name": "SCHULER JACK W",
+          "relationship": "10% Owner, Other (Emeritus Director)",
+          "total_value": 665940.1,
+          "shares": 27600.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ALTO",
+      "name": "Alto Ingredients, Inc.",
+      "total_value": 207500.00000000003,
+      "ev_basic": 355490305.4015484,
+      "mc_basic": 314924305.4015484,
+      "insiders": [
+        {
+          "reporter_name": "NATHAN GILBERT E",
+          "relationship": "Director",
+          "total_value": 207500.00000000003,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AVBC",
+      "name": "Avidia Bancorp, Inc.",
+      "total_value": 127732.84000000001,
+      "ev_basic": 882727162.7464294,
+      "mc_basic": 444488162.74642944,
+      "insiders": [
+        {
+          "reporter_name": "Saul Kennedy O",
+          "relationship": "Director",
+          "total_value": 127732.84000000001,
+          "shares": 5900.0,
+          "txn_count": 6
+        }
+      ]
+    },
+    {
+      "ticker": "CHCT",
+      "name": "Community Healthcare Trust Inc",
+      "total_value": 121680.0,
+      "ev_basic": 989980174.978344,
+      "mc_basic": 430094174.97834396,
+      "insiders": [
+        {
+          "reporter_name": "Hensley Robert Z",
+          "relationship": "Director",
+          "total_value": 121680.0,
+          "shares": 8000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "unevaluated": [
+    {
+      "ticker": "BLSM",
+      "name": "BlossomHill Therapeutics, Inc.",
+      "reason": "no us-gaap balance sheet for BLSM"
+    },
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "reason": "no companyfacts for CIK 1059213"
+    },
+    {
+      "ticker": "FMX",
+      "name": "MEXICAN ECONOMIC DEVELOPMENT INC",
+      "reason": "no us-gaap balance sheet for FMX"
+    },
+    {
+      "ticker": "AMH",
+      "name": "American Homes 4 Rent",
+      "reason": "no basic share count for AMH"
+    },
+    {
+      "ticker": "MUNEX",
+      "name": "BlackRock Municipal Credit Alpha Portfolio, Inc.",
+      "reason": "no us-gaap balance sheet for MUNEX"
+    },
+    {
+      "ticker": "PTLO",
+      "name": "Portillo's Inc.",
+      "reason": "share count for PTLO predates its balance sheet (2024-07-30 < 2026-06-28)"
+    },
+    {
+      "ticker": null,
+      "name": "HPS Real Assets Lending Co LP",
+      "reason": "no ticker on Form 4"
+    },
+    {
+      "ticker": "BTMD",
+      "name": "biote Corp.",
+      "reason": "share count for BTMD predates its balance sheet (2022-12-31 < 2026-06-30)"
+    },
+    {
+      "ticker": "UA",
+      "name": "Under Armour, Inc.",
+      "reason": "no basic share count for UA"
+    },
+    {
+      "ticker": "PNAQ",
+      "name": "Pinnacle Acquisition Corp",
+      "reason": "no us-gaap balance sheet for PNAQ"
+    },
+    {
+      "ticker": "VIA",
+      "name": "Via Transportation, Inc.",
+      "reason": "no basic share count for VIA"
+    },
+    {
+      "ticker": "RAIN",
+      "name": "Rain Enhancement Technologies Holdco, Inc.",
+      "reason": "no basic share count for RAIN"
+    },
+    {
+      "ticker": "OPFI",
+      "name": "OppFi Inc.",
+      "reason": "share count for OPFI predates its balance sheet (2025-08-05 < 2026-06-30)"
+    },
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "reason": "no basic share count for SUJA"
+    },
+    {
+      "ticker": "STWI",
+      "name": "StageWise Strategies Corp.",
+      "reason": "no share price for STWI"
+    },
+    {
+      "ticker": "GLIBK",
+      "name": "Liberty Capital Corp/NV",
+      "reason": "no basic share count for GLIBK"
+    }
+  ]
+}
