@@ -1,0 +1,146 @@
+{
+  "url_date": "2026-08-14",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-08-13"
+  ],
+  "generated_at": "2026-08-14T10:32:24+00:00",
+  "tickers": [
+    {
+      "ticker": "TXO",
+      "name": "TXO Partners, L.P.",
+      "total_value": 2150545.0,
+      "ev_basic": 948297591.4202251,
+      "mc_basic": 785675591.4202251,
+      "insiders": [
+        {
+          "reporter_name": "SIMPSON BOB R",
+          "relationship": "Director, 10% Owner",
+          "total_value": 2150545.0,
+          "shares": 150000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "OPFI",
+      "name": "OppFi Inc.",
+      "total_value": 427680.0,
+      "ev_basic": 819640810.86131,
+      "mc_basic": 607534810.86131,
+      "insiders": [
+        {
+          "reporter_name": "Schwartz Todd G.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 427680.0,
+          "shares": 60000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BDSX",
+      "name": "BIODESIX INC",
+      "total_value": 366991.5,
+      "ev_basic": 271015106.87983704,
+      "mc_basic": 251011106.87983704,
+      "insiders": [
+        {
+          "reporter_name": "SCHULER JACK W",
+          "relationship": "10% Owner, Other (Emeritus Director)",
+          "total_value": 366991.5,
+          "shares": 15000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "EMBC",
+      "name": "Embecta Corp.",
+      "total_value": 364785.0,
+      "ev_basic": 214230558.4548726,
+      "mc_basic": 289530558.4548726,
+      "insiders": [
+        {
+          "reporter_name": "HOMBACH ROBERT J.",
+          "relationship": "Director",
+          "total_value": 223848.0,
+          "shares": 45000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Kurdikar Devdatt",
+          "relationship": "Director, Officer (President and CEO)",
+          "total_value": 140937.0,
+          "shares": 30000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SUNS",
+      "name": "Sunrise Realty Trust, Inc.",
+      "total_value": 152000.0,
+      "ev_basic": 95775307.5,
+      "mc_basic": 101368882.5,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 152000.0,
+          "shares": 20000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ATTO",
+      "name": "Attovia Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "BTDR",
+      "name": "Bitdeer Technologies Group",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "EVGN",
+      "name": "Evogene Ltd.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Crestline Lending Solutions, LLC",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "BRK.A",
+      "name": "BERKSHIRE HATHAWAY INC",
+      "cik": "1067983",
+      "reason": "no share price for BRK.A",
+      "transient": true
+    },
+    {
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "cik": "881787",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false
+    },
+    {
+      "ticker": "DFH",
+      "name": "Dream Finders Homes, Inc.",
+      "cik": "1825088",
+      "reason": "share count for DFH predates its balance sheet (2026-02-17 < 2026-06-30)",
+      "transient": false
+    }
+  ]
+}

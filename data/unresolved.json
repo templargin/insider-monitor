@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:40:28+00:00",
+  "generated_at": "2026-08-14T10:32:24+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -49,11 +49,219 @@
         ]
       },
       "first_seen": "2026-08-13T12:23:05+00:00",
-      "attempts": 1,
+      "attempts": 2,
       "abandoned": false,
-      "last_tried_date": "2026-08-13",
+      "last_tried_date": "2026-08-14",
       "last_reason": "no share price for STWI",
-      "last_tried": "2026-08-13T12:40:28+00:00"
+      "last_tried": "2026-08-14T10:30:35+00:00"
+    },
+    {
+      "url_date": "2026-08-14",
+      "cik": "1067983",
+      "ticker": "BRK.A",
+      "name": "BERKSHIRE HATHAWAY INC",
+      "reason": "no share price for BRK.A",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "BRK.A",
+        "name": "BERKSHIRE HATHAWAY INC",
+        "by_reporter": {
+          "1713777": {
+            "reporter_cik": "1713777",
+            "reporter_name": "O'Sullivan Michael J.",
+            "relationship": "Officer (See Remarks)",
+            "total_value": 250072.03,
+            "shares": 488.0,
+            "txn_count": 3
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "O'Sullivan Michael J.",
+              "reporter_cik": "1713777",
+              "relationship": "Officer (See Remarks)",
+              "issuer_cik": "1067983",
+              "issuer_ticker": "BRK.B",
+              "issuer_name": "BERKSHIRE HATHAWAY INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-08-12",
+                "code": "P",
+                "shares": 45.0,
+                "price": 510.64,
+                "total_value": 22978.8,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-08-12",
+                "code": "P",
+                "shares": 400.0,
+                "price": 512.52,
+                "total_value": 205008.0,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-08-12",
+                "code": "P",
+                "shares": 43.0,
+                "price": 513.61,
+                "total_value": 22085.23,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 250072.03
+          }
+        ]
+      },
+      "first_seen": "2026-08-14T10:32:24+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-14",
+      "cik": "881787",
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "CRT",
+        "name": "CROSS TIMBERS ROYALTY TRUST",
+        "by_reporter": {
+          "1168602": {
+            "reporter_cik": "1168602",
+            "reporter_name": "OLIVER ERIC L",
+            "relationship": "10% Owner",
+            "total_value": 261199.4,
+            "shares": 26082.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "OLIVER ERIC L",
+              "reporter_cik": "1168602",
+              "relationship": "10% Owner",
+              "issuer_cik": "881787",
+              "issuer_ticker": "CRT",
+              "issuer_name": "CROSS TIMBERS ROYALTY TRUST"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-08-11",
+                "code": "P",
+                "shares": 13132.0,
+                "price": 9.95,
+                "total_value": 130663.4,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-08-12",
+                "code": "P",
+                "shares": 12950.0,
+                "price": 10.08,
+                "total_value": 130536.0,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 261199.4
+          }
+        ]
+      },
+      "first_seen": "2026-08-14T10:32:24+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-14",
+      "cik": "1825088",
+      "ticker": "DFH",
+      "name": "Dream Finders Homes, Inc.",
+      "reason": "share count for DFH predates its balance sheet (2026-02-17 < 2026-06-30)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DFH",
+        "name": "Dream Finders Homes, Inc.",
+        "by_reporter": {
+          "1197193": {
+            "reporter_cik": "1197193",
+            "reporter_name": "BECKWITT RICHARD",
+            "relationship": "Director",
+            "total_value": 1264740.0,
+            "shares": 90000.0,
+            "txn_count": 3
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "BECKWITT RICHARD",
+              "reporter_cik": "1197193",
+              "relationship": "Director",
+              "issuer_cik": "1825088",
+              "issuer_ticker": "DFH",
+              "issuer_name": "Dream Finders Homes, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A common stock, par value $0.01 per share",
+                "transaction_date": "2026-08-11",
+                "code": "P",
+                "shares": 70000.0,
+                "price": 13.95,
+                "total_value": 976500.0,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A common stock, par value $0.01 per share",
+                "transaction_date": "2026-08-12",
+                "code": "P",
+                "shares": 8000.0,
+                "price": 13.83,
+                "total_value": 110640.0,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A common stock, par value $0.01 per share",
+                "transaction_date": "2026-08-13",
+                "code": "P",
+                "shares": 12000.0,
+                "price": 14.8,
+                "total_value": 177600.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1264740.0
+          }
+        ]
+      },
+      "first_seen": "2026-08-14T10:32:24+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

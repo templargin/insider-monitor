@@ -4,9 +4,9 @@
   "name": "BIODESIX INC",
   "description": "Biodesix, Inc. operates as a diagnostic solutions company. The company offers blood-based lung tests, including Nodify XL2 and Nodify CDT tests markets as Nodify Lung Nodule Risk Assessment testing to assess the risk of lung cancer and help in identifying the appropriate treatment pathway and help physicians in reclassifying risk of malignancy in patients with suspicious lung nodules. It also provides GeneStrat ddPCR, GeneStrat NGS, and VeriStrat tests markets as part of IQLung testing strategy, which are used in the diagnosis of lung cancer to measure the presence of mutations in the tumor and the state of the patient's immune system to guide treatment decisions. In addition, the company provides diagnostic solutions, including translational research, initial biomarker discovery, assay design, development and validation, testing of clinical trial samples, regulatory, reimbursement, commercialization, and logistical support services for biopharmaceutical, life sciences, and diagnostic companies. Further, it operates laboratories. The company was formerly known as Elston Technologies, Inc. and as changed to Biodesix, Inc. in 2006. Biodesix, Inc. was incorporated in 2005 and is headquartered in Louisville, Colorado.",
   "ownership": {
-    "inst_pct": 0.40980998,
+    "inst_pct": 0.41033,
     "insider_pct": 0.40133,
-    "inst_count": 49,
+    "inst_count": 50,
     "analyst_count": 6,
     "rec_mean": 1.0,
     "rec_key": "strong_buy",
@@ -14,10 +14,24 @@
     "short_pct_float": 0.025799999,
     "shares_short": 157187,
     "short_days_to_cover": 2.25,
-    "short_as_of": "2026-07-30",
-    "as_of": "2026-08-13"
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-14"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-13",
+      "reporter_name": "SCHULER JACK W",
+      "relationship": "10% Owner, Other (Emeritus Director)",
+      "transaction_date": "2026-08-12",
+      "code": "P",
+      "shares": 15000.0,
+      "price": 24.4661,
+      "total_value": 366991.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000905148-26-003641"
+    },
     {
       "date_filed": "2026-08-12",
       "reporter_name": "SCHULER JACK W",
@@ -3212,7 +3226,7 @@
     }
   ],
   "valuation": {
-    "share_price": 24.219999313354492,
+    "share_price": 23.790000915527344,
     "shares_basic": 10551118,
     "shares_basic_as_of": "2026-07-30",
     "options": 732000,
@@ -3221,8 +3235,8 @@
     "debt": 50000000,
     "debt_flag": null,
     "ttm_revenue": 102939000.0,
-    "mc_basic": 255548070.71512222,
-    "ev_basic": 275552070.7151222
+    "mc_basic": 251011106.87983704,
+    "ev_basic": 271015106.87983704
   },
   "financials": {
     "income_statement": {
@@ -4422,5 +4436,5 @@
       }
     }
   },
-  "last_updated": "2026-08-13T12:36:17+00:00"
+  "last_updated": "2026-08-14T10:32:52+00:00"
 }

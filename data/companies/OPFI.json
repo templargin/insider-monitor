@@ -4,9 +4,9 @@
   "name": "OppFi Inc.",
   "description": "OppFi Inc., a tech-enabled digital finance platform, provides financial products and services for banks in the United States. The company offers installment loans through OppLoans platform. It serves consumers who are turned away by mainstream options. OppFi Inc. was founded in 2012 and is based in Chicago, Illinois.",
   "ownership": {
-    "inst_pct": 0.25812998,
+    "inst_pct": 0.25775,
     "insider_pct": 0.60639,
-    "inst_count": 210,
+    "inst_count": 207,
     "analyst_count": 3,
     "rec_mean": 2.0,
     "rec_key": "buy",
@@ -14,10 +14,24 @@
     "short_pct_float": 0.028199999,
     "shares_short": 2404774,
     "short_days_to_cover": 3.98,
-    "short_as_of": "2026-07-30",
-    "as_of": "2026-08-13"
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-14"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-13",
+      "reporter_name": "Schwartz Todd G.",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-08-13",
+      "code": "P",
+      "shares": 60000.0,
+      "price": 7.128,
+      "total_value": 427680.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000905148-26-003647"
+    },
     {
       "date_filed": "2026-08-12",
       "reporter_name": "Schwartz Todd G.",
@@ -7143,24 +7157,10 @@
       "table": "nonDerivative",
       "ownership": "I",
       "accession": "0000905148-24-002229"
-    },
-    {
-      "date_filed": "2024-08-13",
-      "reporter_name": "Vennettilli David",
-      "relationship": "Director",
-      "transaction_date": "2024-08-09",
-      "code": "S",
-      "shares": -38886.0,
-      "price": 4.3364,
-      "total_value": -168625.25040000002,
-      "security_title": "Class A Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000905148-24-002166"
     }
   ],
   "valuation": {
-    "share_price": 6.860000133514404,
+    "share_price": 7.130000114440918,
     "shares_basic": 85208247.0,
     "shares_basic_as_of": "2026-08-06",
     "options": 1841792,
@@ -7169,8 +7169,8 @@
     "debt": 276453000,
     "debt_flag": null,
     "ttm_revenue": 611390000.0,
-    "mc_basic": 584528585.7965283,
-    "ev_basic": 796634585.7965283
+    "mc_basic": 607534810.86131,
+    "ev_basic": 819640810.86131
   },
   "financials": {
     "income_statement": {
@@ -8175,5 +8175,5 @@
       }
     }
   },
-  "last_updated": "2026-08-13T12:37:39+00:00"
+  "last_updated": "2026-08-14T10:34:15+00:00"
 }

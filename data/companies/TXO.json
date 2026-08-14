@@ -4,9 +4,9 @@
   "name": "TXO Partners, L.P.",
   "description": "TXO Partners, L.P., an oil and natural gas company, focuses on the acquisition, development, optimization, and exploitation of conventional oil, natural gas, and natural gas liquid reserves in North America. Its acreage positions are concentrated in the Permian Basin of West Texas and New Mexico; the San Juan Basin of New Mexico and Colorado; and the Williston Basin of Montana and North Dakota. TXO Partners, L.P. was formerly known as TXO Energy Partners, L.P. and changed its name to TXO Partners, L.P. in May 2023. The company was incorporated in 2012 and is based in Fort Worth, Texas.",
   "ownership": {
-    "inst_pct": 0.29315,
-    "insider_pct": 0.29341,
-    "inst_count": 67,
+    "inst_pct": 0.27044,
+    "insider_pct": 0.29792,
+    "inst_count": 64,
     "analyst_count": 3,
     "rec_mean": 1.0,
     "rec_key": "strong_buy",
@@ -15,9 +15,37 @@
     "shares_short": 739597,
     "short_days_to_cover": 6.56,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-12"
+    "as_of": "2026-08-14"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-13",
+      "reporter_name": "SIMPSON BOB R",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-13",
+      "code": "P",
+      "shares": 125000.0,
+      "price": 14.3183,
+      "total_value": 1789787.5,
+      "security_title": "Common Units",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001182684-26-000020"
+    },
+    {
+      "date_filed": "2026-08-13",
+      "reporter_name": "SIMPSON BOB R",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-12",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 14.4303,
+      "total_value": 360757.5,
+      "security_title": "Common Units",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001182684-26-000020"
+    },
     {
       "date_filed": "2026-08-11",
       "reporter_name": "SIMPSON BOB R",
@@ -1000,7 +1028,7 @@
     }
   ],
   "valuation": {
-    "share_price": 14.369999885559082,
+    "share_price": 14.170000076293945,
     "shares_basic": 55446407,
     "shares_basic_as_of": "2026-08-04",
     "options": 0,
@@ -1009,8 +1037,8 @@
     "debt": 270100000,
     "debt_flag": null,
     "ttm_revenue": 405956000.0,
-    "mc_basic": 796764862.2446623,
-    "ev_basic": 959386862.2446623
+    "mc_basic": 785675591.4202251,
+    "ev_basic": 948297591.4202251
   },
   "financials": {
     "income_statement": {
@@ -2044,5 +2072,5 @@
       }
     }
   },
-  "last_updated": "2026-08-12T11:23:26+00:00"
+  "last_updated": "2026-08-14T10:33:01+00:00"
 }

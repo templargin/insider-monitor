@@ -4,9 +4,9 @@
   "name": "Sunrise Realty Trust, Inc.",
   "description": "Sunrise Realty Trust, Inc. engages in commercial real estate lending business in the United States. The company focuses on originating commercial real estate (CRE) loans and providing capital to borrowers and sponsors with business plants collateralized by CRE assets. It also intends to diversify investment portfolio, targeting investments for mortgage loans, mezzanine loans, B-notes, commercial mortgage-backed securities, and debt-like preferred equity securities across CRE asset classes. The company has elected to be taxed as a real estate investment trust. As a result, it would not be subject to corporate income tax on that portion of its net income that is distributed to shareholders. Sunrise Realty Trust, Inc. was founded in 2023 and is headquartered in West Palm Beach, Florida.",
   "ownership": {
-    "inst_pct": 0.25011998,
-    "insider_pct": 0.28465998,
-    "inst_count": 97,
+    "inst_pct": 0.24726,
+    "insider_pct": 0.28822002,
+    "inst_count": 95,
     "analyst_count": 4,
     "rec_mean": 1.5,
     "rec_key": "strong_buy",
@@ -15,9 +15,37 @@
     "shares_short": 252745,
     "short_days_to_cover": 4.16,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-12"
+    "as_of": "2026-08-14"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-13",
+      "reporter_name": "Hetzel Brandon",
+      "relationship": "Officer (CFO and Treasurer)",
+      "transaction_date": "2026-08-12",
+      "code": "P",
+      "shares": 713.0,
+      "price": 7.58,
+      "total_value": 5404.54,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-056728"
+    },
+    {
+      "date_filed": "2026-08-13",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-08-11",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 7.6,
+      "total_value": 152000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-056738"
+    },
     {
       "date_filed": "2026-08-11",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -1014,7 +1042,7 @@
     }
   ],
   "valuation": {
-    "share_price": 7.489999771118164,
+    "share_price": 7.5,
     "shares_basic": 13515851,
     "shares_basic_as_of": "2026-08-03",
     "options": 0,
@@ -1023,8 +1051,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 24403566.0,
-    "mc_basic": 101233720.89646721,
-    "ev_basic": 95640145.89646721
+    "mc_basic": 101368882.5,
+    "ev_basic": 95775307.5
   },
   "financials": {
     "income_statement": {
@@ -1700,5 +1728,5 @@
       }
     }
   },
-  "last_updated": "2026-08-12T11:23:42+00:00"
+  "last_updated": "2026-08-14T10:33:32+00:00"
 }
