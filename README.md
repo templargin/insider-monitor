@@ -17,6 +17,34 @@ domain is set by `docs/CNAME`; DNS is a grey-cloud (unproxied) CNAME to
 its certificate through the Cloudflare proxy. The old
 `templargin.github.io/insider-monitor` address still works and redirects.
 
+### The favicon is a copy of an asset owned by another repo
+
+`sitegen/static/favicon-{16,32,180,192,512}.png` are the Aspan mark, shared with
+aspancapital.com and research.aspancapital.com. They are **pre-generated and
+committed**, not built — the daily run's static step is a plain file copy, and
+putting Pillow in the path of the 6am screener to render an icon would be a poor
+trade.
+
+The master lives in the *sibling* repo: `~/dev/aspan-capital/research/site/brand/`
+(`icon-small.png` for ≤192px, `icon-large.png` above). Nothing enforces the link, so
+**if the brand mark ever changes, these PNGs will silently keep the old one.**
+Regenerate with the same center-crop-then-resize step `research/site_render.py`
+uses — the sources are non-square and scaling them as-is squashes the mark:
+
+```python
+from PIL import Image
+BRAND = "/Users/templargin/dev/aspan-capital/research/site/brand"
+DEST  = "sitegen/static"
+for n in [16, 32, 180, 192, 512]:
+    src = f"{BRAND}/" + ("icon-small.png" if n <= 192 else "icon-large.png")
+    im = Image.open(src).convert("RGBA")
+    w, h = im.size; s = min(w, h)
+    im = im.crop(((w-s)//2, (h-s)//2, (w-s)//2+s, (h-s)//2+s))
+    im.resize((n, n), Image.LANCZOS).save(f"{DEST}/favicon-{n}.png", "PNG")
+```
+
+The `<link rel="icon">` tags and `theme-color` live in `sitegen/templates/layout.html`.
+
 ## URLs
 
 - `/insiders/YYYY/` — months
