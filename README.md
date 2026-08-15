@@ -11,7 +11,11 @@ The daily page carries **only companies that met those criteria** — no "couldn
 list beside them. Everything that reached no verdict is accounted for off the page:
 see *Verdicts, scope, and the retry queue* below.
 
-Static site published to GitHub Pages at <https://templargin.github.io/insider-monitor>.
+Static site published to GitHub Pages at <https://im.aspancapital.com>. The custom
+domain is set by `docs/CNAME`; DNS is a grey-cloud (unproxied) CNAME to
+`templargin.github.io` in the `aspancapital.com` Cloudflare zone — GitHub cannot issue
+its certificate through the Cloudflare proxy. The old
+`templargin.github.io/insider-monitor` address still works and redirects.
 
 ## URLs
 
