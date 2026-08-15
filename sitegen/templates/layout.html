@@ -4,6 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}insider-monitor{% endblock %}</title>
+  {#- Same mark as aspancapital.com and research.aspancapital.com. The PNGs are
+      pre-generated into sitegen/static/ (center-cropped square, then resized) so the
+      daily build stays a plain file copy and never needs Pillow. #}
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ root }}static/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ root }}static/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ root }}static/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ root }}static/favicon-180.png">
+  <meta name="theme-color" content="#273689">
   <link rel="stylesheet" href="{{ root }}static/style.css">
 </head>
 <body>
