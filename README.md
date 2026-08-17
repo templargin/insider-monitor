@@ -146,6 +146,8 @@ The cap-structure **Total debt** (and therefore EV) comes from `scraper/xbrl_sta
 
 The test of the design: there is **no list of debt leaf tags to extend**. A filer's next exotic borrowing tag is captured by family pattern + tier dedup, or it surfaces as a flag — never as a silent $0.
 
+**Why the Ratios table can blank where this block prints a number.** `get_structured_debt` is point-in-time — it answers only for the latest balance-sheet date — so the Ratios rows that need a *per-period* debt series (`Debt / Equity`, `Net Debt`) fall back to the balance-sheet grid's two-leg `Current Debt` + `Long-term Debt` ladder, which is exactly the leaf-tag approach this section replaced. The rule there (`_build_ratios`): sum the legs the filer actually tags; a leg never tagged is nil, so the other leg alone is the debt; a leg tagged but blank for one period is unknown; **tagging neither leg is unknown too, never debt-free.** So the ~115 filers whose borrowings the two-leg ladder cannot see — banks, REITs, CUBI's $3.46B, FBRT's $2.85B — show `—` in those two rows and defer to the audited figure above, rather than reading as low-geared. Two known gaps remain: the bare current-inclusive `LongTermDebt` leaf double-counts against `Current Debt` on 8 of 417 cells (DBGI, FMBM, HNRG, KINS), and the ladder still disagrees with the classifier by >5% on ~20 filers. A per-period `get_structured_debt(facts, as_of=…)` would retire the fallback entirely — every helper beneath it is already date-parameterized — but that historical path is unaudited, so it is not wired in.
+
 ## Ownership & analyst coverage
 
 Each company page shows an **Ownership & coverage** table next to the cap structure: institutional %, insider %, number of institutions, analyst count, consensus rating, average price target, and short interest (% of float + days to cover). All of it comes from the same yfinance `info` fetch that already supplies the business description (`scraper/financials.py::fetch_profile` — one Yahoo call serves both), plus `major_holders` for the institution count.
@@ -277,6 +279,19 @@ Current, and deliberately not yet fixed:
 - **A few pages show a 100% gross margin that is the filer's own inconsistency**
   (e.g. HCWB tags a `GrossProfit` larger than its own revenue), bounded by the
   `GP ≤ Revenue` accounting clamp. Reported, not fabricated by us.
+- **The Quick Ratio row is blank for ~115 companies.** The `Inventory` ladder is
+  the single tag `InventoryNet`, so any filer tagging inventory otherwise loses the
+  row. Absence cannot be read as "no inventory" and zero-filled: Lovesac (LOVE)
+  carries $109M under `RetailRelatedInventoryMerchandise` and would render a
+  flattering quick ratio. The fix is a wider inventory ladder, not a fallback.
+- **Balance-sheet restatement ties are broken by accession *string*, not filing
+  date.** `_series_one_tag_balance` (and three sibling call sites) pick the fact
+  with the greatest `accn`, but accession prefixes are filing-agent CIKs — so when
+  a filer changes agent, a stale figure can beat a later one. RCEL's FY24
+  `LongTermDebtNoncurrent` reads 0 from a self-filed Q2'25 10-Q instead of the
+  $42.245M in the 2026 10-K, publishing a false debt-free `Debt / Equity 0.00`.
+  Ordering by `filed` fixes it; six all-zero cells exist today (LODE ×3, NATR,
+  RCEL, TUSK).
 - **No test exercises the real statement builder.** Unit tests stub
   `fetch_xbrl_financials` or hand-build grids, so a rename of a canonical row label
   (e.g. `"Total Revenue"`) would zero every company's revenue with a fully green
