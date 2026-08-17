@@ -4,9 +4,9 @@
   "name": "OppFi Inc.",
   "description": "OppFi Inc., a tech-enabled digital finance platform, provides financial products and services for banks in the United States. The company offers installment loans through OppLoans platform. It serves consumers who are turned away by mainstream options. OppFi Inc. was founded in 2012 and is based in Chicago, Illinois.",
   "ownership": {
-    "inst_pct": 0.25775,
+    "inst_pct": 0.26895002,
     "insider_pct": 0.60639,
-    "inst_count": 207,
+    "inst_count": 203,
     "analyst_count": 3,
     "rec_mean": 2.0,
     "rec_key": "buy",
@@ -15,9 +15,23 @@
     "shares_short": 2404774,
     "short_days_to_cover": 3.98,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-14"
+    "as_of": "2026-08-17"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-14",
+      "reporter_name": "Schwartz Todd G.",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 7.2006,
+      "total_value": 144012.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000905148-26-003768"
+    },
     {
       "date_filed": "2026-08-13",
       "reporter_name": "Schwartz Todd G.",
@@ -7143,24 +7157,10 @@
       "table": "nonDerivative",
       "ownership": "I",
       "accession": "0000905148-24-002310"
-    },
-    {
-      "date_filed": "2024-08-14",
-      "reporter_name": "Schwartz Todd G.",
-      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
-      "transaction_date": "2024-08-12",
-      "code": "D",
-      "shares": -154655.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Class V Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000905148-24-002229"
     }
   ],
   "valuation": {
-    "share_price": 7.130000114440918,
+    "share_price": 7.159999847412109,
     "shares_basic": 85208247.0,
     "shares_basic_as_of": "2026-08-06",
     "options": 1841792,
@@ -7169,8 +7169,8 @@
     "debt": 276453000,
     "debt_flag": null,
     "ttm_revenue": 611390000.0,
-    "mc_basic": 607534810.86131,
-    "ev_basic": 819640810.86131
+    "mc_basic": 610091035.5182533,
+    "ev_basic": 822197035.5182533
   },
   "financials": {
     "income_statement": {
@@ -8175,5 +8175,5 @@
       }
     }
   },
-  "last_updated": "2026-08-14T10:34:15+00:00"
+  "last_updated": "2026-08-17T10:35:19+00:00"
 }

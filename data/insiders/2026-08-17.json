@@ -1,0 +1,136 @@
+{
+  "url_date": "2026-08-17",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-08-14",
+    "2026-08-15",
+    "2026-08-16"
+  ],
+  "generated_at": "2026-08-17T10:33:05+00:00",
+  "tickers": [
+    {
+      "ticker": "OTLK",
+      "name": "Outlook Therapeutics, Inc.",
+      "total_value": 2499999.48,
+      "ev_basic": 110593390.37961268,
+      "mc_basic": 91372616.37961268,
+      "insiders": [
+        {
+          "reporter_name": "Sukhtian Ghiath M.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 2499999.48,
+          "shares": 2525252.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ANGX",
+      "name": "Angel Studios, Inc.",
+      "total_value": 1480600.8391927,
+      "ev_basic": 841386428.8362865,
+      "mc_basic": 815023393.8362865,
+      "insiders": [
+        {
+          "reporter_name": "Sarowitz Steven I",
+          "relationship": "Director",
+          "total_value": 1355593.6165,
+          "shares": 353815.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Harmon Neal",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 125007.2226927,
+          "shares": 29035.659,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BPRN",
+      "name": "Princeton Bancorp, Inc.",
+      "total_value": 452730.25200000004,
+      "ev_basic": 229979855.78689575,
+      "mc_basic": 296169855.78689575,
+      "insiders": [
+        {
+          "reporter_name": "TUCHMAN MARTIN",
+          "relationship": "Director, 10% Owner",
+          "total_value": 452730.25200000004,
+          "shares": 10534.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "QTRX",
+      "name": "Quanterix Corp",
+      "total_value": 286354.1,
+      "ev_basic": 78320034.29080367,
+      "mc_basic": 122489034.29080367,
+      "insiders": [
+        {
+          "reporter_name": "DONNELLY WILLIAM P",
+          "relationship": "Director",
+          "total_value": 286354.1,
+          "shares": 99400.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "PAL",
+      "name": "Proficient Auto Logistics, Inc",
+      "total_value": 272500.0,
+      "ev_basic": 210351449.5,
+      "mc_basic": 154291076.5,
+      "insiders": [
+        {
+          "reporter_name": "Lal Rohit",
+          "relationship": "Director",
+          "total_value": 272500.0,
+          "shares": 50000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "OPFI",
+      "name": "OppFi Inc.",
+      "total_value": 144012.0,
+      "ev_basic": 822197035.5182533,
+      "mc_basic": 610091035.5182533,
+      "insiders": [
+        {
+          "reporter_name": "Schwartz Todd G.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 144012.0,
+          "shares": 20000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Audax Private Credit Fund, LLC",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
