@@ -1394,7 +1394,8 @@ def _drop_redundant_nci_row(stmt):
 def _build_ratios(is_stmt, bs_stmt):
     """Build a ratios grid from already-extracted IS + BS data, aligned by period end.
 
-    Rows: Current Ratio, Quick Ratio, Debt / Equity, Net Debt, Working Capital, ROE %, ROA %.
+    Rows: Current Ratio, Quick Ratio, Debt / Equity, EBITDA Margin %,
+    Working Capital, Net Debt, ROE %, ROA %.
     """
     periods = is_stmt.get("periods", [])
     if not periods:
@@ -1421,8 +1422,6 @@ def _build_ratios(is_stmt, bs_stmt):
     ca = bs_row("Total Current Assets")
     assets = bs_row("Total Assets")
     cl = bs_row("Total Current Liabilities")
-    lt_debt = bs_row("Long-term Debt")
-    total_liab = bs_row("Total Liabilities")
     equity = bs_row("Total Equity")
 
     def safe_div(a, b):
@@ -1437,8 +1436,23 @@ def _build_ratios(is_stmt, bs_stmt):
     def safe_pct(a, b):
         return [(100 * x / y) if (x is not None and y is not None and y != 0) else None for x, y in zip(a, b)]
 
+    # Debt = the debt legs this filer actually reports. Net Debt used to net
+    # cash against the long-term leg alone, and Debt / Equity divided Total
+    # Liabilities — not debt — by equity, so PAL's $64M of debt against $303M of
+    # equity read 0.52 instead of 0.21.
+    #
+    # A leg missing from the grid entirely was never tagged in any filing, so
+    # the other leg alone is the debt — checked against the cap-structure
+    # classifier on 151 such cells (AMPY, PAR, TXO, CDLX: long-term leg equal to
+    # the dollar). A leg that IS tagged but blank for one period is a real
+    # unknown, so safe_add blanks that period. Reporting neither leg is likewise
+    # unknown, never debt-free: banks and REITs whose borrowings this two-tag
+    # ladder cannot see must not read as low-geared here — CUBI carries $3.46B
+    # in the cap-structure block — so they blank out and defer to that figure.
+    legs = [bs_row(r) for r in ("Current Debt", "Long-term Debt") if r in bs_labels]
+    debt = safe_add(*legs) if len(legs) == 2 else (legs[0] if legs else [None] * n)
     quick_assets = safe_sub(ca, inventory)
-    net_debt = safe_sub(lt_debt, cash)
+    net_debt = safe_sub(debt, cash)
     working_cap = safe_sub(ca, cl)
     ebitda_margin = safe_pct(ebitda, revenue)
 
@@ -1455,7 +1469,7 @@ def _build_ratios(is_stmt, bs_stmt):
     data = [
         safe_div(ca, cl),
         safe_div(quick_assets, cl),
-        safe_div(total_liab, equity),
+        safe_div(debt, equity),
         ebitda_margin,
         working_cap,
         net_debt,
