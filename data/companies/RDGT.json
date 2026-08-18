@@ -444,9 +444,136 @@
     },
     "cash_flow": {
       "quarterly": {
-        "labels": [],
-        "periods": [],
-        "data": []
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6M 9/30/25",
+          "6M 9/30/24",
+          "6M 9/30/23",
+          "6M 9/30/22"
+        ],
+        "data": [
+          [
+            -60167,
+            -2277092,
+            -924261,
+            -595034
+          ],
+          [
+            29471,
+            500965,
+            320966,
+            630533
+          ],
+          [
+            null,
+            null,
+            null,
+            1717000
+          ],
+          [
+            5377330,
+            -8178690,
+            1325997,
+            -694757
+          ],
+          [
+            5346634,
+            -9954817,
+            722702,
+            1057742
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -154473,
+            -9294,
+            -25633
+          ],
+          [
+            null,
+            null,
+            -1316324,
+            null
+          ],
+          [
+            null,
+            -430286,
+            -1325618,
+            -83421
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            7633000,
+            2589600,
+            1500000
+          ],
+          [
+            -5865812,
+            null,
+            -2261677,
+            -4483615
+          ],
+          [
+            -5865812,
+            7828037,
+            327923,
+            -2983615
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            23463,
+            775802,
+            -1695331,
+            -3211290
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -10109290,
+            713408,
+            1032109
+          ]
+        ],
+        "basis": "ytd"
       },
       "annual": {
         "labels": [

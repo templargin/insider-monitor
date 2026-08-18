@@ -451,9 +451,118 @@
     },
     "cash_flow": {
       "quarterly": {
-        "labels": [],
-        "periods": [],
-        "data": []
+        "labels": [
+          "Net Income",
+          "D&A",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6M 6/30/25",
+          "6M 6/30/24",
+          "6M 6/30/23"
+        ],
+        "data": [
+          [
+            -3827000,
+            -3649000,
+            -991000
+          ],
+          [
+            226000,
+            363000,
+            182000
+          ],
+          [
+            -1415000,
+            -1087000,
+            -20000
+          ],
+          [
+            -5016000,
+            -4373000,
+            -829000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -13000,
+            null,
+            null
+          ],
+          [
+            null,
+            1854000,
+            869000
+          ],
+          [
+            10000,
+            1854000,
+            869000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -98000,
+            null,
+            null
+          ],
+          [
+            4662000,
+            null,
+            null
+          ],
+          [
+            null,
+            3107000,
+            14157000
+          ],
+          [
+            4548000,
+            3107000,
+            14157000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            224000,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -5029000,
+            null,
+            null
+          ]
+        ],
+        "basis": "ytd"
       },
       "annual": {
         "labels": [

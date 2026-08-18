@@ -448,9 +448,100 @@
     },
     "cash_flow": {
       "quarterly": {
-        "labels": [],
-        "periods": [],
-        "data": []
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6M 6/30/25",
+          "6M 6/30/24"
+        ],
+        "data": [
+          [
+            -1975420,
+            390081
+          ],
+          [
+            141432,
+            184531
+          ],
+          [
+            1764000,
+            null
+          ],
+          [
+            -2873560,
+            -868671
+          ],
+          [
+            -2943548,
+            -294059
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -618796,
+            -5743
+          ],
+          [
+            -4401070,
+            null
+          ],
+          [
+            -5019866,
+            -5743
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            7060133,
+            null
+          ],
+          [
+            null,
+            1473669
+          ],
+          [
+            6909798,
+            1473669
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            301762,
+            -176010
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -3562344,
+            -299802
+          ]
+        ],
+        "basis": "ytd"
       },
       "annual": {
         "labels": [

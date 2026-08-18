@@ -86,6 +86,8 @@ bought links here, and that purchase still happened.</p>
 </section>
 
 <section class="financials">
+  {# Annual unless the filer has no annual statements at all — see generate._default_freq #}
+  {% set dfreq = default_freq or "annual" %}
   <h2>Financial statements</h2>
   <div class="tabs-row">
     <div class="tabs">
@@ -95,8 +97,8 @@ bought links here, and that purchase still happened.</p>
       <button class="tab" data-tab="ratios">Ratios</button>
     </div>
     <div class="tab-controls">
-      <button class="freq" data-freq="quarterly">Quarterly</button>
-      <button class="freq active" data-freq="annual">Annual</button>
+      <button class="freq{% if dfreq == 'quarterly' %} active{% endif %}" data-freq="quarterly">Quarterly</button>
+      <button class="freq{% if dfreq != 'quarterly' %} active{% endif %}" data-freq="annual">Annual</button>
     </div>
   </div>
 
@@ -105,7 +107,7 @@ bought links here, and that purchase still happened.</p>
     {% set stmt = data.financials[stmt_key] %}
     {% for freq in ["quarterly", "annual"] %}
       {% set t = stmt[freq] %}
-      <div class="freq-panel" data-freq="{{ freq }}"{% if freq != "annual" %} hidden{% endif %}>
+      <div class="freq-panel" data-freq="{{ freq }}"{% if freq != dfreq %} hidden{% endif %}>
         {% if t and t.labels %}
         <div class="table-scroll">
         <table class="fin-table">
@@ -137,6 +139,14 @@ bought links here, and that purchase still happened.</p>
           </tbody>
         </table>
         </div>
+        {% if t.basis == "ytd" %}
+        <p class="subtle">
+          Year-to-date columns, not discrete quarters — this filer reports its cash
+          flow statement cumulatively from the start of the fiscal year and has not
+          published two interim periods within one year that could be subtracted to
+          isolate a quarter. Each column's span is in its heading.
+        </p>
+        {% endif %}
         {% else %}
         <p class="subtle">No {{ freq }} data available.</p>
         {% endif %}

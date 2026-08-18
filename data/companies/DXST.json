@@ -423,9 +423,75 @@
     },
     "cash_flow": {
       "quarterly": {
-        "labels": [],
-        "periods": [],
-        "data": []
+        "labels": [
+          "Net Income",
+          "D&A",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash"
+        ],
+        "periods": [
+          "6M 4/30/25",
+          "6M 4/30/24"
+        ],
+        "data": [
+          [
+            -479165,
+            -15849
+          ],
+          [
+            36951,
+            35364
+          ],
+          [
+            -170341,
+            -338945
+          ],
+          [
+            -612555,
+            -319430
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -1945771,
+            null
+          ],
+          [
+            -1945771,
+            -75694
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            3023590,
+            null
+          ],
+          [
+            3023590,
+            -37249
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -33880,
+            16680
+          ]
+        ],
+        "basis": "ytd"
       },
       "annual": {
         "labels": [

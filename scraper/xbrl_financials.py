@@ -41,6 +41,37 @@ def _duration_band(d):
     return None
 
 
+# A fiscal year's start date is not quoted identically by every filing that
+# reports it: Flanigan's (BDL) 10-K opens FY2025 on 2024-09-30 while the three
+# 10-Qs of that same year open it on 2024-09-29, and its restated Q2 moves an
+# earlier year's start by two days. Exact-match grouping would put the 10-K's
+# annual fact in a bucket of its own and lose the Q4 = FY − 9M subtraction, so
+# starts within a week of each other are treated as the same fiscal year. A week
+# is far below the ~90-day gap to the next distinct start inside a year (the
+# discrete quarters') and far below the 364/371-day gap to the next year's, so
+# the tolerance cannot merge two periods that are genuinely different.
+_FY_START_TOLERANCE_DAYS = 7
+
+
+def _fy_starts(facts):
+    """Map each distinct `start` to a canonical one, clustering near-identical dates."""
+    canon, anchor = {}, None
+    for s in sorted({f.get("start") for f in facts if f.get("start")}):
+        try:
+            d = date.fromisoformat(s)
+        except ValueError:
+            canon[s] = s
+            continue
+        if anchor is None or (d - date.fromisoformat(anchor)).days > _FY_START_TOLERANCE_DAYS:
+            anchor = s
+        canon[s] = anchor
+    return canon
+
+
+def _fy_bucket(start, canon):
+    return canon.get(start, start)
+
+
 def _series_one_tag_quarterly(usg, tag, unit="USD", derive_ytd=True):
     """Discrete-quarterly series for ONE tag, deriving Q4 / fills from YTD.
 
@@ -67,6 +98,7 @@ def _series_one_tag_quarterly(usg, tag, unit="USD", derive_ytd=True):
         if prev is None or f.get("accn", "") > prev.get("accn", ""):
             deduped[key] = f
     facts = list(deduped.values())
+    fy_starts = _fy_starts(facts)
 
     # First pass: 60-100d facts ARE discrete quarters.
     discrete = {f["end"]: f["val"] for f in facts if _duration_band(_period_days(f)) == (60, 100)}
@@ -75,19 +107,24 @@ def _series_one_tag_quarterly(usg, tag, unit="USD", derive_ytd=True):
         return discrete
 
     # Second pass: YTD derivation for periods discrete didn't cover.
-    # NOTE: groups by calendar year of end date — correct for the dominant
-    # Dec-31 fiscal-year case. For non-calendar fiscal years (e.g., FY ending
-    # June or September), this can mis-bucket the FY/Q1 transition. Acceptable
-    # for our sub-$1B universe where Dec-FY is overwhelmingly common.
-    by_year = defaultdict(list)
+    # Grouped by the period's START date, which is what a fiscal year actually
+    # is: every year-to-date fact of one fiscal year — Q1, H1, 9M, FY — shares
+    # the same start, whatever month that year ends in. Grouping by calendar
+    # year of the END date (the previous rule) split the walk for every filer
+    # whose year does not end in December: an August-year filer's Q1 (ends
+    # 11/30) landed in one bucket and its H1 (ends 2/28) in the next, so the
+    # H1 quarter could never be derived and that column of the cash-flow tab
+    # carried no cash flows at all — 22 of 249 stored filers had exactly one
+    # such hole (AERA, AXR, AZTA, BUKS, DLHC, FONR, KRNY, LEE, ONEW, VRA, …),
+    # and 11 more published four "quarters" that silently skipped one (LOVE,
+    # PETS, PETV, UUU, XAIR, EML, FOSL, NTRP, OXM, SKIL, YEXT).
+    # Discrete non-Q1 quarters start mid-year and so form their own one-fact
+    # buckets, which emit nothing — they were already written by the first pass.
+    by_start = defaultdict(list)
     for f in facts:
-        try:
-            yr = date.fromisoformat(f["end"]).year
-        except ValueError:
-            continue
-        by_year[yr].append((_period_days(f), f))
+        by_start[_fy_bucket(f.get("start"), fy_starts)].append((_period_days(f), f))
 
-    for yr, items in by_year.items():
+    for _, items in by_start.items():
         items.sort(key=lambda x: x[0])
         cum_val, cum_dur = None, None
         for dur, f in items:
@@ -118,6 +155,50 @@ def _series_one_tag_annual(usg, tag, unit="USD"):
     return {end: v for end, (v, _) in by_end.items()}
 
 
+# Interim year-to-date bands: half-year and nine-month. The quarter band is
+# deliberately absent — a fiscal Q1 IS its own year-to-date, and the discrete
+# pass above already holds it. The full-year band is absent too: that column
+# belongs to the annual panel.
+_INTERIM_YTD_BANDS = ((150, 200), (240, 290))
+
+
+def _series_one_tag_ytd(usg, tag, unit="USD"):
+    """Cumulative interim (H1 / 9M) facts, keyed by period end.
+
+    Only consulted as a fallback for a filer whose cash flows yield NO discrete
+    quarter at all — which is exactly the filer whose interim facts are all
+    cumulative, so no discrete-quarter fact can be mistaken for a YTD one here.
+    """
+    by_end = {}
+    for f in usg.get(tag, {}).get("units", {}).get(unit, []):
+        band = _duration_band(_period_days(f))
+        if band not in _INTERIM_YTD_BANDS:
+            continue
+        end = f["end"]
+        if end not in by_end or f.get("accn", "") > by_end[end][1]:
+            by_end[end] = (f["val"], f.get("accn", ""))
+    return {end: v for end, (v, _) in by_end.items()}
+
+
+def _ytd_span_labels(usg, line_items, period_ends):
+    """Period labels for a YTD grid — '6M 6/29/26' — so a cumulative column can
+    never be read as a discrete quarter."""
+    spans = {}
+    for _, cands in line_items:
+        for cand in cands:
+            tags = [cand] if isinstance(cand, str) else list(cand[1])
+            for tag in tags:
+                for f in usg.get(tag, {}).get("units", {}).get("USD", []):
+                    d = _period_days(f)
+                    if _duration_band(d) in _INTERIM_YTD_BANDS:
+                        spans[f["end"]] = max(spans.get(f["end"], 0), d)
+    out = []
+    for e in period_ends:
+        d = spans.get(e)
+        out.append(f"{round(d / 91.3) * 3}M {_fmt_period(e)}" if d else _fmt_period(e))
+    return out
+
+
 def _series_one_tag_balance(usg, tag, unit="USD"):
     """Point-in-time facts."""
     entries = usg.get(tag, {}).get("units", {}).get(unit, [])
@@ -142,6 +223,8 @@ def _series_one_tag(usg, tag, freq, unit="USD", derive_ytd=True):
         return _series_one_tag_annual(usg, tag, unit)
     if freq == "balance":
         return _series_one_tag_balance(usg, tag, unit)
+    if freq == "ytd":
+        return _series_one_tag_ytd(usg, tag, unit)
     return {}
 
 
@@ -371,7 +454,15 @@ LI_CF = [
     # NetIncomeLoss carry opposite signs. The Δ Working Cap & Other plug
     # re-absorbs any difference, so the operating section still foots.
     ("Net Income", ["ProfitLoss", "NetIncomeLoss"]),
-    ("D&A", ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization", "Depreciation"]),
+    # `Depreciation` alone is the last resort, not the second: a filer that tags
+    # the combined concept only on its cumulative interim column (SUJA — one
+    # 10-Q, DD&A tagged for the half-year only) still tags depreciation and
+    # intangible amortization separately per quarter, and taking depreciation on
+    # its own drops the amortization — 5.6M of SUJA's 7.5M Q2 D&A, which then
+    # overstated the EBITDA the income statement derives from this row.
+    ("D&A", ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization",
+             ("sum", ["Depreciation", "AmortizationOfIntangibleAssets"]),
+             "Depreciation"]),
     ("Stock-Based Comp", ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense"]),
     ("Operating Cash Flow", ["NetCashProvidedByUsedInOperatingActivities"]),
     ("CapEx", ["PaymentsToAcquirePropertyPlantAndEquipment",
@@ -980,11 +1071,29 @@ def _reconcile_shares(stmt):
     Also corrects a wrong EPS *sign*: some filers tag EPS with the opposite sign
     of net income (e.g. AWRE: NI = +$5.9M but EPS = −$0.28). When EPS×shares
     matches net income in magnitude but not sign, flip the EPS sign. Gated tight
-    (magnitude within 10%) so it never touches a legitimate loss-per-share."""
+    (magnitude within 10%) so it never touches a legitimate loss-per-share.
+
+    Ground truth is the PARENT's earnings, which is what EPS is struck on:
+    `Net Income to Common` when the filer reports a noncontrolling interest, else
+    `Net Income`. Measuring the incl.-NCI figure against the parent's EPS misses
+    by the size of the NCI, and for an Up-C issuer whose public company holds a
+    minority of the operating LLC that is most of it — so SUJA's own 1000x unit
+    slip (23,789 tagged where 23,788,700 shares were meant) sat too far from the
+    implied count to be recognised, and the page printed 0.02M weighted-average
+    shares beside a $227M market cap.
+
+    The parent row is used only when it agrees in SIGN with net income, because
+    on several filers it is not a parent share at all but the same figure
+    mis-tagged: ACCS and CVM tag `NetIncomeLoss` with the opposite sign to
+    `ProfitLoss`, and CBIO tags it both sign-flipped and 1000x off. Trusting
+    those as ground truth rescaled correct share counts and flipped correct EPS
+    signs; a plausibility gate the size of a sign is enough to exclude all of
+    them, and none of them has a real noncontrolling interest to lose."""
     labels = stmt["labels"]
     if "Net Income" not in labels:
         return stmt
     ni = stmt["data"][labels.index("Net Income")]
+    parent = stmt["data"][labels.index("Net Income to Common")] if "Net Income to Common" in labels else None
     for eps_l, sh_l in (("Basic EPS", "Basic Avg Shares"), ("Diluted EPS", "Diluted Avg Shares")):
         if eps_l not in labels or sh_l not in labels:
             continue
@@ -992,7 +1101,11 @@ def _reconcile_shares(stmt):
         sh_i = labels.index(sh_l)
         sh = stmt["data"][sh_i]
         for i in range(len(sh)):
-            e, s, n = (eps[i] if i < len(eps) else None), sh[i], (ni[i] if i < len(ni) else None)
+            n = ni[i] if i < len(ni) else None
+            pv = parent[i] if (parent is not None and i < len(parent)) else None
+            if n is not None and pv is not None and pv != 0 and (pv > 0) == (n > 0):
+                n = pv
+            e, s = (eps[i] if i < len(eps) else None), sh[i]
             if e is None or s is None or n is None or abs(e) < 0.01 or s <= 0:
                 continue
             implied = abs(n / e)
@@ -1135,6 +1248,27 @@ def _add_ebitda(is_stmt, cf_stmt):
     is_stmt["labels"].append("EBITDA")
     is_stmt["data"].append(ebitda)
     return is_stmt
+
+
+CF_SECTION_SUBTOTALS = ("Operating Cash Flow", "Investing Cash Flow", "Financing Cash Flow")
+
+
+def _has_cashflow(stmt):
+    """True when the grid carries at least one section subtotal somewhere.
+
+    Net Income, D&A and Stock-Based Comp are read from income-statement concepts
+    that many filers tag per discrete quarter even when they present the cash
+    flow statement only cumulatively. A grid holding just those three is not a
+    cash flow statement — it is three orphan rows on a period the filer reported
+    no cash flows for, with no section that foots and no ΔCash to reconcile.
+    """
+    labels = (stmt or {}).get("labels") or []
+    for name in CF_SECTION_SUBTOTALS:
+        if name in labels:
+            row = stmt["data"][labels.index(name)]
+            if any(v is not None for v in row):
+                return True
+    return False
 
 
 def _add_fcf(cf_stmt):
@@ -1570,8 +1704,42 @@ def fetch_xbrl_financials(cik, facts=None):
     is_a_c = _drop_redundant_nci_row(_canonicalize(_strip(is_a), INCOME_CANONICAL, "annual"))
     bs_q_c = _canonicalize(_strip(bs_q), BALANCE_CANONICAL, "quarterly", display_n=4)
     bs_a_c = _canonicalize(_strip(bs_a), BALANCE_CANONICAL, "annual")
+    # Cumulative fallback for the quarterly cash-flow panel. A filer whose only
+    # XBRL is interim (a fresh IPO — SUJA's single 10-Q) or who reports on a
+    # half-year cadence (a 20-F/6-K issuer — SLGL) tags its cash flows YTD and
+    # never twice in one year, so no discrete quarter can be subtracted out and
+    # the quarterly grid comes back with no cash flows in it at all. The cash
+    # flows ARE disclosed; publishing the half-year column the filer actually
+    # reported beats both the three orphan rows this used to render and the
+    # empty tab that suppressing them alone would leave. Columns are labelled by
+    # their span ("6M 6/29/26") so they cannot be read as discrete quarters.
+    if not _has_cashflow(cf_q):
+        cf_ytd = _build_grid(usg, LI_CF, "ytd", n=4)
+        cf_ytd = _negate_outflows(cf_ytd)
+        cf_ytd = _derive_cf_other_operating(cf_ytd)
+        cf_ytd = _derive_cf_section_plugs(cf_ytd)
+        cf_ytd = _add_fcf(cf_ytd)
+        if _has_cashflow(cf_ytd):
+            cf_ytd["periods"] = _ytd_span_labels(usg, LI_CF, cf_ytd["_ends"])
+            cf_q = cf_ytd
+            cf_q_is_ytd = True
+        else:
+            cf_q_is_ytd = False
+    else:
+        cf_q_is_ytd = False
+
     cf_q_c = _canonicalize(_strip(cf_q), CASHFLOW_CANONICAL, "quarterly", display_n=4)
     cf_a_c = _canonicalize(_strip(cf_a), CASHFLOW_CANONICAL, "annual")
+    # Same rule on the annual panel, which has no cumulative fallback available:
+    # PAL's 10-K tags no cash-flow concept at all, so its annual grid was three
+    # income-statement rows sitting under a "Cash Flow" heading. An empty panel
+    # is the honest render.
+    if not _has_cashflow(cf_a_c):
+        cf_a_c = {"labels": [], "periods": cf_a_c.get("periods", []), "data": []}
+    if cf_q_is_ytd and cf_q_c:
+        # Read by the display layer: these columns are cumulative, so they must
+        # never be summed into a "sum of the last four quarters" TTM.
+        cf_q_c["basis"] = "ytd"
 
     # Build Ratios using the canonicalized IS + BS so the periods are aligned.
     ratios_q = _build_ratios(is_q_c, bs_q_c)

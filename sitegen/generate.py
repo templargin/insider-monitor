@@ -192,8 +192,15 @@ def _sum_ttm(stmt_dict, label):
 
     `xbrl_financials._add_ltm_column` already takes this line (`if all(v is not
     None for v in vals)`); this is the same rule for the display layer.
+
+    A grid marked `basis: "ytd"` is refused outright: its columns are cumulative
+    half-years, so summing four of them spans two years.
     """
     if not stmt_dict or not stmt_dict.get("labels"):
+        return None
+    if stmt_dict.get("basis") == "ytd":
+        # Cumulative columns (a filer that reports cash flows only half-yearly).
+        # Four of them are two years, not four quarters.
         return None
     for i, l in enumerate(stmt_dict["labels"]):
         if l == label:
@@ -234,6 +241,24 @@ def fd_figures(valuation):
     fd_mc = (sp * fd_so) if (sp and fd_so) else None
     fd_ev = (fd_mc + debt - cash) if fd_mc is not None else None
     return fd_so, fd_mc, fd_ev
+
+
+def _default_freq(c):
+    """Which frequency the financials toggle opens on.
+
+    Annual, except for a filer with no fiscal year on file — a company public for
+    less than a year has filed only interim reports, so its annual panels hold at
+    most the derived LTM column (itself built from the quarters) and the income
+    statement's reads "No annual data available". Opening on Annual there hides
+    the financials the page does have behind a toggle the reader has to find.
+    SUJA, whose XBRL is one 10-Q, is the case.
+    """
+    fins = c.get("financials") or {}
+    for stmt in fins.values():
+        ann = (stmt or {}).get("annual") or {}
+        if ann.get("labels") and any(p != "LTM" for p in ann.get("periods") or []):
+            return "annual"
+    return "quarterly"
 
 
 def _compute_multiples(c, fd_mc, fd_ev):
@@ -440,6 +465,7 @@ def generate():
             fd_mc=fd_mc,
             fd_ev=fd_ev,
             multiples=multiples,
+            default_freq=_default_freq(c),
             root=root_path_from(depth),
             generated_at=now,
         )
