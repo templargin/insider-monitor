@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:55:50+00:00",
+  "generated_at": "2026-08-18T14:26:28+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -271,6 +271,469 @@
       "last_tried_date": "2026-08-18",
       "last_reason": "share count for DFH predates its balance sheet (2026-02-17 < 2026-06-30)",
       "last_tried": "2026-08-18T10:30:42+00:00"
+    },
+    {
+      "url_date": "2026-08-18",
+      "cik": "1041934",
+      "ticker": "EDAP",
+      "name": "EDAP TMS SA",
+      "reason": "no share price for EDAP",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "EDAP",
+        "name": "EDAP TMS SA",
+        "by_reporter": {
+          "1672851": {
+            "reporter_cik": "1672851",
+            "reporter_name": "Annen Steven",
+            "relationship": "Officer (SVP, Marketing & Product Mgmt.)",
+            "total_value": 23750.0,
+            "shares": 5000.0,
+            "txn_count": 1
+          },
+          "1986637": {
+            "reporter_cik": "1986637",
+            "reporter_name": "Shah Sanket",
+            "relationship": "Officer (General Counsel & Corp Sec)",
+            "total_value": 23750.0,
+            "shares": 5000.0,
+            "txn_count": 1
+          },
+          "1710383": {
+            "reporter_cik": "1710383",
+            "reporter_name": "Rhodes Ryan",
+            "relationship": "Director, Officer (Chief Executive Officer)",
+            "total_value": 99750.0,
+            "shares": 21000.0,
+            "txn_count": 1
+          },
+          "1202106": {
+            "reporter_cik": "1202106",
+            "reporter_name": "WILLSEY LANCE",
+            "relationship": "Director",
+            "total_value": 237500.0,
+            "shares": 50000.0,
+            "txn_count": 1
+          },
+          "2104963": {
+            "reporter_cik": "2104963",
+            "reporter_name": "Mobeck Kenneth S.",
+            "relationship": "Officer (Chief Financial Officer)",
+            "total_value": 23750.0,
+            "shares": 5000.0,
+            "txn_count": 1
+          },
+          "1159917": {
+            "reporter_cik": "1159917",
+            "reporter_name": "LEVINE JOSHUA",
+            "relationship": "Director",
+            "total_value": 47500.0,
+            "shares": 10000.0,
+            "txn_count": 1
+          },
+          "2046804": {
+            "reporter_cik": "2046804",
+            "reporter_name": "Schulz Fran",
+            "relationship": "Director",
+            "total_value": 47500.0,
+            "shares": 10000.0,
+            "txn_count": 1
+          },
+          "1834217": {
+            "reporter_cik": "1834217",
+            "reporter_name": "Horn David R.",
+            "relationship": "Director",
+            "total_value": 47500.0,
+            "shares": 10000.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Annen Steven",
+              "reporter_cik": "1672851",
+              "relationship": "Officer (SVP, Marketing & Product Mgmt.)",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "EDAP",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 5000.0,
+                "price": 4.75,
+                "total_value": 23750.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 23750.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Shah Sanket",
+              "reporter_cik": "1986637",
+              "relationship": "Officer (General Counsel & Corp Sec)",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "FOCL",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 5000.0,
+                "price": 4.75,
+                "total_value": 23750.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 23750.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Rhodes Ryan",
+              "reporter_cik": "1710383",
+              "relationship": "Director, Officer (Chief Executive Officer)",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "FOCL",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 21000.0,
+                "price": 4.75,
+                "total_value": 99750.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 99750.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "WILLSEY LANCE",
+              "reporter_cik": "1202106",
+              "relationship": "Director",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "FOCL",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 50000.0,
+                "price": 4.75,
+                "total_value": 237500.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 237500.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Mobeck Kenneth S.",
+              "reporter_cik": "2104963",
+              "relationship": "Officer (Chief Financial Officer)",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "EDAP",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 5000.0,
+                "price": 4.75,
+                "total_value": 23750.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 23750.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "LEVINE JOSHUA",
+              "reporter_cik": "1159917",
+              "relationship": "Director",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "EDAP",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 4.75,
+                "total_value": 47500.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 47500.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Schulz Fran",
+              "reporter_cik": "2046804",
+              "relationship": "Director",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "FOCL",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 4.75,
+                "total_value": 47500.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 47500.0
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Horn David R.",
+              "reporter_cik": "1834217",
+              "relationship": "Director",
+              "issuer_cik": "1041934",
+              "issuer_ticker": "EDAP",
+              "issuer_name": "EDAP TMS SA"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 4.75,
+                "total_value": 47500.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 47500.0
+          }
+        ]
+      },
+      "first_seen": "2026-08-18T14:26:28+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-18",
+      "cik": "881787",
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "CRT",
+        "name": "CROSS TIMBERS ROYALTY TRUST",
+        "by_reporter": {
+          "1168602": {
+            "reporter_cik": "1168602",
+            "reporter_name": "OLIVER ERIC L",
+            "relationship": "10% Owner",
+            "total_value": 131558.4,
+            "shares": 12696.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "OLIVER ERIC L",
+              "reporter_cik": "1168602",
+              "relationship": "10% Owner",
+              "issuer_cik": "881787",
+              "issuer_ticker": "CRT",
+              "issuer_name": "CROSS TIMBERS ROYALTY TRUST"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-08-13",
+                "code": "P",
+                "shares": 3087.0,
+                "price": 10.12,
+                "total_value": 31240.44,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 9609.0,
+                "price": 10.44,
+                "total_value": 100317.95999999999,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 131558.4
+          }
+        ]
+      },
+      "first_seen": "2026-08-18T14:26:28+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-18",
+      "cik": "1865200",
+      "ticker": "ANGX",
+      "name": "Angel Studios, Inc.",
+      "reason": "cannot confirm EV < $1,000M for ANGX: EV=$997.1M with $53.8M of unexplained_liabilities (up to $1,050.9M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "ANGX",
+        "name": "Angel Studios, Inc.",
+        "by_reporter": {
+          "1597870": {
+            "reporter_cik": "1597870",
+            "reporter_name": "Sarowitz Steven I",
+            "relationship": "Director",
+            "total_value": 246805.642,
+            "shares": 57922.0,
+            "txn_count": 1
+          },
+          "2020174": {
+            "reporter_cik": "2020174",
+            "reporter_name": "Harmon Jeffrey",
+            "relationship": "Officer (Chief Content Officer)",
+            "total_value": 948711.5079999999,
+            "shares": 230080.0,
+            "txn_count": 2
+          },
+          "2020176": {
+            "reporter_cik": "2020176",
+            "reporter_name": "Harmon Neal",
+            "relationship": "Director, Officer (Chief Executive Officer)",
+            "total_value": 125004.8542,
+            "shares": 29193.1,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Sarowitz Steven I",
+              "reporter_cik": "1597870",
+              "relationship": "Director",
+              "issuer_cik": "1865200",
+              "issuer_ticker": "ANGX",
+              "issuer_name": "Angel Studios, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock, par value $0.0001 per share",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 57922.0,
+                "price": 4.261,
+                "total_value": 246805.642,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 246805.642
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Harmon Jeffrey",
+              "reporter_cik": "2020174",
+              "relationship": "Officer (Chief Content Officer)",
+              "issuer_cik": "1865200",
+              "issuer_ticker": "ANGX",
+              "issuer_name": "Angel Studios, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock, par value $0.0001 per share",
+                "transaction_date": "2026-08-13",
+                "code": "P",
+                "shares": 178700.0,
+                "price": 4.0828,
+                "total_value": 729596.36,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock, par value $0.0001 per share",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 51380.0,
+                "price": 4.2646,
+                "total_value": 219115.148,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 948711.5079999999
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Harmon Neal",
+              "reporter_cik": "2020176",
+              "relationship": "Director, Officer (Chief Executive Officer)",
+              "issuer_cik": "1865200",
+              "issuer_ticker": "ANGX",
+              "issuer_name": "Angel Studios, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock, par value $0.0001 per share",
+                "transaction_date": "2026-08-14",
+                "code": "P",
+                "shares": 29193.1,
+                "price": 4.282,
+                "total_value": 125004.8542,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 125004.8542
+          }
+        ]
+      },
+      "first_seen": "2026-08-18T14:26:28+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

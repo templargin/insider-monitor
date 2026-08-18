@@ -3,7 +3,49 @@
   "cik": "1822523",
   "name": "Advanced Flower Capital Inc.",
   "description": "Advanced Flower Capital Inc. originates, structures, underwrites, invests in, and manages senior secured loans and other types of mortgage loans and debt securities for established companies operating in the cannabis industry. It primarily originates loans structured as senior loans secured by real estate, equipment, cash flows, and licenses and/or other assets of the loan parties to the extent permitted by applicable laws and the regulations governing such loan parties. The company was formerly known as AFC Gamma, Inc. and changed its name to Advanced Flower Capital Inc. in October 2024. Advanced Flower Capital Inc. was incorporated in 2020 and is based in West Palm Beach, Florida.",
+  "ownership": {
+    "inst_pct": 0.20391001,
+    "insider_pct": 0.42361,
+    "inst_count": 56,
+    "analyst_count": 1,
+    "rec_mean": 2.33333,
+    "rec_key": "buy",
+    "target_mean": 8.0,
+    "short_pct_float": 0.0643,
+    "shares_short": 1003447,
+    "short_days_to_cover": 12.16,
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-18"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 45829.0,
+      "price": 3.06,
+      "total_value": 140236.74,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-057419"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Hetzel Brandon",
+      "relationship": "Officer (CFO and Treasurer)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 1463.0,
+      "price": 3.0,
+      "total_value": 4389.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-057405"
+    },
     {
       "date_filed": "2026-05-19",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -843,80 +885,24 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001998952-24-000003"
-    },
-    {
-      "date_filed": "2024-07-10",
-      "reporter_name": "AFC Gamma, Inc.",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-07-08",
-      "code": "J",
-      "shares": -6889031.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001822523-24-000032"
-    },
-    {
-      "date_filed": "2024-06-06",
-      "reporter_name": "TANNENBAUM LEONARD M",
-      "relationship": "Director, Officer (Executive Chairman; CIO), 10% Owner",
-      "transaction_date": "2024-06-06",
-      "code": "P",
-      "shares": 27500.0,
-      "price": 11.98,
-      "total_value": 329450.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001822523-24-000026"
-    },
-    {
-      "date_filed": "2024-06-06",
-      "reporter_name": "TANNENBAUM LEONARD M",
-      "relationship": "Director, Officer (Executive Chairman; CIO), 10% Owner",
-      "transaction_date": "2024-06-06",
-      "code": "P",
-      "shares": 30000.0,
-      "price": 11.95,
-      "total_value": 358500.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001822523-24-000026"
-    },
-    {
-      "date_filed": "2024-06-06",
-      "reporter_name": "TANNENBAUM LEONARD M",
-      "relationship": "Director, Officer (Executive Chairman; CIO), 10% Owner",
-      "transaction_date": "2024-06-05",
-      "code": "P",
-      "shares": 31335.0,
-      "price": 12.09,
-      "total_value": 378840.15,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001822523-24-000026"
     }
   ],
   "valuation": {
-    "share_price": 2.9000000953674316,
-    "shares_basic": 23528844,
-    "shares_basic_as_of": "2026-05-01",
+    "share_price": 3.575000047683716,
+    "shares_basic": 22671919,
+    "shares_basic_as_of": "2026-08-07",
     "options": 0,
     "warrants": 0,
-    "cash": 112730935,
-    "debt": 76448216,
-    "ttm_revenue": 25591414.0,
-    "mc_basic": 68233649.84388542,
-    "ev_basic": 31950930.84388542,
+    "cash": 106508623,
+    "debt": 76575336,
     "debt_flag": {
       "reason": "unexplained_liabilities",
-      "amount": 130609381,
+      "amount": 133701659,
       "concept": null
-    }
+    },
+    "ttm_revenue": 27296824.0,
+    "mc_basic": 81052111.50608134,
+    "ev_basic": 51118824.50608134
   },
   "financials": {
     "income_statement": {
@@ -1725,24 +1711,5 @@
       }
     }
   },
-  "last_updated": "2026-05-20T12:52:49+00:00",
-  "ownership": {
-    "inst_pct": 0.1832,
-    "insider_pct": 0.38312,
-    "inst_count": 62,
-    "analyst_count": 1,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 8.0,
-    "short_pct_float": 0.074499995,
-    "shares_short": 1161693,
-    "short_days_to_cover": 9.26,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-18T14:26:58+00:00"
 }

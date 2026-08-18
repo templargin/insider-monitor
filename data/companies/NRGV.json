@@ -1,0 +1,3239 @@
+{
+  "ticker": "NRGV",
+  "cik": "1828536",
+  "name": "Energy Vault Holdings, Inc.",
+  "description": "Energy Vault Holdings, Inc. develops and deploys utility-scale energy storage solutions in the United States, Switzerland, United Kingdom, North America, Australia, and internationally. The company offers B-Vault, an electrochemical battery energy storage solution for short-duration energy storage needs; G-Vault, a gravity energy storage solution for long-duration energy storage needs; and H-Vault, a hydrogen or hybrid energy storage solution. It also provides software solutions, such as Vault-OS Energy Management System which provides real-time monitoring, operational control, and optimized dispatch across an array of generation and short to ultra-long duration energy storage assets; Vault-Bidder, which utilizes artificial intelligence to leverage diverse, live data from directly monitored assets and external drivers to provide dispatch and revenue optimization; and Vault-Manager, which converts diverse, real-time data into clear asset performance visibility and insights, facilitating improved decision-making regarding maintenance, augmentation, and expansion. Energy Vault Holdings, Inc. was founded in 2020 and is headquartered in Westlake Village, California.",
+  "ownership": {
+    "inst_pct": 0.59544,
+    "insider_pct": 0.14891,
+    "inst_count": 224,
+    "analyst_count": 5,
+    "rec_mean": 1.8,
+    "rec_key": "buy",
+    "target_mean": 6.006,
+    "short_pct_float": 0.20889999,
+    "shares_short": 31584215,
+    "short_days_to_cover": 7.14,
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-18"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 27472.0,
+      "price": 3.878,
+      "total_value": 106536.416,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002063923-26-000004"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 26845.0,
+      "price": 3.733,
+      "total_value": 100212.38500000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001828536-26-000103"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 26809.0,
+      "price": 3.733,
+      "total_value": 100077.997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001828536-26-000103"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 31864.0,
+      "price": 3.75,
+      "total_value": 119490.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001828536-26-000103"
+    },
+    {
+      "date_filed": "2026-08-06",
+      "reporter_name": "Dahiya Nitin",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-08-04",
+      "code": "A",
+      "shares": 400000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002148111-26-000003"
+    },
+    {
+      "date_filed": "2026-08-06",
+      "reporter_name": "Dahiya Nitin",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-08-04",
+      "code": "A",
+      "shares": 400000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Performance Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002148111-26-000003"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-06",
+      "code": "M",
+      "shares": 50000.0,
+      "price": 1.17,
+      "total_value": 58500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000010"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-06",
+      "code": "S",
+      "shares": -65000.0,
+      "price": 4.08,
+      "total_value": -265200.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000010"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-06",
+      "code": "M",
+      "shares": -50000.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000010"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "F",
+      "shares": -141682.0,
+      "price": 4.71,
+      "total_value": -667322.22,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001898769-26-000007"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2026-06-30",
+      "code": "F",
+      "shares": -52721.0,
+      "price": 4.71,
+      "total_value": -248315.91,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-26-000009"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-06-30",
+      "code": "F",
+      "shares": -24139.0,
+      "price": 4.71,
+      "total_value": -113694.69,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000009"
+    },
+    {
+      "date_filed": "2026-06-26",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-06-25",
+      "code": "A",
+      "shares": 3886000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000079"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Unwin Stephanie",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 19153.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000077"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Mandanas Mary Beth",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 22026.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000076"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Fariello Theresa M",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 19153.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000075"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 19153.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000074"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Paulson Larry",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 22026.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000073"
+    },
+    {
+      "date_filed": "2026-06-01",
+      "reporter_name": "Ertel Thomas R",
+      "relationship": "Director",
+      "transaction_date": "2026-05-29",
+      "code": "A",
+      "shares": 22026.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000072"
+    },
+    {
+      "date_filed": "2026-04-08",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-04-06",
+      "code": "M",
+      "shares": 50000.0,
+      "price": 1.17,
+      "total_value": 58500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000006"
+    },
+    {
+      "date_filed": "2026-04-08",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-04-06",
+      "code": "S",
+      "shares": -65000.0,
+      "price": 3.18,
+      "total_value": -206700.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000006"
+    },
+    {
+      "date_filed": "2026-04-08",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-04-06",
+      "code": "M",
+      "shares": -50000.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000006"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-03-31",
+      "code": "F",
+      "shares": -329921.0,
+      "price": 3.3,
+      "total_value": -1088739.3,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000032"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2026-03-31",
+      "code": "F",
+      "shares": -147984.0,
+      "price": 3.3,
+      "total_value": -488347.19999999995,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000031"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-31",
+      "code": "F",
+      "shares": -28738.0,
+      "price": 3.3,
+      "total_value": -94835.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000030"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-03-31",
+      "code": "P",
+      "shares": 12500.0,
+      "price": 3.2096,
+      "total_value": 40120.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000026"
+    },
+    {
+      "date_filed": "2026-03-26",
+      "reporter_name": "Mandanas Mary Beth",
+      "relationship": "Director",
+      "transaction_date": "2026-03-25",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 3.65,
+      "total_value": 18250.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001857599-26-000002"
+    },
+    {
+      "date_filed": "2026-03-16",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2026-03-12",
+      "code": "A",
+      "shares": 475000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-26-000006"
+    },
+    {
+      "date_filed": "2026-03-16",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-12",
+      "code": "A",
+      "shares": 150000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000004"
+    },
+    {
+      "date_filed": "2026-03-06",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-03-05",
+      "code": "F",
+      "shares": -68737.0,
+      "price": 3.0,
+      "total_value": -206211.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001898769-26-000003"
+    },
+    {
+      "date_filed": "2026-03-06",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2026-03-05",
+      "code": "F",
+      "shares": -10064.0,
+      "price": 3.0,
+      "total_value": -30192.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-26-000004"
+    },
+    {
+      "date_filed": "2026-03-05",
+      "reporter_name": "Ertel Thomas R",
+      "relationship": "Director",
+      "transaction_date": "2026-03-04",
+      "code": "P",
+      "shares": 5450.0,
+      "price": 3.3699,
+      "total_value": 18365.954999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001725272-26-000002"
+    },
+    {
+      "date_filed": "2026-03-04",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2026-03-02",
+      "code": "P",
+      "shares": 4000.0,
+      "price": 3.085,
+      "total_value": 12340.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-26-000002"
+    },
+    {
+      "date_filed": "2026-03-02",
+      "reporter_name": "Paulson Larry",
+      "relationship": "Director",
+      "transaction_date": "2026-02-27",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 3.1452,
+      "total_value": 15726.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001509559-26-000002"
+    },
+    {
+      "date_filed": "2026-02-26",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-02-26",
+      "code": "P",
+      "shares": 7500.0,
+      "price": 3.255,
+      "total_value": 24412.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000014"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-30",
+      "code": "A",
+      "shares": 200000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000002"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-30",
+      "code": "F",
+      "shares": -77046.0,
+      "price": 4.61,
+      "total_value": -355182.06,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000002"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-30",
+      "code": "A",
+      "shares": 200000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000002"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-30",
+      "code": "F",
+      "shares": -103100.0,
+      "price": 5.43,
+      "total_value": -559833.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-26-000002"
+    },
+    {
+      "date_filed": "2026-01-23",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-01-22",
+      "code": "F",
+      "shares": -91374.0,
+      "price": 4.61,
+      "total_value": -421234.14,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000011"
+    },
+    {
+      "date_filed": "2026-01-23",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-22",
+      "code": "F",
+      "shares": -15693.0,
+      "price": 4.61,
+      "total_value": -72344.73000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000010"
+    },
+    {
+      "date_filed": "2026-01-23",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2026-01-22",
+      "code": "F",
+      "shares": -15711.0,
+      "price": 4.61,
+      "total_value": -72427.71,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000009"
+    },
+    {
+      "date_filed": "2026-01-23",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2026-01-22",
+      "code": "F",
+      "shares": -6808.0,
+      "price": 4.61,
+      "total_value": -31384.88,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-26-000008"
+    },
+    {
+      "date_filed": "2026-01-20",
+      "reporter_name": "SOFTBANK VISION FUND (AIV M2) L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-15",
+      "code": "S",
+      "shares": -3000000.0,
+      "price": 5.65,
+      "total_value": -16950000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-002946"
+    },
+    {
+      "date_filed": "2025-12-23",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-12-23",
+      "code": "S",
+      "shares": -50000.0,
+      "price": 4.9108,
+      "total_value": -245540.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001870889-25-000005"
+    },
+    {
+      "date_filed": "2025-12-12",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2025-12-12",
+      "code": "F",
+      "shares": -8751.0,
+      "price": 3.44,
+      "total_value": -30103.44,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000208"
+    },
+    {
+      "date_filed": "2025-12-12",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-12-11",
+      "code": "F",
+      "shares": -8612.0,
+      "price": 3.44,
+      "total_value": -29625.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000209"
+    },
+    {
+      "date_filed": "2025-12-12",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-12-11",
+      "code": "F",
+      "shares": -21594.0,
+      "price": 3.44,
+      "total_value": -74283.36,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000207"
+    },
+    {
+      "date_filed": "2025-11-14",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-11-14",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 2.9958,
+      "total_value": 29958.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-25-052305"
+    },
+    {
+      "date_filed": "2025-11-14",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-11-13",
+      "code": "F",
+      "shares": -9886.0,
+      "price": 3.54,
+      "total_value": -34996.44,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-25-052356"
+    },
+    {
+      "date_filed": "2025-11-14",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2025-11-13",
+      "code": "F",
+      "shares": -2639.0,
+      "price": 3.54,
+      "total_value": -9342.06,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-25-052355"
+    },
+    {
+      "date_filed": "2025-11-14",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-11-13",
+      "code": "F",
+      "shares": -2642.0,
+      "price": 3.54,
+      "total_value": -9352.68,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-25-052305"
+    },
+    {
+      "date_filed": "2025-10-21",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-10-15",
+      "code": "G",
+      "shares": -50000.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-25-000006"
+    },
+    {
+      "date_filed": "2025-10-14",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-10-10",
+      "code": "F",
+      "shares": -13719.0,
+      "price": 2.97,
+      "total_value": -40745.43,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000192"
+    },
+    {
+      "date_filed": "2025-10-14",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-10-10",
+      "code": "F",
+      "shares": -15581.0,
+      "price": 2.97,
+      "total_value": -46275.57,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000191"
+    },
+    {
+      "date_filed": "2025-10-14",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-10-10",
+      "code": "F",
+      "shares": -17007.0,
+      "price": 2.97,
+      "total_value": -50510.79,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000190"
+    },
+    {
+      "date_filed": "2025-10-14",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2025-10-10",
+      "code": "F",
+      "shares": -5591.0,
+      "price": 2.97,
+      "total_value": -16605.27,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000189"
+    },
+    {
+      "date_filed": "2025-09-26",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-09-25",
+      "code": "S",
+      "shares": -75000.0,
+      "price": 3.107,
+      "total_value": -233025.00000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-25-000004"
+    },
+    {
+      "date_filed": "2025-09-26",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-09-24",
+      "code": "S",
+      "shares": -75000.0,
+      "price": 2.976,
+      "total_value": -223200.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001977206-25-000004"
+    },
+    {
+      "date_filed": "2025-09-25",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-09-23",
+      "code": "S",
+      "shares": -75000.0,
+      "price": 3.235,
+      "total_value": -242625.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000179"
+    },
+    {
+      "date_filed": "2025-09-24",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-09-22",
+      "code": "F",
+      "shares": -13250.0,
+      "price": 2.02,
+      "total_value": -26765.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000177"
+    },
+    {
+      "date_filed": "2025-09-24",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2025-09-22",
+      "code": "F",
+      "shares": -8750.0,
+      "price": 2.02,
+      "total_value": -17675.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000176"
+    },
+    {
+      "date_filed": "2025-09-24",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-09-22",
+      "code": "F",
+      "shares": -10400.0,
+      "price": 2.02,
+      "total_value": -21008.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000175"
+    },
+    {
+      "date_filed": "2025-09-19",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-09-19",
+      "code": "P",
+      "shares": 17500.0,
+      "price": 3.0214,
+      "total_value": 52874.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001898769-25-000010"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Paulson Larry",
+      "relationship": "Director",
+      "transaction_date": "2025-09-18",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 2.3999,
+      "total_value": 47998.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001509559-25-000004"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Unwin Stephanie",
+      "relationship": "Director",
+      "transaction_date": "2025-09-16",
+      "code": "A",
+      "shares": 140114.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002014396-25-000004"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Paulson Larry",
+      "relationship": "Director",
+      "transaction_date": "2025-09-16",
+      "code": "A",
+      "shares": 161132.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001509559-25-000006"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Mandanas Mary Beth",
+      "relationship": "Director",
+      "transaction_date": "2025-09-16",
+      "code": "A",
+      "shares": 161132.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001857599-25-000004"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Fariello Theresa M",
+      "relationship": "Director",
+      "transaction_date": "2025-09-16",
+      "code": "A",
+      "shares": 140114.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001965441-25-000004"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2025-09-16",
+      "code": "A",
+      "shares": 98449.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002063923-25-000005"
+    },
+    {
+      "date_filed": "2025-09-18",
+      "reporter_name": "Ertel Thomas R",
+      "relationship": "Director",
+      "transaction_date": "2025-09-16",
+      "code": "A",
+      "shares": 161132.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001725272-25-000004"
+    },
+    {
+      "date_filed": "2025-09-17",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-09-17",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 2.3024,
+      "total_value": 115120.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001898769-25-000008"
+    },
+    {
+      "date_filed": "2025-09-16",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-09-16",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 2.2114,
+      "total_value": 55284.99999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001898769-25-000006"
+    },
+    {
+      "date_filed": "2025-09-12",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-12",
+      "code": "S",
+      "shares": -50000.0,
+      "price": 2.165,
+      "total_value": -108250.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000155"
+    },
+    {
+      "date_filed": "2025-09-12",
+      "reporter_name": "Mandanas Mary Beth",
+      "relationship": "Director",
+      "transaction_date": "2025-09-11",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 2.052,
+      "total_value": 20520.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000153"
+    },
+    {
+      "date_filed": "2025-09-05",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-09-04",
+      "code": "F",
+      "shares": -2642.0,
+      "price": 1.135,
+      "total_value": -2998.67,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000149"
+    },
+    {
+      "date_filed": "2025-09-05",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2025-09-04",
+      "code": "F",
+      "shares": -2639.0,
+      "price": 1.135,
+      "total_value": -2995.265,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000148"
+    },
+    {
+      "date_filed": "2025-09-05",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Operations Officer)",
+      "transaction_date": "2025-09-04",
+      "code": "F",
+      "shares": -8210.0,
+      "price": 1.135,
+      "total_value": -9318.35,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000147"
+    },
+    {
+      "date_filed": "2025-08-29",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-08-29",
+      "code": "P",
+      "shares": 22500.0,
+      "price": 1.9159,
+      "total_value": 43107.75,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000137"
+    },
+    {
+      "date_filed": "2025-08-29",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2025-08-29",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 1.9155,
+      "total_value": 38310.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001828536-25-000135"
+    },
+    {
+      "date_filed": "2025-08-29",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2025-08-14",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 1.4956,
+      "total_value": 29912.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001828536-25-000133"
+    },
+    {
+      "date_filed": "2025-08-28",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-08-28",
+      "code": "P",
+      "shares": 55000.0,
+      "price": 1.7057,
+      "total_value": 93813.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000129"
+    },
+    {
+      "date_filed": "2025-08-28",
+      "reporter_name": "Ertel Thomas R",
+      "relationship": "Director",
+      "transaction_date": "2025-08-28",
+      "code": "P",
+      "shares": 11200.0,
+      "price": 1.8062,
+      "total_value": 20229.44,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000127"
+    },
+    {
+      "date_filed": "2025-08-28",
+      "reporter_name": "Paulson Larry",
+      "relationship": "Director",
+      "transaction_date": "2025-08-28",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 1.7799,
+      "total_value": 35598.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000125"
+    },
+    {
+      "date_filed": "2025-08-27",
+      "reporter_name": "Fariello Theresa M",
+      "relationship": "Director",
+      "transaction_date": "2025-08-26",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 1.705,
+      "total_value": 8525.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000123"
+    },
+    {
+      "date_filed": "2025-08-21",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (President, Energy Vault Labs)",
+      "transaction_date": "2025-08-21",
+      "code": "P",
+      "shares": 6200.0,
+      "price": 1.59,
+      "total_value": 9858.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000120"
+    },
+    {
+      "date_filed": "2025-08-14",
+      "reporter_name": "Hixon Dylan",
+      "relationship": "Director",
+      "transaction_date": "2025-08-14",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 1.4956,
+      "total_value": 29912.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000115"
+    },
+    {
+      "date_filed": "2025-08-13",
+      "reporter_name": "Paulson Larry",
+      "relationship": "Director",
+      "transaction_date": "2025-08-13",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 1.3799,
+      "total_value": 27597.999999999996,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000113"
+    },
+    {
+      "date_filed": "2025-08-12",
+      "reporter_name": "Ertel Thomas R",
+      "relationship": "Director",
+      "transaction_date": "2025-08-11",
+      "code": "P",
+      "shares": 13300.0,
+      "price": 1.4399,
+      "total_value": 19150.67,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000111"
+    },
+    {
+      "date_filed": "2025-07-18",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-07-18",
+      "code": "S",
+      "shares": -15046.0,
+      "price": 0.8105,
+      "total_value": -12194.783,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000089"
+    },
+    {
+      "date_filed": "2025-07-18",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-07-18",
+      "code": "S",
+      "shares": -33897.0,
+      "price": 0.8105,
+      "total_value": -27473.5185,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000088"
+    },
+    {
+      "date_filed": "2025-07-18",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-07-18",
+      "code": "S",
+      "shares": -4946.0,
+      "price": 0.8105,
+      "total_value": -4008.733,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000087"
+    },
+    {
+      "date_filed": "2025-07-18",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-07-18",
+      "code": "S",
+      "shares": -12135.0,
+      "price": 0.8105,
+      "total_value": -9835.4175,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000086"
+    },
+    {
+      "date_filed": "2025-06-10",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-06-06",
+      "code": "S",
+      "shares": -17530.0,
+      "price": 0.975,
+      "total_value": -17091.75,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000079"
+    },
+    {
+      "date_filed": "2025-06-10",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-06-06",
+      "code": "S",
+      "shares": -9441.0,
+      "price": 0.975,
+      "total_value": -9204.975,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000078"
+    },
+    {
+      "date_filed": "2025-06-10",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-06-06",
+      "code": "S",
+      "shares": -9326.0,
+      "price": 0.975,
+      "total_value": -9092.85,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000077"
+    },
+    {
+      "date_filed": "2025-05-16",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-05-16",
+      "code": "S",
+      "shares": -40277.0,
+      "price": 0.9418,
+      "total_value": -37932.8786,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000067"
+    },
+    {
+      "date_filed": "2025-05-01",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-04-29",
+      "code": "S",
+      "shares": -57033.0,
+      "price": 0.709,
+      "total_value": -40436.397,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000053"
+    },
+    {
+      "date_filed": "2025-05-01",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-04-29",
+      "code": "S",
+      "shares": -21806.0,
+      "price": 0.709,
+      "total_value": -15460.454,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000052"
+    },
+    {
+      "date_filed": "2025-04-08",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-04-04",
+      "code": "S",
+      "shares": -26698.0,
+      "price": 0.7059,
+      "total_value": -18846.1182,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000041"
+    },
+    {
+      "date_filed": "2025-04-08",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-04-04",
+      "code": "S",
+      "shares": -16594.0,
+      "price": 0.7059,
+      "total_value": -11713.7046,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000040"
+    },
+    {
+      "date_filed": "2025-04-08",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-04-04",
+      "code": "S",
+      "shares": -20530.0,
+      "price": 0.7059,
+      "total_value": -14492.126999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000039"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Beer Michael Thomas",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-03-24",
+      "code": "A",
+      "shares": 100000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000027"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-03-24",
+      "code": "A",
+      "shares": 850000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000026"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-03-24",
+      "code": "A",
+      "shares": 2500000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000025"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-03-24",
+      "code": "A",
+      "shares": 250000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000024"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-02-07",
+      "code": "S",
+      "shares": -3412.0,
+      "price": 1.6392,
+      "total_value": -5592.9504,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000008"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-02-07",
+      "code": "S",
+      "shares": -10253.0,
+      "price": 1.6392,
+      "total_value": -16806.7176,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000007"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2025-02-07",
+      "code": "S",
+      "shares": -2806.0,
+      "price": 1.6392,
+      "total_value": -4599.5952,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000006"
+    },
+    {
+      "date_filed": "2025-01-14",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2025-01-10",
+      "code": "S",
+      "shares": -4762.0,
+      "price": 1.9568,
+      "total_value": -9318.2816,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-25-000002"
+    },
+    {
+      "date_filed": "2024-12-17",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2024-12-13",
+      "code": "S",
+      "shares": -9697.0,
+      "price": 1.8297,
+      "total_value": -17742.6009,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000208"
+    },
+    {
+      "date_filed": "2024-12-17",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2024-12-13",
+      "code": "S",
+      "shares": -23557.0,
+      "price": 1.8297,
+      "total_value": -43102.242900000005,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000207"
+    },
+    {
+      "date_filed": "2024-12-17",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-12-13",
+      "code": "S",
+      "shares": -9854.0,
+      "price": 1.8297,
+      "total_value": -18029.863800000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000206"
+    },
+    {
+      "date_filed": "2024-11-25",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2024-11-22",
+      "code": "P",
+      "shares": 150000.0,
+      "price": 1.5686,
+      "total_value": 235290.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000202"
+    },
+    {
+      "date_filed": "2024-11-13",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2024-11-11",
+      "code": "S",
+      "shares": -2859.0,
+      "price": 2.087,
+      "total_value": -5966.733,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000196"
+    },
+    {
+      "date_filed": "2024-11-13",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2024-11-11",
+      "code": "S",
+      "shares": -11027.0,
+      "price": 2.087,
+      "total_value": -23013.349000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000194"
+    },
+    {
+      "date_filed": "2024-11-13",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-11-11",
+      "code": "S",
+      "shares": -2365.0,
+      "price": 2.087,
+      "total_value": -4935.755,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000192"
+    },
+    {
+      "date_filed": "2024-10-09",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-10-08",
+      "code": "S",
+      "shares": -22222.0,
+      "price": 0.882,
+      "total_value": -19599.804,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000183"
+    },
+    {
+      "date_filed": "2024-10-09",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-10-07",
+      "code": "S",
+      "shares": -22222.0,
+      "price": 0.9425,
+      "total_value": -20944.235,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000183"
+    },
+    {
+      "date_filed": "2024-10-07",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-10-04",
+      "code": "S",
+      "shares": -22222.0,
+      "price": 0.9241,
+      "total_value": -20535.3502,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000181"
+    },
+    {
+      "date_filed": "2024-10-07",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2024-10-04",
+      "code": "S",
+      "shares": -3323.0,
+      "price": 0.9201,
+      "total_value": -3057.4923,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000179"
+    },
+    {
+      "date_filed": "2024-10-07",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-10-03",
+      "code": "S",
+      "shares": -22222.0,
+      "price": 0.9385,
+      "total_value": -20855.347,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000181"
+    },
+    {
+      "date_filed": "2024-10-03",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-10-02",
+      "code": "S",
+      "shares": -22222.0,
+      "price": 0.948,
+      "total_value": -21066.456,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-24-105866"
+    },
+    {
+      "date_filed": "2024-10-03",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-10-01",
+      "code": "S",
+      "shares": -22222.0,
+      "price": 0.9469,
+      "total_value": -21042.0118,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-24-105866"
+    },
+    {
+      "date_filed": "2024-09-16",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2024-09-13",
+      "code": "P",
+      "shares": 300000.0,
+      "price": 0.8673,
+      "total_value": 260190.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000177"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "ALEXANDER LAURENCE",
+      "relationship": "Officer (Chief Marketing Officer)",
+      "transaction_date": "2024-09-09",
+      "code": "S",
+      "shares": -24208.0,
+      "price": 0.827,
+      "total_value": -20020.016,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000171"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "McMorrow Josh",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2024-09-09",
+      "code": "S",
+      "shares": -24305.0,
+      "price": 0.827,
+      "total_value": -20100.235,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000168"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "Ladwa Akshay",
+      "relationship": "Officer (Chief Engineering Officer)",
+      "transaction_date": "2024-09-09",
+      "code": "S",
+      "shares": -17899.0,
+      "price": 0.827,
+      "total_value": -14802.473,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000167"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "Icoren Goncagul",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2024-09-06",
+      "code": "S",
+      "shares": -19466.0,
+      "price": 0.852,
+      "total_value": -16585.032,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000170"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "Terruzzin Marco",
+      "relationship": "Officer (Chief Product Officer)",
+      "transaction_date": "2024-09-06",
+      "code": "S",
+      "shares": -35958.0,
+      "price": 0.852,
+      "total_value": -30636.216,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000169"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "Piconi Robert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2024-09-06",
+      "code": "S",
+      "shares": -10213.0,
+      "price": 0.852,
+      "total_value": -8701.476,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000166"
+    },
+    {
+      "date_filed": "2024-09-10",
+      "reporter_name": "Wiese Christopher",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-09-06",
+      "code": "S",
+      "shares": -10377.0,
+      "price": 0.852,
+      "total_value": -8841.204,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001828536-24-000165"
+    }
+  ],
+  "valuation": {
+    "share_price": 3.805000066757202,
+    "shares_basic": 181839570,
+    "shares_basic_as_of": "2026-08-06",
+    "options": 9041000,
+    "warrants": 5167000,
+    "cash": 93043000,
+    "debt": 264289000,
+    "debt_flag": null,
+    "ttm_revenue": 225873000.0,
+    "mc_basic": 691899575.9891009,
+    "ev_basic": 863145575.9891009
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            17369000,
+            21879000,
+            153306000,
+            33319000
+          ],
+          [
+            104.0531015037594,
+            156.37450199203187,
+            358.0263511696693,
+            2678.8990825688074
+          ],
+          [
+            11993000,
+            17091000,
+            121718000,
+            24309000
+          ],
+          [
+            5376000,
+            4788000,
+            31588000,
+            9010000
+          ],
+          [
+            113.6724960254372,
+            -1.804757998359311,
+            1121.0282180131426,
+            1765.424430641822
+          ],
+          [
+            30.951695549542286,
+            21.88399835458659,
+            20.60454254888915,
+            27.041627899997
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            25518000,
+            24151000,
+            27940000,
+            23013000
+          ],
+          [
+            2546000,
+            2590000,
+            3375000,
+            3362000
+          ],
+          [
+            30035000,
+            28989000,
+            39331000,
+            26593000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -24659000,
+            -24201000,
+            -7743000,
+            -17583000
+          ],
+          [
+            12.395196816825353,
+            -15.833054132963193,
+            84.63964768196155,
+            35.05817174515236
+          ],
+          [
+            -141.971328228453,
+            -110.61291649526943,
+            -5.050682947829831,
+            -52.77169182748582
+          ],
+          [
+            -22740000,
+            -21978000,
+            -5384000,
+            -17285000
+          ],
+          [
+            -130.92290863031837,
+            -100.4524886877828,
+            -3.5119303875908314,
+            -51.87730724211411
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4192000,
+            3466000,
+            3072000,
+            2781000
+          ],
+          [
+            null,
+            -4817000,
+            -10146000,
+            -920000
+          ],
+          [
+            -28837000,
+            -32484000,
+            -20961000,
+            -21284000
+          ],
+          [
+            855000,
+            1000,
+            -228000,
+            5535000
+          ],
+          [
+            -29692000,
+            -32485000,
+            -20733000,
+            -26819000
+          ],
+          [
+            -29692000,
+            -32485000,
+            -20731000,
+            -26817000
+          ],
+          [
+            -170.94824111923543,
+            -148.47570729923672,
+            -13.523932527102657,
+            -80.49161139289895
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.18,
+            -0.2,
+            -0.13,
+            -0.16
+          ],
+          [
+            -0.17,
+            -0.2,
+            -0.13,
+            -0.16
+          ],
+          [
+            178394000,
+            171867000,
+            null,
+            163329000
+          ],
+          [
+            178103000,
+            171867000,
+            null,
+            163329000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            225873000,
+            203671000,
+            46199000,
+            341543000,
+            145877000
+          ],
+          [
+            10.90091372851314,
+            340.8558626810104,
+            -86.47344551052137,
+            134.13080883209827,
+            null
+          ],
+          [
+            175111000,
+            155681000,
+            40012000,
+            324012000,
+            86580000
+          ],
+          [
+            50762000,
+            47990000,
+            6187000,
+            17531000,
+            59297000
+          ],
+          [
+            5.776203375703272,
+            675.658639081946,
+            -64.7082311334208,
+            -70.43526653962257,
+            null
+          ],
+          [
+            22.473690967933308,
+            23.562510126625785,
+            13.392064763306566,
+            5.132882243231452,
+            40.64862863919603
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            100622000,
+            94878000,
+            78810000,
+            86120000,
+            69204000
+          ],
+          [
+            11873000,
+            14635000,
+            25999000,
+            37104000,
+            42605000
+          ],
+          [
+            124948000,
+            122357000,
+            136183000,
+            124267000,
+            122380000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -74186000,
+            -74367000,
+            -129996000,
+            -106736000,
+            -63083000
+          ],
+          [
+            0.24338752403619884,
+            42.7928551647743,
+            -21.792085144655974,
+            -69.19930884707449,
+            null
+          ],
+          [
+            -32.84412036852567,
+            -36.51329840772618,
+            -281.38271391155655,
+            -31.251116257689368,
+            -43.24396580680985
+          ],
+          [
+            -67387000,
+            -70932000,
+            -128938000,
+            -105843000,
+            -55340000
+          ],
+          [
+            -29.834021773297383,
+            -34.82675491356158,
+            -279.09262105240373,
+            -30.989655768087765,
+            -37.936069428354024
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            13511000,
+            8464000,
+            123000,
+            35000,
+            2000
+          ],
+          [
+            -15869000,
+            -13064000,
+            -5627000,
+            7979000,
+            -14787000
+          ],
+          [
+            -103566000,
+            -95895000,
+            -135746000,
+            -98792000,
+            -77872000
+          ],
+          [
+            6163000,
+            7763000,
+            67000,
+            -349000,
+            427000
+          ],
+          [
+            -109729000,
+            -103658000,
+            -135813000,
+            -98443000,
+            -78299000
+          ],
+          [
+            -109725000,
+            -103611000,
+            -135750000,
+            -98443000,
+            -78299000
+          ],
+          [
+            -48.57995422206284,
+            -50.89482547834498,
+            -293.9738955388645,
+            -28.82301789232981,
+            -53.674671127045386
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.67,
+            -0.65,
+            -0.91,
+            -0.69,
+            -0.64
+          ],
+          [
+            -0.66,
+            -0.65,
+            -0.91,
+            -0.69,
+            -0.64
+          ],
+          [
+            178394000,
+            160533000,
+            149846000,
+            142851000,
+            123241000
+          ],
+          [
+            178103000,
+            160533000,
+            149846000,
+            142851000,
+            123241000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "Mezzanine Equity",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            93043000,
+            55243000,
+            58260000,
+            32696000
+          ],
+          [
+            332000,
+            333000,
+            325000,
+            0
+          ],
+          [
+            7235000,
+            4941000,
+            25938000,
+            2234000
+          ],
+          [
+            366000,
+            126000,
+            139000,
+            7028000
+          ],
+          [
+            80573000,
+            43145000,
+            36408000,
+            61285000
+          ],
+          [
+            181549000,
+            103788000,
+            121070000,
+            103243000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            96133000,
+            101454000,
+            96064000,
+            93472000
+          ],
+          [
+            2024000,
+            2166000,
+            2242000,
+            2335000
+          ],
+          [
+            7195000,
+            7057000,
+            8277000,
+            6287000
+          ],
+          [
+            1336000,
+            3366000,
+            3366000,
+            4688000
+          ],
+          [
+            82289000,
+            80206000,
+            81857000,
+            71858000
+          ],
+          [
+            370526000,
+            298037000,
+            312876000,
+            281883000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            14988000,
+            9083000,
+            30838000,
+            35996000
+          ],
+          [
+            77978000,
+            21145000,
+            56628000,
+            28610000
+          ],
+          [
+            515000,
+            565000,
+            511000,
+            488000
+          ],
+          [
+            58718000,
+            41238000,
+            77040000,
+            99348000
+          ],
+          [
+            152199000,
+            72031000,
+            165017000,
+            164442000
+          ],
+          [
+            165036000,
+            150531000,
+            37970000,
+            31562000
+          ],
+          [
+            1351000,
+            1409000,
+            1501000,
+            1678000
+          ],
+          [
+            19332000,
+            20290000,
+            19772000,
+            3652000
+          ],
+          [
+            337918000,
+            244261000,
+            224260000,
+            201334000
+          ],
+          [
+            25751000,
+            23318000,
+            21156000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -549610000,
+            -519918000,
+            -487433000,
+            -466702000
+          ],
+          [
+            6857000,
+            30458000,
+            67460000,
+            80549000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "Mezzanine Equity",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            93043000,
+            58260000,
+            27091000,
+            109923000,
+            203037000
+          ],
+          [
+            332000,
+            325000,
+            2933000,
+            0,
+            null
+          ],
+          [
+            7235000,
+            25938000,
+            14565000,
+            27189000,
+            37460000
+          ],
+          [
+            366000,
+            139000,
+            107000,
+            415000,
+            4378000
+          ],
+          [
+            80573000,
+            36408000,
+            24209000,
+            142055000,
+            145192000
+          ],
+          [
+            181549000,
+            121070000,
+            68905000,
+            279582000,
+            390067000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            96133000,
+            96064000,
+            99493000,
+            31043000,
+            3044000
+          ],
+          [
+            2024000,
+            2242000,
+            1206000,
+            1700000,
+            1442000
+          ],
+          [
+            7195000,
+            8277000,
+            4538000,
+            1786000,
+            0
+          ],
+          [
+            1336000,
+            3366000,
+            3270000,
+            17295000,
+            null
+          ],
+          [
+            82289000,
+            81857000,
+            6477000,
+            9347000,
+            22160000
+          ],
+          [
+            370526000,
+            312876000,
+            183889000,
+            340753000,
+            416713000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            14988000,
+            30838000,
+            20250000,
+            21165000,
+            60315000
+          ],
+          [
+            77978000,
+            56628000,
+            0,
+            null,
+            null
+          ],
+          [
+            515000,
+            511000,
+            461000,
+            697000,
+            787000
+          ],
+          [
+            58718000,
+            77040000,
+            33944000,
+            89992000,
+            64221000
+          ],
+          [
+            152199000,
+            165017000,
+            54655000,
+            111854000,
+            125323000
+          ],
+          [
+            165036000,
+            37970000,
+            0,
+            null,
+            null
+          ],
+          [
+            1351000,
+            1501000,
+            785000,
+            1044000,
+            709000
+          ],
+          [
+            19332000,
+            19772000,
+            2193000,
+            4062000,
+            2968000
+          ],
+          [
+            337918000,
+            224260000,
+            57633000,
+            116960000,
+            129000000
+          ],
+          [
+            25751000,
+            21156000,
+            0,
+            null,
+            0
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -549610000,
+            -487433000,
+            -383822000,
+            -248072000,
+            -147265000
+          ],
+          [
+            6857000,
+            67460000,
+            126256000,
+            223793000,
+            287713000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Issuance",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -29692000,
+            -32485000,
+            -20733000,
+            -26819000
+          ],
+          [
+            1919000,
+            2223000,
+            2359000,
+            298000
+          ],
+          [
+            4366000,
+            7053000,
+            8302000,
+            10151000
+          ],
+          [
+            -7157000,
+            -30588000,
+            3502000,
+            4662000
+          ],
+          [
+            -30564000,
+            -53797000,
+            -6570000,
+            -11708000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -9148000,
+            -7058000,
+            -10443000,
+            -15456000
+          ],
+          [
+            null,
+            11765000,
+            -1372000,
+            null
+          ],
+          [
+            -9148000,
+            4707000,
+            -11815000,
+            -15456000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            74093000,
+            150000000,
+            34100000,
+            53406000
+          ],
+          [
+            -3087000,
+            -56478000,
+            -4938000,
+            -23693000
+          ],
+          [
+            null,
+            null,
+            0,
+            5650000
+          ],
+          [
+            2965000,
+            -32369000,
+            30459000,
+            -4074000
+          ],
+          [
+            73971000,
+            61153000,
+            59621000,
+            31289000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3365000,
+            1621000,
+            279000,
+            -296000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -39712000,
+            -60855000,
+            -17013000,
+            -27164000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Issuance",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -109729000,
+            -103658000,
+            -135813000,
+            -98443000,
+            -78299000
+          ],
+          [
+            6799000,
+            3435000,
+            1058000,
+            893000,
+            7743000
+          ],
+          [
+            29872000,
+            36713000,
+            38709000,
+            43097000,
+            41058000
+          ],
+          [
+            -29581000,
+            57861000,
+            40186000,
+            -38202000,
+            6152000
+          ],
+          [
+            -102639000,
+            -5649000,
+            -55860000,
+            -92655000,
+            -23346000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -42105000,
+            -41093000,
+            -58853000,
+            -30431000,
+            -2319000
+          ],
+          [
+            10393000,
+            -3514000,
+            null,
+            -12111000,
+            -11000000
+          ],
+          [
+            -31712000,
+            -44607000,
+            -58736000,
+            -42542000,
+            -13319000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            311599000,
+            151300000,
+            0,
+            null,
+            null
+          ],
+          [
+            -88196000,
+            -56457000,
+            0,
+            null,
+            0
+          ],
+          [
+            null,
+            6849000,
+            0,
+            0,
+            235940000
+          ],
+          [
+            2631000,
+            21358000,
+            null,
+            -5482000,
+            -18169000
+          ],
+          [
+            226034000,
+            123050000,
+            -252000,
+            -5482000,
+            217771000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1761000,
+            576000,
+            -634000,
+            52000,
+            -49000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -144744000,
+            -46742000,
+            -114713000,
+            -123086000,
+            -25665000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            1.1928396375797476,
+            1.4408796212741737,
+            0.7336819842804074,
+            0.6278383867868306
+          ],
+          [
+            1.1904348911622284,
+            1.4391303744221238,
+            0.7328396468242666,
+            0.585099913647365
+          ],
+          [
+            35.44028000583346,
+            5.636483025806028,
+            1.4022828342721614,
+            0.7470235508820717
+          ],
+          [
+            -130.92290863031837,
+            -100.4524886877828,
+            -3.5119303875908314,
+            -51.87730724211411
+          ],
+          [
+            29350000,
+            31757000,
+            -43947000,
+            -61199000
+          ],
+          [
+            149971000,
+            116433000,
+            36338000,
+            27476000
+          ],
+          [
+            -433.01735452821936,
+            -106.65506599251428,
+            -30.733768158908983,
+            -33.2952612695378
+          ],
+          [
+            -8.013472738755175,
+            -10.899653398739083,
+            -6.626586890653166,
+            -9.514231081689921
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1.1928396375797476,
+            0.7336819842804074,
+            1.2607263745311499,
+            2.4995261680404814,
+            3.112493317268179
+          ],
+          [
+            1.1904348911622284,
+            0.7328396468242666,
+            1.2587686396487054,
+            2.4958159743951938,
+            3.0775595860296994
+          ],
+          [
+            35.44028000583346,
+            1.4022828342721614,
+            0.0,
+            null,
+            null
+          ],
+          [
+            -29.834021773297383,
+            -34.82675491356158,
+            -279.09262105240373,
+            -30.989655768087765,
+            -37.936069428354024
+          ],
+          [
+            29350000,
+            -43947000,
+            14250000,
+            167728000,
+            264744000
+          ],
+          [
+            149971000,
+            36338000,
+            -27091000,
+            null,
+            null
+          ],
+          [
+            -1600.2479218317048,
+            -153.658464275126,
+            -107.56954124952478,
+            -43.98841786829794,
+            -27.21427255633218
+          ],
+          [
+            -29.614386034988097,
+            -33.1306971451949,
+            -73.85596745862993,
+            -28.889841028545604,
+            -18.789670588630543
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-08-18T14:30:36+00:00"
+}

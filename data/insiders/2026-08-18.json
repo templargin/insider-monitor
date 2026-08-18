@@ -1,0 +1,228 @@
+{
+  "url_date": "2026-08-18",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-08-17"
+  ],
+  "generated_at": "2026-08-18T14:26:28+00:00",
+  "tickers": [
+    {
+      "ticker": "LWAY",
+      "name": "Lifeway Foods, Inc.",
+      "total_value": 6126811.6232,
+      "ev_basic": 403415451.53936005,
+      "mc_basic": 388394451.53936005,
+      "insiders": [
+        {
+          "reporter_name": "Divisadero Street Capital Management, LP",
+          "relationship": "10% Owner",
+          "total_value": 6126811.6232,
+          "shares": 246568.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 2558448.95,
+      "ev_basic": 390234821.52300453,
+      "mc_basic": 246813821.52300453,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 2558448.95,
+          "shares": 399043.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "MLAB",
+      "name": "MESA LABORATORIES INC /CO/",
+      "total_value": 902411.4,
+      "ev_basic": 640256459.7173157,
+      "mc_basic": 604857459.7173157,
+      "insiders": [
+        {
+          "reporter_name": "Kadia Siddhartha",
+          "relationship": "Officer (President and CEO)",
+          "total_value": 800090.4,
+          "shares": 7093.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Tripeny R Tony",
+          "relationship": "Director",
+          "total_value": 102321.0,
+          "shares": 900.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "MOBI",
+      "name": "Mobia Medical, Inc.",
+      "total_value": 797172.875,
+      "ev_basic": 223901253.85990906,
+      "mc_basic": 400991253.85990906,
+      "insiders": [
+        {
+          "reporter_name": "Tansey Casey M",
+          "relationship": "Director",
+          "total_value": 797172.875,
+          "shares": 68559.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "SUNS",
+      "name": "Sunrise Realty Trust, Inc.",
+      "total_value": 375000.0,
+      "ev_basic": 99019108.64646721,
+      "mc_basic": 104612683.64646721,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 375000.0,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "NRGV",
+      "name": "Energy Vault Holdings, Inc.",
+      "total_value": 319780.382,
+      "ev_basic": 863145575.9891009,
+      "mc_basic": 691899575.9891009,
+      "insiders": [
+        {
+          "reporter_name": "Hixon Dylan",
+          "relationship": "Director",
+          "total_value": 319780.382,
+          "shares": 85518.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "total_value": 295620.0,
+      "ev_basic": 649366177.1211132,
+      "mc_basic": 668972423.1211132,
+      "insiders": [
+        {
+          "reporter_name": "Apeiron Investment Group Ltd.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 295620.0,
+          "shares": 150000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "CHCT",
+      "name": "Community Healthcare Trust Inc",
+      "total_value": 151300.0,
+      "ev_basic": 985825354.771656,
+      "mc_basic": 425939354.77165604,
+      "insiders": [
+        {
+          "reporter_name": "Dupuy David H.",
+          "relationship": "Director, Officer (CEO and President)",
+          "total_value": 151300.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AFCG",
+      "name": "Advanced Flower Capital Inc.",
+      "total_value": 140236.74,
+      "ev_basic": 51118824.50608134,
+      "mc_basic": 81052111.50608134,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, 10% Owner",
+          "total_value": 140236.74,
+          "shares": 45829.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BTDR",
+      "name": "Bitdeer Technologies Group",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "ONON",
+      "name": "On Holding AG",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "MDXH",
+      "name": "MDxHealth SA",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "APLM",
+      "name": "Apollomics Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "TDIC",
+      "name": "Dreamland Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "CMCL",
+      "name": "Caledonia Mining Corp Plc",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "EDAP",
+      "name": "EDAP TMS SA",
+      "cik": "1041934",
+      "reason": "no share price for EDAP",
+      "transient": true
+    },
+    {
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "cik": "881787",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false
+    },
+    {
+      "ticker": "ANGX",
+      "name": "Angel Studios, Inc.",
+      "cik": "1865200",
+      "reason": "cannot confirm EV < $1,000M for ANGX: EV=$997.1M with $53.8M of unexplained_liabilities (up to $1,050.9M)",
+      "transient": false
+    }
+  ]
+}

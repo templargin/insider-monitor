@@ -4,9 +4,9 @@
   "name": "Community Healthcare Trust Inc",
   "description": "Community Healthcare Trust Incorporated is a real estate investment trust that focuses on owning income-producing real estate properties associated primarily with the delivery of outpatient healthcare services in our target sub-markets throughout the United States. As of June 30, 2026, the Company had investments of approximately 1.2 billion dollars in 197 real estate properties (including one property with sales-type leases). The properties are in 36 states, totaling approximately 4.5 million square feet in the aggregate. Community Healthcare Trust was established on march 28, 2014 and is based in Franklin, United States.",
   "ownership": {
-    "inst_pct": 0.81708,
-    "insider_pct": 0.061329998,
-    "inst_count": 254,
+    "inst_pct": 0.82087,
+    "insider_pct": 0.06161,
+    "inst_count": 253,
     "analyst_count": 4,
     "rec_mean": 2.25,
     "rec_key": "buy",
@@ -14,10 +14,24 @@
     "short_pct_float": 0.041500002,
     "shares_short": 1005696,
     "short_days_to_cover": 5.0,
-    "short_as_of": "2026-07-30",
-    "as_of": "2026-08-13"
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-18"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Dupuy David H.",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 15.13,
+      "total_value": 151300.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-057376"
+    },
     {
       "date_filed": "2026-08-12",
       "reporter_name": "Hensley Robert Z",
@@ -773,24 +787,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001631569-24-000091"
-    },
-    {
-      "date_filed": "2024-08-14",
-      "reporter_name": "Cotman Cathrine",
-      "relationship": "Director",
-      "transaction_date": "2024-08-13",
-      "code": "P",
-      "shares": 2000.0,
-      "price": 17.72,
-      "total_value": 35440.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001631569-24-000089"
     }
   ],
   "valuation": {
-    "share_price": 15.010000228881836,
+    "share_price": 14.864999771118164,
     "shares_basic": 28653842,
     "shares_basic_as_of": "2026-07-28",
     "options": 0,
@@ -799,8 +799,8 @@
     "debt": 562559000,
     "debt_flag": null,
     "ttm_revenue": 124780000.0,
-    "mc_basic": 430094174.97834396,
-    "ev_basic": 989980174.978344
+    "mc_basic": 425939354.77165604,
+    "ev_basic": 985825354.771656
   },
   "financials": {
     "income_statement": {
@@ -1663,5 +1663,5 @@
       }
     }
   },
-  "last_updated": "2026-08-13T12:36:58+00:00"
+  "last_updated": "2026-08-18T14:28:05+00:00"
 }

@@ -3,7 +3,133 @@
   "cik": "1489993",
   "name": "Mobia Medical, Inc.",
   "description": "Mobia Medical, Inc. develops and commercializes neurostimulation medical devices, including implantable systems for stroke rehabilitation and other neurological conditions. The company provides neurostimulation systems and devices that combine vagus nerve stimulation with therapy to address chronic neurological conditions. Its main product, the Vivistim System, is an FDA-approved implantable device designed to aid in the rehabilitation of upper limb motor function in post-stroke patients. The paired VNS platform is used to help patients relearn movements and improve motor deficits, and it is being developed for additional chronic neurologic conditions such as tinnitus. The company supports healthcare professionals, patients, and caregivers with information and resources related to its offerings. The company serves healthcare professionals and organizations involved in stroke rehabilitation and chronic neurological conditions, as well as patients and caregivers within the healthcare sector. The company was founded in 2007 and is based in Austin, Texas.",
+  "ownership": {
+    "inst_pct": 0.51951003,
+    "insider_pct": 0.07103,
+    "inst_count": 46,
+    "analyst_count": 4,
+    "rec_mean": 1.25,
+    "rec_key": "strong_buy",
+    "target_mean": 17.75,
+    "short_pct_float": 0.0247,
+    "shares_short": 479628,
+    "short_days_to_cover": 4.65,
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-18"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Tansey Casey M",
+      "relationship": "Director",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 17166.0,
+      "price": 11.8509,
+      "total_value": 203432.5494,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-354538"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Tansey Casey M",
+      "relationship": "Director",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 15721.0,
+      "price": 11.65,
+      "total_value": 183149.65,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-354538"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Tansey Casey M",
+      "relationship": "Director",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 100.0,
+      "price": 12.53,
+      "total_value": 1253.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-354538"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Tansey Casey M",
+      "relationship": "Director",
+      "transaction_date": "2026-08-13",
+      "code": "P",
+      "shares": 35572.0,
+      "price": 11.5073,
+      "total_value": 409337.6756,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-354538"
+    },
+    {
+      "date_filed": "2026-08-03",
+      "reporter_name": "Curet Myriam",
+      "relationship": "Director",
+      "transaction_date": "2026-07-30",
+      "code": "A",
+      "shares": 19740.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-330944"
+    },
+    {
+      "date_filed": "2026-08-03",
+      "reporter_name": "Curet Myriam",
+      "relationship": "Director",
+      "transaction_date": "2026-07-30",
+      "code": "A",
+      "shares": 15960.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-330944"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Zadno Reza",
+      "relationship": "Director",
+      "transaction_date": "2026-07-14",
+      "code": "A",
+      "shares": 19150.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-306432"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Zadno Reza",
+      "relationship": "Director",
+      "transaction_date": "2026-07-14",
+      "code": "A",
+      "shares": 16260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-306432"
+    },
     {
       "date_filed": "2026-06-29",
       "reporter_name": "Green Park & Golf Ventures II, LLC",
@@ -2498,21 +2624,17 @@
     }
   ],
   "valuation": {
-    "share_price": 11.829999923706055,
-    "shares_basic": 33249006,
-    "shares_basic_as_of": "2026-06-01",
+    "share_price": 12.045000076293945,
+    "shares_basic": 33291096,
+    "shares_basic_as_of": "2026-08-06",
     "options": 4382879,
     "warrants": 0,
-    "cash": 55725000,
-    "debt": 40000000,
-    "debt_flag": {
-      "reason": "unexplained_liabilities",
-      "amount": 9784000,
-      "concept": null
-    },
-    "ttm_revenue": 17735000.0,
-    "mc_basic": 393335738.44330215,
-    "ev_basic": 377610738.44330215
+    "cash": 177090000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 37914000.0,
+    "mc_basic": 400991253.85990906,
+    "ev_basic": 223901253.85990906
   },
   "financials": {
     "income_statement": {
@@ -3321,24 +3443,5 @@
       }
     }
   },
-  "last_updated": "2026-06-30T12:33:14+00:00",
-  "ownership": {
-    "inst_pct": 0.2711,
-    "insider_pct": 0.07112,
-    "inst_count": 8,
-    "analyst_count": 5,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 20.0,
-    "short_pct_float": 0.0635,
-    "shares_short": 1234096,
-    "short_days_to_cover": 5.09,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-18T14:27:25+00:00"
 }
