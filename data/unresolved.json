@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:56:38+00:00",
+  "generated_at": "2026-08-18T10:30:42+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -125,11 +125,11 @@
         ]
       },
       "first_seen": "2026-08-14T10:32:24+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-17",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-18",
       "last_reason": "no share price for BRK.A",
-      "last_tried": "2026-08-17T10:56:37+00:00"
+      "last_tried": "2026-08-18T10:30:41+00:00"
     },
     {
       "url_date": "2026-08-14",
@@ -190,11 +190,11 @@
         ]
       },
       "first_seen": "2026-08-14T10:32:24+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-17",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-18",
       "last_reason": "no companyfacts for CIK 881787",
-      "last_tried": "2026-08-17T10:56:38+00:00"
+      "last_tried": "2026-08-18T10:30:41+00:00"
     },
     {
       "url_date": "2026-08-14",
@@ -266,11 +266,11 @@
         ]
       },
       "first_seen": "2026-08-14T10:32:24+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-17",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-18",
       "last_reason": "share count for DFH predates its balance sheet (2026-02-17 < 2026-06-30)",
-      "last_tried": "2026-08-17T10:56:38+00:00"
+      "last_tried": "2026-08-18T10:30:42+00:00"
     }
   ]
 }
