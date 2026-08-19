@@ -4,9 +4,9 @@
   "name": "FRP HOLDINGS, INC.",
   "description": "FRP Holdings, Inc. engages in the real estate business in the United States. The company operates through four segments: Industrial and Commercial, Mining Royalty Lands, Development, and Multifamily. Its Industrial and Commercial segment owns, leases, and manages commercial properties. The Mining Royalty Lands segment owns, leases, and manages mining royalties in Florida, Georgia, and Virginia. Its Development segment owns and assesses the use of parcels of land that are in various stages of development; and constructs new buildings own and operate. The Multifamily segment owns, leases, and manages buildings through joint ventures. FRP Holdings, Inc. was founded in 1988 and is based in Jacksonville, Florida.",
   "ownership": {
-    "inst_pct": 0.4729,
+    "inst_pct": 0.48414,
     "insider_pct": 0.40111,
-    "inst_count": 165,
+    "inst_count": 158,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
@@ -15,9 +15,37 @@
     "shares_short": 422851,
     "short_days_to_cover": 6.53,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-12"
+    "as_of": "2026-08-19"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "BAKER JOHN D II",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-18",
+      "code": "P",
+      "shares": 8189.0,
+      "price": 21.97,
+      "total_value": 179912.33,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000897069-26-001700"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "BAKER JOHN D II",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 957.0,
+      "price": 21.9687,
+      "total_value": 21024.045899999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000897069-26-001700"
+    },
     {
       "date_filed": "2026-08-11",
       "reporter_name": "Baker John D. III",
@@ -1476,7 +1504,7 @@
     }
   ],
   "valuation": {
-    "share_price": 22.1200008392334,
+    "share_price": 22.010000228881836,
     "shares_basic": 19198301,
     "shares_basic_as_of": "2026-08-04",
     "options": 63440,
@@ -1485,8 +1513,8 @@
     "debt": 214618000,
     "debt_flag": null,
     "ttm_revenue": 43367000.0,
-    "mc_basic": 424666434.2318554,
-    "ev_basic": 538309434.2318554
+    "mc_basic": 422554609.4041424,
+    "ev_basic": 536197609.4041424
   },
   "financials": {
     "income_statement": {
@@ -2552,5 +2580,5 @@
       }
     }
   },
-  "last_updated": "2026-08-12T11:25:41+00:00"
+  "last_updated": "2026-08-19T10:35:23+00:00"
 }

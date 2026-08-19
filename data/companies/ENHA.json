@@ -4,9 +4,9 @@
   "name": "Enhanced Group Inc.",
   "description": "Enhanced Group Inc. operates in the sports entertainment, performance technology, and lifestyle wellness markets. It engages in organizing live sporting events; producing and distributing related content; marketing lifestyle and health optimization services to customers; and operating the Live Enhanced platform, through which customers access OTC supplement blends, clinician-guided prescription-based hormone therapy, and other longevity-related protocols provided by third-party telehealth service providers. Enhanced Group Inc. is based in New York, New York.",
   "ownership": {
-    "inst_pct": 0.35821,
+    "inst_pct": 0.35743,
     "insider_pct": 0.24531999,
-    "inst_count": 35,
+    "inst_count": 34,
     "analyst_count": 2,
     "rec_mean": 1.0,
     "rec_key": "strong_buy",
@@ -15,7 +15,7 @@
     "shares_short": 1893658,
     "short_days_to_cover": 3.78,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-18"
+    "as_of": "2026-08-19"
   },
   "form4_filings": [
     {
@@ -31,6 +31,34 @@
       "table": "nonDerivative",
       "ownership": "I",
       "accession": "0001193125-26-354788"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Martin Maximilian",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-14",
+      "code": "A",
+      "shares": 1285347.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-057808"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Martin Maximilian",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-14",
+      "code": "A",
+      "shares": 1285347.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Warrants",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-057808"
     },
     {
       "date_filed": "2026-08-17",
@@ -356,7 +384,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.725000023841858,
+    "share_price": 1.6299999952316284,
     "shares_basic": 387810095.0,
     "shares_basic_as_of": "2026-08-13",
     "options": 10363112,
@@ -365,8 +393,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 17702934.0,
-    "mc_basic": 668972423.1211132,
-    "ev_basic": 649366177.1211132
+    "mc_basic": 632130453.0007774,
+    "ev_basic": 612524207.0007774
   },
   "financials": {
     "income_statement": {
@@ -1182,5 +1210,5 @@
       }
     }
   },
-  "last_updated": "2026-08-18T14:30:39+00:00"
+  "last_updated": "2026-08-19T10:36:41+00:00"
 }

@@ -4,9 +4,9 @@
   "name": "Angel Studios, Inc.",
   "description": "Angel Studios, Inc. operates as a media and technology company. The company produces and distributes films and series; and releases licensed films or shows. The company's platform allows users to watch movies, shows, and documentaries for all ages through its streaming platform. It also offers apparel, DVDs, Blu-rays, books; direct online store for Angel Studios themed products and wholesale products to retail partners; and content licensing services. In addition, the company provides Angel Guild memberships; theatrical ticket presales; theatrical distribution; theatrical pay it forward; and merchandise services. The company was formerly known as VidAngel, Inc. and changed its name to Angel Studios, Inc. in March 2021. Angel Studios, Inc. was founded in 2013 and is based in Provo, Utah.",
   "ownership": {
-    "inst_pct": 0.31487,
-    "insider_pct": 0.03155,
-    "inst_count": 138,
+    "inst_pct": 0.33233002,
+    "insider_pct": 0.03694,
+    "inst_count": 151,
     "analyst_count": 5,
     "rec_mean": 1.2,
     "rec_key": "strong_buy",
@@ -15,9 +15,65 @@
     "shares_short": 4929610,
     "short_days_to_cover": 3.81,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-17"
+    "as_of": "2026-08-19"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Harmon Neal",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 29193.1,
+      "price": 4.282,
+      "total_value": 125004.8542,
+      "security_title": "Class A Common Stock, par value $0.0001 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001865200-26-000081"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Harmon Jeffrey",
+      "relationship": "Officer (Chief Content Officer)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 51380.0,
+      "price": 4.2646,
+      "total_value": 219115.148,
+      "security_title": "Class A Common Stock, par value $0.0001 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001865200-26-000080"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Sarowitz Steven I",
+      "relationship": "Director",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 57922.0,
+      "price": 4.261,
+      "total_value": 246805.642,
+      "security_title": "Class A Common Stock, par value $0.0001 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001865200-26-000079"
+    },
+    {
+      "date_filed": "2026-08-17",
+      "reporter_name": "Harmon Jeffrey",
+      "relationship": "Officer (Chief Content Officer)",
+      "transaction_date": "2026-08-13",
+      "code": "P",
+      "shares": 178700.0,
+      "price": 4.0828,
+      "total_value": 729596.36,
+      "security_title": "Class A Common Stock, par value $0.0001 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001865200-26-000080"
+    },
     {
       "date_filed": "2026-08-14",
       "reporter_name": "Sarowitz Steven I",
@@ -1070,7 +1126,7 @@
     }
   ],
   "valuation": {
-    "share_price": 4.369999885559082,
+    "share_price": 4.849999904632568,
     "shares_basic": 186504214,
     "shares_basic_as_of": "2026-06-30",
     "options": 31957791,
@@ -1083,8 +1139,8 @@
       "concept": null
     },
     "ttm_revenue": 413287246.0,
-    "mc_basic": 815023393.8362865,
-    "ev_basic": 841386428.8362865
+    "mc_basic": 904545420.1135721,
+    "ev_basic": 930908455.1135721
   },
   "financials": {
     "income_statement": {
@@ -2323,5 +2379,5 @@
       }
     }
   },
-  "last_updated": "2026-08-17T11:00:17+00:00"
+  "last_updated": "2026-08-19T10:30:52+00:00"
 }

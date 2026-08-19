@@ -3,7 +3,133 @@
   "cik": "1218683",
   "name": "Big Digital Energy, Inc.",
   "description": "Big Digital Energy, Inc., a technology company, designs, develops, and operates digital infrastructure platforms in the United States. The company offers artificial intelligence and high-performance computing; digital asset colocation; and technology and information systems. The company was formerly known as Mawson Infrastructure Group Inc. and changed its name to Big Digital Energy, Inc. in April 2026. Big Digital Energy, Inc. is based in Midland, Pennsylvania.",
+  "ownership": {
+    "inst_pct": 0.055760004,
+    "insider_pct": 0.42169997,
+    "inst_count": 19,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0473,
+    "shares_short": 182960,
+    "short_days_to_cover": 1.98,
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-19"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-18",
+      "code": "P",
+      "shares": 16000.0,
+      "price": 6.73,
+      "total_value": 107680.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 500.0,
+      "price": 6.91,
+      "total_value": 3455.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 100.0,
+      "price": 7.11,
+      "total_value": 711.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 14000.0,
+      "price": 7.19,
+      "total_value": 100660.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 6.83,
+      "total_value": 136600.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 11927.0,
+      "price": 6.55,
+      "total_value": 78121.84999999999,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 4090.0,
+      "price": 6.35,
+      "total_value": 25971.5,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Endeavor Blockchain, LLC",
+      "relationship": "10% Owner, Other (SEE REMARKS)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 3073.0,
+      "price": 7.11,
+      "total_value": 21849.030000000002,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001130"
+    },
     {
       "date_filed": "2026-07-10",
       "reporter_name": "Endeavor Blockchain, LLC",
@@ -1518,17 +1644,17 @@
     }
   ],
   "valuation": {
-    "share_price": 6.360000133514404,
-    "shares_basic": 5521252,
-    "shares_basic_as_of": "2026-05-07",
+    "share_price": 6.570000171661377,
+    "shares_basic": 5664339,
+    "shares_basic_as_of": "2026-08-07",
     "options": 70000,
     "warrants": 4480839,
-    "cash": 2439705,
-    "debt": 26611911,
+    "cash": 16290273,
+    "debt": 30054887,
     "debt_flag": null,
-    "ttm_revenue": 30760015.0,
-    "mc_basic": 35115163.45716667,
-    "ev_basic": 59287369.45716667
+    "ttm_revenue": 27380051.0,
+    "mc_basic": 37214708.20234823,
+    "ev_basic": 50979322.20234823
   },
   "financials": {
     "income_statement": {
@@ -2717,24 +2843,5 @@
       }
     }
   },
-  "last_updated": "2026-07-13T13:01:28+00:00",
-  "ownership": {
-    "inst_pct": 0.01196,
-    "insider_pct": 0.43262002,
-    "inst_count": 12,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.056500003,
-    "shares_short": 218687,
-    "short_days_to_cover": 1.37,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-19T10:35:30+00:00"
 }

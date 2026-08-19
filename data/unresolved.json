@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:26:28+00:00",
+  "generated_at": "2026-08-19T10:34:32+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -544,8 +544,11 @@
         ]
       },
       "first_seen": "2026-08-18T14:26:28+00:00",
-      "attempts": 0,
-      "abandoned": false
+      "attempts": 1,
+      "abandoned": false,
+      "last_tried_date": "2026-08-19",
+      "last_reason": "no share price for EDAP",
+      "last_tried": "2026-08-19T10:30:37+00:00"
     },
     {
       "url_date": "2026-08-18",
@@ -606,132 +609,111 @@
         ]
       },
       "first_seen": "2026-08-18T14:26:28+00:00",
-      "attempts": 0,
-      "abandoned": false
+      "attempts": 1,
+      "abandoned": false,
+      "last_tried_date": "2026-08-19",
+      "last_reason": "no companyfacts for CIK 881787",
+      "last_tried": "2026-08-19T10:30:37+00:00"
     },
     {
-      "url_date": "2026-08-18",
-      "cik": "1865200",
-      "ticker": "ANGX",
-      "name": "Angel Studios, Inc.",
-      "reason": "cannot confirm EV < $1,000M for ANGX: EV=$997.1M with $53.8M of unexplained_liabilities (up to $1,050.9M)",
-      "transient": false,
+      "url_date": "2026-08-19",
+      "cik": "1770069",
+      "ticker": "MLPT",
+      "name": "MapLight Therapeutics, Inc.",
+      "reason": "no share price for MLPT",
+      "transient": true,
       "bucket_data": {
-        "ticker": "ANGX",
-        "name": "Angel Studios, Inc.",
+        "ticker": "MLPT",
+        "name": "MapLight Therapeutics, Inc.",
         "by_reporter": {
-          "1597870": {
-            "reporter_cik": "1597870",
-            "reporter_name": "Sarowitz Steven I",
-            "relationship": "Director",
-            "total_value": 246805.642,
-            "shares": 57922.0,
-            "txn_count": 1
-          },
-          "2020174": {
-            "reporter_cik": "2020174",
-            "reporter_name": "Harmon Jeffrey",
-            "relationship": "Officer (Chief Content Officer)",
-            "total_value": 948711.5079999999,
-            "shares": 230080.0,
-            "txn_count": 2
-          },
-          "2020176": {
-            "reporter_cik": "2020176",
-            "reporter_name": "Harmon Neal",
-            "relationship": "Director, Officer (Chief Executive Officer)",
-            "total_value": 125004.8542,
-            "shares": 29193.1,
+          "1900201": {
+            "reporter_cik": "1900201",
+            "reporter_name": "Catalyst4, Inc.",
+            "relationship": "10% Owner",
+            "total_value": 50072000.0,
+            "shares": 4400000.0,
             "txn_count": 1
           }
         },
         "filings": [
           {
             "form_meta": {
-              "reporter_name": "Sarowitz Steven I",
-              "reporter_cik": "1597870",
-              "relationship": "Director",
-              "issuer_cik": "1865200",
-              "issuer_ticker": "ANGX",
-              "issuer_name": "Angel Studios, Inc."
+              "reporter_name": "Catalyst4, Inc.",
+              "reporter_cik": "1900201",
+              "relationship": "10% Owner",
+              "issuer_cik": "1770069",
+              "issuer_ticker": "MLPT",
+              "issuer_name": "MapLight Therapeutics, Inc."
             },
             "purchase_txns": [
               {
                 "table": "nonDerivative",
-                "security_title": "Class A Common Stock, par value $0.0001 per share",
+                "security_title": "Voting Common Stock",
                 "transaction_date": "2026-08-14",
                 "code": "P",
-                "shares": 57922.0,
-                "price": 4.261,
-                "total_value": 246805.642,
-                "ownership": "D",
+                "shares": 4400000.0,
+                "price": 11.38,
+                "total_value": 50072000.0,
+                "ownership": "I",
                 "ad_code": "A"
               }
             ],
-            "value": 246805.642
-          },
-          {
-            "form_meta": {
-              "reporter_name": "Harmon Jeffrey",
-              "reporter_cik": "2020174",
-              "relationship": "Officer (Chief Content Officer)",
-              "issuer_cik": "1865200",
-              "issuer_ticker": "ANGX",
-              "issuer_name": "Angel Studios, Inc."
-            },
-            "purchase_txns": [
-              {
-                "table": "nonDerivative",
-                "security_title": "Class A Common Stock, par value $0.0001 per share",
-                "transaction_date": "2026-08-13",
-                "code": "P",
-                "shares": 178700.0,
-                "price": 4.0828,
-                "total_value": 729596.36,
-                "ownership": "D",
-                "ad_code": "A"
-              },
-              {
-                "table": "nonDerivative",
-                "security_title": "Class A Common Stock, par value $0.0001 per share",
-                "transaction_date": "2026-08-14",
-                "code": "P",
-                "shares": 51380.0,
-                "price": 4.2646,
-                "total_value": 219115.148,
-                "ownership": "D",
-                "ad_code": "A"
-              }
-            ],
-            "value": 948711.5079999999
-          },
-          {
-            "form_meta": {
-              "reporter_name": "Harmon Neal",
-              "reporter_cik": "2020176",
-              "relationship": "Director, Officer (Chief Executive Officer)",
-              "issuer_cik": "1865200",
-              "issuer_ticker": "ANGX",
-              "issuer_name": "Angel Studios, Inc."
-            },
-            "purchase_txns": [
-              {
-                "table": "nonDerivative",
-                "security_title": "Class A Common Stock, par value $0.0001 per share",
-                "transaction_date": "2026-08-14",
-                "code": "P",
-                "shares": 29193.1,
-                "price": 4.282,
-                "total_value": 125004.8542,
-                "ownership": "D",
-                "ad_code": "A"
-              }
-            ],
-            "value": 125004.8542
+            "value": 50072000.0
           }
         ]
       },
-      "first_seen": "2026-08-18T14:26:28+00:00",
+      "first_seen": "2026-08-19T10:34:32+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-19",
+      "cik": "1982701",
+      "ticker": "AB-Lend",
+      "name": "AB Private Lending Fund",
+      "reason": "no share price for AB-Lend",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "AB-Lend",
+        "name": "AB Private Lending Fund",
+        "by_reporter": {
+          "2146761": {
+            "reporter_cik": "2146761",
+            "reporter_name": "PM Alpha II DAC",
+            "relationship": "10% Owner",
+            "total_value": 1325964.9767699998,
+            "shares": 53059.823,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "PM Alpha II DAC",
+              "reporter_cik": "2146761",
+              "relationship": "10% Owner",
+              "issuer_cik": "1982701",
+              "issuer_ticker": "AB-Lend",
+              "issuer_name": "AB Private Lending Fund"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class I Common Shares of Beneficial Interest",
+                "transaction_date": "2026-03-02",
+                "code": "P",
+                "shares": 53059.823,
+                "price": 24.99,
+                "total_value": 1325964.9767699998,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1325964.9767699998
+          }
+        ]
+      },
+      "first_seen": "2026-08-19T10:34:32+00:00",
       "attempts": 0,
       "abandoned": false
     }

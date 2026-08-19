@@ -1,0 +1,158 @@
+{
+  "url_date": "2026-08-19",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-08-18"
+  ],
+  "generated_at": "2026-08-19T10:34:32+00:00",
+  "tickers": [
+    {
+      "ticker": "BGDE",
+      "name": "Big Digital Energy, Inc.",
+      "total_value": 475048.38,
+      "ev_basic": 50979322.20234823,
+      "mc_basic": 37214708.20234823,
+      "insiders": [
+        {
+          "reporter_name": "Endeavor Blockchain, LLC",
+          "relationship": "10% Owner, Other (SEE REMARKS)",
+          "total_value": 475048.38,
+          "shares": 69690.0,
+          "txn_count": 8
+        }
+      ]
+    },
+    {
+      "ticker": "ENSC",
+      "name": "Ensysce Biosciences, Inc.",
+      "total_value": 444169.176,
+      "ev_basic": 7207845.504445553,
+      "mc_basic": 7490865.504445553,
+      "insiders": [
+        {
+          "reporter_name": "GOWER BOB G",
+          "relationship": "Director",
+          "total_value": 444169.176,
+          "shares": 908614.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "total_value": 330420.0,
+      "ev_basic": 612524207.0007774,
+      "mc_basic": 632130453.0007774,
+      "insiders": [
+        {
+          "reporter_name": "Apeiron Investment Group Ltd.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 330420.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "FRPH",
+      "name": "FRP HOLDINGS, INC.",
+      "total_value": 200936.37589999998,
+      "ev_basic": 536197609.4041424,
+      "mc_basic": 422554609.4041424,
+      "insiders": [
+        {
+          "reporter_name": "BAKER JOHN D II",
+          "relationship": "Director, 10% Owner",
+          "total_value": 200936.37589999998,
+          "shares": 9146.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ASST",
+      "name": "Strive, Inc.",
+      "total_value": 199386.0,
+      "ev_basic": 948190374.6967497,
+      "mc_basic": 1093656374.6967497,
+      "insiders": [
+        {
+          "reporter_name": "Rochard Pierre",
+          "relationship": "Director",
+          "total_value": 199386.0,
+          "shares": 15900.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "VRCA",
+      "name": "Verrica Pharmaceuticals Inc.",
+      "total_value": 125749.99999999999,
+      "ev_basic": 70592715.53106594,
+      "mc_basic": 80396715.53106594,
+      "insiders": [
+        {
+          "reporter_name": "Rieger Jayson",
+          "relationship": "Director, Officer (CEO and President)",
+          "total_value": 125749.99999999999,
+          "shares": 25000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "NRGV",
+      "name": "Energy Vault Holdings, Inc.",
+      "total_value": 106536.416,
+      "ev_basic": 834960447.8415728,
+      "mc_basic": 663714447.8415728,
+      "insiders": [
+        {
+          "reporter_name": "Hixon Dylan",
+          "relationship": "Director",
+          "total_value": 106536.416,
+          "shares": 27472.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BXSY",
+      "name": "BEXIL INVESTMENT TRUST",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "ASND",
+      "name": "Ascendis Pharma A/S",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "AUGO",
+      "name": "Aura Minerals Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "MLPT",
+      "name": "MapLight Therapeutics, Inc.",
+      "cik": "1770069",
+      "reason": "no share price for MLPT",
+      "transient": true
+    },
+    {
+      "ticker": "AB-Lend",
+      "name": "AB Private Lending Fund",
+      "cik": "1982701",
+      "reason": "no share price for AB-Lend",
+      "transient": true
+    }
+  ]
+}

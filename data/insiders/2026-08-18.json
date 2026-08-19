@@ -39,6 +39,36 @@
       ]
     },
     {
+      "ticker": "ANGX",
+      "name": "Angel Studios, Inc.",
+      "total_value": 1320522.0041999999,
+      "ev_basic": 930908455.1135721,
+      "mc_basic": 904545420.1135721,
+      "insiders": [
+        {
+          "reporter_name": "Harmon Jeffrey",
+          "relationship": "Officer (Chief Content Officer)",
+          "total_value": 948711.5079999999,
+          "shares": 230080.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Sarowitz Steven I",
+          "relationship": "Director",
+          "total_value": 246805.642,
+          "shares": 57922.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Harmon Neal",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 125004.8542,
+          "shares": 29193.1,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
       "ticker": "MLAB",
       "name": "MESA LABORATORIES INC /CO/",
       "total_value": 902411.4,
@@ -215,13 +245,6 @@
       "name": "CROSS TIMBERS ROYALTY TRUST",
       "cik": "881787",
       "reason": "no companyfacts for CIK 881787",
-      "transient": false
-    },
-    {
-      "ticker": "ANGX",
-      "name": "Angel Studios, Inc.",
-      "cik": "1865200",
-      "reason": "cannot confirm EV < $1,000M for ANGX: EV=$997.1M with $53.8M of unexplained_liabilities (up to $1,050.9M)",
       "transient": false
     }
   ]
