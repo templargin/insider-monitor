@@ -3,7 +3,49 @@
   "cik": "832480",
   "name": "UTG INC",
   "description": "UTG, Inc., an insurance holding company, provides individual life insurance products and services in the United States. Its individual life insurance includes the servicing of existing insurance business in-force; the acquisition of other companies in the insurance business; and the administration processing of life insurance business for other entities. In addition, the company offers reinsurance products; and investment in its real estate portfolio includes ownership in oil and gas royalties. UTG, Inc. was founded in 1966 and is headquartered in Stanford, Kentucky.",
+  "ownership": {
+    "inst_pct": 0.0,
+    "insider_pct": 0.74995005,
+    "inst_count": 0,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": null,
+    "shares_short": null,
+    "short_days_to_cover": null,
+    "short_as_of": null,
+    "as_of": "2026-08-20"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-19",
+      "reporter_name": "FIRST SOUTHERN FUNDING LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-18",
+      "code": "P",
+      "shares": 4808.0,
+      "price": 59.0,
+      "total_value": 283672.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000832480-26-000025"
+    },
+    {
+      "date_filed": "2026-08-19",
+      "reporter_name": "CORRELL JESSE T",
+      "relationship": "Director, Officer (Chairman & CEO), 10% Owner",
+      "transaction_date": "2026-08-18",
+      "code": "P",
+      "shares": 4808.0,
+      "price": 59.0,
+      "total_value": 283672.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000832480-26-000024"
+    },
     {
       "date_filed": "2026-05-20",
       "reporter_name": "CORRELL JESSE T",
@@ -566,17 +608,17 @@
     }
   ],
   "valuation": {
-    "share_price": 57.9900016784668,
-    "shares_basic": 3139393,
-    "shares_basic_as_of": "2026-04-30",
+    "share_price": 59.0,
+    "shares_basic": 3132727,
+    "shares_basic_as_of": "2026-07-31",
     "options": 96250,
     "warrants": 0,
-    "cash": 46771832,
+    "cash": 42602900,
     "debt": null,
-    "ttm_revenue": 56936161.0,
-    "mc_basic": 182053405.3393669,
-    "ev_basic": 135281573.3393669,
-    "debt_flag": null
+    "debt_flag": null,
+    "ttm_revenue": 67439526.0,
+    "mc_basic": 184830893.0,
+    "ev_basic": 142227993.0
   },
   "financials": {
     "income_statement": {
@@ -1395,24 +1437,5 @@
       }
     }
   },
-  "last_updated": "2026-05-21T13:50:23+00:00",
-  "ownership": {
-    "inst_pct": 0.0,
-    "insider_pct": 0.74836,
-    "inst_count": 0,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": null,
-    "shares_short": null,
-    "short_days_to_cover": null,
-    "short_as_of": null,
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-20T10:33:43+00:00"
 }

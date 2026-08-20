@@ -1,0 +1,592 @@
+{
+  "ticker": "CCHH",
+  "cik": "2074123",
+  "name": "CCH Holdings Ltd",
+  "description": "CCH Holdings Ltd operates as a specialty hotpot restaurant chain in Malaysia. The company offers chicken hotpot and fish head hotpot. It also provides catering services under Chicken Claypot House and Zi Wei Yuan through company-owned restaurant outlets and franchised restaurant outlets. In addition, the company operates or licenses restaurant outlets under the 888 Family Food Court, Bibixian, Banbudian Bistro, and Chao Liu Xian Hotpot brands. Further, it sells food ingredients and condiments; and franchise licensing. CCH Holdings Ltd was founded in 2015 and is headquartered in Bukit Mertajam, Malaysia.",
+  "ownership": {
+    "inst_pct": 0.00518,
+    "insider_pct": 0.44417998,
+    "inst_count": 6,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0101,
+    "shares_short": 33074,
+    "short_days_to_cover": 0.03,
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-20"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-08-19",
+      "reporter_name": "Ng Yah Ling",
+      "relationship": "Director",
+      "transaction_date": "2026-08-07",
+      "code": "P",
+      "shares": 469987.0,
+      "price": 0.276,
+      "total_value": 129716.41200000001,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-091430"
+    },
+    {
+      "date_filed": "2026-08-19",
+      "reporter_name": "Goh Kok E",
+      "relationship": "Director, Officer (Chairman and CEO and COO)",
+      "transaction_date": "2026-08-07",
+      "code": "S",
+      "shares": -4872500.0,
+      "price": 0.276,
+      "total_value": -1344810.0,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-091415"
+    },
+    {
+      "date_filed": "2026-08-19",
+      "reporter_name": "Goh Kok E",
+      "relationship": "Director, Officer (Chairman and CEO and COO)",
+      "transaction_date": "2026-07-24",
+      "code": "P",
+      "shares": 5220000.0,
+      "price": 0.276,
+      "total_value": 1440720.0000000002,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-091415"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.4199999570846558,
+    "shares_basic": 21950000,
+    "shares_basic_as_of": "2025-12-31",
+    "options": null,
+    "warrants": null,
+    "cash": 416092,
+    "debt": 2950723,
+    "debt_flag": null,
+    "ttm_revenue": 9589671.0,
+    "mc_basic": 31168999.058008194,
+    "ev_basic": 33703630.058008194
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            9589671,
+            8915344,
+            9775038
+          ],
+          [
+            7.563667762006715,
+            -8.79478933994937,
+            null
+          ],
+          [
+            7739702,
+            6509083,
+            7565559
+          ],
+          [
+            1849969,
+            2406261,
+            2209479
+          ],
+          [
+            -23.11852288675252,
+            8.906262517091132,
+            null
+          ],
+          [
+            19.291266613838992,
+            26.99010828970817,
+            22.60327785938019
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            4083563,
+            1079993,
+            1473074
+          ],
+          [
+            4209109,
+            1071120,
+            1444327
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -2359140,
+            1335141,
+            765152
+          ],
+          [
+            -276.69594447328035,
+            74.49356467734515,
+            null
+          ],
+          [
+            -24.600843970559573,
+            14.97576537708472,
+            7.827611514144498
+          ],
+          [
+            -2096485,
+            1604487,
+            1090670
+          ],
+          [
+            -21.861907462727345,
+            17.99691632762572,
+            11.157705985388496
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            117732,
+            null,
+            null
+          ],
+          [
+            -2539352,
+            1281193,
+            684468
+          ],
+          [
+            141978,
+            367792,
+            315854
+          ],
+          [
+            -2681330,
+            913401,
+            368614
+          ],
+          [
+            -2684779,
+            913401,
+            368614
+          ],
+          [
+            -27.960604696448918,
+            10.245269279570143,
+            3.7709725527409717
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -0.14,
+            0.05,
+            0.02
+          ],
+          [
+            -0.14,
+            0.05,
+            0.02
+          ],
+          [
+            19081404,
+            18000000,
+            18000000
+          ],
+          [
+            19081404,
+            18000000,
+            18000000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            416092,
+            545472,
+            1094705
+          ],
+          [
+            948112,
+            582640,
+            null
+          ],
+          [
+            307088,
+            311425,
+            null
+          ],
+          [
+            8007339,
+            3957386,
+            null
+          ],
+          [
+            9678631,
+            5396923,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            4019528,
+            3665754,
+            null
+          ],
+          [
+            1575515,
+            746200,
+            null
+          ],
+          [
+            196954,
+            198794,
+            null
+          ],
+          [
+            72810,
+            186322,
+            172576
+          ],
+          [
+            1193712,
+            970884,
+            null
+          ],
+          [
+            16737150,
+            11164877,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            249119,
+            562304,
+            null
+          ],
+          [
+            686877,
+            656536,
+            null
+          ],
+          [
+            3655506,
+            1559484,
+            null
+          ],
+          [
+            4591502,
+            2778324,
+            null
+          ],
+          [
+            901781,
+            186286,
+            null
+          ],
+          [
+            2107840,
+            1994607,
+            null
+          ],
+          [
+            7601123,
+            4959217,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -1036635,
+            1648144,
+            null
+          ],
+          [
+            9136027,
+            6205660,
+            4124892
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            -2681330,
+            913401,
+            368614
+          ],
+          [
+            262655,
+            269346,
+            325518
+          ],
+          [
+            2315089,
+            null,
+            null
+          ],
+          [
+            -424252,
+            -1480477,
+            -666704
+          ],
+          [
+            -527838,
+            -297730,
+            27428
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -227463,
+            -80669,
+            -761306
+          ],
+          [
+            -2830769,
+            -1000838,
+            null
+          ],
+          [
+            -3058232,
+            -1081507,
+            -989700
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -73948,
+            -63451,
+            -67531
+          ],
+          [
+            -1833000,
+            null,
+            null
+          ],
+          [
+            5421630,
+            831370,
+            856778
+          ],
+          [
+            3514682,
+            767919,
+            789247
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -755301,
+            -378399,
+            -733878
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            2.1079444155746856,
+            1.9425103047736694,
+            null
+          ],
+          [
+            2.041062597816575,
+            1.8304193463397358,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -21.861907462727345,
+            17.99691632762572,
+            11.157705985388496
+          ],
+          [
+            5087129,
+            2618599,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -29.348971932766837,
+            14.718837319479315,
+            8.93633093908883
+          ],
+          [
+            -16.02023044544621,
+            8.181021609105054,
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-08-20T10:34:44+00:00"
+}
