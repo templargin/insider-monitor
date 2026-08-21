@@ -1,0 +1,155 @@
+{
+  "url_date": "2026-08-21",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-08-20"
+  ],
+  "generated_at": "2026-08-21T10:32:30+00:00",
+  "tickers": [
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 4064271.0,
+      "ev_basic": 433108590.0,
+      "mc_basic": 289687590.0,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 4064271.0,
+          "shares": 567900.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "total_value": 2936657.66,
+      "ev_basic": 639670933.9922264,
+      "mc_basic": 659277179.9922264,
+      "insiders": [
+        {
+          "reporter_name": "Apeiron Investment Group Ltd.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 2936657.66,
+          "shares": 1767316.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "BAER",
+      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "total_value": 354050.0,
+      "ev_basic": 296394059.5974755,
+      "mc_basic": 67650059.59747553,
+      "insiders": [
+        {
+          "reporter_name": "KELTER JEFFREY E",
+          "relationship": "Director",
+          "total_value": 354050.0,
+          "shares": 300000.0,
+          "txn_count": 6
+        }
+      ]
+    },
+    {
+      "ticker": "MOBI",
+      "name": "Mobia Medical, Inc.",
+      "total_value": 198523.4309,
+      "ev_basic": 187447494.85022736,
+      "mc_basic": 364537494.85022736,
+      "insiders": [
+        {
+          "reporter_name": "Tansey Casey M",
+          "relationship": "Director",
+          "total_value": 198523.4309,
+          "shares": 16441.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SENS",
+      "name": "Senseonics Holdings, Inc.",
+      "total_value": 125300.493014,
+      "ev_basic": 477404131.32411957,
+      "mc_basic": 466349131.32411957,
+      "insiders": [
+        {
+          "reporter_name": "ROEDER DOUGLAS A",
+          "relationship": "Director",
+          "total_value": 125300.493014,
+          "shares": 13953.2843,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "RAIN",
+      "name": "Rain Enhancement Technologies Holdco, Inc.",
+      "total_value": 104225.0,
+      "ev_basic": 10266956.824190736,
+      "mc_basic": 10299564.824190736,
+      "insiders": [
+        {
+          "reporter_name": "Seidl Randy",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 104225.0,
+          "shares": 110000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "WW",
+      "name": "WW INTERNATIONAL, INC.",
+      "total_value": 100132.4,
+      "ev_basic": 472479400.0,
+      "mc_basic": 149981400.0,
+      "insiders": [
+        {
+          "reporter_name": "Sjoqvist Nikolaj H",
+          "relationship": "Director",
+          "total_value": 100132.4,
+          "shares": 7235.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "PSUS",
+      "name": "Pershing Square USA, Ltd.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GRX",
+      "name": "Gabelli Healthcare & WellnessRx Trust",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "PDX",
+      "name": "PIMCO Dynamic Income Strategy Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:59:40+00:00",
+  "generated_at": "2026-08-21T10:30:47+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -544,11 +544,11 @@
         ]
       },
       "first_seen": "2026-08-18T14:26:28+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-20",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-21",
       "last_reason": "no share price for EDAP",
-      "last_tried": "2026-08-20T10:56:58+00:00"
+      "last_tried": "2026-08-21T10:30:38+00:00"
     },
     {
       "url_date": "2026-08-18",
@@ -609,11 +609,11 @@
         ]
       },
       "first_seen": "2026-08-18T14:26:28+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-20",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-21",
       "last_reason": "no companyfacts for CIK 881787",
-      "last_tried": "2026-08-20T10:56:59+00:00"
+      "last_tried": "2026-08-21T10:30:38+00:00"
     },
     {
       "url_date": "2026-08-19",
@@ -663,11 +663,11 @@
         ]
       },
       "first_seen": "2026-08-19T10:34:32+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-20",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-21",
       "last_reason": "no share price for MLPT",
-      "last_tried": "2026-08-20T10:57:03+00:00"
+      "last_tried": "2026-08-21T10:30:42+00:00"
     },
     {
       "url_date": "2026-08-19",
@@ -717,11 +717,11 @@
         ]
       },
       "first_seen": "2026-08-19T10:34:32+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-20",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-21",
       "last_reason": "no share price for AB-Lend",
-      "last_tried": "2026-08-20T10:57:07+00:00"
+      "last_tried": "2026-08-21T10:30:46+00:00"
     },
     {
       "url_date": "2026-08-20",
@@ -782,8 +782,11 @@
         ]
       },
       "first_seen": "2026-08-20T10:33:08+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-08-21",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$704.3M with $1,117.0M of unexplained_liabilities (up to $1,821.3M)",
+      "last_tried": "2026-08-21T10:30:47+00:00"
     }
   ]
 }

@@ -4,9 +4,9 @@
   "name": "Rain Enhancement Technologies Holdco, Inc.",
   "description": "Rain Enhancement Technologies Holdco, Inc. develops, improves, and commercializes atmospheric enhancement by ionization (AEI) technology. It plans to develop improvements on existing rainfall generation technologies by introducing robust measurement tools, including software monitoring technology, machine learning, rain gauges, and weather stations. The company was founded in 2022 and is headquartered in Naples, Florida.",
   "ownership": {
-    "inst_pct": 0.096870005,
-    "insider_pct": 0.6854,
-    "inst_count": 18,
+    "inst_pct": 0.08967,
+    "insider_pct": 0.68954,
+    "inst_count": 17,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
@@ -14,10 +14,24 @@
     "short_pct_float": 0.0029,
     "shares_short": 18149,
     "short_days_to_cover": 0.64,
-    "short_as_of": "2026-07-30",
-    "as_of": "2026-08-13"
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-21"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-20",
+      "reporter_name": "Seidl Randy",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-19",
+      "code": "P",
+      "shares": 110000.0,
+      "price": 0.9475,
+      "total_value": 104225.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-092254"
+    },
     {
       "date_filed": "2026-08-12",
       "reporter_name": "Seidl Randy",
@@ -356,17 +370,17 @@
     }
   ],
   "valuation": {
-    "share_price": 1.0700000524520874,
-    "shares_basic": 8188833.0,
-    "shares_basic_as_of": "2026-05-15",
+    "share_price": 0.8799999952316284,
+    "shares_basic": 11704051.0,
+    "shares_basic_as_of": "2026-08-14",
     "options": 2150838,
     "warrants": 5000000,
-    "cash": 580642,
+    "cash": 32608,
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 10500.0,
-    "mc_basic": 8762051.739521384,
-    "ev_basic": 8181409.739521384
+    "mc_basic": 10299564.824190736,
+    "ev_basic": 10266956.824190736
   },
   "financials": {
     "income_statement": {
@@ -1258,5 +1272,5 @@
       }
     }
   },
-  "last_updated": "2026-08-13T12:37:09+00:00"
+  "last_updated": "2026-08-21T10:33:27+00:00"
 }
