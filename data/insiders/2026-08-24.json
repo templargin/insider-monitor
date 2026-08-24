@@ -1,0 +1,185 @@
+{
+  "url_date": "2026-08-24",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-08-21",
+    "2026-08-22",
+    "2026-08-23"
+  ],
+  "generated_at": "2026-08-24T10:32:40+00:00",
+  "tickers": [
+    {
+      "ticker": "GWRS",
+      "name": "Global Water Resources, Inc.",
+      "total_value": 7000004.85,
+      "ev_basic": 386019729.0553665,
+      "mc_basic": 255702729.05536652,
+      "insiders": [
+        {
+          "reporter_name": "Levine Jonathan L",
+          "relationship": "Director",
+          "total_value": 5766819.3,
+          "shares": 651618.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Cohn Andrew M.",
+          "relationship": "Director",
+          "total_value": 1233185.55,
+          "shares": 139343.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "MED",
+      "name": "MEDIFAST INC",
+      "total_value": 842698.6662,
+      "ev_basic": 61699398.71745014,
+      "mc_basic": 133609398.71745014,
+      "insiders": [
+        {
+          "reporter_name": "Kiai Parsa",
+          "relationship": "Director",
+          "total_value": 842698.6662,
+          "shares": 72487.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "INV",
+      "name": "Innventure, Inc.",
+      "total_value": 686795.1,
+      "ev_basic": 112264111.26307082,
+      "mc_basic": 127765111.26307082,
+      "insiders": [
+        {
+          "reporter_name": "Otworth Michael",
+          "relationship": "Director, Officer (Executive Chairman)",
+          "total_value": 349295.1,
+          "shares": 231000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Donnally James O",
+          "relationship": "Director",
+          "total_value": 337500.0,
+          "shares": 225000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 439430.00000000006,
+      "ev_basic": 196941394.50824928,
+      "mc_basic": 485134394.5082493,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 439430.00000000006,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "NAKA",
+      "name": "Nakamoto Inc.",
+      "total_value": 209989.852486,
+      "ev_basic": 271970296.55604315,
+      "mc_basic": 126338296.55604315,
+      "insiders": [
+        {
+          "reporter_name": "Bailey David F",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 209989.852486,
+          "shares": 36985.835999999996,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "UUU",
+      "name": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "total_value": 183344.1804,
+      "ev_basic": 16380990.488816738,
+      "mc_basic": 19382163.488816738,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, 10% Owner",
+          "total_value": 183344.1804,
+          "shares": 29178.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "RAIN",
+      "name": "Rain Enhancement Technologies Holdco, Inc.",
+      "total_value": 104225.0,
+      "ev_basic": 9869019.330170572,
+      "mc_basic": 9901627.330170572,
+      "insiders": [
+        {
+          "reporter_name": "Seidl Randy",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 104225.0,
+          "shares": 110000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "PCF",
+      "name": "HIGH INCOME SECURITIES FUND",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "EOS",
+      "name": "Eaton Vance Enhanced Equity Income Fund II",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "NOMD",
+      "name": "Nomad Foods Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "DXST",
+      "name": "Decent Holding Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Manulife Private Credit Plus Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "Calamos Aksia Private Equity & Alternatives Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$704.3M with $1,117.0M of unexplained_liabilities (up to $1,821.3M)",
+      "transient": false
+    }
+  ]
+}

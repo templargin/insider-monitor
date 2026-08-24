@@ -4,9 +4,9 @@
   "name": "Rain Enhancement Technologies Holdco, Inc.",
   "description": "Rain Enhancement Technologies Holdco, Inc. develops, improves, and commercializes atmospheric enhancement by ionization (AEI) technology. It plans to develop improvements on existing rainfall generation technologies by introducing robust measurement tools, including software monitoring technology, machine learning, rain gauges, and weather stations. The company was founded in 2022 and is headquartered in Naples, Florida.",
   "ownership": {
-    "inst_pct": 0.08967,
-    "insider_pct": 0.68954,
-    "inst_count": 17,
+    "inst_pct": 0.07746,
+    "insider_pct": 0.61489,
+    "inst_count": 16,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
@@ -15,9 +15,23 @@
     "shares_short": 18149,
     "short_days_to_cover": 0.64,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-21"
+    "as_of": "2026-08-24"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Seidl Randy",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-19",
+      "code": "P",
+      "shares": 110000.0,
+      "price": 0.9475,
+      "total_value": 104225.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-092444"
+    },
     {
       "date_filed": "2026-08-20",
       "reporter_name": "Seidl Randy",
@@ -370,7 +384,7 @@
     }
   ],
   "valuation": {
-    "share_price": 0.8799999952316284,
+    "share_price": 0.8460000157356262,
     "shares_basic": 11704051.0,
     "shares_basic_as_of": "2026-08-14",
     "options": 2150838,
@@ -379,8 +393,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 10500.0,
-    "mc_basic": 10299564.824190736,
-    "ev_basic": 10266956.824190736
+    "mc_basic": 9901627.330170572,
+    "ev_basic": 9869019.330170572
   },
   "financials": {
     "income_statement": {
@@ -1272,5 +1286,5 @@
       }
     }
   },
-  "last_updated": "2026-08-21T11:00:36+00:00"
+  "last_updated": "2026-08-24T10:34:27+00:00"
 }

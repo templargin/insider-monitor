@@ -1,0 +1,2789 @@
+{
+  "ticker": "INV",
+  "cik": "2001557",
+  "name": "Innventure, Inc.",
+  "description": "Innventure, Inc. identifies, funds, and operates companies with a focus on sustainable technology solutions acquired or licensed from multinational corporations. Innventure, Inc. was founded in 2015 and is headquartered in Orlando, Florida.",
+  "ownership": {
+    "inst_pct": 0.41085,
+    "insider_pct": 0.31649,
+    "inst_count": 167,
+    "analyst_count": 2,
+    "rec_mean": 1.0,
+    "rec_key": "strong_buy",
+    "target_mean": 5.5,
+    "short_pct_float": 0.12020001,
+    "shares_short": 8768703,
+    "short_days_to_cover": 4.89,
+    "short_as_of": "2026-07-31",
+    "as_of": "2026-08-24"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 30000.0,
+      "price": 1.5133,
+      "total_value": 45399.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000156"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Haskell Gregory W",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 1.512,
+      "total_value": 75600.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058333"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 231000.0,
+      "price": 1.5121,
+      "total_value": 349295.1,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058332"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 225000.0,
+      "price": 1.5,
+      "total_value": 337500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-058331"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2026-06-30",
+      "code": "A",
+      "shares": 7083.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000148"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-06-30",
+      "code": "A",
+      "shares": 5425.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-046645"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-06-30",
+      "code": "G",
+      "shares": -5425.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-046645"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-06-30",
+      "code": "G",
+      "shares": 5425.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-046645"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Williams Elizabeth Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2026-06-30",
+      "code": "A",
+      "shares": 2466.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000147"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2026-06-16",
+      "code": "F",
+      "shares": -27276.0,
+      "price": 6.01,
+      "total_value": -163928.75999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-046647"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Amalfitano Michael",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "A",
+      "shares": 18237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-044742"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "A",
+      "shares": 18237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000141"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Hewitt John D.",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "A",
+      "shares": 18237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000140"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Williams Elizabeth Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "A",
+      "shares": 18237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000139"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "A",
+      "shares": 18237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000138"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "G",
+      "shares": -22305.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000138"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "G",
+      "shares": 22305.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002001557-26-000138"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "Fallon Catriona M",
+      "relationship": "Director",
+      "transaction_date": "2026-06-17",
+      "code": "A",
+      "shares": 18237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000136"
+    },
+    {
+      "date_filed": "2026-05-08",
+      "reporter_name": "Hewitt John D.",
+      "relationship": "Director",
+      "transaction_date": "2026-05-08",
+      "code": "A",
+      "shares": 2561.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000109"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Haskell Gregory W",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-04-17",
+      "code": "A",
+      "shares": 46460.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000101"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-04-17",
+      "code": "A",
+      "shares": 80848.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-029492"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-04-17",
+      "code": "A",
+      "shares": 27849.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-029492"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2026-04-17",
+      "code": "A",
+      "shares": 1236.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-029490"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-04-17",
+      "code": "A",
+      "shares": 154829.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-029489"
+    },
+    {
+      "date_filed": "2026-04-22",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2026-04-20",
+      "code": "S",
+      "shares": -582139.0,
+      "price": 5.52,
+      "total_value": -3213407.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-26-016100"
+    },
+    {
+      "date_filed": "2026-04-16",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2026-04-14",
+      "code": "S",
+      "shares": -2992.0,
+      "price": 5.01,
+      "total_value": -14989.92,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000082"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 121228.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000078"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 85795.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000078"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 121228.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000077"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 85795.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000077"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Haskell Gregory W",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 121228.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000075"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Haskell Gregory W",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 228787.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000075"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 121228.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000073"
+    },
+    {
+      "date_filed": "2026-04-06",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-04-02",
+      "code": "A",
+      "shares": 85795.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000073"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 7033.0,
+      "price": 3.91,
+      "total_value": 27499.030000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000068"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 8951.0,
+      "price": 3.91,
+      "total_value": 34998.41,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000067"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 6394.0,
+      "price": 3.91,
+      "total_value": 25000.54,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000066"
+    },
+    {
+      "date_filed": "2026-04-02",
+      "reporter_name": "Williams Elizabeth Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 3197.0,
+      "price": 3.91,
+      "total_value": 12500.27,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000065"
+    },
+    {
+      "date_filed": "2026-03-02",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2026-02-26",
+      "code": "F",
+      "shares": -150053.0,
+      "price": 2.8,
+      "total_value": -420148.39999999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000044"
+    },
+    {
+      "date_filed": "2026-03-02",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-02-26",
+      "code": "F",
+      "shares": -218577.0,
+      "price": 2.8,
+      "total_value": -612015.6,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000043"
+    },
+    {
+      "date_filed": "2026-02-24",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2026-02-20",
+      "code": "A",
+      "shares": 8202.0,
+      "price": 3.83,
+      "total_value": 31413.66,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000032"
+    },
+    {
+      "date_filed": "2026-02-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2026-02-17",
+      "code": "A",
+      "shares": 7180.0,
+      "price": 3.83,
+      "total_value": 27499.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-26-000030"
+    },
+    {
+      "date_filed": "2025-12-18",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-12-18",
+      "code": "S",
+      "shares": -252502.0,
+      "price": 4.68,
+      "total_value": -1181709.3599999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-046069"
+    },
+    {
+      "date_filed": "2025-12-18",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-12-17",
+      "code": "S",
+      "shares": -184777.0,
+      "price": 4.86,
+      "total_value": -898016.2200000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-046069"
+    },
+    {
+      "date_filed": "2025-12-05",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-12-04",
+      "code": "S",
+      "shares": -55840.0,
+      "price": 5.19,
+      "total_value": -289809.60000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000044"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-12-03",
+      "code": "S",
+      "shares": -172589.0,
+      "price": 4.76,
+      "total_value": -821523.64,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-044244"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-12-02",
+      "code": "S",
+      "shares": -117901.0,
+      "price": 4.95,
+      "total_value": -583609.9500000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-044244"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-12-02",
+      "code": "P",
+      "shares": 12000.0,
+      "price": 5.06,
+      "total_value": 60719.99999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000030"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-12-02",
+      "code": "S",
+      "shares": -8450.0,
+      "price": 5.01,
+      "total_value": -42334.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000028"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-12-01",
+      "code": "S",
+      "shares": -427301.0,
+      "price": 5.11,
+      "total_value": -2183508.1100000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-044244"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Austrup Roland",
+      "relationship": "Officer (Chief Growth Officer)",
+      "transaction_date": "2025-12-01",
+      "code": "P",
+      "shares": 4900.0,
+      "price": 5.01,
+      "total_value": 24549.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000029"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-12-01",
+      "code": "S",
+      "shares": -81993.0,
+      "price": 5.13,
+      "total_value": -420624.08999999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000028"
+    },
+    {
+      "date_filed": "2025-11-26",
+      "reporter_name": "Haskell Gregory W",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-11-26",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 5.14,
+      "total_value": 51400.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000023"
+    },
+    {
+      "date_filed": "2025-11-26",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-11-26",
+      "code": "S",
+      "shares": -452668.0,
+      "price": 5.13,
+      "total_value": -2322186.84,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000021"
+    },
+    {
+      "date_filed": "2025-11-26",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-11-25",
+      "code": "S",
+      "shares": -266367.0,
+      "price": 5.31,
+      "total_value": -1414408.7699999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002001557-25-000020"
+    },
+    {
+      "date_filed": "2025-11-25",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-11-21",
+      "code": "P",
+      "shares": 27886.0,
+      "price": 3.37,
+      "total_value": 93975.82,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-25-054010"
+    },
+    {
+      "date_filed": "2025-11-21",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "P",
+      "shares": 4000.0,
+      "price": 3.4,
+      "total_value": 13600.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-25-053637"
+    },
+    {
+      "date_filed": "2025-11-20",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-11-20",
+      "code": "S",
+      "shares": -302211.0,
+      "price": 3.51,
+      "total_value": -1060760.6099999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-042895"
+    },
+    {
+      "date_filed": "2025-11-20",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-11-19",
+      "code": "S",
+      "shares": -235765.0,
+      "price": 3.34,
+      "total_value": -787455.1,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-042895"
+    },
+    {
+      "date_filed": "2025-11-20",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-11-18",
+      "code": "S",
+      "shares": -263782.0,
+      "price": 3.61,
+      "total_value": -952253.02,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-042895"
+    },
+    {
+      "date_filed": "2025-10-29",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-10-29",
+      "code": "S",
+      "shares": -149708.0,
+      "price": 2.92,
+      "total_value": -437147.36,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-039740"
+    },
+    {
+      "date_filed": "2025-10-29",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-10-27",
+      "code": "S",
+      "shares": -98167.0,
+      "price": 2.97,
+      "total_value": -291555.99,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-039740"
+    },
+    {
+      "date_filed": "2025-10-24",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-10-24",
+      "code": "S",
+      "shares": -263627.0,
+      "price": 3.03,
+      "total_value": -798789.8099999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-039357"
+    },
+    {
+      "date_filed": "2025-10-24",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-10-23",
+      "code": "S",
+      "shares": -193587.0,
+      "price": 3.13,
+      "total_value": -605927.3099999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-039357"
+    },
+    {
+      "date_filed": "2025-10-24",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-10-22",
+      "code": "S",
+      "shares": -436296.0,
+      "price": 3.01,
+      "total_value": -1313250.96,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-039357"
+    },
+    {
+      "date_filed": "2025-10-14",
+      "reporter_name": "WE-INN LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-10-10",
+      "code": "S",
+      "shares": -2300.0,
+      "price": 3.92,
+      "total_value": -9016.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-038098"
+    },
+    {
+      "date_filed": "2025-10-14",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-10-09",
+      "code": "S",
+      "shares": -10828.0,
+      "price": 5.21,
+      "total_value": -56413.88,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-038054"
+    },
+    {
+      "date_filed": "2025-10-08",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-10-08",
+      "code": "S",
+      "shares": -8606.0,
+      "price": 5.05,
+      "total_value": -43460.299999999996,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-037732"
+    },
+    {
+      "date_filed": "2025-10-08",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-10-07",
+      "code": "S",
+      "shares": -500.0,
+      "price": 5.01,
+      "total_value": -2505.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-037732"
+    },
+    {
+      "date_filed": "2025-10-08",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-10-06",
+      "code": "S",
+      "shares": -6265.0,
+      "price": 5.11,
+      "total_value": -32014.15,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-037732"
+    },
+    {
+      "date_filed": "2025-10-01",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2025-09-30",
+      "code": "A",
+      "shares": 4750.0,
+      "price": 5.79,
+      "total_value": 27502.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-037032"
+    },
+    {
+      "date_filed": "2025-10-01",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-09-30",
+      "code": "A",
+      "shares": 4750.0,
+      "price": 5.79,
+      "total_value": 27502.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-037031"
+    },
+    {
+      "date_filed": "2025-08-27",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2025-08-25",
+      "code": "A",
+      "shares": 112740.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-032990"
+    },
+    {
+      "date_filed": "2025-08-27",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2025-08-25",
+      "code": "A",
+      "shares": 225479.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-032989"
+    },
+    {
+      "date_filed": "2025-08-27",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2025-07-23",
+      "code": "F",
+      "shares": -27276.0,
+      "price": 4.92,
+      "total_value": -134197.91999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-032986"
+    },
+    {
+      "date_filed": "2025-08-27",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2025-07-23",
+      "code": "F",
+      "shares": -27276.0,
+      "price": 4.92,
+      "total_value": -134197.91999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-032984"
+    },
+    {
+      "date_filed": "2025-06-27",
+      "reporter_name": "Amalfitano Michael",
+      "relationship": "Director",
+      "transaction_date": "2025-06-25",
+      "code": "A",
+      "shares": 22305.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-024043"
+    },
+    {
+      "date_filed": "2025-06-27",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2025-06-25",
+      "code": "A",
+      "shares": 22305.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-024042"
+    },
+    {
+      "date_filed": "2025-06-27",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-06-25",
+      "code": "A",
+      "shares": 22305.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-024041"
+    },
+    {
+      "date_filed": "2025-06-27",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2025-06-25",
+      "code": "A",
+      "shares": 22305.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-024040"
+    },
+    {
+      "date_filed": "2025-06-27",
+      "reporter_name": "Williams Elizabeth Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2025-06-25",
+      "code": "A",
+      "shares": 22305.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-024039"
+    },
+    {
+      "date_filed": "2025-04-28",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-04-25",
+      "code": "J",
+      "shares": 3940706.0,
+      "price": 5.0,
+      "total_value": 19703530.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-016042"
+    },
+    {
+      "date_filed": "2025-04-28",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-04-25",
+      "code": "J",
+      "shares": -1970353.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001140361-25-016042"
+    },
+    {
+      "date_filed": "2025-04-28",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-04-24",
+      "code": "J",
+      "shares": 452668.0,
+      "price": 5.0,
+      "total_value": 2263340.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-016039"
+    },
+    {
+      "date_filed": "2025-04-28",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-04-24",
+      "code": "J",
+      "shares": -226334.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-25-016039"
+    },
+    {
+      "date_filed": "2025-04-28",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-04-24",
+      "code": "J",
+      "shares": 228322.0,
+      "price": 5.0,
+      "total_value": 1141610.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-016035"
+    },
+    {
+      "date_filed": "2025-04-28",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-04-24",
+      "code": "J",
+      "shares": -114161.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-25-016035"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-03-24",
+      "code": "P",
+      "shares": 114161.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015432"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-03-24",
+      "code": "P",
+      "shares": 226334.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015431"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-03-24",
+      "code": "P",
+      "shares": 578294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-03-24",
+      "code": "P",
+      "shares": 1392059.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series C Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-02-13",
+      "code": "J",
+      "shares": -58333.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015432"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-02-13",
+      "code": "J",
+      "shares": 7126.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015432"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-02-13",
+      "code": "J",
+      "shares": -58333.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015431"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-02-13",
+      "code": "J",
+      "shares": 4280.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015431"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-02-13",
+      "code": "J",
+      "shares": -58333.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-02-13",
+      "code": "J",
+      "shares": 13919.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 154829.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015432"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 2131.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015432"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 92910.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015431"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 2131.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015431"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Austrup Roland",
+      "relationship": "Officer (Chief Growth Officer)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 50782.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015430"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 80848.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 2131.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 27849.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015429"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 1236.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-25-015428"
+    },
+    {
+      "date_filed": "2025-04-24",
+      "reporter_name": "Haskell Gregory W",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-02-04",
+      "code": "A",
+      "shares": 46460.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-25-015427"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Brown Bruce",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 7377.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049066"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Williams Elizabeth Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 7377.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049064"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Amalfitano Michael",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 7377.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049062"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 336066.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049060"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Scott John Stewart",
+      "relationship": "Officer (Chief Strategy Officer)",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 163934.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049060"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Donnally James O",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 7377.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049058"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 336066.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049055"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Yablunosky David",
+      "relationship": "Director, Officer (CFO and CAO)",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 163934.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049055"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "HENNESSY DANIEL J",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 7377.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049053"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 336066.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049051"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Niemeyer Suzanne",
+      "relationship": "Director",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 163934.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049051"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 537705.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049049"
+    },
+    {
+      "date_filed": "2024-12-11",
+      "reporter_name": "Otworth Michael",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2024-12-09",
+      "code": "A",
+      "shares": 262295.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Nonqualified Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001140361-24-049049"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.5099999904632568,
+    "shares_basic": 84612657,
+    "shares_basic_as_of": "2026-08-07",
+    "options": 339590,
+    "warrants": 18645997,
+    "cash": 41543000,
+    "debt": 26042000,
+    "debt_flag": {
+      "reason": "unexplained_liabilities",
+      "amount": 46134000,
+      "concept": null
+    },
+    "ttm_revenue": 3752000.0,
+    "mc_basic": 127765111.26307082,
+    "ev_basic": 112264111.26307082
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            953000,
+            1443000,
+            822000,
+            534000
+          ],
+          [
+            100.21008403361344,
+            544.1964285714286,
+            80.26315789473684,
+            68.45425867507886
+          ],
+          [
+            5073000,
+            5253000,
+            11638000,
+            4147000
+          ],
+          [
+            -4120000,
+            -3810000,
+            -10816000,
+            -3613000
+          ],
+          [
+            -72.74633123689728,
+            -9625.0,
+            -228.15533980582524,
+            -685.4347826086956
+          ],
+          [
+            -432.3189926547744,
+            -264.03326403326406,
+            -1315.8150851581509,
+            -676.5917602996254
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            17588000,
+            15647000,
+            14353000,
+            19441000
+          ],
+          [
+            9780000,
+            7840000,
+            6553000,
+            6151000
+          ],
+          [
+            27368000,
+            23487000,
+            20906000,
+            25592000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -31488000,
+            -27297000,
+            -31722000,
+            -29205000
+          ],
+          [
+            77.91462679029837,
+            89.54930742195576,
+            21.279499714618954,
+            -113.58051777095217
+          ],
+          [
+            -3304.0923399790136,
+            -1891.6839916839917,
+            -3859.124087591241,
+            -5469.101123595506
+          ],
+          [
+            -25828000,
+            -21626000,
+            -26037000,
+            -23567000
+          ],
+          [
+            -2710.178384050367,
+            -1498.6832986832987,
+            -3167.5182481751826,
+            -4413.295880149813
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1108000,
+            1473000,
+            2342000,
+            3506000
+          ],
+          [
+            -3836000,
+            -2052000,
+            -17863000,
+            -5627000
+          ],
+          [
+            -36432000,
+            -30822000,
+            -51927000,
+            -38338000
+          ],
+          [
+            -1518000,
+            -3039000,
+            -6261000,
+            -3603000
+          ],
+          [
+            -34914000,
+            -27783000,
+            -45666000,
+            -34735000
+          ],
+          [
+            -26503000,
+            -20805000,
+            -37761000,
+            -28332000
+          ],
+          [
+            -3663.588667366212,
+            -1925.3638253638253,
+            -5555.474452554745,
+            -6504.681647940075
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.32,
+            -0.27,
+            -0.4299999999999997,
+            -0.51
+          ],
+          [
+            -0.32,
+            -0.27,
+            -0.4299999999999997,
+            -0.51
+          ],
+          [
+            83117031,
+            77829187,
+            null,
+            55846721
+          ],
+          [
+            83117031,
+            77829187,
+            null,
+            55846721
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            3752000,
+            2056000,
+            1117000
+          ],
+          [
+            82.49027237354086,
+            84.06445837063563,
+            null
+          ],
+          [
+            26111000,
+            18830000,
+            0
+          ],
+          [
+            -22359000,
+            -16774000,
+            1117000
+          ],
+          [
+            -33.29557648742101,
+            -1601.7009847806626,
+            null
+          ],
+          [
+            -595.9221748400853,
+            -815.8560311284047,
+            100.0
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            67029000,
+            76343000,
+            20794000
+          ],
+          [
+            30324000,
+            25025000,
+            4001000
+          ],
+          [
+            97353000,
+            447925000,
+            24795000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -119712000,
+            -464699000,
+            -23678000
+          ],
+          [
+            74.23880834690843,
+            -1862.5770757665343,
+            null
+          ],
+          [
+            -3190.618336886994,
+            -22602.091439688716,
+            -2119.785138764548
+          ],
+          [
+            -97058000,
+            -442193000,
+            -23670000
+          ],
+          [
+            -2586.83368869936,
+            -21507.441634241244,
+            -2119.068934646374
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            8429000,
+            10234000,
+            1367000
+          ],
+          [
+            -29378000,
+            -13900000,
+            -5939000
+          ],
+          [
+            -157519000,
+            -488833000,
+            -30984000
+          ],
+          [
+            -14421000,
+            -13483000,
+            0
+          ],
+          [
+            -143098000,
+            -475350000,
+            -30984000
+          ],
+          [
+            -113401000,
+            -293317000,
+            -30845000
+          ],
+          [
+            -3813.9125799573562,
+            -23120.13618677043,
+            -2773.858549686661
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -1.5299999999999998,
+            -5.39,
+            null
+          ],
+          [
+            -1.5299999999999998,
+            -5.39,
+            null
+          ],
+          [
+            83117031,
+            54420978,
+            null
+          ],
+          [
+            83117031,
+            54420978,
+            null
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Other Liabilities",
+          "Total Liabilities",
+          "Mezzanine Equity",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            41543000,
+            55367000,
+            60449000,
+            9061000
+          ],
+          [
+            2119000,
+            840000,
+            1094000,
+            1569000
+          ],
+          [
+            2989000,
+            1562000,
+            1604000,
+            6404000
+          ],
+          [
+            24788000,
+            24055000,
+            20007000,
+            15216000
+          ],
+          [
+            71439000,
+            81824000,
+            83154000,
+            32250000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2269000,
+            2298000,
+            1941000,
+            2176000
+          ],
+          [
+            323463000,
+            323463000,
+            323463000,
+            323463000
+          ],
+          [
+            149729000,
+            155133000,
+            160537000,
+            165941000
+          ],
+          [
+            26644000,
+            27474000,
+            28741000,
+            31207000
+          ],
+          [
+            574697000,
+            591483000,
+            599187000,
+            556515000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1932000,
+            3001000,
+            2551000,
+            856000
+          ],
+          [
+            57835000,
+            56846000,
+            73725000,
+            81621000
+          ],
+          [
+            59767000,
+            59847000,
+            76276000,
+            82477000
+          ],
+          [
+            5909000,
+            6940000,
+            8327000,
+            29514000
+          ],
+          [
+            26206000,
+            26547000,
+            30908000,
+            37945000
+          ],
+          [
+            91882000,
+            93334000,
+            115511000,
+            149936000
+          ],
+          [
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -418911000,
+            -392408000,
+            -371603000,
+            -333844000
+          ],
+          [
+            482815000,
+            498149000,
+            483676000,
+            406579000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Other Liabilities",
+          "Total Liabilities",
+          "Mezzanine Equity",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            41543000,
+            60449000,
+            2575000
+          ],
+          [
+            2119000,
+            1094000,
+            0
+          ],
+          [
+            2989000,
+            1604000,
+            0
+          ],
+          [
+            24788000,
+            20007000,
+            3089000
+          ],
+          [
+            71439000,
+            83154000,
+            5664000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            2269000,
+            1941000,
+            637000
+          ],
+          [
+            323463000,
+            323463000,
+            0
+          ],
+          [
+            149729000,
+            160537000,
+            0
+          ],
+          [
+            26644000,
+            28741000,
+            14167000
+          ],
+          [
+            null,
+            null,
+            1096000
+          ],
+          [
+            574697000,
+            599187000,
+            21564000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            1932000,
+            2551000,
+            null
+          ],
+          [
+            57835000,
+            73725000,
+            8168000
+          ],
+          [
+            59767000,
+            76276000,
+            8168000
+          ],
+          [
+            5909000,
+            8327000,
+            5500000
+          ],
+          [
+            26206000,
+            30908000,
+            15752000
+          ],
+          [
+            91882000,
+            115511000,
+            29420000
+          ],
+          [
+            null,
+            0,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -418911000,
+            -371603000,
+            -64284000
+          ],
+          [
+            482815000,
+            483676000,
+            -7856000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -34914000,
+            -27783000,
+            -45666000,
+            -34735000
+          ],
+          [
+            5660000,
+            5671000,
+            5685000,
+            5638000
+          ],
+          [
+            5477000,
+            4832000,
+            4900000,
+            7725000
+          ],
+          [
+            -1658000,
+            -16751000,
+            10726000,
+            1798000
+          ],
+          [
+            -25435000,
+            -34031000,
+            -24355000,
+            -19574000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -228000,
+            -846000,
+            -46000,
+            -439000
+          ],
+          [
+            -228000,
+            -846000,
+            -46000,
+            -439000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1183000,
+            -7412000,
+            null,
+            -2701000
+          ],
+          [
+            13022000,
+            37207000,
+            75789000,
+            24810000
+          ],
+          [
+            11839000,
+            29795000,
+            75789000,
+            22109000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -25663000,
+            -34877000,
+            -24401000,
+            -20013000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Acquisitions",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            -143098000,
+            -475350000,
+            -30984000
+          ],
+          [
+            22654000,
+            22506000,
+            8000
+          ],
+          [
+            22934000,
+            27872000,
+            910000
+          ],
+          [
+            -5885000,
+            344289000,
+            10590000
+          ],
+          [
+            -103395000,
+            -80683000,
+            -19476000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -1559000,
+            -1417000,
+            -645000
+          ],
+          [
+            null,
+            0,
+            0
+          ],
+          [
+            null,
+            -2708000,
+            -4022000
+          ],
+          [
+            -1559000,
+            -4125000,
+            -4667000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            -241000
+          ],
+          [
+            139532000,
+            139138000,
+            19415000
+          ],
+          [
+            139532000,
+            139138000,
+            19174000
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -104954000,
+            -82100000,
+            -20121000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            1.1952917161644385,
+            1.3672197436797167,
+            1.0901725313335782,
+            0.3910181020163197
+          ],
+          [
+            1.1452808405976542,
+            1.3411198556318613,
+            1.069143636268289,
+            0.3133722128593426
+          ],
+          [
+            0.012238642130008389,
+            0.013931574689500532,
+            0.017216070261910865,
+            0.07259105856426426
+          ],
+          [
+            -2710.178384050367,
+            -1498.6832986832987,
+            -3167.5182481751826,
+            -4413.295880149813
+          ],
+          [
+            11672000,
+            21977000,
+            6878000,
+            -50227000
+          ],
+          [
+            -35634000,
+            -48427000,
+            -52122000,
+            20453000
+          ],
+          [
+            -7.231341196938786,
+            -5.57724696827656,
+            -9.441444272612245,
+            -8.543235140034286
+          ],
+          [
+            -6.075201366981209,
+            -4.6971764192715595,
+            -7.621326897946718,
+            -6.241520893417069
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/23"
+        ],
+        "data": [
+          [
+            1.1952917161644385,
+            1.0901725313335782,
+            0.693437806072478
+          ],
+          [
+            1.1452808405976542,
+            1.069143636268289,
+            0.693437806072478
+          ],
+          [
+            0.012238642130008389,
+            0.017216070261910865,
+            -0.7001018329938901
+          ],
+          [
+            -2586.83368869936,
+            -21507.441634241244,
+            -2119.068934646374
+          ],
+          [
+            11672000,
+            6878000,
+            -2504000
+          ],
+          [
+            -35634000,
+            -52122000,
+            2925000
+          ],
+          [
+            -29.63826724521815,
+            -98.27859972378204,
+            394.3991853360489
+          ],
+          [
+            -24.899729770644356,
+            -79.3324955314451,
+            -143.68391764051196
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-08-24T10:34:23+00:00"
+}

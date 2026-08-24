@@ -15,9 +15,65 @@
     "shares_short": 26565,
     "short_days_to_cover": 1.86,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-20"
+    "as_of": "2026-08-24"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 20672.0,
+      "price": 6.3352,
+      "total_value": 130961.2544,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010748"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 6.37,
+      "total_value": 6370.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-010748"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 1500.0,
+      "price": 6.0667,
+      "total_value": 9100.05,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010748"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 6006.0,
+      "price": 6.146,
+      "total_value": 36912.876,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010748"
+    },
     {
       "date_filed": "2026-08-19",
       "reporter_name": "AULT MILTON C III",
@@ -1434,7 +1490,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.239999771118164,
+    "share_price": 6.400000095367432,
     "shares_basic": 3028463,
     "shares_basic_as_of": "2026-08-14",
     "options": 225000,
@@ -1443,8 +1499,8 @@
     "debt": 709240,
     "debt_flag": null,
     "ttm_revenue": 4716354.0,
-    "mc_basic": 18897608.42683983,
-    "ev_basic": 15896435.426839828
+    "mc_basic": 19382163.488816738,
+    "ev_basic": 16380990.488816738
   },
   "financials": {
     "income_statement": {
@@ -2555,5 +2611,5 @@
       }
     }
   },
-  "last_updated": "2026-08-20T10:59:49+00:00"
+  "last_updated": "2026-08-24T10:32:49+00:00"
 }
