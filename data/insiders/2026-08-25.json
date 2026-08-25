@@ -1,0 +1,113 @@
+{
+  "url_date": "2026-08-25",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-08-24"
+  ],
+  "generated_at": "2026-08-25T10:33:03+00:00",
+  "tickers": [
+    {
+      "ticker": "SCTH",
+      "name": "Securetech Innovations, Inc.",
+      "total_value": 100000000.0,
+      "ev_basic": 365640082.7810631,
+      "mc_basic": 360580529.7810631,
+      "insiders": [
+        {
+          "reporter_name": "SITRA J SCOTT",
+          "relationship": "Director, Officer (President & CEO), 10% Owner",
+          "total_value": 100000000.0,
+          "shares": 1000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ODYS",
+      "name": "Odysight.ai Inc.",
+      "total_value": 3850000.0,
+      "ev_basic": 44703411.521981955,
+      "mc_basic": 61849411.521981955,
+      "insiders": [
+        {
+          "reporter_name": "Arkin Moshe",
+          "relationship": "Director, 10% Owner",
+          "total_value": 3600000.0,
+          "shares": 1125000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Goldwasser Benad",
+          "relationship": "Director",
+          "total_value": 150000.0,
+          "shares": 46875.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Vurembrand Zeev",
+          "relationship": "Director",
+          "total_value": 100000.0,
+          "shares": 31250.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "TMCI",
+      "name": "TREACE MEDICAL CONCEPTS, INC.",
+      "total_value": 246654.3064,
+      "ev_basic": 327632984.79738617,
+      "mc_basic": 284200984.79738617,
+      "insiders": [
+        {
+          "reporter_name": "Treace John T.",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 246654.3064,
+          "shares": 55944.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "VERI",
+      "name": "Veritone, Inc.",
+      "total_value": 126637.31,
+      "ev_basic": 119034250.83072162,
+      "mc_basic": 85991250.83072162,
+      "insiders": [
+        {
+          "reporter_name": "Steelberg Ryan",
+          "relationship": "Director, Officer (PRESIDENT AND CEO)",
+          "total_value": 126637.31,
+          "shares": 148810.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "MSGM",
+      "name": "Motorsport Games Inc.",
+      "total_value": 108501.09400000001,
+      "ev_basic": 15838307.975244522,
+      "mc_basic": 18584648.975244522,
+      "insiders": [
+        {
+          "reporter_name": "Red Oak Partners, LLC",
+          "relationship": "10% Owner",
+          "total_value": 108501.09400000001,
+          "shares": 28355.0,
+          "txn_count": 4
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "PRE",
+      "name": "Prenetics Global Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}

@@ -4,8 +4,8 @@
   "name": "Motorsport Games Inc.",
   "description": "Motorsport Games Inc. develops and publishes racing video games for personal computers in the United States. The company operates through Gaming and Esports segments. It provides rFactor 2, a realistic racing simulation game; KartKraft, a kart racing simulator; and Le Mans Ultimate, an official game of the FIA World Endurance Championship and 24 Hours of Le Mans. The company also organizes and facilitates esports tournaments, competitions, and events for its licensed racing games, as well as on behalf of third-party racing game developers and publishers. It offers its products for game consoles, personal computer, and mobile platforms through various retail and digital channels, including full-game and downloadable content. The company was founded in 2018 and is headquartered in Miramar, Florida. Motorsport Games Inc. operates as a subsidiary of Driven Lifestyle Group LLC.",
   "ownership": {
-    "inst_pct": 0.23982,
-    "insider_pct": 0.49618,
+    "inst_pct": 0.21813999,
+    "insider_pct": 0.45134,
     "inst_count": 24,
     "analyst_count": 1,
     "rec_mean": 0.0,
@@ -15,9 +15,65 @@
     "shares_short": 61548,
     "short_days_to_cover": 2.03,
     "short_as_of": "2026-07-31",
-    "as_of": "2026-08-20"
+    "as_of": "2026-08-25"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "Red Oak Partners, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 3410.0,
+      "price": 3.669,
+      "total_value": 12511.29,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001325533-26-000005"
+    },
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "Red Oak Partners, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 1802.0,
+      "price": 3.669,
+      "total_value": 6611.5380000000005,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001325533-26-000005"
+    },
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "Red Oak Partners, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 17949.0,
+      "price": 3.862,
+      "total_value": 69319.038,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001325533-26-000005"
+    },
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "Red Oak Partners, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 5194.0,
+      "price": 3.862,
+      "total_value": 20059.228,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001325533-26-000005"
+    },
     {
       "date_filed": "2026-08-19",
       "reporter_name": "Red Oak Partners, LLC",
@@ -524,7 +580,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.950000047683716,
+    "share_price": 4.050000190734863,
     "shares_basic": 4588802.0,
     "shares_basic_as_of": "2026-08-14",
     "options": 97366,
@@ -533,8 +589,8 @@
     "debt": 1200000,
     "debt_flag": null,
     "ttm_revenue": 14518856.0,
-    "mc_basic": 18125768.11881113,
-    "ev_basic": 15379427.11881113
+    "mc_basic": 18584648.975244522,
+    "ev_basic": 15838307.975244522
   },
   "financials": {
     "income_statement": {
@@ -1705,5 +1761,5 @@
       }
     }
   },
-  "last_updated": "2026-08-20T11:00:26+00:00"
+  "last_updated": "2026-08-25T10:33:14+00:00"
 }
