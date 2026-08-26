@@ -3,7 +3,105 @@
   "cik": "1726126",
   "name": "Epsilon Energy Ltd.",
   "description": "Epsilon Energy Ltd., a North American onshore independent natural gas and oil company, engages in the acquisition, exploration, development, gathering, and production of natural oil and gas reserves. The company operates through Upstream and Gathering System segments. It has natural gas production in the Appalachian Basin in Pennsylvania; oil, natural gas liquids, and natural gas production in the Powder River Basin in Wyoming, the Permian Basin in Texas and New Mexico, and the Western Canadian Sedimentary Basin in Alberta. Epsilon Energy Ltd. was incorporated in 2005 and is based in Houston, Texas.",
+  "ownership": {
+    "inst_pct": 0.84742,
+    "insider_pct": 0.28499,
+    "inst_count": 144,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.126,
+    "shares_short": 1451746,
+    "short_days_to_cover": 10.45,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-26"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-25",
+      "reporter_name": "Stabell Jason",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 21413.0,
+      "price": 5.626,
+      "total_value": 120469.538,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001104659-26-100600"
+    },
+    {
+      "date_filed": "2026-08-25",
+      "reporter_name": "Stabell Jason",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 4900.0,
+      "price": 5.56,
+      "total_value": 27243.999999999996,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001104659-26-100600"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Stabell Jason",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 6094.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-082020"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Stabell Jason",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 18726.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-082020"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Williamson Andrew",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 2539.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-082019"
+    },
+    {
+      "date_filed": "2026-07-08",
+      "reporter_name": "Williamson Andrew",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-02",
+      "code": "A",
+      "shares": 7803.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-082019"
+    },
     {
       "date_filed": "2026-06-25",
       "reporter_name": "Stabell Jason",
@@ -1221,94 +1319,24 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001104659-24-101328"
-    },
-    {
-      "date_filed": "2024-08-21",
-      "reporter_name": "Stabell Jason",
-      "relationship": "Director, Officer (Chief Executive Officer)",
-      "transaction_date": "2024-08-16",
-      "code": "P",
-      "shares": 9139.0,
-      "price": 5.28,
-      "total_value": 48253.920000000006,
-      "security_title": "Common Shares",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001104659-24-091589"
-    },
-    {
-      "date_filed": "2024-07-18",
-      "reporter_name": "Williamson Andrew",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-07-12",
-      "code": "A",
-      "shares": 2541.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Shares",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080912"
-    },
-    {
-      "date_filed": "2024-07-18",
-      "reporter_name": "Williamson Andrew",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-07-12",
-      "code": "A",
-      "shares": 7803.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Shares",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080912"
-    },
-    {
-      "date_filed": "2024-07-18",
-      "reporter_name": "Stabell Jason",
-      "relationship": "Director, Officer (Chief Executive Officer)",
-      "transaction_date": "2024-07-12",
-      "code": "A",
-      "shares": 6098.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Shares",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080911"
-    },
-    {
-      "date_filed": "2024-07-18",
-      "reporter_name": "Stabell Jason",
-      "relationship": "Director, Officer (Chief Executive Officer)",
-      "transaction_date": "2024-07-12",
-      "code": "A",
-      "shares": 18727.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Common Shares",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-080911"
     }
   ],
   "valuation": {
-    "share_price": 5.410099983215332,
-    "shares_basic": 30248617,
-    "shares_basic_as_of": "2026-05-11",
+    "share_price": 5.789999961853027,
+    "shares_basic": 30283779,
+    "shares_basic_as_of": "2026-08-11",
     "options": 0,
     "warrants": 0,
-    "cash": 7912858,
-    "debt": 45500000,
-    "ttm_revenue": 61020203.0,
-    "mc_basic": 163648042.323987,
-    "ev_basic": 201235184.323987,
+    "cash": 11169421,
+    "debt": 40500000,
     "debt_flag": {
       "reason": "debt_from_footnote_total",
       "amount": null,
       "concept": null
-    }
+    },
+    "ttm_revenue": 67657126.0,
+    "mc_basic": 175343079.2547655,
+    "ev_basic": 204673658.2547655
   },
   "financials": {
     "income_statement": {
@@ -2380,24 +2408,5 @@
       }
     }
   },
-  "last_updated": "2026-06-26T12:33:16+00:00",
-  "ownership": {
-    "inst_pct": 0.83571,
-    "insider_pct": 0.28531998,
-    "inst_count": 138,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.1097,
-    "shares_short": 1260546,
-    "short_days_to_cover": 6.82,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-08-26T10:33:00+00:00"
 }

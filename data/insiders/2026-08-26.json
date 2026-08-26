@@ -1,0 +1,110 @@
+{
+  "url_date": "2026-08-26",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-08-25"
+  ],
+  "generated_at": "2026-08-26T10:32:34+00:00",
+  "tickers": [
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 5723741.2,
+      "ev_basic": 503792359.01314545,
+      "mc_basic": 360371359.01314545,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 5723741.2,
+          "shares": 656548.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "TISI",
+      "name": "TEAM INC",
+      "total_value": 206040.0,
+      "ev_basic": 406626505.5093422,
+      "mc_basic": 110409505.5093422,
+      "insiders": [
+        {
+          "reporter_name": "Roeder Clinton William",
+          "relationship": "Officer (Chief Financial Officer)",
+          "total_value": 206040.0,
+          "shares": 9000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "EPSN",
+      "name": "Epsilon Energy Ltd.",
+      "total_value": 147713.538,
+      "ev_basic": 204673658.2547655,
+      "mc_basic": 175343079.2547655,
+      "insiders": [
+        {
+          "reporter_name": "Stabell Jason",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 147713.538,
+          "shares": 26313.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SRTS",
+      "name": "Sensus Healthcare, Inc.",
+      "total_value": 112904.038,
+      "ev_basic": 40126516.513061285,
+      "mc_basic": 55312516.513061285,
+      "insiders": [
+        {
+          "reporter_name": "Sachetta Eric",
+          "relationship": "Director",
+          "total_value": 112904.038,
+          "shares": 34697.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "John Hancock Marathon Asset-Based Lending Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "NONE.",
+      "name": "EBR Systems, Inc.",
+      "cik": "1347123",
+      "reason": "no share price for NONE.",
+      "transient": false
+    },
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$721.4M with $1,117.0M of unexplained_liabilities (up to $1,838.4M)",
+      "transient": false
+    }
+  ]
+}

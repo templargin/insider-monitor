@@ -8,16 +8,58 @@
     "insider_pct": 0.21138,
     "inst_count": 53,
     "analyst_count": 4,
-    "rec_mean": null,
-    "rec_key": null,
+    "rec_mean": 1.8,
+    "rec_key": "buy",
     "target_mean": 18.0,
-    "short_pct_float": 0.0659,
+    "short_pct_float": null,
     "shares_short": 721651,
-    "short_days_to_cover": 3.02,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-21"
+    "short_days_to_cover": 1.63,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-26"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-25",
+      "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-25",
+      "code": "P",
+      "shares": 233624.0,
+      "price": 9.21,
+      "total_value": 2151677.04,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-26-034358"
+    },
+    {
+      "date_filed": "2026-08-25",
+      "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 233624.0,
+      "price": 8.84,
+      "total_value": 2065236.16,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-26-034358"
+    },
+    {
+      "date_filed": "2026-08-25",
+      "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 189300.0,
+      "price": 7.96,
+      "total_value": 1506828.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-26-034358"
+    },
     {
       "date_filed": "2026-08-20",
       "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
@@ -286,7 +328,7 @@
     }
   ],
   "valuation": {
-    "share_price": 7.5,
+    "share_price": 9.329999923706055,
     "shares_basic": 38625012.0,
     "shares_basic_as_of": "2026-07-31",
     "options": 0,
@@ -295,8 +337,8 @@
     "debt": 165016000,
     "debt_flag": null,
     "ttm_revenue": 159019000.0,
-    "mc_basic": 289687590.0,
-    "ev_basic": 433108590.0
+    "mc_basic": 360371359.01314545,
+    "ev_basic": 503792359.01314545
   },
   "financials": {
     "income_statement": {
@@ -794,5 +836,5 @@
       }
     }
   },
-  "last_updated": "2026-08-21T11:00:39+00:00"
+  "last_updated": "2026-08-26T10:33:03+00:00"
 }

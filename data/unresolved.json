@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:58:55+00:00",
+  "generated_at": "2026-08-26T10:32:34+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -847,11 +847,124 @@
         ]
       },
       "first_seen": "2026-08-24T10:32:40+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-08-25",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.8M with $1,117.0M of unexplained_liabilities (up to $1,832.8M)",
-      "last_tried": "2026-08-25T10:58:55+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-08-26",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$721.4M with $1,117.0M of unexplained_liabilities (up to $1,838.4M)",
+      "last_tried": "2026-08-26T10:30:39+00:00"
+    },
+    {
+      "url_date": "2026-08-26",
+      "cik": "1347123",
+      "ticker": "NONE.",
+      "name": "EBR Systems, Inc.",
+      "reason": "no share price for NONE.",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "NONE",
+        "name": "EBR Systems, Inc.",
+        "by_reporter": {
+          "2041658": {
+            "reporter_cik": "2041658",
+            "reporter_name": "Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust",
+            "relationship": "10% Owner",
+            "total_value": 20790321.3,
+            "shares": 7700119.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Host-Plus Pty Ltd as trustee for the HOSTPLUS Pooled Superannuation Trust",
+              "reporter_cik": "2041658",
+              "relationship": "10% Owner",
+              "issuer_cik": "1347123",
+              "issuer_ticker": "NONE",
+              "issuer_name": "EBR Systems, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-08-21",
+                "code": "P",
+                "shares": 7700119.0,
+                "price": 2.7,
+                "total_value": 20790321.3,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 20790321.3
+          }
+        ]
+      },
+      "first_seen": "2026-08-26T10:32:34+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-26",
+      "cik": "800457",
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$721.4M with $1,117.0M of unexplained_liabilities (up to $1,838.4M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DGICA",
+        "name": "DONEGAL GROUP INC",
+        "by_reporter": {
+          "935596": {
+            "reporter_cik": "935596",
+            "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+            "relationship": "10% Owner",
+            "total_value": 377404.0,
+            "shares": 20000.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+              "reporter_cik": "935596",
+              "relationship": "10% Owner",
+              "issuer_cik": "800457",
+              "issuer_ticker": "DGICA",
+              "issuer_name": "DONEGAL GROUP INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-08-21",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 18.6757,
+                "total_value": 186757.0,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-08-24",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 19.0647,
+                "total_value": 190646.99999999997,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 377404.0
+          }
+        ]
+      },
+      "first_seen": "2026-08-26T10:32:34+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }
