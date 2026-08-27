@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:32:19+00:00",
+  "generated_at": "2026-08-27T20:42:48+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -905,7 +905,7 @@
       "abandoned": false,
       "last_tried_date": "2026-08-27",
       "last_reason": "no share price for NONE.",
-      "last_tried": "2026-08-27T10:30:34+00:00"
+      "last_tried": "2026-08-27T20:41:01+00:00"
     },
     {
       "url_date": "2026-08-26",
@@ -969,8 +969,8 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-08-27",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$720.3M with $1,117.0M of unexplained_liabilities (up to $1,837.3M)",
-      "last_tried": "2026-08-27T10:30:35+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.8M with $1,117.0M of unexplained_liabilities (up to $1,832.8M)",
+      "last_tried": "2026-08-27T20:41:02+00:00"
     },
     {
       "url_date": "2026-08-27",
@@ -1106,6 +1106,57 @@
         ]
       },
       "first_seen": "2026-08-27T10:32:19+00:00",
+      "attempts": 1,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-08-27",
+      "cik": "2098430",
+      "ticker": "MAIR",
+      "name": "Madison Air Solutions Corp",
+      "reason": "share count for MAIR predates its balance sheet (2026-03-31 < 2026-06-30)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "MAIR",
+        "name": "Madison Air Solutions Corp",
+        "by_reporter": {
+          "1431218": {
+            "reporter_cik": "1431218",
+            "reporter_name": "La Force Andrew Hudson III",
+            "relationship": "Director",
+            "total_value": 556800.0,
+            "shares": 20000.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "La Force Andrew Hudson III",
+              "reporter_cik": "1431218",
+              "relationship": "Director",
+              "issuer_cik": "2098430",
+              "issuer_ticker": "MAIR",
+              "issuer_name": "Madison Air Solutions Corp"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A common stock",
+                "transaction_date": "2026-08-25",
+                "code": "P",
+                "shares": 20000.0,
+                "price": 27.84,
+                "total_value": 556800.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 556800.0
+          }
+        ]
+      },
+      "first_seen": "2026-08-27T20:42:48+00:00",
       "attempts": 0,
       "abandoned": false
     }

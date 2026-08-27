@@ -4,14 +4,14 @@
   "filing_dates": [
     "2026-08-26"
   ],
-  "generated_at": "2026-08-27T10:32:19+00:00",
+  "generated_at": "2026-08-27T20:42:48+00:00",
   "tickers": [
     {
       "ticker": "NPB",
       "name": "NORTHPOINTE BANCSHARES INC",
       "total_value": 1327105.6584,
-      "ev_basic": 1473228290.2729187,
-      "mc_basic": 584087290.2729187,
+      "ev_basic": 1480836337.7270813,
+      "mc_basic": 591695337.7270813,
       "insiders": [
         {
           "reporter_name": "Williams Charles Alan",
@@ -26,8 +26,8 @@
       "ticker": "HDSN",
       "name": "HUDSON TECHNOLOGIES INC /NY",
       "total_value": 553046.919,
-      "ev_basic": 197048412.02444935,
-      "mc_basic": 222648412.02444935,
+      "ev_basic": 205045238.36277533,
+      "mc_basic": 230645238.36277533,
       "insiders": [
         {
           "reporter_name": "Hartree Partners, LP",
@@ -42,8 +42,8 @@
       "ticker": "FNKO",
       "name": "Funko, Inc.",
       "total_value": 499995.19999999995,
-      "ev_basic": 393595334.3786526,
-      "mc_basic": 357835334.3786526,
+      "ev_basic": 413786650.24269485,
+      "mc_basic": 378026650.24269485,
       "insiders": [
         {
           "reporter_name": "DENSON CHARLES D",
@@ -58,8 +58,8 @@
       "ticker": "JUSH",
       "name": "Jushi Holdings Inc.",
       "total_value": 342153.76,
-      "ev_basic": 350597882.38471556,
-      "mc_basic": 94855882.38471553,
+      "ev_basic": 358386050.5723317,
+      "mc_basic": 102644050.57233173,
       "insiders": [
         {
           "reporter_name": "Cacioppo James",
@@ -74,8 +74,8 @@
       "ticker": "AFCG",
       "name": "Advanced Flower Capital Inc.",
       "total_value": 204300.0,
-      "ev_basic": 48284834.63108134,
-      "mc_basic": 78218121.63108134,
+      "ev_basic": 48058115.65729761,
+      "mc_basic": 77991402.65729761,
       "insiders": [
         {
           "reporter_name": "TANNENBAUM LEONARD M",
@@ -90,8 +90,8 @@
       "ticker": "UUU",
       "name": "UNIVERSAL SAFETY PRODUCTS, INC.",
       "total_value": 183476.2976,
-      "ev_basic": 14139927.117893219,
-      "mc_basic": 17141100.11789322,
+      "ev_basic": 12958826.952236652,
+      "mc_basic": 15959999.952236652,
       "insiders": [
         {
           "reporter_name": "AULT MILTON C III",
@@ -106,8 +106,8 @@
       "ticker": "BWFG",
       "name": "Bankwell Financial Group, Inc.",
       "total_value": 167425.87999999998,
-      "ev_basic": 419783973.9642639,
-      "mc_basic": 523359973.9642639,
+      "ev_basic": 425125180.6071472,
+      "mc_basic": 528701180.6071472,
       "insiders": [
         {
           "reporter_name": "SEIDMAN LAWRENCE B",
@@ -170,6 +170,13 @@
     }
   ],
   "unresolved": [
+    {
+      "ticker": "MAIR",
+      "name": "Madison Air Solutions Corp",
+      "cik": "2098430",
+      "reason": "share count for MAIR predates its balance sheet (2026-03-31 < 2026-06-30)",
+      "transient": false
+    },
     {
       "ticker": "AMRC",
       "name": "Ameresco, Inc.",
