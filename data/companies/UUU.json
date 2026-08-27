@@ -5,19 +5,89 @@
   "description": "Universal Safety Products, Inc., together with its subsidiary, engages in the marketing and distribution of safety and security products in the United States. It offers safety alarms units, including replaceable batteries, sealed batteries, and battery backup alarms; and door chimes, ventilation products, ground fault circuit interrupters, and other electrical devices under the UNIVERSAL and USI Electric trade names. The company also provides its products to wholesale distributors; chain, discount, television retailers; home center stores; catalog and mail order companies; electrical and lighting distributors, and manufactured housing companies; and other distributors. It sells its products through independent sales organizations and sales representatives, as well as through its own sales catalogs and brochures, and website. The company was formerly known as Universal Security Instruments, Inc. and changed its name to Universal Safety Products, Inc in April 2025. Universal Safety Products, Inc. was incorporated in 1969 and is headquartered in Owings Mills, Maryland.",
   "ownership": {
     "inst_pct": 0.06276,
-    "insider_pct": 0.50380003,
+    "insider_pct": 0.52674997,
     "inst_count": 21,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": null,
-    "short_pct_float": 0.0148,
-    "shares_short": 26565,
-    "short_days_to_cover": 1.86,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-24"
+    "short_pct_float": 0.0138,
+    "shares_short": 24620,
+    "short_days_to_cover": 1.89,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-27"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 6.0782,
+      "total_value": 60782.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010931"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 200.0,
+      "price": 5.9501,
+      "total_value": 1190.02,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-010931"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-25",
+      "code": "P",
+      "shares": 8729.0,
+      "price": 6.0344,
+      "total_value": 52674.2776,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010931"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-25",
+      "code": "P",
+      "shares": 500.0,
+      "price": 5.852,
+      "total_value": 2926.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-010931"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 6.5904,
+      "total_value": 65904.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010931"
+    },
     {
       "date_filed": "2026-08-21",
       "reporter_name": "AULT MILTON C III",
@@ -1490,7 +1560,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.400000095367432,
+    "share_price": 5.659999847412109,
     "shares_basic": 3028463,
     "shares_basic_as_of": "2026-08-14",
     "options": 225000,
@@ -1499,8 +1569,8 @@
     "debt": 709240,
     "debt_flag": null,
     "ttm_revenue": 4716354.0,
-    "mc_basic": 19382163.488816738,
-    "ev_basic": 16380990.488816738
+    "mc_basic": 17141100.11789322,
+    "ev_basic": 14139927.117893219
   },
   "financials": {
     "income_statement": {
@@ -2611,5 +2681,5 @@
       }
     }
   },
-  "last_updated": "2026-08-24T11:04:09+00:00"
+  "last_updated": "2026-08-27T10:32:29+00:00"
 }

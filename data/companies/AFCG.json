@@ -4,20 +4,104 @@
   "name": "Advanced Flower Capital Inc.",
   "description": "Advanced Flower Capital Inc. originates, structures, underwrites, invests in, and manages senior secured loans and other types of mortgage loans and debt securities for established companies operating in the cannabis industry. It primarily originates loans structured as senior loans secured by real estate, equipment, cash flows, and licenses and/or other assets of the loan parties to the extent permitted by applicable laws and the regulations governing such loan parties. The company was formerly known as AFC Gamma, Inc. and changed its name to Advanced Flower Capital Inc. in October 2024. Advanced Flower Capital Inc. was incorporated in 2020 and is based in West Palm Beach, Florida.",
   "ownership": {
-    "inst_pct": 0.20391001,
-    "insider_pct": 0.42361,
-    "inst_count": 56,
+    "inst_pct": 0.20389,
+    "insider_pct": 0.42734,
+    "inst_count": 55,
     "analyst_count": 1,
     "rec_mean": 2.33333,
     "rec_key": "buy",
     "target_mean": 8.0,
-    "short_pct_float": 0.0643,
-    "shares_short": 1003447,
-    "short_days_to_cover": 12.16,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-18"
+    "short_pct_float": 0.0523,
+    "shares_short": 808294,
+    "short_days_to_cover": 9.95,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-27"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-25",
+      "code": "P",
+      "shares": 30000.0,
+      "price": 3.4,
+      "total_value": 102000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059085"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 30000.0,
+      "price": 3.41,
+      "total_value": 102300.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059085"
+    },
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 3.28,
+      "total_value": 82000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058642"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 3.29,
+      "total_value": 65800.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058415"
+    },
+    {
+      "date_filed": "2026-08-19",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-19",
+      "code": "P",
+      "shares": 12841.0,
+      "price": 3.48,
+      "total_value": 44686.68,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058037"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Tannenbaum Robyn",
+      "relationship": "Officer (President and CIO)",
+      "transaction_date": "2026-08-14",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 3.15,
+      "total_value": 3150.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-057654"
+    },
     {
       "date_filed": "2026-08-17",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -888,7 +972,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.575000047683716,
+    "share_price": 3.450000047683716,
     "shares_basic": 22671919,
     "shares_basic_as_of": "2026-08-07",
     "options": 0,
@@ -901,8 +985,8 @@
       "concept": null
     },
     "ttm_revenue": 27296824.0,
-    "mc_basic": 81052111.50608134,
-    "ev_basic": 51118824.50608134
+    "mc_basic": 78218121.63108134,
+    "ev_basic": 48284834.63108134
   },
   "financials": {
     "income_statement": {
@@ -1711,5 +1795,5 @@
       }
     }
   },
-  "last_updated": "2026-08-18T14:26:58+00:00"
+  "last_updated": "2026-08-27T10:33:09+00:00"
 }

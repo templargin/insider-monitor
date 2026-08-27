@@ -4,20 +4,62 @@
   "name": "HUDSON TECHNOLOGIES INC /NY",
   "description": "Hudson Technologies, Inc., through its subsidiary, Hudson Technologies Company, provides solutions to recurring problems within the refrigeration industry in the United States. The company offers refrigerant and industrial gas; refrigerant management services comprising primarily of reclamation of refrigerants, laboratory testing through its laboratory, and banking storage services; and RefrigerantSide Services comprising system decontamination to remove moisture, oils, and other contaminants intended to restore systems to designed capacity. It also provides diagnostic services for use in the prediction of potential problems in air conditioning, process cooling, and refrigeration systems; Chiller Chemistry, which integrates several fluid tests of an operating system and the corresponding laboratory results into an engineering report; Fluid Chemistry for use in identification of systems that require further examination; and SmartEnergy OPS, a system for measuring, modifying, and improving the efficiency of energy systems, including air conditioning and refrigeration systems, in industrial and commercial applications. In addition, the company provides a snapshot of a packaged chiller's operating efficiency and health through ChillSmart, a maintenance tool. Further, it is involved in the generation of carbon offset projects. The company serves commercial, industrial, and governmental customers, as well as refrigerant wholesalers, distributors, contractors, and refrigeration equipment manufacturers. Hudson Technologies, Inc. was founded in 1990 and is headquartered in Woodcliff Lake, New Jersey.",
   "ownership": {
-    "inst_pct": 0.84809995,
-    "insider_pct": 0.13709,
-    "inst_count": 219,
+    "inst_pct": 0.80023,
+    "insider_pct": 0.13703,
+    "inst_count": 216,
     "analyst_count": 4,
     "rec_mean": null,
     "rec_key": null,
-    "target_mean": 8.5,
-    "short_pct_float": 0.05,
-    "shares_short": 2079019,
-    "short_days_to_cover": 3.51,
-    "short_as_of": "2026-07-15",
-    "as_of": "2026-08-03"
+    "target_mean": 7.3125,
+    "short_pct_float": 0.0539,
+    "shares_short": 2244366,
+    "short_days_to_cover": 4.97,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-27"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-25",
+      "code": "P",
+      "shares": 91166.0,
+      "price": 5.4965,
+      "total_value": 501093.919,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002318"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 9446.0,
+      "price": 5.5,
+      "total_value": 51953.0,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002318"
+    },
+    {
+      "date_filed": "2026-08-14",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-12",
+      "code": "P",
+      "shares": 5198.0,
+      "price": 5.5,
+      "total_value": 28589.0,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002194"
+    },
     {
       "date_filed": "2026-07-31",
       "reporter_name": "Hartree Partners, LP",
@@ -916,17 +958,17 @@
     }
   ],
   "valuation": {
-    "share_price": 6.039999961853027,
-    "shares_basic": 42068788,
-    "shares_basic_as_of": "2026-04-21",
+    "share_price": 5.289999961853027,
+    "shares_basic": 42088547,
+    "shares_basic_as_of": "2026-07-27",
     "options": 2604023,
     "warrants": 0,
-    "cash": 19366000,
+    "cash": 25600000,
     "debt": null,
     "debt_flag": null,
-    "ttm_revenue": 251422000.0,
-    "mc_basic": 254095477.9152031,
-    "ev_basic": 234729477.9152031
+    "ttm_revenue": 256918000.0,
+    "mc_basic": 222648412.02444935,
+    "ev_basic": 197048412.02444935
   },
   "financials": {
     "income_statement": {
@@ -2173,5 +2215,5 @@
       }
     }
   },
-  "last_updated": "2026-08-03T13:25:48+00:00"
+  "last_updated": "2026-08-27T10:34:36+00:00"
 }
