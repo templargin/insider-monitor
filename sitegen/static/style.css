@@ -164,7 +164,19 @@ thead th {
 }
 
 .daily-list tbody tr:hover { background: var(--bg-hover); }
-.daily-list .insider-row { font-size: 12px; line-height: 1.5; color: var(--fg-soft); }
+/* One insider = one line. The cell is capped rather than handed the leftover
+   width, so a long name can't stretch the row onto a second line. 320px holds
+   the widest name+role in the archive (~50 chars at 12px); the ellipsis below
+   is the safety net for a future outlier, not the normal case. */
+.daily-list .insider-cell { width: 320px; max-width: 320px; }
+.daily-list .insider-row {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--fg-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* Valuation */
 .valuation-row {
@@ -367,9 +379,10 @@ thead th {
   /* Compact table padding everywhere */
   th, td { padding: 8px 10px; }
 
-  /* Daily list — force horizontal scroll, prevent column wrap */
-  .daily-list { min-width: 720px; }
-  .daily-list .insider-row { white-space: normal; }
+  /* Daily list — force horizontal scroll, prevent column wrap. The insider
+     cell keeps its desktop nowrap here too: the table scrolls sideways, so
+     letting that one cell wrap was the only thing making rows two lines tall. */
+  .daily-list { min-width: 760px; }
 
   /* Financial tables — prevent row-label wrap, scroll horizontally */
   .fin-table { min-width: 540px; }

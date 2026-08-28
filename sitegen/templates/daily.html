@@ -28,9 +28,14 @@
       <td class="num">{{ t.total_value|money }}</td>
       <td class="num">{{ t.mc_basic|money_m }}</td>
       <td class="num">{{ t.ev_basic|money_m }}</td>
-      <td>
+      {# The txn count is gone and the role is abbreviated so each insider reads
+          as ONE line. The per-insider value is printed only when two or more
+          insiders share the row: with one insider it just repeats the Purchase
+          column, but with several that column is their SUM, and the split is the
+          only place the reader can see who actually bought the size. -#}
+      <td class="insider-cell">
         {% for ins in t.insiders %}
-        <div class="insider-row">{{ ins.reporter_name }} <span class="subtle">({{ ins.relationship }})</span> — {{ ins.total_value|money }}{% if ins.txn_count > 1 %} <span class="subtle">in {{ ins.txn_count }} txns</span>{% endif %}</div>
+        <div class="insider-row">{{ ins.reporter_name }} <span class="subtle">({{ ins.relationship|role }})</span>{% if t.insiders|length > 1 %} — {{ ins.total_value|money }}{% endif %}</div>
         {% endfor %}
       </td>
     </tr>

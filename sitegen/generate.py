@@ -312,6 +312,96 @@ def debt_flag_text(flag):
     return "see filing"
 
 
+_ROLE_TITLES = [
+    ("chief executive officer", "CEO"),
+    ("chief financial officer", "CFO"),
+    ("chief operating officer", "COO"),
+    ("chief investment officer", "CIO"),
+    ("chief technology officer", "CTO"),
+    ("chief medical officer", "CMO"),
+    ("chief commercial officer", "CCO"),
+    ("chief business officer", "CBO"),
+    ("chief accounting officer", "CAO"),
+    ("chief legal officer", "CLO"),
+    ("chief content officer", "CCO"),
+    ("principal financial officer", "CFO"),
+    ("principal executive officer", "CEO"),
+    ("principal accounting officer", "CAO"),
+    ("executive chairman", "Exec Chairman"),
+    ("executive vice chair", "Exec Vice Chair"),
+    ("chairman of the board", "Chairman"),
+    ("general counsel", "Gen Counsel"),
+]
+
+# Title text that names no role — "Officer (SEE REMARKS)" is just "Officer".
+_ROLE_EMPTY = ("see remarks", "see remark", "see footnote")
+
+
+def _short_title(title):
+    """Compress a free-text Form 4 officer/other title to its common short form."""
+    t = " ".join(title.split())
+    low = t.lower()
+    if any(low.startswith(e) for e in _ROLE_EMPTY):
+        return ""
+    for long_form, short in _ROLE_TITLES:
+        idx = low.find(long_form)
+        while idx != -1:
+            t = t[:idx] + short + t[idx + len(long_form):]
+            low = t.lower()
+            idx = low.find(long_form)
+    return t
+
+
+def role(relationship):
+    """Abbreviate a Form 4 relationship string for the daily list's Insider column.
+
+    "Director, Officer (Chairman & CEO), 10% Owner" → "Dir · Chairman & CEO · 10%"
+
+    The daily row is meant to read as one line, and the raw relationship string is
+    the longest thing in that cell — long enough to wrap it on its own, even after
+    the value and txn count moved out. Only the DISPLAY is shortened; the filed
+    text stays intact in the day's JSON.
+    """
+    if not relationship:
+        return ""
+    # Split on top-level commas only — titles carry their own
+    # ("Officer (EVP, Chief Financial Officer)").
+    parts, buf, depth = [], "", 0
+    for ch in relationship:
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(0, depth - 1)
+        if ch == "," and depth == 0:
+            parts.append(buf)
+            buf = ""
+        else:
+            buf += ch
+    parts.append(buf)
+
+    out = []
+    for raw in parts:
+        p = raw.strip()
+        if not p:
+            continue
+        low = p.lower()
+        if low == "director":
+            out.append("Dir")
+        elif low == "10% owner":
+            out.append("10%")
+        elif low.startswith("officer") or low.startswith("other"):
+            inner = ""
+            if "(" in p and p.endswith(")"):
+                inner = _short_title(p[p.index("(") + 1:-1])
+            out.append(inner or ("Officer" if low.startswith("officer") else "Other"))
+        else:
+            out.append(p)
+    # A bare "Officer"/"Other" next to a named title adds nothing.
+    if len(out) > 1:
+        out = [o for o in out if o not in ("Officer", "Other")] or out
+    return " · ".join(out)
+
+
 _env = None
 
 
@@ -337,6 +427,7 @@ def get_env():
         _env.filters["pct"] = pct
         _env.filters["analyst_count"] = analyst_count
         _env.filters["rec_label"] = rec_label
+        _env.filters["role"] = role
     return _env
 
 

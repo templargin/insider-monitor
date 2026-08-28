@@ -10,7 +10,7 @@ import pytest
 
 from sitegen.generate import (_finite, _sum_ttm, fd_figures, money, money_m,
                               money_signed, number_2, number_int, pct,
-                              price_or_dash, shares_m)
+                              price_or_dash, role, shares_m)
 
 
 def grid(labels, data):
@@ -137,6 +137,41 @@ def test_formatters_still_format():
     assert pct(0.1234) == "12.3%"
     assert price_or_dash(4.47) == "$4.47"
     assert price_or_dash(0) == "—"
+
+
+# --- role: the daily list's Insider column is one line per insider ---------------
+
+def test_role_abbreviates_the_common_shapes():
+    assert role("Director") == "Dir"
+    assert role("10% Owner") == "10%"
+    assert role("Director, 10% Owner") == "Dir · 10%"
+    assert role("Director, Officer (Chief Executive Officer), 10% Owner") == "Dir · CEO · 10%"
+
+
+def test_role_splits_on_top_level_commas_only():
+    """Titles carry their own commas; splitting naively made 'EVP' its own role."""
+    assert role("Officer (EVP, Chief Financial Officer)") == "EVP, CFO"
+
+
+def test_role_drops_a_title_that_names_no_role():
+    """'Officer (SEE REMARKS)' is just an officer, and next to a real title it is noise."""
+    assert role("Officer (SEE REMARKS)") == "Officer"
+    assert role("Director, Officer (See Remarks), 10% Owner") == "Dir · 10%"
+    assert role("Director, Officer (Executive Chairman), Other (See Remarks)") == "Dir · Exec Chairman"
+
+
+def test_role_keeps_a_title_it_does_not_recognize():
+    assert role("Officer (VP - Member Experience)") == "VP - Member Experience"
+
+
+def test_role_stays_short_enough_for_the_column():
+    """The point of the filter: name + role has to fit one line in a 320px cell."""
+    assert len(role("Director, Officer (Executive Chairman and CEO), 10% Owner")) <= 36
+
+
+def test_role_of_nothing_is_nothing():
+    assert role("") == ""
+    assert role(None) == ""
 
 
 def test_finite_helper():
