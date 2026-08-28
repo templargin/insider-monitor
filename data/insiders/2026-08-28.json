@@ -1,0 +1,120 @@
+{
+  "url_date": "2026-08-28",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-08-27"
+  ],
+  "generated_at": "2026-08-28T10:32:14+00:00",
+  "tickers": [
+    {
+      "ticker": "RGNX",
+      "name": "REGENXBIO Inc.",
+      "total_value": 949381.4476,
+      "ev_basic": 582056601.4853897,
+      "mc_basic": 618543601.4853897,
+      "insiders": [
+        {
+          "reporter_name": "Ciongoli Gregory Austin",
+          "relationship": "Director",
+          "total_value": 949381.4476,
+          "shares": 102603.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "HYLN",
+      "name": "Hyliion Holdings Corp.",
+      "total_value": 170000.0,
+      "ev_basic": 595850528.7091222,
+      "mc_basic": 609016528.7091222,
+      "insiders": [
+        {
+          "reporter_name": "Cubbage Vincent T.",
+          "relationship": "Director",
+          "total_value": 170000.0,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AVBC",
+      "name": "Avidia Bancorp, Inc.",
+      "total_value": 110087.49999999999,
+      "ev_basic": 790795977.9127731,
+      "mc_basic": 442541977.91277313,
+      "insiders": [
+        {
+          "reporter_name": "Grimaldo Joseph F",
+          "relationship": "Director",
+          "total_value": 110087.49999999999,
+          "shares": 5000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "VENU",
+      "name": "Venu Holding Corp",
+      "total_value": 106501.156,
+      "ev_basic": 165709623.0,
+      "mc_basic": 112421104.0,
+      "insiders": [
+        {
+          "reporter_name": "Finke Thomas M",
+          "relationship": "Director",
+          "total_value": 106501.156,
+          "shares": 54644.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SCOR",
+      "name": "COMSCORE, INC.",
+      "total_value": 105200.0,
+      "ev_basic": 53707025.269618034,
+      "mc_basic": 79414025.26961803,
+      "insiders": [
+        {
+          "reporter_name": "McLaughlin Matthew F.",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 105200.0,
+          "shares": 20000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "IMTX",
+      "name": "Immatics N.V.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "JTTT",
+      "name": "JATT III Acquisition Corp",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "AMRC",
+      "name": "Ameresco, Inc.",
+      "cik": "1488139",
+      "reason": "no basic share count for AMRC",
+      "transient": false
+    },
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.8M with $1,117.0M of unexplained_liabilities (up to $1,832.8M)",
+      "transient": false
+    }
+  ]
+}
