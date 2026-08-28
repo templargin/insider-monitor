@@ -4,14 +4,14 @@
   "filing_dates": [
     "2026-08-27"
   ],
-  "generated_at": "2026-08-28T10:32:14+00:00",
+  "generated_at": "2026-08-28T21:14:29+00:00",
   "tickers": [
     {
       "ticker": "RGNX",
       "name": "REGENXBIO Inc.",
       "total_value": 949381.4476,
-      "ev_basic": 582056601.4853897,
-      "mc_basic": 618543601.4853897,
+      "ev_basic": 601200424.6471863,
+      "mc_basic": 637687424.6471863,
       "insiders": [
         {
           "reporter_name": "Ciongoli Gregory Austin",
@@ -26,8 +26,8 @@
       "ticker": "HYLN",
       "name": "Hyliion Holdings Corp.",
       "total_value": 170000.0,
-      "ev_basic": 595850528.7091222,
-      "mc_basic": 609016528.7091222,
+      "ev_basic": 613710233.4767642,
+      "mc_basic": 626876233.4767642,
       "insiders": [
         {
           "reporter_name": "Cubbage Vincent T.",
@@ -42,8 +42,8 @@
       "ticker": "AVBC",
       "name": "Avidia Bancorp, Inc.",
       "total_value": 110087.49999999999,
-      "ev_basic": 790795977.9127731,
-      "mc_basic": 442541977.91277313,
+      "ev_basic": 789597770.2180672,
+      "mc_basic": 441343770.21806717,
       "insiders": [
         {
           "reporter_name": "Grimaldo Joseph F",
@@ -58,8 +58,8 @@
       "ticker": "VENU",
       "name": "Venu Holding Corp",
       "total_value": 106501.156,
-      "ev_basic": 165709623.0,
-      "mc_basic": 112421104.0,
+      "ev_basic": 166833832.9678688,
+      "mc_basic": 113545313.9678688,
       "insiders": [
         {
           "reporter_name": "Finke Thomas M",
@@ -74,8 +74,8 @@
       "ticker": "SCOR",
       "name": "COMSCORE, INC.",
       "total_value": 105200.0,
-      "ev_basic": 53707025.269618034,
-      "mc_basic": 79414025.26961803,
+      "ev_basic": 52644119.843055725,
+      "mc_basic": 78351119.84305573,
       "insiders": [
         {
           "reporter_name": "McLaughlin Matthew F.",
@@ -103,17 +103,10 @@
   ],
   "unresolved": [
     {
-      "ticker": "AMRC",
-      "name": "Ameresco, Inc.",
-      "cik": "1488139",
-      "reason": "no basic share count for AMRC",
-      "transient": false
-    },
-    {
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
       "cik": "800457",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.8M with $1,117.0M of unexplained_liabilities (up to $1,832.8M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$725.5M with $1,117.0M of unexplained_liabilities (up to $1,842.5M)",
       "transient": false
     }
   ]
