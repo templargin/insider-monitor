@@ -1,0 +1,119 @@
+{
+  "url_date": "2026-08-31",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30"
+  ],
+  "generated_at": "2026-08-31T10:32:23+00:00",
+  "tickers": [
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 6097155.04,
+      "ev_basic": 505337358.01971817,
+      "mc_basic": 361916358.01971817,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 6097155.04,
+          "shares": 652248.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "MED",
+      "name": "MEDIFAST INC",
+      "total_value": 529157.08,
+      "ev_basic": 64270965.95207977,
+      "mc_basic": 136180965.95207977,
+      "insiders": [
+        {
+          "reporter_name": "Kiai Parsa",
+          "relationship": "Director",
+          "total_value": 529157.08,
+          "shares": 43150.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "REFI",
+      "name": "Chicago Atlantic Real Estate Finance, Inc.",
+      "total_value": 508939.7546,
+      "ev_basic": 309734699.09895325,
+      "mc_basic": 273633847.09895325,
+      "insiders": [
+        {
+          "reporter_name": "Mazarakis John",
+          "relationship": "Director, Officer (Executive Chairman)",
+          "total_value": 508939.7546,
+          "shares": 47711.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "JUSH",
+      "name": "Jushi Holdings Inc.",
+      "total_value": 492000.0,
+      "ev_basic": 362416112.22552896,
+      "mc_basic": 101846112.22552896,
+      "insiders": [
+        {
+          "reporter_name": "Cacioppo James",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 492000.0,
+          "shares": 994000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "AFCG",
+      "name": "Advanced Flower Capital Inc.",
+      "total_value": 118766.56,
+      "ev_basic": 51685619.237837315,
+      "mc_basic": 81618906.23783731,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, 10% Owner",
+          "total_value": 118766.56,
+          "shares": 34606.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ATTO",
+      "name": "Attovia Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "RNAQ",
+      "name": "Rainier Acquisition Corp",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": null,
+      "name": "Blackstone Private Equity Strategies Fund L.P.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "KLAR",
+      "name": "Klarna Group plc",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}

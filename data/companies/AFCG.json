@@ -4,8 +4,8 @@
   "name": "Advanced Flower Capital Inc.",
   "description": "Advanced Flower Capital Inc. originates, structures, underwrites, invests in, and manages senior secured loans and other types of mortgage loans and debt securities for established companies operating in the cannabis industry. It primarily originates loans structured as senior loans secured by real estate, equipment, cash flows, and licenses and/or other assets of the loan parties to the extent permitted by applicable laws and the regulations governing such loan parties. The company was formerly known as AFC Gamma, Inc. and changed its name to Advanced Flower Capital Inc. in October 2024. Advanced Flower Capital Inc. was incorporated in 2020 and is based in West Palm Beach, Florida.",
   "ownership": {
-    "inst_pct": 0.20389,
-    "insider_pct": 0.42734,
+    "inst_pct": 0.20507,
+    "insider_pct": 0.43335998,
     "inst_count": 55,
     "analyst_count": 1,
     "rec_mean": 2.33333,
@@ -15,9 +15,37 @@
     "shares_short": 808294,
     "short_days_to_cover": 9.95,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-08-27"
+    "as_of": "2026-08-31"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-28",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 15202.0,
+      "price": 3.46,
+      "total_value": 52598.92,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059389"
+    },
+    {
+      "date_filed": "2026-08-28",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 19404.0,
+      "price": 3.41,
+      "total_value": 66167.64,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059389"
+    },
     {
       "date_filed": "2026-08-26",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -972,7 +1000,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.440000057220459,
+    "share_price": 3.5999999046325684,
     "shares_basic": 22671919,
     "shares_basic_as_of": "2026-08-07",
     "options": 0,
@@ -985,8 +1013,8 @@
       "concept": null
     },
     "ttm_revenue": 27296824.0,
-    "mc_basic": 77991402.65729761,
-    "ev_basic": 48058115.65729761
+    "mc_basic": 81618906.23783731,
+    "ev_basic": 51685619.237837315
   },
   "financials": {
     "income_statement": {
@@ -1795,5 +1823,5 @@
       }
     }
   },
-  "last_updated": "2026-08-27T20:43:39+00:00"
+  "last_updated": "2026-08-31T10:34:25+00:00"
 }

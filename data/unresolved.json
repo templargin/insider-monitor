@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T21:14:29+00:00",
+  "generated_at": "2026-08-31T10:30:40+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1031,8 +1031,11 @@
         ]
       },
       "first_seen": "2026-08-28T10:32:14+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-08-31",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$725.5M with $1,117.0M of unexplained_liabilities (up to $1,842.5M)",
+      "last_tried": "2026-08-31T10:30:40+00:00"
     }
   ]
 }

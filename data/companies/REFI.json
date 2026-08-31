@@ -4,20 +4,104 @@
   "name": "Chicago Atlantic Real Estate Finance, Inc.",
   "description": "Chicago Atlantic Real Estate Finance, Inc. operates as a commercial mortgage real estate investment trust in the United States. It engages in originating, structuring, and investing in first mortgage loans and alternative structured financings secured by commercial real estate properties. The company's loan portfolio is comprised of senior loans to state-licensed operators in the cannabis industry. It has elected to be taxed as a real estate investment trust (REIT) and would not be subject to federal corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. Chicago Atlantic Real Estate Finance, Inc. was incorporated in 2021 and is based in Miami Beach, Florida.",
   "ownership": {
-    "inst_pct": 0.29213,
-    "insider_pct": 0.110319994,
+    "inst_pct": 0.29209998,
+    "insider_pct": 0.11326,
     "inst_count": 140,
     "analyst_count": 4,
     "rec_mean": 2.0,
     "rec_key": "buy",
     "target_mean": 15.125,
-    "short_pct_float": 0.0477,
-    "shares_short": 1145743,
-    "short_days_to_cover": 7.46,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-20"
+    "short_pct_float": 0.049099997,
+    "shares_short": 1191559,
+    "short_days_to_cover": 7.07,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-31"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-28",
+      "reporter_name": "Mazarakis John",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 7530.0,
+      "price": 10.67,
+      "total_value": 80345.1,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-374170"
+    },
+    {
+      "date_filed": "2026-08-28",
+      "reporter_name": "Mazarakis John",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 40181.0,
+      "price": 10.6666,
+      "total_value": 428594.6546,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-374170"
+    },
+    {
+      "date_filed": "2026-08-25",
+      "reporter_name": "Mazarakis John",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 145.0,
+      "price": 10.67,
+      "total_value": 1547.15,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-365324"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Sack Peter",
+      "relationship": "Director, Officer (Co-Chief Executive Officer)",
+      "transaction_date": "2026-08-19",
+      "code": "P",
+      "shares": 1500.0,
+      "price": 10.53,
+      "total_value": 15794.999999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-360717"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Sack Peter",
+      "relationship": "Director, Officer (Co-Chief Executive Officer)",
+      "transaction_date": "2026-08-19",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 10.39,
+      "total_value": 20780.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-360717"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "Sack Peter",
+      "relationship": "Director, Officer (Co-Chief Executive Officer)",
+      "transaction_date": "2026-08-18",
+      "code": "P",
+      "shares": 1500.0,
+      "price": 10.43,
+      "total_value": 15645.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-360717"
+    },
     {
       "date_filed": "2026-08-19",
       "reporter_name": "Mazarakis John",
@@ -454,7 +538,7 @@
     }
   ],
   "valuation": {
-    "share_price": 10.59000015258789,
+    "share_price": 10.680000305175781,
     "shares_basic": 25621146,
     "shares_basic_as_of": "2026-08-06",
     "options": 85002,
@@ -467,8 +551,8 @@
       "concept": null
     },
     "ttm_revenue": 61710399.0,
-    "mc_basic": 271327940.0494766,
-    "ev_basic": 307428792.0494766
+    "mc_basic": 273633847.09895325,
+    "ev_basic": 309734699.09895325
   },
   "financials": {
     "income_statement": {
@@ -1326,5 +1410,5 @@
       }
     }
   },
-  "last_updated": "2026-08-20T11:00:56+00:00"
+  "last_updated": "2026-08-31T10:35:15+00:00"
 }

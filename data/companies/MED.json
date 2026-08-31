@@ -4,20 +4,76 @@
   "name": "MEDIFAST INC",
   "description": "Medifast, Inc., through its subsidiaries, operates as a health and wellness company that provides habit-based and coach-guided lifestyle solutions for weight loss in the United States. The company offers weight loss, weight management, and healthy living products comprising bars, cereals, snack straws, hot chocolate, hearty choices, oatmeal, pancakes, puddings, soft serves, shakes, smoothies, soft bakes, soups, amino acid blends, whey protein, hot beverages, brownies, and mini meals under the Essential Fuelings, OPTAVIA ASCEND, and OPTAVIA ACTIVE categories, as well as daily nutrient packs, including multivitamins, minerals, and omega-3 fatty acid supplements. It also provides lifestyle plans, which provides a targeted reset of the body's metabolism by activating strong and targeted fat burn; Optimal Weight 4 & 2 & 1 Plan and Optimal Weight 4 & 2 ACTIVE Plan, which is designed for clients who want to continue eating all food groups or want a flexible meal plan to achieve a healthy weight; OPTAVIA Optimization Plan, a personalized approach to help clients' long-term weight management; and OPTAVIA GLP-1 Nutrition Support Plan, a nutritional companion to GLP-1 medication that allows clients to focus on weight loss. In addition, the company offers metabolic synchronization, a science that reverses metabolic dysfunction through a targeted reset of the body's metabolism. It markets its products through point-of-sale transactions executed over an e-commerce platform. The company serves health and wellness consumers. The company was formerly known as Healthrite, Inc. and changed its name to Medifast, Inc. in May 2001. Medifast, Inc. was incorporated in 1980 and is headquartered in Baltimore, Maryland.",
   "ownership": {
-    "inst_pct": 0.75685996,
+    "inst_pct": 0.76418,
     "insider_pct": 0.04167,
     "inst_count": 151,
     "analyst_count": 1,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": 12.0,
-    "short_pct_float": 0.1375,
-    "shares_short": 1484483,
-    "short_days_to_cover": 8.84,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-24"
+    "short_pct_float": 0.169,
+    "shares_short": 1824259,
+    "short_days_to_cover": 9.21,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-08-31"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-08-28",
+      "reporter_name": "Kiai Parsa",
+      "relationship": "Director",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 41975.0,
+      "price": 12.2632,
+      "total_value": 514747.81999999995,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-094862"
+    },
+    {
+      "date_filed": "2026-08-28",
+      "reporter_name": "Kiai Parsa",
+      "relationship": "Director",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 1175.0,
+      "price": 12.2632,
+      "total_value": 14409.26,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-094862"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "Kiai Parsa",
+      "relationship": "Director",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 4211.0,
+      "price": 11.9996,
+      "total_value": 50530.315599999994,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-093824"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "Kiai Parsa",
+      "relationship": "Director",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 118.0,
+      "price": 11.9996,
+      "total_value": 1415.9527999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-093824"
+    },
     {
       "date_filed": "2026-08-21",
       "reporter_name": "Kiai Parsa",
@@ -734,7 +790,7 @@
     }
   ],
   "valuation": {
-    "share_price": 11.949999809265137,
+    "share_price": 12.180000305175781,
     "shares_basic": 11180703,
     "shares_basic_as_of": "2026-07-27",
     "options": 22000,
@@ -743,8 +799,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 316933000.0,
-    "mc_basic": 133609398.71745014,
-    "ev_basic": 61699398.71745014
+    "mc_basic": 136180965.95207977,
+    "ev_basic": 64270965.95207977
   },
   "financials": {
     "income_statement": {
@@ -1922,5 +1978,5 @@
       }
     }
   },
-  "last_updated": "2026-08-24T11:05:55+00:00"
+  "last_updated": "2026-08-31T10:34:57+00:00"
 }
