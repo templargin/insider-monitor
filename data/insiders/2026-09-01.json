@@ -1,0 +1,135 @@
+{
+  "url_date": "2026-09-01",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-08-31"
+  ],
+  "generated_at": "2026-09-01T10:32:17+00:00",
+  "tickers": [
+    {
+      "ticker": "PETZ",
+      "name": "TDH Holdings, Inc.",
+      "total_value": 3563630.4,
+      "ev_basic": -7266447.046125889,
+      "mc_basic": 11871757.953874111,
+      "insiders": [
+        {
+          "reporter_name": "Liu Dandan",
+          "relationship": "Director, Officer (CEO and Chair), 10% Owner",
+          "total_value": 3563630.4,
+          "shares": 2969692.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SLGL",
+      "name": "Sol-Gel Technologies Ltd.",
+      "total_value": 2790326.1939000003,
+      "ev_basic": 181490513.54866028,
+      "mc_basic": 192523513.54866028,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 2790326.1939000003,
+          "shares": 40330.0,
+          "txn_count": 5
+        }
+      ]
+    },
+    {
+      "ticker": "BLNE",
+      "name": "Beeline Holdings, Inc.",
+      "total_value": 261881.0,
+      "ev_basic": 33656507.417013645,
+      "mc_basic": 32763507.417013645,
+      "insiders": [
+        {
+          "reporter_name": "Liuzza Nicholas Reyland JR",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 261881.0,
+          "shares": 267500.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "SRTS",
+      "name": "Sensus Healthcare, Inc.",
+      "total_value": 225616.221,
+      "ev_basic": 43089688.232022285,
+      "mc_basic": 58275688.232022285,
+      "insiders": [
+        {
+          "reporter_name": "Sachetta Eric",
+          "relationship": "Director",
+          "total_value": 225616.221,
+          "shares": 64841.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SCOR",
+      "name": "COMSCORE, INC.",
+      "total_value": 104600.00000000001,
+      "ev_basic": 54010711.5,
+      "mc_basic": 79717711.5,
+      "insiders": [
+        {
+          "reporter_name": "LIVEK WILLIAM PAUL",
+          "relationship": "Director",
+          "total_value": 104600.00000000001,
+          "shares": 20000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "UUU",
+      "name": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "total_value": 101429.62,
+      "ev_basic": 12322849.606709957,
+      "mc_basic": 15324022.606709957,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, 10% Owner",
+          "total_value": 101429.62,
+          "shares": 18800.0,
+          "txn_count": 6
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "SHMD",
+      "name": "SCHMID Group N.V.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Privacore VPC Asset Backed Credit Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$721.0M with $1,117.0M of unexplained_liabilities (up to $1,838.0M)",
+      "transient": false
+    }
+  ]
+}

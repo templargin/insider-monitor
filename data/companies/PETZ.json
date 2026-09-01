@@ -1,0 +1,642 @@
+{
+  "ticker": "PETZ",
+  "cik": "1684425",
+  "name": "TDH Holdings, Inc.",
+  "description": "TDH Holdings, Inc. engages in the commercial real estate management business in the United States and China. It is also involved in providing property management business services, including tenant coordination, maintenance oversight, and related services. The company was founded in 2002 and is based in Beijing, the People's Republic of China.",
+  "ownership": {
+    "inst_pct": 0.00659,
+    "insider_pct": 0.33773,
+    "inst_count": 7,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0056,
+    "shares_short": 46214,
+    "short_days_to_cover": 0.67,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-09-01"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "Liu Dandan",
+      "relationship": "Director, Officer (CEO and Chair), 10% Owner",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 2969692.0,
+      "price": 1.2,
+      "total_value": 3563630.4,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-095705"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.149999976158142,
+    "shares_basic": 10323268,
+    "shares_basic_as_of": "2025-12-31",
+    "options": 4000000,
+    "warrants": 50000000,
+    "cash": 19138205,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 1251259.0,
+    "mc_basic": 11871757.953874111,
+    "ev_basic": -7266447.046125889
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1251259,
+            563726,
+            754,
+            24726
+          ],
+          [
+            121.96226535586437,
+            74664.72148541114,
+            -96.95057833859096,
+            null
+          ],
+          [
+            1263000,
+            325304,
+            976,
+            105554
+          ],
+          [
+            -11741,
+            238422,
+            -222,
+            -80828
+          ],
+          [
+            -104.92446166880573,
+            107497.2972972973,
+            99.7253427030237,
+            null
+          ],
+          [
+            -0.9383349090795751,
+            42.29395131677446,
+            -29.44297082228117,
+            -326.8947666424007
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1818978,
+            1745247,
+            3145302,
+            2952501
+          ],
+          [
+            1818978,
+            2071079,
+            6185302,
+            2959334
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1830719,
+            -1832657,
+            -6185524,
+            -3040162
+          ],
+          [
+            0.1057481023453925,
+            70.37183915218824,
+            -103.46034191599,
+            null
+          ],
+          [
+            -146.31015641046338,
+            -325.09712165129866,
+            -820361.273209549,
+            -12295.405645878833
+          ],
+          [
+            -1609496,
+            -1721015,
+            -6162875,
+            -3023048
+          ],
+          [
+            -128.6301237393697,
+            -305.29281956127625,
+            -817357.4270557029,
+            -12226.191053951306
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            14276,
+            -43081
+          ],
+          [
+            3611796,
+            4333400,
+            -17431716,
+            3852094
+          ],
+          [
+            1781077,
+            2500743,
+            -23631516,
+            855013
+          ],
+          [
+            null,
+            182,
+            null,
+            null
+          ],
+          [
+            1781077,
+            2500561,
+            -23631516,
+            855013
+          ],
+          [
+            1799511,
+            2684522,
+            -23626172,
+            803700
+          ],
+          [
+            142.3427923395556,
+            443.57737624306844,
+            -3134153.3156498675,
+            3457.9511445442045
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0.17,
+            0.26,
+            -2.29,
+            0.1
+          ],
+          [
+            0.17,
+            0.26,
+            -2.29,
+            0.1
+          ],
+          [
+            10323268,
+            10323268,
+            10323268,
+            8019208
+          ],
+          [
+            10323268,
+            10323268,
+            10323268,
+            8019208
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            19138205,
+            15699562,
+            13126605,
+            20000596
+          ],
+          [
+            14531930,
+            12952597,
+            13317882,
+            9922366
+          ],
+          [
+            75346,
+            5748,
+            4961,
+            29318
+          ],
+          [
+            75346,
+            5748,
+            null,
+            987
+          ],
+          [
+            null,
+            null,
+            771829,
+            3828487
+          ],
+          [
+            34110217,
+            28799216,
+            27221277,
+            33781754
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2398192,
+            2363989,
+            657124,
+            698044
+          ],
+          [
+            3787265,
+            2175456,
+            571168,
+            783658
+          ],
+          [
+            null,
+            null,
+            426316,
+            481840
+          ],
+          [
+            null,
+            null,
+            null,
+            768101
+          ],
+          [
+            40295674,
+            33338661,
+            28901397,
+            36513397
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            90006,
+            122251,
+            65982,
+            491850
+          ],
+          [
+            921524,
+            486121,
+            219917,
+            212814
+          ],
+          [
+            5702137,
+            3592063,
+            3103145,
+            13970680
+          ],
+          [
+            6713667,
+            4200435,
+            3389044,
+            14675344
+          ],
+          [
+            2860197,
+            1738371,
+            463196,
+            683113
+          ],
+          [
+            9573864,
+            5938806,
+            3852240,
+            15359494
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -20620053,
+            -23937478,
+            -26622000,
+            -28165927
+          ],
+          [
+            30721810,
+            27399855,
+            25049157,
+            21153903
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1781077,
+            2500561,
+            -23631516,
+            855013
+          ],
+          [
+            221223,
+            111642,
+            22649,
+            17114
+          ],
+          [
+            null,
+            null,
+            3040000,
+            null
+          ],
+          [
+            -3782484,
+            -2846190,
+            20004471,
+            -2944842
+          ],
+          [
+            -1780184,
+            -233987,
+            -564396,
+            -2072715
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -244088,
+            -1881370,
+            -7655,
+            null
+          ],
+          [
+            6479693,
+            4662400,
+            -6059396,
+            -1332827
+          ],
+          [
+            6235605,
+            2781030,
+            -6067051,
+            -1332827
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1046832,
+            null,
+            null,
+            6055480
+          ],
+          [
+            -1046832,
+            null,
+            -6774,
+            6055480
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            50004,
+            -508863,
+            -1557522,
+            -303788
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2024272,
+            -2115357,
+            -572051,
+            null
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            5.080713267428963,
+            6.856246079275123,
+            8.032140332199877,
+            2.301939497977015
+          ],
+          [
+            5.069490488580979,
+            6.85487764957677,
+            null,
+            2.3018722423133657
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -128.6301237393697,
+            -305.29281956127625,
+            -817357.4270557029,
+            -12226.191053951306
+          ],
+          [
+            27396550,
+            24598781,
+            23832233,
+            19106410
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5.797435112058827,
+            9.126183331992085,
+            -94.34056403574779,
+            4.0418687747599105
+          ],
+          [
+            4.4200203724102,
+            7.500484197610696,
+            -81.76599906225987,
+            2.341641891057137
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-09-01T10:33:21+00:00"
+}
