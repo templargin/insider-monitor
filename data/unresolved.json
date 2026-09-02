@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:06:06+00:00",
+  "generated_at": "2026-09-02T10:32:34+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1096,7 +1096,61 @@
         ]
       },
       "first_seen": "2026-09-01T10:32:17+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-09-02",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$722.9M with $1,117.0M of unexplained_liabilities (up to $1,839.9M)",
+      "last_tried": "2026-09-02T10:30:39+00:00"
+    },
+    {
+      "url_date": "2026-09-02",
+      "cik": "1840199",
+      "ticker": "WALD",
+      "name": "Waldencast plc",
+      "reason": "share count for WALD predates its balance sheet (2022-05-16 < 2025-12-31)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "WALD",
+        "name": "Waldencast plc",
+        "by_reporter": {
+          "1841079": {
+            "reporter_cik": "1841079",
+            "reporter_name": "Souza Cristiano",
+            "relationship": "Director, 10% Owner",
+            "total_value": 505649.0,
+            "shares": 335000.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Souza Cristiano",
+              "reporter_cik": "1841079",
+              "relationship": "Director, 10% Owner",
+              "issuer_cik": "1840199",
+              "issuer_ticker": "WALD",
+              "issuer_name": "Waldencast plc"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Ordinary Shares",
+                "transaction_date": "2026-08-28",
+                "code": "P",
+                "shares": 335000.0,
+                "price": 1.5094,
+                "total_value": 505649.0,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 505649.0
+          }
+        ]
+      },
+      "first_seen": "2026-09-02T10:32:34+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]

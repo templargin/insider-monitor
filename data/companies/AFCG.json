@@ -5,7 +5,7 @@
   "description": "Advanced Flower Capital Inc. originates, structures, underwrites, invests in, and manages senior secured loans and other types of mortgage loans and debt securities for established companies operating in the cannabis industry. It primarily originates loans structured as senior loans secured by real estate, equipment, cash flows, and licenses and/or other assets of the loan parties to the extent permitted by applicable laws and the regulations governing such loan parties. The company was formerly known as AFC Gamma, Inc. and changed its name to Advanced Flower Capital Inc. in October 2024. Advanced Flower Capital Inc. was incorporated in 2020 and is based in West Palm Beach, Florida.",
   "ownership": {
     "inst_pct": 0.20507,
-    "insider_pct": 0.43335998,
+    "insider_pct": 0.43488997,
     "inst_count": 55,
     "analyst_count": 1,
     "rec_mean": 2.33333,
@@ -15,9 +15,37 @@
     "shares_short": 808294,
     "short_days_to_cover": 9.95,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-08-31"
+    "as_of": "2026-09-02"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-01",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 53273.0,
+      "price": 3.6,
+      "total_value": 191782.80000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059909"
+    },
+    {
+      "date_filed": "2026-09-01",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-08-28",
+      "code": "P",
+      "shares": 65752.0,
+      "price": 3.53,
+      "total_value": 232104.56,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059909"
+    },
     {
       "date_filed": "2026-08-28",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -1000,7 +1028,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.619999885559082,
+    "share_price": 3.490000009536743,
     "shares_basic": 22671919,
     "shares_basic_as_of": "2026-08-07",
     "options": 0,
@@ -1013,8 +1041,8 @@
       "concept": null
     },
     "ttm_revenue": 27296824.0,
-    "mc_basic": 82072344.18540478,
-    "ev_basic": 52139057.18540478
+    "mc_basic": 79124997.52621627,
+    "ev_basic": 49191710.52621627
   },
   "financials": {
     "income_statement": {
@@ -1823,5 +1851,5 @@
       }
     }
   },
-  "last_updated": "2026-08-31T17:42:51+00:00"
+  "last_updated": "2026-09-02T10:32:54+00:00"
 }

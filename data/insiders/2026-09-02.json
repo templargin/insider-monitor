@@ -1,0 +1,109 @@
+{
+  "url_date": "2026-09-02",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-09-01"
+  ],
+  "generated_at": "2026-09-02T10:32:34+00:00",
+  "tickers": [
+    {
+      "ticker": "AFCG",
+      "name": "Advanced Flower Capital Inc.",
+      "total_value": 423887.36,
+      "ev_basic": 49191710.52621627,
+      "mc_basic": 79124997.52621627,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, 10% Owner",
+          "total_value": 423887.36,
+          "shares": 119025.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "FTCI",
+      "name": "FTC Solar, Inc.",
+      "total_value": 271913.27,
+      "ev_basic": 50426876.515066385,
+      "mc_basic": 37860876.515066385,
+      "insiders": [
+        {
+          "reporter_name": "SADASIVAM SHAKER",
+          "relationship": "Director",
+          "total_value": 271913.27,
+          "shares": 101083.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "TNON",
+      "name": "Tenon Medical, Inc.",
+      "total_value": 102458.31,
+      "ev_basic": 5670052.427277088,
+      "mc_basic": 3015052.427277088,
+      "insiders": [
+        {
+          "reporter_name": "HRT FINANCIAL LP",
+          "relationship": "10% Owner",
+          "total_value": 102458.31,
+          "shares": 18357.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "UAMY",
+      "name": "UNITED STATES ANTIMONY CORP",
+      "total_value": 100536.0,
+      "ev_basic": 658532468.4275475,
+      "mc_basic": 700452691.4275475,
+      "insiders": [
+        {
+          "reporter_name": "Carrabba Joseph A",
+          "relationship": "Director",
+          "total_value": 100536.0,
+          "shares": 21300.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Andalusian Credit Company, LLC",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "AUGO",
+      "name": "Aura Minerals Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "John Hancock GA Senior Loan Trust",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "ACLOX",
+      "name": "Aristotle Pacific Enhanced CLO Income Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "WALD",
+      "name": "Waldencast plc",
+      "cik": "1840199",
+      "reason": "share count for WALD predates its balance sheet (2022-05-16 < 2025-12-31)",
+      "transient": false
+    }
+  ]
+}
