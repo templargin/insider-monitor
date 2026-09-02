@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:32:34+00:00",
+  "generated_at": "2026-09-02T14:37:16+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1099,8 +1099,8 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-09-02",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$722.9M with $1,117.0M of unexplained_liabilities (up to $1,839.9M)",
-      "last_tried": "2026-09-02T10:30:39+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$726.2M with $1,117.0M of unexplained_liabilities (up to $1,843.2M)",
+      "last_tried": "2026-09-02T14:37:16+00:00"
     },
     {
       "url_date": "2026-09-02",
@@ -1150,8 +1150,11 @@
         ]
       },
       "first_seen": "2026-09-02T10:32:34+00:00",
-      "attempts": 0,
-      "abandoned": false
+      "attempts": 1,
+      "abandoned": false,
+      "last_tried_date": "2026-09-02",
+      "last_reason": "share count for WALD predates its balance sheet (2022-05-16 < 2025-12-31)",
+      "last_tried": "2026-09-02T14:37:16+00:00"
     }
   ]
 }
