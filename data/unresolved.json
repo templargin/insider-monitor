@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:33:28+00:00",
+  "generated_at": "2026-09-03T14:44:10+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1154,14 +1154,14 @@
       "abandoned": false,
       "last_tried_date": "2026-09-03",
       "last_reason": "share count for WALD predates its balance sheet (2022-05-16 < 2025-12-31)",
-      "last_tried": "2026-09-03T10:30:35+00:00"
+      "last_tried": "2026-09-03T14:41:04+00:00"
     },
     {
       "url_date": "2026-09-03",
       "cik": "800457",
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.5M with $1,117.0M of unexplained_liabilities (up to $1,846.6M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$734.0M with $1,117.0M of unexplained_liabilities (up to $1,851.0M)",
       "transient": false,
       "bucket_data": {
         "ticker": "DGICA",
@@ -1215,7 +1215,7 @@
         ]
       },
       "first_seen": "2026-09-03T10:33:28+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
