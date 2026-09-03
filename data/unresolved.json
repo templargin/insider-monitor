@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T14:37:16+00:00",
+  "generated_at": "2026-09-03T10:33:28+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1096,11 +1096,11 @@
         ]
       },
       "first_seen": "2026-09-01T10:32:17+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-09-02",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$726.2M with $1,117.0M of unexplained_liabilities (up to $1,843.2M)",
-      "last_tried": "2026-09-02T14:37:16+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-09-03",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.5M with $1,117.0M of unexplained_liabilities (up to $1,846.6M)",
+      "last_tried": "2026-09-03T10:30:34+00:00"
     },
     {
       "url_date": "2026-09-02",
@@ -1150,11 +1150,73 @@
         ]
       },
       "first_seen": "2026-09-02T10:32:34+00:00",
-      "attempts": 1,
+      "attempts": 2,
       "abandoned": false,
-      "last_tried_date": "2026-09-02",
+      "last_tried_date": "2026-09-03",
       "last_reason": "share count for WALD predates its balance sheet (2022-05-16 < 2025-12-31)",
-      "last_tried": "2026-09-02T14:37:16+00:00"
+      "last_tried": "2026-09-03T10:30:35+00:00"
+    },
+    {
+      "url_date": "2026-09-03",
+      "cik": "800457",
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.5M with $1,117.0M of unexplained_liabilities (up to $1,846.6M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DGICA",
+        "name": "DONEGAL GROUP INC",
+        "by_reporter": {
+          "935596": {
+            "reporter_cik": "935596",
+            "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+            "relationship": "10% Owner",
+            "total_value": 369198.5475,
+            "shares": 19257.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+              "reporter_cik": "935596",
+              "relationship": "10% Owner",
+              "issuer_cik": "800457",
+              "issuer_ticker": "DGICA",
+              "issuer_name": "DONEGAL GROUP INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-08-31",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 19.1765,
+                "total_value": 191765.0,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-01",
+                "code": "P",
+                "shares": 9257.0,
+                "price": 19.1675,
+                "total_value": 177433.54750000002,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 369198.5475
+          }
+        ]
+      },
+      "first_seen": "2026-09-03T10:33:28+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

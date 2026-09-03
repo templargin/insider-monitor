@@ -4,7 +4,7 @@
   "name": "SUJA LIFE, INC.",
   "description": "Suja Life, Inc. engages in the production and selling of organic and cold-pressed juices and wellness shots in the United States. It offers cold-pressed juices and wellness shots in various flavors under the Suja Organic brand name; wellness shots under the Vive Organic brand name; and soda made with real fruit juices under the Slice brand name. It sells its products through a network of distributors and retail stores, as well as via online channels. Suja Life, Inc. was founded in 2012 and is headquartered in Oceanside, California.",
   "ownership": {
-    "inst_pct": 0.88167,
+    "inst_pct": 0.99377996,
     "insider_pct": 0.21138,
     "inst_count": 53,
     "analyst_count": 4,
@@ -15,9 +15,51 @@
     "shares_short": 721651,
     "short_days_to_cover": 1.63,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-08-31"
+    "as_of": "2026-09-03"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-02",
+      "code": "P",
+      "shares": 175000.0,
+      "price": 10.26,
+      "total_value": 1795500.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-26-035501"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-01",
+      "code": "P",
+      "shares": 175000.0,
+      "price": 10.44,
+      "total_value": 1827000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-26-035501"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 175000.0,
+      "price": 10.1,
+      "total_value": 1767500.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001140361-26-035501"
+    },
     {
       "date_filed": "2026-08-28",
       "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
@@ -370,7 +412,7 @@
     }
   ],
   "valuation": {
-    "share_price": 10.039999961853027,
+    "share_price": 10.220000267028809,
     "shares_basic": 38625012.0,
     "shares_basic_as_of": "2026-07-31",
     "options": 0,
@@ -379,8 +421,8 @@
     "debt": 165016000,
     "debt_flag": null,
     "ttm_revenue": 159019000.0,
-    "mc_basic": 387795119.0065727,
-    "ev_basic": 531216119.0065727
+    "mc_basic": 394747632.95399094,
+    "ev_basic": 538168632.9539909
   },
   "financials": {
     "income_statement": {
@@ -934,5 +976,5 @@
       }
     }
   },
-  "last_updated": "2026-08-31T17:43:07+00:00"
+  "last_updated": "2026-09-03T10:34:18+00:00"
 }

@@ -1,0 +1,151 @@
+{
+  "url_date": "2026-09-03",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-09-02"
+  ],
+  "generated_at": "2026-09-03T10:33:28+00:00",
+  "tickers": [
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 5390000.0,
+      "ev_basic": 538168632.9539909,
+      "mc_basic": 394747632.95399094,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 5390000.0,
+          "shares": 525000.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "NIVF",
+      "name": "NewGenIvf Group Ltd",
+      "total_value": 4163334.5,
+      "ev_basic": 4148569.629179001,
+      "mc_basic": 291152.62917900085,
+      "insiders": [
+        {
+          "reporter_name": "Cheung Kong Yiu",
+          "relationship": "Director, 10% Owner",
+          "total_value": 4163334.5,
+          "shares": 3722223.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "NPB",
+      "name": "NORTHPOINTE BANCSHARES INC",
+      "total_value": 1422925.5,
+      "ev_basic": 1473228290.2729187,
+      "mc_basic": 584087290.2729187,
+      "insiders": [
+        {
+          "reporter_name": "Williams Charles Alan",
+          "relationship": "Director, Officer (CHAIRMAN & CEO), 10% Owner",
+          "total_value": 1422925.5,
+          "shares": 85000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "RCT",
+      "name": "RedCloud Holdings plc",
+      "total_value": 625000.0,
+      "ev_basic": 22756967.97206123,
+      "mc_basic": 15112115.972061232,
+      "insiders": [
+        {
+          "reporter_name": "Senn Nikolaus Beat",
+          "relationship": "Director, 10% Owner",
+          "total_value": 625000.0,
+          "shares": 2500000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BGDE",
+      "name": "Big Digital Energy, Inc.",
+      "total_value": 329216.4,
+      "ev_basic": 49166732.75,
+      "mc_basic": 35402118.75,
+      "insiders": [
+        {
+          "reporter_name": "Endeavor Blockchain, LLC",
+          "relationship": "10% Owner, Other (SEE REMARKS)",
+          "total_value": 329216.4,
+          "shares": 50135.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "BAER",
+      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "total_value": 219140.0,
+      "ev_basic": 291099705.03394127,
+      "mc_basic": 62355705.03394127,
+      "insiders": [
+        {
+          "reporter_name": "KELTER JEFFREY E",
+          "relationship": "Director",
+          "total_value": 219140.0,
+          "shares": 200000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "JUSH",
+      "name": "Jushi Holdings Inc.",
+      "total_value": 165271.86,
+      "ev_basic": 372401027.75611776,
+      "mc_basic": 111831027.75611776,
+      "insiders": [
+        {
+          "reporter_name": "Cacioppo James",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 165271.86,
+          "shares": 319686.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "AXIA3",
+      "name": "AXIA Energia S.A.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "PBLSX",
+      "name": "AMG Pantheon Infrastructure Fund, LLC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.5M with $1,117.0M of unexplained_liabilities (up to $1,846.6M)",
+      "transient": false
+    }
+  ]
+}

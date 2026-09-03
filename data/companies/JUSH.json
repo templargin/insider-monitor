@@ -5,7 +5,7 @@
   "description": "Jushi Holdings Inc. engages in the retail, distribution, cultivation, and processing of cannabis for medical and adult-use markets in the United States. The company offers flower, vapes, concentrates, infused chews and chocolates, tinctures, capsules, softgels, topicals and RSO, pre-rolls, and infused chocolate bites under the Hijinks, The Bank, The Lab, Tasteology, Uncommon Kind, Nira + Medicinals, S\u00e8che, Shayo, and Carm's Delight Bites brands. It also engages in the sale of bulk raw materials to duly licensed third parties for use in its own finished products. In addition, the company operates medical cannabis dispensaries under the Beyond Hello, Nature's Remedy, and NuLeaf brands. It serves small local dispensaries and large multi-state operators. Jushi Holdings Inc. was founded in 2018 and is headquartered in Boca Raton, Florida.",
   "ownership": {
     "inst_pct": 0.11095,
-    "insider_pct": 0.18431999,
+    "insider_pct": 0.18454,
     "inst_count": 5,
     "analyst_count": 1,
     "rec_mean": null,
@@ -15,9 +15,51 @@
     "shares_short": null,
     "short_days_to_cover": null,
     "short_as_of": null,
-    "as_of": "2026-08-31"
+    "as_of": "2026-09-03"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cacioppo James",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-09-01",
+      "code": "P",
+      "shares": 248000.0,
+      "price": 0.519,
+      "total_value": 128712.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-060096"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cacioppo James",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 71686.0,
+      "price": 0.51,
+      "total_value": 36559.86,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-060096"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Barack Louis Jon",
+      "relationship": "Officer (President)",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 15000.0,
+      "price": 0.52,
+      "total_value": 7800.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060092"
+    },
     {
       "date_filed": "2026-08-28",
       "reporter_name": "Cacioppo James",
@@ -538,7 +580,7 @@
     }
   ],
   "valuation": {
-    "share_price": 0.5199999809265137,
+    "share_price": 0.5600000023841858,
     "shares_basic": 199698263,
     "shares_basic_as_of": "2026-07-21",
     "options": 26917919,
@@ -551,8 +593,8 @@
       "concept": null
     },
     "ttm_revenue": 271746000.0,
-    "mc_basic": 103843092.95105791,
-    "ev_basic": 364413092.9510579
+    "mc_basic": 111831027.75611776,
+    "ev_basic": 372401027.75611776
   },
   "financials": {
     "income_statement": {
@@ -1822,5 +1864,5 @@
       }
     }
   },
-  "last_updated": "2026-08-31T17:42:57+00:00"
+  "last_updated": "2026-09-03T10:34:15+00:00"
 }

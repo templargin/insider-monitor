@@ -3,7 +3,217 @@
   "cik": "1981662",
   "name": "NewGenIvf Group Ltd",
   "description": "NewGenIvf Group Limited, an investment holding company, provides an assisted reproductive service that helps couples and individuals for fertility treatments in Thailand, Cambodia, Hong Kong, and Kyrgyzstan. The company provides a range of fertility treatment solutions, including in vitro fertilization (IVF), ICSI, embryo culture, hormonal blood tests, infectious diseases tests, chromosome screening, hysteroscopy, sperm analysis, sorting, washing, and freezing, and egg freezing. It also offers IVF treatment; surrogacy and ancillary caring services, and value-added services comprising nutrition guidance, psychological counselling, acupuncture, and translation interpreters to supplement the IVF treatment. The company provides its services through clinics. NewGenIvf Group Limited was founded in 2010 and is based in Bangkok, Thailand.",
+  "ownership": {
+    "inst_pct": 0.01375,
+    "insider_pct": 1.0000001e-05,
+    "inst_count": 7,
+    "analyst_count": 1,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 127.08002,
+    "short_pct_float": 0.029000001,
+    "shares_short": 57213,
+    "short_days_to_cover": 0.43,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-09-03"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cheung Kong Yiu",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-07-27",
+      "code": "P",
+      "shares": 2500000.0,
+      "price": 1.0,
+      "total_value": 2500000.0,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-096450"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cheung Kong Yiu",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-06-18",
+      "code": "P",
+      "shares": 500000.0,
+      "price": 1.33,
+      "total_value": 665000.0,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-096450"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cheung Kong Yiu",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-06-02",
+      "code": "P",
+      "shares": 500000.0,
+      "price": 1.33,
+      "total_value": 665000.0,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-096450"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cheung Kong Yiu",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-05-28",
+      "code": "P",
+      "shares": 222223.0,
+      "price": 1.5,
+      "total_value": 333334.5,
+      "security_title": "Class A Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-096450"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Fong Hei Yue Tina",
+      "relationship": "Director, Officer (Chief Marketing Officer)",
+      "transaction_date": "2026-08-17",
+      "code": "A",
+      "shares": 272140.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Options (Right to Buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001213900-26-091211"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Siu Wing Fung Alfred",
+      "relationship": "Director, Officer (Chairman & CEO)",
+      "transaction_date": "2026-08-17",
+      "code": "A",
+      "shares": 272140.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Options (Right to Buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001213900-26-091209"
+    },
+    {
+      "date_filed": "2026-07-09",
+      "reporter_name": "Siu Wing Fung Alfred",
+      "relationship": "Director",
+      "transaction_date": "2026-07-08",
+      "code": "A",
+      "shares": 73647.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Employee Share Options",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001213900-26-076685"
+    },
+    {
+      "date_filed": "2026-07-09",
+      "reporter_name": "Fong Hei Yue Tina",
+      "relationship": "Director",
+      "transaction_date": "2026-07-08",
+      "code": "A",
+      "shares": 73647.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Employee Share Options",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001213900-26-076684"
+    },
+    {
+      "date_filed": "2026-06-08",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-04",
+      "code": "S",
+      "shares": -64945.0,
+      "price": 0.781,
+      "total_value": -50722.045,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000056"
+    },
+    {
+      "date_filed": "2026-06-05",
+      "reporter_name": "Siu Wing Fung Alfred",
+      "relationship": "Director",
+      "transaction_date": "2026-06-04",
+      "code": "M",
+      "shares": 56851.0,
+      "price": 0.0001,
+      "total_value": 5.6851,
+      "security_title": "Class B Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-065596"
+    },
+    {
+      "date_filed": "2026-06-05",
+      "reporter_name": "Fong Hei Yue Tina",
+      "relationship": "Director",
+      "transaction_date": "2026-06-04",
+      "code": "M",
+      "shares": 56851.0,
+      "price": 0.0001,
+      "total_value": 5.6851,
+      "security_title": "Class B Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-065595"
+    },
+    {
+      "date_filed": "2026-06-04",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-03",
+      "code": "P",
+      "shares": 11738.0,
+      "price": 0.875,
+      "total_value": 10270.75,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000049"
+    },
+    {
+      "date_filed": "2026-06-04",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-02",
+      "code": "P",
+      "shares": 23018.0,
+      "price": 0.944,
+      "total_value": 21728.992,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000049"
+    },
+    {
+      "date_filed": "2026-05-28",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-27",
+      "code": "S",
+      "shares": -85317.0,
+      "price": 0.8,
+      "total_value": -68253.6,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000039"
+    },
     {
       "date_filed": "2026-05-27",
       "reporter_name": "HRT FINANCIAL LP",
@@ -62,17 +272,17 @@
     }
   ],
   "valuation": {
-    "share_price": 1.375,
+    "share_price": 1.2100000381469727,
     "shares_basic": 240622,
     "shares_basic_as_of": "2025-12-31",
     "options": null,
     "warrants": 1224328,
     "cash": 758621,
     "debt": 4616038,
+    "debt_flag": null,
     "ttm_revenue": 4726433.0,
-    "mc_basic": 330855.25,
-    "ev_basic": 4188272.25,
-    "debt_flag": null
+    "mc_basic": 291152.62917900085,
+    "ev_basic": 4148569.629179001
   },
   "financials": {
     "income_statement": {
@@ -264,27 +474,27 @@
             null
           ],
           [
-            3.04,
-            -4408.76,
-            13019.3,
+            27.36,
+            -39678.88,
+            117173.7,
             4.72
           ],
           [
-            214.73,
-            -4408.76,
-            13019.3,
+            1932.59,
+            -39678.88,
+            117173.7,
             4.72
           ],
           [
-            3250020,
-            119,
-            10,
+            361113,
+            13,
+            1.11,
             28797
           ],
           [
-            46009,
-            119,
-            10,
+            5112,
+            13,
+            1.11,
             28797
           ]
         ]
@@ -673,24 +883,5 @@
       }
     }
   },
-  "last_updated": "2026-05-28T14:16:57+00:00",
-  "ownership": {
-    "inst_pct": 0.00505,
-    "insider_pct": 2.0000001e-05,
-    "inst_count": 6,
-    "analyst_count": 1,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 42.36,
-    "short_pct_float": 0.065,
-    "shares_short": 218177,
-    "short_days_to_cover": 0.06,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-09-03T10:34:21+00:00"
 }

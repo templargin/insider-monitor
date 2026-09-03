@@ -4,7 +4,7 @@
   "name": "NORTHPOINTE BANCSHARES INC",
   "description": "Northpointe Bancshares, Inc. operates as the bank holding company for Northpointe Bank provides various banking products and services in the United States. It operates through two segments: Mortgage Purchase Program and Retail Banking. The company offers digital deposit banking, such as noninterest-bearing accounts, savings, money-market demand accounts, and certificates of deposits; personal and business banking; and health saving accounts; home loans; mortgage purchase program; residential mortgage lending; and custodial deposit services. Northpointe Bancshares, Inc. was incorporated in 1998 and is headquartered in Grand Rapids, Michigan.",
   "ownership": {
-    "inst_pct": 0.75884,
+    "inst_pct": 0.75886,
     "insider_pct": 0.33240002,
     "inst_count": 175,
     "analyst_count": 3,
@@ -15,9 +15,23 @@
     "shares_short": 605113,
     "short_days_to_cover": 3.23,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-08-27"
+    "as_of": "2026-09-03"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Williams Charles Alan",
+      "relationship": "Director, Officer (CHAIRMAN & CEO), 10% Owner",
+      "transaction_date": "2026-09-01",
+      "code": "P",
+      "shares": 85000.0,
+      "price": 16.7403,
+      "total_value": 1422925.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002057567-26-000008"
+    },
     {
       "date_filed": "2026-08-26",
       "reporter_name": "Williams Charles Alan",
@@ -1350,7 +1364,7 @@
     }
   ],
   "valuation": {
-    "share_price": 17.110000610351562,
+    "share_price": 16.889999389648438,
     "shares_basic": 34581842,
     "shares_basic_as_of": "2026-08-13",
     "options": 0,
@@ -1363,8 +1377,8 @@
       "concept": null
     },
     "ttm_revenue": 477653000.0,
-    "mc_basic": 591695337.7270813,
-    "ev_basic": 1480836337.7270813
+    "mc_basic": 584087290.2729187,
+    "ev_basic": 1473228290.2729187
   },
   "financials": {
     "income_statement": {
@@ -1886,16 +1900,16 @@
             22173000
           ],
           [
-            585000,
-            594000,
-            595000,
-            615000
+            732000,
+            740000,
+            742000,
+            761000
           ],
           [
-            -18468000,
-            14944000,
-            -52499000,
-            67642000
+            -18615000,
+            14798000,
+            -52646000,
+            67496000
           ],
           [
             3863000,
@@ -2004,16 +2018,16 @@
             33762000
           ],
           [
-            2389000,
-            2486000,
-            2828000,
-            2996000
+            2975000,
+            3072000,
+            3801000,
+            4017000
           ],
           [
-            11619000,
-            -41604000,
-            -38178000,
-            467410000
+            11033000,
+            -42190000,
+            -39151000,
+            466389000
           ],
           [
             103724000,
@@ -2235,5 +2249,5 @@
       }
     }
   },
-  "last_updated": "2026-08-27T20:44:09+00:00"
+  "last_updated": "2026-09-03T10:34:09+00:00"
 }
