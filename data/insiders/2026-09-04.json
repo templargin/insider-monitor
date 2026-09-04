@@ -1,0 +1,75 @@
+{
+  "url_date": "2026-09-04",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-09-03"
+  ],
+  "generated_at": "2026-09-04T10:34:02+00:00",
+  "tickers": [
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 255738.6,
+      "ev_basic": 204641969.98350143,
+      "mc_basic": 492834969.98350143,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 255738.6,
+          "shares": 27000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SLGL",
+      "name": "Sol-Gel Technologies Ltd.",
+      "total_value": 116488.16999999998,
+      "ev_basic": 184276671.54866028,
+      "mc_basic": 195309671.54866028,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 116488.16999999998,
+          "shares": 1683.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Sixth Street Lending Partners",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "Privacore VPC Asset Backed Credit Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "Evanston Multi-Alpha Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "PBLSX",
+      "name": "AMG Pantheon Infrastructure Fund, LLC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Crescent Private Credit Income Corp",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": []
+}
