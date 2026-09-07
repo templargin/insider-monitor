@@ -1,0 +1,73 @@
+{
+  "url_date": "2026-09-07",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06"
+  ],
+  "generated_at": "2026-09-07T10:32:11+00:00",
+  "tickers": [
+    {
+      "ticker": "ATRA",
+      "name": "Atara Biotherapeutics, Inc.",
+      "total_value": 999993.6,
+      "ev_basic": 94847051.8974495,
+      "mc_basic": 97968051.8974495,
+      "insiders": [
+        {
+          "reporter_name": "Cherry Brian N",
+          "relationship": "Director",
+          "total_value": 999993.6,
+          "shares": 104166.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "total_value": 209778.8229,
+      "ev_basic": 593133720.7430037,
+      "mc_basic": 612739966.7430037,
+      "insiders": [
+        {
+          "reporter_name": "Apeiron Investment Group Ltd.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 209778.8229,
+          "shares": 133107.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Fortress Net Lease REIT",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "PFLEX",
+      "name": "PIMCO Flexible Credit Income Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$733.2M with $1,117.0M of unexplained_liabilities (up to $1,850.3M)",
+      "transient": false
+    }
+  ]
+}

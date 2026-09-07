@@ -4,20 +4,48 @@
   "name": "Enhanced Group Inc.",
   "description": "Enhanced Group Inc. operates in the sports entertainment, performance technology, and lifestyle wellness markets. It engages in organizing live sporting events; producing and distributing related content; marketing lifestyle and health optimization services to customers; and operating the Live Enhanced platform, through which customers access OTC supplement blends, clinician-guided prescription-based hormone therapy, and other longevity-related protocols provided by third-party telehealth service providers. Enhanced Group Inc. is based in New York, New York.",
   "ownership": {
-    "inst_pct": 0.36014,
-    "insider_pct": 0.25528,
-    "inst_count": 34,
+    "inst_pct": 0.38042998,
+    "insider_pct": 0.58167,
+    "inst_count": 33,
     "analyst_count": 2,
-    "rec_mean": 1.0,
-    "rec_key": "strong_buy",
+    "rec_mean": null,
+    "rec_key": null,
     "target_mean": 4.0,
     "short_pct_float": null,
-    "shares_short": 1893658,
-    "short_days_to_cover": 3.78,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-21"
+    "shares_short": 2193090,
+    "short_days_to_cover": 3.4,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-09-07"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-04",
+      "reporter_name": "Apeiron Investment Group Ltd.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-03",
+      "code": "P",
+      "shares": 25414.0,
+      "price": 1.5799,
+      "total_value": 40151.5786,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-383717"
+    },
+    {
+      "date_filed": "2026-09-04",
+      "reporter_name": "Apeiron Investment Group Ltd.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-02",
+      "code": "P",
+      "shares": 107693.0,
+      "price": 1.5751,
+      "total_value": 169627.2443,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-383717"
+    },
     {
       "date_filed": "2026-08-20",
       "reporter_name": "Apeiron Investment Group Ltd.",
@@ -454,7 +482,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.7000000476837158,
+    "share_price": 1.5800000429153442,
     "shares_basic": 387810095.0,
     "shares_basic_as_of": "2026-08-13",
     "options": 10363112,
@@ -463,8 +491,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 17702934.0,
-    "mc_basic": 659277179.9922264,
-    "ev_basic": 639670933.9922264
+    "mc_basic": 612739966.7430037,
+    "ev_basic": 593133720.7430037
   },
   "financials": {
     "income_statement": {
@@ -541,13 +569,13 @@
             null
           ],
           [
-            null,
+            -61854408,
             -16524647,
             null,
             null
           ],
           [
-            null,
+            -349.45639815280964,
             -599805.6987295826,
             null,
             null
@@ -664,7 +692,7 @@
             null
           ],
           [
-            null,
+            -98807600,
             -26880479,
             -4450749
           ],
@@ -975,7 +1003,7 @@
             1479282
           ],
           [
-            null,
+            69207,
             16661,
             null,
             null
@@ -987,7 +1015,7 @@
             null
           ],
           [
-            29151422,
+            29082215,
             -3290236,
             4042347,
             5708867
@@ -1083,7 +1111,7 @@
             -4699469
           ],
           [
-            null,
+            93228,
             8553,
             759
           ],
@@ -1093,7 +1121,7 @@
             0
           ],
           [
-            32166428,
+            32073200,
             -1173211,
             1642375
           ],
@@ -1188,7 +1216,7 @@
             null
           ],
           [
-            null,
+            -349.45639815280964,
             -599805.6987295826,
             null,
             null
@@ -1280,5 +1308,5 @@
       }
     }
   },
-  "last_updated": "2026-08-21T11:00:42+00:00"
+  "last_updated": "2026-09-07T10:32:25+00:00"
 }
