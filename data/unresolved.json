@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:41:47+00:00",
+  "generated_at": "2026-09-09T10:30:32+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1280,11 +1280,11 @@
         ]
       },
       "first_seen": "2026-09-07T10:32:11+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-09-08",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$723.6M with $1,117.0M of unexplained_liabilities (up to $1,840.6M)",
-      "last_tried": "2026-09-08T14:41:47+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-09-09",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$716.5M with $1,117.0M of unexplained_liabilities (up to $1,833.6M)",
+      "last_tried": "2026-09-09T10:30:32+00:00"
     }
   ]
 }

@@ -1,0 +1,111 @@
+{
+  "url_date": "2026-09-09",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-09-08"
+  ],
+  "generated_at": "2026-09-09T10:32:17+00:00",
+  "tickers": [
+    {
+      "ticker": "PAMT",
+      "name": "PAMT CORP",
+      "total_value": 31225740.0,
+      "ev_basic": 564453132.4010696,
+      "mc_basic": 249841132.40106964,
+      "insiders": [
+        {
+          "reporter_name": "MOROUN MATTHEW T",
+          "relationship": "Director, 10% Owner",
+          "total_value": 31225740.0,
+          "shares": 3268000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SUJA",
+      "name": "SUJA LIFE, INC.",
+      "total_value": 3126250.0,
+      "ev_basic": 525422381.9408455,
+      "mc_basic": 382001381.9408455,
+      "insiders": [
+        {
+          "reporter_name": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
+          "relationship": "10% Owner",
+          "total_value": 3126250.0,
+          "shares": 300000.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "GPUS",
+      "name": "Hyperscale Data, Inc.",
+      "total_value": 406516.5699,
+      "ev_basic": 202873870.51203674,
+      "mc_basic": 133719870.51203674,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 406516.5699,
+          "shares": 2148691.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "TISI",
+      "name": "TEAM INC",
+      "total_value": 220720.0,
+      "ev_basic": 419963643.0,
+      "mc_basic": 123746643.0,
+      "insiders": [
+        {
+          "reporter_name": "Roeder Clinton William",
+          "relationship": "Officer (Chief Financial Officer)",
+          "total_value": 220720.0,
+          "shares": 8000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SCOR",
+      "name": "COMSCORE, INC.",
+      "total_value": 101637.70999999999,
+      "ev_basic": 49151724.57343769,
+      "mc_basic": 74858724.57343769,
+      "insiders": [
+        {
+          "reporter_name": "McLaughlin Matthew F.",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 101637.70999999999,
+          "shares": 20000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ECF",
+      "name": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "DXYZ",
+      "name": "Destiny Tech100 Inc.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "SHMD",
+      "name": "SCHMID Group N.V.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}

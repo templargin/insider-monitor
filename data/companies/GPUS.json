@@ -3,7 +3,399 @@
   "cik": "896493",
   "name": "Hyperscale Data, Inc.",
   "description": "Hyperscale Data, Inc., together with its subsidiaries, provides crane rental and lifting solutions for oilfield, construction, commercial, and infrastructure markets in North America, Europe, the Middle East, and internationally. It operates through Technology and Finance (Fintech); Sentinum; AGREE; Energy and Infrastructure (Energy); ROI; and TurnOnGreen segments. The company also offers colocation and hosting services; commercial lending, activist investing, and stock trading; and askROI, which operates an AI-driven platform engineered to provide pertinent and unique data insights through integration with business specific data that pushes beyond the conventional uses of existing large language models. In addition, it is involved in Bitcoin mining and data center operations; hotel operations and other commercial real estate holdings; commercial electronics solutions with operations; and operation of a social gaming platform. The company sells its products directly and indirectly through its sales force. It serves the Bitcoin mining, generative AI and metaverse platform development, crane services, defense/aerospace, industrial, automotive, medical/biopharma, consumer electronics, and textiles businesses. The company was formerly known as Ault Alliance, Inc. and changed its name to Hyperscale Data, Inc. in January 2023. Hyperscale Data, Inc. was founded in 1969 and is headquartered in Las Vegas, Nevada.",
+  "ownership": {
+    "inst_pct": 0.04601,
+    "insider_pct": 0.00777,
+    "inst_count": 60,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.8347,
+    "shares_short": 10230788,
+    "short_days_to_cover": 1.65,
+    "short_as_of": "2026-08-14",
+    "as_of": "2026-09-09"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-08",
+      "code": "P",
+      "shares": 60000.0,
+      "price": 0.187,
+      "total_value": 11220.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011477"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "CRAGUN KENNETH S",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.1865,
+      "total_value": 18650.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011479"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "Nisser Henry Carl",
+      "relationship": "Director, Officer (President and General Counsel)",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 250000.0,
+      "price": 0.1871,
+      "total_value": 46775.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011478"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.2,
+      "total_value": 20000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011477"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 196800.0,
+      "price": 0.1926,
+      "total_value": 37903.68,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011476"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 1913691.0,
+      "price": 0.1889,
+      "total_value": 361496.22990000003,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-011476"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-03",
+      "code": "P",
+      "shares": 38200.0,
+      "price": 0.1863,
+      "total_value": 7116.66,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011476"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-02",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.1999,
+      "total_value": 19990.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011360"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-02",
+      "code": "P",
+      "shares": 42000.0,
+      "price": 0.2348,
+      "total_value": 9861.6,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011359"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-01",
+      "code": "P",
+      "shares": 107999.0,
+      "price": 0.247,
+      "total_value": 26675.753,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011359"
+    },
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 89000.0,
+      "price": 0.2703,
+      "total_value": 24056.699999999997,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011255"
+    },
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-08-28",
+      "code": "P",
+      "shares": 47641.0,
+      "price": 0.307,
+      "total_value": 14625.787,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011255"
+    },
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-08-28",
+      "code": "S",
+      "shares": -1000.0,
+      "price": 0.2882,
+      "total_value": -288.2,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011255"
+    },
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-08-28",
+      "code": "P",
+      "shares": 150000.0,
+      "price": 0.2967,
+      "total_value": 44505.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-011255"
+    },
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 0.3358,
+      "total_value": 3358.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-011255"
+    },
+    {
+      "date_filed": "2026-08-20",
+      "reporter_name": "Hyperscale Data, Inc.",
+      "relationship": "Director, Other (Director by deputization)",
+      "transaction_date": "2026-07-31",
+      "code": "A",
+      "shares": 7500.0,
+      "price": 1000.0,
+      "total_value": 7500000.0,
+      "security_title": "Series D Convertible Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001214659-26-010677"
+    },
+    {
+      "date_filed": "2026-08-04",
+      "reporter_name": "Hyperscale Data, Inc.",
+      "relationship": "Director, Other (Director by deputization)",
+      "transaction_date": "2026-07-31",
+      "code": "A",
+      "shares": 7500.0,
+      "price": 1000.0,
+      "total_value": 7500000.0,
+      "security_title": "Series D Convertible Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001214659-26-009596"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "P",
+      "shares": 100.0,
+      "price": 19.525,
+      "total_value": 1952.4999999999998,
+      "security_title": "13% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-008149"
+    },
+    {
+      "date_filed": "2026-07-01",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-06-29",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 19.0,
+      "total_value": 95000.0,
+      "security_title": "13% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-008052"
+    },
+    {
+      "date_filed": "2026-06-22",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-18",
+      "code": "P",
+      "shares": 18000.0,
+      "price": 0.2688,
+      "total_value": 4838.4,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-007591"
+    },
+    {
+      "date_filed": "2026-06-17",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-16",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 0.2353,
+      "total_value": 11765.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-007532"
+    },
+    {
+      "date_filed": "2026-06-17",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-16",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 0.2359,
+      "total_value": 1179.5,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-007532"
+    },
+    {
+      "date_filed": "2026-06-12",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-06-11",
+      "code": "P",
+      "shares": 200000.0,
+      "price": 0.1688,
+      "total_value": 33760.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-007425"
+    },
+    {
+      "date_filed": "2026-06-12",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-11",
+      "code": "P",
+      "shares": 15000.0,
+      "price": 0.1634,
+      "total_value": 2451.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-007423"
+    },
+    {
+      "date_filed": "2026-06-12",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-11",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.1594,
+      "total_value": 15939.999999999998,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-007423"
+    },
+    {
+      "date_filed": "2026-06-12",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-06-10",
+      "code": "P",
+      "shares": 40000.0,
+      "price": 0.1662,
+      "total_value": 6647.999999999999,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-007423"
+    },
+    {
+      "date_filed": "2026-05-29",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-05-28",
+      "code": "P",
+      "shares": 100.0,
+      "price": 21.19,
+      "total_value": 2119.0,
+      "security_title": "13% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-006922"
+    },
     {
       "date_filed": "2026-05-20",
       "reporter_name": "AULT MILTON C III",
@@ -1543,271 +1935,20 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001214659-24-016303"
-    },
-    {
-      "date_filed": "2024-09-05",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-30",
-      "code": "P",
-      "shares": 10000.0,
-      "price": 0.2046,
-      "total_value": 2046.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-016098"
-    },
-    {
-      "date_filed": "2024-08-30",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-29",
-      "code": "P",
-      "shares": 10000.0,
-      "price": 0.2083,
-      "total_value": 2083.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-015789"
-    },
-    {
-      "date_filed": "2024-08-30",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-28",
-      "code": "P",
-      "shares": 45000.0,
-      "price": 0.2301,
-      "total_value": 10354.5,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-015789"
-    },
-    {
-      "date_filed": "2024-08-30",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-27",
-      "code": "P",
-      "shares": 1500.0,
-      "price": 0.2296,
-      "total_value": 344.4,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015789"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-26",
-      "code": "P",
-      "shares": 2500.0,
-      "price": 0.2302,
-      "total_value": 575.5,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015386"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-23",
-      "code": "P",
-      "shares": 1300.0,
-      "price": 0.2333,
-      "total_value": 303.29,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015386"
-    },
-    {
-      "date_filed": "2024-08-23",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-22",
-      "code": "P",
-      "shares": 500.0,
-      "price": 0.2321,
-      "total_value": 116.05,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015246"
-    },
-    {
-      "date_filed": "2024-08-23",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-21",
-      "code": "P",
-      "shares": 2300.0,
-      "price": 0.2345,
-      "total_value": 539.35,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015246"
-    },
-    {
-      "date_filed": "2024-08-21",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-20",
-      "code": "P",
-      "shares": 800.0,
-      "price": 0.2451,
-      "total_value": 196.08,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015133"
-    },
-    {
-      "date_filed": "2024-08-21",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-19",
-      "code": "P",
-      "shares": 500.0,
-      "price": 0.2338,
-      "total_value": 116.9,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-015133"
-    },
-    {
-      "date_filed": "2024-08-05",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-05",
-      "code": "P",
-      "shares": 300.0,
-      "price": 1000.0,
-      "total_value": 300000.0,
-      "security_title": "Series C Convertible Preferred Stock",
-      "table": "derivative",
-      "ownership": "I",
-      "accession": "0001214659-24-013808"
-    },
-    {
-      "date_filed": "2024-08-05",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-08-05",
-      "code": "P",
-      "shares": 88692.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Series C Warrants",
-      "table": "derivative",
-      "ownership": "I",
-      "accession": "0001214659-24-013808"
-    },
-    {
-      "date_filed": "2024-06-26",
-      "reporter_name": "Ault Alliance, Inc.",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-06-25",
-      "code": "P",
-      "shares": 5000.0,
-      "price": 0.126,
-      "total_value": 630.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-011452"
-    },
-    {
-      "date_filed": "2024-06-26",
-      "reporter_name": "Ault Alliance, Inc.",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-06-24",
-      "code": "P",
-      "shares": 5000.0,
-      "price": 0.1346,
-      "total_value": 673.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-011452"
-    },
-    {
-      "date_filed": "2024-06-26",
-      "reporter_name": "Ault Alliance, Inc.",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-03-15",
-      "code": "M",
-      "shares": 2000000.0,
-      "price": 0.01,
-      "total_value": 20000.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-011452"
-    },
-    {
-      "date_filed": "2024-06-20",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman)",
-      "transaction_date": "2024-06-17",
-      "code": "P",
-      "shares": 10000.0,
-      "price": 0.279,
-      "total_value": 2790.0000000000005,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-011196"
-    },
-    {
-      "date_filed": "2024-05-24",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman)",
-      "transaction_date": "2024-05-22",
-      "code": "P",
-      "shares": 1983.0,
-      "price": 0.3856,
-      "total_value": 764.6448,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001214659-24-009942"
-    },
-    {
-      "date_filed": "2024-05-24",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman)",
-      "transaction_date": "2024-05-22",
-      "code": "P",
-      "shares": 15000.0,
-      "price": 0.3916,
-      "total_value": 5874.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-009942"
     }
   ],
   "valuation": {
-    "share_price": 0.14820000529289246,
-    "shares_basic": 1529995,
-    "shares_basic_as_of": "2025-04-14",
+    "share_price": 0.1899999976158142,
+    "shares_basic": 703788801.0,
+    "shares_basic_as_of": "2026-08-17",
     "options": 421,
     "warrants": 639105,
-    "cash": 10548000,
-    "debt": 91216000,
-    "ttm_revenue": 119284000,
-    "mc_basic": 226745.267098099,
-    "ev_basic": 80894745.2670981
+    "cash": 36780000,
+    "debt": 105934000,
+    "debt_flag": null,
+    "ttm_revenue": 130155000.0,
+    "mc_basic": 133719870.51203674,
+    "ev_basic": 202873870.51203674
   },
   "financials": {
     "income_statement": {
@@ -1843,41 +1984,41 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            34841000,
             44079000,
             26907000,
-            24328000,
-            25856000
+            24328000
           ],
           [
+            34.7501547029703,
             76.1680188641541,
             38.389137478784136,
-            -21.6767006857474,
-            45.32374100719424
+            -21.6767006857474
           ],
           [
+            8795000,
             15069000,
             3898000,
-            6265000,
-            6127000
+            6265000
           ],
           [
+            43.54496490941733,
             185.23566155593412,
             206.6876475216365,
-            -26.68227033352838,
-            261.7476240760296
+            -26.68227033352838
           ],
           [
+            25.243247897591917,
             34.1863472401824,
             14.486936484929572,
-            25.75221966458402,
-            23.696627475247524
+            25.75221966458402
           ],
           [
             null,
@@ -1886,22 +2027,22 @@
             null
           ],
           [
+            27984000,
             24138000,
             21974000,
-            18717000,
-            16142000
+            18717000
           ],
           [
+            4281000,
             4800000,
             2988000,
-            1605000,
-            112000
+            1605000
           ],
           [
+            31909000,
             36343000,
             35598000,
-            20322000,
-            16254000
+            20322000
           ],
           [
             null,
@@ -1910,34 +2051,34 @@
             null
           ],
           [
+            -23114000,
             -21274000,
             -31700000,
-            -14057000,
-            -10127000
+            -14057000
           ],
           [
+            -128.2413350449294,
             -233.23934837092733,
             -248.16035145524438,
-            42.846106932303314,
-            62.39509840326773
+            42.846106932303314
           ],
           [
+            -66.34137940931662,
             -48.263345357199576,
             -117.81320845876537,
-            -57.781157513975664,
-            -39.166924504950494
+            -57.781157513975664
           ],
           [
+            -18500000,
             -14899000,
             -26630000,
-            -9285000,
-            -5351000
+            -9285000
           ],
           [
+            -53.09836112625929,
             -33.80067605889426,
             -98.97052811536031,
-            -38.16589937520553,
-            -20.69538985148515
+            -38.16589937520553
           ],
           [
             null,
@@ -1946,46 +2087,46 @@
             null
           ],
           [
+            3942000,
             6546000,
             1554000,
-            3063000,
-            7664000
+            3063000
           ],
           [
+            8082000,
             -2100000,
             3422000,
-            3789000,
-            null
+            3789000
           ],
           [
+            -18974000,
             -29920000,
             -29832000,
-            -13331000,
-            -17467000
+            -13331000
           ],
           [
+            -24000,
             216000,
             72000,
-            251000,
-            -129000
+            251000
           ],
           [
+            -18950000,
             -30136000,
             -29904000,
-            -13582000,
-            -17338000
+            -13582000
           ],
           [
+            -19356000,
             -29950000,
             -30128000,
-            -13013000,
-            -19051000
+            -13013000
           ],
           [
+            -54.38994288338452,
             -68.36815717234964,
             -111.13836548110157,
-            -55.828674778033545,
-            -67.05600247524752
+            -55.828674778033545
           ],
           [
             null,
@@ -1994,28 +2135,28 @@
             null
           ],
           [
+            -0.05,
             -0.09,
             1.58,
-            -0.39,
-            -2.66
+            -0.39
           ],
           [
+            -0.05,
             -0.09,
             1.58,
-            -0.39,
-            -2.66
+            -0.39
           ],
           [
+            475216000,
             380730000,
             null,
-            38795000,
-            7986000
+            38795000
           ],
           [
+            475216000,
             380730000,
             null,
-            38795000,
-            7986000
+            38795000
           ]
         ]
       },
@@ -2060,14 +2201,14 @@
         ],
         "data": [
           [
-            121170000,
+            130155000,
             102112000,
             106662000,
             134846000,
             117637000
           ],
           [
-            18.663820119084928,
+            27.462981823879662,
             -4.26581162925878,
             -20.900879521824898,
             14.628900771015921,
@@ -2081,21 +2222,21 @@
             66956000
           ],
           [
-            31359000,
+            34027000,
             21573000,
             24217000,
             24784000,
             50681000
           ],
           [
-            45.362258378528715,
+            57.729569369118806,
             -10.917950200272536,
             -2.2877663008392513,
             -51.09804463211065,
             null
           ],
           [
-            25.88016835850458,
+            26.14344435480773,
             21.126801942964587,
             22.704430818848326,
             18.379484745561605,
@@ -2109,21 +2250,21 @@
             null
           ],
           [
-            80971000,
+            92813000,
             68371000,
             49264000,
             99853000,
             89666000
           ],
           [
-            9505000,
+            13674000,
             4834000,
             11011000,
             4418000,
             2773000
           ],
           [
-            108517000,
+            124172000,
             83841000,
             81191000,
             174085000,
@@ -2137,35 +2278,35 @@
             null
           ],
           [
-            -77158000,
+            -90145000,
             -62268000,
             -56974000,
             -149301000,
             -139477000
           ],
           [
-            -23.91276418063853,
+            -44.7693839532344,
             -9.291957735107243,
             61.83950542863075,
             -7.0434551933293665,
             null
           ],
           [
-            -63.677477923578444,
+            -69.2597287849103,
             -60.980100282043246,
             -53.41546192645928,
             -110.7196357326135,
             -118.56558735771908
           ],
           [
-            -56165000,
+            -69314000,
             -42449000,
             -32537000,
             -121349000,
             -124801000
           ],
           [
-            -46.35223240075926,
+            -53.25496523375975,
             -41.57102005640865,
             -30.504772083778665,
             -89.99080432493363,
@@ -2179,49 +2320,49 @@
             null
           ],
           [
-            18827000,
+            15105000,
             16120000,
             20661000,
             44314000,
             37342000
           ],
           [
-            5435000,
+            13193000,
             13094000,
             15153000,
             -59306000,
             -17499000
           ],
           [
-            -90550000,
+            -92057000,
             -65294000,
             -62482000,
             -252921000,
             -194318000
           ],
           [
-            410000,
+            515000,
             253000,
             56000,
             348000,
             -4485000
           ],
           [
-            -90960000,
+            -92572000,
             -65547000,
             -62538000,
             -253269000,
             -189833000
           ],
           [
-            -92142000,
+            -92447000,
             -66397000,
             -56204000,
             -231026000,
             -181816000
           ],
           [
-            -75.06808615994058,
+            -71.1244285659406,
             -64.19128016295832,
             -58.63194014738145,
             -187.8209216439494,
@@ -2235,28 +2376,28 @@
             null
           ],
           [
-            -1.56,
+            1.05,
             -0.83,
             -68.09,
             -2192.47,
             -0.74
           ],
           [
-            -1.56,
+            1.05,
             -0.83,
             -68.09,
             -2192.47,
             -0.74
           ],
           [
-            380730000,
+            475216000,
             90709000,
             903000,
             106000,
             30000
           ],
           [
-            380730000,
+            475216000,
             90709000,
             903000,
             106000,
@@ -2281,7 +2422,6 @@
           "Other Assets",
           "Total Assets",
           "",
-          "Current Debt",
           "Current Lease Liabilities",
           "Other Current Liabilities",
           "Total Current Liabilities",
@@ -2293,41 +2433,41 @@
           "Total Equity"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            36780000,
             10548000,
             13076000,
-            24843000,
-            5917000
+            24843000
           ],
           [
+            4103000,
             2282000,
             187000,
-            2812000,
-            2686000
+            2812000
           ],
           [
+            6069000,
             5158000,
             4812000,
-            1743000,
-            1500000
+            1743000
           ],
           [
+            67075000,
             85311000,
             111627000,
-            61085000,
-            51906000
+            61085000
           ],
           [
+            114027000,
             103299000,
             129702000,
-            90483000,
-            62009000
+            90483000
           ],
           [
             null,
@@ -2336,40 +2476,40 @@
             null
           ],
           [
+            148279000,
             147050000,
             141988000,
-            131653000,
-            135841000
+            131653000
           ],
           [
+            7635000,
             7677000,
             6651000,
-            4142000,
-            4509000
+            4142000
           ],
           [
+            10405000,
             10108000,
             10326000,
-            null,
             null
           ],
           [
+            13607000,
             13417000,
             13673000,
-            1586000,
-            1652000
+            1586000
           ],
           [
+            66085000,
             38009000,
             11367000,
-            14530000,
-            9490000
+            14530000
           ],
           [
+            360038000,
             319560000,
             313707000,
-            242394000,
-            213501000
+            242394000
           ],
           [
             null,
@@ -2378,46 +2518,40 @@
             null
           ],
           [
-            null,
-            null,
-            null,
-            21751000
-          ],
-          [
+            2001000,
             1974000,
             1776000,
-            1173000,
-            1297000
+            1173000
           ],
           [
+            199656000,
             194074000,
             168598000,
-            178662000,
-            178324000
+            178662000
           ],
           [
+            201657000,
             196048000,
             170374000,
-            179835000,
-            201372000
+            179835000
           ],
           [
+            5925000,
             6081000,
             5198000,
-            3150000,
-            3404000
+            3150000
           ],
           [
+            35925000,
             14524000,
             12278000,
-            1680000,
-            null
+            1680000
           ],
           [
+            243507000,
             216653000,
             187850000,
-            184665000,
-            205605000
+            184665000
           ],
           [
             null,
@@ -2426,16 +2560,16 @@
             null
           ],
           [
+            -790495000,
             -767016000,
             -734560000,
-            -702214000,
-            -686958000
+            -702214000
           ],
           [
+            116531000,
             102907000,
             125857000,
-            57729000,
-            7896000
+            57729000
           ]
         ]
       },
@@ -2479,7 +2613,7 @@
         ],
         "data": [
           [
-            10548000,
+            36780000,
             13076000,
             4546000,
             6106000,
@@ -2493,28 +2627,28 @@
             6590000
           ],
           [
-            2282000,
+            4103000,
             187000,
             1369000,
             1234000,
             19586000
           ],
           [
-            5158000,
+            6069000,
             4812000,
             1817000,
             1790000,
             22036000
           ],
           [
-            85311000,
+            67075000,
             111627000,
             50681000,
             53253000,
             140155000
           ],
           [
-            103299000,
+            114027000,
             129702000,
             58413000,
             62410000,
@@ -2528,28 +2662,28 @@
             null
           ],
           [
-            147050000,
+            148279000,
             141988000,
             144357000,
             195666000,
             146779000
           ],
           [
-            7677000,
+            7635000,
             6651000,
             3697000,
             3409000,
             8419000
           ],
           [
-            10108000,
+            10405000,
             10326000,
             295000,
             295000,
             27902000
           ],
           [
-            13417000,
+            13607000,
             13673000,
             1844000,
             4047000,
@@ -2563,14 +2697,14 @@
             29200000
           ],
           [
-            38009000,
+            66085000,
             11367000,
             9360000,
             11563000,
             118119000
           ],
           [
-            319560000,
+            360038000,
             313707000,
             220766000,
             299190000,
@@ -2598,21 +2732,21 @@
             12887000
           ],
           [
-            1974000,
+            2001000,
             1776000,
             1627000,
             1376000,
             2975000
           ],
           [
-            194074000,
+            199656000,
             168598000,
             194307000,
             104926000,
             189436000
           ],
           [
-            196048000,
+            201657000,
             170374000,
             215503000,
             139804000,
@@ -2626,21 +2760,21 @@
             null
           ],
           [
-            6081000,
+            5925000,
             5198000,
             2269000,
             2163000,
             5836000
           ],
           [
-            14524000,
+            35925000,
             12278000,
             null,
             67216000,
             106365000
           ],
           [
-            216653000,
+            243507000,
             187850000,
             218676000,
             240290000,
@@ -2661,14 +2795,14 @@
             null
           ],
           [
-            -767016000,
+            -790495000,
             -734560000,
             -628950000,
             -567469000,
             -329078000
           ],
           [
-            102907000,
+            116531000,
             125857000,
             2090000,
             56676000,
@@ -2699,41 +2833,41 @@
           "Free Cash Flow"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            -18950000,
             -30136000,
             -29904000,
-            -13582000,
-            -17338000
+            -13582000
           ],
           [
+            4614000,
             6375000,
             5070000,
-            4772000,
-            4776000
+            4772000
           ],
           [
+            491000,
             67000,
             500000,
-            44000,
-            68000
+            44000
           ],
           [
+            4153000,
             23501000,
             -13374000,
-            -8987000,
-            9398000
+            -8987000
           ],
           [
+            -9692000,
             -193000,
             -37708000,
-            -17753000,
-            -3096000
+            -17753000
           ],
           [
             null,
@@ -2742,22 +2876,22 @@
             null
           ],
           [
+            -6749000,
             -10566000,
             -18455000,
-            -2807000,
-            -397000
+            -2807000
           ],
           [
+            -15486000,
             -12270000,
             -38800000,
-            -7796000,
-            -763000
+            -7796000
           ],
           [
+            -22235000,
             -22836000,
             -57255000,
-            -10603000,
-            -1160000
+            -10603000
           ],
           [
             null,
@@ -2766,22 +2900,22 @@
             null
           ],
           [
+            -2298000,
             -2506000,
             -2218000,
-            -2171000,
-            -2195000
+            -2171000
           ],
           [
+            62461000,
             13108000,
             98128000,
-            50960000,
-            9094000
+            50960000
           ],
           [
+            60163000,
             10602000,
             95910000,
-            48789000,
-            6899000
+            48789000
           ],
           [
             null,
@@ -2790,9 +2924,9 @@
             null
           ],
           [
+            559000,
             -502000,
             591000,
-            0,
             0
           ],
           [
@@ -2802,10 +2936,10 @@
             null
           ],
           [
+            -16441000,
             -10759000,
             -56163000,
-            -20560000,
-            -3493000
+            -20560000
           ]
         ]
       },
@@ -2838,35 +2972,35 @@
         ],
         "data": [
           [
-            -90960000,
+            -92572000,
             -65547000,
             -62538000,
             -253269000,
             -189833000
           ],
           [
-            20993000,
+            20831000,
             19819000,
             24437000,
             27952000,
             14676000
           ],
           [
-            679000,
+            1102000,
             709000,
             3256000,
             9069000,
             7202000
           ],
           [
-            10538000,
+            5293000,
             -17497000,
             15434000,
             210820000,
             194444000
           ],
           [
-            -58750000,
+            -65346000,
             -62516000,
             -19411000,
             -5428000,
@@ -2880,21 +3014,21 @@
             null
           ],
           [
-            -32225000,
+            -38577000,
             -24539000,
             -4828000,
             -14742000,
             -99305000
           ],
           [
-            -59629000,
+            -74352000,
             -45650000,
             8015000,
             -14776000,
             -59338000
           ],
           [
-            -91854000,
+            -112929000,
             -70189000,
             3187000,
             -29518000,
@@ -2908,21 +3042,21 @@
             null
           ],
           [
-            -9090000,
+            -9193000,
             -8550000,
             -5277000,
             -1375000,
             -393000
           ],
           [
-            171290000,
+            224657000,
             164862000,
             31124000,
             38411000,
             124505000
           ],
           [
-            162200000,
+            215464000,
             156312000,
             25847000,
             37036000,
@@ -2936,7 +3070,7 @@
             null
           ],
           [
-            89000,
+            648000,
             597000,
             30000,
             -776000,
@@ -2950,7 +3084,7 @@
             null
           ],
           [
-            -90975000,
+            -103923000,
             -87055000,
             -24239000,
             -20170000,
@@ -2972,59 +3106,59 @@
           "ROA %"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            0.5654502447224743,
             0.5269066759161022,
             0.7612781292920281,
-            0.5031445491700726,
-            0.30793258248415867
+            0.5031445491700726
           ],
           [
+            0.5353545872446779,
             0.500596792622215,
             0.7330343831805323,
-            0.49345233130369504,
-            0.3004836819418787
+            0.49345233130369504
           ],
           [
             null,
             null,
             null,
-            2.7546859169199593
+            null
           ],
           [
+            -53.09836112625929,
             -33.80067605889426,
             -98.97052811536031,
-            -38.16589937520553,
-            -20.69538985148515
+            -38.16589937520553
           ],
           [
+            -87630000,
             -92749000,
             -40672000,
-            -89352000,
-            -139363000
+            -89352000
           ],
           [
             null,
             null,
             null,
-            15834000
+            null
           ],
           [
+            -16.261767255065177,
             -29.28469394696182,
             -23.760299387399986,
-            -23.52717005317951,
-            -219.57953394123606
+            -23.52717005317951
           ],
           [
+            -5.263333314816769,
             -9.430466891976467,
             -9.532461819468486,
-            -5.603274008432552,
-            -8.12080505477726
+            -5.603274008432552
           ]
         ]
       },
@@ -3048,14 +3182,14 @@
         ],
         "data": [
           [
-            0.5269066759161022,
+            0.5654502447224743,
             0.7612781292920281,
             0.2710542312636019,
             0.44641068925066524,
             0.8712260068789526
           ],
           [
-            0.500596792622215,
+            0.5353545872446779,
             0.7330343831805323,
             0.26262279411423506,
             0.43360704986981774,
@@ -3069,14 +3203,14 @@
             null
           ],
           [
-            -46.35223240075926,
+            -53.25496523375975,
             -41.57102005640865,
             -30.504772083778665,
             -89.99080432493363,
             -106.08992068821884
           ],
           [
-            -92749000,
+            -87630000,
             -40672000,
             -157090000,
             -77394000,
@@ -3090,14 +3224,14 @@
             null
           ],
           [
-            -88.39048849932463,
+            -79.43980571693369,
             -52.08053584623819,
             -2992.248803827751,
             -446.87169172136356,
             -179.0961837822539
           ],
           [
-            -28.464138190011266,
+            -25.711730428454775,
             -20.894337710028786,
             -28.32773162534086,
             -84.65155920986663,
@@ -3107,24 +3241,5 @@
       }
     }
   },
-  "last_updated": "2026-05-21T13:51:36+00:00",
-  "ownership": {
-    "inst_pct": 0.0975,
-    "insider_pct": 0.01195,
-    "inst_count": 32,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.8818,
-    "shares_short": 54043618,
-    "short_days_to_cover": 0.25,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": null,
-    "reason": "share count for GPUS predates its balance sheet (2025-04-14 < 2026-03-31)",
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-09-09T10:32:44+00:00"
 }

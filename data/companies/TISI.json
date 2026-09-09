@@ -5,7 +5,7 @@
   "description": "Team, Inc., together with its subsidiaries, provides a suite of conventional, specialized, and proprietary mechanical, heat-treating, and inspection services in the United States, Canada, and internationally. It operates through Inspection and Heat Treating (IHT) and Mechanical Services (MS) segments. The IHT segment offers non-destructive evaluation and testing, radiographic testing, ultrasonic testing, magnetic particle inspection, liquid penetrant inspection, positive material identification, electromagnetic testing, alternating current field measurement, and eddy current testing services. This segment also provides long-range guided ultrasonic, phased array ultrasonic testing, terminals and storage inspection and management program, rope access, mechanical and pipeline integrity, and heat treating services. The MS segment offers leak repair, engineered composite repair, emissions control/compliance, hot tapping, valve insertion, field machining, bolted joint integrity, vapor barrier plug and weld testing, and valve management services. Team, Inc. was founded in 1973 and is headquartered in Sugar Land, Texas.",
   "ownership": {
     "inst_pct": 0.59093,
-    "insider_pct": 0.06296,
+    "insider_pct": 0.0647,
     "inst_count": 34,
     "analyst_count": null,
     "rec_mean": null,
@@ -15,9 +15,23 @@
     "shares_short": 20331,
     "short_days_to_cover": 1.0,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-08-26"
+    "as_of": "2026-09-09"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "Roeder Clinton William",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-09-03",
+      "code": "P",
+      "shares": 8000.0,
+      "price": 27.59,
+      "total_value": 220720.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002141866-26-000006"
+    },
     {
       "date_filed": "2026-08-25",
       "reporter_name": "Horton Anthony R",
@@ -579,6 +593,48 @@
       "accession": "0001253581-25-000004"
     },
     {
+      "date_filed": "2025-06-12",
+      "reporter_name": "Corre Partners Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-12",
+      "code": "P",
+      "shares": 928.0,
+      "price": 19.2788,
+      "total_value": 17890.7264,
+      "security_title": "Common Stock, par value $0.30 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-25-000766"
+    },
+    {
+      "date_filed": "2025-06-12",
+      "reporter_name": "Corre Partners Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-11",
+      "code": "P",
+      "shares": 3640.0,
+      "price": 19.2788,
+      "total_value": 70174.832,
+      "security_title": "Common Stock, par value $0.30 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-25-000766"
+    },
+    {
+      "date_filed": "2025-06-12",
+      "reporter_name": "Corre Partners Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-10",
+      "code": "P",
+      "shares": 306.0,
+      "price": 18.6468,
+      "total_value": 5705.9208,
+      "security_title": "Common Stock, par value $0.30 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-25-000766"
+    },
+    {
       "date_filed": "2025-06-09",
       "reporter_name": "Corre Partners Management, LLC",
       "relationship": "10% Owner",
@@ -1098,7 +1154,7 @@
     }
   ],
   "valuation": {
-    "share_price": 24.09000015258789,
+    "share_price": 27.0,
     "shares_basic": 4583209,
     "shares_basic_as_of": "2026-08-06",
     "options": 1000,
@@ -1107,8 +1163,8 @@
     "debt": 322201000,
     "debt_flag": null,
     "ttm_revenue": 893536000.0,
-    "mc_basic": 110409505.5093422,
-    "ev_basic": 406626505.5093422
+    "mc_basic": 123746643.0,
+    "ev_basic": 419963643.0
   },
   "financials": {
     "income_statement": {
@@ -2369,5 +2425,5 @@
       }
     }
   },
-  "last_updated": "2026-08-26T11:03:04+00:00"
+  "last_updated": "2026-09-09T10:32:57+00:00"
 }

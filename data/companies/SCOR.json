@@ -5,7 +5,7 @@
   "description": "comScore, Inc. operates as an information and analytics company that measures audiences, consumer behavior, and advertising across media platforms in the United States, Europe, Latin America, Canada, and internationally. It provides Comscore TV\u0096National that helps customers understand the performance of network advertising campaigns; Comscore TV\u0096Local allows customers to understand consumer viewing patterns and characteristics; Media Metrix Multi-Platform and Mobile Metrix, which measure websites and applications on computers, smartphones, and tablets; Video Metrix that delivers measurement of digital video consumption; Plan Metrix, which offers understanding of consumer lifestyle; Total Home Panel Suite, which capture OTT, connected TV, and IOT device usage and content consumption; CCR, which enhances validated campaign essentials verification of mobile and desktop video campaigns; Comscore marketing solutions; Lift Models, which measures the impact of advertising on a brand; and Survey Analytics, which measure various consumer insights including brand health metrics. The company also offers Activation Solutions, including audience activation and content activation; OnDemand Essentials that provides multichannel video programming distributors and content providers with transactional tracking and reporting; Movie Solutions; and Hollywood Software Suite. In addition, it serves digital publishers, television networks, movie studios, content owners, brand advertisers, agencies, and technology providers. comScore, Inc. was incorporated in 1999 and is headquartered in Reston, Virginia.",
   "ownership": {
     "inst_pct": 0.39668998,
-    "insider_pct": 0.32869998,
+    "insider_pct": 0.33133,
     "inst_count": 35,
     "analyst_count": 1,
     "rec_mean": null,
@@ -15,9 +15,37 @@
     "shares_short": 19137,
     "short_days_to_cover": 1.22,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-09-01"
+    "as_of": "2026-09-09"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "McLaughlin Matthew F.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-08",
+      "code": "P",
+      "shares": 3367.0,
+      "price": 5.19,
+      "total_value": 17474.73,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001853874-26-000014"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "McLaughlin Matthew F.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 16633.0,
+      "price": 5.06,
+      "total_value": 84162.98,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001853874-26-000014"
+    },
     {
       "date_filed": "2026-08-31",
       "reporter_name": "LIVEK WILLIAM PAUL",
@@ -1280,7 +1308,7 @@
     }
   ],
   "valuation": {
-    "share_price": 5.260000228881836,
+    "share_price": 4.929999828338623,
     "shares_basic": 15184326,
     "shares_basic_as_of": "2026-08-10",
     "options": 98726,
@@ -1289,8 +1317,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 346939000.0,
-    "mc_basic": 79869558.23541641,
-    "ev_basic": 54162558.23541641
+    "mc_basic": 74858724.57343769,
+    "ev_basic": 49151724.57343769
   },
   "financials": {
     "income_statement": {
@@ -2542,5 +2570,5 @@
       }
     }
   },
-  "last_updated": "2026-09-01T15:06:27+00:00"
+  "last_updated": "2026-09-09T10:32:31+00:00"
 }
