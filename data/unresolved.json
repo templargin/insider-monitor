@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:43:21+00:00",
+  "generated_at": "2026-09-10T10:32:19+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1285,6 +1285,68 @@
       "last_tried_date": "2026-09-09",
       "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$716.5M with $1,117.0M of unexplained_liabilities (up to $1,833.6M)",
       "last_tried": "2026-09-09T10:30:32+00:00"
+    },
+    {
+      "url_date": "2026-09-10",
+      "cik": "800457",
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$716.5M with $1,117.0M of unexplained_liabilities (up to $1,833.6M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DGICA",
+        "name": "DONEGAL GROUP INC",
+        "by_reporter": {
+          "935596": {
+            "reporter_cik": "935596",
+            "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+            "relationship": "10% Owner",
+            "total_value": 314843.7088,
+            "shares": 16368.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+              "reporter_cik": "935596",
+              "relationship": "10% Owner",
+              "issuer_cik": "800457",
+              "issuer_ticker": "DGICA",
+              "issuer_name": "DONEGAL GROUP INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-04",
+                "code": "P",
+                "shares": 6368.0,
+                "price": 19.3916,
+                "total_value": 123485.70880000001,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-08",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 19.1358,
+                "total_value": 191358.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 314843.7088
+          }
+        ]
+      },
+      "first_seen": "2026-09-10T10:32:19+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

@@ -4,8 +4,8 @@
   "name": "Enhanced Group Inc.",
   "description": "Enhanced Group Inc. operates in the sports entertainment, performance technology, and lifestyle wellness markets. It engages in organizing live sporting events; producing and distributing related content; marketing lifestyle and health optimization services to customers; and operating the Live Enhanced platform, through which customers access OTC supplement blends, clinician-guided prescription-based hormone therapy, and other longevity-related protocols provided by third-party telehealth service providers. Enhanced Group Inc. is based in New York, New York.",
   "ownership": {
-    "inst_pct": 0.38042998,
-    "insider_pct": 0.58167,
+    "inst_pct": 0.36033002,
+    "insider_pct": 0.54944,
     "inst_count": 33,
     "analyst_count": 2,
     "rec_mean": null,
@@ -15,9 +15,51 @@
     "shares_short": 2193090,
     "short_days_to_cover": 3.4,
     "short_as_of": "2026-08-14",
-    "as_of": "2026-09-07"
+    "as_of": "2026-09-10"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-09",
+      "reporter_name": "Apeiron Investment Group Ltd.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-09",
+      "code": "P",
+      "shares": 99342.0,
+      "price": 1.6043,
+      "total_value": 159374.3706,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-386771"
+    },
+    {
+      "date_filed": "2026-09-09",
+      "reporter_name": "Apeiron Investment Group Ltd.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-08",
+      "code": "P",
+      "shares": 59337.0,
+      "price": 1.5686,
+      "total_value": 93076.0182,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-386771"
+    },
+    {
+      "date_filed": "2026-09-09",
+      "reporter_name": "Apeiron Investment Group Ltd.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 21034.0,
+      "price": 1.6116,
+      "total_value": 33898.3944,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-386771"
+    },
     {
       "date_filed": "2026-09-04",
       "reporter_name": "Apeiron Investment Group Ltd.",
@@ -482,7 +524,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.5800000429153442,
+    "share_price": 1.6200000047683716,
     "shares_basic": 387810095.0,
     "shares_basic_as_of": "2026-08-13",
     "options": 10363112,
@@ -491,8 +533,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 17702934.0,
-    "mc_basic": 612739966.7430037,
-    "ev_basic": 593133720.7430037
+    "mc_basic": 628252355.7492226,
+    "ev_basic": 608646109.7492226
   },
   "financials": {
     "income_statement": {
@@ -1308,5 +1350,5 @@
       }
     }
   },
-  "last_updated": "2026-09-07T16:00:12+00:00"
+  "last_updated": "2026-09-10T10:34:13+00:00"
 }

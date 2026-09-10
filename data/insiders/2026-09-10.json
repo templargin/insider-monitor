@@ -1,0 +1,194 @@
+{
+  "url_date": "2026-09-10",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-09-09"
+  ],
+  "generated_at": "2026-09-10T10:32:19+00:00",
+  "tickers": [
+    {
+      "ticker": "GWAV",
+      "name": "Greenwave Technology Solutions, Inc.",
+      "total_value": 8000001.748000001,
+      "ev_basic": 8431273.625,
+      "mc_basic": 3629635.625,
+      "insiders": [
+        {
+          "reporter_name": "Meeks Danny",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 8000001.748000001,
+          "shares": 2152853.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PRTS",
+      "name": "CarParts.com, Inc.",
+      "total_value": 1497701.26,
+      "ev_basic": 75333320.0,
+      "mc_basic": 80654320.0,
+      "insiders": [
+        {
+          "reporter_name": "Meniane David",
+          "relationship": "Officer (CEO)",
+          "total_value": 749239.16,
+          "shares": 79539.0,
+          "txn_count": 3
+        },
+        {
+          "reporter_name": "Huffaker Michael",
+          "relationship": "Officer (COO)",
+          "total_value": 748462.1,
+          "shares": 79458.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "SLGL",
+      "name": "Sol-Gel Technologies Ltd.",
+      "total_value": 687159.632,
+      "ev_basic": 181713411.29026794,
+      "mc_basic": 192746411.29026794,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 687159.632,
+          "shares": 9976.0,
+          "txn_count": 5
+        }
+      ]
+    },
+    {
+      "ticker": "GPUS",
+      "name": "Hyperscale Data, Inc.",
+      "total_value": 406516.5699,
+      "ev_basic": 209911762.29745406,
+      "mc_basic": 140757762.29745406,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 406516.5699,
+          "shares": 2148691.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "BWFG",
+      "name": "Bankwell Financial Group, Inc.",
+      "total_value": 352506.8,
+      "ev_basic": 428234244.82144165,
+      "mc_basic": 531810244.82144165,
+      "insiders": [
+        {
+          "reporter_name": "SEIDMAN LAWRENCE B",
+          "relationship": "Director, 10% Owner",
+          "total_value": 352506.8,
+          "shares": 5266.0,
+          "txn_count": 7
+        }
+      ]
+    },
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "total_value": 286348.7832,
+      "ev_basic": 608646109.7492226,
+      "mc_basic": 628252355.7492226,
+      "insiders": [
+        {
+          "reporter_name": "Apeiron Investment Group Ltd.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 286348.7832,
+          "shares": 179713.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "EVLV",
+      "name": "Evolv Technologies Holdings, Inc.",
+      "total_value": 161739.0,
+      "ev_basic": 868992868.6876364,
+      "mc_basic": 892951868.6876364,
+      "insiders": [
+        {
+          "reporter_name": "Shapiro Richard A",
+          "relationship": "Director",
+          "total_value": 161739.0,
+          "shares": 32600.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "CVSI",
+      "name": "CV Sciences, Inc.",
+      "total_value": 114816.32,
+      "ev_basic": 4268582.459046513,
+      "mc_basic": 4516582.459046513,
+      "insiders": [
+        {
+          "reporter_name": "CHEEVER CHARLIE E III",
+          "relationship": "10% Owner",
+          "total_value": 114816.32,
+          "shares": 5740816.0,
+          "txn_count": 10
+        }
+      ]
+    },
+    {
+      "ticker": "OXM",
+      "name": "OXFORD INDUSTRIES INC",
+      "total_value": 108268.3,
+      "ev_basic": 523309092.3862419,
+      "mc_basic": 459084092.3862419,
+      "insiders": [
+        {
+          "reporter_name": "Chubb Thomas Caldecot III",
+          "relationship": "Director, Officer (CEO and President)",
+          "total_value": 108268.3,
+          "shares": 3500.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "KRMD",
+      "name": "KORU Medical Systems, Inc.",
+      "total_value": 101120.0,
+      "ev_basic": 137373792.7032957,
+      "mc_basic": 145441495.7032957,
+      "insiders": [
+        {
+          "reporter_name": "KALBERMATTEN ADAM R",
+          "relationship": "Officer (Chief Commercial Officer)",
+          "total_value": 101120.0,
+          "shares": 32000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "CYBN",
+      "name": "CYBIN INC.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$716.5M with $1,117.0M of unexplained_liabilities (up to $1,833.6M)",
+      "transient": false
+    }
+  ]
+}
