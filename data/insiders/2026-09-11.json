@@ -1,0 +1,50 @@
+{
+  "url_date": "2026-09-11",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-09-10"
+  ],
+  "generated_at": "2026-09-11T10:32:25+00:00",
+  "tickers": [
+    {
+      "ticker": "PRTS",
+      "name": "CarParts.com, Inc.",
+      "total_value": 266590.0,
+      "ev_basic": 64767600.69561005,
+      "mc_basic": 70088600.69561005,
+      "insiders": [
+        {
+          "reporter_name": "Meniane David",
+          "relationship": "Officer (CEO)",
+          "total_value": 133295.0,
+          "shares": 13250.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Huffaker Michael",
+          "relationship": "Officer (COO)",
+          "total_value": 133295.0,
+          "shares": 13250.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "CYBN",
+      "name": "CYBIN INC.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "cik": "881787",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false
+    }
+  ]
+}

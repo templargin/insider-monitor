@@ -5,19 +5,47 @@
   "description": "CarParts.com, Inc., together with its subsidiaries, operates as an online retailer of aftermarket auto parts and accessories in the United States and the Philippines. The company offers replacement parts, such as body panels, lighting components, cooling parts, and mirrors; hard parts comprising engine, chassis, drivetrain, suspension, braking, electrical, and other mechanical components necessary for vehicle operation; and other parts and accessories, such as suspension kits, towing equipment, lift kits, and other products under the Carparts.com, Kool-Vue, JC Whitney, Evan Fischer, SureStop, TrueDrive, DriveWire, and DriveMotive brands. It distributes its products through multiple channels, such as direct-to-consumer e-commerce platforms, online marketplaces, specialty retailers, wholesale distributors, and traditional brick-and-mortar stores. The company was formerly known as U.S. Auto Parts Network, Inc. and changed its name to CarParts.com, Inc. in July 2020. CarParts.com, Inc. was incorporated in 1995 and is headquartered in Long Beach, California.",
   "ownership": {
     "inst_pct": 0.124180004,
-    "insider_pct": 0.1379,
+    "insider_pct": 0.15762,
     "inst_count": 37,
     "analyst_count": 2,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": 10.85,
-    "short_pct_float": 0.045300003,
-    "shares_short": 327221,
-    "short_days_to_cover": 13.81,
-    "short_as_of": "2026-08-14",
-    "as_of": "2026-09-10"
+    "short_pct_float": 0.056599997,
+    "shares_short": 408587,
+    "short_days_to_cover": 13.74,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-11"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Huffaker Michael",
+      "relationship": "Officer (COO)",
+      "transaction_date": "2026-09-10",
+      "code": "P",
+      "shares": 13250.0,
+      "price": 10.06,
+      "total_value": 133295.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-26-036239"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Meniane David",
+      "relationship": "Officer (CEO)",
+      "transaction_date": "2026-09-10",
+      "code": "P",
+      "shares": 13250.0,
+      "price": 10.06,
+      "total_value": 133295.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001140361-26-036237"
+    },
     {
       "date_filed": "2026-09-09",
       "reporter_name": "Huffaker Michael",
@@ -2302,7 +2330,7 @@
     }
   ],
   "valuation": {
-    "share_price": 10.545000076293945,
+    "share_price": 8.6899995803833,
     "shares_basic": 8065432,
     "shares_basic_as_of": "2026-07-30",
     "options": 1543000,
@@ -2311,8 +2339,8 @@
     "debt": 32850000,
     "debt_flag": null,
     "ttm_revenue": 515799000.0,
-    "mc_basic": 85049981.05534363,
-    "ev_basic": 79728981.05534363
+    "mc_basic": 70088600.69561005,
+    "ev_basic": 64767600.69561005
   },
   "financials": {
     "income_statement": {
@@ -3460,5 +3488,5 @@
       }
     }
   },
-  "last_updated": "2026-09-10T14:37:30+00:00"
+  "last_updated": "2026-09-11T10:32:42+00:00"
 }

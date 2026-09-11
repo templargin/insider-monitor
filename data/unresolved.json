@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:35:46+00:00",
+  "generated_at": "2026-09-11T10:32:25+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1345,7 +1345,72 @@
         ]
       },
       "first_seen": "2026-09-10T10:32:19+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-09-11",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$726.2M with $1,117.0M of unexplained_liabilities (up to $1,843.2M)",
+      "last_tried": "2026-09-11T10:30:39+00:00"
+    },
+    {
+      "url_date": "2026-09-11",
+      "cik": "881787",
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "CRT",
+        "name": "CROSS TIMBERS ROYALTY TRUST",
+        "by_reporter": {
+          "1168602": {
+            "reporter_cik": "1168602",
+            "reporter_name": "OLIVER ERIC L",
+            "relationship": "10% Owner",
+            "total_value": 147736.34,
+            "shares": 13276.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "OLIVER ERIC L",
+              "reporter_cik": "1168602",
+              "relationship": "10% Owner",
+              "issuer_cik": "881787",
+              "issuer_ticker": "CRT",
+              "issuer_name": "CROSS TIMBERS ROYALTY TRUST"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-09-08",
+                "code": "P",
+                "shares": 6142.0,
+                "price": 10.94,
+                "total_value": 67193.48,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-09-09",
+                "code": "P",
+                "shares": 7134.0,
+                "price": 11.29,
+                "total_value": 80542.86,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 147736.34
+          }
+        ]
+      },
+      "first_seen": "2026-09-11T10:32:25+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]
