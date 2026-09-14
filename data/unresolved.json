@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:34:49+00:00",
+  "generated_at": "2026-09-14T10:32:12+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1345,11 +1345,11 @@
         ]
       },
       "first_seen": "2026-09-10T10:32:19+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-09-11",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$723.2M with $1,117.0M of unexplained_liabilities (up to $1,840.2M)",
-      "last_tried": "2026-09-11T14:32:58+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-09-14",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.9M with $1,117.0M of unexplained_liabilities (up to $1,846.9M)",
+      "last_tried": "2026-09-14T10:30:35+00:00"
     },
     {
       "url_date": "2026-09-11",
@@ -1410,7 +1410,134 @@
         ]
       },
       "first_seen": "2026-09-11T10:32:25+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-09-14",
+      "last_reason": "no companyfacts for CIK 881787",
+      "last_tried": "2026-09-14T10:30:35+00:00"
+    },
+    {
+      "url_date": "2026-09-14",
+      "cik": "1844971",
+      "ticker": "GREE",
+      "name": "Vulcan Infrastructure & Power Inc.",
+      "reason": "no share price for GREE",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "GREE",
+        "name": "Vulcan Infrastructure & Power Inc.",
+        "by_reporter": {
+          "1881667": {
+            "reporter_cik": "1881667",
+            "reporter_name": "Rogers George Ted III",
+            "relationship": "Director",
+            "total_value": 4999998.96,
+            "shares": 2923976.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Rogers George Ted III",
+              "reporter_cik": "1881667",
+              "relationship": "Director",
+              "issuer_cik": "1844971",
+              "issuer_ticker": "GREE",
+              "issuer_name": "Vulcan Infrastructure & Power Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-10",
+                "code": "P",
+                "shares": 2923976.0,
+                "price": 1.71,
+                "total_value": 4999998.96,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 4999998.96
+          }
+        ]
+      },
+      "first_seen": "2026-09-14T10:32:12+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-09-14",
+      "cik": "800457",
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.9M with $1,117.0M of unexplained_liabilities (up to $1,846.9M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DGICA",
+        "name": "DONEGAL GROUP INC",
+        "by_reporter": {
+          "935596": {
+            "reporter_cik": "935596",
+            "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+            "relationship": "10% Owner",
+            "total_value": 448912.1263,
+            "shares": 23469.0,
+            "txn_count": 3
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+              "reporter_cik": "935596",
+              "relationship": "10% Owner",
+              "issuer_cik": "800457",
+              "issuer_ticker": "DGICA",
+              "issuer_name": "DONEGAL GROUP INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-09",
+                "code": "P",
+                "shares": 5143.0,
+                "price": 18.8881,
+                "total_value": 97141.4983,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-09",
+                "code": "P",
+                "shares": 8326.0,
+                "price": 19.278,
+                "total_value": 160508.628,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-10",
+                "code": "P",
+                "shares": 10000.0,
+                "price": 19.1262,
+                "total_value": 191262.0,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 448912.1263
+          }
+        ]
+      },
+      "first_seen": "2026-09-14T10:32:12+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]

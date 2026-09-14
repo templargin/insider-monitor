@@ -1,0 +1,84 @@
+{
+  "url_date": "2026-09-14",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13"
+  ],
+  "generated_at": "2026-09-14T10:32:12+00:00",
+  "tickers": [
+    {
+      "ticker": "TNON",
+      "name": "Tenon Medical, Inc.",
+      "total_value": 382985.27999999997,
+      "ev_basic": 6610588.5954937935,
+      "mc_basic": 3955588.5954937935,
+      "insiders": [
+        {
+          "reporter_name": "HRT FINANCIAL LP",
+          "relationship": "10% Owner",
+          "total_value": 382985.27999999997,
+          "shares": 108140.0,
+          "txn_count": 5
+        }
+      ]
+    },
+    {
+      "ticker": "GLOO",
+      "name": "Gloo Holdings, Inc.",
+      "total_value": 166875.0,
+      "ev_basic": 303810359.54673576,
+      "mc_basic": 304798359.54673576,
+      "insiders": [
+        {
+          "reporter_name": "GELSINGER PATRICK P",
+          "relationship": "Director, Officer (See Remarks)",
+          "total_value": 166875.0,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AFCG",
+      "name": "Advanced Flower Capital Inc.",
+      "total_value": 121100.0,
+      "ev_basic": 50552024.36891866,
+      "mc_basic": 80485311.36891866,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, 10% Owner",
+          "total_value": 121100.0,
+          "shares": 35000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "CYBN",
+      "name": "CYBIN INC.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "GREE",
+      "name": "Vulcan Infrastructure & Power Inc.",
+      "cik": "1844971",
+      "reason": "no share price for GREE",
+      "transient": true
+    },
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.9M with $1,117.0M of unexplained_liabilities (up to $1,846.9M)",
+      "transient": false
+    }
+  ]
+}
