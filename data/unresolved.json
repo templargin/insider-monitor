@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:32:12+00:00",
+  "generated_at": "2026-09-14T16:29:01+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1414,7 +1414,7 @@
       "abandoned": false,
       "last_tried_date": "2026-09-14",
       "last_reason": "no companyfacts for CIK 881787",
-      "last_tried": "2026-09-14T10:30:35+00:00"
+      "last_tried": "2026-09-14T16:27:17+00:00"
     },
     {
       "url_date": "2026-09-14",
@@ -1464,7 +1464,7 @@
         ]
       },
       "first_seen": "2026-09-14T10:32:12+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -1472,7 +1472,7 @@
       "cik": "800457",
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$729.9M with $1,117.0M of unexplained_liabilities (up to $1,846.9M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$732.7M with $1,117.0M of unexplained_liabilities (up to $1,849.7M)",
       "transient": false,
       "bucket_data": {
         "ticker": "DGICA",
@@ -1537,7 +1537,7 @@
         ]
       },
       "first_seen": "2026-09-14T10:32:12+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
