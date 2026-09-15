@@ -1,0 +1,128 @@
+{
+  "url_date": "2026-09-15",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-09-14"
+  ],
+  "generated_at": "2026-09-15T10:32:45+00:00",
+  "tickers": [
+    {
+      "ticker": "PMTS",
+      "name": "CPI Card Group Inc.",
+      "total_value": 11837491.5,
+      "ev_basic": 520505032.5791607,
+      "mc_basic": 279734032.5791607,
+      "insiders": [
+        {
+          "reporter_name": "Tricor PMT25 Holdings Inc.",
+          "relationship": "10% Owner",
+          "total_value": 11287500.0,
+          "shares": 525000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Riley H Sanford",
+          "relationship": "Director, Other (Non-Executive Chairman)",
+          "total_value": 299989.5,
+          "shares": 13953.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Peters Nicholas",
+          "relationship": "Director",
+          "total_value": 250002.0,
+          "shares": 11628.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "DOMH",
+      "name": "Dominari Holdings Inc.",
+      "total_value": 418380.0,
+      "ev_basic": 29019331.04241085,
+      "mc_basic": 54063331.04241085,
+      "insiders": [
+        {
+          "reporter_name": "Wool Kyle Michael",
+          "relationship": "Director, Officer (President)",
+          "total_value": 209190.0,
+          "shares": 100000.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Hayes Anthony",
+          "relationship": "Director, Officer (CEO)",
+          "total_value": 209190.0,
+          "shares": 100000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SLGL",
+      "name": "Sol-Gel Technologies Ltd.",
+      "total_value": 207398.53,
+      "ev_basic": 170568779.29026794,
+      "mc_basic": 181601779.29026794,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 207398.53,
+          "shares": 3124.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SDHC",
+      "name": "Smith Douglas Homes Corp.",
+      "total_value": 199522.224,
+      "ev_basic": 598739391.1936932,
+      "mc_basic": 546913391.1936932,
+      "insiders": [
+        {
+          "reporter_name": "Bradbury Thomas L",
+          "relationship": "Director, 10% Owner",
+          "total_value": 199522.224,
+          "shares": 19360.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BLNE",
+      "name": "Beeline Holdings, Inc.",
+      "total_value": 152318.31,
+      "ev_basic": 36455401.25312281,
+      "mc_basic": 35562401.25312281,
+      "insiders": [
+        {
+          "reporter_name": "Liuzza Nicholas Reyland JR",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 152318.31,
+          "shares": 148890.0,
+          "txn_count": 3
+        }
+      ]
+    }
+  ],
+  "excluded": [],
+  "unresolved": [
+    {
+      "ticker": "DFH",
+      "name": "Dream Finders Homes, Inc.",
+      "cik": "1825088",
+      "reason": "share count for DFH predates its balance sheet (2026-02-17 < 2026-06-30)",
+      "transient": false
+    },
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$733.2M with $1,117.0M of unexplained_liabilities (up to $1,850.3M)",
+      "transient": false
+    }
+  ]
+}
