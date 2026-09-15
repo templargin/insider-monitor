@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:32:45+00:00",
+  "generated_at": "2026-09-15T15:12:14+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1468,7 +1468,7 @@
       "abandoned": false,
       "last_tried_date": "2026-09-15",
       "last_reason": "no share price for GREE",
-      "last_tried": "2026-09-15T10:30:35+00:00"
+      "last_tried": "2026-09-15T15:09:59+00:00"
     },
     {
       "url_date": "2026-09-14",
@@ -1543,8 +1543,8 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-09-15",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$733.2M with $1,117.0M of unexplained_liabilities (up to $1,850.3M)",
-      "last_tried": "2026-09-15T10:30:36+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$728.8M with $1,117.0M of unexplained_liabilities (up to $1,845.8M)",
+      "last_tried": "2026-09-15T15:10:01+00:00"
     },
     {
       "url_date": "2026-09-15",
@@ -1594,7 +1594,7 @@
         ]
       },
       "first_seen": "2026-09-15T10:32:45+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -1602,7 +1602,7 @@
       "cik": "800457",
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$733.2M with $1,117.0M of unexplained_liabilities (up to $1,850.3M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$728.8M with $1,117.0M of unexplained_liabilities (up to $1,845.8M)",
       "transient": false,
       "bucket_data": {
         "ticker": "DGICA",
@@ -1656,7 +1656,7 @@
         ]
       },
       "first_seen": "2026-09-15T10:32:45+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
