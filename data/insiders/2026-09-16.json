@@ -1,0 +1,136 @@
+{
+  "url_date": "2026-09-16",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-09-15"
+  ],
+  "generated_at": "2026-09-16T10:32:31+00:00",
+  "tickers": [
+    {
+      "ticker": "CARL",
+      "name": "CARLSMED, INC.",
+      "total_value": 3000000.0,
+      "ev_basic": 384958763.3917961,
+      "mc_basic": 415820763.3917961,
+      "insiders": [
+        {
+          "reporter_name": "Presidio Management Group XII, L.L.C.",
+          "relationship": "10% Owner",
+          "total_value": 3000000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "GIII",
+      "name": "G III APPAREL GROUP LTD /DE/",
+      "total_value": 1117600.0,
+      "ev_basic": 668896871.8936539,
+      "mc_basic": 1190251871.8936539,
+      "insiders": [
+        {
+          "reporter_name": "GOLDFARB MORRIS",
+          "relationship": "Director, Officer (CEO)",
+          "total_value": 1117600.0,
+          "shares": 40000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "VENU",
+      "name": "Venu Holding Corp",
+      "total_value": 700000.0,
+      "ev_basic": 149970670.0481968,
+      "mc_basic": 96682151.0481968,
+      "insiders": [
+        {
+          "reporter_name": "ROTH JAY W",
+          "relationship": "Director, Officer (CEO & Chairman), 10% Owner",
+          "total_value": 350000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Finke Thomas M",
+          "relationship": "Director",
+          "total_value": 350000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "LMB",
+      "name": "Limbach Holdings, Inc.",
+      "total_value": 391013.32740000007,
+      "ev_basic": 620763651.8188286,
+      "mc_basic": 602450651.8188286,
+      "insiders": [
+        {
+          "reporter_name": "Horowitz Joshua",
+          "relationship": "Director",
+          "total_value": 391013.32740000007,
+          "shares": 7820.0,
+          "txn_count": 5
+        }
+      ]
+    },
+    {
+      "ticker": "FCEL",
+      "name": "FUELCELL ENERGY INC",
+      "total_value": 246955.37944736,
+      "ev_basic": 695999489.0,
+      "mc_basic": 1219301489.0,
+      "insiders": [
+        {
+          "reporter_name": "Livingston III Homer John",
+          "relationship": "Director",
+          "total_value": 246955.37944736,
+          "shares": 16404.1994,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AFCG",
+      "name": "Advanced Flower Capital Inc.",
+      "total_value": 141443.0,
+      "ev_basic": 49871867.44756746,
+      "mc_basic": 79805154.44756746,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, 10% Owner",
+          "total_value": 141443.0,
+          "shares": 40198.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "GAM",
+      "name": "GENERAL AMERICAN INVESTORS CO INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "CSAN",
+      "name": "Cosan S.A.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "CRT",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "cik": "881787",
+      "reason": "no companyfacts for CIK 881787",
+      "transient": false
+    }
+  ]
+}

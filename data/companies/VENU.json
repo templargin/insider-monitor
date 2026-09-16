@@ -4,20 +4,104 @@
   "name": "Venu Holding Corp",
   "description": "Venu Holding Corporation, an entertainment and hospitality company, designs, develops, owns, and operates up-scale music venues, multi-season amphitheaters, and full-service restaurants and bars in the United States. The company owns and operates indoor music hall venues under the Bourbon Brothers Presents name; multi-seasonal amphitheaters under The Sunset Amphitheater name; restaurants under the Bourbon Brothers Smokehouse & Tavern, Notes Eatery, Roth's Seafood & Chophouse, and Notes Hospitality Collection names; and bars under the Brohan's name. It also hosts events; and operates outdoor amphitheaters; and rents event space. The company was formerly known as Notes Live, Inc. and changed its name to Venu Holding Corporation in September 2024. Venu Holding Corporation was incorporated in 2017 and is based in Colorado Springs, Colorado.",
   "ownership": {
-    "inst_pct": 0.38859,
-    "insider_pct": 0.24455,
-    "inst_count": 112,
+    "inst_pct": 0.38881,
+    "insider_pct": 0.2456,
+    "inst_count": 114,
     "analyst_count": 2,
-    "rec_mean": 1.0,
-    "rec_key": "strong_buy",
+    "rec_mean": null,
+    "rec_key": null,
     "target_mean": 7.4,
-    "short_pct_float": 0.0917,
-    "shares_short": 4129220,
-    "short_days_to_cover": 10.23,
-    "short_as_of": "2026-08-14",
-    "as_of": "2026-08-28"
+    "short_pct_float": 0.1089,
+    "shares_short": 4905505,
+    "short_days_to_cover": 10.66,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-16"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-15",
+      "reporter_name": "ROTH JAY W",
+      "relationship": "Director, Officer (CEO & Chairman), 10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "P",
+      "shares": 200000.0,
+      "price": 1.75,
+      "total_value": 350000.0,
+      "security_title": "Common Stock, par value $0.001",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-042743"
+    },
+    {
+      "date_filed": "2026-09-15",
+      "reporter_name": "Finke Thomas M",
+      "relationship": "Director",
+      "transaction_date": "2026-09-11",
+      "code": "P",
+      "shares": 200000.0,
+      "price": 1.75,
+      "total_value": 350000.0,
+      "security_title": "Common Stock, par value $0.001 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042742"
+    },
+    {
+      "date_filed": "2026-09-09",
+      "reporter_name": "ROTH JAY W",
+      "relationship": "Director, Officer (CEO & Chairman)",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 49.0,
+      "price": 1.8811,
+      "total_value": 92.1739,
+      "security_title": "Common Stock, par value $0.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-041957"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "ROTH JAY W",
+      "relationship": "Director, Officer (CEO & Chairman), 10% Owner",
+      "transaction_date": "2026-09-02",
+      "code": "P",
+      "shares": 1400.0,
+      "price": 1.8295,
+      "total_value": 2561.2999999999997,
+      "security_title": "Common Stock, par value $0.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-041361"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "ROTH JAY W",
+      "relationship": "Director, Officer (CEO & Chairman), 10% Owner",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 2100.0,
+      "price": 1.9048,
+      "total_value": 4000.08,
+      "security_title": "Common Stock, par value $0.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-041271"
+    },
+    {
+      "date_filed": "2026-08-31",
+      "reporter_name": "ROTH JAY W",
+      "relationship": "Director, Officer (CEO & Chairman), 10% Owner",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 2.0168,
+      "total_value": 2016.8,
+      "security_title": "Common Stock, par value $0.001",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-040817"
+    },
     {
       "date_filed": "2026-08-27",
       "reporter_name": "Finke Thomas M",
@@ -1434,7 +1518,7 @@
     }
   ],
   "valuation": {
-    "share_price": 2.0199999809265137,
+    "share_price": 1.7200000286102295,
     "shares_basic": 56210552,
     "shares_basic_as_of": "2026-08-13",
     "options": null,
@@ -1443,8 +1527,8 @@
     "debt": 69572169,
     "debt_flag": null,
     "ttm_revenue": 18606645.0,
-    "mc_basic": 113545313.9678688,
-    "ev_basic": 166833832.9678688
+    "mc_basic": 96682151.0481968,
+    "ev_basic": 149970670.0481968
   },
   "financials": {
     "income_statement": {
@@ -2546,5 +2630,5 @@
       }
     }
   },
-  "last_updated": "2026-08-28T21:15:00+00:00"
+  "last_updated": "2026-09-16T10:32:53+00:00"
 }
