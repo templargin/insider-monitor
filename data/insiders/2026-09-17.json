@@ -4,14 +4,14 @@
   "filing_dates": [
     "2026-09-16"
   ],
-  "generated_at": "2026-09-17T10:32:49+00:00",
+  "generated_at": "2026-09-17T15:13:07+00:00",
   "tickers": [
     {
       "ticker": "USO",
       "name": "United States Oil Fund, LP",
       "total_value": 16608540.470000003,
-      "ev_basic": 969267169.3671722,
-      "mc_basic": 2315002053.3671722,
+      "ev_basic": 948365834.8515167,
+      "mc_basic": 2294100718.8515167,
       "insiders": [
         {
           "reporter_name": "HRT FINANCIAL LP",
@@ -26,8 +26,8 @@
       "ticker": "ACOG",
       "name": "Alpha Cognition Inc.",
       "total_value": 1062505.6192,
-      "ev_basic": 141549795.89240265,
-      "mc_basic": 182934082.89240265,
+      "ev_basic": 155705422.55379868,
+      "mc_basic": 197089709.55379868,
       "insiders": [
         {
           "reporter_name": "Opaleye Management Inc.",
@@ -42,8 +42,8 @@
       "ticker": "BUKS",
       "name": "BUTLER NATIONAL CORP",
       "total_value": 222250.0,
-      "ev_basic": 255263594.12691784,
-      "mc_basic": 258560594.12691784,
+      "ev_basic": 261647799.93845892,
+      "mc_basic": 264944799.93845892,
       "insiders": [
         {
           "reporter_name": "Veradace Partners LP",
@@ -58,8 +58,8 @@
       "ticker": "EU",
       "name": "enCore Energy Corp.",
       "total_value": 150250.0,
-      "ev_basic": 259614253.55359614,
-      "mc_basic": 170967253.55359614,
+      "ev_basic": 266802649.57323653,
+      "mc_basic": 178155649.57323653,
       "insiders": [
         {
           "reporter_name": "SHERIFF WILLIAM M",
@@ -74,8 +74,8 @@
       "ticker": "INM",
       "name": "InMed Pharmaceuticals Inc.",
       "total_value": 118076.01939999999,
-      "ev_basic": 4837567.642822981,
-      "mc_basic": 7031980.642822981,
+      "ev_basic": 5332003.97619617,
+      "mc_basic": 7526416.97619617,
       "insiders": [
         {
           "reporter_name": "ADAR1 Capital Management, LLC",
@@ -90,8 +90,8 @@
       "ticker": "AVBC",
       "name": "Avidia Bancorp, Inc.",
       "total_value": 110600.0,
-      "ev_basic": 793392139.0233612,
-      "mc_basic": 445138139.0233612,
+      "ev_basic": 791894350.8372269,
+      "mc_basic": 443640350.83722687,
       "insiders": [
         {
           "reporter_name": "Murphy Michael Dennis",
@@ -106,8 +106,8 @@
       "ticker": "HCAT",
       "name": "Health Catalyst, Inc.",
       "total_value": 105438.9,
-      "ev_basic": 223083540.56540155,
-      "mc_basic": 130193540.56540155,
+      "ev_basic": 226846356.02689767,
+      "mc_basic": 133956356.02689767,
       "insiders": [
         {
           "reporter_name": "Kohl Simeon",
@@ -151,13 +151,5 @@
       "reason": "no trading symbol \u2014 private or non-traded issuer"
     }
   ],
-  "unresolved": [
-    {
-      "ticker": "TLAC",
-      "name": "Three Lions Acquisition Corp.",
-      "cik": "2128462",
-      "reason": "no share price for TLAC",
-      "transient": true
-    }
-  ]
+  "unresolved": []
 }
