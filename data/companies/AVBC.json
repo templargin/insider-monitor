@@ -4,20 +4,48 @@
   "name": "Avidia Bancorp, Inc.",
   "description": "Avidia Bancorp, Inc. operates as the bank holding company for Avidia Bank that provides various financial services to individual and corporate customers. The company offers savings and checking, certificates of deposit, individual retirement, money market, demand deposit, and interest-bearing and noninterest-bearing checking accounts. It also provides savings, checking, debit cards, credit cards, youth accounts, veterans checking, mobile banking, internet banking, international wires, and health savings and borrowing services, including loans, home equity, mortgages, masshousing homeowner loans, and auto loans. Additionally, the company offers e-banking services, cash management, merchant services, law firm banking, nonprofit banking, and municipal banking services and borrowing services that include commercial loans, commercial mortgage loans, land development loans, business term loans, working capital lines of credit, letters of credit, business manager, dental practice loans, condo association loans, and small business banking partnership services. Further, it offers payments processing services; and invests in liquid assets, including U.S. Treasury securities, U.S. government agency and government-sponsored enterprise securities, mortgage-backed securities, municipal securities, certificates of deposit of federally-insured institutions, and investment grade corporate bonds. Avidia Bancorp, Inc. was founded in 1869 and is headquartered in Hudson, Massachusetts.",
   "ownership": {
-    "inst_pct": 0.36277,
-    "insider_pct": 0.11477,
-    "inst_count": 111,
+    "inst_pct": 0.36251,
+    "insider_pct": 0.115,
+    "inst_count": 113,
     "analyst_count": 1,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": 25.0,
-    "short_pct_float": 0.0232,
-    "shares_short": 413470,
-    "short_days_to_cover": 3.24,
-    "short_as_of": "2026-08-14",
-    "as_of": "2026-08-28"
+    "short_pct_float": 0.0279,
+    "shares_short": 496602,
+    "short_days_to_cover": 2.9,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-17"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Murphy Michael Dennis",
+      "relationship": "Director, Other (Chairman of the Board)",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 22.12,
+      "total_value": 110600.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001437749-26-030507"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Nelson Jonathan Michael",
+      "relationship": "Officer (CFO and Treasurer)",
+      "transaction_date": "2026-09-03",
+      "code": "P",
+      "shares": 4500.0,
+      "price": 22.19,
+      "total_value": 99855.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001437749-26-029624"
+    },
     {
       "date_filed": "2026-08-27",
       "reporter_name": "Grimaldo Joseph F",
@@ -1420,7 +1448,7 @@
     }
   ],
   "valuation": {
-    "share_price": 22.100000381469727,
+    "share_price": 22.290000915527344,
     "shares_basic": 19970306,
     "shares_basic_as_of": "2026-08-13",
     "options": 0,
@@ -1433,8 +1461,8 @@
       "concept": null
     },
     "ttm_revenue": 152748000.0,
-    "mc_basic": 441343770.21806717,
-    "ev_basic": 789597770.2180672
+    "mc_basic": 445138139.0233612,
+    "ev_basic": 793392139.0233612
   },
   "financials": {
     "income_statement": {
@@ -2234,5 +2262,5 @@
       }
     }
   },
-  "last_updated": "2026-08-28T21:16:01+00:00"
+  "last_updated": "2026-09-17T10:36:09+00:00"
 }

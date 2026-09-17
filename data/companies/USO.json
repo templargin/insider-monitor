@@ -1,0 +1,777 @@
+{
+  "ticker": "USO",
+  "cik": "1327068",
+  "name": "United States Oil Fund, LP",
+  "description": "USO seeks to achieve its investment objective by investing primarily in futures contracts for light, sweet crude oil, other types of crude oil, diesel-heating oil, gasoline, natural gas, and other petroleum-based fuels.",
+  "ownership": {
+    "inst_pct": null,
+    "insider_pct": null,
+    "inst_count": null,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": null,
+    "shares_short": null,
+    "short_days_to_cover": null,
+    "short_as_of": null,
+    "as_of": "2026-09-17"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-15",
+      "code": "S",
+      "shares": -1218.0,
+      "price": 160.76,
+      "total_value": -195805.68,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 13649.0,
+      "price": 155.3,
+      "total_value": 2119689.7,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 2157.0,
+      "price": 156.52,
+      "total_value": 337613.64,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 43178.0,
+      "price": 157.37,
+      "total_value": 6794921.86,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 2553.0,
+      "price": 158.08,
+      "total_value": 403578.24000000005,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 13203.0,
+      "price": 159.24,
+      "total_value": 2102445.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 26472.0,
+      "price": 160.0,
+      "total_value": 4235520.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "S",
+      "shares": -44935.0,
+      "price": 153.01,
+      "total_value": -6875504.35,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "P",
+      "shares": 3621.0,
+      "price": 153.97,
+      "total_value": 557525.37,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "S",
+      "shares": -31901.0,
+      "price": 154.85,
+      "total_value": -4939869.85,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "P",
+      "shares": 86.0,
+      "price": 156.27,
+      "total_value": 13439.220000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "S",
+      "shares": -98.0,
+      "price": 156.94,
+      "total_value": -15380.119999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "S",
+      "shares": -178.0,
+      "price": 157.72,
+      "total_value": -28074.16,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-11",
+      "code": "P",
+      "shares": 276.0,
+      "price": 158.72,
+      "total_value": 43806.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000246"
+    }
+  ],
+  "valuation": {
+    "share_price": 156.1699981689453,
+    "shares_basic": 14823603,
+    "shares_basic_as_of": "2026-08-04",
+    "options": null,
+    "warrants": null,
+    "cash": 1345734884,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 596621312.0,
+    "mc_basic": 2315002053.3671722,
+    "ev_basic": 969267169.3671722
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "",
+          "Pretax Income",
+          "Net Income",
+          "Net Margin %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -361990706,
+            986389834,
+            -53339285,
+            25561469
+          ],
+          [
+            -411.081211308253,
+            2226.127453572126,
+            -153.9455417209783,
+            119.25168816154293
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -365434420,
+            983746930,
+            -55462540,
+            23463970
+          ],
+          [
+            -365434420,
+            983746930,
+            -55462540,
+            23463970
+          ],
+          [
+            100.9513266343363,
+            99.73206293202733,
+            103.98065890834495,
+            91.79429398208687
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "",
+          "Pretax Income",
+          "Net Income",
+          "Net Margin %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            596621312,
+            -56201422,
+            231916262,
+            -34899677,
+            800711874
+          ],
+          [
+            1161.576897467114,
+            -124.23349769236967,
+            764.5226601953938,
+            -104.35858117423147,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            586313940,
+            -64657517,
+            221118191,
+            -46043522,
+            785240277
+          ],
+          [
+            586313940,
+            -64657517,
+            221118191,
+            -46043522,
+            785240277
+          ],
+          [
+            98.27237616345828,
+            115.04605168175281,
+            95.34397850893268,
+            131.9310834882512,
+            98.06776975559126
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            1345734884,
+            1957524915,
+            651873522,
+            700563699
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            558412385,
+            786559983,
+            237744838,
+            202304506
+          ],
+          [
+            1904147269,
+            2744084898,
+            889618360,
+            902868205
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            150422027,
+            99475218,
+            3541948,
+            18198818
+          ],
+          [
+            150422027,
+            99475218,
+            3541948,
+            18198818
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1753725242,
+            2644609680,
+            886076412,
+            884669387
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1345734884,
+            651873522,
+            727450000,
+            952408574,
+            856400000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            558412385,
+            237744838,
+            371633929,
+            634304082,
+            1126560872
+          ],
+          [
+            1904147269,
+            889618360,
+            1099083929,
+            1586712656,
+            1982960872
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            150422027,
+            3541948,
+            10860442,
+            19367115,
+            5945534
+          ],
+          [
+            150422027,
+            3541948,
+            10860442,
+            19367115,
+            5945534
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1753725242,
+            886076412,
+            1088223487,
+            1567345541,
+            1977015338
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -365434420,
+            983746930,
+            -55462540,
+            23463970
+          ],
+          [
+            642592065,
+            -351936708,
+            5418482,
+            -50809390
+          ],
+          [
+            277157645,
+            631810222,
+            -50044058,
+            -27345420
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -398856007,
+            774786338,
+            42153676,
+            -334477218
+          ],
+          [
+            -398856007,
+            774786338,
+            42153676,
+            -334477218
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            586313940,
+            -64657517,
+            221118191,
+            -46043522,
+            785240277
+          ],
+          [
+            245264449,
+            42788402,
+            -45379509,
+            33255037,
+            86622033
+          ],
+          [
+            831578389,
+            -21869115,
+            175738682,
+            -12788485,
+            871862310
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            83606789,
+            -92219266,
+            -631725311,
+            -477411501,
+            -1182384205
+          ],
+          [
+            83606789,
+            -92219266,
+            -631725311,
+            -477411501,
+            -1182384205
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -20.837609635090146,
+            37.198189866717875,
+            -6.259340531908889,
+            2.652286870643123
+          ],
+          [
+            -19.191499835614866,
+            35.849726468630564,
+            -6.234419442512405,
+            2.598825594927224
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            33.432485657294315,
+            -7.297058822958488,
+            20.31918936151394,
+            -2.937675247452023,
+            39.718471673283496
+          ],
+          [
+            30.79141774091424,
+            -7.268006136923703,
+            20.118408172994037,
+            -2.9018185382142687,
+            39.59938333064597
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-09-17T10:33:19+00:00"
+}

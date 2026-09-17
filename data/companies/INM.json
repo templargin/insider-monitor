@@ -3,7 +3,245 @@
   "cik": "1728328",
   "name": "InMed Pharmaceuticals Inc.",
   "description": "InMed Pharmaceuticals Inc., a clinical stage pharmaceutical company, develops a pipeline of prescription-based products in the United States. The company operates through two segments, InMed Pharmaceuticals and BayMedica Commercial. The InMed Pharmaceuticals segment researches and develops cannabinoid-based pharmaceuticals products. The BayMedica Commercial segment develops proprietary manufacturing technologies to produce and sell rare cannabinoids for the health and wellness industry. Its prescription-based products include rare cannabinoids and novel cannabinoid analogs for the treatment of diseases with unmet medical needs. The company's lead product consists of INM-755, a cannabinol topical skin cream that has completed Phase 2 clinical trial for the treatment of epidermolysis bullosa. It also develops INM-089, a small molecule compound that acts as a selective dual CB1/CB2 agonist; and INM-900 for neurodegenerative diseases, as well as INM-901, a small molecule for treatment of Alzheimer's disease. In addition, the company offers IntegraSyn, an integrated biosynthesis-based manufacturing approach for pharmaceutical-grade cannabinoids; and cannabichromene, cannabicitran, cannabidivarin, and tetrahydrocannabivarin. The company was formerly known as Cannabis Technologies Inc. and changed its name to InMed Pharmaceuticals Inc. in October 2014. InMed Pharmaceuticals Inc. was incorporated in 1981 and is headquartered in Vancouver, Canada.",
+  "ownership": {
+    "inst_pct": 0.51067,
+    "insider_pct": 0.00062,
+    "inst_count": 22,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0058,
+    "shares_short": 30769,
+    "short_days_to_cover": 0.33,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-17"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "ADAR1 Capital Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 8340.0,
+      "price": 1.289,
+      "total_value": 10750.26,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001940272-26-000021"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "ADAR1 Capital Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-15",
+      "code": "P",
+      "shares": 54256.0,
+      "price": 1.2984,
+      "total_value": 70445.9904,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001940272-26-000021"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "ADAR1 Capital Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 28505.0,
+      "price": 1.2938,
+      "total_value": 36879.769,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001940272-26-000021"
+    },
+    {
+      "date_filed": "2026-07-17",
+      "reporter_name": "ADAR1 Capital Management, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-15",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 1.555,
+      "total_value": 1555.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001940272-26-000010"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-16",
+      "code": "P",
+      "shares": 19.0,
+      "price": 1.55,
+      "total_value": 29.45,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-078891"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-16",
+      "code": "P",
+      "shares": 2.0,
+      "price": 1.55,
+      "total_value": 3.1,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-078891"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-15",
+      "code": "P",
+      "shares": 13761.0,
+      "price": 1.55,
+      "total_value": 21329.55,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-078891"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-15",
+      "code": "P",
+      "shares": 1389.0,
+      "price": 1.55,
+      "total_value": 2152.9500000000003,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-078891"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-14",
+      "code": "P",
+      "shares": 4882.0,
+      "price": 1.55,
+      "total_value": 7567.1,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-078891"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-14",
+      "code": "P",
+      "shares": 493.0,
+      "price": 1.55,
+      "total_value": 764.15,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-078891"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-02",
+      "code": "P",
+      "shares": 1460.0,
+      "price": 1.55,
+      "total_value": 2263.0,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-075144"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-02",
+      "code": "P",
+      "shares": 147.0,
+      "price": 1.55,
+      "total_value": 227.85,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-075144"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-01",
+      "code": "P",
+      "shares": 3946.0,
+      "price": 1.55,
+      "total_value": 6116.3,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-075144"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-01",
+      "code": "P",
+      "shares": 398.0,
+      "price": 1.55,
+      "total_value": 616.9,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-075144"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "P",
+      "shares": 545.0,
+      "price": 1.54,
+      "total_value": 839.3000000000001,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-075144"
+    },
+    {
+      "date_filed": "2026-07-02",
+      "reporter_name": "Vivo Opportunity, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "P",
+      "shares": 55.0,
+      "price": 1.54,
+      "total_value": 84.7,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-075144"
+    },
     {
       "date_filed": "2026-06-10",
       "reporter_name": "Vivo Opportunity, LLC",
@@ -633,34 +871,20 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001213900-24-111543"
-    },
-    {
-      "date_filed": "2024-08-02",
-      "reporter_name": "MANCINI ALEXANDRA DIANE JANET",
-      "relationship": "Other (Consultant)",
-      "transaction_date": "2024-07-31",
-      "code": "S",
-      "shares": -240.0,
-      "price": 0.1763,
-      "total_value": -42.312000000000005,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001213900-24-064728"
     }
   ],
   "valuation": {
-    "share_price": 1.5500999689102173,
-    "shares_basic": 3314063,
-    "shares_basic_as_of": "2026-05-04",
-    "options": 186098,
+    "share_price": 1.2799999713897705,
+    "shares_basic": 5493735,
+    "shares_basic_as_of": "2026-09-02",
+    "options": 167021,
     "warrants": 694017,
-    "cash": 5158932,
+    "cash": 2194413,
     "debt": null,
-    "ttm_revenue": 3245019.0,
-    "mc_basic": 5137128.953266501,
-    "ev_basic": -21803.046733498573,
-    "debt_flag": null
+    "debt_flag": null,
+    "ttm_revenue": 1940309.0,
+    "mc_basic": 7031980.642822981,
+    "ev_basic": 4837567.642822981
   },
   "financials": {
     "income_statement": {
@@ -686,47 +910,47 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
             null,
+            null,
             820188,
-            1120121,
-            1304710
+            1120121
           ],
           [
+            null,
             null,
             -26.222646794524096,
-            -11.42753894790446,
-            1.6868176018867291
+            -11.42753894790446
           ],
           [
+            null,
             null,
             635994,
-            716962,
-            728056
+            716962
           ],
           [
+            null,
             null,
             184194,
-            403159,
-            576654
+            403159
           ],
           [
+            null,
             null,
             -60.03549623123755,
-            -18.29177585511529,
-            23.726642507257477
+            -18.29177585511529
           ],
           [
+            null,
             null,
             22.45753412632226,
-            35.99245081558153,
-            44.197867725394914
+            35.99245081558153
           ],
           [
             null,
@@ -735,16 +959,16 @@
             null
           ],
           [
+            2357049,
             1742016,
             1621095,
-            1532015,
-            2402329
+            1532015
           ],
           [
+            805741,
             1022630,
             630636,
-            581612,
-            609972
+            581612
           ],
           [
             null,
@@ -753,22 +977,22 @@
             null
           ],
           [
+            -5839392,
             -2966336,
             -2028223,
-            -1726899,
-            -1788311
+            -1726899
           ],
           [
+            -5839392,
             -2966336,
             -2028223,
-            -1726899,
-            -1788311
+            -1726899
           ],
           [
+            null,
             null,
             -247.2875730929982,
-            -154.17075476667253,
-            -137.06578473377226
+            -154.17075476667253
           ],
           [
             null,
@@ -777,28 +1001,28 @@
             null
           ],
           [
+            -1.4300000000000002,
             -0.73,
             -0.51,
-            -0.44,
-            -0.4299999999999997
+            -0.44
           ],
           [
+            -1.4300000000000002,
             -0.73,
             -0.51,
-            -0.44,
-            -0.4299999999999997
+            -0.44
           ],
           [
+            null,
             4048209,
             3954549,
-            3954549,
-            null
+            3954549
           ],
           [
+            null,
             4048209,
             3954549,
-            3954549,
-            null
+            3954549
           ]
         ]
       },
@@ -816,7 +1040,6 @@
           "Operating Expense",
           "",
           "Operating Income",
-          "Operating Income YoY %",
           "Operating Margin %",
           "EBITDA",
           "EBITDA Margin %",
@@ -835,53 +1058,53 @@
         ],
         "periods": [
           "LTM",
+          "6/30/26",
           "6/30/25",
           "6/30/24",
-          "6/30/23",
-          "6/30/22"
+          "6/30/23"
         ],
         "data": [
           [
             null,
+            null,
             4942633,
             4597730,
-            4135561,
-            1089435
+            4135561
           ],
           [
+            null,
             null,
             7.501593177502811,
             11.175485018840249,
-            279.6060343205423,
             null
           ],
           [
+            null,
             null,
             3236047,
             3496817,
-            2732525,
-            545889
+            2732525
           ],
           [
+            null,
             null,
             1706586,
             1100913,
-            1403036,
-            543546
+            1403036
           ],
           [
+            null,
             null,
             55.015518937463725,
             -21.533517315307662,
-            158.12645111913253,
             null
           ],
           [
+            null,
             null,
             34.527872087609985,
             23.944707496960458,
-            33.92613480976342,
-            49.892467196299
+            33.92613480976342
           ],
           [
             null,
@@ -891,67 +1114,25 @@
             null
           ],
           [
-            7297455,
-            6557822,
+            7252175,
+            6661372,
+            5414525,
             5798226,
-            5847518,
-            6867030
+            5847518
           ],
           [
-            2844850,
-            2853920,
+            3040619,
+            3028473,
+            2821202,
             3217517,
-            3732056,
-            7282615
-          ],
-          [
-            null,
-            null,
-            null,
-            9350658,
-            19143663
+            3732056
           ],
           [
             null,
             null,
             null,
             null,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            -7947622,
-            -18600117
-          ],
-          [
-            null,
-            null,
-            null,
-            57.27111824081537,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            -192.17760299025937,
-            -1707.317738093599
-          ],
-          [
-            null,
-            null,
-            null,
-            -7745373,
-            -18414460
-          ],
-          [
-            null,
-            null,
-            null,
-            -187.28711775742156,
-            -1690.2761523174856
+            9350658
           ],
           [
             null,
@@ -964,43 +1145,78 @@
             null,
             null,
             null,
-            15860722,
-            37200117
+            null,
+            -7947622
           ],
           [
-            -8509769,
+            null,
+            null,
+            null,
+            null,
+            -192.17760299025937
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            -7745373
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            -187.28711775742156
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            15860722
+          ],
+          [
+            -12560850,
+            -12560850,
             -8162133,
             -7668450,
-            7913100,
-            18600000
+            7913100
           ],
           [
+            null,
             null,
             null,
             7100,
-            13100,
-            null
+            13100
           ],
           [
-            -8509769,
+            -12560850,
+            -12560850,
             -8162133,
             -7675550,
-            7900000,
-            18600000
+            7900000
           ],
           [
-            -8509769,
+            -12560850,
+            -12560850,
             -8162133,
             -7675550,
-            -7947622,
-            -18600117
+            -7947622
           ],
           [
+            null,
             null,
             -165.13734683517873,
             -166.942164937915,
-            191.02607844498002,
-            1707.3069985818338
+            191.02607844498002
           ],
           [
             null,
@@ -1010,32 +1226,32 @@
             null
           ],
           [
-            -2.11,
+            -3.1100000000000003,
+            -3.12,
             -8.36,
             -20.14,
-            3.25,
-            33.17
+            3.25
           ],
           [
-            -2.11,
+            -3.1100000000000003,
+            -3.12,
             -8.36,
             -20.14,
-            3.25,
-            33.17
+            3.25
           ],
           [
-            4048209,
-            975985,
+            null,
+            4163598,
+            975895,
             381053,
-            2448458,
-            560829
+            2448458
           ],
           [
-            4048209,
-            975985,
+            null,
+            4163598,
+            975895,
             381053,
-            2448458,
-            560829
+            2448458
           ]
         ]
       }
@@ -1064,47 +1280,47 @@
           "Total Equity"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            2194413,
             5158932,
             6954834,
-            9331077,
-            10743430
+            9331077
           ],
           [
+            39670,
             41625,
             42675,
-            42859,
-            43384
+            42859
           ],
           [
+            null,
             null,
             182967,
-            343469,
-            465104
+            343469
           ],
           [
+            null,
             null,
             947898,
-            890807,
-            961173
+            890807
           ],
           [
+            null,
             1687524,
             660280,
-            null,
-            654188
+            null
           ],
           [
+            2676706,
             6888081,
             8788654,
-            10799967,
-            12867279
+            10799967
           ],
           [
             null,
@@ -1113,22 +1329,22 @@
             null
           ],
           [
+            221037,
             642884,
             764254,
-            881549,
-            992199
+            881549
           ],
           [
+            0,
             1498473,
             1538576,
-            1579569,
-            1620562
+            1579569
           ],
           [
+            3030067,
             9133806,
             11191484,
-            13361085,
-            15580040
+            13361085
           ],
           [
             null,
@@ -1137,34 +1353,34 @@
             null
           ],
           [
+            null,
             389381,
             408122,
-            424765,
-            435507
+            424765
           ],
           [
+            1955060,
             1821885,
             1071871,
-            1130219,
-            1404283
+            1130219
           ],
           [
+            1955060,
             2211266,
             1479993,
-            1554984,
-            1839790
+            1554984
           ],
           [
+            null,
             30766,
             123827,
-            215478,
-            305755
+            215478
           ],
           [
+            1955060,
             2242032,
             1603820,
-            1770462,
-            2145545
+            1770462
           ],
           [
             null,
@@ -1173,16 +1389,16 @@
             null
           ],
           [
+            -130230406,
             -123959350,
             -120993014,
-            -118964791,
-            -117237892
+            -118964791
           ],
           [
+            1075007,
             6891774,
             9587664,
-            11590623,
-            13434495
+            11590623
           ]
         ]
       },
@@ -1211,53 +1427,53 @@
         ],
         "periods": [
           "LTM",
+          "6/30/26",
           "6/30/25",
           "6/30/24",
-          "6/30/23",
-          "6/30/22"
+          "6/30/23"
         ],
         "data": [
           [
-            5158932,
+            2194413,
+            2194413,
             10743430,
             6571610,
-            8912517,
-            6176866
+            8912517
           ],
           [
-            41625,
+            39670,
+            39670,
             43384,
             43064,
-            44422,
-            44804
+            44422
           ],
           [
+            null,
             null,
             465104,
             352838,
-            260399,
-            88027
+            260399
           ],
           [
+            null,
             null,
             961173,
             1244324,
-            1616356,
-            2490854
+            1616356
           ],
           [
-            1687524,
+            null,
+            null,
             654188,
             null,
-            null,
-            797225
+            null
           ],
           [
-            6888081,
+            2676706,
+            2676706,
             12867279,
             8689585,
-            11331727,
-            9597776
+            11331727
           ],
           [
             null,
@@ -1267,25 +1483,25 @@
             null
           ],
           [
-            642884,
+            221037,
+            221037,
             992199,
             1249999,
-            723426,
-            904252
+            723426
           ],
           [
-            1498473,
+            0,
+            0,
             1620562,
             1783198,
-            1946279,
-            2108915
+            1946279
           ],
           [
-            9133806,
+            3030067,
+            3030067,
             15580040,
             11822782,
-            14106340,
-            12787580
+            14106340
           ],
           [
             null,
@@ -1295,46 +1511,46 @@
             null
           ],
           [
+            null,
             null,
             null,
             41004,
-            null,
             null
           ],
           [
-            389381,
+            null,
+            null,
             435507,
             317797,
-            375713,
-            404276
+            375713
           ],
           [
-            1821885,
+            1955060,
+            1955060,
             1404283,
             1613007,
-            1624906,
-            2915265
+            1624906
           ],
           [
-            2211266,
+            1955060,
+            1955060,
             1839790,
             1971808,
-            2000619,
-            3319541
+            2000619
           ],
           [
-            30766,
+            null,
+            null,
             305755,
             644865,
-            15994,
-            389498
+            15994
           ],
           [
-            2242032,
+            1955060,
+            1955060,
             2145545,
             2616673,
-            2016613,
-            3709039
+            2016613
           ],
           [
             null,
@@ -1344,18 +1560,18 @@
             null
           ],
           [
-            -123959350,
+            -130230406,
+            -130230406,
             -117237892,
             -109075759,
-            -101400209,
-            -93452587
+            -101400209
           ],
           [
-            6891774,
+            1075007,
+            1075007,
             13434495,
             9206109,
-            12089727,
-            9078541
+            12089727
           ]
         ]
       }
@@ -1371,45 +1587,44 @@
           "",
           "Investing Cash Flow",
           "",
-          "Other Financing",
           "Financing Cash Flow"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            -5839392,
             -2966336,
             -2028223,
-            -1726899,
-            -1788311
+            -1726899
           ],
           [
+            48359,
             50509,
             53201,
-            53202,
-            52752
+            53202
           ],
           [
+            22626,
             38771,
             25264,
-            20205,
-            26730
+            20205
           ],
           [
+            2803889,
             1181920,
             -426485,
-            45876,
-            -69677
+            45876
           ],
           [
+            -2964518,
             -1695136,
             -2376243,
-            -1607616,
-            -1778506
+            -1607616
           ],
           [
             null,
@@ -1418,13 +1633,7 @@
             null
           ],
           [
-            null,
-            null,
-            null,
-            0
-          ],
-          [
-            null,
+            0,
             null,
             null,
             null
@@ -1433,13 +1642,13 @@
             null,
             null,
             null,
-            8174551
+            null
           ],
           [
+            -1,
             231675,
             0,
-            -137178,
-            8174551
+            -137178
           ]
         ]
       },
@@ -1453,10 +1662,8 @@
           "",
           "CapEx",
           "Acquisitions",
-          "Other Investing",
           "Investing Cash Flow",
           "",
-          "Debt Repayment",
           "Stock Issuance",
           "Other Financing",
           "Financing Cash Flow",
@@ -1465,46 +1672,46 @@
         ],
         "periods": [
           "LTM",
+          "6/30/26",
           "6/30/25",
           "6/30/24",
-          "6/30/23",
-          "6/30/22"
+          "6/30/23"
         ],
         "data": [
           [
-            -8509769,
+            -12560850,
+            -12560850,
             -8162133,
             -7675550,
-            7900000,
-            18600000
+            7900000
           ],
           [
-            209664,
+            205271,
+            205271,
             212839,
             219600,
-            202249,
-            185657
+            202249
           ],
           [
-            110970,
+            106866,
+            106866,
             119307,
             137714,
-            278155,
-            697894
+            278155
           ],
           [
-            731634,
-            63036,
+            3605200,
+            3605200,
+            -269405,
             332404,
-            -15663603,
-            -35067309
+            -15663603
           ],
           [
-            -7457501,
-            -7766951,
+            -8643513,
+            -8643513,
+            -8099392,
             -6985832,
-            -7283199,
-            -15583758
+            -7283199
           ],
           [
             null,
@@ -1512,34 +1719,27 @@
             null,
             null,
             null
+          ],
+          [
+            null,
+            null,
+            0,
+            -9293,
+            -160014
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            -500000
           ],
           [
             null,
             0,
-            -9293,
-            -160014,
-            -39108
-          ],
-          [
-            null,
-            null,
-            null,
-            -500000,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            null,
-            -633891
-          ],
-          [
-            null,
             0,
             -9293,
-            -661804,
-            -672999
+            -661804
           ],
           [
             null,
@@ -1553,28 +1753,21 @@
             null,
             null,
             null,
-            -290826
+            12000436
           ],
           [
             null,
             null,
-            null,
-            12000436,
-            17146114
-          ],
-          [
-            8269048,
             12271212,
             4654218,
-            -1319782,
-            -1784791
+            -1319782
           ],
           [
-            8269048,
+            94496,
+            94496,
             12271212,
             4654218,
-            10680654,
-            15070497
+            10680654
           ],
           [
             null,
@@ -1585,10 +1778,10 @@
           ],
           [
             null,
-            -7766951,
+            null,
+            -8099392,
             -6995125,
-            -7443213,
-            -15622866
+            -7443213
           ]
         ]
       }
@@ -1606,23 +1799,23 @@
           "ROA %"
         ],
         "periods": [
+          "6/30/26",
           "3/31/26",
           "12/31/25",
-          "9/30/25",
-          "6/30/25"
+          "9/30/25"
         ],
         "data": [
           [
+            1.3691170603459741,
             3.114994306428987,
             5.938307816320753,
-            6.945387862511769,
-            6.993884628136907
+            6.945387862511769
           ],
           [
+            null,
             null,
             5.297833165427134,
-            6.372515730065389,
-            6.471448371825045
+            6.372515730065389
           ],
           [
             null,
@@ -1637,10 +1830,10 @@
             null
           ],
           [
+            721646,
             4676815,
             7308661,
-            9244983,
-            11027489
+            9244983
           ],
           [
             null,
@@ -1649,16 +1842,16 @@
             null
           ],
           [
+            -543.1957187255525,
             -43.04168999157547,
             -21.15450645746451,
-            -14.89910421553699,
-            -13.311337716825232
+            -14.89910421553699
           ],
           [
+            -192.71494656718812,
             -32.47645067127548,
             -18.12291381554046,
-            -12.924841058940947,
-            -11.478218284420322
+            -12.924841058940947
           ]
         ]
       },
@@ -1675,25 +1868,25 @@
         ],
         "periods": [
           "LTM",
+          "6/30/26",
           "6/30/25",
           "6/30/24",
-          "6/30/23",
-          "6/30/22"
+          "6/30/23"
         ],
         "data": [
           [
-            3.114994306428987,
+            1.3691170603459741,
+            1.3691170603459741,
             6.993884628136907,
             4.406912336292377,
-            5.664110457813306,
-            2.8912961159389203
+            5.664110457813306
           ],
           [
+            null,
             null,
             6.471448371825045,
             3.775854951394862,
-            4.856182511512687,
-            2.140935147359228
+            4.856182511512687
           ],
           [
             null,
@@ -1706,15 +1899,15 @@
             null,
             null,
             null,
-            -187.28711775742156,
-            -1690.2761523174856
+            null,
+            -187.28711775742156
           ],
           [
-            4676815,
+            721646,
+            721646,
             11027489,
             6717777,
-            9331108,
-            6278235
+            9331108
           ],
           [
             null,
@@ -1724,41 +1917,22 @@
             null
           ],
           [
-            -123.47719179415924,
+            -1168.4435543210416,
+            -1168.4435543210416,
             -60.75504140646895,
             -83.37452880473172,
-            65.34473441790703,
-            204.8787354708207
+            65.34473441790703
           ],
           [
-            -93.16783167936784,
+            -414.54033854696945,
+            -414.54033854696945,
             -52.38839566522294,
             -64.92169101993085,
-            56.003187219363774,
-            145.45363548067735
+            56.003187219363774
           ]
         ]
       }
     }
   },
-  "last_updated": "2026-06-11T14:29:45+00:00",
-  "ownership": {
-    "inst_pct": 0.69874,
-    "insider_pct": 0.00124,
-    "inst_count": 14,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.026700001,
-    "shares_short": 141779,
-    "short_days_to_cover": 2.07,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-09-17T10:35:50+00:00"
 }

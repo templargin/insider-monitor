@@ -1,0 +1,3089 @@
+{
+  "ticker": "HCAT",
+  "cik": "1636422",
+  "name": "Health Catalyst, Inc.",
+  "description": "Health Catalyst, Inc. provides data and analytics technology and services to healthcare organizations in the United States. The company operates in two segments: Technology and Professional Services. It offers ignite data and analytics platform that provides clients a single comprehensive environment to integrate and organize data from their disparate software systems; and applications, a software analytics applications build for ignite platform to analyze clients face across clinical improvement, revenue and cost improvement, ambulatory operations, measures and registries, and data and analytics. The company also provides expertise solutions comprising data and analytics, domain expertise and education, tech-enabled managed, and implementation services; and opportunity analysis and prioritization, data governance, data modeling and analysis, quality and process improvement strategy, cost accounting, data abstraction, and population health strategies. It serves academic medical centers, integrated delivery networks, community hospitals, large physician practices, accountable care organizations, health information exchanges, health insurers, life science organizations, healthcare technology vendors, and other risk-bearing entities. The company was formerly known as HQC Holdings, Inc. and changed its name to Health Catalyst, Inc. in March 2017. Health Catalyst, Inc. was founded in 2008 and is headquartered in South Jordan, Utah.",
+  "ownership": {
+    "inst_pct": 0.71478,
+    "insider_pct": 0.05623,
+    "inst_count": 162,
+    "analyst_count": 4,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 1.825,
+    "short_pct_float": 0.0319,
+    "shares_short": 1951385,
+    "short_days_to_cover": 2.15,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-17"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Kohl Simeon",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-14",
+      "code": "A",
+      "shares": 2747385.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001703807-26-000006"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Kohl Simeon",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 59000.0,
+      "price": 1.7871,
+      "total_value": 105438.9,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001703807-26-000006"
+    },
+    {
+      "date_filed": "2026-09-11",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-09-10",
+      "code": "F",
+      "shares": -35244.0,
+      "price": 1.6747,
+      "total_value": -59023.126800000005,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000008"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2026-09-01",
+      "code": "A",
+      "shares": 9766.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796545-26-000004"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-09-01",
+      "code": "F",
+      "shares": -17973.0,
+      "price": 1.7036,
+      "total_value": -30618.8028,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-26-000004"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-09-01",
+      "code": "F",
+      "shares": -321.0,
+      "price": 1.7036,
+      "total_value": -546.8556,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000007"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2026-09-01",
+      "code": "F",
+      "shares": -13167.0,
+      "price": 1.7036,
+      "total_value": -22431.3012,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-26-000004"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Hoggard Green Jill",
+      "relationship": "Director",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 80691.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002046471-26-000001"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 80691.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796545-26-000003"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Nelson Steven H",
+      "relationship": "Director",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 80691.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001320490-26-000003"
+    },
+    {
+      "date_filed": "2026-07-20",
+      "reporter_name": "Spencer Justin",
+      "relationship": "Director",
+      "transaction_date": "2026-07-16",
+      "code": "A",
+      "shares": 80691.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001397180-26-000001"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-06-10",
+      "code": "F",
+      "shares": -34485.0,
+      "price": 1.6918,
+      "total_value": -58341.723,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000006"
+    },
+    {
+      "date_filed": "2026-06-03",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-06-01",
+      "code": "F",
+      "shares": -336.0,
+      "price": 1.3702,
+      "total_value": -460.3872,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000005"
+    },
+    {
+      "date_filed": "2026-06-03",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2026-06-01",
+      "code": "F",
+      "shares": -8519.0,
+      "price": 1.3702,
+      "total_value": -11672.7338,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780878-26-000003"
+    },
+    {
+      "date_filed": "2026-06-03",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-06-01",
+      "code": "F",
+      "shares": -18804.0,
+      "price": 1.3702,
+      "total_value": -25765.240800000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-26-000003"
+    },
+    {
+      "date_filed": "2026-06-03",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2026-06-01",
+      "code": "F",
+      "shares": -13779.0,
+      "price": 1.3702,
+      "total_value": -18879.985800000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-26-000003"
+    },
+    {
+      "date_filed": "2026-06-03",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2026-06-01",
+      "code": "A",
+      "shares": 12710.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796545-26-000002"
+    },
+    {
+      "date_filed": "2026-05-04",
+      "reporter_name": "Nelson Steven H",
+      "relationship": "Director",
+      "transaction_date": "2026-05-01",
+      "code": "A",
+      "shares": 154808.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001320490-26-000002"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-05-01",
+      "code": "F",
+      "shares": -310.0,
+      "price": 1.345,
+      "total_value": -416.95,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000004"
+    },
+    {
+      "date_filed": "2026-05-01",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-04-29",
+      "code": "A",
+      "shares": 1124.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000004"
+    },
+    {
+      "date_filed": "2026-03-13",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-03-10",
+      "code": "F",
+      "shares": -70455.0,
+      "price": 1.8481,
+      "total_value": -130207.8855,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000003"
+    },
+    {
+      "date_filed": "2026-03-05",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2026-03-02",
+      "code": "F",
+      "shares": -20838.0,
+      "price": 1.6599,
+      "total_value": -34588.9962,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-26-000002"
+    },
+    {
+      "date_filed": "2026-03-05",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-02",
+      "code": "F",
+      "shares": -26970.0,
+      "price": 1.6599,
+      "total_value": -44767.503,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-26-000002"
+    },
+    {
+      "date_filed": "2026-03-05",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-03-02",
+      "code": "F",
+      "shares": -4966.0,
+      "price": 1.6599,
+      "total_value": -8243.0634,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000002"
+    },
+    {
+      "date_filed": "2026-03-05",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2026-03-02",
+      "code": "F",
+      "shares": -13836.0,
+      "price": 1.6599,
+      "total_value": -22966.376399999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780878-26-000002"
+    },
+    {
+      "date_filed": "2026-03-05",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2026-03-01",
+      "code": "A",
+      "shares": 8361.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796545-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-02-26",
+      "code": "F",
+      "shares": -13304.0,
+      "price": 1.7478,
+      "total_value": -23252.731200000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2026-02-26",
+      "code": "F",
+      "shares": -4471.0,
+      "price": 1.7478,
+      "total_value": -7814.4138,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780878-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2026-02-26",
+      "code": "F",
+      "shares": -6317.0,
+      "price": 1.7478,
+      "total_value": -11040.8526,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-02-26",
+      "code": "F",
+      "shares": -7522.0,
+      "price": 1.7478,
+      "total_value": -13146.9516,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 930000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Director, Officer (CEO)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 38833.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 191500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780878-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 13195.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780878-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 289000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 16473.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 507500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-26-000001"
+    },
+    {
+      "date_filed": "2026-02-27",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-02-25",
+      "code": "A",
+      "shares": 22222.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-26-000001"
+    },
+    {
+      "date_filed": "2026-02-19",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2026-02-17",
+      "code": "A",
+      "shares": 7562.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780880-26-000001"
+    },
+    {
+      "date_filed": "2025-12-09",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-12-05",
+      "code": "S",
+      "shares": -27425.0,
+      "price": 2.6373,
+      "total_value": -72327.9525,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-25-000003"
+    },
+    {
+      "date_filed": "2025-12-09",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2025-12-04",
+      "code": "S",
+      "shares": -47997.0,
+      "price": 2.6741,
+      "total_value": -128348.7777,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796545-25-000003"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2025-12-01",
+      "code": "A",
+      "shares": 5731.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796545-25-000002"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2025-12-01",
+      "code": "A",
+      "shares": 6209.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780880-25-000002"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-12-01",
+      "code": "F",
+      "shares": -14387.0,
+      "price": 2.9002,
+      "total_value": -41725.1774,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001975281-25-000002"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-12-01",
+      "code": "F",
+      "shares": -9762.0,
+      "price": 2.9002,
+      "total_value": -28311.752399999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780878-25-000002"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-12-01",
+      "code": "F",
+      "shares": -16401.0,
+      "price": 2.9002,
+      "total_value": -47566.180199999995,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001945797-25-000002"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-12-01",
+      "code": "F",
+      "shares": -20619.0,
+      "price": 2.9002,
+      "total_value": -59799.2238,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001839111-25-000002"
+    },
+    {
+      "date_filed": "2025-12-03",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-12-01",
+      "code": "F",
+      "shares": -55715.0,
+      "price": 2.9002,
+      "total_value": -161584.64299999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001780980-25-000002"
+    },
+    {
+      "date_filed": "2025-09-26",
+      "reporter_name": "Albert Benjamin",
+      "relationship": "Officer (President and COO)",
+      "transaction_date": "2025-09-24",
+      "code": "A",
+      "shares": 467000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086403-25-000005"
+    },
+    {
+      "date_filed": "2025-09-09",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-09-05",
+      "code": "S",
+      "shares": -6175.0,
+      "price": 3.353,
+      "total_value": -20704.775,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006142"
+    },
+    {
+      "date_filed": "2025-09-05",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2025-09-01",
+      "code": "A",
+      "shares": 4588.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006121"
+    },
+    {
+      "date_filed": "2025-09-05",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2025-09-01",
+      "code": "A",
+      "shares": 4970.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006120"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "Ross David Coy",
+      "relationship": "Officer (Chief Tech & Product Officer)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -3360.0,
+      "price": 3.3627,
+      "total_value": -11298.671999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006105"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -4578.0,
+      "price": 3.3627,
+      "total_value": -15394.4406,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006104"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -2613.0,
+      "price": 3.3627,
+      "total_value": -8786.7351,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006103"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -3663.0,
+      "price": 3.3627,
+      "total_value": -12317.570099999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006102"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -8335.0,
+      "price": 3.3627,
+      "total_value": -28028.104499999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006101"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -2854.0,
+      "price": 3.3627,
+      "total_value": -9597.1458,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006100"
+    },
+    {
+      "date_filed": "2025-09-04",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-09-02",
+      "code": "F",
+      "shares": -3138.0,
+      "price": 3.3627,
+      "total_value": -10552.1526,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006099"
+    },
+    {
+      "date_filed": "2025-09-03",
+      "reporter_name": "Spencer Justin",
+      "relationship": "Director",
+      "transaction_date": "2025-09-01",
+      "code": "A",
+      "shares": 68572.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-006081"
+    },
+    {
+      "date_filed": "2025-07-11",
+      "reporter_name": "Smith S. Dawn",
+      "relationship": "Director",
+      "transaction_date": "2025-07-09",
+      "code": "A",
+      "shares": 36231.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-005386"
+    },
+    {
+      "date_filed": "2025-07-10",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2025-07-09",
+      "code": "A",
+      "shares": 36231.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-005377"
+    },
+    {
+      "date_filed": "2025-07-10",
+      "reporter_name": "Hoggard Green Jill",
+      "relationship": "Director",
+      "transaction_date": "2025-07-09",
+      "code": "A",
+      "shares": 36231.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-005376"
+    },
+    {
+      "date_filed": "2025-07-10",
+      "reporter_name": "KANE JOHN A",
+      "relationship": "Director",
+      "transaction_date": "2025-07-09",
+      "code": "A",
+      "shares": 36231.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-005375"
+    },
+    {
+      "date_filed": "2025-07-10",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2025-07-09",
+      "code": "A",
+      "shares": 36231.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-005374"
+    },
+    {
+      "date_filed": "2025-06-09",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-06-05",
+      "code": "S",
+      "shares": -6057.0,
+      "price": 3.9443,
+      "total_value": -23890.6251,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004632"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-06-02",
+      "code": "F",
+      "shares": -3255.0,
+      "price": 3.6348,
+      "total_value": -11831.274,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004394"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-06-02",
+      "code": "F",
+      "shares": -3802.0,
+      "price": 3.6348,
+      "total_value": -13819.5096,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004393"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-06-02",
+      "code": "F",
+      "shares": -4747.0,
+      "price": 3.6348,
+      "total_value": -17254.3956,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004392"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-06-02",
+      "code": "F",
+      "shares": -2712.0,
+      "price": 3.6348,
+      "total_value": -9857.577599999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004391"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-06-02",
+      "code": "F",
+      "shares": -8658.0,
+      "price": 3.6348,
+      "total_value": -31470.0984,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004390"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-06-02",
+      "code": "F",
+      "shares": -2965.0,
+      "price": 3.6348,
+      "total_value": -10777.181999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004389"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2025-06-01",
+      "code": "A",
+      "shares": 3766.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004387"
+    },
+    {
+      "date_filed": "2025-06-03",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2025-06-01",
+      "code": "A",
+      "shares": 4080.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-004386"
+    },
+    {
+      "date_filed": "2025-05-07",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-05-05",
+      "code": "S",
+      "shares": -5209.0,
+      "price": 4.0951,
+      "total_value": -21331.375900000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-003646"
+    },
+    {
+      "date_filed": "2025-04-07",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-04-03",
+      "code": "S",
+      "shares": -5209.0,
+      "price": 4.1475,
+      "total_value": -21604.3275,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-003050"
+    },
+    {
+      "date_filed": "2025-03-10",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-03-06",
+      "code": "S",
+      "shares": -13827.0,
+      "price": 4.5462,
+      "total_value": -62860.3074,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002255"
+    },
+    {
+      "date_filed": "2025-03-10",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-03-05",
+      "code": "S",
+      "shares": -16902.0,
+      "price": 4.5161,
+      "total_value": -76331.1222,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002254"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-03-03",
+      "code": "F",
+      "shares": -9232.0,
+      "price": 4.5771,
+      "total_value": -42255.7872,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002009"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-03-03",
+      "code": "F",
+      "shares": -9024.0,
+      "price": 4.5771,
+      "total_value": -41303.7504,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002008"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-03-03",
+      "code": "F",
+      "shares": -7304.0,
+      "price": 4.5771,
+      "total_value": -33431.138399999996,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002007"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-03-03",
+      "code": "F",
+      "shares": -10800.0,
+      "price": 4.5771,
+      "total_value": -49432.68,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002006"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-03-03",
+      "code": "F",
+      "shares": -7525.0,
+      "price": 4.5771,
+      "total_value": -34442.6775,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002005"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-03",
+      "code": "F",
+      "shares": -33677.0,
+      "price": 4.5771,
+      "total_value": -154142.9967,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002004"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2025-03-01",
+      "code": "A",
+      "shares": 2450.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002002"
+    },
+    {
+      "date_filed": "2025-03-04",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2025-03-01",
+      "code": "A",
+      "shares": 3033.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-002001"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 296000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001552"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 75437.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001552"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 140000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001551"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 18262.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001551"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 181000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001550"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 11950.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001550"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 97500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001549"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 13538.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001549"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 69000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001548"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 11750.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001548"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 145000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001547"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-02-20",
+      "code": "A",
+      "shares": 11340.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001547"
+    },
+    {
+      "date_filed": "2025-02-20",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-02-18",
+      "code": "S",
+      "shares": -6441.0,
+      "price": 5.4266,
+      "total_value": -34952.730599999995,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-001452"
+    },
+    {
+      "date_filed": "2025-02-06",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-02-05",
+      "code": "S",
+      "shares": -5209.0,
+      "price": 5.7607,
+      "total_value": -30007.4863,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-000998"
+    },
+    {
+      "date_filed": "2025-01-17",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2025-01-15",
+      "code": "S",
+      "shares": -6442.0,
+      "price": 5.7976,
+      "total_value": -37348.1392,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-000429"
+    },
+    {
+      "date_filed": "2025-01-10",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2025-01-06",
+      "code": "S",
+      "shares": -5209.0,
+      "price": 7.5128,
+      "total_value": -39134.175200000005,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-000315"
+    },
+    {
+      "date_filed": "2025-01-10",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2025-01-06",
+      "code": "S",
+      "shares": -2500.0,
+      "price": 7.5182,
+      "total_value": -18795.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-000314"
+    },
+    {
+      "date_filed": "2025-01-02",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2024-12-30",
+      "code": "S",
+      "shares": -4500.0,
+      "price": 6.9298,
+      "total_value": -31184.100000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-25-000010"
+    },
+    {
+      "date_filed": "2024-12-27",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2024-12-23",
+      "code": "S",
+      "shares": -4500.0,
+      "price": 6.9812,
+      "total_value": -31415.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008598"
+    },
+    {
+      "date_filed": "2024-12-18",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2024-12-16",
+      "code": "S",
+      "shares": -6442.0,
+      "price": 7.8848,
+      "total_value": -50793.8816,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008480"
+    },
+    {
+      "date_filed": "2024-12-10",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-12-06",
+      "code": "S",
+      "shares": -19599.0,
+      "price": 8.3193,
+      "total_value": -163049.9607,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008307"
+    },
+    {
+      "date_filed": "2024-12-10",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2024-12-06",
+      "code": "S",
+      "shares": -19268.0,
+      "price": 8.3192,
+      "total_value": -160294.3456,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008306"
+    },
+    {
+      "date_filed": "2024-12-06",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-12-04",
+      "code": "S",
+      "shares": -22773.0,
+      "price": 7.6952,
+      "total_value": -175242.7896,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008217"
+    },
+    {
+      "date_filed": "2024-12-04",
+      "reporter_name": "Hoggard Green Jill",
+      "relationship": "Director",
+      "transaction_date": "2024-12-01",
+      "code": "A",
+      "shares": 27706.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008161"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2024-12-02",
+      "code": "S",
+      "shares": -7500.0,
+      "price": 8.9431,
+      "total_value": -67073.25,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008097"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Alger Jason",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-12-01",
+      "code": "F",
+      "shares": -7795.0,
+      "price": 8.9732,
+      "total_value": -69946.094,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008098"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Freeman Kevin Lee",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2024-12-01",
+      "code": "F",
+      "shares": -11431.0,
+      "price": 8.9732,
+      "total_value": -102572.6492,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008097"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Landry Benjamin",
+      "relationship": "Officer (General Counsel)",
+      "transaction_date": "2024-12-01",
+      "code": "F",
+      "shares": -9419.0,
+      "price": 8.9732,
+      "total_value": -84518.5708,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008096"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Burton Daniel D.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2024-12-01",
+      "code": "F",
+      "shares": -30897.0,
+      "price": 8.9732,
+      "total_value": -277244.9604,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008095"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-12-01",
+      "code": "F",
+      "shares": -10455.0,
+      "price": 8.9732,
+      "total_value": -93814.806,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008094"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2024-12-01",
+      "code": "F",
+      "shares": -7766.0,
+      "price": 8.9732,
+      "total_value": -69685.87120000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008093"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Pramoda Anita",
+      "relationship": "Director",
+      "transaction_date": "2024-12-01",
+      "code": "A",
+      "shares": 1847.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008092"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Larson-Green Julie",
+      "relationship": "Director",
+      "transaction_date": "2024-12-01",
+      "code": "A",
+      "shares": 1616.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008091"
+    },
+    {
+      "date_filed": "2024-12-03",
+      "reporter_name": "Gallagher Duncan",
+      "relationship": "Director",
+      "transaction_date": "2024-12-01",
+      "code": "A",
+      "shares": 2001.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-008090"
+    },
+    {
+      "date_filed": "2024-11-18",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2024-11-15",
+      "code": "S",
+      "shares": -1365.0,
+      "price": 8.5,
+      "total_value": -11602.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-007742"
+    },
+    {
+      "date_filed": "2024-11-07",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-11-05",
+      "code": "S",
+      "shares": -5209.0,
+      "price": 7.7034,
+      "total_value": -40127.0106,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-007585"
+    },
+    {
+      "date_filed": "2024-10-17",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2024-10-15",
+      "code": "S",
+      "shares": -1324.0,
+      "price": 8.16,
+      "total_value": -10803.84,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-007368"
+    },
+    {
+      "date_filed": "2024-10-08",
+      "reporter_name": "LeSueur Daniel",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2024-10-03",
+      "code": "S",
+      "shares": -5209.0,
+      "price": 7.6812,
+      "total_value": -40011.3708,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-007267"
+    },
+    {
+      "date_filed": "2024-09-18",
+      "reporter_name": "Llewelyn Linda",
+      "relationship": "Officer (Chief People Officer)",
+      "transaction_date": "2024-09-16",
+      "code": "S",
+      "shares": -1324.0,
+      "price": 8.43,
+      "total_value": -11161.32,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001562180-24-006866"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.7300000190734863,
+    "shares_basic": 75256381,
+    "shares_basic_as_of": "2026-07-31",
+    "options": 702941,
+    "warrants": null,
+    "cash": 60589000,
+    "debt": 153479000,
+    "debt_flag": null,
+    "ttm_revenue": 292245000.0,
+    "mc_basic": 130193540.56540155,
+    "ev_basic": 223083540.56540155
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            70487000,
+            70756000,
+            74679000,
+            76323000
+          ],
+          [
+            -12.678237385562618,
+            -10.901237832596678,
+            -6.18923196743964,
+            -0.03929118698675887
+          ],
+          [
+            35627000,
+            35293000,
+            35296000,
+            36190000
+          ],
+          [
+            34860000,
+            35463000,
+            39383000,
+            40133000
+          ],
+          [
+            -8.841295991213618,
+            -2.13053677383745,
+            13.52512178951313,
+            10.59274160213839
+          ],
+          [
+            49.45592804346901,
+            50.120131154955054,
+            52.73637836607346,
+            52.583100769099744
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            22288000,
+            24545000,
+            21216000,
+            30430000
+          ],
+          [
+            11026000,
+            9779000,
+            9911000,
+            12281000
+          ],
+          [
+            71340000,
+            141940000,
+            125463000,
+            57642000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -36480000,
+            -106477000,
+            -86080000,
+            -17509000
+          ],
+          [
+            1.6552542190111608,
+            -427.8716969907293,
+            -391.8857142857143,
+            -27.92430773726894
+          ],
+          [
+            -51.754224183182714,
+            -150.4847645429363,
+            -115.26667470105384,
+            -22.940660089357074
+          ],
+          [
+            -25501000,
+            -94362000,
+            -73198000,
+            -4895000
+          ],
+          [
+            -36.178302381999515,
+            -133.3625416925773,
+            -98.01684543178136,
+            -6.413531962842131
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3742000,
+            -4135000,
+            -4566000,
+            -4679000
+          ],
+          [
+            -40222000,
+            -110612000,
+            -90646000,
+            -22188000
+          ],
+          [
+            315000,
+            414000,
+            379000,
+            41000
+          ],
+          [
+            -40537000,
+            -111026000,
+            -91025000,
+            -22229000
+          ],
+          [
+            -57.50989544171266,
+            -156.91390129458986,
+            -121.88834879952864,
+            -29.12490337119872
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.55,
+            -1.53,
+            -1.2999999999999998,
+            -0.32
+          ],
+          [
+            -0.55,
+            -1.53,
+            -1.2999999999999998,
+            -0.32
+          ],
+          [
+            73959819,
+            72593210,
+            null,
+            70376760
+          ],
+          [
+            73959819,
+            72593210,
+            null,
+            70376760
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            292245000,
+            311136000,
+            306584000,
+            295938000,
+            276236000
+          ],
+          [
+            -6.071621413144092,
+            1.4847480625212013,
+            3.5973751258709594,
+            7.1323071576478085,
+            null
+          ],
+          [
+            142406000,
+            159461000,
+            165805000,
+            164105000,
+            143049000
+          ],
+          [
+            149839000,
+            151675000,
+            140779000,
+            131833000,
+            133187000
+          ],
+          [
+            -1.2104829404977748,
+            7.7397907358341795,
+            6.7858578656330355,
+            -1.0166157357700076,
+            null
+          ],
+          [
+            51.27170695820288,
+            48.74877866913504,
+            45.91857370247632,
+            44.54750657232258,
+            48.21493215945785
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            98479000,
+            102036000,
+            111204000,
+            143880000,
+            149215000
+          ],
+          [
+            42997000,
+            49770000,
+            57950000,
+            72627000,
+            75680000
+          ],
+          [
+            396385000,
+            312529000,
+            210585000,
+            258730000,
+            273192000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -246546000,
+            -160854000,
+            -69806000,
+            -126897000,
+            -140005000
+          ],
+          [
+            -53.273154537655266,
+            -130.43004899292325,
+            44.990031285215565,
+            9.362522767044034,
+            null
+          ],
+          [
+            -84.36277780629267,
+            -51.69893551373033,
+            -22.768963807635103,
+            -42.87958964377674,
+            -50.68311154230441
+          ],
+          [
+            -197956000,
+            -110354000,
+            -28375000,
+            -84674000,
+            -91708000
+          ],
+          [
+            -67.73631713117419,
+            -35.46809112413864,
+            -9.255212274613157,
+            -28.612074150666693,
+            -33.19914855413487
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -17122000,
+            -16404000,
+            637000,
+            9106000,
+            -1678000
+          ],
+          [
+            -263668000,
+            -177258000,
+            -69169000,
+            -117791000,
+            -141683000
+          ],
+          [
+            1149000,
+            716000,
+            333000,
+            356000,
+            -4280000
+          ],
+          [
+            -264817000,
+            -177974000,
+            -69502000,
+            -118147000,
+            -137403000
+          ],
+          [
+            -90.61472394737292,
+            -57.201352463231515,
+            -22.669806643529995,
+            -39.92288925383019,
+            -49.74116335307491
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3.6999999999999997,
+            -2.55,
+            -1.15,
+            -2.09,
+            -2.63
+          ],
+          [
+            -3.6999999999999997,
+            -2.55,
+            -1.15,
+            -2.09,
+            -2.56
+          ],
+          [
+            73959819,
+            69896134,
+            60184920,
+            56418397,
+            54079732
+          ],
+          [
+            73959819,
+            69896134,
+            60184920,
+            56418397,
+            53721702
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            60589000,
+            59864000,
+            50814000,
+            40305000
+          ],
+          [
+            42850000,
+            48959000,
+            44918000,
+            51235000
+          ],
+          [
+            41901000,
+            59146000,
+            59128000,
+            60109000
+          ],
+          [
+            103051000,
+            14343000,
+            14447000,
+            13704000
+          ],
+          [
+            248391000,
+            182312000,
+            169307000,
+            165353000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            33472000,
+            34935000,
+            33838000,
+            32609000
+          ],
+          [
+            5939000,
+            6255000,
+            6640000,
+            7256000
+          ],
+          [
+            11101000,
+            113251000,
+            209073000,
+            285586000
+          ],
+          [
+            56121000,
+            69332000,
+            77678000,
+            89554000
+          ],
+          [
+            3580000,
+            6117000,
+            6107000,
+            6770000
+          ],
+          [
+            358604000,
+            412202000,
+            502643000,
+            587128000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            8338000,
+            11694000,
+            9363000,
+            4943000
+          ],
+          [
+            1627000,
+            1627000,
+            1627000,
+            1627000
+          ],
+          [
+            3698000,
+            3731000,
+            3779000,
+            3855000
+          ],
+          [
+            78262000,
+            90561000,
+            74804000,
+            77468000
+          ],
+          [
+            91925000,
+            107613000,
+            89573000,
+            87893000
+          ],
+          [
+            151852000,
+            151738000,
+            151624000,
+            151512000
+          ],
+          [
+            12800000,
+            13482000,
+            14208000,
+            15125000
+          ],
+          [
+            null,
+            null,
+            1458000,
+            null
+          ],
+          [
+            257777000,
+            274057000,
+            256863000,
+            255205000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1516209000,
+            -1475672000,
+            -1364646000,
+            -1273621000
+          ],
+          [
+            100827000,
+            138145000,
+            245780000,
+            331923000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            60589000,
+            50814000,
+            249645000,
+            106276000,
+            116312000
+          ],
+          [
+            42850000,
+            44918000,
+            142355000,
+            211452000,
+            247178000
+          ],
+          [
+            41901000,
+            59128000,
+            57182000,
+            60290000,
+            47970000
+          ],
+          [
+            103051000,
+            14447000,
+            16468000,
+            15379000,
+            16335000
+          ],
+          [
+            248391000,
+            169307000,
+            465650000,
+            393397000,
+            427795000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            33472000,
+            33838000,
+            29394000,
+            25712000,
+            25928000
+          ],
+          [
+            5939000,
+            6640000,
+            12058000,
+            13927000,
+            16658000
+          ],
+          [
+            11101000,
+            209073000,
+            259759000,
+            190652000,
+            185982000
+          ],
+          [
+            56121000,
+            77678000,
+            86052000,
+            73384000,
+            92189000
+          ],
+          [
+            3580000,
+            6107000,
+            6016000,
+            4742000,
+            null
+          ],
+          [
+            358604000,
+            502643000,
+            858929000,
+            701814000,
+            752286000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            8338000,
+            9363000,
+            11433000,
+            6641000,
+            4424000
+          ],
+          [
+            1627000,
+            1627000,
+            231182000,
+            0,
+            null
+          ],
+          [
+            3698000,
+            3779000,
+            3614000,
+            3358000,
+            3434000
+          ],
+          [
+            78262000,
+            74804000,
+            79621000,
+            79035000,
+            74652000
+          ],
+          [
+            91925000,
+            89573000,
+            325850000,
+            89034000,
+            82510000
+          ],
+          [
+            151852000,
+            151624000,
+            151178000,
+            228034000,
+            226523000
+          ],
+          [
+            12800000,
+            14208000,
+            16291000,
+            17676000,
+            18017000
+          ],
+          [
+            null,
+            1458000,
+            null,
+            null,
+            null
+          ],
+          [
+            257777000,
+            256863000,
+            493722000,
+            334895000,
+            327276000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1516209000,
+            -1364646000,
+            -1186672000,
+            -1117170000,
+            -999023000
+          ],
+          [
+            100827000,
+            245780000,
+            365207000,
+            366919000,
+            425010000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Acquisitions",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Issuance",
+          "Stock Buyback",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -40537000,
+            -111026000,
+            -91025000,
+            -22229000
+          ],
+          [
+            10979000,
+            12115000,
+            12882000,
+            12614000
+          ],
+          [
+            2709000,
+            3770000,
+            4107000,
+            7039000
+          ],
+          [
+            27124000,
+            113652000,
+            83948000,
+            2112000
+          ],
+          [
+            275000,
+            18511000,
+            9912000,
+            -464000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -345000,
+            -338000,
+            -273000,
+            -255000
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1247000,
+            -9068000,
+            1282000,
+            -9098000
+          ],
+          [
+            902000,
+            -9406000,
+            1009000,
+            -9353000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            null,
+            null,
+            null,
+            -537000
+          ],
+          [
+            -450000,
+            -4000,
+            -434000,
+            -537000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2000,
+            -51000,
+            22000,
+            -53000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -70000,
+            18173000,
+            9639000,
+            -719000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Acquisitions",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Issuance",
+          "Stock Issuance",
+          "Stock Buyback",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -264817000,
+            -177974000,
+            -69502000,
+            -118147000,
+            -137403000
+          ],
+          [
+            48590000,
+            50500000,
+            41431000,
+            42223000,
+            48297000
+          ],
+          [
+            17625000,
+            27012000,
+            40128000,
+            55756000,
+            72104000
+          ],
+          [
+            226836000,
+            101193000,
+            2502000,
+            -12912000,
+            -18268000
+          ],
+          [
+            28234000,
+            731000,
+            14559000,
+            -33080000,
+            -35270000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1211000,
+            -968000,
+            -1616000,
+            -1236000,
+            -2167000
+          ],
+          [
+            0,
+            -41114000,
+            -80277000,
+            -11392000,
+            -27846000
+          ],
+          [
+            -15637000,
+            78275000,
+            58991000,
+            32921000,
+            -9008000
+          ],
+          [
+            -16848000,
+            36193000,
+            -22902000,
+            20293000,
+            -39021000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            0,
+            152277000,
+            0,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            0,
+            -5000000,
+            0,
+            -1808000,
+            -8393000
+          ],
+          [
+            -1425000,
+            -230782000,
+            null,
+            4538000,
+            5780000
+          ],
+          [
+            -1425000,
+            -235782000,
+            151746000,
+            2730000,
+            -2613000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -84000,
+            27000,
+            -34000,
+            21000,
+            -11000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            27023000,
+            -237000,
+            12943000,
+            -34316000,
+            -37437000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            2.7021049768833287,
+            1.6941447594621468,
+            1.8901566320208099,
+            1.8812988520132434
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1.5222013944677517,
+            1.110174092439104,
+            0.623529172430629,
+            0.4613690524609623
+          ],
+          [
+            -36.178302381999515,
+            -133.3625416925773,
+            -98.01684543178136,
+            -6.413531962842131
+          ],
+          [
+            156466000,
+            74699000,
+            79734000,
+            77460000
+          ],
+          [
+            92890000,
+            93501000,
+            102437000,
+            112834000
+          ],
+          [
+            -40.204508712943955,
+            -80.36917731369213,
+            -37.03515338920986,
+            -6.6970351557439525
+          ],
+          [
+            -11.304112614471673,
+            -26.934852329683018,
+            -18.109274375650312,
+            -3.7860568734585986
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            2.7021049768833287,
+            1.8901566320208099,
+            1.4290317630811724,
+            4.418503043781027,
+            5.184765482971761
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1.5222013944677517,
+            0.623529172430629,
+            1.0469678839671748,
+            0.6214832156415994,
+            null
+          ],
+          [
+            -67.73631713117419,
+            -35.46809112413864,
+            -9.255212274613157,
+            -28.612074150666693,
+            -33.19914855413487
+          ],
+          [
+            156466000,
+            79734000,
+            139800000,
+            304363000,
+            345285000
+          ],
+          [
+            92890000,
+            102437000,
+            132715000,
+            121758000,
+            null
+          ],
+          [
+            -262.64492645819075,
+            -72.41191309301001,
+            -19.030850996831933,
+            -32.19974980854085,
+            -32.32935695630691
+          ],
+          [
+            -73.84663863202864,
+            -35.40763524012072,
+            -8.091704902267825,
+            -16.834517407746212,
+            -18.26472910568587
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-09-17T10:35:42+00:00"
+}

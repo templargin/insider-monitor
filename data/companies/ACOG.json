@@ -4,20 +4,90 @@
   "name": "Alpha Cognition Inc.",
   "description": "Alpha Cognition Inc., a biopharmaceutical company, engages in the development of treatments for patients suffering from neurodegenerative diseases in the United States and Canada. The company's commercial development program includes ZUNVEYL oral tablet formulation for treating Alzheimer's disease. Its pre-clinical development programs comprise ZUNVEYL in combination with memantine for the treatment of moderate-to-severe Alzheimer's disease; ALPHA-1062 sublingual formulation; ALPHA-1062 intranasal formulation for the treatment of cognitive impairment with mild traumatic brain injury; and ALPHA-0602, ALPHA-0702, and ALPHA-0802 programs for the treatment of neurodegenerative diseases, including amyotrophic lateral sclerosis disease and spinal muscular atrophy. Alpha Cognition Inc. was founded in 2000 and is headquartered in Grapevine, Texas.",
   "ownership": {
-    "inst_pct": 0.55061,
-    "insider_pct": 0.052810002,
-    "inst_count": 28,
-    "analyst_count": 4,
+    "inst_pct": 0.53345,
+    "insider_pct": 0.053260002,
+    "inst_count": 29,
+    "analyst_count": 5,
     "rec_mean": null,
     "rec_key": null,
-    "target_mean": 16.0,
-    "short_pct_float": 0.0124,
-    "shares_short": 215576,
-    "short_days_to_cover": 3.62,
-    "short_as_of": "2026-07-15",
-    "as_of": "2026-08-05"
+    "target_mean": 18.0,
+    "short_pct_float": 0.012200001,
+    "shares_short": 211277,
+    "short_days_to_cover": 1.34,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-17"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 53029.0,
+      "price": 8.5728,
+      "total_value": 454607.01120000007,
+      "security_title": "Common Stock, no par value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-042969"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 27141.0,
+      "price": 8.4,
+      "total_value": 227984.40000000002,
+      "security_title": "Common Stock, no par value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-042969"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-15",
+      "code": "P",
+      "shares": 3375.0,
+      "price": 8.5424,
+      "total_value": 28830.600000000002,
+      "security_title": "Common Stock, no par value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-042969"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 40373.0,
+      "price": 8.696,
+      "total_value": 351083.608,
+      "security_title": "Common Stock, no par value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-042969"
+    },
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "Wills Robert James",
+      "relationship": "Director",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 9.62,
+      "total_value": 96199.99999999999,
+      "security_title": "Common Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000912282-26-001153"
+    },
     {
       "date_filed": "2026-08-04",
       "reporter_name": "Opaleye Management Inc.",
@@ -1154,17 +1224,17 @@
     }
   ],
   "valuation": {
-    "share_price": 8.9399995803833,
-    "shares_basic": 21774104,
-    "shares_basic_as_of": "2026-05-14",
+    "share_price": 8.399999618530273,
+    "shares_basic": 21777868,
+    "shares_basic_as_of": "2026-08-13",
     "options": 2699452,
-    "warrants": 1588431,
-    "cash": 54248275,
+    "warrants": 2180929,
+    "cash": 41384287,
     "debt": null,
     "debt_flag": null,
-    "ttm_revenue": 10825419.0,
-    "mc_basic": 194660480.62322235,
-    "ev_basic": 140412205.62322235
+    "ttm_revenue": 15260706.0,
+    "mc_basic": 182934082.89240265,
+    "ev_basic": 141549795.89240265
   },
   "financials": {
     "income_statement": {
@@ -2224,5 +2294,5 @@
       }
     }
   },
-  "last_updated": "2026-08-05T12:27:35+00:00"
+  "last_updated": "2026-09-17T10:34:48+00:00"
 }
