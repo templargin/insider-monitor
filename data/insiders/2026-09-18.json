@@ -1,0 +1,147 @@
+{
+  "url_date": "2026-09-18",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-09-17"
+  ],
+  "generated_at": "2026-09-18T10:33:04+00:00",
+  "tickers": [
+    {
+      "ticker": "USO",
+      "name": "United States Oil Fund, LP",
+      "total_value": 6776820.42,
+      "ev_basic": 956518861.739563,
+      "mc_basic": 2302253745.739563,
+      "insiders": [
+        {
+          "reporter_name": "HRT FINANCIAL LP",
+          "relationship": "10% Owner",
+          "total_value": 6776820.42,
+          "shares": 43638.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "XBP",
+      "name": "XBP Global Holdings, Inc.",
+      "total_value": 2277997.18,
+      "ev_basic": 401510658.81316495,
+      "mc_basic": 37782658.81316495,
+      "insiders": [
+        {
+          "reporter_name": "Avenue RP Opportunities Fund, L.P.",
+          "relationship": "10% Owner",
+          "total_value": 1493124.98,
+          "shares": 527606.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "CHADHA PAR",
+          "relationship": "Director",
+          "total_value": 579997.18,
+          "shares": 204946.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Avenue Global Opportunities Master Fund LP",
+          "relationship": "10% Owner",
+          "total_value": 204875.02000000002,
+          "shares": 72394.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "LSAK",
+      "name": "LESAKA TECHNOLOGIES INC",
+      "total_value": 183837.06,
+      "ev_basic": 493196138.9164238,
+      "mc_basic": 363894138.9164238,
+      "insiders": [
+        {
+          "reporter_name": "Mazanderani Ali",
+          "relationship": "Director, Officer (Executive Chairman)",
+          "total_value": 183837.06,
+          "shares": 43000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "PLAY",
+      "name": "Dave & Buster's Entertainment, Inc.",
+      "total_value": 162600.0,
+      "ev_basic": 244192410.43131638,
+      "mc_basic": 227792410.43131638,
+      "insiders": [
+        {
+          "reporter_name": "Lipman Nathaniel",
+          "relationship": "Director",
+          "total_value": 162600.0,
+          "shares": 24000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SKIL",
+      "name": "Skillsoft Corp.",
+      "total_value": 128594.99999999999,
+      "ev_basic": 534460809.8256912,
+      "mc_basic": 57605809.82569122,
+      "insiders": [
+        {
+          "reporter_name": "FRANKOLA JIM",
+          "relationship": "Director",
+          "total_value": 128594.99999999999,
+          "shares": 25000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "NXH",
+      "name": "NEIGHBORHOOD INTELLIGENCE, INC.",
+      "total_value": 101296.97,
+      "ev_basic": 235233366.32030392,
+      "mc_basic": 321263366.3203039,
+      "insiders": [
+        {
+          "reporter_name": "LEMONIS MARCUS",
+          "relationship": "Director, Officer (EXECUTIVE CHAIRMAN & CEO)",
+          "total_value": 101296.97,
+          "shares": 21691.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "SBLK",
+      "name": "Star Bulk Carriers Corp.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "BWMX",
+      "name": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}

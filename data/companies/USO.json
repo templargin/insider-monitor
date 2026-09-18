@@ -15,9 +15,107 @@
     "shares_short": null,
     "short_days_to_cover": null,
     "short_as_of": null,
-    "as_of": "2026-09-17"
+    "as_of": "2026-09-18"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 14291.0,
+      "price": 154.57,
+      "total_value": 2208959.87,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 29347.0,
+      "price": 155.65,
+      "total_value": 4567860.55,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "S",
+      "shares": -1088.0,
+      "price": 156.32,
+      "total_value": -170076.16,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "S",
+      "shares": -14625.0,
+      "price": 157.47,
+      "total_value": -2302998.75,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "S",
+      "shares": -1222.0,
+      "price": 159.8,
+      "total_value": -195275.6,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "S",
+      "shares": -87.0,
+      "price": 160.55,
+      "total_value": -13967.85,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "HRT FINANCIAL LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "S",
+      "shares": -1.0,
+      "price": 161.84,
+      "total_value": -161.84,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001475597-26-000248"
+    },
     {
       "date_filed": "2026-09-16",
       "reporter_name": "HRT FINANCIAL LP",
@@ -216,7 +314,7 @@
     }
   ],
   "valuation": {
-    "share_price": 154.75999450683594,
+    "share_price": 155.30999755859375,
     "shares_basic": 14823603,
     "shares_basic_as_of": "2026-08-04",
     "options": null,
@@ -225,8 +323,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 596621312.0,
-    "mc_basic": 2294100718.8515167,
-    "ev_basic": 948365834.8515167
+    "mc_basic": 2302253745.739563,
+    "ev_basic": 956518861.739563
   },
   "financials": {
     "income_statement": {
@@ -773,5 +871,5 @@
       }
     }
   },
-  "last_updated": "2026-09-17T15:13:41+00:00"
+  "last_updated": "2026-09-18T10:34:00+00:00"
 }
