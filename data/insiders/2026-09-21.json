@@ -1,0 +1,65 @@
+{
+  "url_date": "2026-09-21",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20"
+  ],
+  "generated_at": "2026-09-21T10:32:15+00:00",
+  "tickers": [
+    {
+      "ticker": "cv",
+      "name": "CapsoVision, Inc",
+      "total_value": 4999996.46,
+      "ev_basic": 335314307.5543089,
+      "mc_basic": 335314307.5543089,
+      "insiders": [
+        {
+          "reporter_name": "Shen Ching Hang",
+          "relationship": "10% Owner",
+          "total_value": 4999996.46,
+          "shares": 878734.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd.",
+      "total_value": 200000.0,
+      "ev_basic": 9052461.877624512,
+      "mc_basic": 6544319.877624512,
+      "insiders": [
+        {
+          "reporter_name": "Wong Albert",
+          "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+          "total_value": 200000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "5C Lending Partners Corp.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}

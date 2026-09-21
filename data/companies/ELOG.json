@@ -1,0 +1,630 @@
+{
+  "ticker": "ELOG",
+  "cik": "2013320",
+  "name": "Eastern International Ltd.",
+  "description": "Eastern International Ltd., through its subsidiaries, provides logistic services in the People's Republic of China and Southeast Asia. The company offers project logistics, including construction project logistics, such as purchasing, packaging, storage, loading and unloading, transportation, securing, and installation of construction equipment and machinery, as well as other related logistics services; and specialized cargo logistics for large or precision equipment. It also provides general logistics services comprising transportation, warehousing, loading and unloading, and distribution of standard products; and cross border logistics, which include inland and rail transportation for bulk commodities, electronic products, tires, new energy equipment, and machineries. In addition, the company offers warehouse subleasing services; and construction services for new energy infrastructure projects. It serves multinational, domestic, and publicly listed companies, as well as renewable energy, household appliances, health and beauty products, and construction industries. The company was incorporated in 2023 and is based in Hangzhou, China.",
+  "ownership": {
+    "inst_pct": 0.00783,
+    "insider_pct": 0.45786998,
+    "inst_count": 6,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0011,
+    "shares_short": 4181,
+    "short_days_to_cover": 1.16,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-21"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-09-18",
+      "reporter_name": "Wong Albert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 200000.0,
+      "price": 1.0,
+      "total_value": 200000.0,
+      "security_title": "Series B Preferred Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043376"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "LI CHING HEI",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 80000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-014671"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "Chow Joseph Shiu Wing",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 5000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-014670"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "Wong Albert",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 180000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-014673"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "Cheung Chung Leung",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 100000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-014669"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "Kuo Yuyun Tristan",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 5000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-014667"
+    },
+    {
+      "date_filed": "2026-04-01",
+      "reporter_name": "Chiu Chun Pong",
+      "relationship": "Director",
+      "transaction_date": "2026-03-31",
+      "code": "A",
+      "shares": 5000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-014666"
+    }
+  ],
+  "valuation": {
+    "share_price": 0.5099999904632568,
+    "shares_basic": 12832000,
+    "shares_basic_as_of": "2026-03-31",
+    "options": null,
+    "warrants": null,
+    "cash": 3054870,
+    "debt": 5563012,
+    "debt_flag": null,
+    "ttm_revenue": 253795.0,
+    "mc_basic": 6544319.877624512,
+    "ev_basic": 9052461.877624512
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25",
+          "3/31/24"
+        ],
+        "data": [
+          [
+            253795,
+            335598,
+            282564
+          ],
+          [
+            -24.37529425085966,
+            18.76884528814711,
+            null
+          ],
+          [
+            41388919,
+            34041850,
+            35424962
+          ],
+          [
+            -41135124,
+            -33706252,
+            -35142398
+          ],
+          [
+            -22.040041710956174,
+            4.086647701161429,
+            null
+          ],
+          [
+            -16208.011978171358,
+            -10043.639115846936,
+            -12436.96932376382
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            5303341,
+            3732632,
+            3584275
+          ],
+          [
+            -40074636,
+            -35973461,
+            -36576790
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -1060488,
+            2267209,
+            1434392
+          ],
+          [
+            -146.7750436770496,
+            58.06062777818058,
+            null
+          ],
+          [
+            -417.8522035501093,
+            675.5728580027295,
+            507.6343766367973
+          ],
+          [
+            -1030374,
+            2307460,
+            1490844
+          ],
+          [
+            -405.9867215666187,
+            687.5666720302266,
+            527.6128593876077
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            287422,
+            143602,
+            97552
+          ],
+          [
+            -1012703,
+            2371134,
+            1535489
+          ],
+          [
+            139400,
+            591108,
+            451789
+          ],
+          [
+            -1152103,
+            1780026,
+            1083700
+          ],
+          [
+            -453.9502354262298,
+            530.4042336366724,
+            383.52373267649097
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -0.1,
+            0.16,
+            0.1
+          ],
+          [
+            -0.1,
+            0.17,
+            0.11
+          ],
+          [
+            11398479,
+            11417000,
+            11044434
+          ],
+          [
+            11398479,
+            10417000,
+            10044434
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25",
+          "3/31/24"
+        ],
+        "data": [
+          [
+            3054870,
+            846409,
+            2170459
+          ],
+          [
+            1990228,
+            null,
+            null
+          ],
+          [
+            22051480,
+            18834520,
+            null
+          ],
+          [
+            27096578,
+            19680929,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            1255061,
+            461205,
+            null
+          ],
+          [
+            1464823,
+            1795668,
+            null
+          ],
+          [
+            2463359,
+            2843689,
+            null
+          ],
+          [
+            32279821,
+            24781491,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            4575704,
+            4877717,
+            null
+          ],
+          [
+            5038996,
+            3766634,
+            null
+          ],
+          [
+            618229,
+            451363,
+            null
+          ],
+          [
+            5615603,
+            3020784,
+            null
+          ],
+          [
+            15848532,
+            12116498,
+            null
+          ],
+          [
+            524016,
+            null,
+            null
+          ],
+          [
+            713078,
+            1198905,
+            null
+          ],
+          [
+            17085626,
+            13315403,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            1993488,
+            3219808,
+            null
+          ],
+          [
+            15194195,
+            11466088,
+            9750099
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Effect of FX on Cash",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25",
+          "3/31/24"
+        ],
+        "data": [
+          [
+            -1152103,
+            1780026,
+            1083700
+          ],
+          [
+            30114,
+            40251,
+            56452
+          ],
+          [
+            816950,
+            null,
+            null
+          ],
+          [
+            -2272387,
+            -3978985,
+            -1769913
+          ],
+          [
+            -2577426,
+            -2158708,
+            -629761
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -878949,
+            -397441,
+            -7433
+          ],
+          [
+            -878949,
+            -337784,
+            44248
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            -161493
+          ],
+          [
+            5835653,
+            1176298,
+            2009747
+          ],
+          [
+            5835653,
+            1176298,
+            1848254
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            67885,
+            -3856,
+            -55378
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -3456375,
+            -2556149,
+            -637194
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "3/31/26",
+          "3/31/25",
+          "3/31/24"
+        ],
+        "data": [
+          [
+            1.7097216322622184,
+            1.6243083603859796,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            0.36612745854584594,
+            null,
+            null
+          ],
+          [
+            -405.9867215666187,
+            687.5666720302266,
+            527.6128593876077
+          ],
+          [
+            11248046,
+            7564431,
+            null
+          ],
+          [
+            2508142,
+            null,
+            null
+          ],
+          [
+            -7.582520824564908,
+            15.52426599202797,
+            11.114758937319507
+          ],
+          [
+            -3.5691121087691284,
+            7.182885000745112,
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-09-21T10:32:25+00:00"
+}
