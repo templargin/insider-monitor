@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:32:42+00:00",
+  "generated_at": "2026-09-22T10:32:03+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -1718,6 +1718,222 @@
       "last_tried_date": "2026-09-18",
       "last_reason": "no companyfacts for CIK 881787",
       "last_tried": "2026-09-18T10:30:36+00:00"
+    },
+    {
+      "url_date": "2026-09-22",
+      "cik": "920760",
+      "ticker": "LEN, LEN.B",
+      "name": "LENNAR CORP /NEW/",
+      "reason": "no share price for LEN, LEN.B",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "LEN, LEN.B",
+        "name": "LENNAR CORP /NEW/",
+        "by_reporter": {
+          "1067983": {
+            "reporter_cik": "1067983",
+            "reporter_name": "BERKSHIRE HATHAWAY INC",
+            "relationship": "10% Owner",
+            "total_value": 212395151.42,
+            "shares": 2743529.0,
+            "txn_count": 16
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "BERKSHIRE HATHAWAY INC",
+              "reporter_cik": "1067983",
+              "relationship": "10% Owner",
+              "issuer_cik": "920760",
+              "issuer_ticker": "LEN, LEN.B",
+              "issuer_name": "LENNAR CORP /NEW/"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-17",
+                "code": "P",
+                "shares": 267585.0,
+                "price": 78.41,
+                "total_value": 20981339.849999998,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-17",
+                "code": "P",
+                "shares": 410164.0,
+                "price": 79.41,
+                "total_value": 32571123.24,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 1218429.0,
+                "price": 76.39,
+                "total_value": 93075791.31,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 51586.0,
+                "price": 77.06,
+                "total_value": 3975217.16,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 68760.0,
+                "price": 78.09,
+                "total_value": 5369468.4,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 7900.0,
+                "price": 78.88,
+                "total_value": 623152.0,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-21",
+                "code": "P",
+                "shares": 160275.0,
+                "price": 77.23,
+                "total_value": 12378038.25,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-09-21",
+                "code": "P",
+                "shares": 483809.0,
+                "price": 77.97,
+                "total_value": 37722587.73,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-17",
+                "code": "P",
+                "shares": 8959.0,
+                "price": 76.96,
+                "total_value": 689484.6399999999,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-17",
+                "code": "P",
+                "shares": 8306.0,
+                "price": 77.94,
+                "total_value": 647369.64,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 33122.0,
+                "price": 74.8,
+                "total_value": 2477525.6,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 390.0,
+                "price": 75.76,
+                "total_value": 29546.4,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 710.0,
+                "price": 76.98,
+                "total_value": 54655.8,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-18",
+                "code": "P",
+                "shares": 500.0,
+                "price": 78.38,
+                "total_value": 39190.0,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-21",
+                "code": "P",
+                "shares": 4888.0,
+                "price": 75.76,
+                "total_value": 370314.88,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class B Common Stock",
+                "transaction_date": "2026-09-21",
+                "code": "P",
+                "shares": 18146.0,
+                "price": 76.62,
+                "total_value": 1390346.52,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 212395151.42
+          }
+        ]
+      },
+      "first_seen": "2026-09-22T10:32:03+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

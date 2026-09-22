@@ -4,20 +4,34 @@
   "name": "Enhanced Group Inc.",
   "description": "Enhanced Group Inc. operates in the sports entertainment, performance technology, and lifestyle wellness markets. It engages in organizing live sporting events; producing and distributing related content; marketing lifestyle and health optimization services to customers; and operating the Live Enhanced platform, through which customers access OTC supplement blends, clinician-guided prescription-based hormone therapy, and other longevity-related protocols provided by third-party telehealth service providers. Enhanced Group Inc. is based in New York, New York.",
   "ownership": {
-    "inst_pct": 0.36033002,
+    "inst_pct": 0.3616,
     "insider_pct": 0.54944,
-    "inst_count": 33,
+    "inst_count": 32,
     "analyst_count": 2,
-    "rec_mean": null,
-    "rec_key": null,
+    "rec_mean": 1.0,
+    "rec_key": "strong_buy",
     "target_mean": 4.0,
     "short_pct_float": null,
-    "shares_short": 2193090,
-    "short_days_to_cover": 3.4,
-    "short_as_of": "2026-08-14",
-    "as_of": "2026-09-10"
+    "shares_short": 2367700,
+    "short_days_to_cover": 1.87,
+    "short_as_of": "2026-08-31",
+    "as_of": "2026-09-22"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-21",
+      "reporter_name": "Apeiron Investment Group Ltd.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-17",
+      "code": "P",
+      "shares": 6080047.0,
+      "price": 1.15,
+      "total_value": 6992054.05,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-397056"
+    },
     {
       "date_filed": "2026-09-09",
       "reporter_name": "Apeiron Investment Group Ltd.",
@@ -524,7 +538,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.6150000095367432,
+    "share_price": 1.4299999475479126,
     "shares_basic": 387810095.0,
     "shares_basic_as_of": "2026-08-13",
     "options": 10363112,
@@ -533,8 +547,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 17702934.0,
-    "mc_basic": 626313307.1234453,
-    "ev_basic": 606707061.1234453
+    "mc_basic": 554568415.508551,
+    "ev_basic": 534962169.508551
   },
   "financials": {
     "income_statement": {
@@ -1350,5 +1364,5 @@
       }
     }
   },
-  "last_updated": "2026-09-10T14:38:51+00:00"
+  "last_updated": "2026-09-22T10:33:36+00:00"
 }

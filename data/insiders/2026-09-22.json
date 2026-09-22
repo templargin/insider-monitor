@@ -1,0 +1,137 @@
+{
+  "url_date": "2026-09-22",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-09-21"
+  ],
+  "generated_at": "2026-09-22T10:32:03+00:00",
+  "tickers": [
+    {
+      "ticker": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "total_value": 6992054.05,
+      "ev_basic": 534962169.508551,
+      "mc_basic": 554568415.508551,
+      "insiders": [
+        {
+          "reporter_name": "Apeiron Investment Group Ltd.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 6992054.05,
+          "shares": 6080047.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 843460.0,
+      "ev_basic": 148684660.49010086,
+      "mc_basic": 436877660.49010086,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 843460.0,
+          "shares": 100000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "RTB",
+      "name": "RTB Digital, Inc.",
+      "total_value": 196840.0,
+      "ev_basic": 118357278.08192158,
+      "mc_basic": 118229278.08192158,
+      "insiders": [
+        {
+          "reporter_name": "Dorsett Jason Christopher",
+          "relationship": "10% Owner",
+          "total_value": 196840.0,
+          "shares": 19000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "EPSN",
+      "name": "Epsilon Energy Ltd.",
+      "total_value": 136553.47,
+      "ev_basic": 211033253.0,
+      "mc_basic": 181702674.0,
+      "insiders": [
+        {
+          "reporter_name": "Stabell Jason",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 136553.47,
+          "shares": 23104.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "EU",
+      "name": "enCore Energy Corp.",
+      "total_value": 101250.0,
+      "ev_basic": 292642010.2859614,
+      "mc_basic": 203995010.2859614,
+      "insiders": [
+        {
+          "reporter_name": "SHERIFF WILLIAM M",
+          "relationship": "Director, Officer (Executive Chairman)",
+          "total_value": 101250.0,
+          "shares": 125000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BBD",
+      "name": "BANK BRADESCO",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "LNBIX",
+      "name": "Lincoln Bain Capital Total Credit Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "CYBN",
+      "name": "CYBIN INC.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "GRAB",
+      "name": "Grab Holdings Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "LEN, LEN.B",
+      "name": "LENNAR CORP /NEW/",
+      "cik": "920760",
+      "reason": "no share price for LEN, LEN.B",
+      "transient": true
+    }
+  ]
+}

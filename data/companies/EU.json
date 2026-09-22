@@ -4,20 +4,48 @@
   "name": "enCore Energy Corp.",
   "description": "enCore Energy Corp., together with its subsidiaries, engages in the acquisition, exploration, development, and extraction of uranium resource properties in the United States. The company is headquartered in Dallas, Texas.",
   "ownership": {
-    "inst_pct": 0.52642,
+    "inst_pct": 0.52649,
     "insider_pct": 0.01914,
     "inst_count": 203,
     "analyst_count": 5,
-    "rec_mean": 1.14286,
-    "rec_key": "strong_buy",
-    "target_mean": 2.9176674,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 2.908062,
     "short_pct_float": 0.1999,
     "shares_short": 38332367,
     "short_days_to_cover": 10.14,
     "short_as_of": "2026-08-31",
-    "as_of": "2026-09-17"
+    "as_of": "2026-09-22"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-21",
+      "reporter_name": "SHERIFF WILLIAM M",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-09-18",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.81,
+      "total_value": 81000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-396060"
+    },
+    {
+      "date_filed": "2026-09-21",
+      "reporter_name": "SHERIFF WILLIAM M",
+      "relationship": "Director, Officer (Executive Chairman)",
+      "transaction_date": "2026-09-18",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 0.81,
+      "total_value": 20250.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-396060"
+    },
     {
       "date_filed": "2026-09-16",
       "reporter_name": "SHERIFF WILLIAM M",
@@ -1154,7 +1182,7 @@
     }
   ],
   "valuation": {
-    "share_price": 0.9169999957084656,
+    "share_price": 1.0499999523162842,
     "shares_basic": 194280971,
     "shares_basic_as_of": "2026-08-10",
     "options": 5368723,
@@ -1163,8 +1191,8 @@
     "debt": 110458000,
     "debt_flag": null,
     "ttm_revenue": 55248000.0,
-    "mc_basic": 178155649.57323653,
-    "ev_basic": 266802649.57323653
+    "mc_basic": 203995010.2859614,
+    "ev_basic": 292642010.2859614
   },
   "financials": {
     "income_statement": {
@@ -2387,5 +2415,5 @@
       }
     }
   },
-  "last_updated": "2026-09-17T15:13:40+00:00"
+  "last_updated": "2026-09-22T10:32:38+00:00"
 }
