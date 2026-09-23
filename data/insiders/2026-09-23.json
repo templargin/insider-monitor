@@ -1,0 +1,51 @@
+{
+  "url_date": "2026-09-23",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-09-22"
+  ],
+  "generated_at": "2026-09-23T13:18:17+00:00",
+  "tickers": [
+    {
+      "ticker": "BCBP",
+      "name": "BCB BANCORP INC",
+      "total_value": 1240000.0,
+      "ev_basic": 128933847.94735146,
+      "mc_basic": 157485847.94735146,
+      "insiders": [
+        {
+          "reporter_name": "OBrien Thomas M",
+          "relationship": "Director, Officer (CHIEF EXECUTIVE OFFICER)",
+          "total_value": 1240000.0,
+          "shares": 160000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "VFF",
+      "name": "Village Farms International, Inc.",
+      "total_value": 101258.5,
+      "ev_basic": 319215549.3545561,
+      "mc_basic": 352184549.3545561,
+      "insiders": [
+        {
+          "reporter_name": "DEGIGLIO MICHAEL A",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 101258.5,
+          "shares": 35000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BBD",
+      "name": "BANK BRADESCO",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
