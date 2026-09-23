@@ -32,9 +32,14 @@ jobs:
       # whatever it did produce (catch-up backfills, refreshed company data).
       # The job is failed afterwards by the Verify step below, which is what
       # turns the miss into a Healthchecks /fail ping and a Telegram alert.
+      # POLYGON_API_KEY is the second price source, used only when Yahoo returns
+      # nothing (it throttles GitHub's IPs for whole runs at a time). Without it
+      # the run still works — it just has no fallback.
       - name: Daily run
         id: daily
         continue-on-error: true
+        env:
+          POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
         run: python -m scripts.daily_run
 
       - name: Commit + push

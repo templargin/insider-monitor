@@ -151,7 +151,7 @@ Sample reasoning from a real run:
 ## Env files used
 
 - `/home/cron-runner/.shared.env` — `CLAUDE_CODE_OAUTH_TOKEN`
-- `/home/cron-runner/.insider-monitor.env` — `HC_PING_URL`
+- `/home/cron-runner/.insider-monitor.env` — `HC_PING_URL`, `POLYGON_API_KEY` (second share-price source; the same key `pr-reaction/config/massive_key` and the research site use. Also stored as the GitHub Actions secret `POLYGON_API_KEY`, which is what `daily.yml` actually reads — the droplet copy only matters for a local `daily_run`/`process_bucket` fixup)
 
 See the [canonical droplet doc](https://github.com/templargin/droplet) for the per-project env split convention.
 
@@ -210,6 +210,7 @@ For host-level ops (gh auth rotation, env file management, adding new workloads,
 | Daily page suddenly empty / lost its tickers | A run hit a transient SEC/price-fetch outage (the cloud-IP fallback run is most prone) | Guarded since 2026-06: the writer skips on a mass outage and won't downgrade a non-empty page. Grep the run log for `upstream outage; skipping write` or `data unavailable`. To rebuild a page that was lost before the guard existed, restore the good `data/insiders/YYYY-MM-DD.json` (from git history) or re-run `process_bucket` for that date, then `build_site` + push |
 | Monday-after-holiday page is empty (HTTP 200) | Bucket is entirely weekend + federal holiday (e.g. the Monday after Juneteenth — Fri+Sat+Sun) | Expected — explicit empty page by design (`buckets.is_trading_day`) |
 | A company you expected on the list isn't there | It was rejected on merits, ruled out of scope, or could not be read. The page shows only what met the criteria — by design; the reasoning is in the run log and the day's JSON | Grep the run log for the ticker: `screened out:` = measured and failed, `out of scope:` = the screen doesn't apply (fund / 20-F filer / pre-first-report IPO or SPAC / no symbol), `unresolved:` = queued and retried each morning. Also `data/insiders/YYYY-MM-DD.json` → `excluded` / `unresolved` |
+| Every candidate reads `no share price for …` and the write is skipped | Yahoo throttled the GitHub runner's IP for the whole run (`$T: No data found, symbol may be delisted` for every symbol, incl. large caps). Happened 2026-09-23 at 06:30 **and** on the afternoon rerun — no page all day | Since 2026-09-23 `fetch_share_price` falls back to Polygon.io (`/v2/aggs/ticker/T/prev`) when Yahoo returns nothing, so this needs `POLYGON_API_KEY` set as a repo secret. If it recurs, check the secret exists (`gh secret list -R templargin/insider-monitor`) and that Polygon itself answers (`curl "https://api.polygon.io/v2/aggs/ticker/LEN/prev?apiKey=$K"`). Free tier is 5 calls/min; a 429 sleeps 13s and retries |
 | An issuer is stuck unread | Three mornings of retries failed (usually a price source that has no quote for a delisted-looking shell) | The run log prints `REVIEW NEEDED` once and stops retrying it; the record stays in `data/unresolved.json` with `"abandoned": true`. Decide by hand, then delete the entry |
 | Survivor's page shows `—` for options/warrants | Skill was conservative (ambiguous footnote) OR footnote file is missing | Inspect `data/footnotes/TICKER.txt`; manually edit JSON + push if you can determine the value |
 | Workflow fires but skill output is empty | All tickers already have non-null options/warrants — expected |

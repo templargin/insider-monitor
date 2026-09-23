@@ -514,14 +514,21 @@ def fetch_description(ticker):
     return fetch_profile(ticker)["description"]
 
 
-def fetch_share_price(ticker, retries=3):
-    """Most recent close price via yfinance. None on failure (after retries).
+def _usable_price(p):
+    """A price we can build EV on: a finite positive float. NaN (Yahoo's null
+    bar for a thin name) and 0 both mean "I don't know", never "the price is 0"."""
+    try:
+        p = float(p)
+    except (TypeError, ValueError):
+        return None
+    return p if math.isfinite(p) and p > 0 else None
 
-    yfinance is frequently throttled from cloud IPs (GitHub Actions), where an
-    empty-history response is usually transient rather than a real delisting. A
-    few spaced retries turn most of those into a real price — and the caller
-    treats a final None as data-unavailable, not as a screen-out, so a mass
-    Yahoo throttle can no longer blank out the daily page."""
+
+def _yahoo_share_price(ticker, retries=3):
+    """Most recent close via yfinance, or None. Frequently throttled from cloud
+    IPs (GitHub Actions) — an empty history there is usually transient, so a few
+    spaced retries turn most of those into a real price. Yahoo also serves a
+    NaN last bar for thin names; that is rejected, not returned."""
     import time
     t = _safe_yf_ticker(ticker)
     if t is None:
@@ -530,9 +537,65 @@ def fetch_share_price(ticker, retries=3):
         try:
             hist = t.history(period="5d")
             if hist is not None and not hist.empty:
-                return float(hist["Close"].iloc[-1])
+                closes = [c for c in hist["Close"].tolist() if _usable_price(c)]
+                if closes:
+                    return closes[-1]
         except Exception:
             pass
         if attempt < retries - 1:
             time.sleep(1.0 * (attempt + 1))  # 1s, 2s
     return None
+
+
+POLYGON_ENV = "POLYGON_API_KEY"
+_POLYGON_RATE_SLEEP = 13.0   # free tier is 5 calls/min — wait out a 429 and go again
+
+
+def _polygon_share_price(ticker, retries=3):
+    """Previous regular-session close from Polygon.io (`/v2/aggs/ticker/T/prev`),
+    or None. Runs only when POLYGON_API_KEY is set. Independent of Yahoo — it is
+    the second opinion when Yahoo throttles the whole run (2026-09-23: every
+    candidate came back "No data found" at 06:30 and again on the afternoon
+    rerun, so no page was written all day).
+
+    Free-tier limits: 5 calls/min, end-of-day data only — fine for a screener
+    that prices a handful of candidates once a morning. A 429 sleeps the rate
+    window and retries; any other failure returns None so the caller still
+    reads it as data-unavailable, never as a screen-out."""
+    import os, time
+    import requests
+    key = os.environ.get(POLYGON_ENV, "").strip()
+    if not key:
+        return None
+    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker.upper()}/prev"
+    for attempt in range(retries):
+        try:
+            r = requests.get(url, params={"adjusted": "true", "apiKey": key}, timeout=20)
+            if r.status_code == 429:
+                time.sleep(_POLYGON_RATE_SLEEP)
+                continue
+            if r.status_code != 200:
+                return None
+            results = (r.json() or {}).get("results") or []
+            if results:
+                return _usable_price(results[0].get("c"))
+            return None
+        except Exception:
+            if attempt < retries - 1:
+                time.sleep(1.0 * (attempt + 1))
+    return None
+
+
+def fetch_share_price(ticker, retries=3):
+    """Most recent close price: yfinance first, Polygon.io second. None only when
+    both fail — and the caller treats that None as data-unavailable, not as a
+    screen-out, so a mass Yahoo throttle can no longer blank out the daily page.
+
+    Two independent providers because the failure that matters is not one bad
+    symbol but a whole run: Yahoo throttles the cloud runner's IP and every
+    candidate reads as "delisted" at once. Polygon (the same key the research
+    site and pr-reaction use) does not share that failure."""
+    price = _yahoo_share_price(ticker, retries=retries)
+    if price is not None:
+        return price
+    return _polygon_share_price(ticker)
