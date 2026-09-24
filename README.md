@@ -103,6 +103,14 @@ the queue decided; one still unreadable after `MAX_RETRY_ATTEMPTS` mornings is l
 never allowed to be a scope answer — a `companyfacts` 429 says nothing about what an
 issuer files — and neither is a failure to answer the scope question itself.
 
+**Company pages** get the same second chance. A failed company refresh is caught so it
+cannot cost the day's page, which used to leave the daily row linking to a page that was
+never built (SPRU, 2026-09-24: a SEC 503 outlived `_get`'s retries). After today's work
+`daily_run` calls `pipeline.heal_missing_companies()`, which sweeps every daily JSON and
+builds any linked ticker with no `data/companies/TICKER.json`; one it still cannot build
+is printed as `still missing` and asked again the next morning. Form 4 symbols are
+upper-cased at parse — CapsoVision filed `cv`, and Pages paths are case-sensitive.
+
 ### The cover-page share count
 
 `companyfacts` — the API every other share read goes through — **silently drops every fact

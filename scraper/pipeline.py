@@ -663,6 +663,49 @@ def retry_unresolved(max_attempts=MAX_RETRY_ATTEMPTS):
     return counts
 
 
+def heal_missing_companies():
+    """Build the company JSON for every ticker a daily page lists but that has none.
+
+    A failed company refresh is caught and logged so it cannot cost the day's page
+    — but nothing asked again, so the daily row shipped linking to a company page
+    that was never written. SPRU on 2026-09-24 is the case: a SEC 503 outlived
+    `_get`'s retries mid-refresh and /companies/SPRU/ 404'd. The daily JSONs are the
+    record of what the site links to, so sweep all of them; the check is a file
+    stat per row, and only an actual hole costs a fetch.
+
+    `screener_pass` does not read `bucket_data`, and the daily row carries no CIK,
+    so the rebuild needs only SEC's exact ticker map. Its merits verdict is ignored:
+    the issuer already passed on its day, and a page must exist for any link.
+    Returns (healed, still_missing) ticker lists."""
+    wanted = {}
+    for p in sorted(INSIDERS_DIR.glob("*.json")):
+        try:
+            rows = json.loads(p.read_text()).get("tickers", [])
+        except Exception:                     # noqa: BLE001 - one bad page must not stop the sweep
+            continue
+        for t in rows:
+            tk = (t.get("ticker") or "").upper()
+            if tk and not (COMPANIES_DIR / f"{tk}.json").exists():
+                wanted.setdefault(tk, p.stem)
+    healed, still_missing = [], []
+    if wanted:
+        _log(f"=== Healing {len(wanted)} company page(s) linked but never built ===")
+    for tk, day in sorted(wanted.items()):
+        try:
+            cik = edgar.ticker_to_cik(tk)
+            if not cik:
+                raise DataUnavailable(f"{tk} not in SEC's ticker map")
+            snap, _ = screener_pass(cik, tk, {})
+            update_company_data(tk, cik, snap)
+        except Exception as e:                # noqa: BLE001 - next run asks again
+            _log(f"  still missing: {tk} (listed {day}) — {type(e).__name__}: {e}")
+            still_missing.append(tk)
+            continue
+        _log(f"  healed: {tk} (listed {day})")
+        healed.append(tk)
+    return healed, still_missing
+
+
 def process_bucket(url_date):
     """Process one URL date end-to-end: scrape, filter, write daily + company JSONs.
 

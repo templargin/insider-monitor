@@ -62,6 +62,13 @@ def main():
     else:
         pipeline.process_bucket(today)
 
+    # After today's work, so a company refresh that failed a minute ago gets a
+    # second, later attempt in this same run rather than a day of 404s.
+    healed, still_missing = pipeline.heal_missing_companies()
+    if healed or still_missing:
+        print(f"Company pages: {len(healed)} healed, {len(still_missing)} still missing"
+              + (f" ({', '.join(still_missing)})" if still_missing else "") + ".")
+
     summary = generate.generate()
     print(f"Site rebuilt: {summary['pages_built']} daily, {summary['companies_built']} companies.")
 

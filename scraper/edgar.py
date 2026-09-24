@@ -316,7 +316,11 @@ def parse_form4(xml_bytes):
         return None
     issuer_cik = (issuer.findtext("issuerCik") or "").strip().lstrip("0") or "0"
     issuer_name = (issuer.findtext("issuerName") or "").strip()
-    issuer_ticker = (issuer.findtext("issuerTradingSymbol") or "").strip()
+    # Filers type this field by hand and some type it lowercase (CapsoVision filed
+    # "cv"). The company JSON is always written upper-case, and GitHub Pages paths
+    # are case-sensitive, so a lowercase symbol here became a daily-page link to
+    # /companies/cv/ — a 404 beside a perfectly good /companies/CV/.
+    issuer_ticker = (issuer.findtext("issuerTradingSymbol") or "").strip().upper()
 
     owner = root.find("reportingOwner")
     rpt_name = ""
