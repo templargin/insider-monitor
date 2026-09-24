@@ -1,0 +1,130 @@
+{
+  "url_date": "2026-09-24",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-09-23"
+  ],
+  "generated_at": "2026-09-24T10:31:39+00:00",
+  "tickers": [
+    {
+      "ticker": "CV",
+      "name": "CapsoVision, Inc",
+      "total_value": 14999995.07,
+      "ev_basic": 302783833.1956911,
+      "mc_basic": 302783833.1956911,
+      "insiders": [
+        {
+          "reporter_name": "HARARI ELIYAHOU ET AL",
+          "relationship": "10% Owner",
+          "total_value": 9999998.61,
+          "shares": 1757469.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Shen Ching Hang",
+          "relationship": "10% Owner",
+          "total_value": 4999996.46,
+          "shares": 878734.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "OFIX",
+      "name": "Orthofix Medical Inc.",
+      "total_value": 2732097.0,
+      "ev_basic": 504734353.87060547,
+      "mc_basic": 373925353.87060547,
+      "insiders": [
+        {
+          "reporter_name": "Juniper Investment Company, LLC",
+          "relationship": "10% Owner",
+          "total_value": 2732097.0,
+          "shares": 310000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "RCT",
+      "name": "RedCloud Holdings plc",
+      "total_value": 185000.0,
+      "ev_basic": 20910691.701277018,
+      "mc_basic": 13265839.701277018,
+      "insiders": [
+        {
+          "reporter_name": "Floyd Justin Beck Hinton",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 185000.0,
+          "shares": 74000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AIAI",
+      "name": "AIAI Holdings Corp",
+      "total_value": 149999.5,
+      "ev_basic": 262332227.1222148,
+      "mc_basic": 231067227.1222148,
+      "insiders": [
+        {
+          "reporter_name": "Affeldt Eric",
+          "relationship": "Director",
+          "total_value": 149999.5,
+          "shares": 42857.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SPRU",
+      "name": "SPRUCE POWER HOLDING CORP",
+      "total_value": 107671.2,
+      "ev_basic": 671850196.2937858,
+      "mc_basic": 36964196.29378581,
+      "insiders": [
+        {
+          "reporter_name": "STEEL PARTNERS HOLDINGS L.P.",
+          "relationship": "10% Owner",
+          "total_value": 107671.2,
+          "shares": 52780.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ETRA",
+      "name": "Electra Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "AXIA3",
+      "name": "AXIA Energia S.A.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "CRAFX",
+      "name": "Cascade Real Assets Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Diameter Dynamic Credit Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": []
+}
