@@ -1,0 +1,48 @@
+{
+  "url_date": "2026-09-25",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-09-24"
+  ],
+  "generated_at": "2026-09-25T10:31:41+00:00",
+  "tickers": [],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Blackstone Private Real Estate Credit & Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "GAM",
+      "name": "GENERAL AMERICAN INVESTORS CO INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Blackstone Multi-Strategy Hedge Fund L.P.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "UXIN",
+      "name": "Uxin Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "NYAX",
+      "name": "Nayax Ltd.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
