@@ -1,0 +1,99 @@
+{
+  "url_date": "2026-09-28",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "generated_at": "2026-09-28T10:32:37+00:00",
+  "tickers": [
+    {
+      "ticker": "HRGN",
+      "name": "Harvard Apparatus Regenerative Technology, Inc.",
+      "total_value": 394459.0,
+      "ev_basic": 34829066.18298912,
+      "mc_basic": 34634066.18298912,
+      "insiders": [
+        {
+          "reporter_name": "He Junli",
+          "relationship": "Director, Officer (CEO)",
+          "total_value": 394459.0,
+          "shares": 368630.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "MX",
+      "name": "MAGNACHIP SEMICONDUCTOR Corp",
+      "total_value": 318496.0,
+      "ev_basic": 74239364.55906224,
+      "mc_basic": 120483364.55906224,
+      "insiders": [
+        {
+          "reporter_name": "LEE CHAE",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 318496.0,
+          "shares": 100000.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "URG",
+      "name": "UR-ENERGY INC",
+      "total_value": 110071.20999999999,
+      "ev_basic": 425545001.70283794,
+      "mc_basic": 449586001.70283794,
+      "insiders": [
+        {
+          "reporter_name": "Walle Jade",
+          "relationship": "Officer (VICE PRESIDENT FINANCE)",
+          "total_value": 110071.20999999999,
+          "shares": 96556.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "CX",
+      "name": "CEMEX SAB DE CV",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Core University Living Real Estate Income Trust",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "DLY",
+      "name": "DoubleLine Yield Opportunities Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "MSC",
+      "name": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "NCT",
+      "name": "Intercont (Cayman) Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Calamos Aksia Hedged Strategies Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": []
+}
