@@ -4,20 +4,90 @@
   "name": "HUDSON TECHNOLOGIES INC /NY",
   "description": "Hudson Technologies, Inc., through its subsidiary, Hudson Technologies Company, provides solutions to recurring problems within the refrigeration industry in the United States. The company offers refrigerant and industrial gas; refrigerant management services comprising primarily of reclamation of refrigerants, laboratory testing through its laboratory, and banking storage services; and RefrigerantSide Services comprising system decontamination to remove moisture, oils, and other contaminants intended to restore systems to designed capacity. It also provides diagnostic services for use in the prediction of potential problems in air conditioning, process cooling, and refrigeration systems; Chiller Chemistry, which integrates several fluid tests of an operating system and the corresponding laboratory results into an engineering report; Fluid Chemistry for use in identification of systems that require further examination; and SmartEnergy OPS, a system for measuring, modifying, and improving the efficiency of energy systems, including air conditioning and refrigeration systems, in industrial and commercial applications. In addition, the company provides a snapshot of a packaged chiller's operating efficiency and health through ChillSmart, a maintenance tool. Further, it is involved in the generation of carbon offset projects. The company serves commercial, industrial, and governmental customers, as well as refrigerant wholesalers, distributors, contractors, and refrigeration equipment manufacturers. Hudson Technologies, Inc. was founded in 1990 and is headquartered in Woodcliff Lake, New Jersey.",
   "ownership": {
-    "inst_pct": 0.80023,
+    "inst_pct": 0.79836,
     "insider_pct": 0.13703,
-    "inst_count": 216,
+    "inst_count": 215,
     "analyst_count": 4,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": 7.3125,
-    "short_pct_float": 0.0539,
-    "shares_short": 2244366,
-    "short_days_to_cover": 4.97,
-    "short_as_of": "2026-08-14",
-    "as_of": "2026-08-27"
+    "short_pct_float": 0.0682,
+    "shares_short": 2837071,
+    "short_days_to_cover": 4.17,
+    "short_as_of": "2026-09-15",
+    "as_of": "2026-09-29"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-28",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-24",
+      "code": "P",
+      "shares": 118549.0,
+      "price": 5.0987,
+      "total_value": 604445.7863,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002658"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-23",
+      "code": "P",
+      "shares": 11013.0,
+      "price": 5.1,
+      "total_value": 56166.299999999996,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002633"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-21",
+      "code": "P",
+      "shares": 2502.0,
+      "price": 5.0988,
+      "total_value": 12757.1976,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002633"
+    },
+    {
+      "date_filed": "2026-09-18",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 11136.0,
+      "price": 5.1,
+      "total_value": 56793.6,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002585"
+    },
+    {
+      "date_filed": "2026-09-04",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-02",
+      "code": "P",
+      "shares": 5317.0,
+      "price": 5.1,
+      "total_value": 27116.699999999997,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002492"
+    },
     {
       "date_filed": "2026-08-26",
       "reporter_name": "Hartree Partners, LP",
@@ -958,7 +1028,7 @@
     }
   ],
   "valuation": {
-    "share_price": 5.480000019073486,
+    "share_price": 5.099999904632568,
     "shares_basic": 42088547,
     "shares_basic_as_of": "2026-07-27",
     "options": 2604023,
@@ -967,8 +1037,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 256918000.0,
-    "mc_basic": 230645238.36277533,
-    "ev_basic": 205045238.36277533
+    "mc_basic": 214651585.68612337,
+    "ev_basic": 189051585.68612337
   },
   "financials": {
     "income_statement": {
@@ -2215,5 +2285,5 @@
       }
     }
   },
-  "last_updated": "2026-08-27T20:44:21+00:00"
+  "last_updated": "2026-09-29T10:32:42+00:00"
 }

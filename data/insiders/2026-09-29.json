@@ -1,0 +1,83 @@
+{
+  "url_date": "2026-09-29",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-09-28"
+  ],
+  "generated_at": "2026-09-29T10:31:57+00:00",
+  "tickers": [
+    {
+      "ticker": "HDSN",
+      "name": "HUDSON TECHNOLOGIES INC /NY",
+      "total_value": 604445.7863,
+      "ev_basic": 189051585.68612337,
+      "mc_basic": 214651585.68612337,
+      "insiders": [
+        {
+          "reporter_name": "Hartree Partners, LP",
+          "relationship": "10% Owner",
+          "total_value": 604445.7863,
+          "shares": 118549.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "total_value": 270800.2968,
+      "ev_basic": 145905386.10759735,
+      "mc_basic": 187289673.10759735,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 270800.2968,
+          "shares": 31763.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ZUMZ",
+      "name": "Zumiez Inc",
+      "total_value": 134000.0,
+      "ev_basic": 166486873.08334827,
+      "mc_basic": 216774873.08334827,
+      "insiders": [
+        {
+          "reporter_name": "ELLIS ADAM CHRISTOPHER",
+          "relationship": "Officer (President International)",
+          "total_value": 134000.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "GPUS",
+      "name": "Hyperscale Data, Inc.",
+      "total_value": 117459.24,
+      "ev_basic": 188798097.42847246,
+      "mc_basic": 119644097.42847244,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 117459.24,
+          "shares": 689600.0,
+          "txn_count": 4
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "FTHY",
+      "name": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
