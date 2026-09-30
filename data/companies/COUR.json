@@ -1,0 +1,2781 @@
+{
+  "ticker": "COUR",
+  "cik": "1651562",
+  "name": "Coursera, Inc.",
+  "description": "Coursera, Inc. operates an online learning platform that provides education and skills training in the United States, Europe, the Middle East, Africa, the Asia Pacific, and internationally. It operates through Consumer and Enterprise segments. The company offers guided projects, courses, and specializations; online bachelor's and master's degrees; postgraduate diplomas; and certificates for entry-level professional, non-entry level professional, university, and MasterTrack programs in the domains of business, computer science, technology, and data science through Coursera.org for Individuals, Coursera Plus, Coursera for Enterprise, Coursera for Business, Coursera for Campus, and Coursera for Government. It offers its products to individuals, businesses, institutions, employers, colleges and universities, organizations, and governments. The company was formerly known as Dkandu, Inc. and changed its name to Coursera, Inc. in April 2012. Coursera, Inc. was incorporated in 2011 and is headquartered in Mountain View, California.",
+  "ownership": {
+    "inst_pct": 0.92553,
+    "insider_pct": 0.03264,
+    "inst_count": 336,
+    "analyst_count": 9,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 8.16667,
+    "short_pct_float": 0.1001,
+    "shares_short": 24121644,
+    "short_days_to_cover": 5.48,
+    "short_as_of": "2026-09-15",
+    "as_of": "2026-09-30"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-09-29",
+      "reporter_name": "Pale Fire Capital SE",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-29",
+      "code": "P",
+      "shares": 1000000.0,
+      "price": 4.6062,
+      "total_value": 4606200.0,
+      "security_title": "Common Stock, $0.00001 par value per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002677"
+    },
+    {
+      "date_filed": "2026-09-29",
+      "reporter_name": "Pale Fire Capital SE",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-25",
+      "code": "P",
+      "shares": 1332742.0,
+      "price": 5.0639,
+      "total_value": 6748872.2138,
+      "security_title": "Common Stock, $0.00001 par value per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002677"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-08-17",
+      "code": "S",
+      "shares": -9139.0,
+      "price": 5.71,
+      "total_value": -52183.69,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-355858"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-08-15",
+      "code": "F",
+      "shares": -11241.0,
+      "price": 5.78,
+      "total_value": -64972.98,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-355862"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-08-15",
+      "code": "F",
+      "shares": -936.0,
+      "price": 5.78,
+      "total_value": -5410.08,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-355862"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2026-08-15",
+      "code": "F",
+      "shares": -46069.0,
+      "price": 5.78,
+      "total_value": -266278.82,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-355861"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-08-15",
+      "code": "F",
+      "shares": -9203.0,
+      "price": 5.78,
+      "total_value": -53193.340000000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-355858"
+    },
+    {
+      "date_filed": "2026-08-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-08-15",
+      "code": "F",
+      "shares": -1355.0,
+      "price": 5.78,
+      "total_value": -7831.900000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-355858"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "SANDELL SCOTT D",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271336"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Chang Carmen",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271323"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "MITCHELL THEODORE",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271283"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "McCarthy Christopher D.",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271279"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271276"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Paterson Lydia",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271273"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Maco Marylou",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271271"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "ABBASI SOHAIB",
+      "relationship": "Director",
+      "transaction_date": "2026-06-11",
+      "code": "A",
+      "shares": 34260.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-271269"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-20",
+      "code": "S",
+      "shares": -935596.0,
+      "price": 5.2441,
+      "total_value": -4906358.983600001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-20",
+      "code": "S",
+      "shares": -21655.0,
+      "price": 5.2441,
+      "total_value": -113560.98550000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-20",
+      "code": "S",
+      "shares": -59179.0,
+      "price": 5.2441,
+      "total_value": -310340.59390000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-20",
+      "code": "S",
+      "shares": -411869.0,
+      "price": 5.2441,
+      "total_value": -2159882.2229000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-20",
+      "code": "S",
+      "shares": -38073.0,
+      "price": 5.2441,
+      "total_value": -199658.61930000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-19",
+      "code": "S",
+      "shares": -290305.0,
+      "price": 5.4097,
+      "total_value": -1570462.9585,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-19",
+      "code": "S",
+      "shares": -6719.0,
+      "price": 5.4097,
+      "total_value": -36347.7743,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-19",
+      "code": "S",
+      "shares": -18363.0,
+      "price": 5.4097,
+      "total_value": -99338.3211,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-19",
+      "code": "S",
+      "shares": -127799.0,
+      "price": 5.4097,
+      "total_value": -691354.2503,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-19",
+      "code": "S",
+      "shares": -11814.0,
+      "price": 5.4097,
+      "total_value": -63910.1958,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000617"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Insight Holdings Group, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-18",
+      "code": "S",
+      "shares": -78628.0,
+      "price": 5.6889,
+      "total_value": -447306.82920000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000899140-26-000592"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-05-18",
+      "code": "S",
+      "shares": -9139.0,
+      "price": 5.52,
+      "total_value": -50447.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-231071"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2026-05-15",
+      "code": "F",
+      "shares": -46069.0,
+      "price": 5.28,
+      "total_value": -243244.32,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-231073"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-05-15",
+      "code": "F",
+      "shares": -9201.0,
+      "price": 5.28,
+      "total_value": -48581.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-231071"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-05-15",
+      "code": "F",
+      "shares": -1355.0,
+      "price": 5.28,
+      "total_value": -7154.400000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-231071"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-05-15",
+      "code": "F",
+      "shares": -11241.0,
+      "price": 5.28,
+      "total_value": -59352.48,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-231069"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-05-15",
+      "code": "F",
+      "shares": -935.0,
+      "price": 5.28,
+      "total_value": -4936.8,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-231069"
+    },
+    {
+      "date_filed": "2026-03-31",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-03-25",
+      "code": "A",
+      "shares": 20000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-134896"
+    },
+    {
+      "date_filed": "2026-03-31",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-03-25",
+      "code": "A",
+      "shares": 20000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-134888"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Foley Michael D.",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2026-03-16",
+      "code": "A",
+      "shares": 350000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-110944"
+    },
+    {
+      "date_filed": "2026-02-25",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-02-23",
+      "code": "A",
+      "shares": 41498.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-072099"
+    },
+    {
+      "date_filed": "2026-02-25",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-02-23",
+      "code": "F",
+      "shares": -3745.0,
+      "price": 6.01,
+      "total_value": -22507.45,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-072099"
+    },
+    {
+      "date_filed": "2026-02-25",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-02-23",
+      "code": "A",
+      "shares": 41498.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-072076"
+    },
+    {
+      "date_filed": "2026-02-25",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-02-23",
+      "code": "F",
+      "shares": -3741.0,
+      "price": 6.01,
+      "total_value": -22483.41,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-072076"
+    },
+    {
+      "date_filed": "2026-02-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-02-17",
+      "code": "S",
+      "shares": -9710.0,
+      "price": 5.92,
+      "total_value": -57483.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-057411"
+    },
+    {
+      "date_filed": "2026-02-18",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2026-02-15",
+      "code": "F",
+      "shares": -46069.0,
+      "price": 5.92,
+      "total_value": -272728.48,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-057440"
+    },
+    {
+      "date_filed": "2026-02-18",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2026-02-15",
+      "code": "F",
+      "shares": -10657.0,
+      "price": 5.92,
+      "total_value": -63089.44,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-057427"
+    },
+    {
+      "date_filed": "2026-02-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-02-15",
+      "code": "F",
+      "shares": -9759.0,
+      "price": 5.92,
+      "total_value": -57773.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-057411"
+    },
+    {
+      "date_filed": "2026-02-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2026-02-15",
+      "code": "F",
+      "shares": -483.0,
+      "price": 5.92,
+      "total_value": -2859.36,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-057411"
+    },
+    {
+      "date_filed": "2026-02-04",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2026-02-03",
+      "code": "F",
+      "shares": -185653.0,
+      "price": 5.86,
+      "total_value": -1087926.58,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-037974"
+    },
+    {
+      "date_filed": "2025-12-17",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-12-15",
+      "code": "S",
+      "shares": -8078.0,
+      "price": 8.17,
+      "total_value": -65997.26,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-322925"
+    },
+    {
+      "date_filed": "2025-11-18",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-11-15",
+      "code": "F",
+      "shares": -9555.0,
+      "price": 8.48,
+      "total_value": -81026.40000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-286542"
+    },
+    {
+      "date_filed": "2025-11-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-11-15",
+      "code": "F",
+      "shares": -12089.0,
+      "price": 8.48,
+      "total_value": -102514.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-286538"
+    },
+    {
+      "date_filed": "2025-11-18",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-11-15",
+      "code": "F",
+      "shares": -531.0,
+      "price": 8.48,
+      "total_value": -4502.88,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-286538"
+    },
+    {
+      "date_filed": "2025-11-18",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2025-11-15",
+      "code": "F",
+      "shares": -13366.0,
+      "price": 8.48,
+      "total_value": -113343.68000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-286533"
+    },
+    {
+      "date_filed": "2025-10-20",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-10-16",
+      "code": "S",
+      "shares": -3500.0,
+      "price": 10.27,
+      "total_value": -35945.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-243749"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -3500.0,
+      "price": 11.31,
+      "total_value": -39585.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-211540"
+    },
+    {
+      "date_filed": "2025-09-10",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-09-09",
+      "code": "S",
+      "shares": -29636.0,
+      "price": 11.97,
+      "total_value": -354742.92000000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000007"
+    },
+    {
+      "date_filed": "2025-09-10",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-09-08",
+      "code": "S",
+      "shares": -20364.0,
+      "price": 11.46,
+      "total_value": -233371.44000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000007"
+    },
+    {
+      "date_filed": "2025-09-05",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-09-03",
+      "code": "S",
+      "shares": -24631.0,
+      "price": 11.14,
+      "total_value": -274389.34,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001978193-25-000006"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-08-15",
+      "code": "F",
+      "shares": -9794.0,
+      "price": 11.91,
+      "total_value": -116646.54000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001978193-25-000004"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-08-15",
+      "code": "F",
+      "shares": -417.0,
+      "price": 11.91,
+      "total_value": -4966.47,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001978193-25-000004"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2025-08-15",
+      "code": "F",
+      "shares": -31755.0,
+      "price": 11.91,
+      "total_value": -378202.05,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002033698-25-000004"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-08-15",
+      "code": "F",
+      "shares": -9556.0,
+      "price": 11.91,
+      "total_value": -113811.96,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001768036-25-000004"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-08-15",
+      "code": "S",
+      "shares": -2500.0,
+      "price": 11.94,
+      "total_value": -29850.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001768036-25-000004"
+    },
+    {
+      "date_filed": "2025-08-18",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-08-15",
+      "code": "S",
+      "shares": -25000.0,
+      "price": 11.92,
+      "total_value": -298000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000005"
+    },
+    {
+      "date_filed": "2025-08-18",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-08-15",
+      "code": "F",
+      "shares": -42906.0,
+      "price": 11.91,
+      "total_value": -511010.46,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000005"
+    },
+    {
+      "date_filed": "2025-08-18",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-08-15",
+      "code": "F",
+      "shares": -3900.0,
+      "price": 11.91,
+      "total_value": -46449.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000005"
+    },
+    {
+      "date_filed": "2025-08-18",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-08-14",
+      "code": "M",
+      "shares": 49503.0,
+      "price": 6.06,
+      "total_value": 299988.18,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000005"
+    },
+    {
+      "date_filed": "2025-08-18",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-08-14",
+      "code": "S",
+      "shares": -75000.0,
+      "price": 11.87,
+      "total_value": -890249.9999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000005"
+    },
+    {
+      "date_filed": "2025-08-18",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-08-14",
+      "code": "M",
+      "shares": -49503.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001202943-25-000005"
+    },
+    {
+      "date_filed": "2025-07-29",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-07-25",
+      "code": "S",
+      "shares": -12500.0,
+      "price": 11.6,
+      "total_value": -145000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-099728"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "SIMMONS SABRINA",
+      "relationship": "Director",
+      "transaction_date": "2025-05-22",
+      "code": "S",
+      "shares": -9335.0,
+      "price": 8.48,
+      "total_value": -79160.8,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077117"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "Clark Amanda",
+      "relationship": "Director",
+      "transaction_date": "2025-05-22",
+      "code": "S",
+      "shares": -9334.0,
+      "price": 8.48,
+      "total_value": -79152.32,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077109"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "Muigai Susan W.",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077206"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077148"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "McCarthy Christopher D.",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077143"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "SANDELL SCOTT D",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077141"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "Chang Carmen",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077140"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "MITCHELL THEODORE",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077121"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "SIMMONS SABRINA",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077117"
+    },
+    {
+      "date_filed": "2025-05-23",
+      "reporter_name": "Clark Amanda",
+      "relationship": "Director",
+      "transaction_date": "2025-05-21",
+      "code": "A",
+      "shares": 21765.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-077109"
+    },
+    {
+      "date_filed": "2025-05-22",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-05-20",
+      "code": "S",
+      "shares": -6101.0,
+      "price": 8.65,
+      "total_value": -52773.65,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-076489"
+    },
+    {
+      "date_filed": "2025-05-19",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2025-05-15",
+      "code": "F",
+      "shares": -2535.0,
+      "price": 8.94,
+      "total_value": -22662.899999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-074748"
+    },
+    {
+      "date_filed": "2025-05-19",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-05-15",
+      "code": "F",
+      "shares": -9555.0,
+      "price": 8.94,
+      "total_value": -85421.7,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-074741"
+    },
+    {
+      "date_filed": "2025-05-19",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-05-15",
+      "code": "F",
+      "shares": -46714.0,
+      "price": 8.94,
+      "total_value": -417623.16,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-074736"
+    },
+    {
+      "date_filed": "2025-05-19",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-05-15",
+      "code": "F",
+      "shares": -3900.0,
+      "price": 8.94,
+      "total_value": -34866.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-074736"
+    },
+    {
+      "date_filed": "2025-05-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-05-15",
+      "code": "F",
+      "shares": -9792.0,
+      "price": 8.94,
+      "total_value": -87540.48,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-074733"
+    },
+    {
+      "date_filed": "2025-05-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-05-15",
+      "code": "F",
+      "shares": -417.0,
+      "price": 8.94,
+      "total_value": -3727.98,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-074733"
+    },
+    {
+      "date_filed": "2025-03-24",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "A",
+      "shares": 247500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-043966"
+    },
+    {
+      "date_filed": "2025-03-24",
+      "reporter_name": "Modica Marcelo",
+      "relationship": "Officer (SVP, Chief People Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "A",
+      "shares": 112500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-043963"
+    },
+    {
+      "date_filed": "2025-03-24",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-03-20",
+      "code": "A",
+      "shares": 62500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-043959"
+    },
+    {
+      "date_filed": "2025-03-24",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-03-20",
+      "code": "A",
+      "shares": 112500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-043956"
+    },
+    {
+      "date_filed": "2025-02-26",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-02-24",
+      "code": "A",
+      "shares": 18431.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-027958"
+    },
+    {
+      "date_filed": "2025-02-26",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-02-24",
+      "code": "F",
+      "shares": -1666.0,
+      "price": 8.08,
+      "total_value": -13461.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-027958"
+    },
+    {
+      "date_filed": "2025-02-26",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-02-24",
+      "code": "A",
+      "shares": 122875.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-027944"
+    },
+    {
+      "date_filed": "2025-02-26",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-02-24",
+      "code": "F",
+      "shares": -15599.0,
+      "price": 8.08,
+      "total_value": -126039.92,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-027944"
+    },
+    {
+      "date_filed": "2025-02-19",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2025-02-19",
+      "code": "S",
+      "shares": -25000.0,
+      "price": 8.2627,
+      "total_value": -206567.50000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-023552"
+    },
+    {
+      "date_filed": "2025-02-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-02-19",
+      "code": "S",
+      "shares": -5613.0,
+      "price": 8.2564,
+      "total_value": -46343.1732,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-023479"
+    },
+    {
+      "date_filed": "2025-02-19",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2025-02-18",
+      "code": "S",
+      "shares": -110.0,
+      "price": 8.6525,
+      "total_value": -951.775,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-023552"
+    },
+    {
+      "date_filed": "2025-02-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2025-02-15",
+      "code": "F",
+      "shares": -8056.0,
+      "price": 8.85,
+      "total_value": -71295.59999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-023479"
+    },
+    {
+      "date_filed": "2025-02-19",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2025-02-15",
+      "code": "F",
+      "shares": -39554.0,
+      "price": 8.85,
+      "total_value": -350052.89999999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-023389"
+    },
+    {
+      "date_filed": "2025-02-19",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2025-02-15",
+      "code": "F",
+      "shares": -8789.0,
+      "price": 8.85,
+      "total_value": -77782.65,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-023371"
+    },
+    {
+      "date_filed": "2025-02-05",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2025-02-03",
+      "code": "A",
+      "shares": 1873171.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-014757"
+    },
+    {
+      "date_filed": "2025-02-05",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2025-02-03",
+      "code": "A",
+      "shares": 3746342.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0000950170-25-014757"
+    },
+    {
+      "date_filed": "2025-02-05",
+      "reporter_name": "Hart Gregory M.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2025-02-03",
+      "code": "A",
+      "shares": 1404879.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Performance-based Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0000950170-25-014757"
+    },
+    {
+      "date_filed": "2025-01-17",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2025-01-15",
+      "code": "S",
+      "shares": -25000.0,
+      "price": 8.6664,
+      "total_value": -216660.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-006789"
+    },
+    {
+      "date_filed": "2024-12-19",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2024-12-18",
+      "code": "S",
+      "shares": -25000.0,
+      "price": 8.7462,
+      "total_value": -218655.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-138564"
+    },
+    {
+      "date_filed": "2024-12-19",
+      "reporter_name": "Ng Andrew Y.",
+      "relationship": "Director",
+      "transaction_date": "2024-12-17",
+      "code": "S",
+      "shares": -1000.0,
+      "price": 8.7807,
+      "total_value": -8780.699999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-138564"
+    },
+    {
+      "date_filed": "2024-11-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2024-11-18",
+      "code": "S",
+      "shares": -6102.0,
+      "price": 6.8258,
+      "total_value": -41651.0316,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-128869"
+    },
+    {
+      "date_filed": "2024-11-19",
+      "reporter_name": "Meyers Michele M",
+      "relationship": "Officer (VP, Accounting, and CAO)",
+      "transaction_date": "2024-11-15",
+      "code": "F",
+      "shares": -8017.0,
+      "price": 6.93,
+      "total_value": -55557.81,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-128883"
+    },
+    {
+      "date_filed": "2024-11-19",
+      "reporter_name": "Maggioncalda Jeffrey Nacey",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2024-11-15",
+      "code": "F",
+      "shares": -97030.0,
+      "price": 6.93,
+      "total_value": -672417.9,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-128881"
+    },
+    {
+      "date_filed": "2024-11-19",
+      "reporter_name": "HAHN KENNETH R",
+      "relationship": "Officer (SVP, Chief Financial Officer)",
+      "transaction_date": "2024-11-15",
+      "code": "F",
+      "shares": -38781.0,
+      "price": 6.93,
+      "total_value": -268752.33,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-128876"
+    },
+    {
+      "date_filed": "2024-11-19",
+      "reporter_name": "Clark Amanda",
+      "relationship": "Director",
+      "transaction_date": "2024-11-15",
+      "code": "S",
+      "shares": -1562.0,
+      "price": 7.16,
+      "total_value": -11183.92,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-128871"
+    },
+    {
+      "date_filed": "2024-11-19",
+      "reporter_name": "Cardenas Alan B",
+      "relationship": "Officer (SVP, General Counsel)",
+      "transaction_date": "2024-11-15",
+      "code": "F",
+      "shares": -7250.0,
+      "price": 6.93,
+      "total_value": -50242.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-24-128869"
+    }
+  ],
+  "valuation": {
+    "share_price": 4.670000076293945,
+    "shares_basic": 264400000,
+    "shares_basic_as_of": "2026-07-29",
+    "options": 10800000,
+    "warrants": null,
+    "cash": 871700000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 885400000.0,
+    "mc_basic": 1234748020.1721191,
+    "ev_basic": 363048020.17211914
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            298600000,
+            195700000,
+            196900000,
+            194200000
+          ],
+          [
+            59.59380010689471,
+            9.146681539319577,
+            9.877232142857142,
+            10.278250993753549
+          ],
+          [
+            125200000,
+            87100000,
+            90100000,
+            88200000
+          ],
+          [
+            173400000,
+            108600000,
+            106800000,
+            106000000
+          ],
+          [
+            68.8412852969815,
+            10.929519918283964,
+            11.832460732984293,
+            10.187110187110187
+          ],
+          [
+            58.07099799062291,
+            55.49310168625447,
+            54.2407313357034,
+            54.582904222451084
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            134600000,
+            102600000,
+            106300000,
+            91600000
+          ],
+          [
+            43700000,
+            31300000,
+            32800000,
+            30000000
+          ],
+          [
+            258100000,
+            133900000,
+            139100000,
+            121600000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -84700000,
+            -25300000,
+            -32300000,
+            -15600000
+          ],
+          [
+            -460.92715231788077,
+            -75.69444444444444,
+            -5.901639344262295,
+            28.110599078341014
+          ],
+          [
+            -28.365706630944405,
+            -12.927950945324476,
+            -16.404266124936516,
+            -8.032955715756952
+          ],
+          [
+            -62200000,
+            -17800000,
+            -25300000,
+            -8300000
+          ],
+          [
+            -20.830542531815137,
+            -9.095554420030659,
+            -12.849162011173185,
+            -4.27394438722966
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            6400000,
+            6200000,
+            7500000,
+            7800000
+          ],
+          [
+            -78300000,
+            -19100000,
+            -24800000,
+            -7800000
+          ],
+          [
+            2100000,
+            1400000,
+            2000000,
+            800000
+          ],
+          [
+            -80400000,
+            -20500000,
+            -26800000,
+            -8600000
+          ],
+          [
+            -26.925653047555258,
+            -10.475217169136434,
+            -13.610970035551041,
+            -4.42842430484037
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.34,
+            -0.12,
+            -0.16,
+            -0.05
+          ],
+          [
+            -0.34,
+            -0.12,
+            -0.16,
+            -0.05
+          ],
+          [
+            233400000,
+            168700000,
+            null,
+            164600000
+          ],
+          [
+            233400000,
+            168700000,
+            null,
+            164600000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            885400000,
+            757500000,
+            694700000,
+            635800000,
+            523756000
+          ],
+          [
+            16.884488448844884,
+            9.039873326615805,
+            9.263919471531928,
+            21.39240409656405,
+            null
+          ],
+          [
+            390600000,
+            344100000,
+            323300000,
+            306000000,
+            192277000
+          ],
+          [
+            494800000,
+            413400000,
+            371400000,
+            329800000,
+            331479000
+          ],
+          [
+            19.6903725205612,
+            11.308562197092083,
+            12.613705275924803,
+            -0.5065177582893637,
+            null
+          ],
+          [
+            55.884346058278744,
+            54.57425742574257,
+            53.46192601122787,
+            51.8716577540107,
+            63.28882151230726
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            435100000,
+            370100000,
+            343600000,
+            321100000,
+            333576000
+          ],
+          [
+            137800000,
+            121600000,
+            132100000,
+            160100000,
+            165134000
+          ],
+          [
+            652700000,
+            490800000,
+            484600000,
+            475400000,
+            508859000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -157900000,
+            -77400000,
+            -113200000,
+            -145600000,
+            -177380000
+          ],
+          [
+            -104.00516795865633,
+            31.625441696113075,
+            22.252747252747252,
+            17.91633780584057,
+            null
+          ],
+          [
+            -17.833747458775694,
+            -10.217821782178218,
+            -16.29480351230747,
+            -22.900283107895564,
+            -33.866915128418576
+          ],
+          [
+            -113600000,
+            -48600000,
+            -88100000,
+            -123300000,
+            -158877000
+          ],
+          [
+            -12.83035915970183,
+            -6.415841584158416,
+            -12.681733122211027,
+            -19.392890846178044,
+            -30.334163236316147
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            27900000,
+            31500000,
+            34670000,
+            34446000,
+            6743000
+          ],
+          [
+            -130000000,
+            -45900000,
+            -78530000,
+            -111154000,
+            -170637000
+          ],
+          [
+            6300000,
+            5100000,
+            1000000,
+            5400000,
+            4720000
+          ],
+          [
+            -136300000,
+            -51000000,
+            -79530000,
+            -116554000,
+            -175357000
+          ],
+          [
+            -136300000,
+            -51000000,
+            -79500000,
+            -116600000,
+            -175357000
+          ],
+          [
+            -15.394172125592952,
+            -6.732673267326732,
+            -11.448107096588455,
+            -18.331865366467444,
+            -33.48066656992951
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.67,
+            -0.31,
+            -0.51,
+            -0.77,
+            -1.21
+          ],
+          [
+            -0.67,
+            -0.31,
+            -0.51,
+            -0.77,
+            -1.21
+          ],
+          [
+            233400000,
+            163800000,
+            157400000,
+            151000000,
+            145263726
+          ],
+          [
+            233400000,
+            163800000,
+            157400000,
+            151000000,
+            145263726
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            871700000,
+            789800000,
+            792600000,
+            797700000
+          ],
+          [
+            110500000,
+            null,
+            0,
+            null
+          ],
+          [
+            158800000,
+            60000000,
+            65400000,
+            58700000
+          ],
+          [
+            80400000,
+            43600000,
+            40100000,
+            40900000
+          ],
+          [
+            1221400000,
+            893400000,
+            898100000,
+            897300000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            55000000,
+            45500000,
+            43400000,
+            41800000
+          ],
+          [
+            182700000,
+            null,
+            0,
+            null
+          ],
+          [
+            436300000,
+            30900000,
+            27100000,
+            25600000
+          ],
+          [
+            52400000,
+            30700000,
+            31400000,
+            30600000
+          ],
+          [
+            1947800000,
+            1000500000,
+            1000000000,
+            995300000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            1800000,
+            null
+          ],
+          [
+            768100000,
+            362400000,
+            356100000,
+            349500000
+          ],
+          [
+            768100000,
+            362400000,
+            357900000,
+            349500000
+          ],
+          [
+            null,
+            null,
+            3900000,
+            null
+          ],
+          [
+            12700000,
+            6300000,
+            2500000,
+            6300000
+          ],
+          [
+            780800000,
+            368700000,
+            364300000,
+            355800000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1012100000,
+            -931700000,
+            -911200000,
+            -884400000
+          ],
+          [
+            1167000000,
+            631800000,
+            635700000,
+            639500000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            871700000,
+            792600000,
+            726100000,
+            656300000,
+            320817000
+          ],
+          [
+            110500000,
+            0,
+            0,
+            65746000,
+            459654000
+          ],
+          [
+            158800000,
+            65400000,
+            59700000,
+            67418000,
+            53734000
+          ],
+          [
+            80400000,
+            40100000,
+            44900000,
+            43022000,
+            41783000
+          ],
+          [
+            1221400000,
+            898100000,
+            830700000,
+            832486000,
+            875988000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            55000000,
+            43400000,
+            36900000,
+            30408000,
+            27096000
+          ],
+          [
+            null,
+            null,
+            3000000,
+            4739000,
+            9605000
+          ],
+          [
+            182700000,
+            0,
+            null,
+            null,
+            null
+          ],
+          [
+            436300000,
+            27100000,
+            24500000,
+            11720000,
+            8553000
+          ],
+          [
+            52400000,
+            31400000,
+            35200000,
+            41180000,
+            26355000
+          ],
+          [
+            1947800000,
+            1000000000,
+            930300000,
+            920533000,
+            947597000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            1800000,
+            43000,
+            6557000,
+            8658000
+          ],
+          [
+            768100000,
+            356100000,
+            327457000,
+            291703000,
+            233783000
+          ],
+          [
+            768100000,
+            357900000,
+            327500000,
+            298260000,
+            242441000
+          ],
+          [
+            null,
+            3900000,
+            3000000,
+            39000,
+            5791000
+          ],
+          [
+            12700000,
+            2500000,
+            2400000,
+            6040000,
+            4790000
+          ],
+          [
+            780800000,
+            364300000,
+            332900000,
+            304339000,
+            253022000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1012100000,
+            -911200000,
+            -860200000,
+            -780677000,
+            -664123000
+          ],
+          [
+            1167000000,
+            635700000,
+            597400000,
+            616200000,
+            694600000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Buyback",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -80400000,
+            -20500000,
+            -26800000,
+            -8600000
+          ],
+          [
+            22500000,
+            7500000,
+            7000000,
+            7300000
+          ],
+          [
+            39600000,
+            20300000,
+            24100000,
+            23000000
+          ],
+          [
+            -1500000,
+            7300000,
+            1500000,
+            12200000
+          ],
+          [
+            -19800000,
+            14600000,
+            5800000,
+            33900000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -300000,
+            -200000,
+            -400000,
+            -200000
+          ],
+          [
+            200400000,
+            -11400000,
+            -7400000,
+            -7100000
+          ],
+          [
+            200100000,
+            -11600000,
+            -7800000,
+            -7300000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            -96700000,
+            -5700000,
+            -3100000,
+            -3900000
+          ],
+          [
+            -96700000,
+            -5700000,
+            -3100000,
+            -3900000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -20100000,
+            14400000,
+            5400000,
+            33700000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Buyback",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -136300000,
+            -51000000,
+            -79530000,
+            -116554000,
+            -175357000
+          ],
+          [
+            44300000,
+            28800000,
+            25100000,
+            22300000,
+            18503000
+          ],
+          [
+            107000000,
+            95100000,
+            108100000,
+            109600000,
+            110785000
+          ],
+          [
+            19500000,
+            35800000,
+            41730000,
+            14354000,
+            8018000
+          ],
+          [
+            34500000,
+            108700000,
+            95400000,
+            29700000,
+            -38051000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1100000,
+            -1500000,
+            -1600000,
+            -1100000,
+            -1578000
+          ],
+          [
+            174500000,
+            -28700000,
+            31500000,
+            385900000,
+            -232446000
+          ],
+          [
+            173400000,
+            -30200000,
+            29900000,
+            384800000,
+            -234024000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            0,
+            -36700000,
+            -58500000,
+            0
+          ],
+          [
+            -109400000,
+            -13500000,
+            -18300000,
+            -20800000,
+            12234000
+          ],
+          [
+            -109400000,
+            -13500000,
+            -55000000,
+            -79300000,
+            12234000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            33400000,
+            107200000,
+            93800000,
+            28600000,
+            -39629000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            1.59015753157141,
+            2.4652317880794703,
+            2.5093601564682873,
+            2.567381974248927
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -20.830542531815137,
+            -9.095554420030659,
+            -12.849162011173185,
+            -4.27394438722966
+          ],
+          [
+            453300000,
+            531000000,
+            540200000,
+            547800000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -6.889460154241645,
+            -3.2446976891421335,
+            -4.21582507472078,
+            -1.344800625488663
+          ],
+          [
+            -4.1277338535783965,
+            -2.048975512243878,
+            -2.68,
+            -0.8640610871094142
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1.59015753157141,
+            2.5093601564682873,
+            2.5364885496183205,
+            2.7911419566820896,
+            3.6132007374990205
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -12.83035915970183,
+            -6.415841584158416,
+            -12.681733122211027,
+            -19.392890846178044,
+            -30.334163236316147
+          ],
+          [
+            453300000,
+            540200000,
+            503200000,
+            534226000,
+            633547000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -11.679520137103685,
+            -8.022652194431336,
+            -13.312688316036157,
+            -18.914962674456344,
+            -25.2457529513389
+          ],
+          [
+            -6.997638361228052,
+            -5.1,
+            -8.54885520799742,
+            -12.661577586028963,
+            -18.50544060396983
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-09-30T10:33:12+00:00"
+}

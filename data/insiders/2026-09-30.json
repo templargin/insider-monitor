@@ -1,0 +1,121 @@
+{
+  "url_date": "2026-09-30",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-09-29"
+  ],
+  "generated_at": "2026-09-30T10:32:08+00:00",
+  "tickers": [
+    {
+      "ticker": "COUR",
+      "name": "Coursera, Inc.",
+      "total_value": 11355072.2138,
+      "ev_basic": 363048020.17211914,
+      "mc_basic": 1234748020.1721191,
+      "insiders": [
+        {
+          "reporter_name": "Pale Fire Capital SE",
+          "relationship": "10% Owner",
+          "total_value": 11355072.2138,
+          "shares": 2332742.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 889872.2999999999,
+      "ev_basic": 162545618.011549,
+      "mc_basic": 450738618.011549,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 889872.2999999999,
+          "shares": 103500.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "HGBL",
+      "name": "Heritage Global Inc.",
+      "total_value": 399000.0,
+      "ev_basic": 35952276.84826255,
+      "mc_basic": 45031276.84826255,
+      "insiders": [
+        {
+          "reporter_name": "Burnham William L",
+          "relationship": "Director",
+          "total_value": 399000.0,
+          "shares": 300000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "QTEX",
+      "name": "QTREX Quantum Ltd.",
+      "total_value": 119543.17319999999,
+      "ev_basic": 21358385.785464466,
+      "mc_basic": 24517385.785464466,
+      "insiders": [
+        {
+          "reporter_name": "Ben-Noon Dagi Shahar",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 119543.17319999999,
+          "shares": 168894.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "SWZ",
+      "name": "Total Return Securities Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "ADRX",
+      "name": "ADARx Pharmaceuticals, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "CRAFX",
+      "name": "Cascade Real Assets Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "NYAX",
+      "name": "Nayax Ltd.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "ASX:LNW",
+      "name": "Light & Wonder, Inc.",
+      "cik": "750004",
+      "reason": "no share price for ASX:LNW",
+      "transient": true
+    }
+  ]
+}
