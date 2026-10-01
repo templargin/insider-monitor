@@ -4,20 +4,174 @@
   "name": "Advanced Flower Capital Inc.",
   "description": "Advanced Flower Capital Inc. originates, structures, underwrites, invests in, and manages senior secured loans and other types of mortgage loans and debt securities for established companies operating in the cannabis industry. It primarily originates loans structured as senior loans secured by real estate, equipment, cash flows, and licenses and/or other assets of the loan parties to the extent permitted by applicable laws and the regulations governing such loan parties. The company was formerly known as AFC Gamma, Inc. and changed its name to Advanced Flower Capital Inc. in October 2024. Advanced Flower Capital Inc. was incorporated in 2020 and is based in West Palm Beach, Florida.",
   "ownership": {
-    "inst_pct": 0.20507,
-    "insider_pct": 0.4424,
-    "inst_count": 54,
+    "inst_pct": 0.20573,
+    "insider_pct": 0.44799998,
+    "inst_count": 53,
     "analyst_count": 1,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": 8.0,
-    "short_pct_float": 0.0494,
-    "shares_short": 756442,
-    "short_days_to_cover": 6.69,
-    "short_as_of": "2026-08-31",
-    "as_of": "2026-09-16"
+    "short_pct_float": 0.0475,
+    "shares_short": 723898,
+    "short_days_to_cover": 6.48,
+    "short_as_of": "2026-09-15",
+    "as_of": "2026-10-01"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-09-30",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-30",
+      "code": "P",
+      "shares": 44643.0,
+      "price": 3.63,
+      "total_value": 162054.09,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064003"
+    },
+    {
+      "date_filed": "2026-09-30",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-29",
+      "code": "P",
+      "shares": 40081.0,
+      "price": 3.59,
+      "total_value": 143890.79,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064003"
+    },
+    {
+      "date_filed": "2026-09-30",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-28",
+      "code": "P",
+      "shares": 10673.0,
+      "price": 3.57,
+      "total_value": 38102.61,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064003"
+    },
+    {
+      "date_filed": "2026-09-28",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-25",
+      "code": "P",
+      "shares": 5228.0,
+      "price": 3.52,
+      "total_value": 18402.56,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-063722"
+    },
+    {
+      "date_filed": "2026-09-28",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-24",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 3.49,
+      "total_value": 69800.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-063722"
+    },
+    {
+      "date_filed": "2026-09-24",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-23",
+      "code": "P",
+      "shares": 3471.0,
+      "price": 3.49,
+      "total_value": 12113.79,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-063379"
+    },
+    {
+      "date_filed": "2026-09-24",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-22",
+      "code": "P",
+      "shares": 23072.0,
+      "price": 3.49,
+      "total_value": 80521.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-063379"
+    },
+    {
+      "date_filed": "2026-09-22",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-18",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 3.49,
+      "total_value": 34900.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-063099"
+    },
+    {
+      "date_filed": "2026-09-18",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-17",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 3.5,
+      "total_value": 87500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-062756"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 2341.0,
+      "price": 3.43,
+      "total_value": 8029.63,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-062485"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-15",
+      "code": "P",
+      "shares": 608.0,
+      "price": 3.5,
+      "total_value": 2128.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-062485"
+    },
     {
       "date_filed": "2026-09-15",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -1084,7 +1238,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.529900074005127,
+    "share_price": 3.5999999046325684,
     "shares_basic": 22671919,
     "shares_basic_as_of": "2026-08-07",
     "options": 0,
@@ -1097,8 +1251,8 @@
       "concept": null
     },
     "ttm_revenue": 27296824.0,
-    "mc_basic": 80029608.55593824,
-    "ev_basic": 50096321.555938244
+    "mc_basic": 81618906.23783731,
+    "ev_basic": 51685619.237837315
   },
   "financials": {
     "income_statement": {
@@ -1907,5 +2061,5 @@
       }
     }
   },
-  "last_updated": "2026-09-16T15:10:43+00:00"
+  "last_updated": "2026-10-01T10:32:14+00:00"
 }

@@ -1,0 +1,111 @@
+{
+  "url_date": "2026-10-01",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-09-30"
+  ],
+  "generated_at": "2026-10-01T10:31:45+00:00",
+  "tickers": [
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 1405674.0,
+      "ev_basic": 142010847.99505043,
+      "mc_basic": 430203847.99505043,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 1405674.0,
+          "shares": 162000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AFCG",
+      "name": "Advanced Flower Capital Inc.",
+      "total_value": 344047.49,
+      "ev_basic": 51685619.237837315,
+      "mc_basic": 81618906.23783731,
+      "insiders": [
+        {
+          "reporter_name": "TANNENBAUM LEONARD M",
+          "relationship": "Director, 10% Owner",
+          "total_value": 344047.49,
+          "shares": 95397.0,
+          "txn_count": 3
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ADRX",
+      "name": "ADARx Pharmaceuticals, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BBD",
+      "name": "BANK BRADESCO",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "AGL Private Credit Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "BBASX",
+      "name": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Hamilton Lane Credit Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "Nuveen Churchill Private Capital Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "NC SLF Inc.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "PMPEX",
+      "name": "Primark Meketa Private Equity Investments Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "MNSO",
+      "name": "MINISO Group Holding Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "NYAX",
+      "name": "Nayax Ltd.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
