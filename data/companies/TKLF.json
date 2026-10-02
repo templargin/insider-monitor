@@ -2,8 +2,78 @@
   "ticker": "TKLF",
   "cik": "1836242",
   "name": "Tokyo Lifestyle Co., Ltd.",
-  "description": "Tokyo Lifestyle Co., Ltd. engages in the retail and wholesale of beauty, health, sundry, and other products in Japan, China, Hong Kong, the United States, Canada, Thailand, and the United Kingdom. The company sells its products under its flagship brand, Tokyo Lifestyle. It offers cosmetics comprising foundation, powder, concealer, makeup remover, eyeliner, eye shadow, brow powder, brow pencil, mascara, lip gloss, lipstick, and nail polish; skin care, consisting of facial cleanser, whitening products, sun block, moisturizer, facial mask, eye mask, eye gel, and exfoliating; and cosmetic applicators, including brush, puff, curler, hair iron, and shaver products. The company also provides shampoo, conditioner, and body wash; fragrance products consisting of perfume and cologne for women and men. In addition, the company provides facial wash, firming lotion, astringent, and moisturizer products for men; and lip balm, lotion, shampoo, soap, and essence oil for baby and children. Further, the company offers OTC drugs for the treatment of colds, headaches, stomach pain, cough, and eye strains, and others, as well as medical supplies and devices, including bandages, masks, thermometers, disinfectant sprays, eye masks, contact lens, and contact lens cleaners and solutions. Additionally, the company provides vitamins, minerals, fiber supplements, nutritional yeast, dietary products, and other nutritional supplements; bedding and bath, home d\u00e9cor, dining and tabletop, storage containers, car supplies, cleaning agent, and laundry supplies; spa supplies, clothing, formula milk, and diapers; and food, alcoholic beverages, and miscellaneous products. It also offers branded watches, perfumes, handbags, clothes, and jewelries, as well as Nintendo switch and Xbox series products. The company was formerly known as Yoshitsu Co., Ltd and changed its name to Tokyo Lifestyle Co., Ltd. in October 2024. Tokyo Lifestyle Co., Ltd. was incorporated in 2006 and is headquartered in Tokyo, Japan.",
+  "description": "Tokyo Lifestyle Co., Ltd. engages in the retail and wholesale of beauty, health, sundry, and other products in Japan, China, Hong Kong, the United States, Canada, Thailand, and the United Kingdom. The company sells its products under its flagship brand, Tokyo Lifestyle. It offers cosmetics, including foundation, powder, concealer, makeup remover, eyeliner, eye shadow, brow powder, brow pencil, mascara, lip gloss, lipstick, and nail polish; skincare products comprising facial cleansers, whitening products, sunblock, moisturizers, facial masks, eye masks, eye gels, and exfoliating products; cosmetic applicators, such as brushes, puffs, curlers, hair irons, and shavers; perfumes and colognes; facial wash, firming lotion, astringent, and moisturizer for men; and lip balm, lotion, shampoo, soap, and essential oils for babies and children. The company also provides OTC drugs for the treatment of common ailments, such as colds, headaches, stomach pain, cough, and eye strain; vitamins, minerals, fiber supplements, nutritional yeast, dietary products, and other nutritional supplements; and a variety of general-purpose medical supplies and devices. In addition, it offers bedding and bath, home d\u00e9cor, dining and tabletop items, storage containers, car supplies, cleaning agent, and laundry supplies, as well as spa supplies, clothing, formula milk, and diapers. Further, the company provides watches, perfumes, handbags, clothes, and jewelry; Nintendo switch and Xbox series products; smart AC adapters and batteries; and collectible cards and toys. Additionally, it offers food, including soft drinks, packaged snacks, tea and coffee, fruit juice, and mineral water; alcoholic beverages; and miscellaneous products, such as cigarettes and pet food. The company was formerly known as Yoshitsu Co., Ltd and changed its name to Tokyo Lifestyle Co., Ltd. in October 2024. Tokyo Lifestyle Co., Ltd. was incorporated in 2006 and is headquartered in Tokyo, Japan.",
+  "ownership": {
+    "inst_pct": 4.0000003e-05,
+    "insider_pct": 0.59971,
+    "inst_count": 3,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.3808,
+    "shares_short": 139624,
+    "short_days_to_cover": 5.88,
+    "short_as_of": "2026-09-15",
+    "as_of": "2026-10-02"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-01",
+      "reporter_name": "Kanayama Mei",
+      "relationship": "Director, Officer (Representative Director (PEO)), 10% Owner",
+      "transaction_date": "2026-09-29",
+      "code": "P",
+      "shares": 1396755.0,
+      "price": 0.274,
+      "total_value": 382710.87000000005,
+      "security_title": "Ordinary shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-105765"
+    },
+    {
+      "date_filed": "2026-10-01",
+      "reporter_name": "Kanayama Mei",
+      "relationship": "Director, Officer (Representative Director (PEO)), 10% Owner",
+      "transaction_date": "2026-09-29",
+      "code": "J",
+      "shares": 12106893.0,
+      "price": 0.274,
+      "total_value": 3317288.682,
+      "security_title": "Ordinary shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-105765"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "Kanayama Mei",
+      "relationship": "Director, Officer (Representative Director (PEO)), 10% Owner",
+      "transaction_date": "2026-08-25",
+      "code": "P",
+      "shares": 7000.0,
+      "price": 1.8,
+      "total_value": 12600.0,
+      "security_title": "American depositary shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-093947"
+    },
+    {
+      "date_filed": "2026-08-26",
+      "reporter_name": "Kanayama Mei",
+      "relationship": "Director, Officer (Representative Director (PEO)), 10% Owner",
+      "transaction_date": "2026-08-24",
+      "code": "P",
+      "shares": 2800.0,
+      "price": 1.8,
+      "total_value": 5040.0,
+      "security_title": "American depositary shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-093947"
+    },
     {
       "date_filed": "2026-05-22",
       "reporter_name": "Kanayama Mei",
@@ -62,21 +132,21 @@
     }
   ],
   "valuation": {
-    "share_price": 2.2249999046325684,
+    "share_price": 1.5,
     "shares_basic": 42327806,
     "shares_basic_as_of": "2026-03-31",
     "options": null,
     "warrants": null,
     "cash": 2115342,
     "debt": 13466643,
-    "ttm_revenue": 373223819.0,
-    "mc_basic": 94179364.31330585,
-    "ev_basic": 105530665.31330585,
     "debt_flag": {
       "reason": "unexplained_liabilities",
       "amount": 40426099,
       "concept": null
-    }
+    },
+    "ttm_revenue": 373223819.0,
+    "mc_basic": 63491709.0,
+    "ev_basic": 74843010.0
   },
   "financials": {
     "income_statement": {
@@ -825,24 +895,5 @@
       }
     }
   },
-  "last_updated": "2026-05-25T13:57:04+00:00",
-  "ownership": {
-    "inst_pct": 0.010720001,
-    "insider_pct": 0.64436996,
-    "inst_count": 5,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.1041,
-    "shares_short": 184832,
-    "short_days_to_cover": 5.7,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-10-02T10:34:05+00:00"
 }

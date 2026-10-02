@@ -5,7 +5,7 @@
   "description": "Hyperscale Data, Inc., together with its subsidiaries, provides crane rental and lifting solutions for oilfield, construction, commercial, and infrastructure markets in North America, Europe, the Middle East, and internationally. It operates through Technology and Finance (Fintech); Sentinum; AGREE; Energy and Infrastructure (Energy); ROI; and TurnOnGreen segments. The company also offers colocation and hosting services; commercial lending, activist investing, and stock trading; and askROI, which operates an AI-driven platform engineered to provide pertinent and unique data insights through integration with business specific data that pushes beyond the conventional uses of existing large language models. In addition, it is involved in Bitcoin mining and data center operations; hotel operations and other commercial real estate holdings; commercial electronics solutions with operations; and operation of a social gaming platform. The company sells its products directly and indirectly through its sales force. It serves the Bitcoin mining, generative AI and metaverse platform development, crane services, defense/aerospace, industrial, automotive, medical/biopharma, consumer electronics, and textiles businesses. The company was formerly known as Ault Alliance, Inc. and changed its name to Hyperscale Data, Inc. in January 2023. Hyperscale Data, Inc. was founded in 1969 and is headquartered in Las Vegas, Nevada.",
   "ownership": {
     "inst_pct": 0.04601,
-    "insider_pct": 0.08646,
+    "insider_pct": 0.09212,
     "inst_count": 60,
     "analyst_count": null,
     "rec_mean": null,
@@ -15,9 +15,93 @@
     "shares_short": 18620303,
     "short_days_to_cover": 0.61,
     "short_as_of": "2026-09-15",
-    "as_of": "2026-09-29"
+    "as_of": "2026-10-02"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-01",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-30",
+      "code": "P",
+      "shares": 311874.0,
+      "price": 0.1639,
+      "total_value": 51116.1486,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-012383"
+    },
+    {
+      "date_filed": "2026-10-01",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-30",
+      "code": "P",
+      "shares": 10000000.0,
+      "price": 0.5,
+      "total_value": 5000000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001214659-26-012383"
+    },
+    {
+      "date_filed": "2026-10-01",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-30",
+      "code": "P",
+      "shares": 389404.0,
+      "price": 0.5,
+      "total_value": 194702.0,
+      "security_title": "Class B Common Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001214659-26-012383"
+    },
+    {
+      "date_filed": "2026-10-01",
+      "reporter_name": "AULT MILTON C III",
+      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+      "transaction_date": "2026-09-29",
+      "code": "P",
+      "shares": 1600.0,
+      "price": 0.1662,
+      "total_value": 265.91999999999996,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-012383"
+    },
+    {
+      "date_filed": "2026-09-30",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-30",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.163,
+      "total_value": 16300.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-012280"
+    },
+    {
+      "date_filed": "2026-09-29",
+      "reporter_name": "Horne William B.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-09-29",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 0.168,
+      "total_value": 16800.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-012204"
+    },
     {
       "date_filed": "2026-09-28",
       "reporter_name": "AULT MILTON C III",
@@ -2187,24 +2271,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001214659-24-019541"
-    },
-    {
-      "date_filed": "2024-10-01",
-      "reporter_name": "AULT MILTON C III",
-      "relationship": "Director, Officer (Executive Chairman), 10% Owner",
-      "transaction_date": "2024-09-30",
-      "code": "P",
-      "shares": 50000.0,
-      "price": 0.2264,
-      "total_value": 11320.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001214659-24-016985"
     }
   ],
   "valuation": {
-    "share_price": 0.17000000178813934,
+    "share_price": 0.1599999964237213,
     "shares_basic": 703788801.0,
     "shares_basic_as_of": "2026-08-17",
     "options": 421,
@@ -2213,8 +2283,8 @@
     "debt": 105934000,
     "debt_flag": null,
     "ttm_revenue": 130155000.0,
-    "mc_basic": 119644097.42847244,
-    "ev_basic": 188798097.42847246
+    "mc_basic": 112606205.64305511,
+    "ev_basic": 181760205.6430551
   },
   "financials": {
     "income_statement": {
@@ -3507,5 +3577,5 @@
       }
     }
   },
-  "last_updated": "2026-09-29T10:32:11+00:00"
+  "last_updated": "2026-10-02T10:33:55+00:00"
 }

@@ -1,0 +1,157 @@
+{
+  "url_date": "2026-10-02",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-10-01"
+  ],
+  "generated_at": "2026-10-02T10:33:23+00:00",
+  "tickers": [
+    {
+      "ticker": "UUU",
+      "name": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "total_value": 92412000.0,
+      "ev_basic": 12686264.820129871,
+      "mc_basic": 15687437.820129871,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, 10% Owner",
+          "total_value": 92412000.0,
+          "shares": 18000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "GPUS",
+      "name": "Hyperscale Data, Inc.",
+      "total_value": 5051382.0686,
+      "ev_basic": 181760205.6430551,
+      "mc_basic": 112606205.64305511,
+      "insiders": [
+        {
+          "reporter_name": "AULT MILTON C III",
+          "relationship": "Director, Officer (Executive Chairman), 10% Owner",
+          "total_value": 5051382.0686,
+          "shares": 10313474.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "AVR",
+      "name": "Anteris Technologies Global Corp.",
+      "total_value": 3027831.92,
+      "ev_basic": 491802000.1521101,
+      "mc_basic": 741659000.1521101,
+      "insiders": [
+        {
+          "reporter_name": "L1 Capital Pty Ltd",
+          "relationship": "10% Owner",
+          "total_value": 3027831.92,
+          "shares": 397226.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "GBR",
+      "name": "New Concept Energy, Inc.",
+      "total_value": 2000000.0,
+      "ev_basic": 4058144.022354841,
+      "mc_basic": 4362144.022354841,
+      "insiders": [
+        {
+          "reporter_name": "REALTY ADVISORS INC",
+          "relationship": "10% Owner",
+          "total_value": 2000000.0,
+          "shares": 2000000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "TKLF",
+      "name": "Tokyo Lifestyle Co., Ltd.",
+      "total_value": 382710.87000000005,
+      "ev_basic": 74843010.0,
+      "mc_basic": 63491709.0,
+      "insiders": [
+        {
+          "reporter_name": "Kanayama Mei",
+          "relationship": "Director, Officer (Representative Director (PEO)), 10% Owner",
+          "total_value": 382710.87000000005,
+          "shares": 1396755.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "TRCK",
+      "name": "Track Group, Inc.",
+      "total_value": 230412.6,
+      "ev_basic": 28208132.36492768,
+      "mc_basic": 19014186.36492768,
+      "insiders": [
+        {
+          "reporter_name": "JCP Investment Management, LLC",
+          "relationship": "10% Owner",
+          "total_value": 230412.6,
+          "shares": 384021.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "CRESY",
+      "name": "CRESUD INC",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "FUND",
+      "name": "SPROTT FOCUS TRUST INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Blackstone Private Equity Strategies Fund L.P.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "John Hancock GA Senior Loan Trust",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "John Hancock GA Mortgage Trust",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "CNL Strategic Residential Credit, Inc.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "BBASX",
+      "name": "AMG BBH Asset-Backed Credit Fund, LLC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
