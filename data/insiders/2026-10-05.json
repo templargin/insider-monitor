@@ -1,0 +1,87 @@
+{
+  "url_date": "2026-10-05",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04"
+  ],
+  "generated_at": "2026-10-05T10:35:47+00:00",
+  "tickers": [
+    {
+      "ticker": "FGBI",
+      "name": "First Guaranty Bancshares, Inc.",
+      "total_value": 822013.5599999999,
+      "ev_basic": -427860121.91991997,
+      "mc_basic": 137439878.08008003,
+      "insiders": [
+        {
+          "reporter_name": "Smith Edgar R. III",
+          "relationship": "Director, 10% Owner",
+          "total_value": 822013.5599999999,
+          "shares": 99277.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "DLHC",
+      "name": "DLH Holdings Corp.",
+      "total_value": 736666.3,
+      "ev_basic": 184775794.51432705,
+      "mc_basic": 58696794.51432705,
+      "insiders": [
+        {
+          "reporter_name": "Mink Brook Asset Management LLC",
+          "relationship": "10% Owner",
+          "total_value": 736666.3,
+          "shares": 199099.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "total_value": 165634.03499999997,
+      "ev_basic": 156794320.10759735,
+      "mc_basic": 198178607.10759735,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 165634.03499999997,
+          "shares": 19050.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Fortress Net Lease REIT",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "PORT.U",
+      "name": "Southport Acquisition Corp. II",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "NYAX",
+      "name": "Nayax Ltd.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
