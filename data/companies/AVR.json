@@ -4,7 +4,7 @@
   "name": "Anteris Technologies Global Corp.",
   "description": "Anteris Technologies Global Corp., a structural heart company, develops and commercializes minimally invasive medical devices to treat heart valve diseases. It offers the DurAVR transcatheter heart valve system, a novel transcatheter aortic valve for the treatment of severe aortic stenosis that is shaped to mimic the performance of a healthy human aortic valve. The company also develops ADAPT anti-calcification tissue, an anti-calcification preparation which transforms xenograft tissue into durable bioscaffolds that are used to mimic human tissue for surgical repair in multiple settings, including aortic valve replacement; and ComASUR delivery system, a physician-developed balloon expandable delivery system that contains a reinforced steerable catheter for a precise deflection through the heart anatomy in a controlled manner to avoid damage to the aorta. Anteris Technologies Global Corp. is based in Toowong, Australia.",
   "ownership": {
-    "inst_pct": 0.71025,
+    "inst_pct": 0.71889997,
     "insider_pct": 0.16476,
     "inst_count": 176,
     "analyst_count": 3,
@@ -15,9 +15,37 @@
     "shares_short": 6419184,
     "short_days_to_cover": 9.93,
     "short_as_of": "2026-09-15",
-    "as_of": "2026-10-02"
+    "as_of": "2026-10-07"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-06",
+      "reporter_name": "L1 Capital Pty Ltd",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-05",
+      "code": "P",
+      "shares": 648455.0,
+      "price": 7.51,
+      "total_value": 4869897.05,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001817646-26-000029"
+    },
+    {
+      "date_filed": "2026-10-06",
+      "reporter_name": "L1 Capital Pty Ltd",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-02",
+      "code": "P",
+      "shares": 236354.0,
+      "price": 7.78,
+      "total_value": 1838834.12,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001817646-26-000029"
+    },
     {
       "date_filed": "2026-10-01",
       "reporter_name": "L1 Capital Pty Ltd",
@@ -1448,7 +1476,7 @@
     }
   ],
   "valuation": {
-    "share_price": 7.739999771118164,
+    "share_price": 7.050000190734863,
     "shares_basic": 97458474,
     "shares_basic_as_of": "2026-08-10",
     "options": null,
@@ -1457,8 +1485,8 @@
     "debt": 47000,
     "debt_flag": null,
     "ttm_revenue": 2242000.0,
-    "mc_basic": 754328566.4535255,
-    "ev_basic": 504471566.45352554
+    "mc_basic": 687082260.2887287,
+    "ev_basic": 437225260.2887287
   },
   "financials": {
     "income_statement": {
@@ -2582,5 +2610,5 @@
       }
     }
   },
-  "last_updated": "2026-10-02T16:23:15+00:00"
+  "last_updated": "2026-10-07T10:32:46+00:00"
 }

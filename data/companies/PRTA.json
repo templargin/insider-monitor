@@ -4,7 +4,7 @@
   "name": "PROTHENA CORP PUBLIC LTD CO",
   "description": "Prothena Corporation plc, a late-stage clinical biotechnology company, focuses on discovery and development of novel therapies to treat diseases caused by protein dysregulation. Its product pipeline includes Prasinezumab, an investigational humanized monoclonal antibody which is in Phase 3 clinical trial for the treatment of parkinson's disease and other synucleinopathies. The company also develops Coramitug, an investigational antibody, which is in Phase 3 clinical trial for the treatment of transthyretin amyloidosis; BMS-986446, an anti-tau antibody which is in Phase 2 clinical trial to treat Alzheimer's disease; PRX019, an investigational antibody which is in Phase 1 clinical trial for the treatment of neurodegenerative diseases; and PRX123, a Dual A\u00df-Tau Vaccine, which is in preclinical trial for treating Alzheimer's disease. In addition, it develops discovery- and late-preclinical-stage programs include TDP-43 CYTOPE for the treatment of amyotrophic lateral sclerosis; PRX012, a next-generation anti-A\u00df antibody which is in phase 1 clinical trial to treat Alzheimer's disease; and PRX012-TfR, a preclinical program for the treatment of Alzheimer's disease. It has a license, development, and commercialization agreement with F. Hoffmann-La Roche Ltd. and Hoffmann-La Roche Inc. to develop and commercialize antibodies that target a-synuclein, including prasinezumab; and master collaboration agreement with Bristol Myers Squibb to develop and commercialize antibodies targeting tau, TDP-43. Prothena Corporation plc was incorporated in 2012 and is based in Dublin, Ireland.",
   "ownership": {
-    "inst_pct": 0.93888,
+    "inst_pct": 0.93907,
     "insider_pct": 0.22348,
     "inst_count": 256,
     "analyst_count": 5,
@@ -15,9 +15,23 @@
     "shares_short": 8544664,
     "short_days_to_cover": 25.45,
     "short_as_of": "2026-09-15",
-    "as_of": "2026-10-01"
+    "as_of": "2026-10-07"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-06",
+      "reporter_name": "SCULLY WILLIAM P",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-02",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 8.5724,
+      "total_value": 857240.0,
+      "security_title": "Ordinary Shares, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001045463-26-000019"
+    },
     {
       "date_filed": "2026-09-30",
       "reporter_name": "SCULLY WILLIAM P",
@@ -1333,24 +1347,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0000905148-25-000708"
-    },
-    {
-      "date_filed": "2024-10-03",
-      "reporter_name": "Swanson Chad J.",
-      "relationship": "Officer (Chief Development Officer)",
-      "transaction_date": "2024-10-01",
-      "code": "A",
-      "shares": 40000.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Stock Option (Right to Buy)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000905148-24-002639"
     }
   ],
   "valuation": {
-    "share_price": 8.460000038146973,
+    "share_price": 8.020000457763672,
     "shares_basic": 51336974,
     "shares_basic_as_of": "2026-07-30",
     "options": 11762185,
@@ -1359,8 +1359,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 54530000.0,
-    "mc_basic": 434310801.99835014,
-    "ev_basic": 146117801.99835014
+    "mc_basic": 411722554.9802017,
+    "ev_basic": 123529554.98020172
   },
   "financials": {
     "income_statement": {
@@ -2395,5 +2395,5 @@
       }
     }
   },
-  "last_updated": "2026-10-01T17:07:00+00:00"
+  "last_updated": "2026-10-07T10:32:23+00:00"
 }

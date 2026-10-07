@@ -4,20 +4,48 @@
   "name": "NEIGHBORHOOD INTELLIGENCE, INC.",
   "description": "Neighborhood Intelligence, Inc. operates as an e-commerce-focused retailer in the United States and Canada. The company offers furniture, bedding, and bath essentials; patio and outdoor furniture, area rugs, tabletop and cookware, d\u00e9cor, storage, jewelry, watches, and fashion; and other products under the Bed Bath & Beyond, buybuy BABY, Overstock, and Zulily brands. It also provides add-on services across platforms, including warranties, shipping insurance, and installation services. In addition, the company offers business advertising services; Marketplace, a service that allows its partners to sell their products through third-party sites; and Supplier Oasis Integration, a singular integration point that enables partners to manage their products, inventory, and sales channels, as well as access multi-channel fulfillment services through its distribution network. Further, it provides brokerage, mortgage, title, credit union, insurance, warranty, data, and tokenization. It serves its products and services through its e-commerce platform accessible through its mobile application, which includes bedbathandbeyond.com and overstock.com, as well as through direct mail, search engine marketing, display ads, affiliate marketing, email campaigns, and social media promotions. The company was formerly known as Bed Bath & Beyond, Inc. and changed its name to Neighborhood Intelligence, Inc. in August 2026. Neighborhood Intelligence, Inc. was founded in 1997 and is headquartered in Murray, Utah.",
   "ownership": {
-    "inst_pct": 0.41546002,
-    "insider_pct": 0.06034,
-    "inst_count": 254,
+    "inst_pct": 0.53642,
+    "insider_pct": 0.08126,
+    "inst_count": 253,
     "analyst_count": 4,
     "rec_mean": 2.5,
     "rec_key": "buy",
-    "target_mean": 9.5,
-    "short_pct_float": 0.1348,
-    "shares_short": 0,
-    "short_days_to_cover": 5.15,
-    "short_as_of": "2026-08-31",
-    "as_of": "2026-09-18"
+    "target_mean": 8.5,
+    "short_pct_float": 0.1455,
+    "shares_short": 13725124,
+    "short_days_to_cover": 6.28,
+    "short_as_of": "2026-09-15",
+    "as_of": "2026-10-07"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-06",
+      "reporter_name": "LEMONIS MARCUS",
+      "relationship": "Director, Officer (EXECUTIVE CHAIRMAN & CEO)",
+      "transaction_date": "2026-10-06",
+      "code": "P",
+      "shares": 362319.0,
+      "price": 2.76,
+      "total_value": 1000000.44,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001136478-26-000010"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "LaRose Brian",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 100000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001878463-26-000010"
+    },
     {
       "date_filed": "2026-09-17",
       "reporter_name": "LEMONIS MARCUS",
@@ -2442,7 +2470,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.5399999618530273,
+    "share_price": 1.8300000429153442,
     "shares_basic": 95330379,
     "shares_basic_as_of": "2026-07-31",
     "options": 1750000,
@@ -2451,8 +2479,8 @@
     "debt": 13455000,
     "debt_flag": null,
     "ttm_revenue": 1139531000.0,
-    "mc_basic": 337469538.02343464,
-    "ev_basic": 251439538.02343464
+    "mc_basic": 174454597.66113603,
+    "ev_basic": 88424597.66113603
   },
   "financials": {
     "income_statement": {
@@ -3720,5 +3748,5 @@
       }
     }
   },
-  "last_updated": "2026-09-18T14:40:28+00:00"
+  "last_updated": "2026-10-07T10:32:37+00:00"
 }

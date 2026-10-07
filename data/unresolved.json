@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:53:17+00:00",
+  "generated_at": "2026-10-07T10:32:10+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2024,6 +2024,81 @@
       "last_tried_date": "2026-10-02",
       "last_reason": "no share price for ASX:LNW",
       "last_tried": "2026-10-02T10:30:44+00:00"
+    },
+    {
+      "url_date": "2026-10-07",
+      "cik": "1043509",
+      "ticker": "SAH",
+      "name": "SONIC AUTOMOTIVE INC",
+      "reason": "share count for SAH predates its balance sheet (2025-10-21 < 2026-06-30)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "SAH",
+        "name": "SONIC AUTOMOTIVE INC",
+        "by_reporter": {
+          "1460471": {
+            "reporter_cik": "1460471",
+            "reporter_name": "Rusnak Paul P.",
+            "relationship": "10% Owner",
+            "total_value": 2946576.06,
+            "shares": 49401.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Rusnak Paul P.",
+              "reporter_cik": "1460471",
+              "relationship": "10% Owner",
+              "issuer_cik": "1043509",
+              "issuer_ticker": "SAH",
+              "issuer_name": "SONIC AUTOMOTIVE INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "SAH",
+                "transaction_date": "2026-10-01",
+                "code": "P",
+                "shares": 21645.0,
+                "price": 59.5,
+                "total_value": 1287877.5,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1287877.5
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Rusnak Paul P.",
+              "reporter_cik": "1460471",
+              "relationship": "10% Owner",
+              "issuer_cik": "1043509",
+              "issuer_ticker": "SAH",
+              "issuer_name": "SONIC AUTOMOTIVE INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "SAH",
+                "transaction_date": "2026-10-05",
+                "code": "P",
+                "shares": 27756.0,
+                "price": 59.76,
+                "total_value": 1658698.56,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1658698.56
+          }
+        ]
+      },
+      "first_seen": "2026-10-07T10:32:10+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

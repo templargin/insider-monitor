@@ -1,0 +1,109 @@
+{
+  "url_date": "2026-10-07",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-10-06"
+  ],
+  "generated_at": "2026-10-07T10:32:10+00:00",
+  "tickers": [
+    {
+      "ticker": "AVR",
+      "name": "Anteris Technologies Global Corp.",
+      "total_value": 6708731.17,
+      "ev_basic": 437225260.2887287,
+      "mc_basic": 687082260.2887287,
+      "insiders": [
+        {
+          "reporter_name": "L1 Capital Pty Ltd",
+          "relationship": "10% Owner",
+          "total_value": 6708731.17,
+          "shares": 884809.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "LWAY",
+      "name": "Lifeway Foods, Inc.",
+      "total_value": 2169394.3932,
+      "ev_basic": 324105029.78936005,
+      "mc_basic": 309084029.78936005,
+      "insiders": [
+        {
+          "reporter_name": "Divisadero Street Capital Management, LP",
+          "relationship": "10% Owner",
+          "total_value": 2169394.3932,
+          "shares": 103684.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "NXH",
+      "name": "NEIGHBORHOOD INTELLIGENCE, INC.",
+      "total_value": 1000000.44,
+      "ev_basic": 88424597.66113603,
+      "mc_basic": 174454597.66113603,
+      "insiders": [
+        {
+          "reporter_name": "LEMONIS MARCUS",
+          "relationship": "Director, Officer (EXECUTIVE CHAIRMAN & CEO)",
+          "total_value": 1000000.44,
+          "shares": 362319.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 857240.0,
+      "ev_basic": 123529554.98020172,
+      "mc_basic": 411722554.9802017,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 857240.0,
+          "shares": 100000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Keenova Therapeutics plc",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "AXIA3",
+      "name": "AXIA Energia S.A.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "PSUS",
+      "name": "Pershing Square USA, Ltd.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "SAH",
+      "name": "SONIC AUTOMOTIVE INC",
+      "cik": "1043509",
+      "reason": "share count for SAH predates its balance sheet (2025-10-21 < 2026-06-30)",
+      "transient": false
+    }
+  ]
+}
