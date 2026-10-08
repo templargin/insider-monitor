@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:31:40+00:00",
+  "generated_at": "2026-10-08T10:30:37+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2097,8 +2097,11 @@
         ]
       },
       "first_seen": "2026-10-07T10:32:10+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-10-08",
+      "last_reason": "share count for SAH predates its balance sheet (2025-10-21 < 2026-06-30)",
+      "last_tried": "2026-10-08T10:30:37+00:00"
     }
   ]
 }

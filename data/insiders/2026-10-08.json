@@ -1,0 +1,63 @@
+{
+  "url_date": "2026-10-08",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-10-07"
+  ],
+  "generated_at": "2026-10-08T10:31:49+00:00",
+  "tickers": [
+    {
+      "ticker": "IRIX",
+      "name": "IRIDEX CORP",
+      "total_value": 1310275.9776,
+      "ev_basic": 14572122.476243973,
+      "mc_basic": 15457122.476243973,
+      "insiders": [
+        {
+          "reporter_name": "Lin Shih-Yao David",
+          "relationship": "10% Owner",
+          "total_value": 1310275.9776,
+          "shares": 1186809.0,
+          "txn_count": 90
+        }
+      ]
+    },
+    {
+      "ticker": "STWI",
+      "name": "StageWise Strategies Corp.",
+      "total_value": 138000.0,
+      "ev_basic": 2338458.3816,
+      "mc_basic": 2382943.3816,
+      "insiders": [
+        {
+          "reporter_name": "Tourism & Entertainment Group, LLC",
+          "relationship": "10% Owner",
+          "total_value": 138000.0,
+          "shares": 1000000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
