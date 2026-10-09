@@ -4,20 +4,34 @@
   "name": "Anteris Technologies Global Corp.",
   "description": "Anteris Technologies Global Corp., a structural heart company, develops and commercializes minimally invasive medical devices to treat heart valve diseases. It offers the DurAVR transcatheter heart valve system, a novel transcatheter aortic valve for the treatment of severe aortic stenosis that is shaped to mimic the performance of a healthy human aortic valve. The company also develops ADAPT anti-calcification tissue, an anti-calcification preparation which transforms xenograft tissue into durable bioscaffolds that are used to mimic human tissue for surgical repair in multiple settings, including aortic valve replacement; and ComASUR delivery system, a physician-developed balloon expandable delivery system that contains a reinforced steerable catheter for a precise deflection through the heart anatomy in a controlled manner to avoid damage to the aorta. Anteris Technologies Global Corp. is based in Toowong, Australia.",
   "ownership": {
-    "inst_pct": 0.70982003,
+    "inst_pct": 0.71906,
     "insider_pct": 0.16476,
     "inst_count": 176,
-    "analyst_count": 3,
-    "rec_mean": 1.0,
+    "analyst_count": 4,
+    "rec_mean": 1.5,
     "rec_key": "strong_buy",
-    "target_mean": 15.33333,
+    "target_mean": 14.0,
     "short_pct_float": 0.0941,
     "shares_short": 6419184,
     "short_days_to_cover": 9.93,
     "short_as_of": "2026-09-15",
-    "as_of": "2026-10-07"
+    "as_of": "2026-10-09"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-08",
+      "reporter_name": "L1 Capital Pty Ltd",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-06",
+      "code": "P",
+      "shares": 272695.0,
+      "price": 7.18,
+      "total_value": 1957950.0999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001817646-26-000032"
+    },
     {
       "date_filed": "2026-10-06",
       "reporter_name": "L1 Capital Pty Ltd",
@@ -1476,7 +1490,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.980000019073486,
+    "share_price": 6.630000114440918,
     "shares_basic": 97458474,
     "shares_basic_as_of": "2026-08-10",
     "options": null,
@@ -1485,8 +1499,8 @@
     "debt": 47000,
     "debt_flag": null,
     "ttm_revenue": 2242000.0,
-    "mc_basic": 680260150.3788729,
-    "ev_basic": 430403150.3788729
+    "mc_basic": 646149693.7732372,
+    "ev_basic": 396292693.7732372
   },
   "financials": {
     "income_statement": {
@@ -2610,5 +2624,5 @@
       }
     }
   },
-  "last_updated": "2026-10-07T17:32:26+00:00"
+  "last_updated": "2026-10-09T10:32:03+00:00"
 }
