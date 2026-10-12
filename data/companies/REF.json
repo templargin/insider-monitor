@@ -1,0 +1,979 @@
+{
+  "ticker": "REF",
+  "cik": "1787117",
+  "name": "Reformation Inc.",
+  "description": "Reformation Inc. manufactures and sells sustainable women's clothing and accessories in the United States and Internationally. It offers dresses, tops, pants, skirts, shorts, jeans, sweaters, shoes, jumpsuits, two-piece sets, outerwear, sleep and loungewear, swimwear, and accessories. The company also offers wedding collection. It retails its product through website, online channels, and stores, well as through wholesalers and other channels. The company was formerly known as REF Topco, Inc. and changed its name to Reformation Inc. in April 2025. Reformation Inc. was founded in 2009 and is headquartered in Vernon, California.",
+  "ownership": {
+    "inst_pct": 0.09741,
+    "insider_pct": 0.61348,
+    "inst_count": 21,
+    "analyst_count": 8,
+    "rec_mean": 1.44444,
+    "rec_key": "strong_buy",
+    "target_mean": 19.25,
+    "short_pct_float": null,
+    "shares_short": 2049480,
+    "short_days_to_cover": 5.38,
+    "short_as_of": "2026-09-15",
+    "as_of": "2026-10-12"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-10-09",
+      "reporter_name": "Kleine Brigitte",
+      "relationship": "Director",
+      "transaction_date": "2026-07-31",
+      "code": "P",
+      "shares": 200.0,
+      "price": 15.0,
+      "total_value": 3000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-065573"
+    },
+    {
+      "date_filed": "2026-10-09",
+      "reporter_name": "Allen Zipporah",
+      "relationship": "Director",
+      "transaction_date": "2026-07-31",
+      "code": "P",
+      "shares": 3500.0,
+      "price": 15.0,
+      "total_value": 52500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-065572"
+    },
+    {
+      "date_filed": "2026-10-09",
+      "reporter_name": "Coyle John Joseph",
+      "relationship": "Director",
+      "transaction_date": "2026-07-31",
+      "code": "P",
+      "shares": 200000.0,
+      "price": 15.0,
+      "total_value": 3000000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-065571"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Aflalo Yael",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-09-01",
+      "code": "S",
+      "shares": -60298.0,
+      "price": 13.95,
+      "total_value": -841157.1,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001104659-26-105131"
+    },
+    {
+      "date_filed": "2026-09-03",
+      "reporter_name": "Refo SCSp",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-01",
+      "code": "S",
+      "shares": -149596.0,
+      "price": 13.95,
+      "total_value": -2086864.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-105114"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Borenstein Hali",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-07-31",
+      "code": "D",
+      "shares": -170876.0,
+      "price": 13.95,
+      "total_value": -2383720.1999999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089350"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Refo SCSp",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-31",
+      "code": "S",
+      "shares": -2987199.0,
+      "price": 13.95,
+      "total_value": -41671426.05,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089348"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Tchakarov Ivan",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-31",
+      "code": "D",
+      "shares": -37396.0,
+      "price": 13.95,
+      "total_value": -521674.19999999995,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089346"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Tchakarov Ivan",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-31",
+      "code": "D",
+      "shares": -11765.0,
+      "price": 13.95,
+      "total_value": -164121.75,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089346"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Allen Zipporah",
+      "relationship": "Director",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 9333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089353"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Moore Joshua",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 14666.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089352"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Moore Joshua",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 160000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089352"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Moore Joshua",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 82333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089352"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Moore Joshua",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 58831.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089352"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "RAUCH STACEY",
+      "relationship": "Director",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 9333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089351"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Borenstein Hali",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 300000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089350"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Borenstein Hali",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 666666.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089350"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Borenstein Hali",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 166666.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089350"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Borenstein Hali",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 294155.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089350"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Borenstein Hali",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-07-29",
+      "code": "D",
+      "shares": -538410.0,
+      "price": 13.95,
+      "total_value": -7510819.5,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089350"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Kleine Brigitte",
+      "relationship": "Director",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 9333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089349"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Miller Steven Clive",
+      "relationship": "Director",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 9333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089347"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Tchakarov Ivan",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 133333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089346"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Tchakarov Ivan",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 33333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089346"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Tchakarov Ivan",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 58831.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089346"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Coyle John Joseph",
+      "relationship": "Director",
+      "transaction_date": "2026-07-29",
+      "code": "A",
+      "shares": 9333.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-089345"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "Aflalo Yael",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-07-29",
+      "code": "S",
+      "shares": -1204029.0,
+      "price": 13.95,
+      "total_value": -16796204.55,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001104659-26-089201"
+    }
+  ],
+  "valuation": {
+    "share_price": 13.65999984741211,
+    "shares_basic": 59079320,
+    "shares_basic_as_of": "2026-09-08",
+    "options": null,
+    "warrants": null,
+    "cash": 76627000,
+    "debt": 241529000,
+    "debt_flag": null,
+    "ttm_revenue": 280306000.0,
+    "mc_basic": 807023502.1852112,
+    "ev_basic": 971925502.1852112
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/27/26",
+          "6/28/25"
+        ],
+        "data": [
+          [
+            155233000,
+            125073000
+          ],
+          [
+            51761000,
+            44507000
+          ],
+          [
+            103472000,
+            80566000
+          ],
+          [
+            66.65593011795173,
+            64.41518153398415
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            69958000,
+            56728000
+          ],
+          [
+            84448000,
+            67978000
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            19024000,
+            12588000
+          ],
+          [
+            12.255126165183949,
+            10.064522318965723
+          ],
+          [
+            23024000,
+            15388000
+          ],
+          [
+            14.831897856770146,
+            12.30321492248527
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            3543000,
+            4035000
+          ],
+          [
+            1624000,
+            722000
+          ],
+          [
+            17105000,
+            9275000
+          ],
+          [
+            4697000,
+            2360000
+          ],
+          [
+            12408000,
+            6915000
+          ],
+          [
+            7.993145787300381,
+            5.52877119762059
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            0.23,
+            0.13
+          ],
+          [
+            0.25,
+            0.14
+          ],
+          [
+            52948297,
+            51273182
+          ],
+          [
+            49792130,
+            49784463
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [],
+        "periods": [
+          "LTM"
+        ],
+        "data": []
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/27/26",
+          "6/28/25"
+        ],
+        "data": [
+          [
+            76627000,
+            null
+          ],
+          [
+            18584000,
+            null
+          ],
+          [
+            81766000,
+            null
+          ],
+          [
+            33782000,
+            null
+          ],
+          [
+            210759000,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            89225000,
+            null
+          ],
+          [
+            176941000,
+            null
+          ],
+          [
+            209421000,
+            null
+          ],
+          [
+            977000,
+            null
+          ],
+          [
+            317833000,
+            null
+          ],
+          [
+            1005156000,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            6303000,
+            null
+          ],
+          [
+            1606000,
+            null
+          ],
+          [
+            16835000,
+            null
+          ],
+          [
+            108942000,
+            null
+          ],
+          [
+            133686000,
+            null
+          ],
+          [
+            239923000,
+            null
+          ],
+          [
+            176948000,
+            null
+          ],
+          [
+            77870000,
+            null
+          ],
+          [
+            628427000,
+            null
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            1304000,
+            null
+          ],
+          [
+            376729000,
+            429240000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM"
+        ],
+        "data": [
+          [
+            76627000
+          ],
+          [
+            18584000
+          ],
+          [
+            81766000
+          ],
+          [
+            33782000
+          ],
+          [
+            210759000
+          ],
+          [
+            null
+          ],
+          [
+            89225000
+          ],
+          [
+            176941000
+          ],
+          [
+            209421000
+          ],
+          [
+            977000
+          ],
+          [
+            317833000
+          ],
+          [
+            1005156000
+          ],
+          [
+            null
+          ],
+          [
+            6303000
+          ],
+          [
+            1606000
+          ],
+          [
+            16835000
+          ],
+          [
+            108942000
+          ],
+          [
+            133686000
+          ],
+          [
+            239923000
+          ],
+          [
+            176948000
+          ],
+          [
+            77870000
+          ],
+          [
+            628427000
+          ],
+          [
+            null
+          ],
+          [
+            1304000
+          ],
+          [
+            376729000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6M 6/27/26",
+          "6M 6/28/25"
+        ],
+        "data": [
+          [
+            260000,
+            1364000
+          ],
+          [
+            8407000,
+            5877000
+          ],
+          [
+            24378000,
+            568000
+          ],
+          [
+            -33019000,
+            -22019000
+          ],
+          [
+            26000,
+            -14210000
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -13216000,
+            -21060000
+          ],
+          [
+            -13216000,
+            -21060000
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            24823000,
+            -2023000
+          ],
+          [
+            24823000,
+            -2023000
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            -13190000,
+            -35270000
+          ]
+        ],
+        "basis": "ytd"
+      },
+      "annual": {
+        "labels": [],
+        "periods": [
+          "LTM"
+        ],
+        "data": []
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/27/26",
+          "6/28/25"
+        ],
+        "data": [
+          [
+            1.5765225977290067,
+            null
+          ],
+          [
+            0.9648953517945036,
+            null
+          ],
+          [
+            0.6411213365575785,
+            null
+          ],
+          [
+            14.831897856770146,
+            12.30321492248527
+          ],
+          [
+            77073000,
+            null
+          ],
+          [
+            164902000,
+            null
+          ],
+          [
+            3.293614242598791,
+            1.6109868604976236
+          ],
+          [
+            1.2344352518415052,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM"
+        ],
+        "data": [
+          [
+            1.5765225977290067
+          ],
+          [
+            0.9648953517945036
+          ],
+          [
+            0.6411213365575785
+          ],
+          [
+            null
+          ],
+          [
+            77073000
+          ],
+          [
+            164902000
+          ],
+          [
+            null
+          ],
+          [
+            null
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-10-12T10:32:06+00:00"
+}

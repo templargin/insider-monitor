@@ -15,9 +15,37 @@
     "shares_short": 8544664,
     "short_days_to_cover": 25.45,
     "short_as_of": "2026-09-15",
-    "as_of": "2026-10-07"
+    "as_of": "2026-10-12"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-09",
+      "reporter_name": "SCULLY WILLIAM P",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-08",
+      "code": "P",
+      "shares": 90000.0,
+      "price": 8.5656,
+      "total_value": 770904.0,
+      "security_title": "Ordinary Shares, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001045463-26-000020"
+    },
+    {
+      "date_filed": "2026-10-09",
+      "reporter_name": "SCULLY WILLIAM P",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-07",
+      "code": "P",
+      "shares": 125000.0,
+      "price": 8.4012,
+      "total_value": 1050150.0,
+      "security_title": "Ordinary Shares, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001045463-26-000020"
+    },
     {
       "date_filed": "2026-10-06",
       "reporter_name": "SCULLY WILLIAM P",
@@ -1350,7 +1378,7 @@
     }
   ],
   "valuation": {
-    "share_price": 8.3100004196167,
+    "share_price": 8.84000015258789,
     "shares_basic": 51336974,
     "shares_basic_as_of": "2026-07-30",
     "options": 11762185,
@@ -1359,8 +1387,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 54530000.0,
-    "mc_basic": 426610275.4818516,
-    "ev_basic": 138417275.48185158
+    "mc_basic": 453818857.9934006,
+    "ev_basic": 165625857.99340057
   },
   "financials": {
     "income_statement": {
@@ -2395,5 +2423,5 @@
       }
     }
   },
-  "last_updated": "2026-10-07T17:31:57+00:00"
+  "last_updated": "2026-10-12T10:31:59+00:00"
 }

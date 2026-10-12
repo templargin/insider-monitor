@@ -1,0 +1,113 @@
+{
+  "url_date": "2026-10-12",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11"
+  ],
+  "generated_at": "2026-10-12T10:31:46+00:00",
+  "tickers": [
+    {
+      "ticker": "REF",
+      "name": "Reformation Inc.",
+      "total_value": 3000000.0,
+      "ev_basic": 971925502.1852112,
+      "mc_basic": 807023502.1852112,
+      "insiders": [
+        {
+          "reporter_name": "Coyle John Joseph",
+          "relationship": "Director",
+          "total_value": 3000000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 1821054.0,
+      "ev_basic": 165625857.99340057,
+      "mc_basic": 453818857.9934006,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 1821054.0,
+          "shares": 215000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "VDTA",
+      "name": "Vertical Data Inc.",
+      "total_value": 255000.0,
+      "ev_basic": 46246451.94933939,
+      "mc_basic": 51852298.94933939,
+      "insiders": [
+        {
+          "reporter_name": "Leverton Jaime",
+          "relationship": "Director",
+          "total_value": 255000.0,
+          "shares": 85000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BBD",
+      "name": "BANK BRADESCO",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "ECF",
+      "name": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GGR",
+      "name": "Gogoro Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Calamos Aksia Alternative Credit & Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "N.A.",
+      "name": "Calamos Aksia Private Equity & Alternatives Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Calamos Aksia Hedged Strategies Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "SAH",
+      "name": "SONIC AUTOMOTIVE INC",
+      "cik": "1043509",
+      "reason": "share count for SAH predates its balance sheet (2025-10-21 < 2026-06-30)",
+      "transient": false
+    }
+  ]
+}
