@@ -1,0 +1,123 @@
+{
+  "url_date": "2026-10-14",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-10-13"
+  ],
+  "generated_at": "2026-10-14T10:32:26+00:00",
+  "tickers": [
+    {
+      "ticker": "PED",
+      "name": "PEDEVCO CORP",
+      "total_value": 1911910.0,
+      "ev_basic": 165299451.5,
+      "mc_basic": 176104451.5,
+      "insiders": [
+        {
+          "reporter_name": "KUKES SIMON G",
+          "relationship": "10% Owner",
+          "total_value": 1911910.0,
+          "shares": 147070.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ONMD",
+      "name": "OneMedNet Corp",
+      "total_value": 999999.28,
+      "ev_basic": 238105527.8692007,
+      "mc_basic": 238331527.8692007,
+      "insiders": [
+        {
+          "reporter_name": "Kosasa Thomas",
+          "relationship": "Director, 10% Owner",
+          "total_value": 750001.24,
+          "shares": 129758.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Yu Jeffrey",
+          "relationship": "Director, Officer (Chief Medical Officer), 10% Owner",
+          "total_value": 249998.04,
+          "shares": 45126.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "CTNT",
+      "name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
+      "total_value": 330000.0,
+      "ev_basic": 6123565.340912104,
+      "mc_basic": 7677320.340912104,
+      "insiders": [
+        {
+          "reporter_name": "Liu Huan",
+          "relationship": "Director, Officer (See Remarks)",
+          "total_value": 330000.0,
+          "shares": 100000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ZONE",
+      "name": "Zone Frontier Inc.",
+      "total_value": 146075.0,
+      "ev_basic": 42862605.266154654,
+      "mc_basic": 57497818.266154654,
+      "insiders": [
+        {
+          "reporter_name": "Hassen Tyler Lewis",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 146075.0,
+          "shares": 1250000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "RTSN",
+      "name": "Retension Pharmaceuticals, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "TRXB",
+      "name": "TRex Bio, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "ECF",
+      "name": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "BORR",
+      "name": "Borr Drilling Ltd",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "HEI, HEI.A",
+      "name": "HEICO CORP",
+      "cik": "46619",
+      "reason": "no share price for HEI, HEI.A",
+      "transient": true
+    },
+    {
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "cik": "1591588",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$598.3M with $2,689.8M of unexplained_liabilities (up to $3,288.1M)",
+      "transient": false
+    }
+  ]
+}

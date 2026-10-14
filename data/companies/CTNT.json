@@ -3,7 +3,35 @@
   "cik": "1951667",
   "name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
   "description": "Cheetah Net Supply Chain Service Inc., together with its subsidiaries, provides logistics and warehousing services in the United States and internationally. It also provides freight forwarding, cargo storage, customs clearance, labor, and cargo loading and unloading services; warehousing services, such as medical supplies, vehicles, infant care items, and hazardous chemicals; and logistics services, including ocean and air freight, and trucking services. Cheetah Net Supply Chain Service Inc. was formerly known as Yuan Qiu Business Group LLC and changed its name to Cheetah Net Supply Chain Service Inc. in March 2022. The company was incorporated in 2016 and is headquartered in Irvine, California. Cheetah Net Supply Chain Service Inc. operates as a subsidiary of Fairview Eastern International Holdings Limited.",
+  "ownership": {
+    "inst_pct": 0.00048000002,
+    "insider_pct": 0.011080001,
+    "inst_count": 8,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.054,
+    "shares_short": 71953,
+    "short_days_to_cover": 0.06,
+    "short_as_of": "2026-09-30",
+    "as_of": "2026-10-14"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-13",
+      "reporter_name": "Liu Huan",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-10-09",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 3.3,
+      "total_value": 330000.0,
+      "security_title": "Class B Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-115608"
+    },
     {
       "date_filed": "2026-06-17",
       "reporter_name": "Liu Huan",
@@ -45,76 +73,20 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001104659-24-125899"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Huang Xianggeng",
-      "relationship": "Director",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 300000.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Class A Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-105576"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Liu Huan",
-      "relationship": "Director, Officer (See Remarks), 10% Owner",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 735000.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Class A Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-105520"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Liu Huan",
-      "relationship": "Director, Officer (See Remarks), 10% Owner",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 500000.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Class B Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-105520"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Folker Walter Penn",
-      "relationship": "Officer (Vice President of Procurement)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 15000.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Class A Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001104659-24-105517"
     }
   ],
   "valuation": {
-    "share_price": 1.6449999809265137,
-    "shares_basic": 36177712,
-    "shares_basic_as_of": "2026-03-19",
+    "share_price": 2.430000066757202,
+    "shares_basic": 3159391.0,
+    "shares_basic_as_of": "2026-08-10",
     "options": 0,
     "warrants": 0,
-    "cash": 713948,
-    "debt": 599213,
-    "ttm_revenue": 901437.0,
-    "mc_basic": 59512335.549964905,
-    "ev_basic": 59397600.549964905,
-    "debt_flag": null
+    "cash": 2143604,
+    "debt": 589849,
+    "debt_flag": null,
+    "ttm_revenue": 1416220.0,
+    "mc_basic": 7677320.340912104,
+    "ev_basic": 6123565.340912104
   },
   "financials": {
     "income_statement": {
@@ -1308,24 +1280,5 @@
       }
     }
   },
-  "last_updated": "2026-06-18T13:55:29+00:00",
-  "ownership": {
-    "inst_pct": 0.03294,
-    "insider_pct": 0.00025,
-    "inst_count": 8,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": 0.2594,
-    "shares_short": 766513,
-    "short_days_to_cover": 0.2,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-10-14T10:32:48+00:00"
 }

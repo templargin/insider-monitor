@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:42:41+00:00",
+  "generated_at": "2026-10-14T10:32:26+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2151,11 +2151,348 @@
         ]
       },
       "first_seen": "2026-10-12T10:31:46+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-10-13",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-10-14",
       "last_reason": "share count for SAH predates its balance sheet (2025-10-21 < 2026-06-30)",
-      "last_tried": "2026-10-13T17:42:41+00:00"
+      "last_tried": "2026-10-14T10:30:30+00:00"
+    },
+    {
+      "url_date": "2026-10-14",
+      "cik": "46619",
+      "ticker": "HEI, HEI.A",
+      "name": "HEICO CORP",
+      "reason": "no share price for HEI, HEI.A",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "HEI, HEI.A",
+        "name": "HEICO CORP",
+        "by_reporter": {
+          "1031082": {
+            "reporter_cik": "1031082",
+            "reporter_name": "MENDELSON VICTOR H",
+            "relationship": "Director, Officer (Co-COB and Co-CEO), Other (Member of 10% owner group)",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          },
+          "1181803": {
+            "reporter_cik": "1181803",
+            "reporter_name": "HENRIQUES ADOLFO",
+            "relationship": "Director",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          },
+          "1200631": {
+            "reporter_cik": "1200631",
+            "reporter_name": "SCHRIESHEIM ALAN",
+            "relationship": "Director",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          },
+          "1217585": {
+            "reporter_cik": "1217585",
+            "reporter_name": "CULLIGAN THOMAS M",
+            "relationship": "Director",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          },
+          "1445233": {
+            "reporter_cik": "1445233",
+            "reporter_name": "Hildebrandt Mark H",
+            "relationship": "Director",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          },
+          "1620811": {
+            "reporter_cik": "1620811",
+            "reporter_name": "Neitzel Julie",
+            "relationship": "Director",
+            "total_value": 174601.1056,
+            "shares": 592.0,
+            "txn_count": 1
+          },
+          "1698957": {
+            "reporter_cik": "1698957",
+            "reporter_name": "CHERUVATATH NANDAKUMAR",
+            "relationship": "Director",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          },
+          "1960016": {
+            "reporter_cik": "1960016",
+            "reporter_name": "Fine Carol F.",
+            "relationship": "Director",
+            "total_value": 175141.9185,
+            "shares": 795.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "MENDELSON VICTOR H",
+              "reporter_cik": "1031082",
+              "relationship": "Director, Officer (Co-COB and Co-CEO), Other (Member of 10% owner group)",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          },
+          {
+            "form_meta": {
+              "reporter_name": "HENRIQUES ADOLFO",
+              "reporter_cik": "1181803",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          },
+          {
+            "form_meta": {
+              "reporter_name": "SCHRIESHEIM ALAN",
+              "reporter_cik": "1200631",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          },
+          {
+            "form_meta": {
+              "reporter_name": "CULLIGAN THOMAS M",
+              "reporter_cik": "1217585",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Hildebrandt Mark H",
+              "reporter_cik": "1445233",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Neitzel Julie",
+              "reporter_cik": "1620811",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 592.0,
+                "price": 294.9343,
+                "total_value": 174601.1056,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 174601.1056
+          },
+          {
+            "form_meta": {
+              "reporter_name": "CHERUVATATH NANDAKUMAR",
+              "reporter_cik": "1698957",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          },
+          {
+            "form_meta": {
+              "reporter_name": "Fine Carol F.",
+              "reporter_cik": "1960016",
+              "relationship": "Director",
+              "issuer_cik": "46619",
+              "issuer_ticker": "HEI, HEI.A",
+              "issuer_name": "HEICO CORP"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-10-08",
+                "code": "P",
+                "shares": 795.0,
+                "price": 220.3043,
+                "total_value": 175141.9185,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 175141.9185
+          }
+        ]
+      },
+      "first_seen": "2026-10-14T10:32:26+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-10-14",
+      "cik": "1591588",
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$598.3M with $2,689.8M of unexplained_liabilities (up to $3,288.1M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "GOLD",
+        "name": "Gold.com, Inc.",
+        "by_reporter": {
+          "2025889": {
+            "reporter_cik": "2025889",
+            "reporter_name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+            "relationship": "10% Owner",
+            "total_value": 1280534.7696,
+            "shares": 32118.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+              "reporter_cik": "2025889",
+              "relationship": "10% Owner",
+              "issuer_cik": "1591588",
+              "issuer_ticker": "GOLD",
+              "issuer_name": "Gold.com, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-07",
+                "code": "P",
+                "shares": 1030.0,
+                "price": 39.96,
+                "total_value": 41158.8,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-12",
+                "code": "P",
+                "shares": 31088.0,
+                "price": 39.8667,
+                "total_value": 1239375.9696,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1280534.7696
+          }
+        ]
+      },
+      "first_seen": "2026-10-14T10:32:26+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }
