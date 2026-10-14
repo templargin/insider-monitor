@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T10:32:26+00:00",
+  "generated_at": "2026-10-14T15:22:25+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2429,7 +2429,7 @@
         ]
       },
       "first_seen": "2026-10-14T10:32:26+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -2437,7 +2437,7 @@
       "cik": "1591588",
       "ticker": "GOLD",
       "name": "Gold.com, Inc.",
-      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$598.3M with $2,689.8M of unexplained_liabilities (up to $3,288.1M)",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$581.6M with $2,689.8M of unexplained_liabilities (up to $3,271.5M)",
       "transient": false,
       "bucket_data": {
         "ticker": "GOLD",
@@ -2491,7 +2491,7 @@
         ]
       },
       "first_seen": "2026-10-14T10:32:26+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
