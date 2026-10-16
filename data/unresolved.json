@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:12:22+00:00",
+  "generated_at": "2026-10-16T10:31:45+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2429,11 +2429,11 @@
         ]
       },
       "first_seen": "2026-10-14T10:32:26+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-10-15",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-10-16",
       "last_reason": "no share price for HEI, HEI.A",
-      "last_tried": "2026-10-15T15:12:21+00:00"
+      "last_tried": "2026-10-16T10:30:40+00:00"
     },
     {
       "url_date": "2026-10-14",
@@ -2494,11 +2494,73 @@
         ]
       },
       "first_seen": "2026-10-14T10:32:26+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-10-15",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-10-16",
       "last_reason": "cannot confirm EV < $1,000M for GOLD: EV=$581.6M with $2,689.8M of unexplained_liabilities (up to $3,271.5M)",
-      "last_tried": "2026-10-15T15:12:22+00:00"
+      "last_tried": "2026-10-16T10:30:41+00:00"
+    },
+    {
+      "url_date": "2026-10-16",
+      "cik": "1591588",
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$581.6M with $2,689.8M of unexplained_liabilities (up to $3,271.5M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "GOLD",
+        "name": "Gold.com, Inc.",
+        "by_reporter": {
+          "2025889": {
+            "reporter_cik": "2025889",
+            "reporter_name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+            "relationship": "10% Owner",
+            "total_value": 2702483.954,
+            "shares": 67882.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+              "reporter_cik": "2025889",
+              "relationship": "10% Owner",
+              "issuer_cik": "1591588",
+              "issuer_ticker": "GOLD",
+              "issuer_name": "Gold.com, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-13",
+                "code": "P",
+                "shares": 42682.0,
+                "price": 39.917,
+                "total_value": 1703737.394,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-14",
+                "code": "P",
+                "shares": 25200.0,
+                "price": 39.6328,
+                "total_value": 998746.56,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 2702483.954
+          }
+        ]
+      },
+      "first_seen": "2026-10-16T10:31:45+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }
