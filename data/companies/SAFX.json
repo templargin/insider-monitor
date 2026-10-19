@@ -1,0 +1,1356 @@
+{
+  "ticker": "SAFX",
+  "cik": "2019793",
+  "name": "XCF Global, Inc.",
+  "description": "XCF Global, Inc. manufactures and sells renewable fuels in the United States. It develops and operates clean fuel production facilities to produce clean-burning and sustainable biofuels, sustainable aviation fuels, and renewable diesel and naphtha products; and sells environmental credits. XCF Global, Inc. was founded in 2016 and is headquartered in Houston, Texas.",
+  "ownership": {
+    "inst_pct": 0.02954,
+    "insider_pct": 0.96258,
+    "inst_count": 64,
+    "analyst_count": 1,
+    "rec_mean": 1.0,
+    "rec_key": "strong_buy",
+    "target_mean": 1.0,
+    "short_pct_float": 0.0286,
+    "shares_short": 7794208,
+    "short_days_to_cover": 1.91,
+    "short_as_of": "2026-09-30",
+    "as_of": "2026-10-19"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-10-16",
+      "reporter_name": "EEME Energy SPV I, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-16",
+      "code": "P",
+      "shares": 119397857.6,
+      "price": 1.19,
+      "total_value": 142083450.544,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002106572-26-000003"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "RESC RENEWABLES HOLDINGS, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-22",
+      "code": "J",
+      "shares": -316289.0,
+      "price": 0.505,
+      "total_value": -159725.945,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043962"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "RESC RENEWABLES HOLDINGS, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-09-21",
+      "code": "J",
+      "shares": -139637.0,
+      "price": 0.501,
+      "total_value": -69958.137,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043962"
+    },
+    {
+      "date_filed": "2026-09-15",
+      "reporter_name": "GL Part SPV II, LLC",
+      "relationship": "Other (Affiliate of 10% owner)",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 6891798.0,
+      "price": 2.5,
+      "total_value": 17229495.0,
+      "security_title": "Warrant to purchase Series A Common Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002106590-26-000002"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "THORN WRAY T",
+      "relationship": "Director",
+      "transaction_date": "2026-05-21",
+      "code": "A",
+      "shares": 4581838.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001183805-26-000003"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "THORN WRAY T",
+      "relationship": "Director",
+      "transaction_date": "2026-05-21",
+      "code": "A",
+      "shares": 3564241.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001183805-26-000003"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Kim Si-Yeon",
+      "relationship": "Director",
+      "transaction_date": "2026-05-05",
+      "code": "A",
+      "shares": 1073711.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002066376-26-000004"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Cockrell Sanford Alonza III",
+      "relationship": "Director",
+      "transaction_date": "2026-05-05",
+      "code": "A",
+      "shares": 1074237.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002066373-26-000005"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Kim Si-Yeon",
+      "relationship": "Director",
+      "transaction_date": "2025-06-06",
+      "code": "A",
+      "shares": 100000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002066376-26-000004"
+    },
+    {
+      "date_filed": "2026-07-10",
+      "reporter_name": "Cockrell Sanford Alonza III",
+      "relationship": "Director",
+      "transaction_date": "2025-06-06",
+      "code": "A",
+      "shares": 100000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002066373-26-000005"
+    },
+    {
+      "date_filed": "2026-05-22",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-05-15",
+      "code": "S",
+      "shares": -5000000.0,
+      "price": 0.4074,
+      "total_value": -2037000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000014"
+    },
+    {
+      "date_filed": "2026-05-08",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-04-30",
+      "code": "S",
+      "shares": -9000000.0,
+      "price": 0.344,
+      "total_value": -3095999.9999999995,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000012"
+    },
+    {
+      "date_filed": "2026-04-21",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-03-12",
+      "code": "S",
+      "shares": -1261830.0,
+      "price": 0.52,
+      "total_value": -656151.6,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000007"
+    },
+    {
+      "date_filed": "2026-02-26",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-25",
+      "code": "S",
+      "shares": -2000000.0,
+      "price": 0.12,
+      "total_value": -240000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000006"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-14",
+      "code": "S",
+      "shares": -161363.0,
+      "price": 0.1536,
+      "total_value": -24785.356799999998,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-14",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1514,
+      "total_value": -30280.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-14",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1525,
+      "total_value": -30500.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-13",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1574,
+      "total_value": -31480.000000000004,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-13",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1576,
+      "total_value": -31519.999999999996,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-13",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1596,
+      "total_value": -31920.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-13",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1701,
+      "total_value": -34020.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-15",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-13",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1762,
+      "total_value": -35240.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000004"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-12",
+      "code": "S",
+      "shares": -73000.0,
+      "price": 0.1544,
+      "total_value": -11271.2,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-12",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1582,
+      "total_value": -31640.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-12",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1584,
+      "total_value": -31680.000000000004,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-09",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1566,
+      "total_value": -31319.999999999996,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-09",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1603,
+      "total_value": -32060.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-09",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1616,
+      "total_value": -32320.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    },
+    {
+      "date_filed": "2026-01-14",
+      "reporter_name": "SOULE RANDY",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-01-08",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 0.1713,
+      "total_value": -34260.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002104194-26-000003"
+    }
+  ],
+  "valuation": {
+    "share_price": 0.14000000059604645,
+    "shares_basic": 410816896,
+    "shares_basic_as_of": "2026-08-14",
+    "options": 108644,
+    "warrants": 22718590,
+    "cash": 329084,
+    "debt": 257472286,
+    "debt_flag": null,
+    "ttm_revenue": 15279292.0,
+    "mc_basic": 57514365.68486595,
+    "ev_basic": 314657567.68486595
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            690881,
+            348688,
+            4686284,
+            9553439
+          ],
+          [
+            -89.49427270814047,
+            null,
+            null,
+            null
+          ],
+          [
+            414681,
+            660938,
+            10566816,
+            6207950
+          ],
+          [
+            276200,
+            -312250,
+            -5880532,
+            3345489
+          ],
+          [
+            122.3631049252269,
+            null,
+            null,
+            null
+          ],
+          [
+            39.97794120839913,
+            -89.54997017390906,
+            -125.48390153050903,
+            35.018688034748536
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            913028,
+            3970083,
+            3243310,
+            8871322
+          ],
+          [
+            6032317,
+            10025257,
+            13099969,
+            11968343
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -5756117,
+            -10337507,
+            -18980501,
+            -8622854
+          ],
+          [
+            83.25617006754497,
+            -75.02553635660995,
+            -89.94222426280746,
+            -153.74231374063052
+          ],
+          [
+            -833.1560717402853,
+            -2964.6867686871933,
+            -405.0224228834616,
+            -90.25916217186293
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -6549595,
+            -3083569,
+            -697553,
+            -4890850
+          ],
+          [
+            -14926496,
+            -10558477,
+            2001774,
+            -8782962
+          ],
+          [
+            -14133018,
+            -17812415,
+            -16281174,
+            -12514966
+          ],
+          [
+            -14133018,
+            -17812415,
+            -16281174,
+            -12514966
+          ],
+          [
+            -2045.651566622906,
+            -5108.410670857615,
+            -347.4218378570313,
+            -130.99959082797304
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.04,
+            -0.07,
+            -0.16999999999999993,
+            -0.08
+          ],
+          [
+            -0.04,
+            -0.07,
+            -0.16999999999999993,
+            -0.08
+          ],
+          [
+            353177339,
+            241039943,
+            null,
+            149525002
+          ],
+          [
+            353177339,
+            241039943,
+            null,
+            149525002
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            15279292,
+            0,
+            0
+          ],
+          [
+            17850385,
+            24586068,
+            null
+          ],
+          [
+            -2571093,
+            null,
+            null
+          ],
+          [
+            -16.827304563588417,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            16997743,
+            22385312,
+            18186056
+          ],
+          [
+            41125886,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -43696979,
+            -67887181,
+            -21173908
+          ],
+          [
+            35.63294519476365,
+            -220.61715296014322,
+            null
+          ],
+          [
+            -285.9882447432774,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -15221567,
+            -9155274,
+            -2930889
+          ],
+          [
+            -32266161,
+            132736675,
+            -5861778
+          ],
+          [
+            -60741573,
+            74004768,
+            -24104797
+          ],
+          [
+            -60741573,
+            74004768,
+            -24104797
+          ],
+          [
+            -397.54180363854556,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -0.35999999999999993,
+            0.52,
+            null
+          ],
+          [
+            -0.35999999999999993,
+            0.52,
+            null
+          ],
+          [
+            353177339,
+            142298067,
+            null
+          ],
+          [
+            353177339,
+            142298067,
+            null
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            329084,
+            1047539,
+            154937,
+            879168
+          ],
+          [
+            1711635,
+            1150086,
+            24550762,
+            20299742
+          ],
+          [
+            7361147,
+            38752,
+            337971,
+            4412875
+          ],
+          [
+            3180322,
+            1988677,
+            2604937,
+            3388218
+          ],
+          [
+            12582188,
+            4225054,
+            27648607,
+            28980003
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            407648007,
+            398438283,
+            390323968,
+            379743727
+          ],
+          [
+            421030195,
+            402963337,
+            419472575,
+            408723730
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            42064158,
+            29168907,
+            48122947,
+            30747831
+          ],
+          [
+            null,
+            null,
+            176169,
+            132127
+          ],
+          [
+            208869940,
+            215669164,
+            200715322,
+            234578687
+          ],
+          [
+            250934098,
+            244838071,
+            249014438,
+            265458645
+          ],
+          [
+            null,
+            123310193,
+            124014960,
+            122836024
+          ],
+          [
+            132825754,
+            9505778,
+            8791228,
+            15213499
+          ],
+          [
+            383759852,
+            377654042,
+            381820626,
+            403508168
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -48671118,
+            -34538100,
+            -16725685,
+            -444511
+          ],
+          [
+            37270343,
+            25309295,
+            37651949,
+            5215562
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            329084,
+            154937,
+            407182
+          ],
+          [
+            1711635,
+            24550762,
+            null
+          ],
+          [
+            7361147,
+            337971,
+            null
+          ],
+          [
+            3180322,
+            2604937,
+            1018243
+          ],
+          [
+            12582188,
+            27648607,
+            1425425
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            407648007,
+            390323968,
+            351702307
+          ],
+          [
+            421030195,
+            419472575,
+            354627732
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            42064158,
+            48122947,
+            8474052
+          ],
+          [
+            null,
+            176169,
+            176169
+          ],
+          [
+            208869940,
+            200715322,
+            171775226
+          ],
+          [
+            250934098,
+            249014438,
+            180425447
+          ],
+          [
+            null,
+            124014960,
+            null
+          ],
+          [
+            132825754,
+            8791228,
+            132767058
+          ],
+          [
+            383759852,
+            381820626,
+            313192505
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -48671118,
+            -16725685,
+            -29018191
+          ],
+          [
+            37270343,
+            37651949,
+            41435227
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -14133018,
+            -17812415,
+            -16281174,
+            -12514966
+          ],
+          [
+            0,
+            -6104584,
+            3370822,
+            4220147
+          ],
+          [
+            7782185,
+            19581463,
+            8804810,
+            3078412
+          ],
+          [
+            -6350833,
+            -4335536,
+            -4105542,
+            -5216407
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3660159,
+            -2695771,
+            null,
+            null
+          ],
+          [
+            -3660159,
+            -2695771,
+            0,
+            -310000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4100001,
+            6900000,
+            null,
+            null
+          ],
+          [
+            5188241,
+            1023909,
+            3380290,
+            6000000
+          ],
+          [
+            9288242,
+            7923909,
+            3380290,
+            6000000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            -60741573,
+            74004768,
+            -24104797
+          ],
+          [
+            1486385,
+            8777574,
+            0
+          ],
+          [
+            39246870,
+            -100640089,
+            12967234
+          ],
+          [
+            -20008318,
+            -17857747,
+            -11137563
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            -28678950
+          ],
+          [
+            -6665930,
+            -1563317,
+            null
+          ],
+          [
+            -6665930,
+            -1563317,
+            -28918084
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -2,
+            null
+          ],
+          [
+            26592441,
+            19167292,
+            40292009
+          ],
+          [
+            26592441,
+            19167290,
+            40292009
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            -39816513
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/26",
+          "3/31/26",
+          "12/31/25",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            0.05014140405900516,
+            0.017256523802623817,
+            0.11103214424859975,
+            0.10916955821875758
+          ],
+          [
+            0.020806423047377166,
+            0.017098247763927203,
+            0.10967490969338894,
+            0.09254597076693434
+          ],
+          [
+            null,
+            null,
+            3.2983984175693,
+            23.577162154337348
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -238351910,
+            -240613017,
+            -221365831,
+            -236478642
+          ],
+          [
+            null,
+            null,
+            124036192,
+            122088983
+          ],
+          [
+            -37.92027886622884,
+            -70.37894575886052,
+            -43.241251601610315,
+            -239.9543136482703
+          ],
+          [
+            -3.3567706468178606,
+            -4.420356237024114,
+            -3.8813440902542915,
+            -3.0619621718562806
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24"
+        ],
+        "data": [
+          [
+            0.05014140405900516,
+            0.11103214424859975,
+            0.007900354543669219
+          ],
+          [
+            0.020806423047377166,
+            0.10967490969338894,
+            null
+          ],
+          [
+            null,
+            3.2983984175693,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            -238351910,
+            -221365831,
+            -179000022
+          ],
+          [
+            null,
+            124036192,
+            null
+          ],
+          [
+            -162.9756211258909,
+            196.54963412385374,
+            -58.17464690129488
+          ],
+          [
+            -14.426892351509373,
+            17.642337642693327,
+            -6.797211505162264
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-10-19T10:32:13+00:00"
+}
