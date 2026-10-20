@@ -4,20 +4,48 @@
   "name": "Alpha Cognition Inc.",
   "description": "Alpha Cognition Inc., a biopharmaceutical company, engages in the development of treatments for patients suffering from neurodegenerative diseases in the United States and Canada. The company's commercial development program includes ZUNVEYL oral tablet formulation for treating Alzheimer's disease. Its pre-clinical development programs comprise ZUNVEYL in combination with memantine for the treatment of moderate-to-severe Alzheimer's disease; ALPHA-1062 sublingual formulation; ALPHA-1062 intranasal formulation for the treatment of cognitive impairment with mild traumatic brain injury; and ALPHA-0602, ALPHA-0702, and ALPHA-0802 programs for the treatment of neurodegenerative diseases, including amyotrophic lateral sclerosis disease and spinal muscular atrophy. Alpha Cognition Inc. was founded in 2000 and is headquartered in Grapevine, Texas.",
   "ownership": {
-    "inst_pct": 0.5614,
+    "inst_pct": 0.58247,
     "insider_pct": 0.05134,
-    "inst_count": 30,
+    "inst_count": 31,
     "analyst_count": 5,
     "rec_mean": 1.5,
     "rec_key": "strong_buy",
     "target_mean": 18.0,
-    "short_pct_float": 0.0121,
-    "shares_short": 209226,
-    "short_days_to_cover": 1.29,
-    "short_as_of": "2026-09-15",
-    "as_of": "2026-10-05"
+    "short_pct_float": 0.0186,
+    "shares_short": 323405,
+    "short_days_to_cover": 2.88,
+    "short_as_of": "2026-09-30",
+    "as_of": "2026-10-20"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-19",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-16",
+      "code": "P",
+      "shares": 14283.0,
+      "price": 8.2337,
+      "total_value": 117601.93710000001,
+      "security_title": "Common Stock, no par value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-047631"
+    },
+    {
+      "date_filed": "2026-10-19",
+      "reporter_name": "Opaleye Management Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-15",
+      "code": "P",
+      "shares": 22657.0,
+      "price": 8.4289,
+      "total_value": 190973.5873,
+      "security_title": "Common Stock, no par value",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-047631"
+    },
     {
       "date_filed": "2026-10-02",
       "reporter_name": "Opaleye Management Inc.",
@@ -1266,7 +1294,7 @@
     }
   ],
   "valuation": {
-    "share_price": 9.119999885559082,
+    "share_price": 8.5,
     "shares_basic": 21777868,
     "shares_basic_as_of": "2026-08-13",
     "options": 2699452,
@@ -1275,8 +1303,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 15260706.0,
-    "mc_basic": 198614153.6677208,
-    "ev_basic": 157229866.6677208
+    "mc_basic": 185111878.0,
+    "ev_basic": 143727591.0
   },
   "financials": {
     "income_statement": {
@@ -2336,5 +2364,5 @@
       }
     }
   },
-  "last_updated": "2026-10-05T19:26:33+00:00"
+  "last_updated": "2026-10-20T10:32:44+00:00"
 }

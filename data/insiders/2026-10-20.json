@@ -1,0 +1,97 @@
+{
+  "url_date": "2026-10-20",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-10-19"
+  ],
+  "generated_at": "2026-10-20T10:32:16+00:00",
+  "tickers": [
+    {
+      "ticker": "SNES",
+      "name": "SenesTech, Inc.",
+      "total_value": 706056.77,
+      "ev_basic": -1107520.6646536589,
+      "mc_basic": 3796479.335346341,
+      "insiders": [
+        {
+          "reporter_name": "GLENBROOK CAPITAL MANAGEMENT",
+          "relationship": "10% Owner",
+          "total_value": 706056.77,
+          "shares": 983804.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "EP",
+      "name": "EMPIRE PETROLEUM CORP",
+      "total_value": 312810.528,
+      "ev_basic": 139455190.35163665,
+      "mc_basic": 140947190.35163665,
+      "insiders": [
+        {
+          "reporter_name": "Mulacek Phil E",
+          "relationship": "Director, 10% Owner",
+          "total_value": 312810.528,
+          "shares": 97981.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "total_value": 308575.5244,
+      "ev_basic": 143727591.0,
+      "mc_basic": 185111878.0,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 308575.5244,
+          "shares": 36940.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "CTY",
+      "name": "CITY THERAPEUTICS, INC.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "IAM",
+      "name": "Iambic Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "LNBIX",
+      "name": "Lincoln Bain Capital Total Credit Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "ECF",
+      "name": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
