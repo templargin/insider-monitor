@@ -1,0 +1,71 @@
+{
+  "url_date": "2026-10-21",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-10-20"
+  ],
+  "generated_at": "2026-10-21T10:31:38+00:00",
+  "tickers": [
+    {
+      "ticker": "XGN",
+      "name": "EXAGEN INC.",
+      "total_value": 104440.0,
+      "ev_basic": 180468758.29350662,
+      "mc_basic": 179509758.29350662,
+      "insiders": [
+        {
+          "reporter_name": "Chernett Jorey",
+          "relationship": "10% Owner",
+          "total_value": 104440.0,
+          "shares": 14000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "GRF",
+      "name": "EAGLE CAPITAL GROWTH FUND, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "ECF",
+      "name": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "DSM",
+      "name": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "JOF",
+      "name": "JAPAN SMALLER CAPITALIZATION FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "LEO",
+      "name": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "SCISX",
+      "name": "MA Specialty Credit Income Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
