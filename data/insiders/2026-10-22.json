@@ -1,0 +1,42 @@
+{
+  "url_date": "2026-10-22",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-10-21"
+  ],
+  "generated_at": "2026-10-22T10:31:21+00:00",
+  "tickers": [],
+  "excluded": [
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GF",
+      "name": "NEW GERMANY FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "GXVIX",
+      "name": "Global X Venture & Innovation Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "MSD Investment Corp.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "CRF",
+      "name": "CORNERSTONE TOTAL RETURN FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
