@@ -1,0 +1,36 @@
+{
+  "url_date": "2026-10-23",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-10-22"
+  ],
+  "generated_at": "2026-10-23T10:31:28+00:00",
+  "tickers": [],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "5C Lending Partners Corp.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "DSM",
+      "name": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO EQUITY & INCOME FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "LEO",
+      "name": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
