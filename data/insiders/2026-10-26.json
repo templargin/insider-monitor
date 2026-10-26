@@ -1,0 +1,85 @@
+{
+  "url_date": "2026-10-26",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25"
+  ],
+  "generated_at": "2026-10-26T10:31:27+00:00",
+  "tickers": [
+    {
+      "ticker": "RENT",
+      "name": "Rent the Runway, Inc.",
+      "total_value": 6120515.95,
+      "ev_basic": 206880476.6895244,
+      "mc_basic": 77680476.68952441,
+      "insiders": [
+        {
+          "reporter_name": "Nexus Capital Management LP",
+          "relationship": "Director, 10% Owner",
+          "total_value": 2246873.1,
+          "shares": 632922.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "STORY3 Capital Partners, LLC",
+          "relationship": "Director, 10% Owner",
+          "total_value": 2246873.1,
+          "shares": 632922.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "CHS US Investments LLC",
+          "relationship": "10% Owner",
+          "total_value": 1626769.75,
+          "shares": 458245.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SAMG",
+      "name": "Silvercrest Asset Management Group Inc.",
+      "total_value": 352684.31999999995,
+      "ev_basic": 108984400.68413067,
+      "mc_basic": 119899400.68413067,
+      "insiders": [
+        {
+          "reporter_name": "Equinox Partners Investment Management LLC",
+          "relationship": "10% Owner",
+          "total_value": 352684.31999999995,
+          "shares": 34126.0,
+          "txn_count": 4
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Blackstone Private Real Estate Credit & Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "NXG",
+      "name": "NXG NextGen Infrastructure Income Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "VISTA CREDIT STRATEGIC LENDING CORP.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "CRAFX",
+      "name": "Cascade Real Assets Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": []
+}
