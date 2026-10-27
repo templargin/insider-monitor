@@ -1,0 +1,101 @@
+{
+  "url_date": "2026-10-27",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-10-26"
+  ],
+  "generated_at": "2026-10-27T10:31:40+00:00",
+  "tickers": [
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 1222045.0,
+      "ev_basic": 143037562.01649857,
+      "mc_basic": 431230562.01649857,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 1222045.0,
+          "shares": 150000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "KRRO",
+      "name": "Korro Bio, Inc.",
+      "total_value": 884751.9105999998,
+      "ev_basic": 152097271.66086578,
+      "mc_basic": 177002271.66086578,
+      "insiders": [
+        {
+          "reporter_name": "Lynx1 Capital Management LP",
+          "relationship": "10% Owner",
+          "total_value": 884751.9105999998,
+          "shares": 79809.0,
+          "txn_count": 4
+        }
+      ]
+    },
+    {
+      "ticker": "CITR",
+      "name": "CitroTech Inc.",
+      "total_value": 500000.0,
+      "ev_basic": 57184097.72595358,
+      "mc_basic": 59541173.72595358,
+      "insiders": [
+        {
+          "reporter_name": "HUFF CRAIG A",
+          "relationship": "Director, 10% Owner",
+          "total_value": 500000.0,
+          "shares": 200000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "total_value": 265820.0834,
+      "ev_basic": 139372021.55379868,
+      "mc_basic": 180756308.55379868,
+      "insiders": [
+        {
+          "reporter_name": "Opaleye Management Inc.",
+          "relationship": "10% Owner",
+          "total_value": 265820.0834,
+          "shares": 32090.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Blackstone Multi-Strategy Hedge Fund L.P.",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "LEO",
+      "name": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "OIG",
+      "name": "Orion180 Insurance Group Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    }
+  ],
+  "unresolved": []
+}
