@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:56:50+00:00",
+  "generated_at": "2026-10-28T10:31:47+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2618,6 +2618,108 @@
       "last_tried_date": "2026-10-21",
       "last_reason": "share count for SAH predates its balance sheet (2025-10-21 < 2026-06-30)",
       "last_tried": "2026-10-21T10:30:35+00:00"
+    },
+    {
+      "url_date": "2026-10-28",
+      "cik": "812801",
+      "ticker": "NUV",
+      "name": "NUVEEN MUNICIPAL VALUE FUND INC",
+      "reason": "no companyfacts for CIK 812801",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "NUV",
+        "name": "NUVEEN MUNICIPAL VALUE FUND INC",
+        "by_reporter": {
+          "1379422": {
+            "reporter_cik": "1379422",
+            "reporter_name": "Robert Young L",
+            "relationship": "Other (Trustee)",
+            "total_value": 300394.49399999995,
+            "shares": 36430.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Robert Young L",
+              "reporter_cik": "1379422",
+              "relationship": "Other (Trustee)",
+              "issuer_cik": "812801",
+              "issuer_ticker": "NUV",
+              "issuer_name": "NUVEEN MUNICIPAL VALUE FUND INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-23",
+                "code": "P",
+                "shares": 36430.0,
+                "price": 8.2458,
+                "total_value": 300394.49399999995,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 300394.49399999995
+          }
+        ]
+      },
+      "first_seen": "2026-10-28T10:31:47+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-10-28",
+      "cik": "1393726",
+      "ticker": "TIPT",
+      "name": "TIPTREE INC.",
+      "reason": "cannot confirm EV < $1,000M for TIPT: EV=$648.0M with $6,025.6M of unexplained_liabilities (up to $6,673.6M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "TIPT",
+        "name": "TIPTREE INC.",
+        "by_reporter": {
+          "1498811": {
+            "reporter_cik": "1498811",
+            "reporter_name": "Barnes Michael Gene",
+            "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+            "total_value": 502303.19999999995,
+            "shares": 30930.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Barnes Michael Gene",
+              "reporter_cik": "1498811",
+              "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+              "issuer_cik": "1393726",
+              "issuer_ticker": "TIPT",
+              "issuer_name": "TIPTREE INC."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-23",
+                "code": "P",
+                "shares": 30930.0,
+                "price": 16.24,
+                "total_value": 502303.19999999995,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 502303.19999999995
+          }
+        ]
+      },
+      "first_seen": "2026-10-28T10:31:47+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

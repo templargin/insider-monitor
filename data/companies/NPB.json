@@ -4,20 +4,76 @@
   "name": "NORTHPOINTE BANCSHARES INC",
   "description": "Northpointe Bancshares, Inc. operates as the bank holding company for Northpointe Bank provides various banking products and services in the United States. It operates through two segments: Mortgage Purchase Program and Retail Banking. The company offers digital deposit banking, such as noninterest-bearing accounts, savings, money-market demand accounts, and certificates of deposits; personal and business banking; and health saving accounts; home loans; mortgage purchase program; residential mortgage lending; and custodial deposit services. Northpointe Bancshares, Inc. was incorporated in 1998 and is headquartered in Grand Rapids, Michigan.",
   "ownership": {
-    "inst_pct": 0.75886,
-    "insider_pct": 0.33240002,
-    "inst_count": 175,
+    "inst_pct": 0.75513,
+    "insider_pct": 0.33284,
+    "inst_count": 173,
     "analyst_count": 3,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 20.38333,
-    "short_pct_float": 0.0214,
-    "shares_short": 605113,
-    "short_days_to_cover": 3.23,
-    "short_as_of": "2026-08-14",
-    "as_of": "2026-09-03"
+    "rec_mean": 2.33333,
+    "rec_key": "buy",
+    "target_mean": 17.75,
+    "short_pct_float": 0.025,
+    "shares_short": 706019,
+    "short_days_to_cover": 2.43,
+    "short_as_of": "2026-10-15",
+    "as_of": "2026-10-28"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-27",
+      "reporter_name": "Williams Charles Alan",
+      "relationship": "Director, Officer (CHAIRMAN & CEO)",
+      "transaction_date": "2026-10-26",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 15.3235,
+      "total_value": 766175.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001336706-26-000080"
+    },
+    {
+      "date_filed": "2026-10-27",
+      "reporter_name": "Long Joseph B",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-10-23",
+      "code": "P",
+      "shares": 3240.0,
+      "price": 15.3703,
+      "total_value": 49799.772000000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001336706-26-000081"
+    },
+    {
+      "date_filed": "2026-10-27",
+      "reporter_name": "Boer Carrie L",
+      "relationship": "Director",
+      "transaction_date": "2026-10-23",
+      "code": "P",
+      "shares": 12000.0,
+      "price": 15.3968,
+      "total_value": 184761.6,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002056954-26-000006"
+    },
+    {
+      "date_filed": "2026-10-27",
+      "reporter_name": "Williams Charles Alan",
+      "relationship": "Director, Officer (CHAIRMAN & CEO)",
+      "transaction_date": "2026-10-23",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 15.4243,
+      "total_value": 771215.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001336706-26-000080"
+    },
     {
       "date_filed": "2026-09-02",
       "reporter_name": "Williams Charles Alan",
@@ -1364,7 +1420,7 @@
     }
   ],
   "valuation": {
-    "share_price": 17.155000686645508,
+    "share_price": 15.760000228881836,
     "shares_basic": 34581842,
     "shares_basic_as_of": "2026-08-13",
     "options": 0,
@@ -1377,8 +1433,8 @@
       "concept": null
     },
     "ttm_revenue": 477653000.0,
-    "mc_basic": 593251523.2554665,
-    "ev_basic": 1482392523.2554665
+    "mc_basic": 545009837.8351555,
+    "ev_basic": 1434150837.8351555
   },
   "financials": {
     "income_statement": {
@@ -2249,5 +2305,5 @@
       }
     }
   },
-  "last_updated": "2026-09-03T14:45:39+00:00"
+  "last_updated": "2026-10-28T10:32:19+00:00"
 }

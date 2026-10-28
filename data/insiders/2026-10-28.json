@@ -1,0 +1,119 @@
+{
+  "url_date": "2026-10-28",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-10-27"
+  ],
+  "generated_at": "2026-10-28T10:31:47+00:00",
+  "tickers": [
+    {
+      "ticker": "NPB",
+      "name": "NORTHPOINTE BANCSHARES INC",
+      "total_value": 1722151.6,
+      "ev_basic": 1434150837.8351555,
+      "mc_basic": 545009837.8351555,
+      "insiders": [
+        {
+          "reporter_name": "Williams Charles Alan",
+          "relationship": "Director, Officer (CHAIRMAN & CEO)",
+          "total_value": 1537390.0,
+          "shares": 100000.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "Boer Carrie L",
+          "relationship": "Director",
+          "total_value": 184761.6,
+          "shares": 12000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PLUR",
+      "name": "Pluri Inc.",
+      "total_value": 1250001.0,
+      "ev_basic": 38592236.54637146,
+      "mc_basic": 14690236.54637146,
+      "insiders": [
+        {
+          "reporter_name": "Manieu Alexandre Weinstein",
+          "relationship": "Director, 10% Owner",
+          "total_value": 1250001.0,
+          "shares": 833334.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "DAIO",
+      "name": "DATA I/O CORP",
+      "total_value": 999996.44,
+      "ev_basic": 14522330.474842548,
+      "mc_basic": 25365330.47484255,
+      "insiders": [
+        {
+          "reporter_name": "Red Oak Partners, LLC",
+          "relationship": "10% Owner",
+          "total_value": 999996.44,
+          "shares": 373133.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "NXP",
+      "name": "NUVEEN SELECT TAX FREE INCOME PORTFOLIO",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "NMCO",
+      "name": "Nuveen Municipal Credit Opportunities Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "DSM",
+      "name": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "LYCA",
+      "name": "Lycia Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": null,
+      "name": "Willow Tree Capital Corp",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "AIOK",
+      "name": "AI OKTO Corp.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "NUV",
+      "name": "NUVEEN MUNICIPAL VALUE FUND INC",
+      "cik": "812801",
+      "reason": "no companyfacts for CIK 812801",
+      "transient": false
+    },
+    {
+      "ticker": "TIPT",
+      "name": "TIPTREE INC.",
+      "cik": "1393726",
+      "reason": "cannot confirm EV < $1,000M for TIPT: EV=$648.0M with $6,025.6M of unexplained_liabilities (up to $6,673.6M)",
+      "transient": false
+    }
+  ]
+}
