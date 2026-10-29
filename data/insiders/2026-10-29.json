@@ -1,0 +1,56 @@
+{
+  "url_date": "2026-10-29",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-10-28"
+  ],
+  "generated_at": "2026-10-29T10:31:43+00:00",
+  "tickers": [
+    {
+      "ticker": "RCT",
+      "name": "RedCloud Holdings plc",
+      "total_value": 425000.0,
+      "ev_basic": 11884450.060711361,
+      "mc_basic": 4239598.0607113615,
+      "insiders": [
+        {
+          "reporter_name": "Senn Nikolaus Beat",
+          "relationship": "Director, 10% Owner",
+          "total_value": 425000.0,
+          "shares": 1700000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BPRE",
+      "name": "Bluerock Private Real Estate Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Willow Tree Capital Corp",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "cik": "1591588",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$564.4M with $2,689.8M of unexplained_liabilities (up to $3,254.3M)",
+      "transient": false
+    },
+    {
+      "ticker": "NYSE:FLG",
+      "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+      "cik": "910073",
+      "reason": "no share price for NYSE:FLG",
+      "transient": true
+    }
+  ]
+}

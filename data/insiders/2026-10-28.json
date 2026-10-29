@@ -60,6 +60,22 @@
           "txn_count": 2
         }
       ]
+    },
+    {
+      "ticker": "TIPT",
+      "name": "TIPTREE INC.",
+      "total_value": 502303.19999999995,
+      "ev_basic": 428567310.8116455,
+      "mc_basic": 626879310.8116455,
+      "insiders": [
+        {
+          "reporter_name": "Barnes Michael Gene",
+          "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+          "total_value": 502303.19999999995,
+          "shares": 30930.0,
+          "txn_count": 1
+        }
+      ]
     }
   ],
   "excluded": [
@@ -106,13 +122,6 @@
       "name": "NUVEEN MUNICIPAL VALUE FUND INC",
       "cik": "812801",
       "reason": "no companyfacts for CIK 812801",
-      "transient": false
-    },
-    {
-      "ticker": "TIPT",
-      "name": "TIPTREE INC.",
-      "cik": "1393726",
-      "reason": "cannot confirm EV < $1,000M for TIPT: EV=$679.9M with $6,025.6M of unexplained_liabilities (up to $6,705.5M)",
       "transient": false
     }
   ]

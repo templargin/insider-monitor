@@ -4,20 +4,34 @@
   "name": "RedCloud Holdings plc",
   "description": "RedCloud Holdings plc operates a cloud-based business-to-business open commerce platform primarily in Argentina, the United Kingdom, Brazil, Nigeria, South Africa, and internationally. The company develops and operates the RedAI infrastructure and associated products that facilitates the trading of consumer supplies of fast-moving consumer goods across business supply chains. Its platform collects, cleanses, and aggregates transactional and behavioural data through facilitation of the trade and provides AI-driven recommendations that assist with inventory planning and procurement decisions across product catalogues. It also provides brands, distributors, and retailers with trading and product insights and data to help them make commercial decisions regarding their business operations. RedCloud Holdings plc was incorporated in 2024 and is based in London, the United Kingdom.",
   "ownership": {
-    "inst_pct": 0.0198,
-    "insider_pct": 0.63988996,
+    "inst_pct": 0.01986,
+    "insider_pct": 0.64087,
     "inst_count": 15,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": null,
-    "short_pct_float": 0.0057,
-    "shares_short": 200629,
-    "short_days_to_cover": 0.31,
-    "short_as_of": "2026-08-31",
-    "as_of": "2026-09-24"
+    "short_pct_float": 0.0136,
+    "shares_short": 478172,
+    "short_days_to_cover": 0.19,
+    "short_as_of": "2026-10-15",
+    "as_of": "2026-10-29"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-10-28",
+      "reporter_name": "Senn Nikolaus Beat",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-10-28",
+      "code": "P",
+      "shares": 1700000.0,
+      "price": 0.25,
+      "total_value": 425000.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-048958"
+    },
     {
       "date_filed": "2026-09-23",
       "reporter_name": "Floyd Justin Beck Hinton",
@@ -48,7 +62,7 @@
     }
   ],
   "valuation": {
-    "share_price": 0.18140000104904175,
+    "share_price": 0.06199999898672104,
     "shares_basic": 68380615,
     "shares_basic_as_of": "2026-07-20",
     "options": 2672083,
@@ -61,8 +75,8 @@
       "concept": null
     },
     "ttm_revenue": 48500000.0,
-    "mc_basic": 12404243.63273412,
-    "ev_basic": 20049095.63273412
+    "mc_basic": 4239598.0607113615,
+    "ev_basic": 11884450.060711361
   },
   "financials": {
     "income_statement": {
@@ -609,5 +623,5 @@
       }
     }
   },
-  "last_updated": "2026-09-24T15:27:52+00:00"
+  "last_updated": "2026-10-29T10:31:44+00:00"
 }

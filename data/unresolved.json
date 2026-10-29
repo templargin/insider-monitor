@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:46:39+00:00",
+  "generated_at": "2026-10-29T10:31:43+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2667,58 +2667,134 @@
         ]
       },
       "first_seen": "2026-10-28T10:31:47+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-10-29",
+      "last_reason": "no companyfacts for CIK 812801",
+      "last_tried": "2026-10-29T10:30:36+00:00"
+    },
+    {
+      "url_date": "2026-10-29",
+      "cik": "1591588",
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$564.4M with $2,689.8M of unexplained_liabilities (up to $3,254.3M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "GOLD",
+        "name": "Gold.com, Inc.",
+        "by_reporter": {
+          "2025889": {
+            "reporter_cik": "2025889",
+            "reporter_name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+            "relationship": "10% Owner",
+            "total_value": 3927258.4300999995,
+            "shares": 100000.0,
+            "txn_count": 3
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Tether Global Investments Fund, S.I.C.A.F., S.A.",
+              "reporter_cik": "2025889",
+              "relationship": "10% Owner",
+              "issuer_cik": "1591588",
+              "issuer_ticker": "GOLD",
+              "issuer_name": "Gold.com, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-26",
+                "code": "P",
+                "shares": 32675.0,
+                "price": 38.9609,
+                "total_value": 1273047.4075,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-27",
+                "code": "P",
+                "shares": 39692.0,
+                "price": 39.4445,
+                "total_value": 1565631.0939999998,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-10-28",
+                "code": "P",
+                "shares": 27633.0,
+                "price": 39.3942,
+                "total_value": 1088579.9286,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 3927258.4300999995
+          }
+        ]
+      },
+      "first_seen": "2026-10-29T10:31:43+00:00",
+      "attempts": 0,
       "abandoned": false
     },
     {
-      "url_date": "2026-10-28",
-      "cik": "1393726",
-      "ticker": "TIPT",
-      "name": "TIPTREE INC.",
-      "reason": "cannot confirm EV < $1,000M for TIPT: EV=$679.9M with $6,025.6M of unexplained_liabilities (up to $6,705.5M)",
-      "transient": false,
+      "url_date": "2026-10-29",
+      "cik": "910073",
+      "ticker": "NYSE:FLG",
+      "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+      "reason": "no share price for NYSE:FLG",
+      "transient": true,
       "bucket_data": {
-        "ticker": "TIPT",
-        "name": "TIPTREE INC.",
+        "ticker": "NYSE:FLG",
+        "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
         "by_reporter": {
-          "1498811": {
-            "reporter_cik": "1498811",
-            "reporter_name": "Barnes Michael Gene",
-            "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-            "total_value": 502303.19999999995,
-            "shares": 30930.0,
+          "1649471": {
+            "reporter_cik": "1649471",
+            "reporter_name": "Frank Alan L",
+            "relationship": "Director",
+            "total_value": 101400.0,
+            "shares": 10000.0,
             "txn_count": 1
           }
         },
         "filings": [
           {
             "form_meta": {
-              "reporter_name": "Barnes Michael Gene",
-              "reporter_cik": "1498811",
-              "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-              "issuer_cik": "1393726",
-              "issuer_ticker": "TIPT",
-              "issuer_name": "TIPTREE INC."
+              "reporter_name": "Frank Alan L",
+              "reporter_cik": "1649471",
+              "relationship": "Director",
+              "issuer_cik": "910073",
+              "issuer_ticker": "NYSE:FLG",
+              "issuer_name": "FLAGSTAR BANK, NATIONAL ASSOCIATION"
             },
             "purchase_txns": [
               {
                 "table": "nonDerivative",
                 "security_title": "Common Stock",
-                "transaction_date": "2026-10-23",
+                "transaction_date": "2026-10-27",
                 "code": "P",
-                "shares": 30930.0,
-                "price": 16.24,
-                "total_value": 502303.19999999995,
+                "shares": 10000.0,
+                "price": 10.14,
+                "total_value": 101400.0,
                 "ownership": "D",
                 "ad_code": "A"
               }
             ],
-            "value": 502303.19999999995
+            "value": 101400.0
           }
         ]
       },
-      "first_seen": "2026-10-28T10:31:47+00:00",
-      "attempts": 1,
+      "first_seen": "2026-10-29T10:31:43+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]
