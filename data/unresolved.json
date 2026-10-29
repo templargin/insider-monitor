@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:31:43+00:00",
+  "generated_at": "2026-10-29T17:02:24+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2671,14 +2671,14 @@
       "abandoned": false,
       "last_tried_date": "2026-10-29",
       "last_reason": "no companyfacts for CIK 812801",
-      "last_tried": "2026-10-29T10:30:36+00:00"
+      "last_tried": "2026-10-29T17:01:19+00:00"
     },
     {
       "url_date": "2026-10-29",
       "cik": "1591588",
       "ticker": "GOLD",
       "name": "Gold.com, Inc.",
-      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$564.4M with $2,689.8M of unexplained_liabilities (up to $3,254.3M)",
+      "reason": "cannot confirm EV < $1,000M for GOLD: EV=$557.7M with $2,689.8M of unexplained_liabilities (up to $3,247.6M)",
       "transient": false,
       "bucket_data": {
         "ticker": "GOLD",
@@ -2743,7 +2743,7 @@
         ]
       },
       "first_seen": "2026-10-29T10:31:43+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -2794,7 +2794,7 @@
         ]
       },
       "first_seen": "2026-10-29T10:31:43+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
