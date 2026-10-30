@@ -1,0 +1,41 @@
+{
+  "url_date": "2026-10-30",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-10-29"
+  ],
+  "generated_at": "2026-10-30T10:31:39+00:00",
+  "tickers": [
+    {
+      "ticker": "SAMG",
+      "name": "Silvercrest Asset Management Group Inc.",
+      "total_value": 348694.45,
+      "ev_basic": 104117392.96956444,
+      "mc_basic": 122624392.96956444,
+      "insiders": [
+        {
+          "reporter_name": "Equinox Partners Investment Management LLC",
+          "relationship": "10% Owner",
+          "total_value": 348694.45,
+          "shares": 33398.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "JOF",
+      "name": "JAPAN SMALLER CAPITALIZATION FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "SCQCU",
+      "name": "SPACCircle Acquisition Corp.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    }
+  ],
+  "unresolved": []
+}
