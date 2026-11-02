@@ -1,0 +1,37 @@
+{
+  "url_date": "2026-11-02",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+  ],
+  "generated_at": "2026-11-02T11:31:49+00:00",
+  "tickers": [
+    {
+      "ticker": "BFH",
+      "name": "BREAD FINANCIAL HOLDINGS, INC.",
+      "total_value": 123490.0,
+      "ev_basic": -35427825.761779785,
+      "mc_basic": 3925572174.23822,
+      "insiders": [
+        {
+          "reporter_name": "Fawcett John J.",
+          "relationship": "Director",
+          "total_value": 123490.0,
+          "shares": 5000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "LYCA",
+      "name": "Lycia Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    }
+  ],
+  "unresolved": []
+}
