@@ -4,20 +4,62 @@
   "name": "HUDSON TECHNOLOGIES INC /NY",
   "description": "Hudson Technologies, Inc., through its subsidiary, Hudson Technologies Company, provides solutions to recurring problems within the refrigeration industry in the United States. The company offers refrigerant and industrial gas; refrigerant management services comprising primarily of reclamation of refrigerants, laboratory testing through its laboratory, and banking storage services; and RefrigerantSide Services comprising system decontamination to remove moisture, oils, and other contaminants intended to restore systems to designed capacity. It also provides diagnostic services for use in the prediction of potential problems in air conditioning, process cooling, and refrigeration systems; Chiller Chemistry, which integrates several fluid tests of an operating system and the corresponding laboratory results into an engineering report; Fluid Chemistry for use in identification of systems that require further examination; and SmartEnergy OPS, a system for measuring, modifying, and improving the efficiency of energy systems, including air conditioning and refrigeration systems, in industrial and commercial applications. In addition, the company provides a snapshot of a packaged chiller's operating efficiency and health through ChillSmart, a maintenance tool. Further, it is involved in the generation of carbon offset projects. The company serves commercial, industrial, and governmental customers, as well as refrigerant wholesalers, distributors, contractors, and refrigeration equipment manufacturers. Hudson Technologies, Inc. was founded in 1990 and is headquartered in Woodcliff Lake, New Jersey.",
   "ownership": {
-    "inst_pct": 0.79836,
+    "inst_pct": 0.79783,
     "insider_pct": 0.13703,
-    "inst_count": 215,
+    "inst_count": 208,
     "analyst_count": 4,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 7.3125,
-    "short_pct_float": 0.0682,
-    "shares_short": 2837071,
-    "short_days_to_cover": 4.17,
-    "short_as_of": "2026-09-15",
-    "as_of": "2026-09-29"
+    "rec_mean": 2.0,
+    "rec_key": "buy",
+    "target_mean": 6.4375,
+    "short_pct_float": 0.0624,
+    "shares_short": 2594444,
+    "short_days_to_cover": 6.78,
+    "short_as_of": "2026-10-15",
+    "as_of": "2026-11-03"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-02",
+      "code": "P",
+      "shares": 41290.0,
+      "price": 4.25,
+      "total_value": 175482.5,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002902"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-30",
+      "code": "P",
+      "shares": 58710.0,
+      "price": 4.2498,
+      "total_value": 249505.75799999997,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002902"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Hartree Partners, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-29",
+      "code": "P",
+      "shares": 200000.0,
+      "price": 4.443,
+      "total_value": 888599.9999999999,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000921895-26-002902"
+    },
     {
       "date_filed": "2026-09-28",
       "reporter_name": "Hartree Partners, LP",
@@ -1028,7 +1070,7 @@
     }
   ],
   "valuation": {
-    "share_price": 5.099999904632568,
+    "share_price": 4.230000019073486,
     "shares_basic": 42088547,
     "shares_basic_as_of": "2026-07-27",
     "options": 2604023,
@@ -1037,8 +1079,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 256918000.0,
-    "mc_basic": 214651585.68612337,
-    "ev_basic": 189051585.68612337
+    "mc_basic": 178034554.61277533,
+    "ev_basic": 152434554.61277533
   },
   "financials": {
     "income_statement": {
@@ -2285,5 +2327,5 @@
       }
     }
   },
-  "last_updated": "2026-09-29T10:32:42+00:00"
+  "last_updated": "2026-11-03T11:34:45+00:00"
 }
