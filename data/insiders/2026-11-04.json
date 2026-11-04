@@ -1,0 +1,77 @@
+{
+  "url_date": "2026-11-04",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-11-03"
+  ],
+  "generated_at": "2026-11-04T11:33:24+00:00",
+  "tickers": [
+    {
+      "ticker": "PLBY",
+      "name": "Playboy, Inc.",
+      "total_value": 5000000.25,
+      "ev_basic": 282896192.31287575,
+      "mc_basic": 158745192.31287575,
+      "insiders": [
+        {
+          "reporter_name": "Docler Holding S.a r.l.",
+          "relationship": "Director, 10% Owner",
+          "total_value": 5000000.25,
+          "shares": 4761905.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "NPKI",
+      "name": "NPK International Inc.",
+      "total_value": 138600.0,
+      "ev_basic": 786605603.497283,
+      "mc_basic": 764539603.497283,
+      "insiders": [
+        {
+          "reporter_name": "MINGE JOHN C",
+          "relationship": "Director",
+          "total_value": 138600.0,
+          "shares": 15000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BBTX",
+      "name": "Bambusa Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": null,
+      "name": "John Hancock GA Senior Loan Trust",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "BlackRock Monticello Debt Real Estate Investment Trust",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "Calamos Aksia Hedged Strategies Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "STRZ",
+      "name": "STARZ ENTERTAINMENT CORP /CN/",
+      "cik": "929351",
+      "reason": "cannot confirm EV < $1,000M for STRZ: EV=$973.9M with $178.5M of unexplained_liabilities (up to $1,152.4M)",
+      "transient": false
+    }
+  ]
+}
