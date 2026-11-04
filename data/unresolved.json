@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:33:24+00:00",
+  "generated_at": "2026-11-04T18:09:25+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -2802,121 +2802,6 @@
       "last_tried_date": "2026-11-02",
       "last_reason": "no share price for NYSE:FLG",
       "last_tried": "2026-11-02T11:30:44+00:00"
-    },
-    {
-      "url_date": "2026-11-04",
-      "cik": "929351",
-      "ticker": "STRZ",
-      "name": "STARZ ENTERTAINMENT CORP /CN/",
-      "reason": "cannot confirm EV < $1,000M for STRZ: EV=$973.9M with $178.5M of unexplained_liabilities (up to $1,152.4M)",
-      "transient": false,
-      "bucket_data": {
-        "ticker": "STRZ",
-        "name": "STARZ ENTERTAINMENT CORP /CN/",
-        "by_reporter": {
-          "1268071": {
-            "reporter_cik": "1268071",
-            "reporter_name": "MACDONALD SCOTT D",
-            "relationship": "Officer (CFO and Treasurer)",
-            "total_value": 55550.0,
-            "shares": 2500.0,
-            "txn_count": 1
-          },
-          "1647660": {
-            "reporter_cik": "1647660",
-            "reporter_name": "Hirsch Jeffrey",
-            "relationship": "Director, Officer (President and CEO)",
-            "total_value": 110650.0,
-            "shares": 5000.0,
-            "txn_count": 1
-          },
-          "2140162": {
-            "reporter_cik": "2140162",
-            "reporter_name": "Kapenstein James M.",
-            "relationship": "Officer (SEE REMARKS)",
-            "total_value": 10506.4,
-            "shares": 460.0,
-            "txn_count": 1
-          }
-        },
-        "filings": [
-          {
-            "form_meta": {
-              "reporter_name": "MACDONALD SCOTT D",
-              "reporter_cik": "1268071",
-              "relationship": "Officer (CFO and Treasurer)",
-              "issuer_cik": "929351",
-              "issuer_ticker": "STRZ",
-              "issuer_name": "STARZ ENTERTAINMENT CORP /CN/"
-            },
-            "purchase_txns": [
-              {
-                "table": "nonDerivative",
-                "security_title": "Common Shares",
-                "transaction_date": "2026-11-02",
-                "code": "P",
-                "shares": 2500.0,
-                "price": 22.22,
-                "total_value": 55550.0,
-                "ownership": "I",
-                "ad_code": "A"
-              }
-            ],
-            "value": 55550.0
-          },
-          {
-            "form_meta": {
-              "reporter_name": "Hirsch Jeffrey",
-              "reporter_cik": "1647660",
-              "relationship": "Director, Officer (President and CEO)",
-              "issuer_cik": "929351",
-              "issuer_ticker": "STRZ",
-              "issuer_name": "STARZ ENTERTAINMENT CORP /CN/"
-            },
-            "purchase_txns": [
-              {
-                "table": "nonDerivative",
-                "security_title": "Common Shares",
-                "transaction_date": "2026-11-02",
-                "code": "P",
-                "shares": 5000.0,
-                "price": 22.13,
-                "total_value": 110650.0,
-                "ownership": "I",
-                "ad_code": "A"
-              }
-            ],
-            "value": 110650.0
-          },
-          {
-            "form_meta": {
-              "reporter_name": "Kapenstein James M.",
-              "reporter_cik": "2140162",
-              "relationship": "Officer (SEE REMARKS)",
-              "issuer_cik": "929351",
-              "issuer_ticker": "STRZ",
-              "issuer_name": "STARZ ENTERTAINMENT CORP /CN/"
-            },
-            "purchase_txns": [
-              {
-                "table": "nonDerivative",
-                "security_title": "Common Shares",
-                "transaction_date": "2026-11-02",
-                "code": "P",
-                "shares": 460.0,
-                "price": 22.84,
-                "total_value": 10506.4,
-                "ownership": "D",
-                "ad_code": "A"
-              }
-            ],
-            "value": 10506.4
-          }
-        ]
-      },
-      "first_seen": "2026-11-04T11:33:24+00:00",
-      "attempts": 0,
-      "abandoned": false
     }
   ]
 }
