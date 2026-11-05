@@ -4,8 +4,8 @@
   "name": "JETBLUE AIRWAYS CORP",
   "description": "JetBlue Airways Corporation provides air transportation services. The company operates a fleet of Airbus A220, Airbus A320, Airbus A320 Restyled, Airbus A321, Airbus A321 with Mint, Airbus A321neo, Airbus A321neo with Mint, and Airbus A321neoLR with Mint aircraft. It also serves 100 destinations across the United States, the Caribbean, Latin America, Canada, and Europe. In addition, it operates airport lounges, as well as provides vacation services. JetBlue Airways Corporation was incorporated in 1998 and is based in Long Island City, New York.",
   "ownership": {
-    "inst_pct": 0.88258004,
-    "insider_pct": 0.10516,
+    "inst_pct": 0.88457,
+    "insider_pct": 0.10542,
     "inst_count": 479,
     "analyst_count": 15,
     "rec_mean": 3.41176,
@@ -15,9 +15,51 @@
     "shares_short": 106982384,
     "short_days_to_cover": 5.14,
     "short_as_of": "2026-10-15",
-    "as_of": "2026-11-03"
+    "as_of": "2026-11-05"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-04",
+      "reporter_name": "Mittal Nik",
+      "relationship": "Director",
+      "transaction_date": "2026-11-03",
+      "code": "P",
+      "shares": 31300.0,
+      "price": 3.235,
+      "total_value": 101255.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001158463-26-000098"
+    },
+    {
+      "date_filed": "2026-11-04",
+      "reporter_name": "Mittal Nik",
+      "relationship": "Director",
+      "transaction_date": "2026-11-03",
+      "code": "P",
+      "shares": 68700.0,
+      "price": 3.24,
+      "total_value": 222588.00000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001158463-26-000098"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Clements Carol Ann",
+      "relationship": "Officer (Chief Digital & Tech Officer)",
+      "transaction_date": "2026-10-30",
+      "code": "S",
+      "shares": -2000.0,
+      "price": 2.96,
+      "total_value": -5920.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001858380-26-000010"
+    },
     {
       "date_filed": "2026-11-02",
       "reporter_name": "BONEPARTH PETER",
@@ -3363,52 +3405,10 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001158463-24-000031"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "St George Martin J",
-      "relationship": "Officer (President)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 3264.0,
-      "price": 4.79,
-      "total_value": 15634.56,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001158463-24-000029"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Hurley Ursula L",
-      "relationship": "Officer (Chief Financial Officer)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 1753.0,
-      "price": 4.79,
-      "total_value": 8396.87,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001158463-24-000028"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Christie Warren",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 1753.0,
-      "price": 4.79,
-      "total_value": 8396.87,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001158463-24-000027"
     }
   ],
   "valuation": {
-    "share_price": 3.2300000190734863,
+    "share_price": 3.559999942779541,
     "shares_basic": 377351854,
     "shares_basic_as_of": "2026-09-30",
     "options": 0,
@@ -3421,8 +3421,8 @@
       "concept": null
     },
     "ttm_revenue": 9993000000.0,
-    "mc_basic": 1218846495.6174154,
-    "ev_basic": 381846495.6174154
+    "mc_basic": 1343372578.6477537,
+    "ev_basic": 506372578.6477537
   },
   "financials": {
     "income_statement": {
@@ -4592,5 +4592,5 @@
       }
     }
   },
-  "last_updated": "2026-11-03T18:00:32+00:00"
+  "last_updated": "2026-11-05T11:34:12+00:00"
 }

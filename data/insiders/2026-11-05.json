@@ -1,0 +1,71 @@
+{
+  "url_date": "2026-11-05",
+  "weekday": "Thursday",
+  "filing_dates": [
+    "2026-11-04"
+  ],
+  "generated_at": "2026-11-05T11:32:41+00:00",
+  "tickers": [
+    {
+      "ticker": "JBLU",
+      "name": "JETBLUE AIRWAYS CORP",
+      "total_value": 323843.5,
+      "ev_basic": 506372578.6477537,
+      "mc_basic": 1343372578.6477537,
+      "insiders": [
+        {
+          "reporter_name": "Mittal Nik",
+          "relationship": "Director",
+          "total_value": 323843.5,
+          "shares": 100000.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ASPE",
+      "name": "Aspen Neuroscience, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO EQUITY & INCOME FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "KNOP",
+      "name": "KNOT Offshore Partners LP",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "LYCA",
+      "name": "Lycia Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": null,
+      "name": "Partners Group Growth, LLC",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "SCQCU",
+      "name": "SPACCircle Acquisition Corp.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    }
+  ],
+  "unresolved": []
+}
