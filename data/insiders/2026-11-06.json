@@ -1,0 +1,141 @@
+{
+  "url_date": "2026-11-06",
+  "weekday": "Friday",
+  "filing_dates": [
+    "2026-11-05"
+  ],
+  "generated_at": "2026-11-06T11:32:20+00:00",
+  "tickers": [
+    {
+      "ticker": "LYEL",
+      "name": "Lyell Immunopharma, Inc.",
+      "total_value": 49999983.48,
+      "ev_basic": 276730475.0,
+      "mc_basic": 368783475.0,
+      "insiders": [
+        {
+          "reporter_name": "ARCH Venture Fund XIII, L.P.",
+          "relationship": "10% Owner",
+          "total_value": 24999991.74,
+          "shares": 2321262.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "ARCH Venture Partners IX, LLC",
+          "relationship": "10% Owner",
+          "total_value": 24999991.74,
+          "shares": 2321262.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "COUR",
+      "name": "Coursera, Inc.",
+      "total_value": 31450844.1298,
+      "ev_basic": 279275000.0,
+      "mc_basic": 949875000.0,
+      "insiders": [
+        {
+          "reporter_name": "Pale Fire Capital SE",
+          "relationship": "10% Owner",
+          "total_value": 31450844.1298,
+          "shares": 8355251.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "MTUS",
+      "name": "Metallus Inc.",
+      "total_value": 166100.0,
+      "ev_basic": 554640178.8834114,
+      "mc_basic": 650240178.8834114,
+      "insiders": [
+        {
+          "reporter_name": "RICE RONALD A",
+          "relationship": "Director",
+          "total_value": 166100.0,
+          "shares": 10000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "RRBI",
+      "name": "RED RIVER BANCSHARES INC",
+      "total_value": 112605.50000000001,
+      "ev_basic": 482859416.9824066,
+      "mc_basic": 687907416.9824066,
+      "insiders": [
+        {
+          "reporter_name": "Price Teddy Ray",
+          "relationship": "Director",
+          "total_value": 112605.50000000001,
+          "shares": 1045.0,
+          "txn_count": 3
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Third Point Private Capital Partners",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": null,
+      "name": "Third Point Private Capital Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "ETRA",
+      "name": "Electra Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO EQUITY & INCOME FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Carlyle Credit Solutions",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "OACOX",
+      "name": "OneAscent Capital Opportunities Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "LBTY",
+      "name": "Liberty Global Ltd.",
+      "cik": "1570585",
+      "reason": "no share price for LBTY",
+      "transient": true
+    },
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.0M with $1,119.4M of unexplained_liabilities (up to $1,831.4M)",
+      "transient": false
+    }
+  ]
+}
