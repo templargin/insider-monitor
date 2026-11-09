@@ -1,0 +1,44 @@
+{
+  "url_date": "2026-11-09",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08"
+  ],
+  "generated_at": "2026-11-09T11:32:36+00:00",
+  "tickers": [],
+  "excluded": [
+    {
+      "ticker": "KYN",
+      "name": "Kayne Anderson Energy Infrastructure Fund, Inc.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "AGMB",
+      "name": "AgomAb Therapeutics NV",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO EQUITY & INCOME FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "JOF",
+      "name": "JAPAN SMALLER CAPITALIZATION FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "YPF",
+      "name": "YPF SOCIEDAD ANONIMA",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": []
+}
