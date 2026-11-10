@@ -5,7 +5,7 @@
   "description": "Vertical Data Inc. provides infrastructure and managed services for high-performance AI computing and data centers, integrating hardware, software, and support solutions. The company delivers infrastructure for AI computing, including hardware provisioning and IT infrastructure solutions, and offers managed AI infrastructure services that combine software solutions with localized support for system uptime, performance, and efficiency. It supports AI model deployment, real-time system monitoring, and proactive maintenance, and delivers turnkey solutions such as high-density AI-ready colocation facilities. The company guides customers in selecting hardware and software solutions for specific workloads and ensures access to computing power for AI inference and high-performance workloads in various markets; and graphics processing unit hardware and financing. Vertical Data Inc. serves clients in data centers, high-performance computing, original equipment manufacturing, industrial distribution, contract manufacturing, and technology sectors, as well as enterprises in finance, telecommunications, and energy industries. Vertical Data Inc. was founded in 2024 and is based in Las Vegas, Nevada.",
   "ownership": {
     "inst_pct": 0.0,
-    "insider_pct": 0.62793,
+    "insider_pct": 0.64147,
     "inst_count": 0,
     "analyst_count": null,
     "rec_mean": null,
@@ -15,9 +15,93 @@
     "shares_short": null,
     "short_days_to_cover": null,
     "short_as_of": null,
-    "as_of": "2026-10-12"
+    "as_of": "2026-11-10"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-09",
+      "reporter_name": "Hamble International Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-05",
+      "code": "P",
+      "shares": 166647.0,
+      "price": 3.0,
+      "total_value": 499941.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002145730-26-000006"
+    },
+    {
+      "date_filed": "2026-11-09",
+      "reporter_name": "Hamble International Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-05",
+      "code": "P",
+      "shares": 166647.0,
+      "price": 3.0,
+      "total_value": 499941.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0002145730-26-000006"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Downs Christopher S",
+      "relationship": "Officer (Interim CFO and Secretary)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 1270.0,
+      "price": 3.937,
+      "total_value": 4999.99,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001705978-26-000007"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Soni Deven",
+      "relationship": "Director, Officer (Chairman, President and CEO)",
+      "transaction_date": "2026-09-17",
+      "code": "A",
+      "shares": 81118.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001705978-26-000015"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Soni Deven",
+      "relationship": "Director, Officer (Chairman, President and CEO)",
+      "transaction_date": "2026-05-26",
+      "code": "A",
+      "shares": 14850.0,
+      "price": 3.03,
+      "total_value": 44995.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001705978-26-000015"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "Soni Deven",
+      "relationship": "Director, Officer (Chairman, President and CEO)",
+      "transaction_date": "2026-03-11",
+      "code": "A",
+      "shares": 180000.0,
+      "price": 0.5,
+      "total_value": 90000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001705978-26-000015"
+    },
     {
       "date_filed": "2026-10-09",
       "reporter_name": "Leverton Jaime",
@@ -384,7 +468,7 @@
     }
   ],
   "valuation": {
-    "share_price": 4.079999923706055,
+    "share_price": 3.380000114440918,
     "shares_basic": 13645342,
     "shares_basic_as_of": "2026-08-10",
     "options": null,
@@ -393,8 +477,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 872212.0,
-    "mc_basic": 55672994.31894302,
-    "ev_basic": 50067147.31894302
+    "mc_basic": 46121257.521585464,
+    "ev_basic": 40515410.521585464
   },
   "financials": {
     "income_statement": {
@@ -1125,5 +1209,5 @@
       }
     }
   },
-  "last_updated": "2026-10-12T19:57:28+00:00"
+  "last_updated": "2026-11-10T11:33:49+00:00"
 }

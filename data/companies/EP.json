@@ -4,20 +4,90 @@
   "name": "EMPIRE PETROLEUM CORP",
   "description": "Empire Petroleum Corporation engages in the optimization and development of oil and gas interests in the United States. It operates properties in New Mexico, North Dakota, Montana, Texas, and Louisiana. The company was formerly known as Americomm Resources Corporation and changed its name to Empire Petroleum Corporation in August 2001. Empire Petroleum Corporation was incorporated in 1983 and is headquartered in Tulsa, Oklahoma.",
   "ownership": {
-    "inst_pct": 0.0558,
-    "insider_pct": 0.60336,
-    "inst_count": 49,
+    "inst_pct": 0.05505,
+    "insider_pct": 0.59155,
+    "inst_count": 47,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
     "target_mean": null,
-    "short_pct_float": 0.0127,
-    "shares_short": 199364,
-    "short_days_to_cover": 5.36,
-    "short_as_of": "2026-09-30",
-    "as_of": "2026-10-20"
+    "short_pct_float": 0.0002,
+    "shares_short": 2987,
+    "short_days_to_cover": 0.07,
+    "short_as_of": "2026-10-15",
+    "as_of": "2026-11-10"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-09",
+      "reporter_name": "Energy Evolution Master Fund, Ltd.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-09",
+      "code": "P",
+      "shares": 9417.0,
+      "price": 2.5295,
+      "total_value": 23820.3015,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001072613-26-000861"
+    },
+    {
+      "date_filed": "2026-11-09",
+      "reporter_name": "Energy Evolution Master Fund, Ltd.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-06",
+      "code": "P",
+      "shares": 33771.0,
+      "price": 2.4546,
+      "total_value": 82894.2966,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001072613-26-000861"
+    },
+    {
+      "date_filed": "2026-11-09",
+      "reporter_name": "Energy Evolution Master Fund, Ltd.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-05",
+      "code": "P",
+      "shares": 48025.0,
+      "price": 2.0218,
+      "total_value": 97096.94499999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001072613-26-000861"
+    },
+    {
+      "date_filed": "2026-10-27",
+      "reporter_name": "Morrisett Michael R.",
+      "relationship": "Director, Officer (President & CEO)",
+      "transaction_date": "2026-10-23",
+      "code": "J",
+      "shares": 6277.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001072613-26-000840"
+    },
+    {
+      "date_filed": "2026-10-27",
+      "reporter_name": "Energy Evolution Master Fund, Ltd.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-23",
+      "code": "J",
+      "shares": -514064.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001072613-26-000839"
+    },
     {
       "date_filed": "2026-10-19",
       "reporter_name": "Mulacek Phil E",
@@ -1406,7 +1476,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.4049999713897705,
+    "share_price": 2.440000057220459,
     "shares_basic": 41577341,
     "shares_basic_as_of": "2026-08-11",
     "options": 1088168,
@@ -1415,8 +1485,8 @@
     "debt": 1632000,
     "debt_flag": null,
     "ttm_revenue": 31055000.0,
-    "mc_basic": 141570844.91546273,
-    "ev_basic": 140078844.91546273
+    "mc_basic": 101448714.41907454,
+    "ev_basic": 99956714.41907454
   },
   "financials": {
     "income_statement": {
@@ -2557,5 +2627,5 @@
       }
     }
   },
-  "last_updated": "2026-10-20T15:18:44+00:00"
+  "last_updated": "2026-11-10T11:33:45+00:00"
 }

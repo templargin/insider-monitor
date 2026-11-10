@@ -1,0 +1,166 @@
+{
+  "url_date": "2026-11-10",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-11-09"
+  ],
+  "generated_at": "2026-11-10T11:32:29+00:00",
+  "tickers": [
+    {
+      "ticker": "NATR",
+      "name": "NATURES SUNSHINE PRODUCTS INC",
+      "total_value": 2849810.84,
+      "ev_basic": 101586119.45248413,
+      "mc_basic": 190963119.45248413,
+      "insiders": [
+        {
+          "reporter_name": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
+          "relationship": "10% Owner",
+          "total_value": 2849810.84,
+          "shares": 291666.0,
+          "txn_count": 20
+        }
+      ]
+    },
+    {
+      "ticker": "VDTA",
+      "name": "Vertical Data Inc.",
+      "total_value": 999882.0,
+      "ev_basic": 40515410.521585464,
+      "mc_basic": 46121257.521585464,
+      "insiders": [
+        {
+          "reporter_name": "Hamble International Inc.",
+          "relationship": "10% Owner",
+          "total_value": 999882.0,
+          "shares": 333294.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "ADTN",
+      "name": "ADTRAN Holdings, Inc.",
+      "total_value": 600900.0,
+      "ev_basic": 645135086.141181,
+      "mc_basic": 349617086.141181,
+      "insiders": [
+        {
+          "reporter_name": "STANTON THOMAS R",
+          "relationship": "Director, Officer (Chairman & CEO)",
+          "total_value": 600900.0,
+          "shares": 150000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "EP",
+      "name": "EMPIRE PETROLEUM CORP",
+      "total_value": 203811.5431,
+      "ev_basic": 99956714.41907454,
+      "mc_basic": 101448714.41907454,
+      "insiders": [
+        {
+          "reporter_name": "Energy Evolution Master Fund, Ltd.",
+          "relationship": "10% Owner",
+          "total_value": 203811.5431,
+          "shares": 91213.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "OBIO",
+      "name": "Orchestra BioMed Holdings, Inc.",
+      "total_value": 200000.0,
+      "ev_basic": 356965767.8358717,
+      "mc_basic": 342598767.8358717,
+      "insiders": [
+        {
+          "reporter_name": "Fain Eric S",
+          "relationship": "Director",
+          "total_value": 100000.0,
+          "shares": 20000.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Pacitti David",
+          "relationship": "Director",
+          "total_value": 100000.0,
+          "shares": 20000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "AUDC",
+      "name": "AUDIOCODES LTD",
+      "total_value": 126139.6202,
+      "ev_basic": 184976701.5,
+      "mc_basic": 230258701.5,
+      "insiders": [
+        {
+          "reporter_name": "ADLERSBERG SHABTAI",
+          "relationship": "Officer (President and CEO)",
+          "total_value": 126139.6202,
+          "shares": 15939.0,
+          "txn_count": 2
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "GFS",
+      "name": "GLOBALFOUNDRIES Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": null,
+      "name": "Keenova Therapeutics plc",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "SOPH",
+      "name": "SOPHiA GENETICS SA",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "NFRX",
+      "name": "2023 ETF Series Trust",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "LCRDX",
+      "name": "Lord Abbett Credit Opportunities Fund",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$703.4M with $1,119.4M of unexplained_liabilities (up to $1,822.8M)",
+      "transient": false
+    }
+  ]
+}
