@@ -1,0 +1,177 @@
+{
+  "url_date": "2026-11-11",
+  "weekday": "Wednesday",
+  "filing_dates": [
+    "2026-11-10"
+  ],
+  "generated_at": "2026-11-11T11:32:41+00:00",
+  "tickers": [
+    {
+      "ticker": "MX",
+      "name": "MAGNACHIP SEMICONDUCTOR Corp",
+      "total_value": 1526506.0274,
+      "ev_basic": 56747481.78134704,
+      "mc_basic": 96269481.78134704,
+      "insiders": [
+        {
+          "reporter_name": "Amoruso Cristiano",
+          "relationship": "Director",
+          "total_value": 1371146.0274,
+          "shares": 568009.0,
+          "txn_count": 2
+        },
+        {
+          "reporter_name": "LEE CHAE",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 155360.0,
+          "shares": 70000.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "PRTA",
+      "name": "PROTHENA CORP PUBLIC LTD CO",
+      "total_value": 1194158.0,
+      "ev_basic": 168186275.3072319,
+      "mc_basic": 439554275.3072319,
+      "insiders": [
+        {
+          "reporter_name": "SCULLY WILLIAM P",
+          "relationship": "10% Owner",
+          "total_value": 1194158.0,
+          "shares": 140000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "BOLT",
+      "name": "Bolt Biotherapeutics, Inc.",
+      "total_value": 319000.0,
+      "ev_basic": -724026.1325788498,
+      "mc_basic": 12135973.86742115,
+      "insiders": [
+        {
+          "reporter_name": "Coastlands Capital LP",
+          "relationship": "10% Owner",
+          "total_value": 319000.0,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SLQT",
+      "name": "SelectQuote, Inc.",
+      "total_value": 315037.68,
+      "ev_basic": 459578099.12753475,
+      "mc_basic": 82005099.12753478,
+      "insiders": [
+        {
+          "reporter_name": "Weldon Raymond F",
+          "relationship": "Director",
+          "total_value": 200819.63999999998,
+          "shares": 409836.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Hawks Donald L III",
+          "relationship": "Director",
+          "total_value": 114218.04000000001,
+          "shares": 250000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "STLN",
+      "name": "Starling Oncology, Inc.",
+      "total_value": 176273.1,
+      "ev_basic": 478307059.7225952,
+      "mc_basic": 442641059.7225952,
+      "insiders": [
+        {
+          "reporter_name": "Chernett Jorey",
+          "relationship": "10% Owner",
+          "total_value": 176273.1,
+          "shares": 48294.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "DTI",
+      "name": "Drilling Tools International Corp",
+      "total_value": 164300.0,
+      "ev_basic": 99664692.19295502,
+      "mc_basic": 52217692.19295502,
+      "insiders": [
+        {
+          "reporter_name": "Prejean Robert Wayne",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 164300.0,
+          "shares": 100000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "WW",
+      "name": "WW INTERNATIONAL, INC.",
+      "total_value": 137625.0,
+      "ev_basic": 417713099.7770691,
+      "mc_basic": 120185099.77706909,
+      "insiders": [
+        {
+          "reporter_name": "BYE STEPHEN J",
+          "relationship": "Director, Officer (President and CEO)",
+          "total_value": 137625.0,
+          "shares": 12500.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ETRA",
+      "name": "Electra Therapeutics, Inc.",
+      "category": "pre_report",
+      "reason": "no periodic report filed yet (recent IPO or SPAC)"
+    },
+    {
+      "ticker": "STVN",
+      "name": "Stevanato Group S.p.A.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "NFRX",
+      "name": "2023 ETF Series Trust",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": null,
+      "name": "Calamos Aksia Alternative Credit & Income Fund",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "LBTY",
+      "name": "Liberty Global Ltd.",
+      "cik": "1570585",
+      "reason": "no share price for LBTY",
+      "transient": true
+    }
+  ]
+}
