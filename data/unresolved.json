@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:01:18+00:00",
+  "generated_at": "2026-11-12T11:30:43+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3024,11 +3024,11 @@
         ]
       },
       "first_seen": "2026-11-10T11:32:29+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-11",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$709.0M with $1,119.4M of unexplained_liabilities (up to $1,828.4M)",
-      "last_tried": "2026-11-11T17:58:59+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-12",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$711.6M with $1,119.4M of unexplained_liabilities (up to $1,831.0M)",
+      "last_tried": "2026-11-12T11:30:38+00:00"
     },
     {
       "url_date": "2026-11-11",
@@ -3089,8 +3089,11 @@
         ]
       },
       "first_seen": "2026-11-11T11:32:41+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-12",
+      "last_reason": "no share price for LBTY",
+      "last_tried": "2026-11-12T11:30:43+00:00"
     }
   ]
 }
