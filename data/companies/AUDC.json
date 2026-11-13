@@ -4,20 +4,62 @@
   "name": "AUDIOCODES LTD",
   "description": "AudioCodes Ltd. provides voice communications solutions for enterprises, contact centers, and service providers in the United States, Europe, Eastern Asia, and Israel. The company offers voice networking infrastructure and devices; cloud-based platforms and management solutions; and Voice AI applications. It also provides AudioCodes Live Platform, a cloud-based service delivery platform that enables the provisioning, management, and operation of voice connectivity and AI-based communication services across communications and contact center environments; Meeting Insights, an enterprise solution that enables users to record audio and video meeting generated content and creates meeting minutes for Microsoft Teams, Zoom, and Google Meet meetings; Interaction Insights that offers updates, architecture, and feature deployment per tenant; Voca CIC, an omnichannel contact center solution for Microsoft Teams with built-in conversational AI; and VoiceAI Connect and Live Hub. In addition, the company offers solutions for enterprise and services provider business; networking products, such as hardware and software platforms, media gateways, and multi-service business routers; IP phones and meeting room device solutions; RX suite; and professional services and managed service solutions. Further, it provides management and operational solutions comprising AudioCodes One Voice Operations Center, a management platform for voice network devices and services; AudioCodes Device Manager, a lifecycle management solution; and AudioCodes Routing Manager, a centralized call routing management solution for enterprise voice networks. It markets and sells its products through a direct sales force and sales representatives to original equipment manufacturers, network equipment providers, systems integrators, enterprises, carriers, and distributors in the telecommunications and networking industries. AudioCodes Ltd. was incorporated in 1992 and is headquartered in Or Yehuda, Israel.",
   "ownership": {
-    "inst_pct": 0.41439,
-    "insider_pct": 0.31971002,
-    "inst_count": 79,
+    "inst_pct": 0.39721,
+    "insider_pct": 0.31738,
+    "inst_count": 76,
     "analyst_count": 1,
     "rec_mean": 2.0,
     "rec_key": "buy",
     "target_mean": 12.5,
-    "short_pct_float": 0.0188,
-    "shares_short": 289943,
-    "short_days_to_cover": 2.37,
-    "short_as_of": "2026-10-15",
-    "as_of": "2026-11-10"
+    "short_pct_float": 0.02,
+    "shares_short": 307803,
+    "short_days_to_cover": 2.7,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-13"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-12",
+      "reporter_name": "ADLERSBERG SHABTAI",
+      "relationship": "Officer (President and CEO)",
+      "transaction_date": "2026-11-11",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 8.6673,
+      "total_value": 17334.6,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001976408-26-000938"
+    },
+    {
+      "date_filed": "2026-11-12",
+      "reporter_name": "ADLERSBERG SHABTAI",
+      "relationship": "Officer (President and CEO)",
+      "transaction_date": "2026-11-10",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 8.4644,
+      "total_value": 42322.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001976408-26-000938"
+    },
+    {
+      "date_filed": "2026-11-12",
+      "reporter_name": "ADLERSBERG SHABTAI",
+      "relationship": "Officer (President and CEO)",
+      "transaction_date": "2026-11-09",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 8.3752,
+      "total_value": 83752.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001976408-26-000938"
+    },
     {
       "date_filed": "2026-11-09",
       "reporter_name": "ADLERSBERG SHABTAI",
@@ -398,7 +440,7 @@
     }
   ],
   "valuation": {
-    "share_price": 8.244999885559082,
+    "share_price": 9.100000381469727,
     "shares_basic": 27089259,
     "shares_basic_as_of": "2025-12-31",
     "options": 228213,
@@ -407,8 +449,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 104083000.0,
-    "mc_basic": 223350937.35488033,
-    "ev_basic": 178068937.35488033
+    "mc_basic": 246512267.23373222,
+    "ev_basic": 201230267.23373222
   },
   "financials": {
     "income_statement": {
@@ -1498,5 +1540,5 @@
       }
     }
   },
-  "last_updated": "2026-11-10T18:05:47+00:00"
+  "last_updated": "2026-11-13T11:34:51+00:00"
 }

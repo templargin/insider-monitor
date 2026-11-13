@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:29:56+00:00",
+  "generated_at": "2026-11-13T11:33:51+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3089,11 +3089,197 @@
         ]
       },
       "first_seen": "2026-11-11T11:32:41+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-12",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-13",
       "last_reason": "no share price for LBTY",
-      "last_tried": "2026-11-12T18:29:56+00:00"
+      "last_tried": "2026-11-13T11:30:41+00:00"
+    },
+    {
+      "url_date": "2026-11-13",
+      "cik": "319655",
+      "ticker": "SJT",
+      "name": "SAN JUAN BASIN ROYALTY TRUST",
+      "reason": "no companyfacts for CIK 319655",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "SJT",
+        "name": "SAN JUAN BASIN ROYALTY TRUST",
+        "by_reporter": {
+          "1168602": {
+            "reporter_cik": "1168602",
+            "reporter_name": "OLIVER ERIC L",
+            "relationship": "10% Owner",
+            "total_value": 1404986.74,
+            "shares": 352364.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "OLIVER ERIC L",
+              "reporter_cik": "1168602",
+              "relationship": "10% Owner",
+              "issuer_cik": "319655",
+              "issuer_ticker": "SJT",
+              "issuer_name": "SAN JUAN BASIN ROYALTY TRUST"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-11-09",
+                "code": "P",
+                "shares": 92759.0,
+                "price": 3.56,
+                "total_value": 330222.04,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-11-10",
+                "code": "P",
+                "shares": 259605.0,
+                "price": 4.14,
+                "total_value": 1074764.7,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1404986.74
+          }
+        ]
+      },
+      "first_seen": "2026-11-13T11:33:51+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-11-13",
+      "cik": "910073",
+      "ticker": "NYSE:FLG",
+      "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+      "reason": "no share price for NYSE:FLG",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "NYSE:FLG",
+        "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+        "by_reporter": {
+          "1323101": {
+            "reporter_cik": "1323101",
+            "reporter_name": "Otting Joseph M",
+            "relationship": "Director, Officer (Exec Chairman and CEO)",
+            "total_value": 496428.76,
+            "shares": 47324.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Otting Joseph M",
+              "reporter_cik": "1323101",
+              "relationship": "Director, Officer (Exec Chairman and CEO)",
+              "issuer_cik": "910073",
+              "issuer_ticker": "NYSE:FLG",
+              "issuer_name": "FLAGSTAR BANK, NATIONAL ASSOCIATION"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-11-10",
+                "code": "P",
+                "shares": 47324.0,
+                "price": 10.49,
+                "total_value": 496428.76,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 496428.76
+          }
+        ]
+      },
+      "first_seen": "2026-11-13T11:33:51+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-11-13",
+      "cik": "800457",
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.0M with $1,119.4M of unexplained_liabilities (up to $1,831.4M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DGICA",
+        "name": "DONEGAL GROUP INC",
+        "by_reporter": {
+          "935596": {
+            "reporter_cik": "935596",
+            "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+            "relationship": "10% Owner",
+            "total_value": 424497.0,
+            "shares": 22500.0,
+            "txn_count": 3
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+              "reporter_cik": "935596",
+              "relationship": "10% Owner",
+              "issuer_cik": "800457",
+              "issuer_ticker": "DGICA",
+              "issuer_name": "DONEGAL GROUP INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-09",
+                "code": "P",
+                "shares": 7500.0,
+                "price": 18.8094,
+                "total_value": 141070.5,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-10",
+                "code": "P",
+                "shares": 7500.0,
+                "price": 18.9061,
+                "total_value": 141795.75,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-11",
+                "code": "P",
+                "shares": 7500.0,
+                "price": 18.8841,
+                "total_value": 141630.75,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 424497.0
+          }
+        ]
+      },
+      "first_seen": "2026-11-13T11:33:51+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }

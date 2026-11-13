@@ -4,20 +4,34 @@
   "name": "ADTRAN Holdings, Inc.",
   "description": "ADTRAN Holdings, Inc. provides networking and communications platforms, software, systems, and services in the United States, Germany, the United Kingdom, and internationally. It operates through two segments, Network Solutions, and Services & Support. It offers residential gateways; ethernet passive optical network ONUs; gigabit passive optical network/XGS-PON ONTs; routers, and switches; edge cloud; carrier ethernet network interface devices; Optical Line Terminals; Packet Aggregation, Copper Access, and Oscilloquartz; optical transport and engine solutions; infrastructure monitoring solution; and training, professional, software, and managed services. The company provides various software, such as Mosaic One SaaS, n-Command, Procloud, MCP, AOE, and ACI-E. It serves large, medium, and small service providers; alternative service providers, such as utilities, municipalities and fiber overbuilders; cable/MSOs; and SMBs and distributed enterprises. ADTRAN Holdings, Inc. was incorporated in 1985 and is headquartered in Huntsville, Alabama.",
   "ownership": {
-    "inst_pct": 1.10958,
-    "insider_pct": 0.02276,
-    "inst_count": 327,
+    "inst_pct": 1.0492901,
+    "insider_pct": 0.02696,
+    "inst_count": 322,
     "analyst_count": 7,
     "rec_mean": 1.77778,
     "rec_key": "buy",
     "target_mean": 9.53571,
-    "short_pct_float": 0.1758,
-    "shares_short": 12549794,
-    "short_days_to_cover": 7.32,
-    "short_as_of": "2026-10-15",
-    "as_of": "2026-11-10"
+    "short_pct_float": 0.1693,
+    "shares_short": 12085395,
+    "short_days_to_cover": 7.71,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-13"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-12",
+      "reporter_name": "STANTON THOMAS R",
+      "relationship": "Director, Officer (Chairman & CEO)",
+      "transaction_date": "2026-11-09",
+      "code": "P",
+      "shares": 40000.0,
+      "price": 4.298,
+      "total_value": 171920.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-458287"
+    },
     {
       "date_filed": "2026-11-09",
       "reporter_name": "Santo Timothy P",
@@ -1182,7 +1196,7 @@
     }
   ],
   "valuation": {
-    "share_price": 4.414999961853027,
+    "share_price": 4.860000133514404,
     "shares_basic": 81495825,
     "shares_basic_as_of": "2026-10-31",
     "options": 2012000,
@@ -1191,8 +1205,8 @@
     "debt": 360145000,
     "debt_flag": null,
     "ttm_revenue": 1139959000.0,
-    "mc_basic": 359804064.266181,
-    "ev_basic": 655322064.266181
+    "mc_basic": 396069720.3808665,
+    "ev_basic": 691587720.3808665
   },
   "financials": {
     "income_statement": {
@@ -2468,5 +2482,5 @@
       }
     }
   },
-  "last_updated": "2026-11-10T18:07:20+00:00"
+  "last_updated": "2026-11-13T11:35:39+00:00"
 }

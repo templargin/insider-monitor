@@ -4,20 +4,48 @@
   "name": "BREAD FINANCIAL HOLDINGS, INC.",
   "description": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships. The company also manages and services the loans it originates for private label, co-brand, and general-purpose credit card programs, and installment loans and split-pay products; and provides marketing, and data and analytics services. In addition, it offers an enhanced digital suite that includes a unified software development kit, which provides access to its suite of products, as well as promotes credit payment options earlier in the shopping experience. Further, the company through Bread Pay, a digital payments platform and robust suite of application programming interfaces allows merchants and partners to integrate online point-of-sale financing and other digital payment products. Additionally, it offers retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including traditional and Roth Individual Retirement Accounts. The company offers its products under the Bread, Bread Financial, Bread Cashback, Bread Rewards, Bread Pay, and Bread Savings brands. The company was formerly known as Alliance Data Systems Corporation and changed its name to Bread Financial Holdings, Inc. in March 2022. Bread Financial Holdings, Inc. was incorporated in 1995 and is headquartered in Columbus, Ohio.",
   "ownership": {
-    "inst_pct": 1.10871,
+    "inst_pct": 1.11694,
     "insider_pct": 0.01509,
-    "inst_count": 589,
+    "inst_count": 600,
     "analyst_count": 16,
     "rec_mean": 2.17647,
     "rec_key": "buy",
-    "target_mean": 114.8125,
-    "short_pct_float": 0.0016,
-    "shares_short": 42770,
-    "short_days_to_cover": 0.07,
-    "short_as_of": "2026-10-15",
-    "as_of": "2026-11-02"
+    "target_mean": 114.875,
+    "short_pct_float": 0.0008,
+    "shares_short": 20512,
+    "short_days_to_cover": 0.04,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-13"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-12",
+      "reporter_name": "Fawcett John J.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 22.56,
+      "total_value": 112800.0,
+      "security_title": "Preferred Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001614143-26-000008"
+    },
+    {
+      "date_filed": "2026-11-12",
+      "reporter_name": "Fawcett John J.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 22.64,
+      "total_value": 113200.0,
+      "security_title": "Preferred Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001614143-26-000008"
+    },
     {
       "date_filed": "2026-10-30",
       "reporter_name": "Fawcett John J.",
@@ -1434,7 +1462,7 @@
     }
   ],
   "valuation": {
-    "share_price": 107.73999786376953,
+    "share_price": 97.91000366210938,
     "shares_basic": 37961242,
     "shares_basic_as_of": "2026-10-21",
     "options": 0,
@@ -1443,8 +1471,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 5034000000.0,
-    "mc_basic": 4089944131.986038,
-    "ev_basic": 128944131.98603821
+    "mc_basic": 3716785343.23822,
+    "ev_basic": -244214656.7617798
   },
   "financials": {
     "income_statement": {
@@ -2445,5 +2473,5 @@
       }
     }
   },
-  "last_updated": "2026-11-02T20:29:27+00:00"
+  "last_updated": "2026-11-13T11:35:24+00:00"
 }
