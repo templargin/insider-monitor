@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:01:03+00:00",
+  "generated_at": "2026-11-16T11:33:15+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3154,8 +3154,11 @@
         ]
       },
       "first_seen": "2026-11-13T11:33:51+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-16",
+      "last_reason": "no companyfacts for CIK 319655",
+      "last_tried": "2026-11-16T11:30:43+00:00"
     },
     {
       "url_date": "2026-11-13",
@@ -3205,8 +3208,11 @@
         ]
       },
       "first_seen": "2026-11-13T11:33:51+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-16",
+      "last_reason": "no share price for NYSE:FLG",
+      "last_tried": "2026-11-16T11:30:48+00:00"
     },
     {
       "url_date": "2026-11-13",
@@ -3278,7 +3284,72 @@
         ]
       },
       "first_seen": "2026-11-13T11:33:51+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-16",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.7M with $1,119.4M of unexplained_liabilities (up to $1,835.1M)",
+      "last_tried": "2026-11-16T11:30:49+00:00"
+    },
+    {
+      "url_date": "2026-11-16",
+      "cik": "319655",
+      "ticker": "SJT",
+      "name": "SAN JUAN BASIN ROYALTY TRUST",
+      "reason": "no companyfacts for CIK 319655",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "SJT",
+        "name": "SAN JUAN BASIN ROYALTY TRUST",
+        "by_reporter": {
+          "1168602": {
+            "reporter_cik": "1168602",
+            "reporter_name": "OLIVER ERIC L",
+            "relationship": "10% Owner",
+            "total_value": 2012408.0299999998,
+            "shares": 455189.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "OLIVER ERIC L",
+              "reporter_cik": "1168602",
+              "relationship": "10% Owner",
+              "issuer_cik": "319655",
+              "issuer_ticker": "SJT",
+              "issuer_name": "SAN JUAN BASIN ROYALTY TRUST"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-11-11",
+                "code": "P",
+                "shares": 251227.0,
+                "price": 4.43,
+                "total_value": 1112935.6099999999,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-11-12",
+                "code": "P",
+                "shares": 203962.0,
+                "price": 4.41,
+                "total_value": 899472.42,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 2012408.0299999998
+          }
+        ]
+      },
+      "first_seen": "2026-11-16T11:33:15+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]

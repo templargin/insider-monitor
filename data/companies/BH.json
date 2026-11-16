@@ -3,7 +3,385 @@
   "cik": "1726173",
   "name": "Biglari Holdings Inc.",
   "description": "Biglari Holdings Inc., through its subsidiaries, primarily operates and franchises restaurants in the United States. The company owns, operates, and franchises restaurants under the Steak n Shake and Western Sizzlin names. It also engages in underwriting commercial truck insurance, including selling physical damage and non-trucking liability insurance to truckers; and property and casualty insurance and reinsurance. In addition, the company operates oil and natural gas properties offshore in Louisiana state waters and in the Permian Basin; and publishes, licenses, and sells magazines under the MAXIM brand names. Further, it involved investment activities. The company was formerly known as The Steak n Shake Company and changed its name to Biglari Holdings Inc. in April 2010. Biglari Holdings Inc. was founded in 1934 and is based in San Antonio, Texas.",
+  "ownership": {
+    "inst_pct": 0.94111,
+    "insider_pct": 0.00987,
+    "inst_count": 159,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0364,
+    "shares_short": 141737,
+    "short_days_to_cover": 1.63,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-16"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+      "transaction_date": "2026-11-12",
+      "code": "P",
+      "shares": 2012.0,
+      "price": 1767.99,
+      "total_value": 3557195.88,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-003050"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+      "transaction_date": "2026-11-12",
+      "code": "P",
+      "shares": 628.0,
+      "price": 354.95,
+      "total_value": 222908.6,
+      "security_title": "Class B common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-003050"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+      "transaction_date": "2026-11-11",
+      "code": "P",
+      "shares": 1017.0,
+      "price": 1727.65,
+      "total_value": 1757020.05,
+      "security_title": "Class A common stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-003050"
+    },
+    {
+      "date_filed": "2026-11-06",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-05",
+      "code": "S",
+      "shares": -5984.0,
+      "price": 16.5,
+      "total_value": -98736.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002954"
+    },
+    {
+      "date_filed": "2026-11-06",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-04",
+      "code": "S",
+      "shares": -13169.0,
+      "price": 16.5,
+      "total_value": -217288.5,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002954"
+    },
+    {
+      "date_filed": "2026-10-20",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-16",
+      "code": "S",
+      "shares": -25556.0,
+      "price": 16.5,
+      "total_value": -421674.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002832"
+    },
+    {
+      "date_filed": "2026-08-11",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-07",
+      "code": "S",
+      "shares": -550.0,
+      "price": 17.06,
+      "total_value": -9383.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002049"
+    },
+    {
+      "date_filed": "2026-08-11",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-07",
+      "code": "S",
+      "shares": -550.0,
+      "price": 17.06,
+      "total_value": -9383.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-002049"
+    },
+    {
+      "date_filed": "2026-08-05",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-05",
+      "code": "S",
+      "shares": -40000.0,
+      "price": 16.9,
+      "total_value": -676000.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001972"
+    },
+    {
+      "date_filed": "2026-08-05",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-05",
+      "code": "S",
+      "shares": -40000.0,
+      "price": 16.9,
+      "total_value": -676000.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001972"
+    },
+    {
+      "date_filed": "2026-08-05",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -10000.0,
+      "price": 16.73,
+      "total_value": -167300.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001972"
+    },
+    {
+      "date_filed": "2026-08-05",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -10000.0,
+      "price": 16.73,
+      "total_value": -167300.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001972"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-30",
+      "code": "S",
+      "shares": -273.0,
+      "price": 16.7,
+      "total_value": -4559.099999999999,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001917"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-30",
+      "code": "S",
+      "shares": -273.0,
+      "price": 16.7,
+      "total_value": -4559.099999999999,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001917"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-29",
+      "code": "S",
+      "shares": -3306.0,
+      "price": 16.71,
+      "total_value": -55243.26,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001917"
+    },
+    {
+      "date_filed": "2026-07-31",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-29",
+      "code": "S",
+      "shares": -3305.0,
+      "price": 16.71,
+      "total_value": -55226.55,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001917"
+    },
+    {
+      "date_filed": "2026-07-21",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-17",
+      "code": "S",
+      "shares": -11000.0,
+      "price": 16.71,
+      "total_value": -183810.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001848"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-16",
+      "code": "S",
+      "shares": -2749.0,
+      "price": 16.7,
+      "total_value": -45908.299999999996,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001825"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-15",
+      "code": "S",
+      "shares": -6533.0,
+      "price": 16.71,
+      "total_value": -109166.43000000001,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001825"
+    },
+    {
+      "date_filed": "2026-07-16",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-14",
+      "code": "S",
+      "shares": -1211.0,
+      "price": 16.73,
+      "total_value": -20260.03,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001825"
+    },
+    {
+      "date_filed": "2026-07-14",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-13",
+      "code": "S",
+      "shares": -75000.0,
+      "price": 16.74,
+      "total_value": -1255499.9999999998,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001804"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-02",
+      "code": "S",
+      "shares": -9525.0,
+      "price": 16.92,
+      "total_value": -161163.00000000003,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001763"
+    },
+    {
+      "date_filed": "2026-07-06",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-07-01",
+      "code": "S",
+      "shares": -132421.0,
+      "price": 17.27,
+      "total_value": -2286910.67,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001763"
+    },
+    {
+      "date_filed": "2026-06-30",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-30",
+      "code": "S",
+      "shares": -22600.0,
+      "price": 16.91,
+      "total_value": -382166.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001706"
+    },
+    {
+      "date_filed": "2026-06-30",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-29",
+      "code": "S",
+      "shares": -100000.0,
+      "price": 16.58,
+      "total_value": -1657999.9999999998,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001706"
+    },
+    {
+      "date_filed": "2026-06-30",
+      "reporter_name": "BIGLARI, SARDAR",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-06-26",
+      "code": "S",
+      "shares": -100000.0,
+      "price": 16.75,
+      "total_value": -1675000.0,
+      "security_title": "Common Stock, par value $0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000921895-26-001706"
+    },
     {
       "date_filed": "2026-06-05",
       "reporter_name": "BIGLARI, SARDAR",
@@ -717,202 +1095,20 @@
       "table": "nonDerivative",
       "ownership": "I",
       "accession": "0000921895-24-002776"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-      "transaction_date": "2024-11-14",
-      "code": "P",
-      "shares": 671.0,
-      "price": 1032.57,
-      "total_value": 692854.47,
-      "security_title": "Class A common stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-002747"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-      "transaction_date": "2024-11-14",
-      "code": "P",
-      "shares": 3992.0,
-      "price": 210.13,
-      "total_value": 838838.96,
-      "security_title": "Class B common stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-002747"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-      "transaction_date": "2024-11-13",
-      "code": "P",
-      "shares": 1630.0,
-      "price": 997.72,
-      "total_value": 1626283.6,
-      "security_title": "Class A common stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-002747"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-      "transaction_date": "2024-11-13",
-      "code": "P",
-      "shares": 6928.0,
-      "price": 199.0,
-      "total_value": 1378672.0,
-      "security_title": "Class B common stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-002747"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-      "transaction_date": "2024-11-12",
-      "code": "P",
-      "shares": 460.0,
-      "price": 897.76,
-      "total_value": 412969.6,
-      "security_title": "Class A common stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-002747"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
-      "transaction_date": "2024-11-12",
-      "code": "P",
-      "shares": 4534.0,
-      "price": 181.34,
-      "total_value": 822195.56,
-      "security_title": "Class B common stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-002747"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-22",
-      "code": "P",
-      "shares": 4516.0,
-      "price": 13.48,
-      "total_value": 60875.68,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-21",
-      "code": "P",
-      "shares": 43161.0,
-      "price": 13.59,
-      "total_value": 586557.99,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-20",
-      "code": "P",
-      "shares": 100000.0,
-      "price": 13.42,
-      "total_value": 1342000.0,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-19",
-      "code": "P",
-      "shares": 62329.0,
-      "price": 13.46,
-      "total_value": 838948.3400000001,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-16",
-      "code": "P",
-      "shares": 21325.0,
-      "price": 13.13,
-      "total_value": 279997.25,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-15",
-      "code": "P",
-      "shares": 50554.0,
-      "price": 13.0,
-      "total_value": 657202.0,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
-    },
-    {
-      "date_filed": "2024-08-27",
-      "reporter_name": "BIGLARI, SARDAR",
-      "relationship": "10% Owner",
-      "transaction_date": "2024-08-14",
-      "code": "P",
-      "shares": 62362.0,
-      "price": 12.47,
-      "total_value": 777654.14,
-      "security_title": "Common Stock, par value $0.01 per share",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0000921895-24-001961"
     }
   ],
   "valuation": {
-    "share_price": 305.2200012207031,
-    "shares_basic": 206864,
-    "shares_basic_as_of": "2020-11-03",
+    "share_price": 362.2699890136719,
+    "shares_basic": 2427407.0,
+    "shares_basic_as_of": "2026-11-05",
     "options": null,
     "warrants": null,
-    "cash": 200075000,
-    "debt": 246847000,
-    "ttm_revenue": 392873000,
-    "mc_basic": 63139030.33251953,
-    "ev_basic": 109911030.33251953,
-    "debt_flag": null
+    "cash": 213377000,
+    "debt": 222553000,
+    "debt_flag": null,
+    "ttm_revenue": 417944000.0,
+    "mc_basic": 879376707.2217102,
+    "ev_basic": 888552707.2217102
   },
   "financials": {
     "income_statement": {
@@ -942,47 +1138,47 @@
           "Net Margin %"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            112070000,
             108524000,
             97481000,
-            99869000,
-            99738000
+            99869000
           ],
           [
+            12.364394714151075,
             7.856369075423131,
             2.573788604198453,
-            9.607638698348241,
-            10.321103454378532
+            9.607638698348241
           ],
           [
+            41590000,
             41127000,
             37465000,
-            41686000,
-            41838000
+            41686000
           ],
           [
+            70480000,
             67397000,
             60016000,
-            58183000,
-            57900000
+            58183000
           ],
           [
+            21.727115716753023,
             11.25288874215913,
             4.782024198194738,
-            5.432635679985503,
-            6.83642402435649
+            5.432635679985503
           ],
           [
+            62.889265637547965,
             62.10331355276252,
             61.56686944122444,
-            58.25931970881855,
-            58.05209649281117
+            58.25931970881855
           ],
           [
             null,
@@ -991,16 +1187,16 @@
             null
           ],
           [
+            22948000,
             26230000,
             24872000,
-            22195000,
-            20423000
+            22195000
           ],
           [
+            60606000,
             61123000,
             64157000,
-            59922000,
-            51046000
+            59922000
           ],
           [
             null,
@@ -1009,34 +1205,34 @@
             null
           ],
           [
+            9874000,
             6274000,
             -4141000,
-            -1739000,
-            6854000
+            -1739000
           ],
           [
+            44.06186168660636,
             70.81404846174789,
             -141.43486091654992,
-            -144.63552361396304,
-            109.47432762836186
+            -144.63552361396304
           ],
           [
+            8.810564825555456,
             5.781209686336663,
             -4.2480073039874435,
-            -1.7412810782124584,
-            6.872004652188735
+            -1.7412810782124584
           ],
           [
+            20000000,
             16423000,
             6516000,
-            8966000,
-            16399000
+            8966000
           ],
           [
+            17.84598911394664,
             15.133058125391619,
             6.684379520111611,
-            8.977760866735423,
-            16.442078245001905
+            8.977760866735423
           ],
           [
             null,
@@ -1045,40 +1241,40 @@
             null
           ],
           [
+            5291000,
             5532000,
             5651000,
-            5640000,
-            829000
+            5640000
           ],
           [
+            -3181000,
             50877000,
             -9090000,
-            -56679000,
-            -13577000
+            -56679000
           ],
           [
+            1402000,
             51619000,
             -18882000,
-            -64058000,
-            -7552000
+            -64058000
           ],
           [
+            388000,
             11693000,
             -4351000,
-            -14205000,
-            -2261000
+            -14205000
           ],
           [
+            1014000,
             39926000,
             -14531000,
-            -49853000,
-            -5291000
+            -49853000
           ],
           [
+            0.9047916480770947,
             36.790018797685306,
             -14.906494598947488,
-            -49.91839309495439,
-            -5.304898834947562
+            -49.91839309495439
           ]
         ]
       },
@@ -1119,42 +1315,42 @@
         ],
         "data": [
           [
-            405612000,
+            417944000,
             395261000,
             362114000,
             365318000,
             368231000
           ],
           [
-            2.6187759480444566,
+            5.738739718818705,
             9.153747162495788,
             -0.8770441095155453,
             -0.7910795125885653,
             null
           ],
           [
-            162116000,
+            161868000,
             161321000,
             143449000,
             137986000,
             140264000
           ],
           [
-            243496000,
+            256076000,
             233940000,
             218665000,
             227332000,
             227967000
           ],
           [
-            4.084808070445414,
+            9.462255279131401,
             6.985571536368417,
             -3.8124857037284676,
             -0.27854908824522845,
             null
           ],
           [
-            60.03175448458133,
+            61.270409432842676,
             59.186208606465094,
             60.385679647845706,
             62.228524189883885,
@@ -1168,14 +1364,14 @@
             null
           ],
           [
-            93720000,
+            96245000,
             86838000,
             75671000,
             77002000,
             70608000
           ],
           [
-            236248000,
+            245808000,
             215158000,
             186096000,
             184136000,
@@ -1189,35 +1385,35 @@
             null
           ],
           [
-            7248000,
+            10268000,
             18782000,
             32569000,
             43196000,
             36319000
           ],
           [
-            -61.40986050473858,
+            -45.33063571504632,
             -42.331665080291074,
             -24.601814982868785,
             18.9349927035436,
             null
           ],
           [
-            1.7869293807875506,
+            2.45678846926861,
             4.751796913937879,
             8.994128920726622,
             11.824218899698344,
             9.863102237454207
           ],
           [
-            48304000,
+            51905000,
             59561000,
             72412000,
             82175000,
             72762000
           ],
           [
-            11.908917882113942,
+            12.419127921444021,
             15.068777339530083,
             19.997017513821614,
             22.494101029787746,
@@ -1231,49 +1427,49 @@
             null
           ],
           [
-            17652000,
+            22114000,
             8221000,
             771000,
             681000,
             399000
           ],
           [
-            -28469000,
+            -18073000,
             -58252000,
             -39952000,
             22332000,
             -78947000
           ],
           [
-            -38873000,
+            -29919000,
             -47691000,
             -8154000,
             64847000,
             -43027000
           ],
           [
-            -9124000,
+            -6475000,
             -10203000,
             -4395000,
             9308000,
             -10722000
           ],
           [
-            -29749000,
+            -23444000,
             -37488000,
             -3759000,
             55539000,
             -32305000
           ],
           [
-            -29749000,
+            -23444000,
             -37488000,
             -3759000,
             54948000,
             -32018000
           ],
           [
-            -7.334349082374288,
+            -5.609363933924162,
             -9.484366026498947,
             -1.0380708837548396,
             15.202919100619187,
@@ -1327,41 +1523,41 @@
           "Total Equity"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            213377000,
             68394000,
             200075000,
-            268782000,
-            272485000
+            268782000
           ],
           [
+            25691000,
             24994000,
             24942000,
-            23283000,
-            21239000
+            23283000
           ],
           [
+            4099000,
             3884000,
             3520000,
-            3769000,
-            3934000
+            3769000
           ],
           [
+            168342000,
             286650000,
             127673000,
-            82692000,
-            106487000
+            82692000
           ],
           [
+            411509000,
             383922000,
             356210000,
-            378526000,
-            404145000
+            378526000
           ],
           [
             null,
@@ -1370,46 +1566,46 @@
             null
           ],
           [
+            6572000,
             5800000,
             6093000,
-            6420000,
-            6625000
+            6420000
           ],
           [
+            43853000,
             43255000,
             42420000,
-            40052000,
-            39596000
+            40052000
           ],
           [
+            52547000,
             52550000,
             52555000,
-            52568000,
             52568000
           ],
           [
+            23423000,
             23464000,
             23525000,
-            23674000,
-            23671000
+            23674000
           ],
           [
+            166627000,
             178700000,
             165493000,
-            154275000,
-            179160000
+            154275000
           ],
           [
+            368575000,
             370893000,
             372001000,
-            369868000,
-            373733000
+            369868000
           ],
           [
+            1073106000,
             1058584000,
             1018297000,
-            1025383000,
-            1079498000
+            1025383000
           ],
           [
             null,
@@ -1418,58 +1614,58 @@
             null
           ],
           [
+            26966000,
             30364000,
             32030000,
-            34173000,
-            27811000
+            34173000
           ],
           [
+            5779000,
             28270000,
             28262000,
-            33070000,
-            20916000
+            33070000
           ],
           [
+            7707000,
             7049000,
             7441000,
-            8227000,
-            8449000
+            8227000
           ],
           [
+            80088000,
             91194000,
             76585000,
-            80525000,
-            85784000
+            80525000
           ],
           [
+            120540000,
             156877000,
             144318000,
-            155995000,
-            142960000
+            155995000
           ],
           [
+            209344000,
             210231000,
             211676000,
-            213920000,
-            214914000
+            213920000
           ],
           [
+            37595000,
             37194000,
             36059000,
-            33663000,
-            33158000
+            33663000
           ],
           [
+            110808000,
             110494000,
             107084000,
-            98376000,
-            108187000
+            98376000
           ],
           [
+            478287000,
             514796000,
             499137000,
-            501954000,
-            499219000
+            501954000
           ],
           [
             null,
@@ -1478,16 +1674,16 @@
             null
           ],
           [
+            616620000,
             615606000,
             575680000,
-            590211000,
-            640064000
+            590211000
           ],
           [
+            594819000,
             543788000,
             519160000,
-            523429000,
-            580279000
+            523429000
           ]
         ]
       },
@@ -1529,35 +1725,35 @@
         ],
         "data": [
           [
-            68394000,
+            213377000,
             268782000,
             30709000,
             28066000,
             37467000
           ],
           [
-            24994000,
+            25691000,
             23283000,
             25184000,
             22241000,
             29375000
           ],
           [
-            3884000,
+            4099000,
             3769000,
             4031000,
             2980000,
             3851000
           ],
           [
-            286650000,
+            168342000,
             82692000,
             110691000,
             99264000,
             79961000
           ],
           [
-            383922000,
+            411509000,
             378526000,
             170615000,
             152551000,
@@ -1571,49 +1767,49 @@
             null
           ],
           [
-            5800000,
+            6572000,
             6420000,
             2980000,
             3574000,
             4352000
           ],
           [
-            43255000,
+            43853000,
             40052000,
             34011000,
             32215000,
             34739000
           ],
           [
-            52550000,
+            52547000,
             52568000,
             52496000,
             53530000,
             53513000
           ],
           [
-            23464000,
+            23423000,
             23674000,
             22820000,
             23230000,
             23017000
           ],
           [
-            178700000,
+            166627000,
             154275000,
             201727000,
             199103000,
             155794000
           ],
           [
-            370893000,
+            368575000,
             369868000,
             381484000,
             385219000,
             406405000
           ],
           [
-            1058584000,
+            1073106000,
             1025383000,
             866133000,
             849422000,
@@ -1627,63 +1823,63 @@
             null
           ],
           [
-            30364000,
+            26966000,
             34173000,
             28542000,
             22448000,
             28431000
           ],
           [
-            28270000,
+            5779000,
             33070000,
             35000000,
             0,
             10000000
           ],
           [
-            7049000,
+            7707000,
             8227000,
             8535000,
             8771000,
             10583000
           ],
           [
-            91194000,
+            80088000,
             80525000,
             75239000,
             79881000,
             85883000
           ],
           [
-            156877000,
+            120540000,
             155995000,
             147316000,
             111100000,
             134897000
           ],
           [
-            210231000,
+            209344000,
             213920000,
             10000000,
             null,
             null
           ],
           [
-            37194000,
+            37595000,
             33663000,
             27606000,
             26337000,
             28847000
           ],
           [
-            110494000,
+            110808000,
             98376000,
             108250000,
             112655000,
             109162000
           ],
           [
-            514796000,
+            478287000,
             501954000,
             293172000,
             250092000,
@@ -1697,14 +1893,14 @@
             null
           ],
           [
-            615606000,
+            616620000,
             590211000,
             627699000,
             631458000,
             576510000
           ],
           [
-            543788000,
+            594819000,
             523429000,
             572961000,
             599330000,
@@ -1734,35 +1930,35 @@
           "Free Cash Flow"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            1014000,
             39926000,
             -14531000,
-            -49853000,
-            -5291000
+            -49853000
           ],
           [
+            10126000,
             10149000,
             10657000,
-            10705000,
-            9545000
+            10705000
           ],
           [
+            -7932000,
             -35127000,
             24206000,
-            56919000,
-            26992000
+            56919000
           ],
           [
+            3208000,
             14948000,
             20332000,
-            17771000,
-            31246000
+            17771000
           ],
           [
             null,
@@ -1771,22 +1967,22 @@
             null
           ],
           [
+            -6409000,
             -6665000,
             -6967000,
-            -11403000,
-            -8946000
+            -11403000
           ],
           [
+            121080000,
             -136558000,
             -88176000,
-            -17867000,
-            null
+            -17867000
           ],
           [
+            114671000,
             -143223000,
             -95143000,
-            -29270000,
-            -9039000
+            -29270000
           ],
           [
             null,
@@ -1795,22 +1991,22 @@
             null
           ],
           [
+            51617000,
             0,
             14920000,
-            null,
             null
           ],
           [
+            -25008000,
             -3341000,
             -8863000,
-            7811000,
-            217500000
+            7811000
           ],
           [
+            26609000,
             -3341000,
             6057000,
-            7811000,
-            217500000
+            7811000
           ],
           [
             null,
@@ -1819,10 +2015,10 @@
             null
           ],
           [
+            9000,
             -65000,
             47000,
-            -15000,
-            12000
+            -15000
           ],
           [
             null,
@@ -1831,10 +2027,10 @@
             null
           ],
           [
+            -3201000,
             8283000,
             13365000,
-            6368000,
-            22300000
+            6368000
           ]
         ]
       },
@@ -1867,28 +2063,28 @@
         ],
         "data": [
           [
-            -29749000,
+            -23444000,
             -37488000,
             -3759000,
             55539000,
             -32305000
           ],
           [
-            41056000,
+            41637000,
             40779000,
             39843000,
             38979000,
             36443000
           ],
           [
-            72990000,
+            38066000,
             103668000,
             13576000,
             -21516000,
             123687000
           ],
           [
-            84297000,
+            56259000,
             106959000,
             49660000,
             73002000,
@@ -1902,7 +2098,7 @@
             null
           ],
           [
-            -33981000,
+            -31444000,
             -30353000,
             -30594000,
             -23405000,
@@ -1916,14 +2112,14 @@
             -58274000
           ],
           [
-            -242694000,
+            -121521000,
             -35117000,
             -56794000,
             -42675000,
             -48585000
           ],
           [
-            -276675000,
+            -152965000,
             -65470000,
             -87388000,
             -66080000,
@@ -1944,14 +2140,14 @@
             0
           ],
           [
-            228027000,
+            37136000,
             196533000,
             39484000,
             -16132000,
             3860000
           ],
           [
-            228027000,
+            37136000,
             196533000,
             39484000,
             -16132000,
@@ -1965,7 +2161,7 @@
             null
           ],
           [
-            -21000,
+            -24000,
             39000,
             22000,
             59000,
@@ -1979,7 +2175,7 @@
             null
           ],
           [
-            50316000,
+            24815000,
             76606000,
             19066000,
             49597000,
@@ -2001,59 +2197,59 @@
           "ROA %"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            3.4138792102206734,
             2.447280353397885,
             2.468229881234496,
-            2.4265264912336932,
-            2.8269795747062116
+            2.4265264912336932
           ],
           [
+            3.379873900779824,
             2.422522103303862,
             2.4438392993251017,
-            2.402365460431424,
-            2.7994613878007835
+            2.402365460431424
           ],
           [
+            0.3616612784729472,
             0.4385918777170515,
             0.46216580630248866,
-            0.4718691551289669,
-            0.40640795203686503
+            0.4718691551289669
           ],
           [
+            17.84598911394664,
             15.133058125391619,
             6.684379520111611,
-            8.977760866735423,
-            16.442078245001905
+            8.977760866735423
           ],
           [
+            290969000,
             227045000,
             211892000,
-            222531000,
-            261185000
+            222531000
           ],
           [
+            1746000,
             170107000,
             39863000,
-            -21792000,
-            -36655000
+            -21792000
           ],
           [
+            0.17047202594402666,
             7.342199533641787,
             -2.798944448724863,
-            -9.524309887300856,
-            -0.9118027707361459
+            -9.524309887300856
           ],
           [
+            0.09449206322581366,
             3.7716421181502837,
             -1.4269903574301015,
-            -4.861890630135276,
-            -0.49013522952335253
+            -4.861890630135276
           ]
         ]
       },
@@ -2077,56 +2273,56 @@
         ],
         "data": [
           [
-            2.447280353397885,
+            3.4138792102206734,
             2.4265264912336932,
             1.1581566157104455,
             1.3730963096309632,
             1.1168076384204244
           ],
           [
-            2.422522103303862,
+            3.379873900779824,
             2.402365460431424,
             1.1307936680333432,
             1.3462736273627363,
             1.0882599316515564
           ],
           [
-            0.4385918777170515,
+            0.3616612784729472,
             0.4718691551289669,
             0.07853937702566144,
             null,
             null
           ],
           [
-            11.908917882113942,
+            12.419127921444021,
             15.068777339530083,
             19.997017513821614,
             22.494101029787746,
             19.759878989004186
           ],
           [
-            227045000,
+            290969000,
             222531000,
             23299000,
             41451000,
             15757000
           ],
           [
-            170107000,
+            1746000,
             -21792000,
             14291000,
             null,
             null
           ],
           [
-            -5.470698139716213,
+            -3.9413670377039067,
             -7.162002869539135,
             -0.6560655960876919,
             9.266847980244606,
             -5.814769749157619
           ],
           [
-            -2.810263521836718,
+            -2.1846863217613173,
             -3.6559997581391537,
             -0.4339980118526831,
             6.538446143377497,
@@ -2136,24 +2332,5 @@
       }
     }
   },
-  "last_updated": "2026-06-08T14:41:24+00:00",
-  "ownership": {
-    "inst_pct": 0.98835,
-    "insider_pct": 0.0043200003,
-    "inst_count": 163,
-    "analyst_count": null,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": null,
-    "short_pct_float": null,
-    "shares_short": 138131,
-    "short_days_to_cover": 2.18,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": null,
-    "reason": "share count for BH predates its balance sheet (2020-11-03 < 2026-03-31)",
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-11-16T11:34:52+00:00"
 }

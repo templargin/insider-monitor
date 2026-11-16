@@ -1,0 +1,106 @@
+{
+  "url_date": "2026-11-16",
+  "weekday": "Monday",
+  "filing_dates": [
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15"
+  ],
+  "generated_at": "2026-11-16T11:33:15+00:00",
+  "tickers": [
+    {
+      "ticker": "BH",
+      "name": "Biglari Holdings Inc.",
+      "total_value": 5537124.529999999,
+      "ev_basic": 888552707.2217102,
+      "mc_basic": 879376707.2217102,
+      "insiders": [
+        {
+          "reporter_name": "BIGLARI, SARDAR",
+          "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+          "total_value": 5537124.529999999,
+          "shares": 3657.0,
+          "txn_count": 3
+        }
+      ]
+    },
+    {
+      "ticker": "NXGL",
+      "name": "NEXGEL, INC.",
+      "total_value": 732688.0,
+      "ev_basic": 7500114.621353149,
+      "mc_basic": 2080114.6213531494,
+      "insiders": [
+        {
+          "reporter_name": "Kieser Brian Joseph",
+          "relationship": "Director, Officer (Interim CEO), 10% Owner",
+          "total_value": 732688.0,
+          "shares": 133216.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "INDI",
+      "name": "indie Semiconductor, Inc.",
+      "total_value": 299000.0,
+      "ev_basic": 801423678.7357631,
+      "mc_basic": 505674678.7357631,
+      "insiders": [
+        {
+          "reporter_name": "ALDRICH DAVID J",
+          "relationship": "Director",
+          "total_value": 299000.0,
+          "shares": 130000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "FF",
+      "name": "FutureFuel Corp.",
+      "total_value": 249266.4,
+      "ev_basic": 105872626.38313198,
+      "mc_basic": 127203626.38313198,
+      "insiders": [
+        {
+          "reporter_name": "Polet Roeland",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 136066.4,
+          "shares": 48080.0,
+          "txn_count": 1
+        },
+        {
+          "reporter_name": "Bedell Donald C.",
+          "relationship": "Director",
+          "total_value": 113200.0,
+          "shares": 40000.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": null,
+      "name": "Audax Private Credit Fund, LLC",
+      "category": "not_listed",
+      "reason": "no trading symbol \u2014 private or non-traded issuer"
+    },
+    {
+      "ticker": "ECX",
+      "name": "ECARX Holdings Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "SJT",
+      "name": "SAN JUAN BASIN ROYALTY TRUST",
+      "cik": "319655",
+      "reason": "no companyfacts for CIK 319655",
+      "transient": false
+    }
+  ]
+}
