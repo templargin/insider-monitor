@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:33:03+00:00",
+  "generated_at": "2026-11-17T19:19:15+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3353,14 +3353,14 @@
       "abandoned": false,
       "last_tried_date": "2026-11-17",
       "last_reason": "no companyfacts for CIK 319655",
-      "last_tried": "2026-11-17T11:30:40+00:00"
+      "last_tried": "2026-11-17T19:16:41+00:00"
     },
     {
       "url_date": "2026-11-17",
       "cik": "800457",
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$720.2M with $1,119.4M of unexplained_liabilities (up to $1,839.6M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.7M with $1,119.4M of unexplained_liabilities (up to $1,835.1M)",
       "transient": false,
       "bucket_data": {
         "ticker": "DGICA",
@@ -3414,7 +3414,7 @@
         ]
       },
       "first_seen": "2026-11-17T11:33:03+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -3422,7 +3422,7 @@
       "cik": "2124472",
       "ticker": "OIG",
       "name": "Orion180 Insurance Group Inc.",
-      "reason": "cannot confirm EV < $1,000M for OIG: EV=$712.1M with $357.8M of unexplained_liabilities (up to $1,069.9M)",
+      "reason": "cannot confirm EV < $1,000M for OIG: EV=$690.0M with $357.8M of unexplained_liabilities (up to $1,047.9M)",
       "transient": false,
       "bucket_data": {
         "ticker": "OIG",
@@ -3465,7 +3465,7 @@
         ]
       },
       "first_seen": "2026-11-17T11:33:03+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
