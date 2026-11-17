@@ -4,9 +4,9 @@
   "name": "FutureFuel Corp.",
   "description": "FutureFuel Corp., together with its subsidiaries, manufactures and sells diversified inorganic chemicals, bio-based fuel, and bio-based specialty chemical products in the United States. It operates through two segments: Chemicals and Biofuels. The Chemicals segment includes custom chemicals that are used in coatings, chemical intermediates, industrial and consumer cleaning, oil and gas, and specialty chemicals for specific customers under long-term contracts; and performance chemicals, which are multi-customer specialty products such as polymer modifiers, specialty solvents, surfactants, and glycerin products. The Biofuels segment is involved in the production and sale of biodiesel and petrodiesel blends; markets its biodiesel products directly to customers through trucks, barges, and rail cars; and biodiesel using a variety of feedstocks, including soy oil, poultry fat, used cooking oil, and tallow, and generates and sells byproducts such as glycerin and distillation residue. The company offers its chemical products to customers in markets including detergents, agrochemicals, automotive, oil and gas, coatings, nutrition, and polymer additives. The company serves the transportation, agriculture, heating, and energy sectors. FutureFuel Corp. is headquartered in Batesville, Arkansas.",
   "ownership": {
-    "inst_pct": 0.40682,
-    "insider_pct": 0.41116002,
-    "inst_count": 157,
+    "inst_pct": 0.42423,
+    "insider_pct": 0.40948,
+    "inst_count": 164,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
@@ -15,9 +15,23 @@
     "shares_short": 1764894,
     "short_days_to_cover": 4.35,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-16"
+    "as_of": "2026-11-17"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-16",
+      "reporter_name": "KRUSZEWSKI RONALD J",
+      "relationship": "Director",
+      "transaction_date": "2026-11-12",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 2.84,
+      "total_value": 284000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001437749-26-037160"
+    },
     {
       "date_filed": "2026-11-13",
       "reporter_name": "Bedell Donald C.",
@@ -538,7 +552,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.1050000190734863,
+    "share_price": 3.0999999046325684,
     "shares_basic": 43863318,
     "shares_basic_as_of": "2026-11-09",
     "options": 50000,
@@ -547,8 +561,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 235195000.0,
-    "mc_basic": 136195603.2266264,
-    "ev_basic": 114864603.2266264
+    "mc_basic": 135976281.61686802,
+    "ev_basic": 114645281.61686802
   },
   "financials": {
     "income_statement": {
@@ -1719,5 +1733,5 @@
       }
     }
   },
-  "last_updated": "2026-11-16T20:42:18+00:00"
+  "last_updated": "2026-11-17T11:33:29+00:00"
 }

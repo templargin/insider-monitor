@@ -1,0 +1,755 @@
+{
+  "ticker": "SPCB",
+  "cik": "1291855",
+  "name": "SuperCom Ltd",
+  "description": "SuperCom Ltd. provides traditional and digital identity, Internet of Things (IoT) and connectivity, and cyber security products and solutions in Africa, Europe, South and center America, the United States, Israel, and Asia Pacific. The company operates in three segments: e-Gov, IoT and Connectivity, and Cyber Security. It offers national ID registries, e-passports, biometric visas, automated fingerprint identification systems, digitized driver's licenses, and electronic voter registration and election management using MAGNA platform. The company also provides PureRF suite, a solution based on RFID tag technology to identify, locate, track, monitor, count, and protect people and objects. Its PureRF suite includes PureRF Tags, Hands-Free Long-Range RFID Asset and Vehicle Tags, PureRF Readers, PureRF Activators, PureRF Initializer, House Arrest Monitoring System, PureTag RF Bracelet, PureCom RF Base Station, GPS Offender Tracking System, PureTrack, PureBeacon, PureMonitor Offender Electronic Monitoring Software, Inmate Monitoring System, DoorGuard, and Personnel Tag, as well as domestic violence victim protection systems and PureProtect smartphone app. In addition, it provides connectivity products and solutions comprising AVIDITY WBSac, BOLSTER WBSn, and BreezeNET B; and cyber security strategic business unit products and solutions, including Safend Encryptor, Safend Protector, Safend Inspector, and Safend Discoverer; and connectivity products, such as solutions for carrier Wi-Fi, enterprise connectivity, smart city, smart hospitality, connected campuses, and connected events. It sells its systems and products through local representatives, subsidiaries, and distribution channels, as well as independent representatives, resellers, and distributors. The company was formerly known as Vuance Ltd. and changed its name to SuperCom Ltd. in January 2013. SuperCom Ltd. was incorporated in 1988 and is based in Tel Aviv-Yafo, Israel.",
+  "ownership": {
+    "inst_pct": 0.25186002,
+    "insider_pct": 0.08876,
+    "inst_count": 36,
+    "analyst_count": 2,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 17.0,
+    "short_pct_float": 0.0217,
+    "shares_short": 135936,
+    "short_days_to_cover": 2.66,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-17"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-16",
+      "reporter_name": "Trabelsi Arie",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 200.0,
+      "price": 7.11,
+      "total_value": 1422.0,
+      "security_title": "Ordinary Shares, par value NIS 0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001178913-26-005240"
+    },
+    {
+      "date_filed": "2026-11-16",
+      "reporter_name": "Trabelsi Arie",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 19400.0,
+      "price": 6.47,
+      "total_value": 125518.0,
+      "security_title": "Ordinary Shares, par value NIS 0.01 per share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001178913-26-005240"
+    }
+  ],
+  "valuation": {
+    "share_price": 6.989999771118164,
+    "shares_basic": 5369367,
+    "shares_basic_as_of": "2025-12-31",
+    "options": 31755,
+    "warrants": null,
+    "cash": 9829000,
+    "debt": 18713000,
+    "debt_flag": null,
+    "ttm_revenue": 27896000.0,
+    "mc_basic": 37531874.10104942,
+    "ev_basic": 46415874.10104942
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            27896000,
+            27635000,
+            26570000,
+            17649000
+          ],
+          [
+            0.9444544961100054,
+            4.008280015054573,
+            50.54677318828262,
+            null
+          ],
+          [
+            12503000,
+            14251000,
+            16347000,
+            11261000
+          ],
+          [
+            15393000,
+            13384000,
+            10223000,
+            6388000
+          ],
+          [
+            15.010460251046025,
+            30.92047344223809,
+            60.03443957420163,
+            null
+          ],
+          [
+            55.17995411528535,
+            48.43133707255292,
+            38.47572450131727,
+            36.19468525128902
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            9111000,
+            8745000,
+            7660000,
+            7843000
+          ],
+          [
+            3934000,
+            3417000,
+            3110000,
+            3412000
+          ],
+          [
+            15715000,
+            14161000,
+            13582000,
+            12393000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -322000,
+            -777000,
+            -3359000,
+            -6005000
+          ],
+          [
+            58.55855855855856,
+            76.86811551056863,
+            44.063280599500416,
+            null
+          ],
+          [
+            -1.1542873530255233,
+            -2.811651890718292,
+            -12.642077531050056,
+            -34.024590628364216
+          ],
+          [
+            3504000,
+            2609000,
+            -379000,
+            -3314000
+          ],
+          [
+            12.560940636650416,
+            9.4409263614981,
+            -1.4264207753105005,
+            -18.77726783387161
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2060000,
+            1020000,
+            -663000,
+            -1751000
+          ],
+          [
+            1738000,
+            243000,
+            -4022000,
+            -7756000
+          ],
+          [
+            -2010000,
+            -418000,
+            0,
+            -299000
+          ],
+          [
+            3748000,
+            661000,
+            -4022000,
+            -7457000
+          ],
+          [
+            13.435618009750502,
+            2.391894336891623,
+            -15.137372977041776,
+            -42.25168564791206
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0.75,
+            0.38,
+            -12,
+            -40
+          ],
+          [
+            0.82,
+            0.38,
+            -12,
+            -40
+          ],
+          [
+            4964565,
+            1730461,
+            338102,
+            184561
+          ],
+          [
+            4552882,
+            1730461,
+            338102,
+            184561
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [],
+        "periods": [],
+        "data": []
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            9829000,
+            3150000,
+            5206000,
+            4042000
+          ],
+          [
+            2366000,
+            0,
+            null,
+            null
+          ],
+          [
+            15045000,
+            12767000,
+            13357000,
+            10852000
+          ],
+          [
+            2209000,
+            2521000,
+            2503000,
+            3411000
+          ],
+          [
+            7906000,
+            7732000,
+            7396000,
+            7985000
+          ],
+          [
+            37355000,
+            26170000,
+            28462000,
+            26290000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3023000,
+            3261000,
+            2701000,
+            1640000
+          ],
+          [
+            1489000,
+            605000,
+            487000,
+            484000
+          ],
+          [
+            7026000,
+            7026000,
+            7026000,
+            7026000
+          ],
+          [
+            5791000,
+            5638000,
+            5576000,
+            5617000
+          ],
+          [
+            13695000,
+            3224000,
+            501000,
+            983000
+          ],
+          [
+            68379000,
+            45924000,
+            44753000,
+            42040000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            425000,
+            445000,
+            null,
+            null
+          ],
+          [
+            4265000,
+            3302000,
+            5402000,
+            5239000
+          ],
+          [
+            4690000,
+            3747000,
+            5402000,
+            5239000
+          ],
+          [
+            18713000,
+            29748000,
+            33952000,
+            32600000
+          ],
+          [
+            1082000,
+            118000,
+            108000,
+            108000
+          ],
+          [
+            null,
+            614000,
+            null,
+            962000
+          ],
+          [
+            24867000,
+            34227000,
+            39937000,
+            38909000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -102539000,
+            -106287000,
+            -106948000,
+            -102926000
+          ],
+          [
+            43512000,
+            11697000,
+            4816000,
+            3131000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "6M 6/30/25",
+          "6M 6/30/24",
+          "6M 6/30/23",
+          "6M 6/30/22"
+        ],
+        "data": [
+          [
+            5320000,
+            2963000,
+            -2590000,
+            -5159000
+          ],
+          [
+            1726000,
+            1477000,
+            1306000,
+            1289000
+          ],
+          [
+            223000,
+            0,
+            null,
+            0
+          ],
+          [
+            -9445000,
+            -5390000,
+            -2125000,
+            -264000
+          ],
+          [
+            -2176000,
+            -950000,
+            -3409000,
+            -4134000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1420000,
+            -611000,
+            -1041000,
+            -276000
+          ],
+          [
+            -941000,
+            -574000,
+            -709000,
+            -543000
+          ],
+          [
+            -2361000,
+            -1185000,
+            -1750000,
+            -819000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            16420000,
+            2753000,
+            2201000,
+            4281000
+          ],
+          [
+            16420000,
+            2653000,
+            2175000,
+            4270000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3596000,
+            -1561000,
+            -4450000,
+            -4410000
+          ]
+        ],
+        "basis": "ytd"
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            3748000,
+            661000,
+            -4022000,
+            -7457000
+          ],
+          [
+            3826000,
+            3386000,
+            2980000,
+            2691000
+          ],
+          [
+            854000,
+            402000,
+            243000,
+            138000
+          ],
+          [
+            -13918000,
+            -5743000,
+            -1568000,
+            -26000
+          ],
+          [
+            -5490000,
+            -1294000,
+            -2367000,
+            -4654000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -880000,
+            -1598000,
+            -1714000,
+            -524000
+          ],
+          [
+            -4562000,
+            -1751000,
+            -1652000,
+            -1665000
+          ],
+          [
+            -5442000,
+            -3349000,
+            -3366000,
+            -2189000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            17280000,
+            2604000,
+            6805000,
+            6744000
+          ],
+          [
+            17280000,
+            2604000,
+            6805000,
+            6744000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -6370000,
+            -2892000,
+            -4081000,
+            -5178000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": null,
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            7.964818763326226,
+            6.984254069922605,
+            5.268789337282488,
+            5.018133231532735
+          ],
+          [
+            7.493816631130064,
+            6.311449159327462,
+            4.8054424287301,
+            4.367054781446841
+          ],
+          [
+            0.43006526935098366,
+            2.5432162092844317,
+            7.04983388704319,
+            10.412008942829766
+          ],
+          [
+            12.560940636650416,
+            9.4409263614981,
+            -1.4264207753105005,
+            -18.77726783387161
+          ],
+          [
+            32665000,
+            22423000,
+            23060000,
+            21051000
+          ],
+          [
+            8884000,
+            26598000,
+            28746000,
+            28558000
+          ],
+          [
+            8.6137157565729,
+            5.651021629477643,
+            -83.51328903654485,
+            -238.16671989779624
+          ],
+          [
+            5.481214992907179,
+            1.4393345527393084,
+            -8.98710700958595,
+            -17.737868696479545
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-17T11:34:03+00:00"
+}

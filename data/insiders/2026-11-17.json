@@ -1,0 +1,252 @@
+{
+  "url_date": "2026-11-17",
+  "weekday": "Tuesday",
+  "filing_dates": [
+    "2026-11-16"
+  ],
+  "generated_at": "2026-11-17T11:33:03+00:00",
+  "tickers": [
+    {
+      "ticker": "KURA",
+      "name": "Kura Oncology, Inc.",
+      "total_value": 1504765.01,
+      "ev_basic": 603315954.4795761,
+      "mc_basic": 651419954.4795761,
+      "insiders": [
+        {
+          "reporter_name": "WILSON TROY EDWARD",
+          "relationship": "Director, Officer (President and CEO)",
+          "total_value": 1504765.01,
+          "shares": 200000.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "MPB",
+      "name": "MID PENN BANCORP INC",
+      "total_value": 667244.2,
+      "ev_basic": 916347387.6788788,
+      "mc_basic": 886499387.6788788,
+      "insiders": [
+        {
+          "reporter_name": "NORCROSS PHILIP A",
+          "relationship": "10% Owner",
+          "total_value": 667244.2,
+          "shares": 19128.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "CRMD",
+      "name": "CorMedix Inc.",
+      "total_value": 391200.0,
+      "ev_basic": 28221370.9735384,
+      "mc_basic": 383371370.9735384,
+      "insiders": [
+        {
+          "reporter_name": "Todisco Joseph",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 391200.0,
+          "shares": 80000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "FF",
+      "name": "FutureFuel Corp.",
+      "total_value": 284000.0,
+      "ev_basic": 114645281.61686802,
+      "mc_basic": 135976281.61686802,
+      "insiders": [
+        {
+          "reporter_name": "KRUSZEWSKI RONALD J",
+          "relationship": "Director",
+          "total_value": 284000.0,
+          "shares": 100000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "LEE",
+      "name": "LEE ENTERPRISES, Inc",
+      "total_value": 245810.69,
+      "ev_basic": 555566797.635561,
+      "mc_basic": 160279797.635561,
+      "insiders": [
+        {
+          "reporter_name": "Hoffmann David Henry",
+          "relationship": "Director, 10% Owner",
+          "total_value": 245810.69,
+          "shares": 34179.0,
+          "txn_count": 5
+        }
+      ]
+    },
+    {
+      "ticker": "MX",
+      "name": "MAGNACHIP SEMICONDUCTOR Corp",
+      "total_value": 218483.0,
+      "ev_basic": 49517755.59404111,
+      "mc_basic": 89039755.59404111,
+      "insiders": [
+        {
+          "reporter_name": "LEE CHAE",
+          "relationship": "Director, Officer (Chief Executive Officer)",
+          "total_value": 218483.0,
+          "shares": 90000.0,
+          "txn_count": 6
+        }
+      ]
+    },
+    {
+      "ticker": "BGDE",
+      "name": "Big Digital Energy, Inc.",
+      "total_value": 182058.0,
+      "ev_basic": 42832348.6297493,
+      "mc_basic": 17139376.629749298,
+      "insiders": [
+        {
+          "reporter_name": "Endeavor Blockchain, LLC",
+          "relationship": "10% Owner, Other (SEE REMARKS)",
+          "total_value": 182058.0,
+          "shares": 62100.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "SENS",
+      "name": "Senseonics Holdings, Inc.",
+      "total_value": 175860.18602400002,
+      "ev_basic": 603552516.3028946,
+      "mc_basic": 597107516.3028946,
+      "insiders": [
+        {
+          "reporter_name": "ROEDER DOUGLAS A",
+          "relationship": "Director",
+          "total_value": 175860.18602400002,
+          "shares": 17040.7157,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "SPCB",
+      "name": "SuperCom Ltd",
+      "total_value": 126940.0,
+      "ev_basic": 46415874.10104942,
+      "mc_basic": 37531874.10104942,
+      "insiders": [
+        {
+          "reporter_name": "Trabelsi Arie",
+          "relationship": "Director",
+          "total_value": 126940.0,
+          "shares": 19600.0,
+          "txn_count": 2
+        }
+      ]
+    },
+    {
+      "ticker": "TLSI",
+      "name": "TriSalus Life Sciences, Inc.",
+      "total_value": 112000.00000000001,
+      "ev_basic": 131366806.00318432,
+      "mc_basic": 140056806.00318432,
+      "insiders": [
+        {
+          "reporter_name": "Wahlstrom Mats",
+          "relationship": "Director",
+          "total_value": 112000.00000000001,
+          "shares": 50000.0,
+          "txn_count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "PED",
+      "name": "PEDEVCO CORP",
+      "total_value": 107942.432,
+      "ev_basic": 219176372.88022232,
+      "mc_basic": 142924372.88022232,
+      "insiders": [
+        {
+          "reporter_name": "KUKES SIMON G",
+          "relationship": "10% Owner",
+          "total_value": 107942.432,
+          "shares": 8138.0,
+          "txn_count": 1
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "EMO",
+      "name": "ClearBridge Energy Midstream Opportunity Fund Inc.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "PCQ",
+      "name": "PIMCO CALIFORNIA MUNICIPAL INCOME FUND",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energy Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "DSM",
+      "name": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "LEO",
+      "name": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "MXF",
+      "name": "MEXICO FUND INC",
+      "category": "fund",
+      "reason": "registered fund / non-traded vehicle \u2014 files no XBRL financial statements"
+    },
+    {
+      "ticker": "LEGN",
+      "name": "Legend Biotech Corp",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    },
+    {
+      "ticker": "ECX",
+      "name": "ECARX Holdings Inc.",
+      "category": "foreign",
+      "reason": "foreign private issuer (20-F/IFRS) \u2014 no us-gaap statements to screen"
+    }
+  ],
+  "unresolved": [
+    {
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "cik": "800457",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$720.2M with $1,119.4M of unexplained_liabilities (up to $1,839.6M)",
+      "transient": false
+    },
+    {
+      "ticker": "OIG",
+      "name": "Orion180 Insurance Group Inc.",
+      "cik": "2124472",
+      "reason": "cannot confirm EV < $1,000M for OIG: EV=$712.1M with $357.8M of unexplained_liabilities (up to $1,069.9M)",
+      "transient": false
+    }
+  ]
+}
