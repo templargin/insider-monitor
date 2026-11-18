@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:19:15+00:00",
+  "generated_at": "2026-11-18T11:34:22+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3349,11 +3349,11 @@
         ]
       },
       "first_seen": "2026-11-16T11:33:15+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-17",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-18",
       "last_reason": "no companyfacts for CIK 319655",
-      "last_tried": "2026-11-17T19:16:41+00:00"
+      "last_tried": "2026-11-18T11:30:34+00:00"
     },
     {
       "url_date": "2026-11-17",
@@ -3414,8 +3414,11 @@
         ]
       },
       "first_seen": "2026-11-17T11:33:03+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-18",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.3M with $1,119.4M of unexplained_liabilities (up to $1,831.8M)",
+      "last_tried": "2026-11-18T11:30:36+00:00"
     },
     {
       "url_date": "2026-11-17",
@@ -3465,7 +3468,61 @@
         ]
       },
       "first_seen": "2026-11-17T11:33:03+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-18",
+      "last_reason": "cannot confirm EV < $1,000M for OIG: EV=$686.9M with $357.8M of unexplained_liabilities (up to $1,044.7M)",
+      "last_tried": "2026-11-18T11:30:36+00:00"
+    },
+    {
+      "url_date": "2026-11-18",
+      "cik": "788965",
+      "ticker": "HRNG",
+      "name": "HALLADOR ENERGY CO",
+      "reason": "no share price for HRNG",
+      "transient": true,
+      "bucket_data": {
+        "ticker": "HRNG",
+        "name": "HALLADOR ENERGY CO",
+        "by_reporter": {
+          "1750200": {
+            "reporter_cik": "1750200",
+            "reporter_name": "Wesley Charles Ray IV",
+            "relationship": "Director",
+            "total_value": 1069710.0,
+            "shares": 100000.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "Wesley Charles Ray IV",
+              "reporter_cik": "1750200",
+              "relationship": "Director",
+              "issuer_cik": "788965",
+              "issuer_ticker": "HRNG",
+              "issuer_name": "HALLADOR ENERGY CO"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-11-13",
+                "code": "P",
+                "shares": 100000.0,
+                "price": 10.6971,
+                "total_value": 1069710.0,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 1069710.0
+          }
+        ]
+      },
+      "first_seen": "2026-11-18T11:34:22+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]

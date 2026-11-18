@@ -3,7 +3,567 @@
   "cik": "1433607",
   "name": "InspireMD, Inc.",
   "description": "InspireMD, Inc., a medical device company, focuses on the development and commercialization of products for the treatment of carotid artery disease and other vascular conditions in the United States, Germany, Italy, Russia, Poland, and internationally. It offers MicroNet, a biocompatible polymer mesh material for medical implants, as well as for treating plaque prolapse and embolization; CGuard carotid embolic prevention system (EPS) for use in carotid artery applications; CGuard Prime Carotid Stent System; and SwitchGuard neuroprotection system to provide flow reversal of cerebral protection in carotid interventions, as well as treating acute stroke with tandem lesions. The company was founded in 2005 and is headquartered in Miami, Florida.",
+  "ownership": {
+    "inst_pct": 0.41,
+    "insider_pct": 0.17156,
+    "inst_count": 40,
+    "analyst_count": 3,
+    "rec_mean": 1.66667,
+    "rec_key": "buy",
+    "target_mean": 3.0,
+    "short_pct_float": 0.0057,
+    "shares_short": 251530,
+    "short_days_to_cover": 1.04,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-18"
+  },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 307693.0,
+      "price": 0.65,
+      "total_value": 200000.45,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-26-052827"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 230769.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series L Common Stock Warrant",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-052827"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Lawless Michael A",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 115385.0,
+      "price": 0.65,
+      "total_value": 75000.25,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052826"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Lawless Michael A",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 86539.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series L Common Stock Warrant",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052826"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "BERMAN MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 76923.0,
+      "price": 0.65,
+      "total_value": 49999.950000000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052825"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "BERMAN MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 57692.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series L Common Stock Warrant",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052825"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Slosman Marvin",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 46154.0,
+      "price": 0.65,
+      "total_value": 30000.100000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052823"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Slosman Marvin",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 34616.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series L Common Stock Warrant",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052823"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "ROUBIN GARY S",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 153846.0,
+      "price": 0.65,
+      "total_value": 99999.90000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052820"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "ROUBIN GARY S",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 115385.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series L Common Stock Warrant",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-052820"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "BERMAN MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": -30625.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series J Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043916"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "BERMAN MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": 30625.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series J Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043916"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "BERMAN MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": -61248.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series K Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043916"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "BERMAN MICHAEL",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": 61248.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series K Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043916"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "ROUBIN GARY S",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": -15313.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series J Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043911"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "ROUBIN GARY S",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": 15313.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series J Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043911"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "ROUBIN GARY S",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": -30624.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series K Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043911"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "ROUBIN GARY S",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": 30624.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series K Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001493152-26-043911"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": -43750.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series J Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043910"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": 43750.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series J Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043910"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": -87500.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series K Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043910"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "J",
+      "shares": 87500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Series K Warrant (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001493152-26-043910"
+    },
+    {
+      "date_filed": "2026-05-29",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-05-27",
+      "code": "P",
+      "shares": 20000.0,
+      "price": 0.875,
+      "total_value": 17500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-026348"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "S",
+      "shares": -22778.0,
+      "price": 1.01,
+      "total_value": -23005.78,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2026-02-02",
+      "code": "S",
+      "shares": -2941.0,
+      "price": 1.59,
+      "total_value": -4676.1900000000005,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-05-30",
+      "code": "S",
+      "shares": -7186.0,
+      "price": 2.51,
+      "total_value": -18036.859999999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-05-29",
+      "code": "S",
+      "shares": -3760.0,
+      "price": 2.51,
+      "total_value": -9437.599999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-05-27",
+      "code": "S",
+      "shares": -1572.0,
+      "price": 2.51,
+      "total_value": -3945.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-05-23",
+      "code": "S",
+      "shares": -2482.0,
+      "price": 2.51,
+      "total_value": -6229.82,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-02-25",
+      "code": "S",
+      "shares": -10000.0,
+      "price": 3.65,
+      "total_value": -36500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-02-04",
+      "code": "S",
+      "shares": -5132.0,
+      "price": 2.46,
+      "total_value": -12624.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-02-03",
+      "code": "S",
+      "shares": -7073.0,
+      "price": 2.51,
+      "total_value": -17753.23,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-01-31",
+      "code": "S",
+      "shares": -9923.0,
+      "price": 2.55,
+      "total_value": -25303.649999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-01-30",
+      "code": "S",
+      "shares": -2454.0,
+      "price": 2.51,
+      "total_value": -6159.539999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-01-29",
+      "code": "S",
+      "shares": -3660.0,
+      "price": 2.46,
+      "total_value": -9003.6,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-01-28",
+      "code": "S",
+      "shares": -2476.0,
+      "price": 2.61,
+      "total_value": -6462.36,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Gleason Shane Thomas",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-01-27",
+      "code": "S",
+      "shares": -3858.0,
+      "price": 2.71,
+      "total_value": -10455.18,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-024864"
+    },
+    {
+      "date_filed": "2026-05-15",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-05-14",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 1.15,
+      "total_value": 5750.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-023727"
+    },
+    {
+      "date_filed": "2026-05-15",
+      "reporter_name": "Stuka Paul",
+      "relationship": "Director",
+      "transaction_date": "2026-05-13",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 1.1575,
+      "total_value": 11575.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-023727"
+    },
     {
       "date_filed": "2026-05-13",
       "reporter_name": "Slosman Marvin",
@@ -1039,132 +1599,20 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001493152-25-001730"
-    },
-    {
-      "date_filed": "2024-06-26",
-      "reporter_name": "BERMAN MICHAEL",
-      "relationship": "Director",
-      "transaction_date": "2024-06-24",
-      "code": "X",
-      "shares": 61249.0,
-      "price": 1.3827,
-      "total_value": 84688.9923,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001493152-24-025340"
-    },
-    {
-      "date_filed": "2024-06-26",
-      "reporter_name": "BERMAN MICHAEL",
-      "relationship": "Director",
-      "transaction_date": "2024-06-24",
-      "code": "X",
-      "shares": -61249.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Series H Warrant (right to buy)",
-      "table": "derivative",
-      "ownership": "I",
-      "accession": "0001493152-24-025340"
-    },
-    {
-      "date_filed": "2024-06-25",
-      "reporter_name": "Kester Thomas J",
-      "relationship": "Director",
-      "transaction_date": "2024-05-28",
-      "code": "X",
-      "shares": 30625.0,
-      "price": 1.3827,
-      "total_value": 42345.1875,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001493152-24-025143"
-    },
-    {
-      "date_filed": "2024-06-25",
-      "reporter_name": "Kester Thomas J",
-      "relationship": "Director",
-      "transaction_date": "2024-05-28",
-      "code": "X",
-      "shares": -30625.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Series H Warrant (right to buy)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001493152-24-025143"
-    },
-    {
-      "date_filed": "2024-06-07",
-      "reporter_name": "Stuka Paul",
-      "relationship": "Director",
-      "transaction_date": "2024-06-05",
-      "code": "X",
-      "shares": 87500.0,
-      "price": 1.3827,
-      "total_value": 120986.25,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001493152-24-023222"
-    },
-    {
-      "date_filed": "2024-06-07",
-      "reporter_name": "Stuka Paul",
-      "relationship": "Director",
-      "transaction_date": "2024-06-05",
-      "code": "X",
-      "shares": -87500.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Series H Warrant (right to buy)",
-      "table": "derivative",
-      "ownership": "I",
-      "accession": "0001493152-24-023222"
-    },
-    {
-      "date_filed": "2024-05-30",
-      "reporter_name": "ROUBIN GARY S",
-      "relationship": "Director",
-      "transaction_date": "2024-05-28",
-      "code": "X",
-      "shares": 30625.0,
-      "price": 1.3827,
-      "total_value": 42345.1875,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001493152-24-022012"
-    },
-    {
-      "date_filed": "2024-05-30",
-      "reporter_name": "ROUBIN GARY S",
-      "relationship": "Director",
-      "transaction_date": "2024-05-28",
-      "code": "X",
-      "shares": -30625.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Series H Warrant (right to buy)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001493152-24-022012"
     }
   ],
   "valuation": {
-    "share_price": 0.7149999737739563,
-    "shares_basic": 46838962,
-    "shares_basic_as_of": "2026-05-07",
+    "share_price": 0.6499999761581421,
+    "shares_basic": 54127439,
+    "shares_basic_as_of": "2026-11-16",
     "options": 0,
     "warrants": 25828164,
-    "cash": 11362000,
+    "cash": 19246000,
     "debt": null,
-    "ttm_revenue": 10848000.0,
-    "mc_basic": 33489856.601599336,
-    "ev_basic": 22127856.601599336,
-    "debt_flag": null
+    "debt_flag": null,
+    "ttm_revenue": 10560000.0,
+    "mc_basic": 35182834.05950129,
+    "ev_basic": 15936834.05950129
   },
   "financials": {
     "income_statement": {
@@ -1197,47 +1645,47 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            2242000,
             1771000,
             3398000,
-            3149000,
-            2523000
+            3149000
           ],
           [
+            -11.137534680935394,
             -0.3937007874015748,
             122.23675604970569,
-            61.570035915854284,
-            39.392265193370164
+            61.570035915854284
           ],
           [
+            2002000,
             2545000,
             2711000,
-            1969000,
-            1659000
+            1969000
           ],
           [
+            240000,
             -774000,
             687000,
-            1180000,
-            864000
+            1180000
           ],
           [
+            -72.22222222222223,
             -347.2843450479233,
             135.27397260273972,
-            151.59914712153517,
-            108.69565217391305
+            151.59914712153517
           ],
           [
+            10.704727921498662,
             -43.70412196499153,
             20.21777516185992,
-            37.472213401079706,
-            34.244946492271104
+            37.472213401079706
           ],
           [
             null,
@@ -1246,22 +1694,22 @@
             null
           ],
           [
+            5846000,
             9376000,
             9902000,
-            9789000,
-            10280000
+            9789000
           ],
           [
+            3273000,
             4295000,
             4763000,
-            3475000,
-            3635000
+            3475000
           ],
           [
+            10193000,
             13671000,
             14665000,
-            13264000,
-            13915000
+            13264000
           ],
           [
             null,
@@ -1270,34 +1718,34 @@
             null
           ],
           [
+            -9953000,
             -14445000,
             -13978000,
-            -12084000,
-            -13051000
+            -12084000
           ],
           [
+            23.737644624932955,
             -10.953222213687686,
             -21.972076788830716,
-            -29.006085192697768,
-            -54.23067832663673
+            -29.006085192697768
           ],
           [
+            -443.93398751115075,
             -815.6408808582721,
             -411.35962330782814,
-            -383.7408701174976,
-            -517.2810146650812
+            -383.7408701174976
           ],
           [
+            -9785000,
             -14287000,
             -13829000,
-            -11941000,
-            -12923000
+            -11941000
           ],
           [
+            -436.4406779661017,
             -806.7193675889328,
             -406.97469099470277,
-            -379.19974595109557,
-            -512.2076892588188
+            -379.19974595109557
           ],
           [
             null,
@@ -1306,22 +1754,22 @@
             null
           ],
           [
+            -9762000,
             -14324000,
             -13689000,
-            -11763000,
-            -12708000
+            -11763000
           ],
           [
+            -9762000,
             -14324000,
             -13689000,
-            -11763000,
-            -12708000
+            -11763000
           ],
           [
+            -435.41480820695807,
             -808.8085827216262,
             -402.85462036492055,
-            -373.54715782788185,
-            -503.6860879904875
+            -373.54715782788185
           ],
           [
             null,
@@ -1330,28 +1778,28 @@
             null
           ],
           [
+            -0.12,
             -0.17,
             -0.16,
-            -0.12,
-            -0.17
+            -0.12
           ],
           [
+            -0.12,
             -0.17,
             -0.16,
-            -0.12,
-            -0.17
+            -0.12
           ],
           [
+            85616203,
             84659943,
             83801839,
-            null,
-            73466501
+            null
           ],
           [
+            85616203,
             84659943,
             83801839,
-            null,
-            73466501
+            null
           ]
         ]
       },
@@ -1394,42 +1842,42 @@
         ],
         "data": [
           [
-            10841000,
+            10560000,
             8979000,
             7009000,
             6205000,
             5171000
           ],
           [
-            20.737275865909343,
+            17.60775141997995,
             28.106719931516622,
             12.957292506043514,
             19.996132276155482,
             null
           ],
           [
-            8884000,
+            9227000,
             6330000,
             5503000,
             4398000,
             4054000
           ],
           [
-            1957000,
+            1333000,
             2649000,
             1506000,
             1807000,
             1117000
           ],
           [
-            -26.123065307663268,
+            -49.679124197810495,
             75.89641434262948,
             -16.657443276148314,
             61.77260519247986,
             null
           ],
           [
-            18.051840236140578,
+            12.62310606060606,
             29.502171734046108,
             21.486660008560424,
             29.12167606768735,
@@ -1443,21 +1891,21 @@
             null
           ],
           [
-            39347000,
+            34913000,
             37260000,
             21375000,
             14969000,
             12020000
           ],
           [
-            16168000,
+            15806000,
             15003000,
             13634000,
             7981000,
             7810000
           ],
           [
-            55515000,
+            51793000,
             52263000,
             35009000,
             22950000,
@@ -1471,35 +1919,35 @@
             null
           ],
           [
-            -53558000,
+            -50460000,
             -49614000,
             -33503000,
             -21143000,
             -18713000
           ],
           [
-            -7.949369129681139,
+            -1.705163865038094,
             -48.0882309046951,
             -58.459064465780635,
             -12.985624966600758,
             null
           ],
           [
-            -494.03191587491926,
+            -477.84090909090907,
             -552.5559639158035,
             -477.99971465258955,
             -340.7413376309428,
             -361.88358151228005
           ],
           [
-            -52980000,
+            -49842000,
             426386000,
             246497000,
             210857000,
             169287000
           ],
           [
-            -488.7003043999631,
+            -471.9886363636364,
             4748.702528121172,
             3516.86403195891,
             3398.1788879935534,
@@ -1513,14 +1961,14 @@
             null
           ],
           [
-            1074000,
+            922000,
             889000,
             1557000,
             1292000,
             null
           ],
           [
-            -52484000,
+            -49538000,
             -48725000,
             -31946000,
             -19851000,
@@ -1534,14 +1982,14 @@
             28000
           ],
           [
-            -52484000,
+            -49538000,
             -48788000,
             -32005000,
             -19916000,
             -18491000
           ],
           [
-            -484.1250807121114,
+            -469.1098484848485,
             -543.3567212384453,
             -456.627193608218,
             -320.96696212731666,
@@ -1555,28 +2003,28 @@
             null
           ],
           [
-            -0.62,
+            -0.5700000000000001,
             -0.76,
             -0.76,
             -0.82,
             -2.35
           ],
           [
-            -0.62,
+            -0.5700000000000001,
             -0.76,
             -0.76,
             -0.82,
             -2.35
           ],
           [
-            84659943,
+            85616203,
             64325810,
             41928360,
             24268181,
             7871814
           ],
           [
-            84659943,
+            85616203,
             64325810,
             41928360,
             24268181,
@@ -1611,47 +2059,47 @@
           "Total Equity"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            19246000,
             15149000,
             11362000,
-            8939000,
-            63403000
+            8939000
           ],
           [
+            null,
             15272000,
             30208000,
-            45272000,
-            null
+            45272000
           ],
           [
+            1895000,
             1816000,
             2381000,
-            2168000,
-            1961000
+            2168000
           ],
           [
+            2991000,
             2701000,
             3036000,
-            3396000,
-            3607000
+            3396000
           ],
           [
+            1521000,
             1690000,
             1607000,
-            1696000,
-            1420000
+            1696000
           ],
           [
+            25653000,
             36628000,
             48594000,
-            61471000,
-            70391000
+            61471000
           ],
           [
             null,
@@ -1660,28 +2108,28 @@
             null
           ],
           [
+            3947000,
             3858000,
             3651000,
-            3584000,
-            3403000
+            3584000
           ],
           [
+            2254000,
             2428000,
             2595000,
-            2758000,
-            2915000
+            2758000
           ],
           [
+            1714000,
             1727000,
             1631000,
-            1591000,
-            1763000
+            1591000
           ],
           [
+            33568000,
             44641000,
             56471000,
-            69404000,
-            78472000
+            69404000
           ],
           [
             null,
@@ -1692,38 +2140,38 @@
           [
             null,
             null,
-            1066000,
-            null
+            null,
+            1066000
           ],
           [
+            8569000,
             9646000,
             9443000,
-            9646000,
-            10816000
+            9646000
           ],
           [
+            8569000,
             9646000,
             9443000,
-            10712000,
-            10816000
+            10712000
           ],
           [
+            1711000,
             1969000,
             2042000,
-            2224000,
-            2367000
+            2224000
           ],
           [
+            1536000,
             1515000,
             1369000,
-            1267000,
-            1175000
+            1267000
           ],
           [
+            11816000,
             13130000,
             12854000,
-            14203000,
-            14358000
+            14203000
           ],
           [
             null,
@@ -1732,16 +2180,16 @@
             null
           ],
           [
+            -340067000,
             -330305000,
             -315981000,
-            -302292000,
-            -290531000
+            -302292000
           ],
           [
+            21752000,
             31511000,
             43617000,
-            55201000,
-            64114000
+            55201000
           ]
         ]
       },
@@ -1778,42 +2226,42 @@
         ],
         "data": [
           [
-            15149000,
+            19246000,
             8939000,
             18916000,
             9640000,
             4632000
           ],
           [
-            15272000,
+            null,
             45272000,
             15721000,
             29383000,
             null
           ],
           [
-            1816000,
+            1895000,
             2168000,
             1572000,
             1804000,
             1034000
           ],
           [
-            2701000,
+            2991000,
             3396000,
             2570000,
             2106000,
             1621000
           ],
           [
-            1690000,
+            1521000,
             1696000,
             1742000,
             1226000,
             14039000
           ],
           [
-            36628000,
+            25653000,
             61471000,
             40521000,
             44159000,
@@ -1827,28 +2275,28 @@
             null
           ],
           [
-            3858000,
+            3947000,
             3584000,
             2371000,
             1060000,
             917000
           ],
           [
-            2428000,
+            2254000,
             2758000,
             2360000,
             1473000,
             1554000
           ],
           [
-            1727000,
+            1714000,
             1591000,
             1555000,
             951000,
             856000
           ],
           [
-            44641000,
+            33568000,
             69404000,
             46807000,
             47643000,
@@ -1869,35 +2317,35 @@
             419000
           ],
           [
-            9646000,
+            8569000,
             9646000,
             7136000,
             5463000,
             4651000
           ],
           [
-            9646000,
+            8569000,
             10712000,
             7678000,
             6020000,
             5070000
           ],
           [
-            1969000,
+            1711000,
             2224000,
             1796000,
             1038000,
             1195000
           ],
           [
-            1515000,
+            1536000,
             1267000,
             1247000,
             1084000,
             995000
           ],
           [
-            13130000,
+            11816000,
             14203000,
             10721000,
             8142000,
@@ -1911,14 +2359,14 @@
             null
           ],
           [
-            -330305000,
+            -340067000,
             -302292000,
             -253506000,
             -221501000,
             -201585000
           ],
           [
-            31511000,
+            21752000,
             55201000,
             36086000,
             39501000,
@@ -1947,41 +2395,41 @@
           "Free Cash Flow"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            -9762000,
             -14324000,
             -13689000,
-            -11763000,
-            -12708000
+            -11763000
           ],
           [
+            168000,
             158000,
             149000,
-            143000,
-            128000
+            143000
           ],
           [
+            3000,
             2218000,
             2105000,
-            2848000,
-            3544000
+            2848000
           ],
           [
+            -1037000,
             1053000,
             -902000,
-            -573000,
-            403000
+            -573000
           ],
           [
+            -10628000,
             -10895000,
             -12337000,
-            -9345000,
-            -8633000
+            -9345000
           ],
           [
             null,
@@ -1990,22 +2438,22 @@
             null
           ],
           [
+            -257000,
             -330000,
             -194000,
-            -398000,
-            -329000
+            -398000
           ],
           [
+            14982000,
             14983000,
             14973000,
-            -44737000,
-            7880000
+            -44737000
           ],
           [
+            14725000,
             14653000,
             14779000,
-            -45135000,
-            7551000
+            -45135000
           ],
           [
             null,
@@ -2016,20 +2464,20 @@
           [
             null,
             null,
-            -37714000,
-            38018000
+            null,
+            -37714000
           ],
           [
             null,
             null,
-            37714000,
-            14908000
+            null,
+            37714000
           ],
           [
             null,
             null,
-            0,
-            52926000
+            null,
+            0
           ],
           [
             null,
@@ -2038,10 +2486,10 @@
             null
           ],
           [
+            -10885000,
             -11225000,
             -12531000,
-            -9743000,
-            -8962000
+            -9743000
           ]
         ]
       },
@@ -2072,35 +2520,35 @@
         ],
         "data": [
           [
-            -52484000,
+            -49538000,
             -48788000,
             -32005000,
             -19916000,
             -18491000
           ],
           [
-            578000,
+            618000,
             476000000,
             280000000,
             232000000,
             188000000
           ],
           [
-            10715000,
+            7174000,
             12332000,
             10138000,
             4490000,
             2352000
           ],
           [
-            -19000,
+            -1459000,
             -474647000,
             -280001000,
             -232950000,
             -187403000
           ],
           [
-            -41210000,
+            -43205000,
             -35103000,
             -21868000,
             -16376000,
@@ -2114,21 +2562,21 @@
             null
           ],
           [
-            -1251000,
+            -1179000,
             -1662000,
             -1402000,
             -381000,
             -473000
           ],
           [
-            -6901000,
+            null,
             -28898000,
             14043000,
             -15711000,
             8914000
           ],
           [
-            -8152000,
+            -978000,
             -30560000,
             12641000,
             -16092000,
@@ -2170,7 +2618,7 @@
             null
           ],
           [
-            -42461000,
+            -44384000,
             -36765000,
             -23270000,
             -16757000,
@@ -2192,23 +2640,23 @@
           "ROA %"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            2.9936982144941067,
             3.79722164627825,
             5.146034099332839,
-            5.738517550410754,
-            6.508043639053255
+            5.738517550410754
           ],
           [
+            2.64464931730657,
             3.517209205888451,
             4.824526103992375,
-            5.421489917849141,
-            6.174556213017752
+            5.421489917849141
           ],
           [
             null,
@@ -2217,16 +2665,16 @@
             null
           ],
           [
+            -436.4406779661017,
             -806.7193675889328,
             -406.97469099470277,
-            -379.19974595109557,
-            -512.2076892588188
+            -379.19974595109557
           ],
           [
+            17084000,
             26982000,
             39151000,
-            50759000,
-            59575000
+            50759000
           ],
           [
             null,
@@ -2235,16 +2683,16 @@
             null
           ],
           [
+            -44.87863184994483,
             -45.45714195043001,
             -31.384551894903364,
-            -21.309396568902738,
-            -19.82094394360046
+            -21.309396568902738
           ],
           [
+            -29.08126787416587,
             -32.087094823144646,
             -24.240760744452906,
-            -16.948590859316464,
-            -16.194311346722397
+            -16.948590859316464
           ]
         ]
       },
@@ -2268,14 +2716,14 @@
         ],
         "data": [
           [
-            3.79722164627825,
+            2.9936982144941067,
             5.738517550410754,
             5.277546235998958,
             7.335382059800664,
             4.2063116370808675
           ],
           [
-            3.517209205888451,
+            2.64464931730657,
             5.421489917849141,
             4.942823651992707,
             6.9855481727574755,
@@ -2289,14 +2737,14 @@
             null
           ],
           [
-            -488.7003043999631,
+            -471.9886363636364,
             4748.702528121172,
             3516.86403195891,
             3398.1788879935534,
             3273.7768323341716
           ],
           [
-            26982000,
+            17084000,
             50759000,
             32843000,
             38139000,
@@ -2310,14 +2758,14 @@
             null
           ],
           [
-            -166.55771000602965,
+            -227.7399779330636,
             -88.38245683955,
             -88.69090506013413,
             -50.41897673476621,
             -106.31288449376186
           ],
           [
-            -117.5690508725163,
+            -147.5750714966635,
             -70.29566019249611,
             -68.37652487875745,
             -41.80257330562727,
@@ -2327,24 +2775,5 @@
       }
     }
   },
-  "last_updated": "2026-05-14T12:20:04+00:00",
-  "ownership": {
-    "inst_pct": 0.48683,
-    "insider_pct": 0.19825001,
-    "inst_count": 37,
-    "analyst_count": 3,
-    "rec_mean": null,
-    "rec_key": null,
-    "target_mean": 3.66667,
-    "short_pct_float": 0.0017,
-    "shares_short": 74465,
-    "short_days_to_cover": 0.53,
-    "short_as_of": "2026-06-29",
-    "as_of": "2026-07-13"
-  },
-  "screen": {
-    "qualifies": true,
-    "reason": null,
-    "checked_at": "2026-07-15T16:49:40+00:00"
-  }
+  "last_updated": "2026-11-18T11:35:01+00:00"
 }

@@ -4,9 +4,9 @@
   "name": "Babcock & Wilcox Enterprises, Inc.",
   "description": "Babcock & Wilcox Enterprises, Inc., together with its subsidiaries, provides energy and emissions control solutions to industrial, electrical utility, municipal, and other customers in the United States, Canada, the United Kingdom, Indonesia, and the Philippines. The company offers BrightLoop chemical looping technology, which produces steam, hydrogen, or syngas for applications in the energy, industrial, and agricultural sectors. It also provides steam generation equipment, including aftermarket parts, construction, maintenance, and field services; steam generation systems, such as package boilers, watertube and firetube waste heat boilers, and other boilers to medium and heavy industrial customers. The company was founded in 1867 and is headquartered in Akron, Ohio.",
   "ownership": {
-    "inst_pct": 1.07145,
-    "insider_pct": 0.03418,
-    "inst_count": 293,
+    "inst_pct": 0.89366996,
+    "insider_pct": 0.03523,
+    "inst_count": 291,
     "analyst_count": 4,
     "rec_mean": 1.25,
     "rec_key": "strong_buy",
@@ -15,9 +15,93 @@
     "shares_short": 15266972,
     "short_days_to_cover": 3.26,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-13"
+    "as_of": "2026-11-18"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "BRC Group Holdings, Inc.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 4.24,
+      "total_value": 212000.0,
+      "security_title": "Common Stock, $0.01 par value per share",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-121073"
+    },
+    {
+      "date_filed": "2026-11-16",
+      "reporter_name": "Frymyer Cameron M",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 4.21,
+      "total_value": 42100.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001630805-26-000093"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Young Kenneth M",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 4.35,
+      "total_value": 43500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001630805-26-000087"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Moeller Philip D",
+      "relationship": "Director",
+      "transaction_date": "2026-11-12",
+      "code": "P",
+      "shares": 3000.0,
+      "price": 4.65,
+      "total_value": 13950.000000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001630805-26-000091"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Tato Joseph A",
+      "relationship": "Director",
+      "transaction_date": "2026-11-11",
+      "code": "P",
+      "shares": 1696.0,
+      "price": 5.265,
+      "total_value": 8929.439999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001630805-26-000089"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Tato Joseph A",
+      "relationship": "Director",
+      "transaction_date": "2026-11-11",
+      "code": "P",
+      "shares": 8304.0,
+      "price": 5.27,
+      "total_value": 43762.079999999994,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001630805-26-000089"
+    },
     {
       "date_filed": "2026-11-12",
       "reporter_name": "Howe Alan B",
@@ -2201,38 +2285,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001127602-24-028966"
-    },
-    {
-      "date_filed": "2024-11-13",
-      "reporter_name": "Young Kenneth M",
-      "relationship": "Director, Officer (Chief Executive Officer)",
-      "transaction_date": "2024-11-01",
-      "code": "M",
-      "shares": 66667.0,
-      "price": 2.32,
-      "total_value": 154667.44,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001127602-24-027226"
-    },
-    {
-      "date_filed": "2024-11-13",
-      "reporter_name": "Young Kenneth M",
-      "relationship": "Director, Officer (Chief Executive Officer)",
-      "transaction_date": "2024-11-01",
-      "code": "M",
-      "shares": -66667.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001127602-24-027226"
     }
   ],
   "valuation": {
-    "share_price": 4.40500020980835,
+    "share_price": 4.380000114440918,
     "shares_basic": 145446002,
     "shares_basic_as_of": "2026-11-03",
     "options": 0,
@@ -2241,8 +2297,8 @@
     "debt": 229850000,
     "debt_flag": null,
     "ttm_revenue": 985921000.0,
-    "mc_basic": 640689669.3257856,
-    "ev_basic": 799380669.3257856
+    "mc_basic": 637053505.404974,
+    "ev_basic": 795744505.404974
   },
   "financials": {
     "income_statement": {
@@ -3511,5 +3567,5 @@
       }
     }
   },
-  "last_updated": "2026-11-13T18:04:30+00:00"
+  "last_updated": "2026-11-18T11:35:43+00:00"
 }

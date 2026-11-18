@@ -4,9 +4,9 @@
   "name": "Kura Oncology, Inc.",
   "description": "Kura Oncology, Inc., a clinical-stage biopharmaceutical company, develops medicines for the treatment of cancer. The company's first commercial product, KOMZIFTI (ziftomenib), a potent, selective, reversible and oral small molecule menin inhibitor; Darlifarnib, a Phase 1 first-in-human FIT-001 trial which includes multiple cohorts to evaluate darlifarnib in combination with other targeted therapies in large solid tumor indications; and KO-7246, a next-generation menin inhibitor, for use in diabetes and cardiometabolic disorders and additional next-generation menin inhibitors for use in combination with other therapies in solid tumors. The company is headquartered in San Diego, California.",
   "ownership": {
-    "inst_pct": 0.95789003,
-    "insider_pct": 0.01353,
-    "inst_count": 311,
+    "inst_pct": 0.97239,
+    "insider_pct": 0.015700001,
+    "inst_count": 313,
     "analyst_count": 13,
     "rec_mean": 1.3125,
     "rec_key": "strong_buy",
@@ -15,9 +15,37 @@
     "shares_short": 12640858,
     "short_days_to_cover": 7.57,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-18"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "WILSON TROY EDWARD",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 101119.0,
+      "price": 7.42,
+      "total_value": 750302.98,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-465499"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "WILSON TROY EDWARD",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 98881.0,
+      "price": 7.63,
+      "total_value": 754462.03,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-465499"
+    },
     {
       "date_filed": "2026-11-16",
       "reporter_name": "WILSON TROY EDWARD",
@@ -1868,7 +1896,7 @@
     }
   ],
   "valuation": {
-    "share_price": 7.579999923706055,
+    "share_price": 7.489999771118164,
     "shares_basic": 91878694,
     "shares_basic_as_of": "2026-11-06",
     "options": 18921219,
@@ -1877,8 +1905,8 @@
     "debt": 9833000,
     "debt_flag": null,
     "ttm_revenue": 79314000.0,
-    "mc_basic": 696440493.510212,
-    "ev_basic": 648336493.510212
+    "mc_basic": 688171397.0306358,
+    "ev_basic": 640067397.0306358
   },
   "financials": {
     "income_statement": {
@@ -3069,5 +3097,5 @@
       }
     }
   },
-  "last_updated": "2026-11-17T19:31:05+00:00"
+  "last_updated": "2026-11-18T11:36:20+00:00"
 }
