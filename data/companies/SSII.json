@@ -10,7 +10,7 @@
     "analyst_count": 1,
     "rec_mean": null,
     "rec_key": null,
-    "target_mean": 7.0,
+    "target_mean": 2.0,
     "short_pct_float": 0.0011999999,
     "shares_short": 64284,
     "short_days_to_cover": 1.04,
@@ -1630,7 +1630,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.3300000429153442,
+    "share_price": 1.2799999713897705,
     "shares_basic": 200577993,
     "shares_basic_as_of": "2026-11-13",
     "options": 59395,
@@ -1639,8 +1639,8 @@
     "debt": 1251274,
     "debt_flag": null,
     "ttm_revenue": 45906619.0,
-    "mc_basic": 266768739.29787362,
-    "ev_basic": 259906246.29787362
+    "mc_basic": 256739825.3014176,
+    "ev_basic": 249877332.3014176
   },
   "financials": {
     "income_statement": {
@@ -2894,5 +2894,5 @@
       }
     }
   },
-  "last_updated": "2026-11-18T11:37:06+00:00"
+  "last_updated": "2026-11-18T19:03:28+00:00"
 }
