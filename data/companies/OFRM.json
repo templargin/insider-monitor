@@ -986,6 +986,62 @@
     },
     {
       "date_filed": "2026-02-09",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 81514.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043266"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6112.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043266"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -57372.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043266"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -24142.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043266"
+    },
+    {
+      "date_filed": "2026-02-09",
       "reporter_name": "Foraker John M.",
       "relationship": "Director, Officer (See Remarks)",
       "transaction_date": "2026-02-09",
@@ -1322,6 +1378,34 @@
     },
     {
       "date_filed": "2026-02-09",
+      "reporter_name": "Folena Chris",
+      "relationship": "Officer (Chief Accounting Officer)",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6077.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043252"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Folena Chris",
+      "relationship": "Officer (Chief Accounting Officer)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -37400.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Appreciation Rights",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043252"
+    },
+    {
+      "date_filed": "2026-02-09",
       "reporter_name": "Foraker John M.",
       "relationship": "Director, Officer (See Remarks)",
       "transaction_date": "2026-02-05",
@@ -1361,10 +1445,24 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001193125-26-043258"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Folena Chris",
+      "relationship": "Officer (Chief Accounting Officer)",
+      "transaction_date": "2026-02-05",
+      "code": "A",
+      "shares": 8601.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Employee Stock Options (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043252"
     }
   ],
   "valuation": {
-    "share_price": 11.380000114440918,
+    "share_price": 12.100000381469727,
     "shares_basic": 42252755,
     "shares_basic_as_of": "2026-11-08",
     "options": 5716798,
@@ -1373,8 +1471,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 313215000.0,
-    "mc_basic": 480836356.73544407,
-    "ev_basic": 374428356.73544407
+    "mc_basic": 511258351.6181469,
+    "ev_basic": 404850351.6181469
   },
   "financials": {
     "income_statement": {
@@ -2197,5 +2295,5 @@
       }
     }
   },
-  "last_updated": "2026-11-19T11:37:07+00:00"
+  "last_updated": "2026-11-19T19:09:09+00:00"
 }

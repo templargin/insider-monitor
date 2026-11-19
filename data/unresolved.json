@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:33:27+00:00",
+  "generated_at": "2026-11-19T19:08:24+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3526,14 +3526,14 @@
       "abandoned": false,
       "last_tried_date": "2026-11-19",
       "last_reason": "no share price for HRNG",
-      "last_tried": "2026-11-19T11:30:41+00:00"
+      "last_tried": "2026-11-19T19:05:27+00:00"
     },
     {
       "url_date": "2026-11-19",
       "cik": "2124472",
       "ticker": "OIG",
       "name": "Orion180 Insurance Group Inc.",
-      "reason": "cannot confirm EV < $1,000M for OIG: EV=$719.2M with $357.8M of unexplained_liabilities (up to $1,077.0M)",
+      "reason": "cannot confirm EV < $1,000M for OIG: EV=$705.0M with $357.8M of unexplained_liabilities (up to $1,062.8M)",
       "transient": false,
       "bucket_data": {
         "ticker": "OIG",
@@ -3609,7 +3609,7 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -3671,7 +3671,7 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -3679,7 +3679,7 @@
       "cik": "1464790",
       "ticker": "RILY",
       "name": "BRC Group Holdings, Inc.",
-      "reason": "cannot confirm EV < $1,000M for RILY: EV=$93.2M with $1,093.1M of unexplained_liabilities (up to $1,186.3M)",
+      "reason": "cannot confirm EV < $1,000M for RILY: EV=$91.1M with $1,093.1M of unexplained_liabilities (up to $1,184.3M)",
       "transient": false,
       "bucket_data": {
         "ticker": "RILY",
@@ -3744,7 +3744,7 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -3752,7 +3752,7 @@
       "cik": "800457",
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$711.2M with $1,119.4M of unexplained_liabilities (up to $1,830.6M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$710.8M with $1,119.4M of unexplained_liabilities (up to $1,830.3M)",
       "transient": false,
       "bucket_data": {
         "ticker": "DGICA",
@@ -3806,7 +3806,7 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]

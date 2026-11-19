@@ -104,6 +104,20 @@
     },
     {
       "date_filed": "2026-05-18",
+      "reporter_name": "Gil Benavides Jesus Salvador",
+      "relationship": "Director",
+      "transaction_date": "2026-04-10",
+      "code": "A",
+      "shares": 8959.0,
+      "price": 8.93,
+      "total_value": 80003.87,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-228340"
+    },
+    {
+      "date_filed": "2026-05-18",
       "reporter_name": "Meyer James R",
       "relationship": "Director",
       "transaction_date": "2026-04-10",
@@ -216,6 +230,34 @@
     },
     {
       "date_filed": "2026-01-12",
+      "reporter_name": "Tonn W Matthew",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2026-01-06",
+      "code": "F",
+      "shares": -12328.0,
+      "price": 10.76,
+      "total_value": -132649.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-010742"
+    },
+    {
+      "date_filed": "2026-01-12",
+      "reporter_name": "Riordan Michael Anthony",
+      "relationship": "Officer (VP Finance, CFO and Treasurer)",
+      "transaction_date": "2026-01-06",
+      "code": "F",
+      "shares": -11133.0,
+      "price": 10.76,
+      "total_value": -119791.08,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-010741"
+    },
+    {
+      "date_filed": "2026-01-12",
       "reporter_name": "Fuentes Sierra Juan Carlos",
       "relationship": "Officer (Corporate Controller & CAO)",
       "transaction_date": "2026-01-06",
@@ -285,6 +327,34 @@
       "accession": "0000950170-25-086177"
     },
     {
+      "date_filed": "2025-06-06",
+      "reporter_name": "Perez Celia",
+      "relationship": "Officer (GC and Corp Secretary)",
+      "transaction_date": "2025-06-04",
+      "code": "M",
+      "shares": 9050.0,
+      "price": 4.48,
+      "total_value": 40544.00000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-083111"
+    },
+    {
+      "date_filed": "2025-06-06",
+      "reporter_name": "Perez Celia",
+      "relationship": "Officer (GC and Corp Secretary)",
+      "transaction_date": "2025-06-04",
+      "code": "F",
+      "shares": -6498.0,
+      "price": 8.265,
+      "total_value": -53705.97,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-083111"
+    },
+    {
       "date_filed": "2025-05-15",
       "reporter_name": "Gil Benavides Jesus Salvador",
       "relationship": "Director",
@@ -342,6 +412,20 @@
     },
     {
       "date_filed": "2025-05-15",
+      "reporter_name": "De Nigris Felan Jose",
+      "relationship": "Director",
+      "transaction_date": "2025-05-14",
+      "code": "A",
+      "shares": 10460.0,
+      "price": 7.17,
+      "total_value": 74998.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-073037"
+    },
+    {
+      "date_filed": "2025-05-15",
       "reporter_name": "MOORE MALCOLM F",
       "relationship": "Director",
       "transaction_date": "2025-05-14",
@@ -367,6 +451,34 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0000950170-25-073031"
+    },
+    {
+      "date_filed": "2025-05-15",
+      "reporter_name": "Gil Benavides Alejandro",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-05-14",
+      "code": "P",
+      "shares": 500.0,
+      "price": 7.26,
+      "total_value": 3630.0,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-072764"
+    },
+    {
+      "date_filed": "2025-05-14",
+      "reporter_name": "Gil Benavides Alejandro",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-05-13",
+      "code": "P",
+      "shares": 2500.0,
+      "price": 7.02,
+      "total_value": 17550.0,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-071146"
     },
     {
       "date_filed": "2025-03-24",
@@ -552,7 +664,7 @@
     }
   ],
   "valuation": {
-    "share_price": 4.800000190734863,
+    "share_price": 4.659999847412109,
     "shares_basic": 32794790,
     "shares_basic_as_of": "2026-11-04",
     "options": 175620,
@@ -561,8 +673,8 @@
     "debt": 100413000,
     "debt_flag": null,
     "ttm_revenue": 379501000.0,
-    "mc_basic": 157414998.2551098,
-    "ev_basic": 171068998.2551098
+    "mc_basic": 152823716.39591217,
+    "ev_basic": 166477716.39591217
   },
   "financials": {
     "income_statement": {
@@ -1786,5 +1898,5 @@
       }
     }
   },
-  "last_updated": "2026-11-19T11:38:31+00:00"
+  "last_updated": "2026-11-19T19:09:42+00:00"
 }

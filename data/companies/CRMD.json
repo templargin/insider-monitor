@@ -4,9 +4,9 @@
   "name": "CorMedix Inc.",
   "description": "CorMedix Inc., a biopharmaceutical company, focuses on developing and commercializing therapeutic products for life-threatening diseases and conditions in the United States. Its lead product candidate is DefenCath, an antimicrobial catheter lock solution to reduce the incidence of catheter-related bloodstream infections in adult patients with kidney failure. CorMedix Inc. was formerly known as Picton Holding Company, Inc. and changed its name to CorMedix, Inc. in January 2007. The company was incorporated in 2006 and is based in Parsippany, New Jersey.",
   "ownership": {
-    "inst_pct": 0.58362997,
+    "inst_pct": 0.60844004,
     "insider_pct": 0.07557,
-    "inst_count": 263,
+    "inst_count": 262,
     "analyst_count": 5,
     "rec_mean": 1.6,
     "rec_key": "buy",
@@ -15,9 +15,23 @@
     "shares_short": 14205973,
     "short_days_to_cover": 10.03,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-19"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Kaplan Myron",
+      "relationship": "Director",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 25000.0,
+      "price": 4.88,
+      "total_value": 122000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-26-121895"
+    },
     {
       "date_filed": "2026-11-16",
       "reporter_name": "Todisco Joseph",
@@ -1655,192 +1669,10 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0000899140-24-001352"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": 3.0,
-      "price": 1.45,
-      "total_value": 4.35,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": 8169.0,
-      "price": 8.3,
-      "total_value": 67802.70000000001,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": 9888.0,
-      "price": 5.63,
-      "total_value": 55669.44,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": 34467.0,
-      "price": 4.08,
-      "total_value": 140625.36000000002,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": 62500.0,
-      "price": 4.43,
-      "total_value": 276875.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": 25000.0,
-      "price": 3.47,
-      "total_value": 86750.0,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "S",
-      "shares": -140027.0,
-      "price": 11.1812,
-      "total_value": -1565669.8924,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": -3.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Stock Option (Right to Buy Common Stock)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": -8169.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Stock Option (Right to Buy Common Stock)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": -9888.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Stock Option (Right to Buy Common Stock)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": -34467.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Stock Option (Right to Buy Common Stock)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": -62500.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Stock Option (Right to Buy Common Stock)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
-    },
-    {
-      "date_filed": "2024-11-18",
-      "reporter_name": "Hurlburt Elizabeth",
-      "relationship": "Officer (EVP)",
-      "transaction_date": "2024-11-14",
-      "code": "M",
-      "shares": -25000.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Stock Option (Right to Buy Common Stock)",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0000899140-24-001286"
     }
   ],
   "valuation": {
-    "share_price": 4.704999923706055,
+    "share_price": 5.039999961853027,
     "shares_basic": 79537626,
     "shares_basic_as_of": "2026-11-09",
     "options": 4454369,
@@ -1849,8 +1681,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 412492264.0,
-    "mc_basic": 374224524.2617607,
-    "ev_basic": 19074524.26176071
+    "mc_basic": 400869632.00588036,
+    "ev_basic": 45719632.005880356
   },
   "financials": {
     "income_statement": {
@@ -3139,5 +2971,5 @@
       }
     }
   },
-  "last_updated": "2026-11-17T19:29:05+00:00"
+  "last_updated": "2026-11-19T19:10:38+00:00"
 }

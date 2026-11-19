@@ -691,6 +691,20 @@
       "accession": "0001213900-26-017295"
     },
     {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Skiadas John",
+      "relationship": "Director",
+      "transaction_date": "2025-11-24",
+      "code": "S",
+      "shares": -18270.0,
+      "price": 7.2738,
+      "total_value": -132892.326,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-25-114346"
+    },
+    {
       "date_filed": "2025-11-21",
       "reporter_name": "Skiadas John",
       "relationship": "Director",
@@ -916,6 +930,48 @@
     },
     {
       "date_filed": "2025-05-14",
+      "reporter_name": "COL DOUGLAS L",
+      "relationship": "Director",
+      "transaction_date": "2025-05-13",
+      "code": "M",
+      "shares": 5000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-25-043473"
+    },
+    {
+      "date_filed": "2025-05-14",
+      "reporter_name": "COL DOUGLAS L",
+      "relationship": "Director",
+      "transaction_date": "2025-05-13",
+      "code": "M",
+      "shares": 5000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001213900-25-043473"
+    },
+    {
+      "date_filed": "2025-05-14",
+      "reporter_name": "COL DOUGLAS L",
+      "relationship": "Director",
+      "transaction_date": "2025-05-13",
+      "code": "A",
+      "shares": 9135.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001213900-25-043473"
+    },
+    {
+      "date_filed": "2025-05-14",
       "reporter_name": "Gattoni James B",
       "relationship": "Director",
       "transaction_date": "2025-05-13",
@@ -1067,10 +1123,24 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001213900-25-021867"
+    },
+    {
+      "date_filed": "2025-02-27",
+      "reporter_name": "ODELL RICHARD D",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-02-25",
+      "code": "G",
+      "shares": -15000.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001213900-25-017676"
     }
   ],
   "valuation": {
-    "share_price": 2.9600000381469727,
+    "share_price": 2.9700000286102295,
     "shares_basic": 28063881,
     "shares_basic_as_of": "2026-11-09",
     "options": 0,
@@ -1083,8 +1153,8 @@
       "concept": null
     },
     "ttm_revenue": 352058988.0,
-    "mc_basic": 83069088.8305521,
-    "ev_basic": 153336118.8305521
+    "mc_basic": 83349727.37291408,
+    "ev_basic": 153616757.37291408
   },
   "financials": {
     "income_statement": {
@@ -1950,5 +2020,5 @@
       }
     }
   },
-  "last_updated": "2026-11-19T11:38:21+00:00"
+  "last_updated": "2026-11-19T19:09:30+00:00"
 }

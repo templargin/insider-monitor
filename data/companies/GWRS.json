@@ -4,20 +4,804 @@
   "name": "Global Water Resources, Inc.",
   "description": "Global Water Resources, Inc., a water resource management company, owns, operates, and manages regulated water, wastewater, and recycled water systems in metropolitan Phoenix and Tucson, Arizona. It serves approximately 121,000 people in approximately 40,000 homes. Global Water Resources, Inc. was founded in 2003 and is based in Phoenix, Arizona.",
   "ownership": {
-    "inst_pct": 0.28198,
-    "insider_pct": 0.52535,
-    "inst_count": 148,
+    "inst_pct": 0.28226998,
+    "insider_pct": 0.53225,
+    "inst_count": 152,
     "analyst_count": 2,
     "rec_mean": 2.0,
     "rec_key": "buy",
-    "target_mean": 9.8,
-    "short_pct_float": 0.026400002,
-    "shares_short": 361496,
-    "short_days_to_cover": 4.1,
-    "short_as_of": "2026-07-31",
-    "as_of": "2026-08-24"
+    "target_mean": 9.95,
+    "short_pct_float": 0.0212,
+    "shares_short": 315106,
+    "short_days_to_cover": 7.09,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-19"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 4699.0,
+      "price": 6.61,
+      "total_value": 31060.390000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-074877"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-11",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 6.86,
+      "total_value": 34300.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-074877"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "P",
+      "shares": 15000.0,
+      "price": 6.97,
+      "total_value": 104550.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-074877"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Levine Jonathan L",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "A",
+      "shares": 1029.0,
+      "price": 6.93,
+      "total_value": 7130.969999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073807"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Rousseau David",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "A",
+      "shares": 1489.0,
+      "price": 6.93,
+      "total_value": 10318.77,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073806"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Alexander Richard M",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "A",
+      "shares": 1917.0,
+      "price": 6.93,
+      "total_value": 13284.81,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073805"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Alexander Richard M",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "F",
+      "shares": -973.0,
+      "price": 6.93,
+      "total_value": -6742.889999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073805"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Steele Christa",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "A",
+      "shares": 1493.0,
+      "price": 6.93,
+      "total_value": 10346.49,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073804"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "A",
+      "shares": 1029.0,
+      "price": 6.93,
+      "total_value": 7130.969999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073803"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "Huckelbridge Brett",
+      "relationship": "Director",
+      "transaction_date": "2026-11-10",
+      "code": "A",
+      "shares": 1349.0,
+      "price": 6.93,
+      "total_value": 9348.57,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-073802"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Krygier Christopher D",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 25.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069303"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 6.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069302"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 3.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069301"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Huckelbridge Brett",
+      "relationship": "Director",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 56.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069300"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Alexander Richard M",
+      "relationship": "Director",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 65.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069299"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Liebman Michael J",
+      "relationship": "Officer (CFO and Corporate Secretary)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 50.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069298"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Corwin Jonathan C.",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 1.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069296"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Rousseau David",
+      "relationship": "Director",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 52.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069295"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Fleming Ronnie L",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 77.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-069294"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Huckelbridge Brett",
+      "relationship": "Director",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 54.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064711"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 6.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064710"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Alexander Richard M",
+      "relationship": "Director",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 63.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064709"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": 271.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064708"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-09-30",
+      "code": "D",
+      "shares": -271.0,
+      "price": 7.95,
+      "total_value": -2154.4500000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064708"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 3.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064708"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": -271.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064708"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Rousseau David",
+      "relationship": "Director",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 51.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064707"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Liebman Michael J",
+      "relationship": "Officer (CFO and Corporate Secretary)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": 2881.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064706"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Liebman Michael J",
+      "relationship": "Officer (CFO and Corporate Secretary)",
+      "transaction_date": "2026-09-30",
+      "code": "D",
+      "shares": -2881.0,
+      "price": 7.95,
+      "total_value": -22903.95,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064706"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Liebman Michael J",
+      "relationship": "Officer (CFO and Corporate Secretary)",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 57.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064706"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Liebman Michael J",
+      "relationship": "Officer (CFO and Corporate Secretary)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": -2881.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064706"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Fleming Ronnie L",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": 4501.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064705"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Fleming Ronnie L",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-09-30",
+      "code": "D",
+      "shares": -4501.0,
+      "price": 7.95,
+      "total_value": -35782.950000000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064705"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Fleming Ronnie L",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 89.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064705"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Fleming Ronnie L",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": -4501.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064705"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Krygier Christopher D",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": 1445.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064704"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Krygier Christopher D",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-09-30",
+      "code": "D",
+      "shares": -1445.0,
+      "price": 7.95,
+      "total_value": -11487.75,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064704"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Krygier Christopher D",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 29.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064704"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Krygier Christopher D",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": -1445.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064704"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Corwin Jonathan C.",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": 132.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064703"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Corwin Jonathan C.",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-09-30",
+      "code": "D",
+      "shares": -132.0,
+      "price": 7.95,
+      "total_value": -1049.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064703"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Corwin Jonathan C.",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-09-30",
+      "code": "A",
+      "shares": 2.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064703"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Corwin Jonathan C.",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-09-30",
+      "code": "M",
+      "shares": -132.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064703"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-07-01",
+      "code": "A",
+      "shares": 1054.0,
+      "price": 7.26,
+      "total_value": 7652.04,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064708"
+    },
+    {
+      "date_filed": "2026-10-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-07-01",
+      "code": "F",
+      "shares": -254.0,
+      "price": 7.26,
+      "total_value": -1844.04,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-064708"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "Upchurch Kyle",
+      "relationship": "Officer (Vice President and Controller)",
+      "transaction_date": "2026-09-03",
+      "code": "A",
+      "shares": 1666.0,
+      "price": 8.92,
+      "total_value": 14860.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060969"
+    },
+    {
+      "date_filed": "2026-09-08",
+      "reporter_name": "Upchurch Kyle",
+      "relationship": "Officer (Vice President and Controller)",
+      "transaction_date": "2026-09-03",
+      "code": "F",
+      "shares": -371.0,
+      "price": 8.92,
+      "total_value": -3309.32,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060969"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Krygier Christopher D",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 25.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060081"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Rousseau David",
+      "relationship": "Director",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 44.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060080"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Huckelbridge Brett",
+      "relationship": "Director",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 47.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060079"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Cohn Andrew M.",
+      "relationship": "Director",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 5.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060078"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Lenderking John Carroll",
+      "relationship": "Officer (SVP, Water Resources)",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 3.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060077"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Alexander Richard M",
+      "relationship": "Director",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 54.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060075"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Corwin Jonathan C.",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 2.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060074"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Liebman Michael J",
+      "relationship": "Officer (CFO and Corporate Secretary)",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 49.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060073"
+    },
+    {
+      "date_filed": "2026-09-02",
+      "reporter_name": "Fleming Ronnie L",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-08-31",
+      "code": "A",
+      "shares": 77.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-060072"
+    },
     {
       "date_filed": "2026-08-21",
       "reporter_name": "Levine Jonathan L",
@@ -6219,794 +7003,24 @@
       "table": "derivative",
       "ownership": "D",
       "accession": "0001434728-24-000405"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "Levine Jonathan L",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "A",
-      "shares": 562.0,
-      "price": 12.68,
-      "total_value": 7126.16,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "I",
-      "accession": "0001434728-24-000393"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "Huckelbridge Brett",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "A",
-      "shares": 737.0,
-      "price": 12.68,
-      "total_value": 9345.16,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000392"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "COY DEBRA",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "A",
-      "shares": 816.0,
-      "price": 12.68,
-      "total_value": 10346.88,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000391"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "Alexander Richard M",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "A",
-      "shares": 1048.0,
-      "price": 12.68,
-      "total_value": 13288.64,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000390"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "Alexander Richard M",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "F",
-      "shares": -649.0,
-      "price": 12.68,
-      "total_value": -8229.32,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000390"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "Rousseau David",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "A",
-      "shares": 814.0,
-      "price": 12.68,
-      "total_value": 10321.52,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000389"
-    },
-    {
-      "date_filed": "2024-11-14",
-      "reporter_name": "Cohn Andrew M.",
-      "relationship": "Director",
-      "transaction_date": "2024-11-13",
-      "code": "A",
-      "shares": 562.0,
-      "price": 12.68,
-      "total_value": 7126.16,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000388"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Krygier Christopher D",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 10.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000373"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Liebman Michael J",
-      "relationship": "Officer (CFO and Corporate Secretary)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 21.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000372"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Ellsworth Joanne",
-      "relationship": "Officer (Executive Vice President)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 4.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000371"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Lenderking John Carroll",
-      "relationship": "Officer (SVP, Water Resources)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 3.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000370"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Cohn Andrew M.",
-      "relationship": "Director",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 3.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000369"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "COY DEBRA",
-      "relationship": "Director",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 5.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000368"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Huckelbridge Brett",
-      "relationship": "Director",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 32.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000367"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Corwin Jonathan C.",
-      "relationship": "Officer (Vice President)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 2.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000366"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Rousseau David",
-      "relationship": "Director",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 30.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000365"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Fleming Ronnie L",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 33.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000364"
-    },
-    {
-      "date_filed": "2024-11-04",
-      "reporter_name": "Alexander Richard M",
-      "relationship": "Director",
-      "transaction_date": "2024-10-31",
-      "code": "A",
-      "shares": 38.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000363"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Rousseau David",
-      "relationship": "Director",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 30.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000351"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Alexander Richard M",
-      "relationship": "Director",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 36.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000350"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Fleming Ronnie L",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": 3182.0,
-      "price": 12.59,
-      "total_value": 40061.38,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000349"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Fleming Ronnie L",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 39.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000349"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Fleming Ronnie L",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": -3182.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000349"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Huckelbridge Brett",
-      "relationship": "Director",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 32.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000348"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Cohn Andrew M.",
-      "relationship": "Director",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 3.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000347"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Corwin Jonathan C.",
-      "relationship": "Officer (Vice President)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": 155.0,
-      "price": 12.59,
-      "total_value": 1951.45,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000346"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Corwin Jonathan C.",
-      "relationship": "Officer (Vice President)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 2.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000346"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Corwin Jonathan C.",
-      "relationship": "Officer (Vice President)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": -155.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000346"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Lenderking John Carroll",
-      "relationship": "Officer (SVP, Water Resources)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": 320.0,
-      "price": 12.59,
-      "total_value": 4028.8,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000345"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Lenderking John Carroll",
-      "relationship": "Officer (SVP, Water Resources)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 2.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000345"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Lenderking John Carroll",
-      "relationship": "Officer (SVP, Water Resources)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": -320.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000345"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Krygier Christopher D",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": 863.0,
-      "price": 12.59,
-      "total_value": 10865.17,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000344"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Krygier Christopher D",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 11.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000344"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Krygier Christopher D",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": -863.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000344"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Ellsworth Joanne",
-      "relationship": "Officer (Executive Vice President)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": 335.0,
-      "price": 12.59,
-      "total_value": 4217.65,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000343"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Ellsworth Joanne",
-      "relationship": "Officer (Executive Vice President)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 2.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000343"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Ellsworth Joanne",
-      "relationship": "Officer (Executive Vice President)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": -335.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000343"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "COY DEBRA",
-      "relationship": "Director",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 5.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000342"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Liebman Michael J",
-      "relationship": "Officer (CFO and Corporate Secretary)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": 2036.0,
-      "price": 12.59,
-      "total_value": 25633.239999999998,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000341"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Liebman Michael J",
-      "relationship": "Officer (CFO and Corporate Secretary)",
-      "transaction_date": "2024-09-30",
-      "code": "A",
-      "shares": 24.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000341"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Liebman Michael J",
-      "relationship": "Officer (CFO and Corporate Secretary)",
-      "transaction_date": "2024-09-30",
-      "code": "M",
-      "shares": -2036.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000341"
-    },
-    {
-      "date_filed": "2024-10-02",
-      "reporter_name": "Brill Steven D.",
-      "relationship": "Officer (VP of IT Operations)",
-      "transaction_date": "2024-09-30",
-      "code": "P",
-      "shares": 7.0,
-      "price": 12.57,
-      "total_value": 87.99000000000001,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000329"
-    },
-    {
-      "date_filed": "2024-09-11",
-      "reporter_name": "Brill Steven D.",
-      "relationship": "Officer (VP of IT Operations)",
-      "transaction_date": "2024-09-11",
-      "code": "P",
-      "shares": 6.0,
-      "price": 12.74,
-      "total_value": 76.44,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000327"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Lenderking John Carroll",
-      "relationship": "Officer (SVP, Water Resources)",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 4.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000324"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Liebman Michael J",
-      "relationship": "Officer (CFO and Corporate Secretary)",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 25.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000323"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Cohn Andrew M.",
-      "relationship": "Director",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 3.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000321"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Huckelbridge Brett",
-      "relationship": "Director",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 32.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000320"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Krygier Christopher D",
-      "relationship": "Officer (Chief Operating Officer)",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 11.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000319"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "COY DEBRA",
-      "relationship": "Director",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 4.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000318"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Rousseau David",
-      "relationship": "Director",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 30.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000315"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Fleming Ronnie L",
-      "relationship": "Director, Officer (President and CEO)",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 39.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000325"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Ellsworth Joanne",
-      "relationship": "Officer (Executive Vice President)",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 4.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000322"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Alexander Richard M",
-      "relationship": "Director",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 37.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000317"
-    },
-    {
-      "date_filed": "2024-09-04",
-      "reporter_name": "Corwin Jonathan C.",
-      "relationship": "Officer (Vice President)",
-      "transaction_date": "2024-08-30",
-      "code": "A",
-      "shares": 2.0,
-      "price": 0.0,
-      "total_value": 0.0,
-      "security_title": "Restricted Stock Units",
-      "table": "derivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000316"
-    },
-    {
-      "date_filed": "2024-08-26",
-      "reporter_name": "Kitts Suzanne Michelle",
-      "relationship": "Officer (Vice President and Controller)",
-      "transaction_date": "2024-08-23",
-      "code": "S",
-      "shares": -1513.0,
-      "price": 12.275,
-      "total_value": -18572.075,
-      "security_title": "Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001434728-24-000301"
     }
   ],
   "valuation": {
-    "share_price": 8.880000114440918,
-    "shares_basic": 28795352,
-    "shares_basic_as_of": "2026-08-07",
+    "share_price": 6.519999980926514,
+    "shares_basic": 29935348,
+    "shares_basic_as_of": "2026-10-30",
     "options": 397000,
     "warrants": 0,
-    "cash": 1458000,
-    "debt": 131775000,
+    "cash": 3457000,
+    "debt": 131770000,
     "debt_flag": {
       "reason": "unexplained_liabilities",
-      "amount": 76603000,
+      "amount": 74495000,
       "concept": null
     },
-    "ttm_revenue": 60113000.0,
-    "mc_basic": 255702729.05536652,
-    "ev_basic": 386019729.0553665
+    "ttm_revenue": 60895000.0,
+    "mc_basic": 195178468.38902855,
+    "ev_basic": 323491468.38902855
   },
   "financials": {
     "income_statement": {
@@ -7039,41 +7053,41 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            16301000,
             17767000,
             13286000,
-            13541000,
-            15519000
+            13541000
           ],
           [
+            5.038984470648882,
             24.759497226318377,
             6.654892831339809,
-            2.1885140744094786,
-            8.365337616088262
+            2.1885140744094786
           ],
           [
+            7180000,
             8810000,
             4842000,
-            4721000,
-            7841000
+            4721000
           ],
           [
+            -8.430047187858692,
             25.73141144569716,
             -11.025358324145534,
-            -19.72453664342799,
-            -1.296576032225579
+            -19.72453664342799
           ],
           [
+            44.04637752285136,
             49.586311701469015,
             36.44437754026795,
-            34.86448563621594,
-            50.52516270378246
+            34.86448563621594
           ],
           [
             null,
@@ -7082,10 +7096,10 @@
             null
           ],
           [
+            4787000,
             4304000,
             4453000,
-            4362000,
-            4919000
+            4362000
           ],
           [
             null,
@@ -7094,34 +7108,34 @@
             null
           ],
           [
+            2393000,
             4506000,
             389000,
-            359000,
-            2922000
+            359000
           ],
           [
+            -18.10403832991102,
             71.98473282442748,
             -69.00398406374502,
-            -72.72036474164133,
-            -26.656626506024097
+            -72.72036474164133
           ],
           [
+            14.6800809766272,
             25.361625485450553,
             2.9278940237844346,
-            2.6512074440587843,
-            18.828532766286486
+            2.6512074440587843
           ],
           [
             null,
             null,
-            4859000,
-            6477000
+            null,
+            4859000
           ],
           [
             null,
             null,
-            35.883612731703714,
-            41.7359365938527
+            null,
+            35.883612731703714
           ],
           [
             null,
@@ -7130,40 +7144,40 @@
             null
           ],
           [
+            1747000,
             1690000,
             1650000,
-            1500000,
-            1490000
+            1500000
           ],
           [
+            722000,
             908000,
             790000,
-            null,
-            925000
+            null
           ],
           [
+            1368000,
             3724000,
             -471000,
-            -1377000,
-            2357000
+            -1377000
           ],
           [
+            363000,
             977000,
             -105000,
-            -414000,
-            640000
+            -414000
           ],
           [
+            1005000,
             2747000,
             -366000,
-            -963000,
-            1717000
+            -963000
           ],
           [
+            6.165265934605239,
             15.461248381831485,
             -2.7547794671082344,
-            -7.111734731556015,
-            11.063857207294284
+            -7.111734731556015
           ],
           [
             null,
@@ -7172,28 +7186,28 @@
             null
           ],
           [
+            0.03,
             0.1,
             -0.01,
-            -0.039999999999999994,
-            0.06
+            -0.039999999999999994
           ],
           [
+            0.03,
             0.1,
             -0.01,
-            -0.039999999999999994,
-            0.06
+            -0.039999999999999994
           ],
           [
+            29317745,
             28809269,
             28758361,
-            null,
-            27508451
+            null
           ],
           [
+            29291460,
             28781145,
             28758361,
-            null,
-            27475956
+            null
           ]
         ]
       },
@@ -7234,35 +7248,35 @@
         ],
         "data": [
           [
-            60113000,
+            60895000,
             55758000,
             52692000,
             53028000,
             44728000
           ],
           [
-            7.810538398077406,
+            9.213027726962947,
             5.818720109314507,
             -0.6336275175379045,
             18.55660883562869,
             null
           ],
           [
-            26214000,
+            25553000,
             25011000,
             26246000,
             28922000,
             23949000
           ],
           [
-            4.809883651193475,
+            2.167046499540202,
             -4.705478930122685,
             -9.252472166516839,
             20.76495887093407,
             null
           ],
           [
-            43.60787184136543,
+            41.9623942852451,
             44.85634348434306,
             49.81021786988537,
             54.54099720902165,
@@ -7276,7 +7290,7 @@
             null
           ],
           [
-            18038000,
+            17906000,
             17855000,
             16882000,
             16636000,
@@ -7290,21 +7304,21 @@
             null
           ],
           [
-            8176000,
+            7647000,
             7156000,
             9364000,
             12286000,
             7819000
           ],
           [
-            14.253773057574064,
+            6.861375069871436,
             -23.579666809055958,
             -23.7831678333062,
             57.13006778360404,
             null
           ],
           [
-            13.601051353284648,
+            12.557681254618606,
             12.83403278453316,
             17.771198663933806,
             23.16889190616278,
@@ -7332,42 +7346,42 @@
             null
           ],
           [
-            6330000,
+            6587000,
             5964000,
             6098000,
             4882000,
             4036000
           ],
           [
-            2387000,
+            2184000,
             2791000,
             4596000,
             3450000,
             2657000
           ],
           [
-            4233000,
+            3244000,
             3983000,
             7862000,
             10854000,
             6440000
           ],
           [
-            1098000,
+            821000,
             1026000,
             2073000,
             2872000,
             934000
           ],
           [
-            3135000,
+            2423000,
             2957000,
             5789000,
             7982000,
             5506000
           ],
           [
-            5.215178081280255,
+            3.9789802118400526,
             5.303274866386886,
             10.986487512335838,
             15.052425133891528,
@@ -7381,28 +7395,28 @@
             null
           ],
           [
-            0.11000000000000001,
+            0.08000000000000002,
             0.11,
             0.24,
             0.33,
             0.24
           ],
           [
-            0.11000000000000001,
+            0.08000000000000002,
             0.11,
             0.24,
             0.33,
             0.24
           ],
           [
-            28809269,
+            29317745,
             27076437,
             24303340,
             24129542,
             23332356
           ],
           [
-            28781145,
+            29291460,
             27028936,
             24204706,
             24044950,
@@ -7439,35 +7453,35 @@
           "Total Equity"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            3457000,
             1458000,
             1800000,
-            4080000,
-            15255000
+            4080000
           ],
           [
+            3926000,
             3746000,
             3418000,
-            3746000,
-            3768000
+            3746000
           ],
           [
+            7945000,
             6572000,
             8201000,
-            6797000,
-            6013000
+            6797000
           ],
           [
+            15328000,
             11776000,
             13419000,
-            14623000,
-            25036000
+            14623000
           ],
           [
             null,
@@ -7478,32 +7492,32 @@
           [
             null,
             null,
-            2708000,
-            null
+            null,
+            2708000
           ],
           [
+            6390000,
             6512000,
             6512000,
-            6512000,
-            6511000
+            6512000
           ],
           [
+            5912000,
             5938000,
             5938000,
-            6062000,
-            8475000
+            6062000
           ],
           [
+            465470000,
             459928000,
             459224000,
-            453008000,
-            440630000
+            453008000
           ],
           [
+            493100000,
             484154000,
             485093000,
-            482913000,
-            480652000
+            482913000
           ],
           [
             null,
@@ -7512,58 +7526,58 @@
             null
           ],
           [
+            761000,
             1042000,
             1352000,
-            2251000,
-            933000
+            2251000
           ],
           [
+            3948000,
             3947000,
             3945000,
-            3942000,
-            3939000
+            3942000
           ],
           [
             null,
             null,
-            398000,
-            null
+            null,
+            398000
           ],
           [
+            15268000,
             12237000,
             14532000,
-            12634000,
-            16333000
+            12634000
           ],
           [
+            19977000,
             17226000,
             19829000,
-            19225000,
-            21205000
+            19225000
           ],
           [
+            127822000,
             127828000,
             129749000,
-            129756000,
-            116797000
+            129756000
           ],
           [
             null,
             null,
-            3014000,
-            null
+            null,
+            3014000
           ],
           [
+            123780000,
             126428000,
             121532000,
-            114546000,
-            136228000
+            114546000
           ],
           [
+            271579000,
             271482000,
             271110000,
-            266541000,
-            274230000
+            266541000
           ],
           [
             null,
@@ -7573,15 +7587,15 @@
           ],
           [
             -768000,
+            -768000,
             -1327000,
-            -961000,
-            0
+            -961000
           ],
           [
+            221521000,
             212672000,
             213983000,
-            216372000,
-            206422000
+            216372000
           ]
         ]
       },
@@ -7620,28 +7634,28 @@
         ],
         "data": [
           [
-            1458000,
+            3457000,
             4080000,
             9047000,
             3087000,
             6561000
           ],
           [
-            3746000,
+            3926000,
             3746000,
             3233000,
             3388000,
             2139000
           ],
           [
-            6572000,
+            7945000,
             6797000,
             7189000,
             5249000,
             5458000
           ],
           [
-            11776000,
+            15328000,
             14623000,
             19469000,
             11724000,
@@ -7662,28 +7676,28 @@
             1486000
           ],
           [
-            6512000,
+            6390000,
             6512000,
             9486000,
             10820000,
             4957000
           ],
           [
-            5938000,
+            5912000,
             6062000,
             6062000,
             8841000,
             10139000
           ],
           [
-            459928000,
+            465470000,
             453008000,
             369104000,
             328530000,
             292346000
           ],
           [
-            484154000,
+            493100000,
             482913000,
             405137000,
             361095000,
@@ -7697,14 +7711,14 @@
             null
           ],
           [
-            1042000,
+            761000,
             2251000,
             2051000,
             1027000,
             2173000
           ],
           [
-            3947000,
+            3948000,
             3942000,
             3926000,
             3880000,
@@ -7718,21 +7732,21 @@
             null
           ],
           [
-            12237000,
+            15268000,
             12634000,
             15787000,
             9310000,
             10243000
           ],
           [
-            17226000,
+            19977000,
             19225000,
             22258000,
             14217000,
             16249000
           ],
           [
-            127828000,
+            127822000,
             129756000,
             118518000,
             101341000,
@@ -7746,14 +7760,14 @@
             null
           ],
           [
-            126428000,
+            123780000,
             114546000,
             97548000,
             196917000,
             157498000
           ],
           [
-            271482000,
+            271579000,
             266541000,
             239015000,
             312475000,
@@ -7774,7 +7788,7 @@
             0
           ],
           [
-            212672000,
+            221521000,
             216372000,
             166122000,
             48620000,
@@ -7794,10 +7808,9 @@
           "",
           "CapEx",
           "Acquisitions",
-          "Other Investing",
           "Investing Cash Flow",
           "",
-          "Debt Issuance",
+          "Debt Repayment",
           "Stock Issuance",
           "Dividends Paid",
           "Other Financing",
@@ -7806,41 +7819,41 @@
           "Free Cash Flow"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            1005000,
             2747000,
             -366000,
-            -963000,
-            1717000
+            -963000
           ],
           [
             null,
             null,
-            4500000,
-            3555000
+            null,
+            4500000
           ],
           [
+            257000,
             229000,
             183000,
-            146000,
-            435000
+            146000
           ],
           [
+            5654000,
             1704000,
             4658000,
-            -991000,
-            2942000
+            -991000
           ],
           [
+            6916000,
             4680000,
             4475000,
-            2692000,
-            8649000
+            2692000
           ],
           [
             null,
@@ -7849,34 +7862,10 @@
             null
           ],
           [
+            -6893000,
             -6638000,
             -6277000,
-            -17692000,
-            -14234000
-          ],
-          [
-            null,
-            null,
-            0,
-            null
-          ],
-          [
-            null,
-            null,
-            null,
-            -8098000
-          ],
-          [
-            -6638000,
-            -6277000,
-            -17692000,
-            -22332000
-          ],
-          [
-            null,
-            null,
-            null,
-            null
+            -17692000
           ],
           [
             null,
@@ -7885,28 +7874,10 @@
             0
           ],
           [
-            0,
-            0,
-            0,
-            13088000
-          ],
-          [
-            -2188000,
-            -2186000,
-            -2185000,
-            -2088000
-          ],
-          [
-            4151000,
-            2025000,
-            6445000,
-            7882000
-          ],
-          [
-            1963000,
-            -161000,
-            4260000,
-            18882000
+            -6893000,
+            -6638000,
+            -6277000,
+            -17692000
           ],
           [
             null,
@@ -7915,10 +7886,46 @@
             null
           ],
           [
+            -28000,
+            null,
+            null,
+            -1940000
+          ],
+          [
+            10000000,
+            0,
+            0,
+            0
+          ],
+          [
+            -2216000,
+            -2188000,
+            -2186000,
+            -2185000
+          ],
+          [
+            -6794000,
+            4151000,
+            2025000,
+            8385000
+          ],
+          [
+            962000,
+            1963000,
+            -161000,
+            4260000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            23000,
             -1958000,
             -1802000,
-            -15000000,
-            -5585000
+            -15000000
           ]
         ]
       },
@@ -7932,7 +7939,6 @@
           "",
           "CapEx",
           "Acquisitions",
-          "Other Investing",
           "Investing Cash Flow",
           "",
           "Debt Issuance",
@@ -7953,7 +7959,7 @@
         ],
         "data": [
           [
-            3135000,
+            2423000,
             2957000,
             5789000,
             7982000,
@@ -7967,21 +7973,21 @@
             9890000
           ],
           [
-            993000,
+            815000,
             861000,
             1029000,
             1325000,
             null
           ],
           [
-            16368000,
+            15525000,
             1850000,
             2247000,
             4649000,
             7940000
           ],
           [
-            20496000,
+            18763000,
             20168000,
             21785000,
             25393000,
@@ -7995,7 +8001,7 @@
             null
           ],
           [
-            -44841000,
+            -37500000,
             -67321000,
             -32324000,
             -22312000,
@@ -8009,14 +8015,7 @@
             null
           ],
           [
-            -8098000,
-            null,
-            null,
-            null,
-            null
-          ],
-          [
-            -52939000,
+            -37500000,
             -75419000,
             -32478000,
             -28598000,
@@ -8044,28 +8043,28 @@
             null
           ],
           [
-            13088000,
+            10000000,
             44130000,
             0,
             2748000,
             14812000
           ],
           [
-            -8647000,
+            -8775000,
             -8201000,
             -7298000,
             -7185000,
             -6889000
           ],
           [
-            20503000,
+            5799000,
             3712000,
             5950000,
             2528000,
             -2952000
           ],
           [
-            24944000,
+            7024000,
             50930000,
             17086000,
             406000,
@@ -8079,7 +8078,7 @@
             null
           ],
           [
-            -24345000,
+            -18737000,
             -47153000,
             -10539000,
             3081000,
@@ -8101,17 +8100,17 @@
           "ROA %"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            0.7672823747309406,
             0.6836177870660629,
             0.6767360936002824,
-            0.7606241872561769,
-            1.1806649375147371
+            0.7606241872561769
           ],
           [
             null,
@@ -8120,40 +8119,40 @@
             null
           ],
           [
+            0.5948420240067533,
             0.619616122479687,
             0.6247879504446615,
-            0.6179080472519549,
-            0.5848988964354574
+            0.6179080472519549
           ],
           [
             null,
             null,
-            35.883612731703714,
-            41.7359365938527
+            null,
+            35.883612731703714
           ],
           [
+            -4649000,
             -5450000,
             -6410000,
-            -4602000,
-            3831000
+            -4602000
           ],
           [
+            128313000,
             130317000,
             131894000,
-            129618000,
-            105481000
+            129618000
           ],
           [
+            0.4536815922643903,
             1.2916603972314173,
             -0.17104162480197024,
-            -0.44506682934945374,
-            0.8317911850481053
+            -0.44506682934945374
           ],
           [
+            0.2038126140742243,
             0.5673814530087534,
             -0.07544944989929767,
-            -0.19941480142385895,
-            0.35722310528199197
+            -0.19941480142385895
           ]
         ]
       },
@@ -8177,7 +8176,7 @@
         ],
         "data": [
           [
-            0.6836177870660629,
+            0.7672823747309406,
             0.7606241872561769,
             0.8746967382514153,
             0.8246465499050433,
@@ -8191,7 +8190,7 @@
             null
           ],
           [
-            0.619616122479687,
+            0.5948420240067533,
             0.6179080472519549,
             0.7370727537592854,
             2.164150555327026,
@@ -8205,28 +8204,28 @@
             39.592648900017885
           ],
           [
-            -5450000,
+            -4649000,
             -4602000,
             -2789000,
             -2493000,
             -2091000
           ],
           [
-            130317000,
+            128313000,
             129618000,
             113397000,
             102134000,
             102217000
           ],
           [
-            1.4741009629852544,
+            1.0938014906035998,
             1.3666278446379383,
             3.4847882881255945,
             16.41711229946524,
             12.40257692480966
           ],
           [
-            0.647521243240787,
+            0.49138105860880144,
             0.6123256155870727,
             1.4288993599695905,
             2.2104986222462233,
@@ -8236,5 +8235,5 @@
       }
     }
   },
-  "last_updated": "2026-08-24T11:05:29+00:00"
+  "last_updated": "2026-11-19T19:13:19+00:00"
 }
