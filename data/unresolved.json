@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:01:29+00:00",
+  "generated_at": "2026-11-19T11:33:27+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3414,11 +3414,11 @@
         ]
       },
       "first_seen": "2026-11-17T11:33:03+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-18",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.5M with $1,119.4M of unexplained_liabilities (up to $1,831.9M)",
-      "last_tried": "2026-11-18T18:57:39+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-19",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$711.2M with $1,119.4M of unexplained_liabilities (up to $1,830.6M)",
+      "last_tried": "2026-11-19T11:30:35+00:00"
     },
     {
       "url_date": "2026-11-17",
@@ -3468,11 +3468,11 @@
         ]
       },
       "first_seen": "2026-11-17T11:33:03+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-18",
-      "last_reason": "cannot confirm EV < $1,000M for OIG: EV=$714.5M with $357.8M of unexplained_liabilities (up to $1,072.3M)",
-      "last_tried": "2026-11-18T18:57:39+00:00"
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-19",
+      "last_reason": "cannot confirm EV < $1,000M for OIG: EV=$719.2M with $357.8M of unexplained_liabilities (up to $1,077.0M)",
+      "last_tried": "2026-11-19T11:30:36+00:00"
     },
     {
       "url_date": "2026-11-18",
@@ -3522,7 +3522,291 @@
         ]
       },
       "first_seen": "2026-11-18T11:34:22+00:00",
-      "attempts": 1,
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-19",
+      "last_reason": "no share price for HRNG",
+      "last_tried": "2026-11-19T11:30:41+00:00"
+    },
+    {
+      "url_date": "2026-11-19",
+      "cik": "2124472",
+      "ticker": "OIG",
+      "name": "Orion180 Insurance Group Inc.",
+      "reason": "cannot confirm EV < $1,000M for OIG: EV=$719.2M with $357.8M of unexplained_liabilities (up to $1,077.0M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "OIG",
+        "name": "Orion180 Insurance Group Inc.",
+        "by_reporter": {
+          "1101998": {
+            "reporter_cik": "1101998",
+            "reporter_name": "DEUTSCH ROBERT V",
+            "relationship": "Director",
+            "total_value": 105881.49800000002,
+            "shares": 10323.0,
+            "txn_count": 4
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DEUTSCH ROBERT V",
+              "reporter_cik": "1101998",
+              "relationship": "Director",
+              "issuer_cik": "2124472",
+              "issuer_ticker": "OIG",
+              "issuer_name": "Orion180 Insurance Group Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-16",
+                "code": "P",
+                "shares": 331.0,
+                "price": 10.25,
+                "total_value": 3392.75,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 9670.0,
+                "price": 10.268,
+                "total_value": 99291.56000000001,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 1.0,
+                "price": 10.3,
+                "total_value": 10.3,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-18",
+                "code": "P",
+                "shares": 321.0,
+                "price": 9.928,
+                "total_value": 3186.8880000000004,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 105881.498
+          }
+        ]
+      },
+      "first_seen": "2026-11-19T11:33:27+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-11-19",
+      "cik": "319655",
+      "ticker": "SJT",
+      "name": "SAN JUAN BASIN ROYALTY TRUST",
+      "reason": "no companyfacts for CIK 319655",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "SJT",
+        "name": "SAN JUAN BASIN ROYALTY TRUST",
+        "by_reporter": {
+          "1168602": {
+            "reporter_cik": "1168602",
+            "reporter_name": "OLIVER ERIC L",
+            "relationship": "10% Owner",
+            "total_value": 2579768.0,
+            "shares": 568883.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "OLIVER ERIC L",
+              "reporter_cik": "1168602",
+              "relationship": "10% Owner",
+              "issuer_cik": "319655",
+              "issuer_ticker": "SJT",
+              "issuer_name": "SAN JUAN BASIN ROYALTY TRUST"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-11-16",
+                "code": "P",
+                "shares": 247292.0,
+                "price": 4.45,
+                "total_value": 1100449.4000000001,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Units of Beneficial Interest",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 321591.0,
+                "price": 4.6,
+                "total_value": 1479318.5999999999,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 2579768.0
+          }
+        ]
+      },
+      "first_seen": "2026-11-19T11:33:27+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-11-19",
+      "cik": "1464790",
+      "ticker": "RILY",
+      "name": "BRC Group Holdings, Inc.",
+      "reason": "cannot confirm EV < $1,000M for RILY: EV=$93.2M with $1,093.1M of unexplained_liabilities (up to $1,186.3M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "RILY",
+        "name": "BRC Group Holdings, Inc.",
+        "by_reporter": {
+          "1207269": {
+            "reporter_cik": "1207269",
+            "reporter_name": "RILEY BRYANT R",
+            "relationship": "Director, Officer (Chairman and Co-CEO), 10% Owner",
+            "total_value": 116767.2,
+            "shares": 38000.0,
+            "txn_count": 3
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "RILEY BRYANT R",
+              "reporter_cik": "1207269",
+              "relationship": "Director, Officer (Chairman and Co-CEO), 10% Owner",
+              "issuer_cik": "1464790",
+              "issuer_ticker": "RILY",
+              "issuer_name": "BRC Group Holdings, Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 14000.0,
+                "price": 2.9892,
+                "total_value": 41848.799999999996,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 12000.0,
+                "price": 3.1216,
+                "total_value": 37459.2,
+                "ownership": "I",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Common Stock",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 12000.0,
+                "price": 3.1216,
+                "total_value": 37459.2,
+                "ownership": "I",
+                "ad_code": "A"
+              }
+            ],
+            "value": 116767.19999999998
+          }
+        ]
+      },
+      "first_seen": "2026-11-19T11:33:27+00:00",
+      "attempts": 0,
+      "abandoned": false
+    },
+    {
+      "url_date": "2026-11-19",
+      "cik": "800457",
+      "ticker": "DGICA",
+      "name": "DONEGAL GROUP INC",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$711.2M with $1,119.4M of unexplained_liabilities (up to $1,830.6M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "DGICA",
+        "name": "DONEGAL GROUP INC",
+        "by_reporter": {
+          "935596": {
+            "reporter_cik": "935596",
+            "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+            "relationship": "10% Owner",
+            "total_value": 263297.3367,
+            "shares": 13761.0,
+            "txn_count": 2
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DONEGAL MUTUAL INSURANCE CO",
+              "reporter_cik": "935596",
+              "relationship": "10% Owner",
+              "issuer_cik": "800457",
+              "issuer_ticker": "DGICA",
+              "issuer_name": "DONEGAL GROUP INC"
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-16",
+                "code": "P",
+                "shares": 7500.0,
+                "price": 19.1911,
+                "total_value": 143933.25,
+                "ownership": "D",
+                "ad_code": "A"
+              },
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-17",
+                "code": "P",
+                "shares": 6261.0,
+                "price": 19.0647,
+                "total_value": 119364.08669999999,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 263297.3367
+          }
+        ]
+      },
+      "first_seen": "2026-11-19T11:33:27+00:00",
+      "attempts": 0,
       "abandoned": false
     }
   ]

@@ -1,0 +1,2201 @@
+{
+  "ticker": "OFRM",
+  "cik": "1696556",
+  "name": "Once Upon a Farm, PBC",
+  "description": "Once Upon A Farm, PBC produces and sells organic baby food pouches, meals, and snacks for children. The company provides pouches, including fruit an veggie blends, functional blends, and smoothies; frozen organic meals; and soft-baked bars for kids. It sells its products through retail stores, e-commerce platforms, and delivery platforms, as well as directly to consumers through platform. The company was founded in 2014 and is based in Berkeley, California.",
+  "ownership": {
+    "inst_pct": 0.91944003,
+    "insider_pct": 0.207,
+    "inst_count": 160,
+    "analyst_count": 9,
+    "rec_mean": 2.33333,
+    "rec_key": "buy",
+    "target_mean": 13.0,
+    "short_pct_float": 0.2731,
+    "shares_short": 5628418,
+    "short_days_to_cover": 14.6,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-19"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Morris Scott James",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 8500.0,
+      "price": 11.81,
+      "total_value": 100385.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001623963-26-000003"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 10.43,
+      "total_value": 104300.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001545600-26-000006"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 27624.0,
+      "price": 10.9,
+      "total_value": 301101.60000000003,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001184042-26-000003"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 4664.0,
+      "price": 10.72,
+      "total_value": 49998.08,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001202538-26-000002"
+    },
+    {
+      "date_filed": "2026-10-21",
+      "reporter_name": "Morris Scott James",
+      "relationship": "Director",
+      "transaction_date": "2026-10-19",
+      "code": "A",
+      "shares": 3806.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-427868"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Folena Chris",
+      "relationship": "Officer (Chief Accounting Officer)",
+      "transaction_date": "2026-09-14",
+      "code": "S",
+      "shares": -662.0,
+      "price": 16.98,
+      "total_value": -11240.76,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002086212-26-000002"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-09-14",
+      "code": "S",
+      "shares": -1102.0,
+      "price": 16.98,
+      "total_value": -18711.96,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001545597-26-000004"
+    },
+    {
+      "date_filed": "2026-09-16",
+      "reporter_name": "Curtis Cassandra Nicole",
+      "relationship": "Director, Officer (Chief Innovation Officer)",
+      "transaction_date": "2026-09-14",
+      "code": "S",
+      "shares": -68.0,
+      "price": 16.98,
+      "total_value": -1154.64,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002085778-26-000002"
+    },
+    {
+      "date_filed": "2026-08-12",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-08-10",
+      "code": "S",
+      "shares": -1206.0,
+      "price": 18.01,
+      "total_value": -21720.06,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-347382"
+    },
+    {
+      "date_filed": "2026-08-12",
+      "reporter_name": "Folena Chris",
+      "relationship": "Officer (Chief Accounting Officer)",
+      "transaction_date": "2026-08-10",
+      "code": "S",
+      "shares": -724.0,
+      "price": 18.01,
+      "total_value": -13039.240000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-347381"
+    },
+    {
+      "date_filed": "2026-08-12",
+      "reporter_name": "Curtis Cassandra Nicole",
+      "relationship": "Director, Officer (Chief Innovation Officer)",
+      "transaction_date": "2026-08-10",
+      "code": "S",
+      "shares": -75.0,
+      "price": 18.01,
+      "total_value": -1350.7500000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-347380"
+    },
+    {
+      "date_filed": "2026-08-06",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-08-05",
+      "code": "J",
+      "shares": -63393.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-338440"
+    },
+    {
+      "date_filed": "2026-08-06",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-08-05",
+      "code": "J",
+      "shares": 63393.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-338440"
+    },
+    {
+      "date_filed": "2026-08-06",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-08-05",
+      "code": "J",
+      "shares": -81514.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-338440"
+    },
+    {
+      "date_filed": "2026-08-06",
+      "reporter_name": "PEIROS LARRY",
+      "relationship": "Director",
+      "transaction_date": "2026-08-05",
+      "code": "J",
+      "shares": 81514.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-338440"
+    },
+    {
+      "date_filed": "2026-05-06",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-05-05",
+      "code": "A",
+      "shares": 68027.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001545597-26-000002"
+    },
+    {
+      "date_filed": "2026-03-16",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-03-12",
+      "code": "A",
+      "shares": 12285.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-108493"
+    },
+    {
+      "date_filed": "2026-03-16",
+      "reporter_name": "Folena Chris",
+      "relationship": "Officer (Chief Accounting Officer)",
+      "transaction_date": "2026-03-12",
+      "code": "A",
+      "shares": 7371.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-108475"
+    },
+    {
+      "date_filed": "2026-03-16",
+      "reporter_name": "Curtis Cassandra Nicole",
+      "relationship": "Director, Officer (Chief Innovation Officer)",
+      "transaction_date": "2026-03-12",
+      "code": "A",
+      "shares": 7371.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-108456"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 950166.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 234498.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 188683.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 1726216.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 1180868.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 688478.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 546040.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -950166.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Convertible Promissory Note for Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -234498.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -188683.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -688478.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Convertible Promissory Note for Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -1180868.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Convertible Promissory Note for Series C-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -546040.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-11",
+      "reporter_name": "S2G Investments, LLC",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -1726216.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001225208-26-001698"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 7411502.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 107749.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 2274219.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6112.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -107749.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -4804965.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -914243.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -874954.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -817340.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Thomas Brett J.",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -2274219.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043278"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 7411502.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 107749.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 2274219.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6112.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -107749.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -4804965.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -914243.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -874954.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -817340.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Jacobs Jared Noah",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -2274219.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043277"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 7411502.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 107749.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": 2274219.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -107749.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -4804965.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -914243.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -874954.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -817340.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "CAVU Venture Partners II, LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-02-09",
+      "code": "C",
+      "shares": -2274219.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043272"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 134303.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6112.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "P",
+      "shares": 5555.0,
+      "price": 18.0,
+      "total_value": 99990.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -16082.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -101354.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -6657.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "ROBB WALTER E IV",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -10210.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043268"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 473092.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 69445.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -59092.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -133294.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -96118.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -103037.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -57372.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -24179.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Curtis Cassandra Nicole",
+      "relationship": "Director, Officer (Chief Innovation Officer)",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6077.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043260"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Curtis Cassandra Nicole",
+      "relationship": "Director, Officer (Chief Innovation Officer)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -37400.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Appreciation Rights",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043260"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 239360.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 146683.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -58718.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series A-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -160259.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -20383.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series B-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -95632.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -51051.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series D Preferred Stock",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001193125-26-043259"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 22570.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043258"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -93500.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Appreciation Rights",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043258"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Bent Megan Reimers",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 46039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043257"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Bent Megan Reimers",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6112.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043257"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Bent Megan Reimers",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -16493.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-1 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043257"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Bent Megan Reimers",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "D",
+      "shares": -29546.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Series C-2 Preferred Stock",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043257"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Bazzano Dara",
+      "relationship": "Director",
+      "transaction_date": "2026-02-09",
+      "code": "A",
+      "shares": 6112.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043253"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Foraker John M.",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-02-05",
+      "code": "A",
+      "shares": 98288.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Employee Stock Options (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043262"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Curtis Cassandra Nicole",
+      "relationship": "Director, Officer (Chief Innovation Officer)",
+      "transaction_date": "2026-02-05",
+      "code": "A",
+      "shares": 8601.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Employee Stock Options (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043260"
+    },
+    {
+      "date_filed": "2026-02-09",
+      "reporter_name": "Waldman Lawrence Steven",
+      "relationship": "Officer (See Remarks)",
+      "transaction_date": "2026-02-05",
+      "code": "A",
+      "shares": -31944.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Employee Stock Options (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001193125-26-043258"
+    }
+  ],
+  "valuation": {
+    "share_price": 11.380000114440918,
+    "shares_basic": 42252755,
+    "shares_basic_as_of": "2026-11-08",
+    "options": null,
+    "warrants": null,
+    "cash": 106408000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 313215000.0,
+    "mc_basic": 480836356.73544407,
+    "ev_basic": 374428356.73544407
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            89067000,
+            85392000,
+            72720000,
+            66036000
+          ],
+          [
+            48.40295249679257,
+            68.74888840582574,
+            null,
+            null
+          ],
+          [
+            56915000,
+            54743000,
+            43042000,
+            38251000
+          ],
+          [
+            32152000,
+            30649000,
+            29678000,
+            27785000
+          ],
+          [
+            31.48488937962622,
+            60.524799664798614,
+            null,
+            null
+          ],
+          [
+            36.09866729540683,
+            35.892121041783774,
+            40.81133113311331,
+            42.07553455690835
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            36808000,
+            36288000,
+            45828000,
+            28837000
+          ],
+          [
+            36808000,
+            36288000,
+            45828000,
+            28837000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -4656000,
+            -5639000,
+            -16150000,
+            -1052000
+          ],
+          [
+            -23380.0,
+            38.61978883204528,
+            null,
+            null
+          ],
+          [
+            -5.227525346087776,
+            -6.603663106614203,
+            -22.20847084708471,
+            -1.593070446423163
+          ],
+          [
+            -4056000,
+            -5139000,
+            -15650000,
+            -752000
+          ],
+          [
+            -4.553875172622857,
+            -6.0181281618887015,
+            -21.52090209020902,
+            -1.1387727905990672
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            50000,
+            49000,
+            420000,
+            801000
+          ],
+          [
+            920000,
+            703000,
+            836000,
+            -8863000
+          ],
+          [
+            -3786000,
+            -4985000,
+            -15734000,
+            -10716000
+          ],
+          [
+            27000,
+            -35000,
+            77000,
+            539000
+          ],
+          [
+            -3813000,
+            -4950000,
+            -15811000,
+            -11255000
+          ],
+          [
+            -4.281046852369564,
+            -5.796795952782462,
+            -21.742299229922992,
+            -17.043733721000667
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.09,
+            -0.12,
+            -0.59,
+            -1.66
+          ],
+          [
+            -0.09,
+            -0.12,
+            -0.59,
+            -1.66
+          ],
+          [
+            42107010,
+            41934553,
+            26892105,
+            6786312
+          ],
+          [
+            42107010,
+            41934553,
+            26892105,
+            6786312
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %"
+        ],
+        "periods": [
+          "LTM"
+        ],
+        "data": [
+          [
+            313215000
+          ],
+          [
+            192951000
+          ],
+          [
+            120264000
+          ],
+          [
+            38.39662851396006
+          ],
+          [
+            null
+          ],
+          [
+            147761000
+          ],
+          [
+            147761000
+          ],
+          [
+            null
+          ],
+          [
+            -27497000
+          ],
+          [
+            -8.77895375381128
+          ],
+          [
+            -25597000
+          ],
+          [
+            -8.172341682231055
+          ],
+          [
+            null
+          ],
+          [
+            1320000
+          ],
+          [
+            -6404000
+          ],
+          [
+            -35221000
+          ],
+          [
+            608000
+          ],
+          [
+            -35829000
+          ],
+          [
+            -11.439107322446244
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Goodwill",
+          "Intangible Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            106408000,
+            93541000,
+            99886000,
+            null
+          ],
+          [
+            37896000,
+            36959000,
+            34563000,
+            null
+          ],
+          [
+            45591000,
+            51887000,
+            50269000,
+            null
+          ],
+          [
+            4266000,
+            4727000,
+            5208000,
+            null
+          ],
+          [
+            194161000,
+            187114000,
+            189926000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            10278000,
+            9794000,
+            9953000,
+            null
+          ],
+          [
+            4244000,
+            4244000,
+            4244000,
+            null
+          ],
+          [
+            502000,
+            522000,
+            541000,
+            null
+          ],
+          [
+            210047000,
+            202629000,
+            205691000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            14661000,
+            16005000,
+            16392000,
+            null
+          ],
+          [
+            169000,
+            166000,
+            157000,
+            null
+          ],
+          [
+            39519000,
+            30509000,
+            30703000,
+            null
+          ],
+          [
+            54349000,
+            46680000,
+            47252000,
+            null
+          ],
+          [
+            619000,
+            667000,
+            558000,
+            null
+          ],
+          [
+            54968000,
+            47347000,
+            47810000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -160311000,
+            -156498000,
+            -151548000,
+            null
+          ],
+          [
+            155079000,
+            155282000,
+            157881000,
+            -147597000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Goodwill",
+          "Intangible Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM"
+        ],
+        "data": [
+          [
+            106408000
+          ],
+          [
+            37896000
+          ],
+          [
+            45591000
+          ],
+          [
+            4266000
+          ],
+          [
+            194161000
+          ],
+          [
+            null
+          ],
+          [
+            10278000
+          ],
+          [
+            4244000
+          ],
+          [
+            502000
+          ],
+          [
+            210047000
+          ],
+          [
+            null
+          ],
+          [
+            14661000
+          ],
+          [
+            169000
+          ],
+          [
+            39519000
+          ],
+          [
+            54349000
+          ],
+          [
+            619000
+          ],
+          [
+            54968000
+          ],
+          [
+            null
+          ],
+          [
+            -160311000
+          ],
+          [
+            155079000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            -3813000,
+            -4950000,
+            -15811000,
+            -11255000
+          ],
+          [
+            600000,
+            500000,
+            500000,
+            300000
+          ],
+          [
+            2995000,
+            2471000,
+            4338000,
+            997000
+          ],
+          [
+            13479000,
+            -3042000,
+            -1867000,
+            3895000
+          ],
+          [
+            13261000,
+            -5021000,
+            -12840000,
+            -6063000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1009000,
+            -983000,
+            -1446000,
+            -1515000
+          ],
+          [
+            -1009000,
+            -983000,
+            -1446000,
+            -1515000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            0,
+            155366000,
+            0
+          ],
+          [
+            615000,
+            null,
+            -52054000,
+            4331000
+          ],
+          [
+            615000,
+            -341000,
+            103312000,
+            4331000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            12252000,
+            -6004000,
+            -14286000,
+            -7578000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM"
+        ],
+        "data": [
+          [
+            -35829000
+          ],
+          [
+            1900000
+          ],
+          [
+            10801000
+          ],
+          [
+            12465000
+          ],
+          [
+            -10663000
+          ],
+          [
+            null
+          ],
+          [
+            -4953000
+          ],
+          [
+            -4953000
+          ],
+          [
+            null
+          ],
+          [
+            155366000
+          ],
+          [
+            -47449000
+          ],
+          [
+            107917000
+          ],
+          [
+            null
+          ],
+          [
+            -15616000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "9/30/25"
+        ],
+        "data": [
+          [
+            3.572485234318939,
+            4.0084404455869755,
+            4.019427749089986,
+            null
+          ],
+          [
+            2.733628953614602,
+            2.8968937446443874,
+            2.9555785998476254,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -4.553875172622857,
+            -6.0181281618887015,
+            -21.52090209020902,
+            -1.1387727905990672
+          ],
+          [
+            139812000,
+            140434000,
+            142674000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -2.458746832259687,
+            -3.1877487410002447,
+            -10.014504595233118,
+            7.62549374309776
+          ],
+          [
+            -1.8153080024946797,
+            -2.4428882341619413,
+            -7.6867728777632465,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM"
+        ],
+        "data": [
+          [
+            3.572485234318939
+          ],
+          [
+            2.733628953614602
+          ],
+          [
+            null
+          ],
+          [
+            -8.172341682231055
+          ],
+          [
+            139812000
+          ],
+          [
+            null
+          ],
+          [
+            -23.10370843247635
+          ],
+          [
+            -17.057610915652212
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-19T11:37:07+00:00"
+}

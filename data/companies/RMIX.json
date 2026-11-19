@@ -4,9 +4,9 @@
   "name": "Suncrete, Inc.",
   "description": "Suncrete, Inc. provides ready-mix concrete logistics and distribution platform serving construction markets in the United States Sunbelt region. The company operates batching plants, tech-enabled mixer truck dispatch, and logistics. The company owns 595 mixer trucks. It serves customers of public infrastructure, commercial, and residential sectors. The company is based in Tulsa, Oklahoma.",
   "ownership": {
-    "inst_pct": 0.60145,
+    "inst_pct": 0.61842996,
     "insider_pct": 0.15592,
-    "inst_count": 91,
+    "inst_count": 92,
     "analyst_count": 6,
     "rec_mean": 1.33333,
     "rec_key": "strong_buy",
@@ -15,9 +15,79 @@
     "shares_short": 2573392,
     "short_days_to_cover": 4.18,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-18"
+    "as_of": "2026-11-19"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Rees-Jones David",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 16470.0,
+      "price": 6.75,
+      "total_value": 111172.5,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-467461"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Johnston Bretton A.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 5.93,
+      "total_value": 11860.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-467469"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Rees-Jones David",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 6.2,
+      "total_value": 620000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-467461"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Matteson Mark R",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 5.51,
+      "total_value": 55100.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-467423"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Jones Mark Alan",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 8400.0,
+      "price": 5.96,
+      "total_value": 50064.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-467421"
+    },
     {
       "date_filed": "2026-11-17",
       "reporter_name": "Fleming Ned N III",
@@ -370,7 +440,7 @@
     }
   ],
   "valuation": {
-    "share_price": 7.5,
+    "share_price": 7.53000020980835,
     "shares_basic": 75379654.0,
     "shares_basic_as_of": "2026-11-11",
     "options": 0,
@@ -379,8 +449,8 @@
     "debt": 260580000,
     "debt_flag": null,
     "ttm_revenue": 238188000.0,
-    "mc_basic": 565347405.0,
-    "ev_basic": 776878405.0
+    "mc_basic": 567608810.4352808,
+    "ev_basic": 779139810.4352808
   },
   "financials": {
     "income_statement": {
@@ -1194,5 +1264,5 @@
       }
     }
   },
-  "last_updated": "2026-11-18T19:03:51+00:00"
+  "last_updated": "2026-11-19T11:47:06+00:00"
 }
