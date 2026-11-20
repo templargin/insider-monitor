@@ -2,22 +2,176 @@
   "ticker": "CWBC",
   "cik": "1127371",
   "name": "Community West Bancshares",
-  "description": "Community West Bancshares operates as the bank holding company for Community West Bank, a California state-chartered commercial bank that provides a range of banking products and services to businesses, agribusiness customers, professionals, and individuals throughout Central California. The company accepts checking, savings, money market, and time deposit accounts, including certificates of deposit and non-interest-bearing demand deposits. It offers commercial and industrial loans; commercial real estate, construction, agricultural, farmland, multifamily, residential construction, mortgage, manufactured housing, SBA, and consumer loans; as well as lines of credit and other lending products. The company also provides private banking, treasury management, cash management, online and mobile banking, remote deposit capture, domestic and international wire transfers, bill payment, account transfers, and other customary banking services. Community West Bank operates full-service banking centers across Greater Sacramento, the San Joaquin Valley, and the Central Coast. The company was formerly known as Central Valley Community Bancorp and changed its name to Community West Bancshares in November 2000. Community West Bancshares was founded in 1979 and is based in Fresno, California.",
+  "description": "Community West Bancshares operates as the bank holding company for Community West Bank, a California state-chartered commercial bank that provides a range of banking products and services to businesses, agribusiness customers, professionals, and individuals throughout Central California. The company accepts checking, savings, money market, and time deposit accounts, including certificates of deposit and non-interest-bearing demand deposits. It offers commercial and industrial loans; commercial real estate, construction, agricultural, farmland, multifamily, residential construction, mortgage, manufactured housing, SBA, and consumer loans; as well as lines of credit and other lending products. The company also provides private banking, treasury management, cash management, online and mobile banking, remote deposit capture, domestic and international wire transfers, bill payment, account transfers, and other customary banking services. Community West Bank operates full-service banking centers across Greater Sacramento, the San Joaquin Valley, and the Central Coast. The company was formerly known as Central Valley Community Bancorp and changed its name to Community West Bancshares in April 2024. Community West Bancshares was founded in 1979 and is based in Fresno, California.",
   "ownership": {
-    "inst_pct": 0.47987,
-    "insider_pct": 0.0939,
-    "inst_count": 186,
-    "analyst_count": 4,
-    "rec_mean": 2.0,
-    "rec_key": "buy",
-    "target_mean": 29.625,
-    "short_pct_float": 0.048499998,
-    "shares_short": 1205801,
-    "short_days_to_cover": 2.33,
-    "short_as_of": "2026-07-15",
-    "as_of": "2026-08-11"
+    "inst_pct": 0.64891,
+    "insider_pct": 0.092810005,
+    "inst_count": 188,
+    "analyst_count": 5,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 30.1,
+    "short_pct_float": 0.0695,
+    "shares_short": 1728703,
+    "short_days_to_cover": 9.31,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-20"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Plourd Martin E",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "G",
+      "shares": -2700.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075022"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Plourd Martin E",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "M",
+      "shares": 6557.0,
+      "price": 13.33,
+      "total_value": 87404.81,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075022"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Plourd Martin E",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "M",
+      "shares": -6557.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "CWBC - Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075022"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "GILL JAGROOP",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 12000.0,
+      "price": 24.499,
+      "total_value": 293988.0,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075017"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "Plourd Martin E",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "S",
+      "shares": -40000.0,
+      "price": 24.5339,
+      "total_value": -981356.0,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-074704"
+    },
+    {
+      "date_filed": "2026-10-13",
+      "reporter_name": "LAUHON BLAINE",
+      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
+      "transaction_date": "2026-10-09",
+      "code": "F",
+      "shares": -952.0,
+      "price": 25.71,
+      "total_value": -24475.920000000002,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-065657"
+    },
+    {
+      "date_filed": "2026-10-13",
+      "reporter_name": "LAUHON BLAINE",
+      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
+      "transaction_date": "2026-10-09",
+      "code": "F",
+      "shares": -218.0,
+      "price": 25.71,
+      "total_value": -5604.78,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-065657"
+    },
+    {
+      "date_filed": "2026-09-01",
+      "reporter_name": "CAGLE DAWN M",
+      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 188.0,
+      "price": 21.51,
+      "total_value": 4043.88,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059852"
+    },
+    {
+      "date_filed": "2026-09-01",
+      "reporter_name": "LIVINGSTON SHANNON R",
+      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 107.0,
+      "price": 21.51,
+      "total_value": 2301.57,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-059851"
+    },
+    {
+      "date_filed": "2026-08-24",
+      "reporter_name": "LOKEY JAMES W",
+      "relationship": "Director",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 54.23,
+      "price": 25.9176,
+      "total_value": 1405.511448,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058717"
+    },
+    {
+      "date_filed": "2026-08-21",
+      "reporter_name": "STOVESAND KIRK",
+      "relationship": "Director",
+      "transaction_date": "2026-08-21",
+      "code": "P",
+      "shares": 255.0,
+      "price": 26.1,
+      "total_value": 6655.5,
+      "security_title": "CWBC - Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-058503"
+    },
     {
       "date_filed": "2026-08-10",
       "reporter_name": "GILL JAGROOP",
@@ -2453,206 +2607,24 @@
       "table": "nonDerivative",
       "ownership": "D",
       "accession": "0001628280-24-049199"
-    },
-    {
-      "date_filed": "2024-11-05",
-      "reporter_name": "CUNNINGHAM DANIEL N",
-      "relationship": "Director",
-      "transaction_date": "2024-11-04",
-      "code": "G",
-      "shares": -6200.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-045309"
-    },
-    {
-      "date_filed": "2024-11-01",
-      "reporter_name": "BARTLEIN ROBERT",
-      "relationship": "Director",
-      "transaction_date": "2024-11-01",
-      "code": "P",
-      "shares": 1000.0,
-      "price": 18.7,
-      "total_value": 18700.0,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-044702"
-    },
-    {
-      "date_filed": "2024-11-01",
-      "reporter_name": "BARTLEIN ROBERT",
-      "relationship": "Director",
-      "transaction_date": "2024-11-01",
-      "code": "P",
-      "shares": 1000.0,
-      "price": 18.8,
-      "total_value": 18800.0,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-044702"
-    },
-    {
-      "date_filed": "2024-09-24",
-      "reporter_name": "GILIO TERESA",
-      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
-      "transaction_date": "2024-09-24",
-      "code": "F",
-      "shares": -968.0,
-      "price": 20.1,
-      "total_value": -19456.800000000003,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-041233"
-    },
-    {
-      "date_filed": "2024-09-16",
-      "reporter_name": "SILVA DOROTHEA D",
-      "relationship": "Director",
-      "transaction_date": "2024-09-13",
-      "code": "S",
-      "shares": -1400.0,
-      "price": 20.07,
-      "total_value": -28098.0,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-040429"
-    },
-    {
-      "date_filed": "2024-09-05",
-      "reporter_name": "Plourd Martin E",
-      "relationship": "Director, Officer (PRESIDENT)",
-      "transaction_date": "2024-08-31",
-      "code": "P",
-      "shares": 452.0,
-      "price": 15.63,
-      "total_value": 7064.76,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-039524"
-    },
-    {
-      "date_filed": "2024-09-05",
-      "reporter_name": "MARTIN JEFFREY MICHAEL",
-      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
-      "transaction_date": "2024-08-31",
-      "code": "P",
-      "shares": 98.0,
-      "price": 15.63,
-      "total_value": 1531.74,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-039522"
-    },
-    {
-      "date_filed": "2024-09-05",
-      "reporter_name": "Avrett Shannon R",
-      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
-      "transaction_date": "2024-08-31",
-      "code": "P",
-      "shares": 57.0,
-      "price": 15.63,
-      "total_value": 890.9100000000001,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-039520"
-    },
-    {
-      "date_filed": "2024-09-05",
-      "reporter_name": "CAGLE DAWN M",
-      "relationship": "Officer (EXECUTIVE VICE PRESIDENT)",
-      "transaction_date": "2024-08-31",
-      "code": "P",
-      "shares": 104.0,
-      "price": 15.63,
-      "total_value": 1625.52,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-039518"
-    },
-    {
-      "date_filed": "2024-08-20",
-      "reporter_name": "LOKEY JAMES W",
-      "relationship": "Director",
-      "transaction_date": "2024-08-16",
-      "code": "J",
-      "shares": 64.985,
-      "price": 19.77,
-      "total_value": 1284.75345,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-037953"
-    },
-    {
-      "date_filed": "2024-08-19",
-      "reporter_name": "MCMURRAY LOUIS C",
-      "relationship": "Director",
-      "transaction_date": "2024-08-19",
-      "code": "G",
-      "shares": -12000.0,
-      "price": 0.0,
-      "total_value": -0.0,
-      "security_title": "CVCY Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-037815"
-    },
-    {
-      "date_filed": "2024-08-19",
-      "reporter_name": "STOVESAND KIRK",
-      "relationship": "Director",
-      "transaction_date": "2024-08-16",
-      "code": "J",
-      "shares": 421.0,
-      "price": 19.77,
-      "total_value": 8323.17,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-037813"
-    },
-    {
-      "date_filed": "2024-08-19",
-      "reporter_name": "Chadwick Suzanne Marie",
-      "relationship": "Director",
-      "transaction_date": "2024-08-16",
-      "code": "J",
-      "shares": 18.35,
-      "price": 19.43,
-      "total_value": 356.5405,
-      "security_title": "CWBC - Common Stock",
-      "table": "nonDerivative",
-      "ownership": "D",
-      "accession": "0001628280-24-037811"
     }
   ],
   "valuation": {
-    "share_price": 24.899999618530273,
-    "shares_basic": 27131078,
-    "shares_basic_as_of": "2026-08-10",
+    "share_price": 24.059999465942383,
+    "shares_basic": 27138206,
+    "shares_basic_as_of": "2026-11-05",
     "options": 133916,
     "warrants": 0,
-    "cash": 206837000,
-    "debt": 250291000,
+    "cash": 178261000,
+    "debt": 115912000,
     "debt_flag": {
       "reason": "financial_institution",
       "amount": null,
       "concept": null
     },
-    "ttm_revenue": 214888000.0,
-    "mc_basic": 675563831.8503151,
-    "ev_basic": 719017831.8503151
+    "ttm_revenue": 237894000.0,
+    "mc_basic": 652945221.8666344,
+    "ev_basic": 590596221.8666344
   },
   "financials": {
     "income_statement": {
@@ -2675,23 +2647,23 @@
           "Basic Avg Shares"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            72860000,
             64149000,
             50680000,
-            50205000,
-            49854000
+            50205000
           ],
           [
+            46.14674850563646,
             32.569385604166236,
             6.138348447087897,
-            5.070947218617889,
-            7.467126535891356
+            5.070947218617889
           ],
           [
             null,
@@ -2700,10 +2672,10 @@
             null
           ],
           [
+            46168000,
             39143000,
             22987000,
-            22452000,
-            22167000
+            22452000
           ],
           [
             null,
@@ -2712,34 +2684,34 @@
             null
           ],
           [
+            53344000,
             50912000,
             36003000,
-            35749000,
-            34944000
+            35749000
           ],
           [
+            11278000,
             4164000,
             15714000,
-            15329000,
-            15076000
+            15329000
           ],
           [
+            3212000,
             1469000,
             4225000,
-            4159000,
-            4203000
+            4159000
           ],
           [
+            8066000,
             2695000,
             11489000,
-            11170000,
-            10873000
+            11170000
           ],
           [
+            11.070546253088114,
             4.201156682099487,
             22.669692186266772,
-            22.248780001991832,
-            21.80968427809203
+            22.248780001991832
           ],
           [
             null,
@@ -2748,28 +2720,28 @@
             null
           ],
           [
+            0.3,
             0.1,
             0.6,
-            0.5800000000000001,
-            0.57
+            0.5800000000000001
           ],
           [
+            0.3,
             0.1,
             0.6,
-            0.5899999999999999,
-            0.57
+            0.5899999999999999
           ],
           [
+            27144648,
             27108920,
             19137134,
-            null,
-            19093544
+            null
           ],
           [
+            27083107,
             27051374,
             19060177,
-            null,
-            19019990
+            null
           ]
         ]
       },
@@ -2803,14 +2775,14 @@
         ],
         "data": [
           [
-            214888000,
+            237894000,
             196198000,
             166833000,
             109438000,
             88042000
           ],
           [
-            9.526090989714472,
+            21.25200053007676,
             17.60143376909844,
             52.44522012463678,
             24.302037663842256,
@@ -2845,7 +2817,7 @@
             null
           ],
           [
-            106749000,
+            130750000,
             90386000,
             94701000,
             55300000,
@@ -2859,35 +2831,35 @@
             null
           ],
           [
-            157608000,
+            176008000,
             136180000,
             110367000,
             19989000,
             3422000
           ],
           [
-            50283000,
+            46485000,
             52528000,
             10998000,
             34949000,
             35141000
           ],
           [
-            14056000,
+            13065000,
             14360000,
             3332000,
             8304000,
             8496000
           ],
           [
-            36227000,
+            33420000,
             38168000,
             7666000,
             26645000,
             26645000
           ],
           [
-            16.858549570008563,
+            14.048273600847436,
             19.453817062355377,
             4.5950141758525,
             24.347118916646867,
@@ -2901,28 +2873,28 @@
             null
           ],
           [
-            1.85,
+            1.58,
             2,
             0.45,
             2.17,
             2.27
           ],
           [
-            1.8599999999999999,
+            1.5899999999999999,
             2.01,
             0.45,
             2.17,
             2.27
           ],
           [
-            27108920,
+            27144648,
             19069289,
             17179796,
             11752872,
             11739074
           ],
           [
-            27051374,
+            27083107,
             18996714,
             17077017,
             11728858,
@@ -2951,17 +2923,17 @@
           "Total Equity"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            178261000,
             206837000,
             130326000,
-            118984000,
-            121558000
+            118984000
           ],
           [
             null,
@@ -2970,40 +2942,40 @@
             null
           ],
           [
+            47792000,
             39286000,
             25387000,
-            23545000,
-            23569000
+            23545000
           ],
           [
             null,
             null,
-            10405000,
-            null
+            null,
+            10405000
           ],
           [
+            155088000,
             154600000,
-            96828000,
             96828000,
             96828000
           ],
           [
+            30849000,
             32723000,
             8015000,
-            8266000,
-            8516000
+            8266000
           ],
           [
+            4601098000,
             4600794000,
             3442427000,
-            3432289000,
-            3361793000
+            3432289000
           ],
           [
+            5013088000,
             5034240000,
             3702983000,
-            3690317000,
-            3612264000
+            3690317000
           ],
           [
             null,
@@ -3014,20 +2986,20 @@
           [
             null,
             null,
-            69526000,
-            null
+            null,
+            69526000
           ],
           [
+            4410902000,
             4426420000,
             3283780000,
-            3211203000,
-            3214688000
+            3211203000
           ],
           [
+            4410902000,
             4426420000,
             3283780000,
-            3280729000,
-            3214688000
+            3280729000
           ],
           [
             null,
@@ -3036,16 +3008,16 @@
             null
           ],
           [
+            252430000,
             247619000,
             248180000,
-            238990000,
-            230119000
+            238990000
           ],
           [
+            602186000,
             607820000,
             419203000,
-            409588000,
-            397576000
+            409588000
           ]
         ]
       },
@@ -3076,7 +3048,7 @@
         ],
         "data": [
           [
-            206837000,
+            178261000,
             118984000,
             120398000,
             53728000,
@@ -3090,7 +3062,7 @@
             null
           ],
           [
-            39286000,
+            47792000,
             23545000,
             24469000,
             14042000,
@@ -3104,28 +3076,28 @@
             10629000
           ],
           [
-            154600000,
+            155088000,
             96828000,
             96828000,
             53777000,
             53777000
           ],
           [
-            32723000,
+            30849000,
             8266000,
             9268000,
             0,
             68000
           ],
           [
-            4600794000,
+            4601098000,
             3432289000,
             3261299000,
             2303568000,
             2318888000
           ],
           [
-            5034240000,
+            5013088000,
             3690317000,
             3521771000,
             2433426000,
@@ -3146,14 +3118,14 @@
             null
           ],
           [
-            4426420000,
+            4410902000,
             3211203000,
             3089197000,
             2156618000,
             2247859000
           ],
           [
-            4426420000,
+            4410902000,
             3280729000,
             3159086000,
             2226362000,
@@ -3167,14 +3139,14 @@
             null
           ],
           [
-            247619000,
+            252430000,
             238990000,
             209984000,
             210548000,
             194400000
           ],
           [
-            607820000,
+            602186000,
             409588000,
             362685000,
             207064000,
@@ -3203,35 +3175,35 @@
           "Free Cash Flow"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
+            8066000,
             2695000,
             11489000,
-            11170000,
-            10873000
+            11170000
           ],
           [
+            335000,
             305000,
             278000,
-            283000,
-            275000
+            283000
           ],
           [
+            12488000,
             16564000,
             -845000,
-            -1134000,
-            2057000
+            -1134000
           ],
           [
+            20889000,
             19564000,
             10922000,
-            10319000,
-            13205000
+            10319000
           ],
           [
             null,
@@ -3240,22 +3212,22 @@
             null
           ],
           [
+            -2959000,
             -2110000,
             -2719000,
-            -813000,
-            -424000
+            -813000
           ],
           [
+            -9845000,
             2182000,
             -1698000,
-            -81646000,
-            -38199000
+            -81646000
           ],
           [
+            -12804000,
             72000,
             -4417000,
-            -82459000,
-            -38623000
+            -82459000
           ],
           [
             null,
@@ -3264,28 +3236,28 @@
             null
           ],
           [
+            0,
             -170000,
             -57000,
-            0,
             0
           ],
           [
+            -3255000,
             -3256000,
             -2299000,
-            -2299000,
-            -2296000
+            -2299000
           ],
           [
+            -33406000,
             60301000,
             7193000,
-            71865000,
-            14899000
+            71865000
           ],
           [
+            -36661000,
             56875000,
             4837000,
-            69566000,
-            12603000
+            69566000
           ],
           [
             null,
@@ -3294,10 +3266,10 @@
             null
           ],
           [
+            17930000,
             17454000,
             8203000,
-            9506000,
-            12781000
+            9506000
           ]
         ]
       },
@@ -3331,7 +3303,7 @@
         ],
         "data": [
           [
-            36227000,
+            33420000,
             38168000,
             7666000,
             26645000,
@@ -3345,21 +3317,21 @@
             755000
           ],
           [
-            1141000,
+            1201000,
             1158000,
             879000,
             858000,
             776000
           ],
           [
-            16642000,
+            27073000,
             3515000,
             11451000,
             -867000,
             -4503000
           ],
           [
-            54010000,
+            61694000,
             46120000,
             22202000,
             27527000,
@@ -3373,7 +3345,7 @@
             null
           ],
           [
-            -6066000,
+            -8601000,
             -2509000,
             -5039000,
             -9806000,
@@ -3387,14 +3359,14 @@
             0
           ],
           [
-            -119361000,
+            -91007000,
             -157997000,
             10991000,
             34325000,
             -196713000
           ],
           [
-            -125427000,
+            -99608000,
             -160506000,
             64473000,
             24519000,
@@ -3422,21 +3394,21 @@
             -6814000
           ],
           [
-            -10150000,
+            -11109000,
             -14200000,
             -14000000,
             -6963000,
             -38000000
           ],
           [
-            154258000,
+            105953000,
             127323000,
             -5967000,
             -139024000,
             85919000
           ],
           [
-            143881000,
+            94617000,
             112972000,
             -20005000,
             -29488000,
@@ -3450,7 +3422,7 @@
             null
           ],
           [
-            47944000,
+            53093000,
             43611000,
             17163000,
             17721000,
@@ -3472,10 +3444,10 @@
           "ROA %"
         ],
         "periods": [
+          "9/30/26",
           "6/30/26",
           "3/31/26",
-          "12/31/25",
-          "9/30/25"
+          "12/31/25"
         ],
         "data": [
           [
@@ -3493,8 +3465,8 @@
           [
             null,
             null,
-            0.1697461839702335,
-            null
+            null,
+            0.1697461839702335
           ],
           [
             null,
@@ -3511,20 +3483,20 @@
           [
             null,
             null,
-            -49458000,
-            null
+            null,
+            -49458000
           ],
           [
+            1.339453258627733,
             0.44338784508571616,
             2.740676951262276,
-            2.727130677656572,
-            2.7348230275469345
+            2.727130677656572
           ],
           [
+            0.1608988312194001,
             0.05353340325451309,
             0.31026337414997585,
-            0.3026840241637778,
-            0.30100236306095013
+            0.3026840241637778
           ]
         ]
       },
@@ -3590,14 +3562,14 @@
             null
           ],
           [
-            5.96015267677931,
+            5.5497803004387345,
             9.318632381808062,
             2.1136799150778223,
             12.868002163582274,
             15.588343698260681
           ],
           [
-            0.7196120963640986,
+            0.6666549639663217,
             1.0342742913413672,
             0.2176745733893544,
             1.094958301587967,
@@ -3607,5 +3579,5 @@
       }
     }
   },
-  "last_updated": "2026-08-11T11:17:46+00:00"
+  "last_updated": "2026-11-20T18:47:32+00:00"
 }

@@ -19,6 +19,34 @@
   },
   "form4_filings": [
     {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Nauman Clynton R.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 7500.0,
+      "price": 10.06,
+      "total_value": 75450.0,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-469337"
+    },
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "JUNEAU JOHN B",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 9705.0,
+      "price": 10.03,
+      "total_value": 97341.15,
+      "security_title": "Common Stock, par value $0.01",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-469338"
+    },
+    {
       "date_filed": "2026-11-19",
       "reporter_name": "Van Nieuwenhuyse Rick",
       "relationship": "Director, Officer (CEO)",
@@ -692,7 +720,7 @@
     }
   ],
   "valuation": {
-    "share_price": 9.9399995803833,
+    "share_price": 9.539999961853027,
     "shares_basic": 33790119,
     "shares_basic_as_of": "2026-11-13",
     "options": 356361,
@@ -701,8 +729,8 @@
     "debt": 75117166,
     "debt_flag": null,
     "ttm_revenue": 6883366.0,
-    "mc_basic": 335873768.6811018,
-    "ev_basic": 354346963.6811018
+    "mc_basic": 322357733.97100925,
+    "ev_basic": 340830928.97100925
   },
   "financials": {
     "income_statement": {
@@ -1770,5 +1798,5 @@
       }
     }
   },
-  "last_updated": "2026-11-20T11:39:25+00:00"
+  "last_updated": "2026-11-20T18:47:47+00:00"
 }
