@@ -4,9 +4,9 @@
   "name": "JOINT Corp",
   "description": "The Joint Corp. operates and is a franchisor and operator of chiropractic clinics in the United States. The company provides services under the franchise agreement, including training of franchisees and staff, site selection, construction/vendor management and ongoing operations support. It operates through a network of franchised clinics, offering routine and affordable chiropractic adjustments using a private pay, non-insurance, cash-based model. The company was incorporated in 2010 and is headquartered in Scottsdale, Arizona.",
   "ownership": {
-    "inst_pct": 0.69792,
-    "insider_pct": 0.16768,
-    "inst_count": 101,
+    "inst_pct": 0.65472,
+    "insider_pct": 0.18545,
+    "inst_count": 102,
     "analyst_count": 3,
     "rec_mean": 2.5,
     "rec_key": "buy",
@@ -15,9 +15,93 @@
     "shares_short": 323477,
     "short_days_to_cover": 4.78,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-13"
+    "as_of": "2026-11-20"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "JOBSON CHARLES E",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 44963.0,
+      "price": 6.65,
+      "total_value": 299003.95,
+      "security_title": "Common",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-014596"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "JOBSON CHARLES E",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 10396.0,
+      "price": 6.65,
+      "total_value": 69133.40000000001,
+      "security_title": "Common",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-014596"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "JOBSON CHARLES E",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 1614.0,
+      "price": 6.65,
+      "total_value": 10733.1,
+      "security_title": "Common",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-014596"
+    },
+    {
+      "date_filed": "2026-11-18",
+      "reporter_name": "JOBSON CHARLES E",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 1483.0,
+      "price": 6.65,
+      "total_value": 9861.95,
+      "security_title": "Common",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-014561"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "JOBSON CHARLES E",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-10",
+      "code": "P",
+      "shares": 2825.0,
+      "price": 6.65,
+      "total_value": 18786.25,
+      "security_title": "Common",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-014514"
+    },
+    {
+      "date_filed": "2026-11-13",
+      "reporter_name": "JOBSON CHARLES E",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-10",
+      "code": "P",
+      "shares": 2825.0,
+      "price": 6.65,
+      "total_value": 18786.25,
+      "security_title": "Common",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001214659-26-014168"
+    },
     {
       "date_filed": "2026-11-12",
       "reporter_name": "JOBSON CHARLES E",
@@ -538,7 +622,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.90500020980835,
+    "share_price": 6.429999828338623,
     "shares_basic": 13689211,
     "shares_basic_as_of": "2026-11-02",
     "options": 899370,
@@ -547,8 +631,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 58720902.0,
-    "mc_basic": 94524004.82711077,
-    "ev_basic": 76224945.82711077
+    "mc_basic": 88021624.38009119,
+    "ev_basic": 69722565.38009119
   },
   "financials": {
     "income_statement": {
@@ -1712,5 +1796,5 @@
       }
     }
   },
-  "last_updated": "2026-11-13T18:04:39+00:00"
+  "last_updated": "2026-11-20T11:42:14+00:00"
 }

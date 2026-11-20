@@ -5,7 +5,7 @@
   "description": "Suncrete, Inc. provides ready-mix concrete logistics and distribution platform serving construction markets in the United States Sunbelt region. The company operates batching plants, tech-enabled mixer truck dispatch, and logistics. The company owns 595 mixer trucks. It serves customers of public infrastructure, commercial, and residential sectors. The company is based in Tulsa, Oklahoma.",
   "ownership": {
     "inst_pct": 0.61842996,
-    "insider_pct": 0.15592,
+    "insider_pct": 0.15612,
     "inst_count": 92,
     "analyst_count": 6,
     "rec_mean": 1.33333,
@@ -15,9 +15,37 @@
     "shares_short": 2573392,
     "short_days_to_cover": 4.18,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-20"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "HEYER ANDREW R",
+      "relationship": "Director",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 7.0,
+      "total_value": 70000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-469031"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "HEYER ANDREW R",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 15000.0,
+      "price": 7.52,
+      "total_value": 112800.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-469031"
+    },
     {
       "date_filed": "2026-11-18",
       "reporter_name": "Rees-Jones David",
@@ -440,7 +468,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.605000019073486,
+    "share_price": 6.300000190734863,
     "shares_basic": 75379654.0,
     "shares_basic_as_of": "2026-11-11",
     "options": 0,
@@ -449,8 +477,8 @@
     "debt": 260580000,
     "debt_flag": null,
     "ttm_revenue": 238188000.0,
-    "mc_basic": 497882616.1077528,
-    "ev_basic": 709413616.1077528
+    "mc_basic": 474891834.577528,
+    "ev_basic": 686422834.577528
   },
   "financials": {
     "income_statement": {
@@ -1264,5 +1292,5 @@
       }
     }
   },
-  "last_updated": "2026-11-19T19:13:55+00:00"
+  "last_updated": "2026-11-20T11:42:42+00:00"
 }

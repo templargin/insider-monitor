@@ -4,9 +4,9 @@
   "name": "TriSalus Life Sciences, Inc.",
   "description": "TriSalus Life Sciences, Inc. engages in the research, development, and commercialization of drug delivery technology platform and immuno-oncology therapeutics to improve outcomes for patients with difficult-to-treat liver and pancreatic cancers in the United States. It offers Pressure-Enabled Drug Delivery (PEDD) infusion systems, such as the TriNav infusion system, which is used in transarterial radioembolization and chemoembolization procedures for patients with liver cancer and metastases; and the Pancreatic Retrograde Venous Infusion device, which is in Phase 1 clinical trial for treating locally advanced pancreatic cancer. The company is also developing nelitolimod, an investigational immunotherapeutic in Phase 1 clinical trial for the treatment of uveal melanoma, intrahepatic cholangiocarcinoma, hepatocellular carcinoma, and pancreatic cancer. It serves interventional radiologists, IR technicians, medical oncologists, nursing support, and value analysis committee staff. The company was founded in 2009 and is headquartered in Westminster, Colorado.",
   "ownership": {
-    "inst_pct": 0.36071998,
-    "insider_pct": 0.33893,
-    "inst_count": 116,
+    "inst_pct": 0.36363,
+    "insider_pct": 0.33973,
+    "inst_count": 118,
     "analyst_count": 5,
     "rec_mean": 1.0,
     "rec_key": "strong_buy",
@@ -15,9 +15,65 @@
     "shares_short": 3312552,
     "short_days_to_cover": 19.98,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-20"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Szela Mary T",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 34328.0,
+      "price": 2.59,
+      "total_value": 88909.51999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075100"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Szela Mary T",
+      "relationship": "Director, Officer (CEO and President)",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 30864.0,
+      "price": 2.31,
+      "total_value": 71295.84,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075100"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Gordon Gary B.",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 10000.0,
+      "price": 2.2,
+      "total_value": 22000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075095"
+    },
+    {
+      "date_filed": "2026-11-17",
+      "reporter_name": "Marshak Richard",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2026-11-16",
+      "code": "S",
+      "shares": -544.0,
+      "price": 2.43,
+      "total_value": -1321.92,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-074470"
+    },
     {
       "date_filed": "2026-11-16",
       "reporter_name": "Wahlstrom Mats",
@@ -1952,7 +2008,7 @@
     }
   ],
   "valuation": {
-    "share_price": 2.2750000953674316,
+    "share_price": 2.174999952316284,
     "shares_basic": 61699034,
     "shares_basic_as_of": "2026-11-06",
     "options": 8097286,
@@ -1961,8 +2017,8 @@
     "debt": 32367000,
     "debt_flag": null,
     "ttm_revenue": 46389000.0,
-    "mc_basic": 140365308.2340784,
-    "ev_basic": 131675308.2340784
+    "mc_basic": 134195396.0079608,
+    "ev_basic": 125505396.0079608
   },
   "financials": {
     "income_statement": {
@@ -3164,5 +3220,5 @@
       }
     }
   },
-  "last_updated": "2026-11-17T19:33:27+00:00"
+  "last_updated": "2026-11-20T11:45:29+00:00"
 }

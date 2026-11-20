@@ -1,0 +1,2384 @@
+{
+  "ticker": "ELTK",
+  "cik": "1024672",
+  "name": "ELTEK LTD",
+  "description": "Eltek Ltd. engages in the manufacture, marketing, and sale of printed circuit boards (PCBs) in Israel, North America, India, the Netherlands, rest of Europe, and internationally. The company offers various custom designed PCBs, including complex rigid, double-sided and multi-layer PCBs, and flexible circuitry boards. It also provides high-density circuit boards; and flexible and flex rigid PCBs, and multi-layered boards, as well as act as a supplier for the importation of PCBs. In addition, the company provides training and consulting services. It primarily serves medical technology, defense and aerospace, industrial, telecom, and networking equipment industries, as well as contract electronic manufacturers. The company markets and sells its products primarily through direct sales personnel, sales representatives, and PCB trading and manufacturing companies. Eltek Ltd. was incorporated in 1970 and is headquartered in Petah Tikva, Israel. Eltek Ltd. operates as a subsidiary of Nistec Golan Ltd.",
+  "ownership": {
+    "inst_pct": 0.060289998,
+    "insider_pct": 0.6289,
+    "inst_count": 11,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.0007,
+    "shares_short": 1945,
+    "short_days_to_cover": 0.58,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-20"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 800.0,
+      "price": 5.5378,
+      "total_value": 4430.24,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 800.0,
+      "price": 5.7489,
+      "total_value": 4599.12,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-16",
+      "code": "P",
+      "shares": 256.0,
+      "price": 5.8992,
+      "total_value": 1510.1952,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-13",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 5.83,
+      "total_value": 5830.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-12",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 6.2393,
+      "total_value": 6239.3,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-11",
+      "code": "P",
+      "shares": 112.0,
+      "price": 5.98,
+      "total_value": 669.76,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-09",
+      "code": "P",
+      "shares": 400.0,
+      "price": 6.0825,
+      "total_value": 2433.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-06",
+      "code": "P",
+      "shares": 200.0,
+      "price": 6.005,
+      "total_value": 1201.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-05",
+      "code": "P",
+      "shares": 23.0,
+      "price": 6.0196,
+      "total_value": 138.4508,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-04",
+      "code": "P",
+      "shares": 833.0,
+      "price": 6.4815,
+      "total_value": 5399.0895,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-03",
+      "code": "P",
+      "shares": 900.0,
+      "price": 6.4989,
+      "total_value": 5849.01,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-11-02",
+      "code": "P",
+      "shares": 900.0,
+      "price": 6.3036,
+      "total_value": 5673.240000000001,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-30",
+      "code": "P",
+      "shares": 800.0,
+      "price": 6.2687,
+      "total_value": 5014.96,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-28",
+      "code": "P",
+      "shares": 606.0,
+      "price": 6.4291,
+      "total_value": 3896.0346,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-23",
+      "code": "P",
+      "shares": 169.0,
+      "price": 6.5936,
+      "total_value": 1114.3184,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-22",
+      "code": "P",
+      "shares": 597.0,
+      "price": 6.532,
+      "total_value": 3899.604,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-20",
+      "code": "P",
+      "shares": 600.0,
+      "price": 6.825,
+      "total_value": 4095.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-19",
+      "code": "P",
+      "shares": 700.0,
+      "price": 6.8393,
+      "total_value": 4787.51,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-16",
+      "code": "P",
+      "shares": 322.0,
+      "price": 6.8006,
+      "total_value": 2189.7932,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-15",
+      "code": "P",
+      "shares": 3301.0,
+      "price": 7.0781,
+      "total_value": 23364.8081,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "P",
+      "shares": 559.0,
+      "price": 7.2032,
+      "total_value": 4026.5888,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-13",
+      "code": "P",
+      "shares": 2727.0,
+      "price": 7.1211,
+      "total_value": 19419.239700000002,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-12",
+      "code": "P",
+      "shares": 852.0,
+      "price": 7.6079,
+      "total_value": 6481.9308,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-06",
+      "code": "P",
+      "shares": 1706.0,
+      "price": 7.9555,
+      "total_value": 13572.083,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005305"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-05",
+      "code": "P",
+      "shares": 490.0,
+      "price": 7.66,
+      "total_value": 3753.4,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-10-01",
+      "code": "P",
+      "shares": 100.0,
+      "price": 7.825,
+      "total_value": 782.5,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-28",
+      "code": "P",
+      "shares": 2100.0,
+      "price": 8.2557,
+      "total_value": 17336.969999999998,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-24",
+      "code": "P",
+      "shares": 104.0,
+      "price": 8.1135,
+      "total_value": 843.804,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-23",
+      "code": "P",
+      "shares": 108.0,
+      "price": 8.4904,
+      "total_value": 916.9631999999999,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-22",
+      "code": "P",
+      "shares": 1248.0,
+      "price": 8.2764,
+      "total_value": 10328.9472,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-21",
+      "code": "P",
+      "shares": 555.0,
+      "price": 8.1393,
+      "total_value": 4517.3115,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-18",
+      "code": "P",
+      "shares": 900.0,
+      "price": 8.5677,
+      "total_value": 7710.93,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-17",
+      "code": "P",
+      "shares": 674.0,
+      "price": 8.5586,
+      "total_value": 5768.4964,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 28.0,
+      "price": 8.42,
+      "total_value": 235.76,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-15",
+      "code": "P",
+      "shares": 900.0,
+      "price": 9.166,
+      "total_value": 8249.4,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 900.0,
+      "price": 8.3095,
+      "total_value": 7478.55,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 169357.0,
+      "price": 9.0,
+      "total_value": 1524213.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-14",
+      "code": "P",
+      "shares": 60433.0,
+      "price": 8.9833,
+      "total_value": 542887.7689,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-11",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 8.0878,
+      "total_value": 8087.799999999999,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-10",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 7.9911,
+      "total_value": 7991.1,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-08",
+      "code": "P",
+      "shares": 300.0,
+      "price": 8.05,
+      "total_value": 2415.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-04",
+      "code": "P",
+      "shares": 2200.0,
+      "price": 8.2521,
+      "total_value": 18154.620000000003,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-09-01",
+      "code": "P",
+      "shares": 100.0,
+      "price": 8.15,
+      "total_value": 815.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-31",
+      "code": "P",
+      "shares": 114.0,
+      "price": 8.0538,
+      "total_value": 918.1332000000001,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-28",
+      "code": "P",
+      "shares": 2300.0,
+      "price": 7.969,
+      "total_value": 18328.7,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-27",
+      "code": "P",
+      "shares": 2249.0,
+      "price": 8.1126,
+      "total_value": 18245.2374,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-26",
+      "code": "P",
+      "shares": 1049.0,
+      "price": 8.1927,
+      "total_value": 8594.1423,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-20",
+      "code": "P",
+      "shares": 244.0,
+      "price": 8.3093,
+      "total_value": 2027.4692,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-19",
+      "code": "P",
+      "shares": 1678.0,
+      "price": 8.2635,
+      "total_value": 13866.153,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-18",
+      "code": "P",
+      "shares": 3400.0,
+      "price": 8.4652,
+      "total_value": 28781.679999999997,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-17",
+      "code": "P",
+      "shares": 3400.0,
+      "price": 8.9246,
+      "total_value": 30343.64,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-13",
+      "code": "P",
+      "shares": 1651.0,
+      "price": 8.5601,
+      "total_value": 14132.7251,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-12",
+      "code": "P",
+      "shares": 400.0,
+      "price": 8.4113,
+      "total_value": 3364.5200000000004,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005303"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-11",
+      "code": "P",
+      "shares": 3300.0,
+      "price": 8.5487,
+      "total_value": 28210.71,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-05",
+      "code": "P",
+      "shares": 2100.0,
+      "price": 9.0423,
+      "total_value": 18988.829999999998,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-08-04",
+      "code": "P",
+      "shares": 2100.0,
+      "price": 9.0655,
+      "total_value": 19037.55,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-31",
+      "code": "P",
+      "shares": 100.0,
+      "price": 8.475,
+      "total_value": 847.5,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-30",
+      "code": "P",
+      "shares": 400.0,
+      "price": 8.6,
+      "total_value": 3440.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-29",
+      "code": "P",
+      "shares": 433.0,
+      "price": 8.654,
+      "total_value": 3747.182,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-28",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 8.62,
+      "total_value": 17240.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-27",
+      "code": "P",
+      "shares": 300.0,
+      "price": 9.26,
+      "total_value": 2778.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-24",
+      "code": "P",
+      "shares": 600.0,
+      "price": 9.2409,
+      "total_value": 5544.54,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-23",
+      "code": "P",
+      "shares": 600.0,
+      "price": 9.4101,
+      "total_value": 5646.0599999999995,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-22",
+      "code": "P",
+      "shares": 400.0,
+      "price": 8.9293,
+      "total_value": 3571.72,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-21",
+      "code": "P",
+      "shares": 200.0,
+      "price": 8.8175,
+      "total_value": 1763.5000000000002,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-20",
+      "code": "P",
+      "shares": 100.0,
+      "price": 8.95,
+      "total_value": 894.9999999999999,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-17",
+      "code": "P",
+      "shares": 301.0,
+      "price": 8.9254,
+      "total_value": 2686.5454,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-16",
+      "code": "P",
+      "shares": 700.0,
+      "price": 9.1268,
+      "total_value": 6388.759999999999,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-15",
+      "code": "P",
+      "shares": 300.0,
+      "price": 8.9833,
+      "total_value": 2694.99,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-14",
+      "code": "P",
+      "shares": 400.0,
+      "price": 8.905,
+      "total_value": 3561.9999999999995,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-07-13",
+      "code": "P",
+      "shares": 200.0,
+      "price": 8.8125,
+      "total_value": 1762.5,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-05-21",
+      "code": "P",
+      "shares": 158.0,
+      "price": 7.89,
+      "total_value": 1246.62,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-05-20",
+      "code": "P",
+      "shares": 1.0,
+      "price": 7.89,
+      "total_value": 7.89,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-05-19",
+      "code": "P",
+      "shares": 250.0,
+      "price": 7.926,
+      "total_value": 1981.5,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "P",
+      "shares": 100.0,
+      "price": 8.0,
+      "total_value": 800.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-05-13",
+      "code": "P",
+      "shares": 700.0,
+      "price": 7.8417,
+      "total_value": 5489.1900000000005,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-05-11",
+      "code": "P",
+      "shares": 100.0,
+      "price": 7.97,
+      "total_value": 797.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-04-10",
+      "code": "P",
+      "shares": 800.0,
+      "price": 7.9688,
+      "total_value": 6375.04,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-04-09",
+      "code": "P",
+      "shares": 800.0,
+      "price": 7.9788,
+      "total_value": 6383.04,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-04-08",
+      "code": "P",
+      "shares": 800.0,
+      "price": 8.0,
+      "total_value": 6400.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-04-07",
+      "code": "P",
+      "shares": 2.0,
+      "price": 7.99,
+      "total_value": 15.98,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Nissan Yitzhak",
+      "relationship": "Director",
+      "transaction_date": "2026-03-30",
+      "code": "P",
+      "shares": 400.0,
+      "price": 8.0,
+      "total_value": 3200.0,
+      "security_title": "Ordinary Shares",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001178913-26-005301"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Dovev Gad",
+      "relationship": "Director, Other (Reporting Person: Former Dir.)",
+      "transaction_date": "2026-09-22",
+      "code": "M",
+      "shares": 589.0,
+      "price": 5.89,
+      "total_value": 3469.21,
+      "security_title": "Ordinary share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001178913-26-004567"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Dovev Gad",
+      "relationship": "Director, Other (Reporting Person: Former Dir.)",
+      "transaction_date": "2026-09-22",
+      "code": "S",
+      "shares": -852.0,
+      "price": 8.52,
+      "total_value": -7259.04,
+      "security_title": "Ordinary share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001178913-26-004567"
+    },
+    {
+      "date_filed": "2026-09-23",
+      "reporter_name": "Dovev Gad",
+      "relationship": "Director, Other (Reporting Person: Former Dir.)",
+      "transaction_date": "2026-09-22",
+      "code": "M",
+      "shares": -100.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Employee Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001178913-26-004567"
+    },
+    {
+      "date_filed": "2026-09-22",
+      "reporter_name": "Dovev Gad",
+      "relationship": "Director, Other (Reporting Person: Former Dir.)",
+      "transaction_date": "2026-09-17",
+      "code": "M",
+      "shares": 2945.0,
+      "price": 5.89,
+      "total_value": 17346.05,
+      "security_title": "Ordinary share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001178913-26-004550"
+    },
+    {
+      "date_filed": "2026-09-22",
+      "reporter_name": "Dovev Gad",
+      "relationship": "Director, Other (Reporting Person: Former Dir.)",
+      "transaction_date": "2026-09-17",
+      "code": "S",
+      "shares": -4260.0,
+      "price": 8.52,
+      "total_value": -36295.2,
+      "security_title": "Ordinary share",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001178913-26-004550"
+    },
+    {
+      "date_filed": "2026-09-22",
+      "reporter_name": "Dovev Gad",
+      "relationship": "Director, Other (Reporting Person: Former Dir.)",
+      "transaction_date": "2026-09-17",
+      "code": "M",
+      "shares": -500.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Employee Stock Option",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001178913-26-004550"
+    }
+  ],
+  "valuation": {
+    "share_price": 5.079999923706055,
+    "shares_basic": 6719827,
+    "shares_basic_as_of": "2025-12-31",
+    "options": 376272,
+    "warrants": null,
+    "cash": 2481000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 43127000.0,
+    "mc_basic": 34136720.64731789,
+    "ev_basic": 31655720.647317886
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            12529000,
+            10466000,
+            11043000,
+            9089000
+          ],
+          [
+            37.19886114761279,
+            19.040036396724293,
+            34.70358624054647,
+            16.123674460201865
+          ],
+          [
+            9510000,
+            8830000,
+            8091000,
+            7411000
+          ],
+          [
+            3019000,
+            1636000,
+            2952000,
+            1678000
+          ],
+          [
+            27.545416138572033,
+            -13.894736842105264,
+            135.03184713375796,
+            178.2752902155887
+          ],
+          [
+            24.09609705483279,
+            15.6315688897382,
+            26.731866340668297,
+            18.461876994168776
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1563000,
+            1184000,
+            1543000,
+            1306000
+          ],
+          [
+            0,
+            47000,
+            15000,
+            26000
+          ],
+          [
+            1563000,
+            1231000,
+            1558000,
+            1332000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1456000,
+            405000,
+            1394000,
+            346000
+          ],
+          [
+            54.23728813559322,
+            -49.93819530284301,
+            19814.285714285714,
+            182.9736211031175
+          ],
+          [
+            11.621039189081332,
+            3.8696732275941144,
+            12.623381327537807,
+            3.806799427879855
+          ],
+          [
+            1959000,
+            793000,
+            null,
+            null
+          ],
+          [
+            15.635725117726874,
+            7.5769157271163765,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1012000,
+            -489000,
+            -190000,
+            -611000
+          ],
+          [
+            444000,
+            894000,
+            1584000,
+            957000
+          ],
+          [
+            79000,
+            143000,
+            271000,
+            204000
+          ],
+          [
+            365000,
+            751000,
+            1313000,
+            753000
+          ],
+          [
+            2.9132412802298666,
+            7.175616281291802,
+            11.88988499501947,
+            8.284739795357025
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0.05,
+            0.11,
+            0.22,
+            0.13
+          ],
+          [
+            0.05,
+            0.11,
+            0.22,
+            0.13
+          ],
+          [
+            6783900,
+            6764441,
+            null,
+            null
+          ],
+          [
+            6715402,
+            6706379,
+            null,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            43127000,
+            51790000,
+            46527000,
+            46695000,
+            39650000
+          ],
+          [
+            -16.727167406835296,
+            11.311711479356072,
+            -0.3597815611949888,
+            17.76796973518285,
+            null
+          ],
+          [
+            33842000,
+            43806000,
+            36188000,
+            33593000,
+            31380000
+          ],
+          [
+            9285000,
+            7984000,
+            10339000,
+            13102000,
+            8270000
+          ],
+          [
+            16.29509018036072,
+            -22.77783151175162,
+            -21.08838345290795,
+            58.428053204353084,
+            null
+          ],
+          [
+            21.52943631599694,
+            15.416103494883181,
+            22.221505792335634,
+            28.05867865938537,
+            20.85750315258512
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5596000,
+            5587000,
+            5760000,
+            5722000,
+            5207000
+          ],
+          [
+            88000,
+            50000,
+            187000,
+            85000,
+            92000
+          ],
+          [
+            5684000,
+            5637000,
+            5947000,
+            5807000,
+            5299000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3601000,
+            2347000,
+            4392000,
+            7295000,
+            2971000
+          ],
+          [
+            53.429910524073286,
+            -46.56193078324226,
+            -39.794379712131594,
+            145.5402221474251,
+            null
+          ],
+          [
+            8.349757692396874,
+            4.53176288858853,
+            9.439680185698627,
+            15.622657672127637,
+            7.493064312736444
+          ],
+          [
+            null,
+            4451000,
+            5938000,
+            8612000,
+            4512000
+          ],
+          [
+            null,
+            8.594323228422475,
+            12.7624819996991,
+            18.443088125066925,
+            11.379571248423707
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -278000,
+            1274000,
+            -705000,
+            -422000,
+            -887000
+          ],
+          [
+            3879000,
+            1073000,
+            5097000,
+            7717000,
+            3858000
+          ],
+          [
+            697000,
+            247000,
+            873000,
+            1364000,
+            664000
+          ],
+          [
+            3182000,
+            826000,
+            4224000,
+            6353000,
+            3194000
+          ],
+          [
+            7.378208546850002,
+            1.5949024908283453,
+            9.078599522857695,
+            13.60531106114145,
+            8.05548549810845
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0.51,
+            0.12,
+            0.63,
+            1.07,
+            0.55
+          ],
+          [
+            0.51,
+            0.12,
+            0.64,
+            1.08,
+            0.55
+          ],
+          [
+            6783900,
+            6788522,
+            6701409,
+            5956488,
+            5847911
+          ],
+          [
+            6715402,
+            6716236,
+            6626391,
+            5902447,
+            5847911
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            1770000,
+            8877000,
+            8330000,
+            8246000
+          ],
+          [
+            14480000,
+            9948000,
+            11383000,
+            null
+          ],
+          [
+            12874000,
+            6440000,
+            5688000,
+            null
+          ],
+          [
+            9789000,
+            9989000,
+            1059000,
+            null
+          ],
+          [
+            38913000,
+            35254000,
+            26460000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            18703000,
+            12669000,
+            6399000,
+            null
+          ],
+          [
+            6409000,
+            5965000,
+            6742000,
+            null
+          ],
+          [
+            null,
+            1019000,
+            1864000,
+            null
+          ],
+          [
+            64420000,
+            54907000,
+            41465000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1047000,
+            763000,
+            788000,
+            null
+          ],
+          [
+            12724000,
+            10487000,
+            11042000,
+            null
+          ],
+          [
+            13771000,
+            11250000,
+            11830000,
+            null
+          ],
+          [
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            5477000,
+            5306000,
+            6058000,
+            null
+          ],
+          [
+            525000,
+            null,
+            null,
+            null
+          ],
+          [
+            19773000,
+            16955000,
+            18176000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -526000,
+            -2351000,
+            -6998000,
+            null
+          ],
+          [
+            44647000,
+            37952000,
+            23289000,
+            20247000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            1770000,
+            2481000,
+            7575000,
+            9278000,
+            7366000
+          ],
+          [
+            14480000,
+            14789000,
+            11786000,
+            10898000,
+            10116000
+          ],
+          [
+            12874000,
+            11154000,
+            9488000,
+            6135000,
+            5130000
+          ],
+          [
+            9789000,
+            10250000,
+            10265000,
+            3796000,
+            786000
+          ],
+          [
+            38913000,
+            38674000,
+            39114000,
+            30107000,
+            23398000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            18703000,
+            20862000,
+            14578000,
+            9354000,
+            7674000
+          ],
+          [
+            6409000,
+            6272000,
+            5911000,
+            6555000,
+            7156000
+          ],
+          [
+            null,
+            null,
+            552000,
+            1155000,
+            2757000
+          ],
+          [
+            64420000,
+            66260000,
+            60155000,
+            47171000,
+            40985000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            0,
+            702000
+          ],
+          [
+            1047000,
+            1100000,
+            827000,
+            789000,
+            846000
+          ],
+          [
+            12724000,
+            12612000,
+            12503000,
+            13192000,
+            8926000
+          ],
+          [
+            13771000,
+            13712000,
+            13330000,
+            13981000,
+            10474000
+          ],
+          [
+            null,
+            null,
+            null,
+            0,
+            2768000
+          ],
+          [
+            5477000,
+            5296000,
+            5190000,
+            5871000,
+            6443000
+          ],
+          [
+            525000,
+            515000,
+            null,
+            null,
+            null
+          ],
+          [
+            19773000,
+            19523000,
+            18963000,
+            20299000,
+            19965000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -526000,
+            -1067000,
+            -617000,
+            -4841000,
+            -9873000
+          ],
+          [
+            44647000,
+            46737000,
+            41192000,
+            26872000,
+            21020000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            365000,
+            751000,
+            1313000,
+            753000
+          ],
+          [
+            503000,
+            388000,
+            null,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Issuance",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            3182000,
+            826000,
+            4224000,
+            6353000,
+            3194000
+          ],
+          [
+            null,
+            2104000,
+            1546000,
+            1317000,
+            1541000
+          ],
+          [
+            null,
+            512000,
+            607000,
+            363000,
+            250000
+          ],
+          [
+            null,
+            -2296000,
+            -1837000,
+            829000,
+            -1156000
+          ],
+          [
+            null,
+            1146000,
+            4540000,
+            8862000,
+            3829000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -5351000,
+            -9506000,
+            -2432000,
+            -3027000
+          ],
+          [
+            null,
+            null,
+            -6365000,
+            -527000,
+            null
+          ],
+          [
+            null,
+            -5331000,
+            -15871000,
+            -2959000,
+            -3029000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            null,
+            0,
+            0,
+            -3348000,
+            -669000
+          ],
+          [
+            null,
+            0,
+            9312000,
+            0,
+            0
+          ],
+          [
+            null,
+            -1276000,
+            0,
+            -1321000,
+            -994000
+          ],
+          [
+            null,
+            null,
+            null,
+            863000,
+            null
+          ],
+          [
+            null,
+            -1240000,
+            9608000,
+            -3806000,
+            -1638000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -4205000,
+            -4966000,
+            6430000,
+            802000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "6/30/25",
+          "6/30/24",
+          "6/30/23",
+          "6/30/22"
+        ],
+        "data": [
+          [
+            2.825720717449713,
+            3.133688888888889,
+            2.2366863905325443,
+            null
+          ],
+          [
+            1.8908575993028829,
+            2.5612444444444447,
+            1.7558748943364328,
+            null
+          ],
+          [
+            null,
+            null,
+            0.0,
+            null
+          ],
+          [
+            15.635725117726874,
+            7.5769157271163765,
+            null,
+            null
+          ],
+          [
+            25142000,
+            24004000,
+            14630000,
+            null
+          ],
+          [
+            null,
+            null,
+            -8330000,
+            null
+          ],
+          [
+            0.817524133760387,
+            1.9788153456998314,
+            5.637854781227189,
+            3.7190694917765597
+          ],
+          [
+            0.5665942253958398,
+            1.3677673156428143,
+            3.1665259857711323,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            2.825720717449713,
+            2.8204492415402567,
+            2.934283570892723,
+            2.153422501966955,
+            2.2339125453503916
+          ],
+          [
+            1.8908575993028829,
+            2.0070011668611434,
+            2.2225056264066017,
+            1.7146126886488806,
+            1.7441283177391635
+          ],
+          [
+            null,
+            null,
+            null,
+            0.0,
+            0.16508087535680305
+          ],
+          [
+            null,
+            8.594323228422475,
+            12.7624819996991,
+            18.443088125066925,
+            11.379571248423707
+          ],
+          [
+            25142000,
+            24962000,
+            25784000,
+            16126000,
+            12924000
+          ],
+          [
+            null,
+            null,
+            null,
+            -9278000,
+            -3896000
+          ],
+          [
+            7.127018612672744,
+            1.7673363716113573,
+            10.254418333657021,
+            23.641708841917236,
+            15.195052331113226
+          ],
+          [
+            4.939459795094691,
+            1.2466042861454876,
+            7.021860194497548,
+            13.468020605880731,
+            7.793095034768818
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-20T11:34:43+00:00"
+}

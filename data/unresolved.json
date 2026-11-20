@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:08:24+00:00",
+  "generated_at": "2026-11-20T11:30:39+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3522,11 +3522,11 @@
         ]
       },
       "first_seen": "2026-11-18T11:34:22+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-19",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-20",
       "last_reason": "no share price for HRNG",
-      "last_tried": "2026-11-19T19:05:27+00:00"
+      "last_tried": "2026-11-20T11:30:37+00:00"
     },
     {
       "url_date": "2026-11-19",
@@ -3609,8 +3609,11 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-20",
+      "last_reason": "cannot confirm EV < $1,000M for OIG: EV=$700.3M with $357.8M of unexplained_liabilities (up to $1,058.1M)",
+      "last_tried": "2026-11-20T11:30:38+00:00"
     },
     {
       "url_date": "2026-11-19",
@@ -3671,8 +3674,11 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-20",
+      "last_reason": "no companyfacts for CIK 319655",
+      "last_tried": "2026-11-20T11:30:38+00:00"
     },
     {
       "url_date": "2026-11-19",
@@ -3744,8 +3750,11 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-20",
+      "last_reason": "cannot confirm EV < $1,000M for RILY: EV=$90.7M with $1,093.1M of unexplained_liabilities (up to $1,183.9M)",
+      "last_tried": "2026-11-20T11:30:38+00:00"
     },
     {
       "url_date": "2026-11-19",
@@ -3806,8 +3815,11 @@
         ]
       },
       "first_seen": "2026-11-19T11:33:27+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-20",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.3M with $1,119.4M of unexplained_liabilities (up to $1,831.8M)",
+      "last_tried": "2026-11-20T11:30:39+00:00"
     }
   ]
 }

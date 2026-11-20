@@ -4,9 +4,9 @@
   "name": "LEE ENTERPRISES, Inc",
   "description": "Lee Enterprises, Incorporated, a digital-first subscription and marketing services company, provides local news and information, and advertising services in the United States. The company offers digital subscription platforms; daily and weekly newspapers; and niche products for national and international news are accessible across digital and print formats through websites and mobile applications. It also provides subscription services through digital and print subscriptions; and omni-channel marketing solutions, including digital, print, programmatic, video, and social media campaigns. In addition, the company offers commercial printing, distribution, and other digital services through SaaS content management solution. Lee Enterprises, Incorporated was founded in 1890 and is based in Davenport, Iowa.",
   "ownership": {
-    "inst_pct": 0.22639,
-    "insider_pct": 0.72906,
-    "inst_count": 88,
+    "inst_pct": 0.22678,
+    "insider_pct": 0.73059,
+    "inst_count": 90,
     "analyst_count": null,
     "rec_mean": null,
     "rec_key": null,
@@ -15,9 +15,51 @@
     "shares_short": 510265,
     "short_days_to_cover": 14.77,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-20"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Hoffmann David Henry",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 6067.0,
+      "price": 6.61,
+      "total_value": 40102.87,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001183010-26-000070"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Hoffmann David Henry",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 6067.0,
+      "price": 6.58,
+      "total_value": 39920.86,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001183010-26-000070"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Hoffmann David Henry",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 6067.0,
+      "price": 6.68,
+      "total_value": 40527.56,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001183010-26-000070"
+    },
     {
       "date_filed": "2026-11-16",
       "reporter_name": "Hoffmann David Henry",
@@ -2358,7 +2400,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.670000076293945,
+    "share_price": 6.489999771118164,
     "shares_basic": 22292044,
     "shares_basic_as_of": "2026-07-31",
     "options": 32000,
@@ -2367,8 +2409,8 @@
     "debt": 454715000,
     "debt_flag": null,
     "ttm_revenue": 517102000.0,
-    "mc_basic": 148687935.180748,
-    "ev_basic": 543974935.180748
+    "mc_basic": 144675360.45775604,
+    "ev_basic": 539962360.457756
   },
   "financials": {
     "income_statement": {
@@ -3532,5 +3574,5 @@
       }
     }
   },
-  "last_updated": "2026-11-17T19:38:47+00:00"
+  "last_updated": "2026-11-20T11:47:53+00:00"
 }

@@ -1,0 +1,976 @@
+{
+  "ticker": "SCM",
+  "cik": "1551901",
+  "name": "Stellus Capital Investment Corp",
+  "description": "Stellus Capital Investment Corporation is a business development company specializing in investments in private middle-market companies. It invests through first lien, second lien, unitranche, and mezzanine debt financing, often with a corresponding equity investment. The fund prefers to invest in US and Canada. The fund seeks to invest in companies with an EBITDA between $5 million and $50 million.",
+  "ownership": {
+    "inst_pct": 0.18108,
+    "insider_pct": 0.043530002,
+    "inst_count": 81,
+    "analyst_count": 4,
+    "rec_mean": 2.6,
+    "rec_key": "hold",
+    "target_mean": 9.625,
+    "short_pct_float": 0.0225,
+    "shares_short": 606311,
+    "short_days_to_cover": 4.85,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-20"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Ladd Robert T.",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-11-17",
+      "code": "P",
+      "shares": 30000.0,
+      "price": 6.57,
+      "total_value": 197100.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-130305"
+    },
+    {
+      "date_filed": "2026-09-17",
+      "reporter_name": "Arnoult J Tim",
+      "relationship": "Director",
+      "transaction_date": "2026-09-16",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 7.97,
+      "total_value": 7970.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-108591"
+    },
+    {
+      "date_filed": "2026-06-25",
+      "reporter_name": "Arnoult J Tim",
+      "relationship": "Director",
+      "transaction_date": "2026-06-23",
+      "code": "P",
+      "shares": 700.0,
+      "price": 8.29,
+      "total_value": 5802.999999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-077908"
+    },
+    {
+      "date_filed": "2026-06-25",
+      "reporter_name": "Arnoult J Tim",
+      "relationship": "Director",
+      "transaction_date": "2026-05-19",
+      "code": "P",
+      "shares": 9000.0,
+      "price": 9.05,
+      "total_value": 81450.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-077908"
+    },
+    {
+      "date_filed": "2026-06-25",
+      "reporter_name": "Arnoult J Tim",
+      "relationship": "Director",
+      "transaction_date": "2026-05-13",
+      "code": "P",
+      "shares": 1000.0,
+      "price": 9.27,
+      "total_value": 9270.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-077908"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Ladd Robert T.",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-03-16",
+      "code": "P",
+      "shares": 1700.0,
+      "price": 8.45,
+      "total_value": 14364.999999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029592"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Bilger Bruce R",
+      "relationship": "Director",
+      "transaction_date": "2026-03-13",
+      "code": "P",
+      "shares": 19417.0,
+      "price": 8.76,
+      "total_value": 170092.91999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029596"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Bilger Bruce R",
+      "relationship": "Director",
+      "transaction_date": "2026-03-13",
+      "code": "P",
+      "shares": 10362.0,
+      "price": 8.7,
+      "total_value": 90149.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029596"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Bilger Bruce R",
+      "relationship": "Director",
+      "transaction_date": "2026-03-13",
+      "code": "P",
+      "shares": 11111.0,
+      "price": 8.73,
+      "total_value": 96999.03,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029596"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Bilger Bruce R",
+      "relationship": "Director",
+      "transaction_date": "2026-03-13",
+      "code": "P",
+      "shares": 4600.0,
+      "price": 8.75,
+      "total_value": 40250.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029596"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Huskinson W. Todd",
+      "relationship": "Officer (CFO and CCO)",
+      "transaction_date": "2026-03-13",
+      "code": "P",
+      "shares": 5700.0,
+      "price": 8.785,
+      "total_value": 50074.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029593"
+    },
+    {
+      "date_filed": "2026-03-17",
+      "reporter_name": "Ladd Robert T.",
+      "relationship": "Director, Officer (President and CEO)",
+      "transaction_date": "2026-03-13",
+      "code": "P",
+      "shares": 35000.0,
+      "price": 8.7,
+      "total_value": 304500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-029592"
+    }
+  ],
+  "valuation": {
+    "share_price": 6.28000020980835,
+    "shares_basic": 28179374,
+    "shares_basic_as_of": "2026-11-09",
+    "options": null,
+    "warrants": null,
+    "cash": 2324400,
+    "debt": 610940132,
+    "debt_flag": null,
+    "ttm_revenue": 89005434.0,
+    "mc_basic": 176966474.63226795,
+    "ev_basic": 785582206.632268
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "",
+          "SG&A",
+          "",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            21198399,
+            21583424,
+            22253007,
+            23970604
+          ],
+          [
+            -15.2496368552474,
+            -12.455404666262814,
+            -7.767646162102425,
+            -1.533944998748769
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            658084,
+            550235,
+            649120,
+            618825
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -6066783,
+            16235983,
+            2016207,
+            5350500
+          ],
+          [
+            307096,
+            29685,
+            360471,
+            136154
+          ],
+          [
+            -6373879,
+            16206298,
+            1655736,
+            5214346
+          ],
+          [
+            -30.06773766264141,
+            75.08677955823876,
+            7.440504557429025,
+            21.75308557097685
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.22,
+            -0.22,
+            0.06,
+            0.16999999999999993
+          ],
+          [
+            -0.22,
+            0.56,
+            0.06,
+            0.16999999999999993
+          ],
+          [
+            28465675,
+            28465675,
+            28947254,
+            null
+          ],
+          [
+            28465675,
+            28869028,
+            28947254,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "",
+          "Interest Expense",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            89005434,
+            97764678,
+            99885820,
+            102016788,
+            72964999
+          ],
+          [
+            -8.959518078707323,
+            -2.1235666884448663,
+            -2.0888405151512908,
+            39.816061670884146,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            70005471,
+            48495714
+          ],
+          [
+            null,
+            null,
+            null,
+            44.35393404043912,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            68.62152041093472,
+            66.46435231226413
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2476264,
+            2134816,
+            1916283,
+            1908191,
+            1810576
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            32011317,
+            24469285
+          ],
+          [
+            17535907,
+            28625667,
+            47653465,
+            18866619,
+            15653452
+          ],
+          [
+            833406,
+            1580338,
+            1808838,
+            1333452,
+            1161668
+          ],
+          [
+            16702501,
+            27045329,
+            45844627,
+            17533167,
+            14491784
+          ],
+          [
+            18.76570929365953,
+            27.663701812632166,
+            45.897032231401816,
+            17.186550707712932,
+            19.86128170850794
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.21000000000000008,
+            0.95,
+            1.79,
+            0.8,
+            0.74
+          ],
+          [
+            0.57,
+            0.95,
+            1.79,
+            0.8,
+            0.74
+          ],
+          [
+            28465675,
+            28364809,
+            25596593,
+            22004648,
+            19552931
+          ],
+          [
+            28465675,
+            28364809,
+            25596593,
+            22004648,
+            19552931
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            2324400,
+            5138950,
+            3376525,
+            25050156
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            971558825,
+            976985827,
+            997896728,
+            1016202150
+          ],
+          [
+            973883225,
+            982124777,
+            1001273253,
+            1041252306
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            624550614,
+            615166831,
+            638277732,
+            670073350
+          ],
+          [
+            624550614,
+            615166831,
+            638277732,
+            670073350
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -41932122,
+            -28453112,
+            -34863219,
+            -26679784
+          ],
+          [
+            349332611,
+            366957946,
+            362995521,
+            371178956
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            2324400,
+            25050156,
+            20058594,
+            26125741,
+            48043329
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            971558825,
+            1016202150,
+            960841655,
+            881960587,
+            850139453
+          ],
+          [
+            973883225,
+            1041252306,
+            980900249,
+            908086328,
+            898182782
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            624550614,
+            670073350,
+            610978309,
+            588146540,
+            622406169
+          ],
+          [
+            624550614,
+            670073350,
+            610978309,
+            588146540,
+            622406169
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -41932122,
+            -26679784,
+            -9654813,
+            -16003321,
+            642226
+          ],
+          [
+            349332611,
+            371178956,
+            369921940,
+            319939788,
+            275776613
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Stock Buyback",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            -6373879,
+            16206298,
+            1655736,
+            5214346
+          ],
+          [
+            7330983,
+            17164984,
+            21147649,
+            3819034
+          ],
+          [
+            957104,
+            33371282,
+            22803385,
+            9033380
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            0,
+            -39000000,
+            0
+          ],
+          [
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            -4126583,
+            null,
+            null,
+            null
+          ],
+          [
+            -8006430,
+            -9827274,
+            -10418116,
+            -11576007
+          ],
+          [
+            8361359,
+            -21781583,
+            4941100,
+            18568763
+          ],
+          [
+            -3771654,
+            -31608857,
+            -44477016,
+            6992756
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "Debt Issuance",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            16702501,
+            27045329,
+            45844627,
+            17533167,
+            14491784
+          ],
+          [
+            49462650,
+            -51495093,
+            -74493107,
+            -34798254,
+            -70778341
+          ],
+          [
+            66165151,
+            -24449764,
+            -28648480,
+            -17265087,
+            -56286557
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            11400000,
+            63600000
+          ],
+          [
+            -39000000,
+            -26000000,
+            null,
+            -11400000,
+            null
+          ],
+          [
+            null,
+            20588960,
+            46494756,
+            63348436,
+            2158540
+          ],
+          [
+            -39827827,
+            -45265991,
+            -37560442,
+            -35527480,
+            -26594095
+          ],
+          [
+            5963056,
+            80118357,
+            13647019,
+            -32473457,
+            20990585
+          ],
+          [
+            -72864771,
+            29441326,
+            22581333,
+            -4652501,
+            60155030
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1.824587455993337,
+            4.416391081500112,
+            0.45613124796655546,
+            1.4048064729186855
+          ],
+          [
+            -0.654480828540814,
+            1.650126173326345,
+            0.16536305099922607,
+            0.5007764179683843
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4.781260172701139,
+            7.286331448165397,
+            12.393054329245786,
+            5.480145845442643,
+            5.254899551616438
+          ],
+          [
+            1.715041451709983,
+            2.597384787928623,
+            4.673729774942691,
+            1.930781959752179,
+            1.6134560014311208
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-20T11:46:03+00:00"
+}
