@@ -5,7 +5,7 @@
   "description": "Once Upon A Farm, PBC produces and sells organic baby food pouches, meals, and snacks for children. The company provides pouches, including fruit an veggie blends, functional blends, and smoothies; frozen organic meals; and soft-baked bars for kids. It sells its products through retail stores, e-commerce platforms, and delivery platforms, as well as directly to consumers through platform. The company was founded in 2014 and is based in Berkeley, California.",
   "ownership": {
     "inst_pct": 0.91944003,
-    "insider_pct": 0.207,
+    "insider_pct": 0.20743999,
     "inst_count": 160,
     "analyst_count": 9,
     "rec_mean": 2.33333,
@@ -15,9 +15,51 @@
     "shares_short": 5628418,
     "short_days_to_cover": 14.6,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-23"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 12.2136,
+      "total_value": 24427.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000905148-26-005096"
+    },
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Garner Jennifer Anne",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 8000.0,
+      "price": 11.698,
+      "total_value": 93584.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000905148-26-005096"
+    },
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Morris Scott James",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 12000.0,
+      "price": 11.81,
+      "total_value": 141720.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001623963-26-000005"
+    },
     {
       "date_filed": "2026-11-18",
       "reporter_name": "Morris Scott James",
@@ -1462,7 +1504,7 @@
     }
   ],
   "valuation": {
-    "share_price": 12.100000381469727,
+    "share_price": 12.170000076293945,
     "shares_basic": 42252755,
     "shares_basic_as_of": "2026-11-08",
     "options": 5716798,
@@ -1471,8 +1513,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 313215000.0,
-    "mc_basic": 511258351.6181469,
-    "ev_basic": 404850351.6181469
+    "mc_basic": 514216031.5736294,
+    "ev_basic": 407808031.5736294
   },
   "financials": {
     "income_statement": {
@@ -2295,5 +2337,5 @@
       }
     }
   },
-  "last_updated": "2026-11-19T19:09:09+00:00"
+  "last_updated": "2026-11-23T11:35:48+00:00"
 }

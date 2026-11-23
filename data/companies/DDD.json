@@ -8,16 +8,30 @@
     "insider_pct": 0.0291,
     "inst_count": 293,
     "analyst_count": 2,
-    "rec_mean": 2.5,
-    "rec_key": "buy",
+    "rec_mean": null,
+    "rec_key": null,
     "target_mean": 3.5,
     "short_pct_float": 0.2647,
     "shares_short": 42482339,
     "short_days_to_cover": 17.06,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-19"
+    "as_of": "2026-11-23"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "ERICKSON THOMAS W",
+      "relationship": "Director",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 120000.0,
+      "price": 1.36,
+      "total_value": 163200.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075295"
+    },
     {
       "date_filed": "2026-11-18",
       "reporter_name": "KEVER JIM D",
@@ -1322,7 +1336,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.4700000286102295,
+    "share_price": 1.350000023841858,
     "shares_basic": 166351517,
     "shares_basic_as_of": "2026-10-28",
     "options": 160000,
@@ -1331,8 +1345,8 @@
     "debt": 101996000,
     "debt_flag": null,
     "ttm_revenue": 395696000.0,
-    "mc_basic": 244536734.74935508,
-    "ev_basic": 255193734.74935508
+    "mc_basic": 224574551.91612923,
+    "ev_basic": 235231551.91612923
   },
   "financials": {
     "income_statement": {
@@ -2712,5 +2726,5 @@
       }
     }
   },
-  "last_updated": "2026-11-19T19:09:03+00:00"
+  "last_updated": "2026-11-23T11:34:30+00:00"
 }

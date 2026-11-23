@@ -4,8 +4,8 @@
   "name": "Playboy, Inc.",
   "description": "Playboy, Inc. operates as a pleasure and leisure company in the United States, Australia, China, the United Kingdom, and internationally. The company operates through two segments: Direct-to-Consumer and Licensing. It offers sexual wellness products, such as lingerie, bedroom accessories, intimacy products, and other adult products; apparel and accessories products; and beauty and grooming products, such as skincare, haircare, bath and body, cosmetics, and fragrance. The company also owns and operates digital commerce retail platforms, such as playboy.com under license agreements; Honey Birdette retail stores; and collaborates with nightlife, hospitality, digital casino, and online gaming industries. In addition, it licenses Playboy name, Rabbit Head Design, and other trademarks and related properties; and programming content to cable television operators and direct-to-home satellite television operators. Further, the company business covers the subscription sale of playboyplus.com and playboy.tv, which are online content platforms. It offers its products under its flagship brand Playboy. The company was formerly known as PLBY Group, Inc. and changed its name to Playboy, Inc. in June 2025. Playboy, Inc. is headquartered in Los Angeles, California.",
   "ownership": {
-    "inst_pct": 0.36368,
-    "insider_pct": 0.21530001,
+    "inst_pct": 0.36516,
+    "insider_pct": 0.21779,
     "inst_count": 116,
     "analyst_count": 2,
     "rec_mean": 2.0,
@@ -15,9 +15,51 @@
     "shares_short": 2435075,
     "short_days_to_cover": 4.22,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-18"
+    "as_of": "2026-11-23"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Docler Holding S.a r.l.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 191000.0,
+      "price": 1.1588,
+      "total_value": 221330.80000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001012975-26-001097"
+    },
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Docler Holding S.a r.l.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 191000.0,
+      "price": 1.2352,
+      "total_value": 235923.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001012975-26-001097"
+    },
+    {
+      "date_filed": "2026-11-20",
+      "reporter_name": "Docler Holding S.a r.l.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-18",
+      "code": "P",
+      "shares": 191000.0,
+      "price": 1.2925,
+      "total_value": 246867.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001012975-26-001097"
+    },
     {
       "date_filed": "2026-11-17",
       "reporter_name": "Docler Holding S.a r.l.",
@@ -1868,7 +1910,7 @@
     }
   ],
   "valuation": {
-    "share_price": 1.2999999523162842,
+    "share_price": 1.1299999952316284,
     "shares_basic": 117285934,
     "shares_basic_as_of": "2026-10-30",
     "options": 1997466,
@@ -1877,8 +1919,8 @@
     "debt": 154465000,
     "debt_flag": null,
     "ttm_revenue": 128079000.0,
-    "mc_basic": 152471708.60737085,
-    "ev_basic": 277235708.60737085
+    "mc_basic": 132533104.86073709,
+    "ev_basic": 257297104.8607371
   },
   "financials": {
     "income_statement": {
@@ -3213,5 +3255,5 @@
       }
     }
   },
-  "last_updated": "2026-11-18T19:04:16+00:00"
+  "last_updated": "2026-11-23T11:37:00+00:00"
 }
