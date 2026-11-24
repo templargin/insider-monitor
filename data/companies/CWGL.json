@@ -5,7 +5,7 @@
   "description": "Crimson Wine Group, Ltd., through its subsidiaries, produces and sells luxury wines in the United States. The company operates in two segments, Wholesale and Direct to Consumer. It also involved in selling of bulk wines and grapes and other non-wine retail sales, such as merchandise; and provision of custom winemaking, special event, and tasting services. The company sells its products under the Pine Ridge Vineyards, Archery Summit, Chamisal Vineyards, Seghesio Family Vineyards, Double Canyon, Seven Hills Winery, and Malene Wines brands. It offers wines to distributors; directly to consumers through wine club memberships; wineries' tasting rooms; and through its website, third-party websites, direct phone calls, and other online sales. The company was formerly known as Leucadia Cellars, Ltd. and changed its name to Crimson Wine Group, Ltd. in November 2007. The company was incorporated in 1991 and is headquartered in Napa, California.",
   "ownership": {
     "inst_pct": 0.24481001,
-    "insider_pct": 0.34614,
+    "insider_pct": 0.35112,
     "inst_count": 10,
     "analyst_count": null,
     "rec_mean": null,
@@ -15,9 +15,37 @@
     "shares_short": null,
     "short_days_to_cover": null,
     "short_as_of": null,
-    "as_of": "2026-11-18"
+    "as_of": "2026-11-24"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-23",
+      "reporter_name": "STEINBERG JOSEPH S",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 3.75,
+      "total_value": 187500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075443"
+    },
+    {
+      "date_filed": "2026-11-23",
+      "reporter_name": "Cumming John D.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 50000.0,
+      "price": 3.75,
+      "total_value": 187500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-075441"
+    },
     {
       "date_filed": "2026-11-17",
       "reporter_name": "STEINBERG JOSEPH S",
@@ -160,7 +188,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.759999990463257,
+    "share_price": 3.75,
     "shares_basic": 20586027,
     "shares_basic_as_of": "2026-10-30",
     "options": 1143400,
@@ -169,8 +197,8 @@
     "debt": 33564000,
     "debt_flag": null,
     "ttm_revenue": 81010000.0,
-    "mc_basic": 77403461.32367635,
-    "ev_basic": 99452461.32367635
+    "mc_basic": 77197601.25,
+    "ev_basic": 99246601.25
   },
   "financials": {
     "income_statement": {
@@ -1369,5 +1397,5 @@
       }
     }
   },
-  "last_updated": "2026-11-18T19:03:02+00:00"
+  "last_updated": "2026-11-24T20:03:07+00:00"
 }

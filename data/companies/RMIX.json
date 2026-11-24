@@ -15,9 +15,37 @@
     "shares_short": 2573392,
     "short_days_to_cover": 4.18,
     "short_as_of": "2026-10-30",
-    "as_of": "2026-11-20"
+    "as_of": "2026-11-24"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-23",
+      "reporter_name": "Edgar Randall W.",
+      "relationship": "Director, Officer (Chief Executive Officer), 10% Owner",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 15732.0,
+      "price": 6.36,
+      "total_value": 100055.52,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-26-472865"
+    },
+    {
+      "date_filed": "2026-11-23",
+      "reporter_name": "Rees-Jones David",
+      "relationship": "Director",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 100000.0,
+      "price": 6.49,
+      "total_value": 649000.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-26-472825"
+    },
     {
       "date_filed": "2026-11-19",
       "reporter_name": "HEYER ANDREW R",
@@ -468,7 +496,7 @@
     }
   ],
   "valuation": {
-    "share_price": 5.760000228881836,
+    "share_price": 6.980000019073486,
     "shares_basic": 75379654.0,
     "shares_basic_as_of": "2026-11-11",
     "options": 0,
@@ -477,8 +505,8 @@
     "debt": 260580000,
     "debt_flag": null,
     "ttm_revenue": 238188000.0,
-    "mc_basic": 434186824.2930336,
-    "ev_basic": 645717824.2930336
+    "mc_basic": 526149986.3577528,
+    "ev_basic": 737680986.3577528
   },
   "financials": {
     "income_statement": {
@@ -1292,5 +1320,5 @@
       }
     }
   },
-  "last_updated": "2026-11-20T18:49:32+00:00"
+  "last_updated": "2026-11-24T20:04:56+00:00"
 }

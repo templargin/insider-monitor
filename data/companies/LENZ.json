@@ -1,0 +1,2341 @@
+{
+  "ticker": "LENZ",
+  "cik": "1815776",
+  "name": "LENZ Therapeutics, Inc.",
+  "description": "LENZ Therapeutics, Inc. operates as a commercial pharmaceutical company that focuses on the development and commercialization of therapies to improve vision in the United States. Its product candidates include VIZZ and LNZ101 for the treatment of presbyopia in adults. LENZ Therapeutics, Inc. was formerly known as Presbyopia Therapies, Inc. and changed its name to LENZ Therapeutics, Inc. in June 2021. The company was founded in 2013 and is headquartered in Solana Beach, California.",
+  "ownership": {
+    "inst_pct": 0.91242,
+    "insider_pct": 0.02648,
+    "inst_count": 182,
+    "analyst_count": 6,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 14.83333,
+    "short_pct_float": 0.3701,
+    "shares_short": 7069790,
+    "short_days_to_cover": 6.95,
+    "short_as_of": "2026-10-30",
+    "as_of": "2026-11-24"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-23",
+      "reporter_name": "Leonard Braden Michael",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 38654.0,
+      "price": 2.9499,
+      "total_value": 114025.4346,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001373604-26-000080"
+    },
+    {
+      "date_filed": "2026-11-03",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-10-30",
+      "code": "A",
+      "shares": 652063.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001706176-26-000007"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "RA CAPITAL MANAGEMENT, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-29",
+      "code": "S",
+      "shares": -2159516.0,
+      "price": 3.36,
+      "total_value": -7255973.76,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001231919-26-001526"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "RA CAPITAL MANAGEMENT, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-29",
+      "code": "S",
+      "shares": -451998.0,
+      "price": 3.36,
+      "total_value": -1518713.28,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001231919-26-001526"
+    },
+    {
+      "date_filed": "2026-11-02",
+      "reporter_name": "RA CAPITAL MANAGEMENT, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-10-29",
+      "code": "S",
+      "shares": -107170.0,
+      "price": 3.36,
+      "total_value": -360091.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001231919-26-001526"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "RA CAPITAL MANAGEMENT, L.P.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001231919-26-000640"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "George Jeffrey P.",
+      "relationship": "Director",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001796789-26-000004"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Drapkin Kimberlee C",
+      "relationship": "Director",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001340881-26-000001"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "MCCOLLUM JAMES W",
+      "relationship": "Director",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001200889-26-000001"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Thunen Shelley B",
+      "relationship": "Director",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001297491-26-000001"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Guerard Frederic",
+      "relationship": "Director",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001825009-26-000001"
+    },
+    {
+      "date_filed": "2026-06-15",
+      "reporter_name": "Scheiner Zachary",
+      "relationship": "Director",
+      "transaction_date": "2026-06-15",
+      "code": "A",
+      "shares": 22100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001816523-26-000005"
+    },
+    {
+      "date_filed": "2026-03-30",
+      "reporter_name": "George Jeffrey P.",
+      "relationship": "Director",
+      "transaction_date": "2026-03-27",
+      "code": "P",
+      "shares": 5592.0,
+      "price": 8.9217,
+      "total_value": 49890.1464,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001796789-26-000003"
+    },
+    {
+      "date_filed": "2026-03-30",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director, Officer (President, CEO and Secretary)",
+      "transaction_date": "2026-03-27",
+      "code": "P",
+      "shares": 28089.0,
+      "price": 8.9505,
+      "total_value": 251410.5945,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001713795-26-000004"
+    },
+    {
+      "date_filed": "2026-03-30",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-27",
+      "code": "P",
+      "shares": 7500.0,
+      "price": 8.57,
+      "total_value": 64275.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001706176-26-000004"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 84200.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002015796-26-000002"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 14000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Unit",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002015796-26-000002"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Odrich Marc",
+      "relationship": "Officer (Chief Medical Officer)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 84200.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002015900-26-000002"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Odrich Marc",
+      "relationship": "Officer (Chief Medical Officer)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 14000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Unit",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002015900-26-000002"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 84200.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001706176-26-000002"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 14000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Unit",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001706176-26-000002"
+    },
+    {
+      "date_filed": "2026-01-06",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director, Officer (President, CEO and Secretary)",
+      "transaction_date": "2026-01-02",
+      "code": "A",
+      "shares": 358100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001713795-26-000002"
+    },
+    {
+      "date_filed": "2025-11-19",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-11-17",
+      "code": "M",
+      "shares": 10000.0,
+      "price": 2.08,
+      "total_value": 20800.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002015796-25-000003"
+    },
+    {
+      "date_filed": "2025-11-19",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-11-17",
+      "code": "S",
+      "shares": -4212.0,
+      "price": 25.7385,
+      "total_value": -108410.56199999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002015796-25-000003"
+    },
+    {
+      "date_filed": "2025-11-19",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-11-17",
+      "code": "S",
+      "shares": -5788.0,
+      "price": 26.3669,
+      "total_value": -152611.6172,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002015796-25-000003"
+    },
+    {
+      "date_filed": "2025-11-19",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-11-17",
+      "code": "M",
+      "shares": -10000.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002015796-25-000003"
+    },
+    {
+      "date_filed": "2025-11-10",
+      "reporter_name": "MCCOLLUM JAMES W",
+      "relationship": "Director",
+      "transaction_date": "2025-11-07",
+      "code": "P",
+      "shares": 10500.0,
+      "price": 22.7884,
+      "total_value": 239278.19999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000073"
+    },
+    {
+      "date_filed": "2025-11-07",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-11-07",
+      "code": "P",
+      "shares": 20.0,
+      "price": 22.71,
+      "total_value": 454.20000000000005,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000072"
+    },
+    {
+      "date_filed": "2025-11-07",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-11-07",
+      "code": "P",
+      "shares": 2178.0,
+      "price": 22.7561,
+      "total_value": 49562.7858,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000072"
+    },
+    {
+      "date_filed": "2025-10-02",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-30",
+      "code": "S",
+      "shares": -49701.0,
+      "price": 45.3547,
+      "total_value": -2254173.9447,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-228493"
+    },
+    {
+      "date_filed": "2025-10-02",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-30",
+      "code": "S",
+      "shares": -34405.0,
+      "price": 45.3547,
+      "total_value": -1560428.4535,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-25-228493"
+    },
+    {
+      "date_filed": "2025-10-02",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-30",
+      "code": "S",
+      "shares": -83066.0,
+      "price": 46.4068,
+      "total_value": -3854827.2487999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-228493"
+    },
+    {
+      "date_filed": "2025-10-02",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-30",
+      "code": "S",
+      "shares": -57502.0,
+      "price": 46.4068,
+      "total_value": -2668483.8136,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-25-228493"
+    },
+    {
+      "date_filed": "2025-10-02",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-30",
+      "code": "S",
+      "shares": -177.0,
+      "price": 47.0133,
+      "total_value": -8321.3541,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-228493"
+    },
+    {
+      "date_filed": "2025-10-02",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-30",
+      "code": "S",
+      "shares": -123.0,
+      "price": 47.0133,
+      "total_value": -5782.6359,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-25-228493"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -49479.0,
+      "price": 41.5908,
+      "total_value": -2057871.1932,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-211363"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -24370.0,
+      "price": 41.5908,
+      "total_value": -1013567.7960000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-25-211363"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -40907.0,
+      "price": 43.0038,
+      "total_value": -1759156.4466,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-211363"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -20148.0,
+      "price": 43.0038,
+      "total_value": -866440.5623999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-25-211363"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -268.0,
+      "price": 43.3,
+      "total_value": -11604.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001193125-25-211363"
+    },
+    {
+      "date_filed": "2025-09-22",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-09-18",
+      "code": "S",
+      "shares": -132.0,
+      "price": 43.3,
+      "total_value": -5715.599999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001193125-25-211363"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-26",
+      "code": "S",
+      "shares": -43978.0,
+      "price": 38.9744,
+      "total_value": -1714016.1632,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-26",
+      "code": "S",
+      "shares": -21661.0,
+      "price": 38.9744,
+      "total_value": -844224.4784,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-26",
+      "code": "S",
+      "shares": -3465.0,
+      "price": 39.5022,
+      "total_value": -136875.123,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-26",
+      "code": "S",
+      "shares": -1707.0,
+      "price": 39.5022,
+      "total_value": -67430.25540000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-25",
+      "code": "S",
+      "shares": -50270.0,
+      "price": 39.5255,
+      "total_value": -1986946.885,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-25",
+      "code": "S",
+      "shares": -24760.0,
+      "price": 39.5255,
+      "total_value": -978651.38,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-25",
+      "code": "S",
+      "shares": -2149.0,
+      "price": 39.9212,
+      "total_value": -85790.6588,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-25",
+      "code": "S",
+      "shares": -1058.0,
+      "price": 39.9212,
+      "total_value": -42236.6296,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-22",
+      "code": "S",
+      "shares": -20493.0,
+      "price": 40.0297,
+      "total_value": -820328.6420999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-22",
+      "code": "S",
+      "shares": -10076.0,
+      "price": 40.0297,
+      "total_value": -403339.2572,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-22",
+      "code": "S",
+      "shares": -5668.0,
+      "price": 40.5899,
+      "total_value": -230063.5532,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-26",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-22",
+      "code": "S",
+      "shares": -2809.0,
+      "price": 40.5899,
+      "total_value": -114017.0291,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-111529"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-18",
+      "code": "S",
+      "shares": -30628.0,
+      "price": 38.5611,
+      "total_value": -1181049.3708000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-110163"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-18",
+      "code": "S",
+      "shares": -15085.0,
+      "price": 38.5611,
+      "total_value": -581694.1935,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-110163"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-15",
+      "code": "S",
+      "shares": -145051.0,
+      "price": 39.5,
+      "total_value": -5729514.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-110163"
+    },
+    {
+      "date_filed": "2025-08-19",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-08-15",
+      "code": "S",
+      "shares": -69949.0,
+      "price": 39.5,
+      "total_value": -2762985.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-110163"
+    },
+    {
+      "date_filed": "2025-07-14",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-07-10",
+      "code": "S",
+      "shares": -191376.0,
+      "price": 34.0,
+      "total_value": -6506784.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-095616"
+    },
+    {
+      "date_filed": "2025-07-01",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-27",
+      "code": "S",
+      "shares": -200000.0,
+      "price": 30.465,
+      "total_value": -6093000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-092373"
+    },
+    {
+      "date_filed": "2025-06-20",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-20",
+      "code": "S",
+      "shares": -100877.0,
+      "price": 30.35,
+      "total_value": -3061616.95,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-088604"
+    },
+    {
+      "date_filed": "2025-06-20",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-20",
+      "code": "S",
+      "shares": -133924.0,
+      "price": 30.25,
+      "total_value": -4051201.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0000950170-25-088604"
+    },
+    {
+      "date_filed": "2025-06-20",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -100000.0,
+      "price": 29.95,
+      "total_value": -2995000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-088604"
+    },
+    {
+      "date_filed": "2025-06-12",
+      "reporter_name": "Versant Venture Capital VI, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2025-06-10",
+      "code": "S",
+      "shares": -350000.0,
+      "price": 29.0,
+      "total_value": -10150000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000950170-25-085490"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "RA CAPITAL MANAGEMENT, L.P.",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "I",
+      "accession": "0001415889-25-016757"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "George Jeffrey P.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000048"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "Drapkin Kimberlee C",
+      "relationship": "Director",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000047"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "Guerard Frederic",
+      "relationship": "Director",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000046"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "Thunen Shelley B",
+      "relationship": "Director",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000045"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "MCCOLLUM JAMES W",
+      "relationship": "Director",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000044"
+    },
+    {
+      "date_filed": "2025-06-11",
+      "reporter_name": "Scheiner Zachary",
+      "relationship": "Director",
+      "transaction_date": "2025-06-11",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000043"
+    },
+    {
+      "date_filed": "2025-04-09",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-04-09",
+      "code": "M",
+      "shares": 1400.0,
+      "price": 2.08,
+      "total_value": 2912.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000022"
+    },
+    {
+      "date_filed": "2025-04-09",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-04-09",
+      "code": "M",
+      "shares": -1400.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000022"
+    },
+    {
+      "date_filed": "2025-03-07",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director, Officer (President, CEO and Secretary)",
+      "transaction_date": "2025-03-07",
+      "code": "M",
+      "shares": 4200.0,
+      "price": 1.04,
+      "total_value": 4368.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000011"
+    },
+    {
+      "date_filed": "2025-03-07",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director, Officer (President, CEO and Secretary)",
+      "transaction_date": "2025-03-07",
+      "code": "M",
+      "shares": -4200.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000011"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2025-01-09",
+      "code": "A",
+      "shares": 80100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000009"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Odrich Marc",
+      "relationship": "Officer (Chief Medical Officer)",
+      "transaction_date": "2025-01-09",
+      "code": "A",
+      "shares": 80100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000007"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Chevallard Daniel R.",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-01-09",
+      "code": "A",
+      "shares": 70444.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000005"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director, Officer (President, CEO and Secretary)",
+      "transaction_date": "2025-01-09",
+      "code": "A",
+      "shares": 279100.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-25-000003"
+    },
+    {
+      "date_filed": "2024-12-17",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2024-12-16",
+      "code": "M",
+      "shares": 3333.0,
+      "price": 2.08,
+      "total_value": 6932.64,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001815776-24-000074"
+    },
+    {
+      "date_filed": "2024-12-17",
+      "reporter_name": "Olsson Shawn",
+      "relationship": "Officer (Chief Commercial Officer)",
+      "transaction_date": "2024-12-16",
+      "code": "M",
+      "shares": -3333.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001815776-24-000074"
+    }
+  ],
+  "valuation": {
+    "share_price": 2.9800000190734863,
+    "shares_basic": 31420583,
+    "shares_basic_as_of": "2026-10-28",
+    "options": null,
+    "warrants": null,
+    "cash": 30553000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 12359000.0,
+    "mc_basic": 93633337.93930006,
+    "ev_basic": 63080337.93930006
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            3384000,
+            5486000,
+            1901000,
+            1588000
+          ],
+          [
+            -72.928,
+            9.72,
+            null,
+            null
+          ],
+          [
+            454000,
+            280000,
+            1076000,
+            418000
+          ],
+          [
+            2930000,
+            5206000,
+            825000,
+            1170000
+          ],
+          [
+            -76.56,
+            4.12,
+            null,
+            null
+          ],
+          [
+            86.5839243498818,
+            94.89609916150201,
+            43.39821146764861,
+            73.67758186397985
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            35848000,
+            39378000,
+            44960000,
+            39633000
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            35848000,
+            39378000,
+            44960000,
+            39633000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -32918000,
+            -34172000,
+            -44135000,
+            -38463000
+          ],
+          [
+            -74.28919362524488,
+            -102.71697217773033,
+            -160.67568365719686,
+            -152.6305418719212
+          ],
+          [
+            -972.7541371158393,
+            -622.8946409041196,
+            -2321.6728037874805,
+            -2422.103274559194
+          ],
+          [
+            -32809000,
+            -34062000,
+            -44024000,
+            -38356000
+          ],
+          [
+            -969.5330969267139,
+            -620.8895370032811,
+            -2315.833771699106,
+            -2415.36523929471
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1949000,
+            2257000,
+            2647000,
+            2569000
+          ],
+          [
+            -30969000,
+            -31915000,
+            -41488000,
+            -35894000
+          ],
+          [
+            0,
+            3000,
+            null,
+            2000
+          ],
+          [
+            -30969000,
+            -31918000,
+            -41488000,
+            -35896000
+          ],
+          [
+            -915.1595744680851,
+            -581.8082391542107,
+            -2182.430299842188,
+            -2260.4534005037785
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.99,
+            -1.02,
+            -1.32,
+            -1.2000000000000002
+          ],
+          [
+            -0.99,
+            -1.02,
+            -1.32,
+            -1.2000000000000002
+          ],
+          [
+            31420063,
+            31374311,
+            31352702,
+            null
+          ],
+          [
+            31420063,
+            31374311,
+            31352702,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            12359000,
+            19088000,
+            0,
+            null,
+            null
+          ],
+          [
+            -35.25251466890193,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2228000,
+            418000,
+            0,
+            null,
+            null
+          ],
+          [
+            10131000,
+            18670000,
+            null,
+            null,
+            null
+          ],
+          [
+            -45.7364756293519,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            81.97265150902176,
+            97.81014249790444,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            159819000,
+            91138000,
+            28809000,
+            12925000,
+            32852000
+          ],
+          [
+            0,
+            18670000,
+            29801000,
+            59504000,
+            72787000
+          ],
+          [
+            159819000,
+            109808000,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -149688000,
+            -91138000,
+            -58610000,
+            -72429000,
+            -105639000
+          ],
+          [
+            -64.24323553292808,
+            -55.49906159358471,
+            19.07937428378136,
+            31.437253287138272,
+            null
+          ],
+          [
+            -1211.165951937859,
+            -477.4622799664711,
+            null,
+            null,
+            null
+          ],
+          [
+            -149251000,
+            -90851000,
+            -58552000,
+            -72414000,
+            -103287000
+          ],
+          [
+            -1207.630067157537,
+            -475.95871751886,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            9422000,
+            9513000,
+            8842000,
+            -52401000,
+            4587000
+          ],
+          [
+            -140266000,
+            -81625000,
+            -49768000,
+            -124830000,
+            -101052000
+          ],
+          [
+            null,
+            502000,
+            1000,
+            -179000,
+            0
+          ],
+          [
+            -140271000,
+            -82127000,
+            -49769000,
+            -124651000,
+            -101052000
+          ],
+          [
+            -140271000,
+            -82127000,
+            -49769000,
+            -69968000,
+            -101052000
+          ],
+          [
+            -1134.9704668662514,
+            -430.2546102263202,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -4.53,
+            -2.85,
+            -2.34,
+            -35.71,
+            -1.84
+          ],
+          [
+            -4.53,
+            -2.85,
+            -2.34,
+            -35.71,
+            -1.84
+          ],
+          [
+            31420063,
+            28813164,
+            21281038,
+            1959091,
+            54873675
+          ],
+          [
+            31420063,
+            28813164,
+            21281038,
+            1959091,
+            54873675
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            30553000,
+            24208000,
+            24772000,
+            25179000
+          ],
+          [
+            913000,
+            442000,
+            343000,
+            329000
+          ],
+          [
+            4760000,
+            4121000,
+            3498000,
+            2936000
+          ],
+          [
+            170671000,
+            204511000,
+            239754000,
+            272968000
+          ],
+          [
+            206897000,
+            233282000,
+            268367000,
+            301412000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            640000,
+            1002000,
+            1096000,
+            1189000
+          ],
+          [
+            421000,
+            521000,
+            619000,
+            734000
+          ],
+          [
+            1791000,
+            1791000,
+            2453000,
+            2541000
+          ],
+          [
+            209749000,
+            236596000,
+            272535000,
+            305876000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5517000,
+            6648000,
+            10929000,
+            4167000
+          ],
+          [
+            460000,
+            447000,
+            436000,
+            465000
+          ],
+          [
+            11773000,
+            10117000,
+            14441000,
+            16555000
+          ],
+          [
+            17750000,
+            17212000,
+            25806000,
+            21187000
+          ],
+          [
+            0,
+            122000,
+            237000,
+            350000
+          ],
+          [
+            17750000,
+            17334000,
+            26043000,
+            21537000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -331516000,
+            -300547000,
+            -268629000,
+            -227141000
+          ],
+          [
+            191999000,
+            219262000,
+            246492000,
+            284339000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "Mezzanine Equity",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            30553000,
+            25179000,
+            20158000,
+            35140000,
+            47730000
+          ],
+          [
+            null,
+            null,
+            null,
+            30654000,
+            220499000
+          ],
+          [
+            913000,
+            329000,
+            0,
+            null,
+            null
+          ],
+          [
+            4760000,
+            2936000,
+            0,
+            null,
+            null
+          ],
+          [
+            170671000,
+            272968000,
+            191759000,
+            1450000,
+            7136000
+          ],
+          [
+            206897000,
+            301412000,
+            211917000,
+            67244000,
+            275365000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            640000,
+            1189000,
+            651000,
+            54000,
+            22630000
+          ],
+          [
+            421000,
+            734000,
+            1338000,
+            318000,
+            5580000
+          ],
+          [
+            1791000,
+            2541000,
+            1398000,
+            2760000,
+            18327000
+          ],
+          [
+            209749000,
+            305876000,
+            215304000,
+            70376000,
+            321902000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5517000,
+            4167000,
+            4257000,
+            5711000,
+            2608000
+          ],
+          [
+            460000,
+            465000,
+            567000,
+            137000,
+            4045000
+          ],
+          [
+            11773000,
+            16555000,
+            5582000,
+            12666000,
+            6390000
+          ],
+          [
+            17750000,
+            21187000,
+            10406000,
+            18514000,
+            13043000
+          ],
+          [
+            0,
+            350000,
+            814000,
+            192000,
+            1749000
+          ],
+          [
+            null,
+            null,
+            null,
+            992000,
+            10819000
+          ],
+          [
+            17750000,
+            21537000,
+            11220000,
+            19698000,
+            25611000
+          ],
+          [
+            null,
+            null,
+            0,
+            143390000,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -331516000,
+            -227141000,
+            -145014000,
+            -95245000,
+            -242403000
+          ],
+          [
+            191999000,
+            284339000,
+            204084000,
+            -92712000,
+            296291000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            -30969000,
+            -31918000,
+            -41488000,
+            -35896000
+          ],
+          [
+            109000,
+            110000,
+            111000,
+            107000
+          ],
+          [
+            4134000,
+            4472000,
+            4319000,
+            3678000
+          ],
+          [
+            4415000,
+            -11377000,
+            3476000,
+            -914000
+          ],
+          [
+            -22311000,
+            -38713000,
+            -33582000,
+            -33025000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            -16000,
+            -18000,
+            -38000
+          ],
+          [
+            28656000,
+            37770000,
+            33179000,
+            -89772000
+          ],
+          [
+            28656000,
+            37754000,
+            33161000,
+            -89810000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            122615000
+          ],
+          [
+            0,
+            395000,
+            14000,
+            122615000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -22311000,
+            -38729000,
+            -33600000,
+            -33063000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -140271000,
+            -82127000,
+            -49769000,
+            -124651000,
+            -101052000
+          ],
+          [
+            437000,
+            287000,
+            58000,
+            15000,
+            2352000
+          ],
+          [
+            16603000,
+            12547000,
+            6365000,
+            1343000,
+            13534000
+          ],
+          [
+            -4400000,
+            123000,
+            -16045000,
+            62913000,
+            -2814000
+          ],
+          [
+            -127631000,
+            -69170000,
+            -59391000,
+            -60380000,
+            -87980000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -72000,
+            -827000,
+            -468000,
+            -30000,
+            -6594000
+          ],
+          [
+            9833000,
+            -74841000,
+            -154011000,
+            -29591000,
+            -235269000
+          ],
+          [
+            9761000,
+            -75668000,
+            -154479000,
+            -29621000,
+            -241863000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            79513000,
+            0,
+            null
+          ],
+          [
+            123024000,
+            149745000,
+            119489000,
+            80700000,
+            597000
+          ],
+          [
+            123024000,
+            149745000,
+            199002000,
+            80700000,
+            597000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -127703000,
+            -69997000,
+            -59859000,
+            -60410000,
+            -94574000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            11.656169014084506,
+            13.553451080641413,
+            10.399403239556692,
+            14.226270826450182
+          ],
+          [
+            11.388,
+            13.314025098768301,
+            10.26385336743393,
+            14.08769528484448
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -969.5330969267139,
+            -620.8895370032811,
+            -2315.833771699106,
+            -2415.36523929471
+          ],
+          [
+            189147000,
+            216070000,
+            242561000,
+            280225000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -16.12977150922661,
+            -14.557013983271155,
+            -16.83137789461727,
+            -12.624367392443528
+          ],
+          [
+            -14.764790296974002,
+            -13.490507024632707,
+            -15.222998880877686,
+            -11.735474506008972
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            11.656169014084506,
+            14.226270826450182,
+            20.36488564289833,
+            3.6320622231824564,
+            21.112090776661812
+          ],
+          [
+            11.388,
+            14.08769528484448,
+            20.36488564289833,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1207.630067157537,
+            -475.95871751886,
+            null,
+            null,
+            null
+          ],
+          [
+            189147000,
+            280225000,
+            201511000,
+            48730000,
+            262322000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -73.05819301142193,
+            -28.883480634031912,
+            -24.38652711628545,
+            134.44969367503668,
+            -34.10565963866604
+          ],
+          [
+            -66.87564660618168,
+            -26.849769187513896,
+            -23.115687585925016,
+            -177.1214618619984,
+            -31.39216283216631
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-24T20:02:35+00:00"
+}

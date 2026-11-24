@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:30:37+00:00",
+  "generated_at": "2026-11-24T19:51:51+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3884,7 +3884,7 @@
       "abandoned": false,
       "last_tried_date": "2026-11-24",
       "last_reason": "no companyfacts for CIK 319655",
-      "last_tried": "2026-11-24T11:30:35+00:00"
+      "last_tried": "2026-11-24T19:49:21+00:00"
     },
     {
       "url_date": "2026-11-23",
@@ -3948,8 +3948,8 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-11-24",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.0M with $1,119.4M of unexplained_liabilities (up to $1,831.4M)",
-      "last_tried": "2026-11-24T11:30:37+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$713.5M with $1,119.4M of unexplained_liabilities (up to $1,832.9M)",
+      "last_tried": "2026-11-24T19:49:23+00:00"
     },
     {
       "url_date": "2026-11-23",
@@ -4024,8 +4024,59 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-11-24",
-      "last_reason": "cannot confirm EV < $1,000M for LAC: EV=$904.9M with $200.2M of unexplained_liabilities (up to $1,105.1M)",
-      "last_tried": "2026-11-24T11:30:37+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for LAC: EV=$899.3M with $200.2M of unexplained_liabilities (up to $1,099.5M)",
+      "last_tried": "2026-11-24T19:49:23+00:00"
+    },
+    {
+      "url_date": "2026-11-24",
+      "cik": "2124472",
+      "ticker": "OIG",
+      "name": "Orion180 Insurance Group Inc.",
+      "reason": "cannot confirm EV < $1,000M for OIG: EV=$703.4M with $357.8M of unexplained_liabilities (up to $1,061.3M)",
+      "transient": false,
+      "bucket_data": {
+        "ticker": "OIG",
+        "name": "Orion180 Insurance Group Inc.",
+        "by_reporter": {
+          "1101998": {
+            "reporter_cik": "1101998",
+            "reporter_name": "DEUTSCH ROBERT V",
+            "relationship": "Director",
+            "total_value": 149593.689,
+            "shares": 14679.0,
+            "txn_count": 1
+          }
+        },
+        "filings": [
+          {
+            "form_meta": {
+              "reporter_name": "DEUTSCH ROBERT V",
+              "reporter_cik": "1101998",
+              "relationship": "Director",
+              "issuer_cik": "2124472",
+              "issuer_ticker": "OIG",
+              "issuer_name": "Orion180 Insurance Group Inc."
+            },
+            "purchase_txns": [
+              {
+                "table": "nonDerivative",
+                "security_title": "Class A Common Stock",
+                "transaction_date": "2026-11-20",
+                "code": "P",
+                "shares": 14679.0,
+                "price": 10.191,
+                "total_value": 149593.689,
+                "ownership": "D",
+                "ad_code": "A"
+              }
+            ],
+            "value": 149593.689
+          }
+        ]
+      },
+      "first_seen": "2026-11-24T19:51:51+00:00",
+      "attempts": 0,
+      "abandoned": false
     }
   ]
 }
