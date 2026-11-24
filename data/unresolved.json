@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T19:51:51+00:00",
+  "generated_at": "2026-11-24T20:47:40+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3884,7 +3884,7 @@
       "abandoned": false,
       "last_tried_date": "2026-11-24",
       "last_reason": "no companyfacts for CIK 319655",
-      "last_tried": "2026-11-24T19:49:21+00:00"
+      "last_tried": "2026-11-24T20:45:07+00:00"
     },
     {
       "url_date": "2026-11-23",
@@ -3948,8 +3948,8 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-11-24",
-      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$713.5M with $1,119.4M of unexplained_liabilities (up to $1,832.9M)",
-      "last_tried": "2026-11-24T19:49:23+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.0M with $1,119.4M of unexplained_liabilities (up to $1,834.4M)",
+      "last_tried": "2026-11-24T20:45:09+00:00"
     },
     {
       "url_date": "2026-11-23",
@@ -4024,15 +4024,15 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-11-24",
-      "last_reason": "cannot confirm EV < $1,000M for LAC: EV=$899.3M with $200.2M of unexplained_liabilities (up to $1,099.5M)",
-      "last_tried": "2026-11-24T19:49:23+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for LAC: EV=$898.6M with $200.2M of unexplained_liabilities (up to $1,098.8M)",
+      "last_tried": "2026-11-24T20:45:10+00:00"
     },
     {
       "url_date": "2026-11-24",
       "cik": "2124472",
       "ticker": "OIG",
       "name": "Orion180 Insurance Group Inc.",
-      "reason": "cannot confirm EV < $1,000M for OIG: EV=$703.4M with $357.8M of unexplained_liabilities (up to $1,061.3M)",
+      "reason": "cannot confirm EV < $1,000M for OIG: EV=$705.4M with $357.8M of unexplained_liabilities (up to $1,063.2M)",
       "transient": false,
       "bucket_data": {
         "ticker": "OIG",
@@ -4075,7 +4075,7 @@
         ]
       },
       "first_seen": "2026-11-24T19:51:51+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]
