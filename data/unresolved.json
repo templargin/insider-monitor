@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:12:05+00:00",
+  "generated_at": "2026-11-24T11:30:37+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -3880,8 +3880,11 @@
         ]
       },
       "first_seen": "2026-11-23T11:32:53+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-24",
+      "last_reason": "no companyfacts for CIK 319655",
+      "last_tried": "2026-11-24T11:30:35+00:00"
     },
     {
       "url_date": "2026-11-23",
@@ -3942,8 +3945,11 @@
         ]
       },
       "first_seen": "2026-11-23T11:32:53+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-24",
+      "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.0M with $1,119.4M of unexplained_liabilities (up to $1,831.4M)",
+      "last_tried": "2026-11-24T11:30:37+00:00"
     },
     {
       "url_date": "2026-11-23",
@@ -4015,8 +4021,11 @@
         ]
       },
       "first_seen": "2026-11-23T11:32:53+00:00",
-      "attempts": 1,
-      "abandoned": false
+      "attempts": 2,
+      "abandoned": false,
+      "last_tried_date": "2026-11-24",
+      "last_reason": "cannot confirm EV < $1,000M for LAC: EV=$904.9M with $200.2M of unexplained_liabilities (up to $1,105.1M)",
+      "last_tried": "2026-11-24T11:30:37+00:00"
     }
   ]
 }
