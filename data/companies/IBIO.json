@@ -1,0 +1,1764 @@
+{
+  "ticker": "IBIO",
+  "cik": "1420720",
+  "name": "iBio, Inc.",
+  "description": "iBio, Inc., a preclinical stage biotechnology company, engages in the development of artificial intelligence (AI) antibodies solutions for cardiometabolic and obesity space. The company's technology platforms include EngageTx that provides a panel of optimized CD3 antibodies that can be paired with tumor-targeting antibodies to generate bispecific T-cell engagers; StableHu, an AI antibody-optimizing technology; and AI epitope steering technology, small binding sites on large target proteins Its product pipelines for cardiometabolic disease area include IBIO-601, a monoclonal antibody designed to block Activin E; IBIO-800, a bispecific antibody designed to inhibit myostatin and activin A signaling to preserve lean mass; IBIO-600 Myostatin Antibody, monoclonal antibody blocking myostatin that is in phase 1; Amylin Antibody, a pancreatic hormone that promotes satiety and appetite control through activation of the amylin receptor; CCR8, a Treg-targeting immunotherapy; and MUC16 antibodies. In addition, the company is developing, an antibody therapeutics to treat glioblastoma and other cancers by selectively killing EGFRvIII tumor cells without destroying healthy tissue; and TROP-2 x CD3 bispecific antibody that is developed with EngageTx platform to harness T cells to kill TROP-2\u0096expressing tumors while minimizing the cytokine release that often limits the tolerability of T-cell engagers. It has a collaboration agreement with AstralBio to discover and develop novel antibodies for obesity and other cardiometabolic diseases. The company was formerly known as iBioPharma, Inc. and changed its name to iBio, Inc. in August 2009. iBio, Inc. was incorporated in 2008 and is headquartered in San Diego, California.",
+  "ownership": {
+    "inst_pct": 0.63393,
+    "insider_pct": 0.01209,
+    "inst_count": 76,
+    "analyst_count": 9,
+    "rec_mean": 1.11111,
+    "rec_key": "strong_buy",
+    "target_mean": 5.68889,
+    "short_pct_float": 0.0596,
+    "shares_short": 4179172,
+    "short_days_to_cover": 7.38,
+    "short_as_of": "2026-11-13",
+    "as_of": "2026-11-25"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Coastlands Capital LP",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 500000.0,
+      "price": 0.812,
+      "total_value": 406000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001104659-26-131477"
+    },
+    {
+      "date_filed": "2026-10-15",
+      "reporter_name": "Stoner Elizabeth",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "A",
+      "shares": 38000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-116322"
+    },
+    {
+      "date_filed": "2026-10-15",
+      "reporter_name": "Kropotova Alexandra",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "A",
+      "shares": 38000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-116321"
+    },
+    {
+      "date_filed": "2026-10-15",
+      "reporter_name": "Arkowitz David",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "A",
+      "shares": 38000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-116320"
+    },
+    {
+      "date_filed": "2026-10-15",
+      "reporter_name": "Clark William D",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "A",
+      "shares": 38000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-116319"
+    },
+    {
+      "date_filed": "2026-10-15",
+      "reporter_name": "Parada Antonio Bernardino Guimaraes",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "A",
+      "shares": 38000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-116318"
+    },
+    {
+      "date_filed": "2026-10-15",
+      "reporter_name": "Sender Gary",
+      "relationship": "Director",
+      "transaction_date": "2026-10-14",
+      "code": "A",
+      "shares": 38000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-116317"
+    },
+    {
+      "date_filed": "2026-08-04",
+      "reporter_name": "Carr Molly",
+      "relationship": "Officer (Chief Medical Officer)",
+      "transaction_date": "2026-07-31",
+      "code": "A",
+      "shares": 430000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-090344"
+    },
+    {
+      "date_filed": "2026-05-19",
+      "reporter_name": "Stoner Elizabeth",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 60000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-063503"
+    },
+    {
+      "date_filed": "2026-03-27",
+      "reporter_name": "Banjak Marc",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-03-26",
+      "code": "P",
+      "shares": 12500.0,
+      "price": 1.6425,
+      "total_value": 20531.25,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-036093"
+    },
+    {
+      "date_filed": "2026-03-27",
+      "reporter_name": "Banjak Marc",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-03-26",
+      "code": "P",
+      "shares": 1434.0,
+      "price": 1.76,
+      "total_value": 2523.84,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-036093"
+    },
+    {
+      "date_filed": "2026-03-23",
+      "reporter_name": "Duran Felipe",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-19",
+      "code": "P",
+      "shares": 24835.0,
+      "price": 2.0186,
+      "total_value": 50131.931000000004,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-033028"
+    },
+    {
+      "date_filed": "2026-03-23",
+      "reporter_name": "Brenner Martin",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-03-19",
+      "code": "P",
+      "shares": 12336.0,
+      "price": 2.02,
+      "total_value": 24918.72,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-033021"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Banjak Marc",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-01-28",
+      "code": "A",
+      "shares": 146000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-008266"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Duran Felipe",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-01-28",
+      "code": "A",
+      "shares": 179000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-008265"
+    },
+    {
+      "date_filed": "2026-01-30",
+      "reporter_name": "Brenner Martin",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2026-01-28",
+      "code": "A",
+      "shares": 479000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-26-008262"
+    },
+    {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-115414"
+    },
+    {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Clark William D",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-115411"
+    },
+    {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Sender Gary",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-115410"
+    },
+    {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Kropotova Alexandra",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-115409"
+    },
+    {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Parada Antonio Bernardino Guimaraes",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-115408"
+    },
+    {
+      "date_filed": "2025-11-24",
+      "reporter_name": "Arkowitz David",
+      "relationship": "Director",
+      "transaction_date": "2025-11-20",
+      "code": "A",
+      "shares": 13500.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-115407"
+    },
+    {
+      "date_filed": "2025-10-22",
+      "reporter_name": "Duran Felipe",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-10-20",
+      "code": "A",
+      "shares": 75000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-101609"
+    },
+    {
+      "date_filed": "2025-10-22",
+      "reporter_name": "Banjak Marc",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2025-10-20",
+      "code": "A",
+      "shares": 55000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-101608"
+    },
+    {
+      "date_filed": "2025-10-22",
+      "reporter_name": "Brenner Martin",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2025-10-20",
+      "code": "A",
+      "shares": 180000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-101607"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Banjak Marc",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2025-02-21",
+      "code": "A",
+      "shares": 71000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-016311"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Duran Felipe",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-02-21",
+      "code": "A",
+      "shares": 84700.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-016307"
+    },
+    {
+      "date_filed": "2025-02-24",
+      "reporter_name": "Brenner Martin",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2025-02-21",
+      "code": "A",
+      "shares": 230700.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-25-016298"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Duran Felipe",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 9191.0,
+      "price": 2.72,
+      "total_value": 24999.52,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-25-003064"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Brenner Martin",
+      "relationship": "Director, Officer (See Remarks)",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 9191.0,
+      "price": 2.72,
+      "total_value": 24999.52,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-25-003063"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Banjak Marc",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 9191.0,
+      "price": 2.72,
+      "total_value": 24999.52,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-25-003062"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Arkowitz David",
+      "relationship": "Director",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 18382.0,
+      "price": 2.72,
+      "total_value": 49999.04,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-25-003061"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Clark William D",
+      "relationship": "Director",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 1838.0,
+      "price": 2.72,
+      "total_value": 4999.360000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-25-003060"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Parada Antonio Bernardino Guimaraes",
+      "relationship": "Director",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 183823.0,
+      "price": 2.72,
+      "total_value": 499998.56000000006,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001104659-25-003059"
+    },
+    {
+      "date_filed": "2025-01-13",
+      "reporter_name": "Sender Gary",
+      "relationship": "Director",
+      "transaction_date": "2025-01-10",
+      "code": "P",
+      "shares": 9191.0,
+      "price": 2.72,
+      "total_value": 24999.52,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-25-003058"
+    },
+    {
+      "date_filed": "2024-12-09",
+      "reporter_name": "Parada Antonio Bernardino Guimaraes",
+      "relationship": "Director",
+      "transaction_date": "2024-11-21",
+      "code": "A",
+      "shares": 12600.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-24-126813"
+    },
+    {
+      "date_filed": "2024-11-25",
+      "reporter_name": "Sender Gary",
+      "relationship": "Director",
+      "transaction_date": "2024-11-21",
+      "code": "A",
+      "shares": 18900.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-24-122595"
+    },
+    {
+      "date_filed": "2024-11-25",
+      "reporter_name": "Schimmelpennink Evert B.",
+      "relationship": "Director",
+      "transaction_date": "2024-11-21",
+      "code": "A",
+      "shares": 18900.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-24-122593"
+    },
+    {
+      "date_filed": "2024-11-25",
+      "reporter_name": "Kropotova Alexandra",
+      "relationship": "Director",
+      "transaction_date": "2024-11-21",
+      "code": "A",
+      "shares": 18900.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-24-122592"
+    },
+    {
+      "date_filed": "2024-11-25",
+      "reporter_name": "Clark William D",
+      "relationship": "Director",
+      "transaction_date": "2024-11-21",
+      "code": "A",
+      "shares": 18900.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-24-122590"
+    },
+    {
+      "date_filed": "2024-11-25",
+      "reporter_name": "Arkowitz David",
+      "relationship": "Director",
+      "transaction_date": "2024-11-21",
+      "code": "A",
+      "shares": 12600.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Stock Option (right to buy)",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001104659-24-122589"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.1200000047683716,
+    "shares_basic": 70455809,
+    "shares_basic_as_of": "2026-11-10",
+    "options": 2819813,
+    "warrants": 0,
+    "cash": 45435000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 1075000.0,
+    "mc_basic": 78910506.41595948,
+    "ev_basic": 33475506.415959477
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "",
+          "SG&A",
+          "R&D",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            1075000,
+            0,
+            0,
+            0
+          ],
+          [
+            975.0,
+            -100.0,
+            null,
+            -100.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2763000,
+            -2182000,
+            5111000,
+            5165000
+          ],
+          [
+            6650000,
+            8559000,
+            3254000,
+            4280000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -8338000,
+            -11380000,
+            -8365000,
+            -9445000
+          ],
+          [
+            -40.11090573012939,
+            -118.9303578299346,
+            -71.44906743185079,
+            -113.73613939805387
+          ],
+          [
+            -775.6279069767442,
+            null,
+            null,
+            null
+          ],
+          [
+            -8188000,
+            -11228000,
+            -8213000,
+            -9299000
+          ],
+          [
+            -761.6744186046511,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -46000,
+            22000,
+            41000
+          ],
+          [
+            787000,
+            733000,
+            657000,
+            null
+          ],
+          [
+            -7551000,
+            -10601000,
+            -7730000,
+            -8993000
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -7551000,
+            -10601000,
+            -7730000,
+            -8993000
+          ],
+          [
+            -7551000,
+            -10397000,
+            -7730000,
+            -8993000
+          ],
+          [
+            -702.4186046511628,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.05,
+            -0.27,
+            -0.06,
+            -0.09
+          ],
+          [
+            -0.05,
+            -0.07,
+            -0.06,
+            -0.09
+          ],
+          [
+            151574000,
+            null,
+            119600000,
+            99133000
+          ],
+          [
+            151574000,
+            null,
+            119600000,
+            99133000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "",
+          "SG&A",
+          "R&D",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "6/30/26",
+          "6/30/25",
+          "6/30/24",
+          "6/30/23"
+        ],
+        "data": [
+          [
+            1075000,
+            100000,
+            400000,
+            225000,
+            0
+          ],
+          [
+            975.0,
+            -75.0,
+            77.77777777777777,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            10857000,
+            10595000,
+            10690000,
+            11674000,
+            19016000
+          ],
+          [
+            22743000,
+            19643000,
+            8312000,
+            5185000,
+            10327000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -37528000,
+            -35141000,
+            -18602000,
+            -16634000,
+            -29343000
+          ],
+          [
+            -6.792635383170655,
+            -88.90979464573702,
+            -11.831189130696165,
+            43.31186313601199,
+            null
+          ],
+          [
+            -3490.9767441860463,
+            -35141.0,
+            -4650.5,
+            -7392.888888888889,
+            null
+          ],
+          [
+            -36928000,
+            -34563000,
+            -18098000,
+            -15976000,
+            -28543000
+          ],
+          [
+            -3435.1627906976746,
+            -34563.0,
+            -4524.5,
+            -7100.444444444444,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            53000,
+            212000,
+            172000,
+            83000
+          ],
+          [
+            2653000,
+            2150000,
+            null,
+            -8101000,
+            -35584000
+          ],
+          [
+            -34875000,
+            -33044000,
+            -18377000,
+            -24907000,
+            -65010000
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -34875000,
+            -33044000,
+            -18377000,
+            -24907000,
+            -65010000
+          ],
+          [
+            -34671000,
+            -32840000,
+            -18377000,
+            -24907000,
+            -65010000
+          ],
+          [
+            -3244.186046511628,
+            -33044.0,
+            -4594.25,
+            -11069.777777777777,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.47000000000000003,
+            -0.32,
+            -1.75,
+            -6.5,
+            -106.19
+          ],
+          [
+            -0.27,
+            -0.32,
+            -1.75,
+            -6.5,
+            -106.19
+          ],
+          [
+            151574000,
+            104060000,
+            10499000,
+            3831000,
+            612000
+          ],
+          [
+            151574000,
+            104060000,
+            10499000,
+            3831000,
+            612000
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            45435000,
+            56395000,
+            47631000,
+            28672000
+          ],
+          [
+            31219000,
+            31644000,
+            27187000,
+            24016000
+          ],
+          [
+            125000,
+            null,
+            null,
+            null
+          ],
+          [
+            4460000,
+            4182000,
+            2433000,
+            680000
+          ],
+          [
+            81239000,
+            92221000,
+            77251000,
+            53368000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3021000,
+            3086000,
+            3310000,
+            3447000
+          ],
+          [
+            1566000,
+            1667000,
+            1766000,
+            1864000
+          ],
+          [
+            2570000,
+            1825000,
+            1830000,
+            4338000
+          ],
+          [
+            null,
+            null,
+            1677000,
+            1376000
+          ],
+          [
+            88651000,
+            99110000,
+            85834000,
+            64393000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4409000,
+            4423000,
+            3035000,
+            2654000
+          ],
+          [
+            561000,
+            546000,
+            532000,
+            518000
+          ],
+          [
+            3604000,
+            6776000,
+            2937000,
+            2729000
+          ],
+          [
+            8574000,
+            11745000,
+            6504000,
+            5901000
+          ],
+          [
+            1507000,
+            1652000,
+            1793000,
+            1932000
+          ],
+          [
+            10081000,
+            13397000,
+            8297000,
+            7833000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -372819000,
+            -365268000,
+            -354667000,
+            -346937000
+          ],
+          [
+            78570000,
+            85713000,
+            77537000,
+            56560000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Short-term Investments",
+          "Receivables",
+          "Inventory",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "6/30/26",
+          "6/30/25",
+          "6/30/24",
+          "6/30/23"
+        ],
+        "data": [
+          [
+            45435000,
+            56395000,
+            8582000,
+            14210000,
+            4301000
+          ],
+          [
+            31219000,
+            31644000,
+            0,
+            0,
+            null
+          ],
+          [
+            125000,
+            null,
+            0,
+            0,
+            0
+          ],
+          [
+            null,
+            null,
+            null,
+            0,
+            0
+          ],
+          [
+            4460000,
+            4182000,
+            1139000,
+            1462000,
+            21958000
+          ],
+          [
+            81239000,
+            92221000,
+            9721000,
+            15672000,
+            26259000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            3021000,
+            3086000,
+            3163000,
+            3632000,
+            4219000
+          ],
+          [
+            1566000,
+            1667000,
+            2051000,
+            2401000,
+            2722000
+          ],
+          [
+            2570000,
+            1825000,
+            6848000,
+            5368000,
+            5388000
+          ],
+          [
+            null,
+            null,
+            1402000,
+            1661000,
+            2619000
+          ],
+          [
+            88651000,
+            99110000,
+            23185000,
+            28734000,
+            41207000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4409000,
+            4423000,
+            2188000,
+            358000,
+            1849000
+          ],
+          [
+            561000,
+            546000,
+            490000,
+            436000,
+            389000
+          ],
+          [
+            3604000,
+            6776000,
+            3428000,
+            3046000,
+            19344000
+          ],
+          [
+            8574000,
+            11745000,
+            6106000,
+            3840000,
+            21582000
+          ],
+          [
+            1507000,
+            1652000,
+            2199000,
+            2688000,
+            3125000
+          ],
+          [
+            null,
+            null,
+            null,
+            882000,
+            1119000
+          ],
+          [
+            10081000,
+            13397000,
+            8305000,
+            7410000,
+            25826000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -372819000,
+            -365268000,
+            -332224000,
+            -313847000,
+            -288940000
+          ],
+          [
+            78570000,
+            85713000,
+            14880000,
+            21324000,
+            15381000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            -7551000,
+            -10601000,
+            -7730000,
+            -8993000
+          ],
+          [
+            150000,
+            152000,
+            152000,
+            146000
+          ],
+          [
+            435000,
+            420000,
+            377000,
+            253000
+          ],
+          [
+            -2421000,
+            3801000,
+            1117000,
+            3353000
+          ],
+          [
+            -9387000,
+            -6228000,
+            -6084000,
+            -5241000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -102000,
+            -19000,
+            -11000,
+            -516000
+          ],
+          [
+            null,
+            -4393000,
+            -3100000,
+            -2467000
+          ],
+          [
+            -454000,
+            -4412000,
+            -3111000,
+            -2983000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            0,
+            3310000,
+            0
+          ],
+          [
+            -1119000,
+            19404000,
+            24844000,
+            8785000
+          ],
+          [
+            -1119000,
+            19404000,
+            28154000,
+            8785000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -9489000,
+            -6247000,
+            -6095000,
+            -5757000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Acquisitions",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "6/30/26",
+          "6/30/25",
+          "6/30/24",
+          "6/30/23"
+        ],
+        "data": [
+          [
+            -34875000,
+            -33044000,
+            -18377000,
+            -24907000,
+            -65010000
+          ],
+          [
+            600000,
+            578000,
+            504000,
+            658000,
+            800000
+          ],
+          [
+            1485000,
+            1373000,
+            1530000,
+            2038000,
+            4391000
+          ],
+          [
+            5850000,
+            7875000,
+            1039000,
+            3657000,
+            29383000
+          ],
+          [
+            -26940000,
+            -23218000,
+            -15304000,
+            -18554000,
+            -30436000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -648000,
+            -578000,
+            -16000,
+            -210000,
+            -5738000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            -692000
+          ],
+          [
+            -10312000,
+            -31421000,
+            758000,
+            1116000,
+            13439000
+          ],
+          [
+            -10960000,
+            -31999000,
+            742000,
+            906000,
+            7009000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            3529000,
+            3541000,
+            25523000,
+            11487000
+          ],
+          [
+            55224000,
+            99519000,
+            5388000,
+            -1029000,
+            -9186000
+          ],
+          [
+            55224000,
+            103048000,
+            8929000,
+            24494000,
+            2301000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -27588000,
+            -23796000,
+            -15320000,
+            -18764000,
+            -36174000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            9.475040821087008,
+            7.8519369944657305,
+            11.877460024600246,
+            9.043890865954923
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -761.6744186046511,
+            null,
+            null,
+            null
+          ],
+          [
+            72665000,
+            80476000,
+            70747000,
+            47467000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -9.610538373424971,
+            -12.368018853616137,
+            -9.969433947663696,
+            -15.89992927864215
+          ],
+          [
+            -8.517670415449347,
+            -10.696196145696701,
+            -9.005755295104503,
+            -13.965803736430978
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "6/30/26",
+          "6/30/25",
+          "6/30/24",
+          "6/30/23"
+        ],
+        "data": [
+          [
+            9.475040821087008,
+            7.8519369944657305,
+            1.5920406157877498,
+            4.08125,
+            1.2167083680845148
+          ],
+          [
+            null,
+            null,
+            null,
+            4.08125,
+            1.2167083680845148
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3435.1627906976746,
+            -34563.0,
+            -4524.5,
+            -7100.444444444444,
+            null
+          ],
+          [
+            72665000,
+            80476000,
+            3615000,
+            11832000,
+            4677000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -44.38717067583047,
+            -38.551911612007515,
+            -123.5013440860215,
+            -116.80266366535359,
+            -422.6643261166374
+          ],
+          [
+            -39.33965775907773,
+            -33.340732519422865,
+            -79.26245417295665,
+            -86.68128349690262,
+            -157.7644574950858
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-25T11:34:36+00:00"
+}

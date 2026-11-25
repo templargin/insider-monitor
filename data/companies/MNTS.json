@@ -1,0 +1,2101 @@
+{
+  "ticker": "MNTS",
+  "cik": "1781162",
+  "name": "Momentus Inc.",
+  "description": "Momentus Inc. operates as a commercial space company in the United States. The company offers satellites, satellite buses, solar arrays, and other satellite components; transportation, communication, and infrastructure services, including hosted payloads, and other in-orbit services for government and commercial customers. It serves satellite operators. The company is based in San Jose, California.",
+  "ownership": {
+    "inst_pct": 0.1942,
+    "insider_pct": 0.02701,
+    "inst_count": 56,
+    "analyst_count": 1,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": 8.0,
+    "short_pct_float": 0.071100004,
+    "shares_short": 1595886,
+    "short_days_to_cover": 2.02,
+    "short_as_of": "2026-11-13",
+    "as_of": "2026-11-25"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "BURKLE RONALD W",
+      "relationship": "Other (Member of 10% Owner Group)",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 19139.0,
+      "price": 1.9138,
+      "total_value": 36628.218199999996,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000905148-26-005172"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "BURKLE RONALD W",
+      "relationship": "Other (Member of 10% Owner Group)",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 616444.0,
+      "price": 1.9475,
+      "total_value": 1200524.69,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0000905148-26-005172"
+    },
+    {
+      "date_filed": "2026-05-26",
+      "reporter_name": "Hadfield Chris",
+      "relationship": "Director",
+      "transaction_date": "2026-05-21",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 7.19,
+      "total_value": 14380.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001837938-26-000004"
+    },
+    {
+      "date_filed": "2026-05-22",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2026-05-20",
+      "code": "P",
+      "shares": 250.0,
+      "price": 5.515,
+      "total_value": 1378.75,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001786113-26-000005"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 6457.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001905262-26-000003"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 10635.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001905262-26-000003"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Ensler Lon",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 5405.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0002018153-26-000003"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Ensler Lon",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 15107.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002018153-26-000003"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 55350.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001873855-26-000004"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 40485.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001873855-26-000004"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Layman Jon",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 14270.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001857583-26-000005"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Layman Jon",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 15107.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001857583-26-000005"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Layman Jon",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 6457.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001857583-26-000004"
+    },
+    {
+      "date_filed": "2026-05-21",
+      "reporter_name": "Layman Jon",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-05-19",
+      "code": "A",
+      "shares": 10635.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001857583-26-000004"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2026-05-19",
+      "code": "P",
+      "shares": 250.0,
+      "price": 5.615,
+      "total_value": 1403.75,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001786113-26-000004"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "M",
+      "shares": 913.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001786113-26-000004"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 6039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001786113-26-000004"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Reed Kimberly A.",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "M",
+      "shares": 913.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001873931-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Reed Kimberly A.",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 6039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001873931-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Mercado Victorino",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "M",
+      "shares": 913.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001873859-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Mercado Victorino",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 6039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001873859-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Reiners Linda J.",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "M",
+      "shares": 913.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001873933-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Reiners Linda J.",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 6039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001873933-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Kugler Mitchel B.",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 6039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001877834-26-000002"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Hadfield Chris",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "M",
+      "shares": 913.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001837938-26-000003"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Hadfield Chris",
+      "relationship": "Director",
+      "transaction_date": "2026-05-18",
+      "code": "A",
+      "shares": 6039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001837938-26-000003"
+    },
+    {
+      "date_filed": "2026-05-20",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2026-05-15",
+      "code": "P",
+      "shares": 1850.0,
+      "price": 5.4046,
+      "total_value": 9998.51,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001786113-26-000002"
+    },
+    {
+      "date_filed": "2026-05-18",
+      "reporter_name": "Hadfield Chris",
+      "relationship": "Director",
+      "transaction_date": "2026-05-15",
+      "code": "P",
+      "shares": 1500.0,
+      "price": 5.32,
+      "total_value": 7980.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001837938-26-000001"
+    },
+    {
+      "date_filed": "2026-03-03",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2026-02-27",
+      "code": "A",
+      "shares": 5974.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001905262-26-000001"
+    },
+    {
+      "date_filed": "2026-03-03",
+      "reporter_name": "Layman Jon",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2026-02-27",
+      "code": "A",
+      "shares": 8486.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001857583-26-000002"
+    },
+    {
+      "date_filed": "2026-03-03",
+      "reporter_name": "Ensler Lon",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-02-27",
+      "code": "A",
+      "shares": 3606.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002018153-26-000001"
+    },
+    {
+      "date_filed": "2026-03-03",
+      "reporter_name": "Ensler Lon",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-02-27",
+      "code": "A",
+      "shares": 8486.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002018153-26-000001"
+    },
+    {
+      "date_filed": "2026-03-03",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-02-27",
+      "code": "A",
+      "shares": 22744.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001873855-26-000002"
+    },
+    {
+      "date_filed": "2025-09-10",
+      "reporter_name": "Ensler Lon",
+      "relationship": "Officer (CFO)",
+      "transaction_date": "2025-08-01",
+      "code": "A",
+      "shares": 95000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0002018153-25-000005"
+    },
+    {
+      "date_filed": "2025-08-22",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-08-20",
+      "code": "M",
+      "shares": 327.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000031"
+    },
+    {
+      "date_filed": "2025-08-22",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-08-20",
+      "code": "F",
+      "shares": -116.0,
+      "price": 1.28,
+      "total_value": -148.48,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000031"
+    },
+    {
+      "date_filed": "2025-08-22",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-08-20",
+      "code": "M",
+      "shares": -327.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000031"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Hadfield Chris",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000028"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Hadfield Chris",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000028"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Kugler Mitchel B.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000027"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Kugler Mitchel B.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Deferred Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000027"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Mercado Victorino",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000026"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Mercado Victorino",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000026"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Reed Kimberly A.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000025"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Reed Kimberly A.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000025"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Reiners Linda J.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000024"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Reiners Linda J.",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000024"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000023"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Kabot Brian",
+      "relationship": "Director",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 16294.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000023"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 44809.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000022"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-06-30",
+      "code": "A",
+      "shares": 170580.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000021"
+    },
+    {
+      "date_filed": "2025-07-03",
+      "reporter_name": "Layman Jon",
+      "relationship": "Officer (Chief Legal Officer)",
+      "transaction_date": "2025-04-22",
+      "code": "A",
+      "shares": 127298.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000019"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": 80.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000005"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "F",
+      "shares": -33.0,
+      "price": 1.93,
+      "total_value": -63.69,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000005"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": 157.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000005"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "F",
+      "shares": -65.0,
+      "price": 1.93,
+      "total_value": -125.45,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000005"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": -80.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000005"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "SCHWARZ ROBERT E",
+      "relationship": "Officer (Chief Technology Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": -157.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000005"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": 318.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000003"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "F",
+      "shares": -113.0,
+      "price": 1.93,
+      "total_value": -218.09,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000003"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": 600.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000003"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "F",
+      "shares": -213.0,
+      "price": 1.93,
+      "total_value": -411.09,
+      "security_title": "Class A Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000003"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": -318.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000003"
+    },
+    {
+      "date_filed": "2025-03-26",
+      "reporter_name": "Rood John C.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2025-03-20",
+      "code": "M",
+      "shares": -600.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Restricted Stock Units",
+      "table": "derivative",
+      "ownership": "D",
+      "accession": "0001781162-25-000003"
+    }
+  ],
+  "valuation": {
+    "share_price": 2.0399999618530273,
+    "shares_basic": 24063401,
+    "shares_basic_as_of": "2026-11-18",
+    "options": 2424,
+    "warrants": 1716000,
+    "cash": 108660000,
+    "debt": null,
+    "debt_flag": null,
+    "ttm_revenue": 8419000.0,
+    "mc_basic": 49089337.1220541,
+    "ev_basic": -59570662.8779459
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            4816000,
+            25000,
+            3215000,
+            363000
+          ],
+          [
+            1958.1196581196582,
+            -86.91099476439791,
+            898.4472049689441,
+            27.36842105263158
+          ],
+          [
+            3175000,
+            0,
+            1398000,
+            0
+          ],
+          [
+            1641000,
+            25000,
+            1817000,
+            363000
+          ],
+          [
+            601.2820512820513,
+            -86.77248677248677,
+            464.2857142857143,
+            27.36842105263158
+          ],
+          [
+            34.07392026578073,
+            100.0,
+            56.516329704510106,
+            100.0
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            5629000,
+            3904000,
+            6340000,
+            6489000
+          ],
+          [
+            5277000,
+            4226000,
+            4169000,
+            2754000
+          ],
+          [
+            10906000,
+            8130000,
+            10509000,
+            9243000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -9265000,
+            -8105000,
+            -8692000,
+            -8880000
+          ],
+          [
+            -48.33493435798911,
+            -36.35598923283984,
+            -40.53354890864996,
+            -30.607442270922196
+          ],
+          [
+            -192.3795681063123,
+            -32420.0,
+            -270.357698289269,
+            -2446.280991735537
+          ],
+          [
+            -9155000,
+            -7995000,
+            -8382000,
+            -8520000
+          ],
+          [
+            -190.09551495016612,
+            -31980.0,
+            -260.7153965785381,
+            -2347.1074380165287
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            116000,
+            586000,
+            565000
+          ],
+          [
+            726000,
+            null,
+            null,
+            2673000
+          ],
+          [
+            -8539000,
+            -8269000,
+            -9480000,
+            -6772000
+          ],
+          [
+            -8539000,
+            -8269000,
+            -9480000,
+            -6772000
+          ],
+          [
+            -177.3048172757475,
+            -33076.0,
+            -294.86780715396577,
+            -1865.564738292011
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -0.4,
+            -0.7,
+            -2.15,
+            -45.42
+          ],
+          [
+            -0.4,
+            -0.7,
+            -2.15,
+            -45.42
+          ],
+          [
+            21442512,
+            11887008,
+            4399749,
+            null
+          ],
+          [
+            21442512,
+            11887008,
+            4399749,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Cost of Revenue",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "R&D",
+          "Operating Expense",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            8419000,
+            1110000,
+            2114000,
+            3089000,
+            299000
+          ],
+          [
+            658.4684684684685,
+            -47.49290444654683,
+            -31.563612819682746,
+            933.1103678929766,
+            null
+          ],
+          [
+            4573000,
+            2000,
+            66000,
+            855000,
+            26000
+          ],
+          [
+            3846000,
+            1108000,
+            2048000,
+            2234000,
+            273000
+          ],
+          [
+            247.1119133574007,
+            -45.8984375,
+            -8.325872873769024,
+            718.3150183150183,
+            null
+          ],
+          [
+            45.682385081363584,
+            99.81981981981981,
+            96.87795648060549,
+            72.32113952735513,
+            91.30434782608695
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            22362000,
+            19173000,
+            21949000,
+            36055000,
+            49827000
+          ],
+          [
+            16426000,
+            9190000,
+            9782000,
+            34351000,
+            41721000
+          ],
+          [
+            38788000,
+            28363000,
+            31731000,
+            70406000,
+            91548000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -34942000,
+            -27255000,
+            -29683000,
+            -68172000,
+            -91275000
+          ],
+          [
+            -28.20399926618969,
+            8.179766196139203,
+            56.45866338086018,
+            25.311421528348397,
+            null
+          ],
+          [
+            -415.03741536999644,
+            -2455.4054054054054,
+            -1404.1154210028383,
+            -2206.9278083522177,
+            -30526.75585284281
+          ],
+          [
+            -34052000,
+            -25955000,
+            -28833000,
+            -67322000,
+            -90168000
+          ],
+          [
+            -404.46608860909845,
+            -2338.288288288288,
+            -1363.9072847682119,
+            -2179.4108125606995,
+            -30156.521739130436
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1267000,
+            677000,
+            395000,
+            2337000,
+            5262000
+          ],
+          [
+            3149000,
+            -2536000,
+            -4868000,
+            1589000,
+            1093000
+          ],
+          [
+            -33060000,
+            -30468000,
+            -34946000,
+            -68920000,
+            -95444000
+          ],
+          [
+            null,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -33060000,
+            -30468000,
+            -34946000,
+            -68920000,
+            -95444000
+          ],
+          [
+            -392.6832165340302,
+            -2744.864864864865,
+            -1653.0747398297067,
+            -2231.1427646487537,
+            -31921.07023411371
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -48.67,
+            -49.1,
+            -23.19,
+            -323.96,
+            -1.17
+          ],
+          [
+            -48.67,
+            -49.1,
+            -23.19,
+            -323.96,
+            -1.17
+          ],
+          [
+            21442512,
+            622937,
+            1507230,
+            212744,
+            81546648
+          ],
+          [
+            21442512,
+            622937,
+            1507230,
+            212744,
+            81546648
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            108660000,
+            107598000,
+            23482000,
+            12806000
+          ],
+          [
+            294000,
+            611000,
+            396000,
+            0
+          ],
+          [
+            5481000,
+            4903000,
+            5378000,
+            9476000
+          ],
+          [
+            114435000,
+            113112000,
+            29256000,
+            22282000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1171000,
+            464000,
+            498000,
+            953000
+          ],
+          [
+            6887000,
+            7088000,
+            7290000,
+            7686000
+          ],
+          [
+            162000,
+            175000,
+            188000,
+            201000
+          ],
+          [
+            9320000,
+            8695000,
+            8631000,
+            9197000
+          ],
+          [
+            131975000,
+            129534000,
+            45863000,
+            40319000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4745000,
+            3987000,
+            3740000,
+            4081000
+          ],
+          [
+            1193000,
+            956000,
+            726000,
+            836000
+          ],
+          [
+            5131000,
+            3311000,
+            7131000,
+            11152000
+          ],
+          [
+            11069000,
+            8254000,
+            11597000,
+            16069000
+          ],
+          [
+            6663000,
+            6897000,
+            6978000,
+            6987000
+          ],
+          [
+            17847000,
+            15274000,
+            18698000,
+            23179000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -464866000,
+            -456327000,
+            -448058000,
+            -438578000
+          ],
+          [
+            114128000,
+            114260000,
+            27165000,
+            17140000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Intangible Assets",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            108660000,
+            12806000,
+            1572000,
+            2118000,
+            61094000
+          ],
+          [
+            294000,
+            0,
+            879000,
+            0,
+            0
+          ],
+          [
+            5481000,
+            9476000,
+            2075000,
+            8613000,
+            15180000
+          ],
+          [
+            114435000,
+            22282000,
+            4526000,
+            10731000,
+            76274000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            1171000,
+            953000,
+            2182000,
+            3252000,
+            4016000
+          ],
+          [
+            6887000,
+            7686000,
+            347000,
+            5350000,
+            6441000
+          ],
+          [
+            162000,
+            201000,
+            253000,
+            341000,
+            337000
+          ],
+          [
+            9320000,
+            9197000,
+            2644000,
+            975000,
+            5355000
+          ],
+          [
+            131975000,
+            40319000,
+            9952000,
+            20649000,
+            92423000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4745000,
+            4081000,
+            5596000,
+            2805000,
+            2239000
+          ],
+          [
+            1193000,
+            836000,
+            685000,
+            1268000,
+            1153000
+          ],
+          [
+            5131000,
+            11152000,
+            8729000,
+            7036000,
+            39834000
+          ],
+          [
+            11069000,
+            16069000,
+            15010000,
+            11109000,
+            43226000
+          ],
+          [
+            6663000,
+            6987000,
+            333000,
+            4863000,
+            6131000
+          ],
+          [
+            null,
+            null,
+            2419000,
+            1490000,
+            4459000
+          ],
+          [
+            17847000,
+            23179000,
+            17762000,
+            17462000,
+            53816000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -464866000,
+            -438578000,
+            -407993000,
+            -373047000,
+            -304127000
+          ],
+          [
+            114128000,
+            17140000,
+            -7810000,
+            3187000,
+            38607000
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            -8539000,
+            -8269000,
+            -9480000,
+            -6772000
+          ],
+          [
+            110000,
+            110000,
+            310000,
+            360000
+          ],
+          [
+            203000,
+            189000,
+            322000,
+            558000
+          ],
+          [
+            2034000,
+            -1099000,
+            3034000,
+            -4676000
+          ],
+          [
+            -6192000,
+            -9069000,
+            -5814000,
+            -10530000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -776000,
+            -31000,
+            -197000,
+            -12000
+          ],
+          [
+            -776000,
+            -31000,
+            -185000,
+            -12000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            8450000,
+            88695000,
+            18335000,
+            13552000
+          ],
+          [
+            null,
+            4521000,
+            -1609000,
+            9181000
+          ],
+          [
+            8031000,
+            93216000,
+            16726000,
+            22733000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -6968000,
+            -9100000,
+            -6011000,
+            -10542000
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Investing Cash Flow",
+          "",
+          "Stock Issuance",
+          "Stock Buyback",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -33060000,
+            -30468000,
+            -34946000,
+            -68920000,
+            -95444000
+          ],
+          [
+            890000,
+            1300000,
+            850000,
+            850000,
+            1107000
+          ],
+          [
+            1272000,
+            3273000,
+            6493000,
+            8480000,
+            11580000
+          ],
+          [
+            -707000,
+            2620000,
+            10992000,
+            -2236000,
+            -5130000
+          ],
+          [
+            -31605000,
+            -23275000,
+            -16611000,
+            -61826000,
+            -87887000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1016000,
+            -12000,
+            0,
+            -94000,
+            -583000
+          ],
+          [
+            -1004000,
+            -12000,
+            94000,
+            -19000,
+            -733000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            129032000,
+            22552000,
+            15710000,
+            19000000,
+            0
+          ],
+          [
+            null,
+            null,
+            0,
+            -10000000,
+            0
+          ],
+          [
+            11674000,
+            12024000,
+            null,
+            -7076000,
+            -9514000
+          ],
+          [
+            140706000,
+            34576000,
+            15597000,
+            1924000,
+            -9514000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -32621000,
+            -23287000,
+            -16611000,
+            -61920000,
+            -88470000
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            10.338332279338694,
+            13.703901138841774,
+            2.522721393463827,
+            1.386645093036281
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -190.09551495016612,
+            -31980.0,
+            -260.7153965785381,
+            -2347.1074380165287
+          ],
+          [
+            103366000,
+            104858000,
+            17659000,
+            6213000
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -7.4819500911257535,
+            -7.237003325748294,
+            -34.897846493649915,
+            -39.50991831971995
+          ],
+          [
+            -6.47016480394014,
+            -6.383652168542622,
+            -20.670257069969256,
+            -16.796051489372257
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            10.338332279338694,
+            1.386645093036281,
+            0.3015323117921386,
+            0.9659735349716446,
+            1.7645398602692823
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -404.46608860909845,
+            -2338.288288288288,
+            -1363.9072847682119,
+            -2179.4108125606995,
+            -30156.521739130436
+          ],
+          [
+            103366000,
+            6213000,
+            -10484000,
+            -378000,
+            33048000
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -28.96747511565961,
+            -177.75962660443406,
+            447.45198463508325,
+            -2162.5352996548477,
+            -247.21941616805242
+          ],
+          [
+            -25.050198901307066,
+            -75.5673503807138,
+            -351.14549839228295,
+            -333.76918979127316,
+            -103.26866689027624
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-25T11:33:17+00:00"
+}

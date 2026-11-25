@@ -4,20 +4,118 @@
   "name": "PEDEVCO CORP",
   "description": "PEDEVCO Corp., together with its subsidiaries, operates as an oil and gas company in the United States. It engages in the acquisition, exploration, development, and production of oil and natural gas assets. The company is headquartered in Houston, Texas.",
   "ownership": {
-    "inst_pct": 0.55257,
-    "insider_pct": 0.38115,
-    "inst_count": 65,
+    "inst_pct": 0.5527,
+    "insider_pct": 0.3831,
+    "inst_count": 68,
     "analyst_count": 2,
     "rec_mean": 1.0,
     "rec_key": "strong_buy",
     "target_mean": 17.18,
-    "short_pct_float": 0.0101,
-    "shares_short": 60725,
-    "short_days_to_cover": 2.77,
-    "short_as_of": "2026-10-30",
-    "as_of": "2026-11-17"
+    "short_pct_float": 0.0097,
+    "shares_short": 58149,
+    "short_days_to_cover": 3.25,
+    "short_as_of": "2026-11-13",
+    "as_of": "2026-11-25"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Juniper Capital IV GP, L.P.",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 22000.0,
+      "price": 10.57,
+      "total_value": 232540.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-123738"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Geiser Edward",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 22000.0,
+      "price": 10.57,
+      "total_value": 232540.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001213900-26-123737"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Crook Jody D.",
+      "relationship": "Officer (CHIEF COMMERCIAL OFFICER)",
+      "transaction_date": "2026-11-23",
+      "code": "F",
+      "shares": -1194.0,
+      "price": 9.14,
+      "total_value": -10913.16,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001654954-26-010107"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Clark Moore",
+      "relationship": "Officer (Executive VP)",
+      "transaction_date": "2026-11-23",
+      "code": "F",
+      "shares": -2093.0,
+      "price": 9.14,
+      "total_value": -19130.02,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001654954-26-010106"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Long Robert Joseph",
+      "relationship": "Officer (CFO and Treasurer)",
+      "transaction_date": "2026-11-23",
+      "code": "S",
+      "shares": -7000.0,
+      "price": 10.57,
+      "total_value": -73990.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001654954-26-010105"
+    },
+    {
+      "date_filed": "2026-11-23",
+      "reporter_name": "KUKES SIMON G",
+      "relationship": "10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 5300.0,
+      "price": 10.028,
+      "total_value": 53148.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001654954-26-010060"
+    },
+    {
+      "date_filed": "2026-11-19",
+      "reporter_name": "Howie John K",
+      "relationship": "Director",
+      "transaction_date": "2026-11-19",
+      "code": "P",
+      "shares": 5000.0,
+      "price": 9.79,
+      "total_value": 48949.99999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001654954-26-010008"
+    },
     {
       "date_filed": "2026-11-16",
       "reporter_name": "Howie John K",
@@ -1616,7 +1714,7 @@
     }
   ],
   "valuation": {
-    "share_price": 10.079999923706055,
+    "share_price": 8.729999542236328,
     "shares_basic": 13282934,
     "shares_basic_as_of": "2026-11-09",
     "options": 86433,
@@ -1625,8 +1723,8 @@
     "debt": 81994000,
     "debt_flag": null,
     "ttm_revenue": 136075000.0,
-    "mc_basic": 133891973.70659256,
-    "ev_basic": 210143973.70659256
+    "mc_basic": 115960007.73955536,
+    "ev_basic": 192212007.73955536
   },
   "financials": {
     "income_statement": {
@@ -2788,5 +2886,5 @@
       }
     }
   },
-  "last_updated": "2026-11-17T19:21:00+00:00"
+  "last_updated": "2026-11-25T11:33:54+00:00"
 }

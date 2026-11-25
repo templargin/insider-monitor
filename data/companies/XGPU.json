@@ -1,0 +1,2641 @@
+{
+  "ticker": "XGPU",
+  "cik": "1812727",
+  "name": "Reliance Global Group, Inc.",
+  "description": "Reliance Global Group, Inc. acquires, owns, and manages insurance distribution and technology-oriented businesses in the United States. The company operates RELI Exchange, a business-to-business InsurTech platform and partner network designed to support insurance agents and agencies through technology-enabled tools and operational infrastructure; and 5MinuteInsure.com, a direct-to-consumer InsurTech platform designed to enable consumers to compare, quote, and bind certain insurance products through a streamlined digital interface. It also provides training and mentorship resources to support agent onboarding and business development through its platform; agency services for insurance products in the healthcare, life, bond, auto, and property and casualty sectors; and insurance marketing services. The company was formerly known as Ethos Media Network, Inc. and changed its name to Reliance Global Group, Inc. in October 2018. The company was incorporated in 2013 and is headquartered in Lakewood, New Jersey.",
+  "ownership": {
+    "inst_pct": 0.0758,
+    "insider_pct": 0.20722,
+    "inst_count": 14,
+    "analyst_count": null,
+    "rec_mean": null,
+    "rec_key": null,
+    "target_mean": null,
+    "short_pct_float": 0.026500002,
+    "shares_short": 43558,
+    "short_days_to_cover": 0.11,
+    "short_as_of": "2026-10-15",
+    "as_of": "2026-11-25"
+  },
+  "form4_filings": [
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Korman Judah",
+      "relationship": "Officer (Chief Operating Officer), 10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 51737.0,
+      "price": 2.6,
+      "total_value": 134516.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-053882"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Beyman Mordechai Menachem",
+      "relationship": "Officer (Vice President), 10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 28783.0,
+      "price": 2.6,
+      "total_value": 74835.8,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-053878"
+    },
+    {
+      "date_filed": "2026-11-24",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO), 10% Owner",
+      "transaction_date": "2026-11-20",
+      "code": "P",
+      "shares": 117385.0,
+      "price": 2.6,
+      "total_value": 305201.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-053875"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -9329.0,
+      "price": 2.5451,
+      "total_value": -23743.2379,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042236"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -8830.0,
+      "price": 3.9684,
+      "total_value": -35040.972,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042226"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -1000.0,
+      "price": 3.305,
+      "total_value": -3305.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042223"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -8120.0,
+      "price": 3.9,
+      "total_value": -31668.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042223"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2026-08-03",
+      "code": "S",
+      "shares": -7448.0,
+      "price": 4.0754,
+      "total_value": -30353.5792,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042215"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-30",
+      "code": "F",
+      "shares": -9375.0,
+      "price": 1.9017,
+      "total_value": -17828.4375,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042236"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Korman Judah",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-30",
+      "code": "F",
+      "shares": -7315.0,
+      "price": 1.9017,
+      "total_value": -13910.9355,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042230"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2026-07-30",
+      "code": "F",
+      "shares": -8302.0,
+      "price": 1.9017,
+      "total_value": -15787.9134,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042223"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Mordechai Menachem",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-07-30",
+      "code": "F",
+      "shares": -2455.0,
+      "price": 1.9017,
+      "total_value": -4668.6735,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042220"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2026-07-30",
+      "code": "F",
+      "shares": -43950.0,
+      "price": 1.9017,
+      "total_value": -83579.715,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042218"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2026-07-30",
+      "code": "F",
+      "shares": -1288.0,
+      "price": 1.9017,
+      "total_value": -2449.3896,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042215"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-20",
+      "code": "F",
+      "shares": -2255.0,
+      "price": 2.2635,
+      "total_value": -5104.1925,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042236"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Korman Judah",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-20",
+      "code": "F",
+      "shares": -1772.0,
+      "price": 2.2635,
+      "total_value": -4010.922,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042230"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2026-07-20",
+      "code": "F",
+      "shares": -2212.0,
+      "price": 2.2635,
+      "total_value": -5006.862,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042223"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Mordechai Menachem",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-07-20",
+      "code": "F",
+      "shares": -595.0,
+      "price": 2.2635,
+      "total_value": -1346.7825,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042220"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2026-07-20",
+      "code": "F",
+      "shares": -10651.0,
+      "price": 2.2635,
+      "total_value": -24108.538500000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042218"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2026-07-20",
+      "code": "F",
+      "shares": -312.0,
+      "price": 2.2635,
+      "total_value": -706.212,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042215"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-07-06",
+      "code": "F",
+      "shares": -2080.0,
+      "price": 3.0982,
+      "total_value": -6444.255999999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042236"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Korman Judah",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-07-06",
+      "code": "F",
+      "shares": -1634.0,
+      "price": 3.0982,
+      "total_value": -5062.458799999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042230"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Mordechai Menachem",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-07-06",
+      "code": "F",
+      "shares": -547.0,
+      "price": 3.0982,
+      "total_value": -1694.7153999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042220"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2026-07-06",
+      "code": "F",
+      "shares": -9828.0,
+      "price": 3.0982,
+      "total_value": -30449.1096,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042218"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2026-07-06",
+      "code": "F",
+      "shares": -287.0,
+      "price": 3.0982,
+      "total_value": -889.1834,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042215"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 23039.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042236"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "KORMAN SCOTT",
+      "relationship": "Director",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 7168.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042233"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Korman Judah",
+      "relationship": "Officer (Chief Operating Officer)",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 21941.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042230"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Brickman Sheldon",
+      "relationship": "Director",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 7168.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042228"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 7168.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042226"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 20113.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042223"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Mordechai Menachem",
+      "relationship": "Officer (Vice President)",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 7314.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042220"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 151575.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042218"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2026-06-24",
+      "code": "A",
+      "shares": 7168.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042215"
+    },
+    {
+      "date_filed": "2026-09-10",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2024-07-06",
+      "code": "F",
+      "shares": -1498.0,
+      "price": 3.0982,
+      "total_value": -4641.1035999999995,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-042223"
+    },
+    {
+      "date_filed": "2026-03-26",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2026-03-26",
+      "code": "P",
+      "shares": 300000.0,
+      "price": 0.1699,
+      "total_value": 50970.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-012955"
+    },
+    {
+      "date_filed": "2026-03-24",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2026-03-24",
+      "code": "S",
+      "shares": -127562.0,
+      "price": 0.2055,
+      "total_value": -26213.990999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-012485"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-11-26",
+      "code": "S",
+      "shares": -25000.0,
+      "price": 0.66,
+      "total_value": -16500.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009945"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-15",
+      "code": "F",
+      "shares": -93808.0,
+      "price": 0.8747,
+      "total_value": -82053.8576,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009945"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-15",
+      "code": "S",
+      "shares": -44082.0,
+      "price": 0.8166,
+      "total_value": -35997.3612,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009945"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-09-15",
+      "code": "F",
+      "shares": -75140.0,
+      "price": 0.8747,
+      "total_value": -65724.958,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009904"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-09-15",
+      "code": "F",
+      "shares": -289780.0,
+      "price": 0.8747,
+      "total_value": -253470.56600000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009901"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-04",
+      "code": "S",
+      "shares": -30255.0,
+      "price": 0.8795,
+      "total_value": -26609.2725,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009945"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-03",
+      "code": "F",
+      "shares": -6717.0,
+      "price": 0.8838,
+      "total_value": -5936.4846,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009945"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-09-03",
+      "code": "S",
+      "shares": -155.0,
+      "price": 0.88,
+      "total_value": -136.4,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009945"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-09-03",
+      "code": "F",
+      "shares": -2181.0,
+      "price": 0.8838,
+      "total_value": -1927.5678,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009904"
+    },
+    {
+      "date_filed": "2026-03-12",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-09-03",
+      "code": "F",
+      "shares": -9043.0,
+      "price": 0.8838,
+      "total_value": -7992.2034,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-26-009901"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-08-20",
+      "code": "F",
+      "shares": -21345.0,
+      "price": 0.9472,
+      "total_value": -20217.984,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012548"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-08-20",
+      "code": "F",
+      "shares": -6878.0,
+      "price": 0.9472,
+      "total_value": -6514.841600000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012547"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-08-20",
+      "code": "F",
+      "shares": -15816.0,
+      "price": 0.9472,
+      "total_value": -14980.915200000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012546"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-08-01",
+      "code": "F",
+      "shares": -22636.75,
+      "price": 1.0525,
+      "total_value": -23825.179375,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012548"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-08-01",
+      "code": "F",
+      "shares": -7291.65,
+      "price": 1.0525,
+      "total_value": -7674.461625,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012547"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-08-01",
+      "code": "F",
+      "shares": -16667.0,
+      "price": 1.0525,
+      "total_value": -17542.017499999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012546"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 717775.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012548"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-07-16",
+      "code": "F",
+      "shares": -18863.25,
+      "price": 1.4198,
+      "total_value": -26782.04235,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-012548"
+    },
+    {
+      "date_filed": "2025-09-02",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-03-26",
+      "code": "G",
+      "shares": -12000.0,
+      "price": 0.0,
+      "total_value": -0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001493152-25-012548"
+    },
+    {
+      "date_filed": "2025-07-31",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2025-07-24",
+      "code": "F",
+      "shares": -17518.0,
+      "price": 1.4256,
+      "total_value": -24973.660799999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-021753"
+    },
+    {
+      "date_filed": "2025-07-31",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 66486.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-021753"
+    },
+    {
+      "date_filed": "2025-07-31",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -26000.0,
+      "price": 2.8462,
+      "total_value": -74001.2,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-021753"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 66486.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020916"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Brickman Sheldon",
+      "relationship": "Director",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 66486.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020919"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "KORMAN SCOTT",
+      "relationship": "Director",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 66486.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020917"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 213704.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020918"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-07-18",
+      "code": "A",
+      "shares": 186567.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020915"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-07-16",
+      "code": "F",
+      "shares": -13783.29,
+      "price": 1.4198,
+      "total_value": -19569.515142,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020918"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-07-16",
+      "code": "F",
+      "shares": -6078.0,
+      "price": 1.4198,
+      "total_value": -8629.544399999999,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020915"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -36249.0,
+      "price": 2.9034,
+      "total_value": -105245.3466,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020916"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Brickman Sheldon",
+      "relationship": "Director",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -15236.0,
+      "price": 2.8248,
+      "total_value": -43038.6528,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020919"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -40534.117,
+      "price": 3.0,
+      "total_value": -121602.351,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020918"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -10000.0,
+      "price": 3.0,
+      "total_value": -30000.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020915"
+    },
+    {
+      "date_filed": "2025-07-24",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (EXEC VP, INSURANCE DIVISION)",
+      "transaction_date": "2025-06-18",
+      "code": "S",
+      "shares": -10000.0,
+      "price": 3.1149,
+      "total_value": -31149.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001641172-25-020915"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-02-07",
+      "code": "F",
+      "shares": -17056.0,
+      "price": 1.8815,
+      "total_value": -32090.863999999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2025-02-07",
+      "code": "F",
+      "shares": -7603.0,
+      "price": 1.8815,
+      "total_value": -14305.0445,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006002"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-02-07",
+      "code": "F",
+      "shares": -21495.0,
+      "price": 1.8815,
+      "total_value": -40442.8425,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006001"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 49000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 16250.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006002"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 66000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006001"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-02-04",
+      "code": "F",
+      "shares": -16537.0,
+      "price": 1.9566,
+      "total_value": -32356.294199999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2025-02-04",
+      "code": "F",
+      "shares": -7373.0,
+      "price": 1.9566,
+      "total_value": -14426.011799999998,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006002"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-02-04",
+      "code": "F",
+      "shares": -22318.0,
+      "price": 1.9566,
+      "total_value": -43667.398799999995,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006001"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 185221.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 82534.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006002"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Beyman Ezra",
+      "relationship": "Director, Officer (Chairman and CEO)",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 250000.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006001"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2025-01-02",
+      "code": "F",
+      "shares": -10.0,
+      "price": 2.89,
+      "total_value": -28.900000000000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-12-02",
+      "code": "F",
+      "shares": -12.0,
+      "price": 1.54,
+      "total_value": -18.48,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-11-22",
+      "code": "S",
+      "shares": -10603.0,
+      "price": 1.374,
+      "total_value": -14568.522,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-11-01",
+      "code": "F",
+      "shares": -10.0,
+      "price": 2.38,
+      "total_value": -23.799999999999997,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-10-02",
+      "code": "F",
+      "shares": -9.0,
+      "price": 2.36,
+      "total_value": -21.24,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-09-04",
+      "code": "F",
+      "shares": -9.0,
+      "price": 2.67,
+      "total_value": -24.03,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-11",
+      "reporter_name": "Markovits Joel",
+      "relationship": "Officer (Chief Financial Officer)",
+      "transaction_date": "2024-08-01",
+      "code": "F",
+      "shares": -8.0,
+      "price": 3.6,
+      "total_value": -28.8,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-006003"
+    },
+    {
+      "date_filed": "2025-02-07",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 3140.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-005397"
+    },
+    {
+      "date_filed": "2025-02-07",
+      "reporter_name": "Brickman Sheldon",
+      "relationship": "Director",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 10990.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-005396"
+    },
+    {
+      "date_filed": "2025-02-07",
+      "reporter_name": "KORMAN SCOTT",
+      "relationship": "Director",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 10990.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-005395"
+    },
+    {
+      "date_filed": "2025-02-07",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2025-02-05",
+      "code": "A",
+      "shares": 10990.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-005394"
+    },
+    {
+      "date_filed": "2025-02-03",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 33109.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-004727"
+    },
+    {
+      "date_filed": "2025-02-03",
+      "reporter_name": "Brickman Sheldon",
+      "relationship": "Director",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 47505.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-004725"
+    },
+    {
+      "date_filed": "2025-02-03",
+      "reporter_name": "Fruchtzweig Ben",
+      "relationship": "Director",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 47505.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-004723"
+    },
+    {
+      "date_filed": "2025-02-03",
+      "reporter_name": "KORMAN SCOTT",
+      "relationship": "Director",
+      "transaction_date": "2025-01-21",
+      "code": "A",
+      "shares": 47505.0,
+      "price": 0.0,
+      "total_value": 0.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-004721"
+    },
+    {
+      "date_filed": "2025-01-07",
+      "reporter_name": "Beyman Yaakov",
+      "relationship": "Officer (Exec VP, Insurance Division)",
+      "transaction_date": "2024-12-23",
+      "code": "S",
+      "shares": -3001.0,
+      "price": 3.8009,
+      "total_value": -11406.5009,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-25-001229"
+    },
+    {
+      "date_filed": "2024-12-26",
+      "reporter_name": "Blumenfrucht Alex",
+      "relationship": "Director",
+      "transaction_date": "2024-12-23",
+      "code": "S",
+      "shares": -5236.0,
+      "price": 3.69,
+      "total_value": -19320.84,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001493152-24-051995"
+    }
+  ],
+  "valuation": {
+    "share_price": 1.6100000143051147,
+    "shares_basic": 1765366,
+    "shares_basic_as_of": "2026-11-16",
+    "options": 17,
+    "warrants": 375000,
+    "cash": 6699796,
+    "debt": 100394,
+    "debt_flag": null,
+    "ttm_revenue": 10392691.0,
+    "mc_basic": 2842239.285253763,
+    "ev_basic": -3757162.714746237
+  },
+  "financials": {
+    "income_statement": {
+      "quarterly": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "Gross Profit",
+          "Gross Profit YoY %",
+          "Gross Margin %",
+          "",
+          "SG&A",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Tax Provision",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            1842997,
+            2110815,
+            3826792,
+            2612087
+          ],
+          [
+            -26.161239595749155,
+            -31.61529372849832,
+            -9.664937137353585,
+            -20.776780241440797
+          ],
+          [
+            null,
+            null,
+            116773,
+            null
+          ],
+          [
+            null,
+            null,
+            7.046733769686303,
+            null
+          ],
+          [
+            null,
+            null,
+            3.051459290183527,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            948630,
+            1157649,
+            1356581,
+            780981
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3481749,
+            -1824211,
+            -1239808,
+            -1320358
+          ],
+          [
+            11.036509599781075,
+            23.08790785782859,
+            11.891763588891527,
+            -31.373545954841642
+          ],
+          [
+            -188.91777903056814,
+            -86.42211657582497,
+            -32.39810264054069,
+            -50.548010077765404
+          ],
+          [
+            -3264920,
+            -1571234,
+            -935365,
+            -1008952
+          ],
+          [
+            -177.15275716672355,
+            -74.43731449700708,
+            -24.442535680016054,
+            -38.6262785274763
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            6822630,
+            null,
+            null,
+            null
+          ],
+          [
+            3340881,
+            -1994284,
+            -1471167,
+            -1383389
+          ],
+          [
+            0,
+            0,
+            0,
+            null
+          ],
+          [
+            3340881,
+            -1994284,
+            -1471167,
+            -1383389
+          ],
+          [
+            3347438,
+            -1991371,
+            -1471167,
+            -1383389
+          ],
+          [
+            181.27435910096435,
+            -94.4793361805748,
+            -38.44387152476539,
+            -52.96106140415691
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            2.34,
+            -3.26,
+            -0.09,
+            56.33
+          ],
+          [
+            2.39,
+            -3.26,
+            -0.09,
+            56.33
+          ],
+          [
+            1429665,
+            610289,
+            17008046,
+            null
+          ],
+          [
+            1402845,
+            610289,
+            17008046,
+            null
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Total Revenue",
+          "Revenue YoY %",
+          "",
+          "SG&A",
+          "",
+          "Operating Income",
+          "Operating Income YoY %",
+          "Operating Margin %",
+          "EBITDA",
+          "EBITDA Margin %",
+          "",
+          "Interest Expense",
+          "Other Income / (Expense)",
+          "Pretax Income",
+          "Net Income",
+          "Net Income to Common",
+          "Net Margin %",
+          "",
+          "Diluted EPS",
+          "Basic EPS",
+          "Diluted Avg Shares",
+          "Basic Avg Shares"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            10392691,
+            12430959,
+            14054361,
+            13731826,
+            11761882
+          ],
+          [
+            -16.396707607192656,
+            -11.55087733978087,
+            2.3488136246410347,
+            16.748544153053057,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            4243841,
+            4910823,
+            4219635,
+            4089989,
+            4959151
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -7866126,
+            -9012996,
+            -7695319,
+            -13879192,
+            -6580659
+          ],
+          [
+            12.72462564057501,
+            -17.123097820896053,
+            44.55499282667176,
+            -110.9088466671803,
+            null
+          ],
+          [
+            -75.68902029320414,
+            -72.50443026961959,
+            -54.753958575562415,
+            -101.07317118641032,
+            -55.949030945897945
+          ],
+          [
+            -6780471,
+            -7681150,
+            -5909251,
+            -11270001,
+            -4017141
+          ],
+          [
+            -65.24268834703159,
+            -61.790486156377796,
+            -42.045675360124875,
+            -82.0721220906819,
+            -34.15389645976724
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            1043000,
+            null,
+            null,
+            null
+          ],
+          [
+            6358167,
+            3068240,
+            -1376265,
+            1869192,
+            13046821
+          ],
+          [
+            -1507959,
+            -6987756,
+            -9071584,
+            -12010000,
+            6466162
+          ],
+          [
+            -1507959,
+            -6987756,
+            -9071584,
+            -12010000,
+            6466162
+          ],
+          [
+            -1498489,
+            -6987756,
+            -9071584,
+            -12009982,
+            6466162
+          ],
+          [
+            -14.509803091422617,
+            -56.212525517942744,
+            -64.54639951257833,
+            -87.46105579840584,
+            54.975572786736
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            55.32,
+            -1.28,
+            -9.01,
+            -87.7,
+            -0.42
+          ],
+          [
+            55.37,
+            -1.28,
+            -9.01,
+            -87.7,
+            -0.42
+          ],
+          [
+            1429665,
+            5451940,
+            1007020,
+            165899,
+            1094989
+          ],
+          [
+            1402845,
+            5451940,
+            1007020,
+            165899,
+            1094781
+          ]
+        ]
+      }
+    },
+    "balance_sheet": {
+      "quarterly": {
+        "labels": [
+          "Cash & Equivalents",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            6699796,
+            1807373,
+            2273952,
+            1315634
+          ],
+          [
+            1741410,
+            1357186,
+            2190179,
+            2956041
+          ],
+          [
+            8441206,
+            3164559,
+            4464131,
+            4271675
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            23330,
+            69132,
+            70892,
+            77196
+          ],
+          [
+            471443,
+            762097,
+            830517,
+            897610
+          ],
+          [
+            2136214,
+            4786555,
+            4786555,
+            4786555
+          ],
+          [
+            2191099,
+            2856563,
+            3089840,
+            3387980
+          ],
+          [
+            950000,
+            1213771,
+            26000,
+            null
+          ],
+          [
+            null,
+            null,
+            519587,
+            null
+          ],
+          [
+            14231784,
+            12871169,
+            13787522,
+            13548421
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            496649
+          ],
+          [
+            null,
+            595676,
+            581814,
+            1038294
+          ],
+          [
+            202769,
+            279520,
+            278015,
+            276470
+          ],
+          [
+            1367325,
+            1060668,
+            1000578,
+            585395
+          ],
+          [
+            1570094,
+            1935864,
+            1860407,
+            2396808
+          ],
+          [
+            null,
+            3768347,
+            3916427,
+            4062972
+          ],
+          [
+            303352,
+            519708,
+            591630,
+            661211
+          ],
+          [
+            1873446,
+            6223919,
+            6368464,
+            7120991
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -55176405,
+            -58523843,
+            -56532472,
+            -55061305
+          ],
+          [
+            12358338,
+            6647250,
+            7419058,
+            6427430
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Cash & Equivalents",
+          "Receivables",
+          "Other Current Assets",
+          "Total Current Assets",
+          "",
+          "Net PPE",
+          "Operating Lease ROU",
+          "Goodwill",
+          "Intangible Assets",
+          "Long-term Investments",
+          "Other Assets",
+          "Total Assets",
+          "",
+          "Accounts Payable",
+          "Current Debt",
+          "Current Lease Liabilities",
+          "Other Current Liabilities",
+          "Total Current Liabilities",
+          "Long-term Debt",
+          "Long-term Lease Liabilities",
+          "Other Liabilities",
+          "Total Liabilities",
+          "",
+          "Retained Earnings",
+          "Total Equity"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            6699796,
+            1315634,
+            372695,
+            1329016,
+            505410
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            994321
+          ],
+          [
+            1741410,
+            2956041,
+            3616760,
+            3050016,
+            1765648
+          ],
+          [
+            8441206,
+            4271675,
+            3989455,
+            4379032,
+            3265379
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            23330,
+            77196,
+            133908,
+            139999,
+            162767
+          ],
+          [
+            471443,
+            897610,
+            1052926,
+            739830,
+            1018952
+          ],
+          [
+            2136214,
+            4786555,
+            6693099,
+            6693099,
+            14287099
+          ],
+          [
+            2191099,
+            3387980,
+            5423897,
+            11042757,
+            13439369
+          ],
+          [
+            950000,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            6254163
+          ],
+          [
+            14231784,
+            13548421,
+            17315077,
+            23015009,
+            38427729
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            496649,
+            936952,
+            635339,
+            747469
+          ],
+          [
+            null,
+            1038294,
+            1591919,
+            1390766,
+            1118721
+          ],
+          [
+            202769,
+            276470,
+            244057,
+            285171,
+            339937
+          ],
+          [
+            1367325,
+            585395,
+            800836,
+            878575,
+            5635406
+          ],
+          [
+            1570094,
+            2396808,
+            3573764,
+            3189851,
+            7841533
+          ],
+          [
+            null,
+            4062972,
+            9468400,
+            11026971,
+            12349673
+          ],
+          [
+            303352,
+            661211,
+            847293,
+            484335,
+            714068
+          ],
+          [
+            null,
+            null,
+            null,
+            1166522,
+            8611416
+          ],
+          [
+            1873446,
+            7120991,
+            14317835,
+            15867679,
+            29516690
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -55176405,
+            -55061305,
+            -48073549,
+            -39001965,
+            -26991983
+          ],
+          [
+            12358338,
+            6427430,
+            2997242,
+            7147330,
+            8911039
+          ]
+        ]
+      }
+    },
+    "cash_flow": {
+      "quarterly": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            3340881,
+            -1994284,
+            -1471167,
+            -1383389
+          ],
+          [
+            216829,
+            252977,
+            304443,
+            311406
+          ],
+          [
+            1120969,
+            15600,
+            15500,
+            234340
+          ],
+          [
+            -6299421,
+            65328,
+            580050,
+            -787765
+          ],
+          [
+            -1620742,
+            -1660379,
+            -571174,
+            -1625408
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -3983,
+            null,
+            null,
+            0
+          ],
+          [
+            9711581,
+            -733919,
+            -500000,
+            1038592
+          ],
+          [
+            9707598,
+            -733919,
+            -500000,
+            1038592
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -4492577,
+            -134218,
+            -608381,
+            -76035
+          ],
+          [
+            594850,
+            null,
+            null,
+            null
+          ],
+          [
+            0,
+            0,
+            -130910,
+            null
+          ],
+          [
+            703294,
+            1100526,
+            2314469,
+            null
+          ],
+          [
+            -3194433,
+            966308,
+            1575178,
+            -185242
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -1624725,
+            null,
+            null,
+            -1625408
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Net Income",
+          "D&A",
+          "Stock-Based Comp",
+          "\u0394 Working Cap & Other",
+          "Operating Cash Flow",
+          "",
+          "CapEx",
+          "Acquisitions",
+          "Other Investing",
+          "Investing Cash Flow",
+          "",
+          "Debt Repayment",
+          "Stock Issuance",
+          "Dividends Paid",
+          "Other Financing",
+          "Financing Cash Flow",
+          "",
+          "Free Cash Flow"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            -1507959,
+            -6987756,
+            -9071584,
+            -12010000,
+            6466162
+          ],
+          [
+            1085655,
+            1331846,
+            1786068,
+            2609191,
+            2563518
+          ],
+          [
+            1386409,
+            4827489,
+            533631,
+            875106,
+            1249873
+          ],
+          [
+            -6441808,
+            -2266114,
+            4236761,
+            7677733,
+            -13469550
+          ],
+          [
+            -5477703,
+            -3094535,
+            -2515124,
+            -847970,
+            -3189997
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -15901,
+            -24257,
+            -22864,
+            -61454
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            -6000000
+          ],
+          [
+            9512271,
+            5343913,
+            null,
+            733053,
+            -18580858
+          ],
+          [
+            9512271,
+            5328012,
+            -83228,
+            710189,
+            -24642312
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            -5311211,
+            -5989748,
+            -1397383,
+            -1090622,
+            -875010
+          ],
+          [
+            null,
+            null,
+            null,
+            1028270,
+            2131
+          ],
+          [
+            null,
+            -388379,
+            null,
+            null,
+            null
+          ],
+          [
+            4473022,
+            5078315,
+            3054518,
+            1029275,
+            25994235
+          ],
+          [
+            -838189,
+            -1299812,
+            1657135,
+            966923,
+            25121356
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            -3110436,
+            -2539381,
+            -870834,
+            -3251451
+          ]
+        ]
+      }
+    },
+    "ratios": {
+      "quarterly": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "9/30/26",
+          "6/30/26",
+          "3/31/26",
+          "12/31/25"
+        ],
+        "data": [
+          [
+            5.376242441535347,
+            1.634701094705,
+            2.3995453682984422,
+            1.78223495582458
+          ],
+          [
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            0.6565155515438715,
+            0.6063089141505565,
+            0.7936711873952731
+          ],
+          [
+            -177.15275716672355,
+            -74.43731449700708,
+            -24.442535680016054,
+            -38.6262785274763
+          ],
+          [
+            6871112,
+            1228695,
+            2603724,
+            1874867
+          ],
+          [
+            null,
+            2556650,
+            2224289,
+            3785632
+          ],
+          [
+            27.033416629323458,
+            -30.001639775847156,
+            -19.829565963765212,
+            -21.523206009244753
+          ],
+          [
+            23.474787138422,
+            -15.494194816337195,
+            -10.670278531559187,
+            -10.21070278226518
+          ]
+        ]
+      },
+      "annual": {
+        "labels": [
+          "Current Ratio",
+          "Quick Ratio",
+          "Debt / Equity",
+          "EBITDA Margin %",
+          "Working Capital",
+          "Net Debt",
+          "ROE %",
+          "ROA %"
+        ],
+        "periods": [
+          "LTM",
+          "12/31/25",
+          "12/31/24",
+          "12/31/23",
+          "12/31/22"
+        ],
+        "data": [
+          [
+            5.376242441535347,
+            1.78223495582458,
+            1.1163174177142083,
+            1.3728014255211294,
+            0.41642099829204315
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            0.7936711873952731,
+            3.690165492142443,
+            1.7373952231112877,
+            1.5114280164187364
+          ],
+          [
+            -65.24268834703159,
+            -61.790486156377796,
+            -42.045675360124875,
+            -82.0721220906819,
+            -34.15389645976724
+          ],
+          [
+            6871112,
+            1874867,
+            415691,
+            1189181,
+            -4576154
+          ],
+          [
+            null,
+            3785632,
+            10687624,
+            11088721,
+            12962984
+          ],
+          [
+            -12.201956282470993,
+            -108.71773010363395,
+            -302.66438278924426,
+            -168.03477662287875,
+            72.56350241537491
+          ],
+          [
+            -10.595713088394259,
+            -51.57616522250083,
+            -52.39124261474552,
+            -52.183338272863594,
+            16.826812742433987
+          ]
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-11-25T11:35:38+00:00"
+}
