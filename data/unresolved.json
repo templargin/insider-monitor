@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:33:01+00:00",
+  "generated_at": "2026-11-25T20:04:27+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -4078,8 +4078,8 @@
       "attempts": 2,
       "abandoned": false,
       "last_tried_date": "2026-11-25",
-      "last_reason": "cannot confirm EV < $1,000M for OIG: EV=$705.0M with $357.8M of unexplained_liabilities (up to $1,062.8M)",
-      "last_tried": "2026-11-25T11:30:36+00:00"
+      "last_reason": "cannot confirm EV < $1,000M for OIG: EV=$674.3M with $357.8M of unexplained_liabilities (up to $1,032.1M)",
+      "last_tried": "2026-11-25T20:01:59+00:00"
     },
     {
       "url_date": "2026-11-25",
@@ -4129,7 +4129,7 @@
         ]
       },
       "first_seen": "2026-11-25T11:33:01+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     },
     {
@@ -4137,7 +4137,7 @@
       "cik": "800457",
       "ticker": "DGICA",
       "name": "DONEGAL GROUP INC",
-      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$714.2M with $1,119.4M of unexplained_liabilities (up to $1,833.6M)",
+      "reason": "cannot confirm EV < $1,000M for DGICA: EV=$712.0M with $1,119.4M of unexplained_liabilities (up to $1,831.4M)",
       "transient": false,
       "bucket_data": {
         "ticker": "DGICA",
@@ -4191,7 +4191,7 @@
         ]
       },
       "first_seen": "2026-11-25T11:33:01+00:00",
-      "attempts": 0,
+      "attempts": 1,
       "abandoned": false
     }
   ]

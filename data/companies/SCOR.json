@@ -19,6 +19,20 @@
   },
   "form4_filings": [
     {
+      "date_filed": "2026-11-25",
+      "reporter_name": "McLaughlin Matthew F.",
+      "relationship": "Director, Officer (Chief Executive Officer)",
+      "transaction_date": "2026-11-24",
+      "code": "P",
+      "shares": 25907.0,
+      "price": 3.43,
+      "total_value": 88861.01000000001,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001853874-26-000020"
+    },
+    {
       "date_filed": "2026-11-24",
       "reporter_name": "McLaughlin Matthew F.",
       "relationship": "Director, Officer (Chief Executive Officer)",
@@ -1308,7 +1322,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.200000047683716,
+    "share_price": 3.365000009536743,
     "shares_basic": 15247764,
     "shares_basic_as_of": "2026-11-05",
     "options": 98726,
@@ -1317,8 +1331,8 @@
     "debt": null,
     "debt_flag": null,
     "ttm_revenue": 334191000.0,
-    "mc_basic": 48792845.527070045,
-    "ev_basic": 29512845.527070045
+    "mc_basic": 51308726.00541401,
+    "ev_basic": 32028726.00541401
   },
   "financials": {
     "income_statement": {
@@ -2570,5 +2584,5 @@
       }
     }
   },
-  "last_updated": "2026-11-25T11:34:07+00:00"
+  "last_updated": "2026-11-25T20:05:29+00:00"
 }
