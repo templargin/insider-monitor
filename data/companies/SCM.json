@@ -4,20 +4,48 @@
   "name": "Stellus Capital Investment Corp",
   "description": "Stellus Capital Investment Corporation is a business development company specializing in investments in private middle-market companies. It invests through first lien, second lien, unitranche, and mezzanine debt financing, often with a corresponding equity investment. The fund prefers to invest in US and Canada. The fund seeks to invest in companies with an EBITDA between $5 million and $50 million.",
   "ownership": {
-    "inst_pct": 0.18108,
-    "insider_pct": 0.043530002,
+    "inst_pct": 0.18815,
+    "insider_pct": 0.0446,
     "inst_count": 81,
     "analyst_count": 4,
     "rec_mean": 2.6,
     "rec_key": "hold",
     "target_mean": 9.625,
-    "short_pct_float": 0.0225,
-    "shares_short": 606311,
-    "short_days_to_cover": 4.85,
-    "short_as_of": "2026-10-30",
-    "as_of": "2026-11-20"
+    "short_pct_float": 0.026300002,
+    "shares_short": 709728,
+    "short_days_to_cover": 4.18,
+    "short_as_of": "2026-11-13",
+    "as_of": "2026-11-26"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "Bilger Bruce R",
+      "relationship": "Director",
+      "transaction_date": "2026-11-24",
+      "code": "P",
+      "shares": 1394.0,
+      "price": 6.25,
+      "total_value": 8712.5,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-132174"
+    },
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "Bilger Bruce R",
+      "relationship": "Director",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 30606.0,
+      "price": 6.2445,
+      "total_value": 191119.16700000002,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001104659-26-132174"
+    },
     {
       "date_filed": "2026-11-19",
       "reporter_name": "Ladd Robert T.",
@@ -188,7 +216,7 @@
     }
   ],
   "valuation": {
-    "share_price": 6.190000057220459,
+    "share_price": 6.179999828338623,
     "shares_basic": 28179374,
     "shares_basic_as_of": "2026-11-09",
     "options": null,
@@ -197,8 +225,8 @@
     "debt": 610940132,
     "debt_flag": null,
     "ttm_revenue": 89005434.0,
-    "mc_basic": 174430326.6724367,
-    "ev_basic": 783046058.6724367
+    "mc_basic": 174148526.48268986,
+    "ev_basic": 782764258.4826899
   },
   "financials": {
     "income_statement": {
@@ -972,5 +1000,5 @@
       }
     }
   },
-  "last_updated": "2026-11-20T18:50:39+00:00"
+  "last_updated": "2026-11-26T11:35:12+00:00"
 }

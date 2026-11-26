@@ -4,20 +4,62 @@
   "name": "Advanced Flower Capital Inc.",
   "description": "Advanced Flower Capital Inc. is a business development company. The fund originates, structures, underwrites, invests in, and manages senior secured loans and other types of mortgage loans and debt securities for established companies operating in the cannabis industry. It primarily originates loans structured as senior loans secured by real estate, equipment, cash flows, and licenses and/or other assets of the loan parties to the extent permitted by applicable laws and the regulations governing such loan parties and other public and privately held middle-market companies. The fund prefers to invest in companies with annual EBITDA of $5 million to $50 million.",
   "ownership": {
-    "inst_pct": 0.17467,
-    "insider_pct": 0.36708,
+    "inst_pct": 0.17512,
+    "insider_pct": 0.3703,
     "inst_count": 50,
     "analyst_count": 1,
     "rec_mean": 2.33333,
     "rec_key": "buy",
     "target_mean": 8.0,
-    "short_pct_float": 0.0399,
-    "shares_short": 605852,
-    "short_days_to_cover": 11.31,
-    "short_as_of": "2026-10-30",
-    "as_of": "2026-11-20"
+    "short_pct_float": 0.041500002,
+    "shares_short": 630057,
+    "short_days_to_cover": 10.63,
+    "short_as_of": "2026-11-13",
+    "as_of": "2026-11-26"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-24",
+      "code": "P",
+      "shares": 29451.0,
+      "price": 3.49,
+      "total_value": 102783.99,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-076003"
+    },
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "Tannenbaum Robyn",
+      "relationship": "Officer (President and CIO)",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 2000.0,
+      "price": 3.44,
+      "total_value": 6880.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "I",
+      "accession": "0001628280-26-076013"
+    },
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "TANNENBAUM LEONARD M",
+      "relationship": "Director, 10% Owner",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 75400.0,
+      "price": 3.37,
+      "total_value": 254098.0,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-076003"
+    },
     {
       "date_filed": "2026-11-19",
       "reporter_name": "TANNENBAUM LEONARD M",
@@ -1350,7 +1392,7 @@
     }
   ],
   "valuation": {
-    "share_price": 3.2548000812530518,
+    "share_price": 3.569999933242798,
     "shares_basic": 22403782,
     "shares_basic_as_of": "2026-11-02",
     "options": 0,
@@ -1363,8 +1405,8 @@
       "concept": null
     },
     "ttm_revenue": 28382314.0,
-    "mc_basic": 72919831.47397566,
-    "ev_basic": 47506380.47397566
+    "mc_basic": 79981500.2443862,
+    "ev_basic": 54568049.244386196
   },
   "financials": {
     "income_statement": {
@@ -2187,5 +2229,5 @@
       }
     }
   },
-  "last_updated": "2026-11-20T18:48:55+00:00"
+  "last_updated": "2026-11-26T11:33:25+00:00"
 }

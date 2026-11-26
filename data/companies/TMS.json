@@ -5,19 +5,47 @@
   "description": "Teamshares Inc. does not have significant operations. It intend to effect a merger, amalgamation, share exchange, asset acquisition, share purchase, reorganization, or similar business combination with one or more businesses. The company was incorporated in 2019 and is based in New York, New York.",
   "ownership": {
     "inst_pct": 0.65805,
-    "insider_pct": 0.32529,
+    "insider_pct": 0.32582,
     "inst_count": 40,
     "analyst_count": 5,
     "rec_mean": 1.25,
     "rec_key": "strong_buy",
     "target_mean": 12.88,
     "short_pct_float": null,
-    "shares_short": 665461,
-    "short_days_to_cover": 8.76,
-    "short_as_of": "2026-10-30",
-    "as_of": "2026-11-24"
+    "shares_short": 824700,
+    "short_days_to_cover": 11.07,
+    "short_as_of": "2026-11-13",
+    "as_of": "2026-11-26"
   },
   "form4_filings": [
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "Moore Evan Charles",
+      "relationship": "Director",
+      "transaction_date": "2026-11-24",
+      "code": "P",
+      "shares": 29104.0,
+      "price": 4.4,
+      "total_value": 128057.6,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-076029"
+    },
+    {
+      "date_filed": "2026-11-25",
+      "reporter_name": "Moore Evan Charles",
+      "relationship": "Director",
+      "transaction_date": "2026-11-23",
+      "code": "P",
+      "shares": 29104.0,
+      "price": 4.41,
+      "total_value": 128348.64,
+      "security_title": "Common Stock",
+      "table": "nonDerivative",
+      "ownership": "D",
+      "accession": "0001628280-26-076029"
+    },
     {
       "date_filed": "2026-11-23",
       "reporter_name": "Moore Evan Charles",
@@ -552,7 +580,7 @@
     }
   ],
   "valuation": {
-    "share_price": 4.300000190734863,
+    "share_price": 3.9749999046325684,
     "shares_basic": 72498463,
     "shares_basic_as_of": "2026-11-11",
     "options": 5885684,
@@ -561,8 +589,8 @@
     "debt": 262935000,
     "debt_flag": null,
     "ttm_revenue": 296561000.0,
-    "mc_basic": 311743404.7279844,
-    "ev_basic": 307456404.7279844
+    "mc_basic": 288181383.5110078,
+    "ev_basic": 283894383.5110078
   },
   "financials": {
     "income_statement": {
@@ -1464,5 +1492,5 @@
       }
     }
   },
-  "last_updated": "2026-11-24T20:58:07+00:00"
+  "last_updated": "2026-11-26T11:35:48+00:00"
 }
