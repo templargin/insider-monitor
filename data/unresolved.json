@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:44:42+00:00",
+  "generated_at": "2026-11-27T11:30:38+00:00",
   "entries": [
     {
       "url_date": "2026-08-13",
@@ -4129,11 +4129,11 @@
         ]
       },
       "first_seen": "2026-11-25T11:33:01+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-26",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-27",
       "last_reason": "no companyfacts for CIK 319655",
-      "last_tried": "2026-11-26T19:44:40+00:00"
+      "last_tried": "2026-11-27T11:30:33+00:00"
     },
     {
       "url_date": "2026-11-25",
@@ -4194,11 +4194,11 @@
         ]
       },
       "first_seen": "2026-11-25T11:33:01+00:00",
-      "attempts": 2,
-      "abandoned": false,
-      "last_tried_date": "2026-11-26",
+      "attempts": 3,
+      "abandoned": true,
+      "last_tried_date": "2026-11-27",
       "last_reason": "cannot confirm EV < $1,000M for DGICA: EV=$715.0M with $1,119.4M of unexplained_liabilities (up to $1,834.4M)",
-      "last_tried": "2026-11-26T19:44:42+00:00"
+      "last_tried": "2026-11-27T11:30:38+00:00"
     }
   ]
 }
